@@ -1,0 +1,300 @@
+/* ── Torchbearers ── */
+.torchbearers-section { background: var(--cream-dark); }
+
+.torchbearers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.torchbearer-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-warm);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.torchbearer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-deep);
+}
+
+.torchbearer-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+.torchbearer-img-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--saffron), var(--gold));
+  z-index: 2;
+}
+
+.torchbearer-body {
+  padding: 1.5rem 1.4rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.torchbearer-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--saffron);
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+.torchbearer-role {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  margin-bottom: 0.9rem;
+}
+.torchbearer-points {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.torchbearer-points li {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  padding-left: 1.2em;
+  position: relative;
+  line-height: 1.5;
+}
+.torchbearer-points li::before {
+  content: '►';
+  position: absolute;
+  left: 0;
+  color: var(--saffron);
+  font-size: 0.6rem;
+  top: 3px;
+}
+.torchbearer-desc {
+  font-size: 0.84rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  flex: 1;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+.torchbearer-btn {
+  width: 100%;
+  text-align: center;
+  font-size: 0.82rem;
+  padding: 10px 16px;
+  margin-top: auto;
+}
+
+@media (max-width: 900px) {
+  .torchbearers-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+}
+@media (max-width: 640px) {
+  .torchbearers-grid { max-width: 340px; }
+}
+
+/* ── Intro banner ── */
+.about-intro-banner {
+  background: linear-gradient(135deg, var(--maroon) 0%, var(--brown-dk) 100%);
+  padding: 2.2rem clamp(20px, 5vw, 80px);
+}
+.about-intro-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-intro-text {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-style: italic;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.85;
+}
+
+.about-page .hero-section,
+.about-page .hero {
+  min-height: 85vh;
+}
+
+/* ── Mission grid — img LEFT, text RIGHT ── */
+.mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+/* Mission content */
+.mission-lead {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.mission-pillars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.mission-pillar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--cream-dark);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 7px 16px;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--maroon);
+}
+
+/* ── Vision grid ── */
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
+}
+.vision-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem 1.6rem;
+  box-shadow: var(--shadow-warm);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.vision-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-deep);
+}
+.vision-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.vision-title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--maroon);
+  margin-bottom: 0.6rem;
+}
+.vision-body {
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+/* ── Founders — handled by components/sections/About.css ── */
+
+/* Stats */
+.about-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.about-stat-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.6rem 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-warm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.about-stat-num {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--saffron);
+  line-height: 1;
+}
+.about-stat-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ── AWGP intro two-col grid ── */
+.awgp-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.awgp-intro-text p {
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .awgp-intro-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .mission-grid   { grid-template-columns: 1fr; }
+  .vision-grid    { grid-template-columns: 1fr; }
+  .founders-grid  { grid-template-columns: 1fr; max-width: 480px; }
+  .about-stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .about-stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .about-intro-banner {
+    padding: 1.8rem 20px;
+  }
+
+  .about-intro-text {
+    font-size: 0.92rem;
+  }
+
+  .mission-grid {
+    gap: 2rem;
+  }
+
+  .vision-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  /* Founders stack single column on small mobile */
+  .founders-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    gap: 1.5rem;
+  }
+
+  .about-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .about-stat-num  { font-size: 1.8rem; }
+  .about-stat-card { padding: 1.2rem 0.8rem; }
+
+  .awgp-intro-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+}

@@ -1,0 +1,232 @@
+/* =========================================================
+   Home — Upcoming Events
+   Full-bleed band: a saffron title panel + image-led event
+   cards whose caption fills with colour on hover.
+   ========================================================= */
+
+.home-events {
+  background: var(--cream);
+}
+
+/* Edge-to-edge band: title panel + 3 cards */
+.home-events__band {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ── Title panel ────────────────────────────────────────── */
+
+.home-events__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem clamp(1.5rem, 3vw, 3rem);
+  background: linear-gradient(135deg, var(--saffron) 0%, var(--saffron-deep) 100%);
+  color: #fff;
+  animation: fadeInUp 0.7s ease both;
+}
+.home-events__eyebrow {
+  font-family: var(--font-heading);
+  font-size: clamp(0.72rem, 1vw, 0.85rem);
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 0.6rem;
+}
+.home-events__heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1;
+}
+
+/* ── Event card ─────────────────────────────────────────── */
+
+.ev-card {
+  position: relative;
+  display: block;
+  min-height: clamp(240px, 23vw, 300px);
+  overflow: hidden;
+  background: var(--dark);
+  text-decoration: none;
+  animation: fadeInUp 0.7s ease both;
+  animation-delay: calc(var(--i, 0) * 0.12s);
+}
+
+/* Stretched whole-card link (sits above the image, below the overlay) */
+.ev-card__link {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.ev-card__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.ev-card__media img {
+  transition: transform 0.7s cubic-bezier(0.2, 0, 0.2, 1);
+}
+.ev-card:hover .ev-card__media img,
+.ev-card:focus-within .ev-card__media img {
+  transform: scale(1.07);
+}
+
+/* Default caption — translucent white panel pinned to the bottom */
+.ev-card__cap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 1.15rem clamp(1.1rem, 1.6vw, 1.5rem) 1.3rem;
+  background: rgba(255, 255, 255, 0.92);
+  border-top: 3px solid var(--gold);
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+.ev-card__date {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+.ev-card__title {
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  font-weight: 600;
+  color: var(--text-dark);
+  line-height: 1.25;
+}
+/* Fade the plain caption out as the overlay rises */
+.ev-card:hover .ev-card__cap,
+.ev-card:focus-within .ev-card__cap {
+  opacity: 0;
+}
+
+/* ── Hover overlay — slides up from the bottom ──────────── */
+
+.ev-card__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(1.25rem, 2vw, 1.75rem);
+  background: linear-gradient(
+    to top,
+    rgba(58, 19, 11, 0.95) 0%,
+    rgba(90, 26, 14, 0.9) 100%
+  );
+  color: #fff;
+  transform: translateY(100%);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  /* let clicks fall through to the stretched link, except on the button */
+  pointer-events: none;
+}
+.ev-card:hover .ev-card__overlay,
+.ev-card:focus-within .ev-card__overlay {
+  transform: translateY(0);
+}
+
+.ev-card__ov-date {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-lt);
+  margin-bottom: 0.5rem;
+}
+.ev-card__ov-title {
+  font-size: clamp(1.15rem, 1.6vw, 1.4rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  margin-bottom: 0.6rem;
+}
+.ev-card__ov-desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+}
+.ev-card__ov-loc {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gold-lt);
+}
+.ev-card__ov-loc svg { flex-shrink: 0; }
+
+/* Add to Calendar button — pinned to the bottom of the overlay */
+.ev-card__cal {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  background: var(--gold);
+  color: var(--maroon-dk);
+  font-family: var(--font-heading);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  pointer-events: auto;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+.ev-card__cal:hover {
+  background: var(--gold-lt);
+  color: var(--maroon-dk);
+  transform: translateY(-2px);
+}
+.ev-card__cal svg { flex-shrink: 0; }
+
+/* ── Footer CTA ─────────────────────────────────────────── */
+
+.home-events__footer {
+  text-align: center;
+  padding: clamp(2rem, 4vw, 3rem) clamp(20px, 5vw, 60px);
+}
+
+/* ── Reduced motion ─────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .home-events__intro,
+  .ev-card { animation: none; }
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .home-events__band {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home-events__intro {
+    grid-column: 1 / -1;
+    align-items: center;
+    text-align: center;
+    padding: clamp(1.75rem, 5vw, 2.5rem);
+  }
+  .ev-card { min-height: clamp(260px, 44vw, 320px); }
+}
+
+@media (max-width: 560px) {
+  .home-events__band {
+    grid-template-columns: 1fr;
+  }
+  .ev-card { min-height: 280px; }
+}

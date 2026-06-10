@@ -1,0 +1,203 @@
+/* ── Inauguration ── */
+.inauguration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.inauguration-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.inauguration-content p {
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.inauguration-lead {
+  font-size: 1rem !important;
+  font-weight: 500;
+  color: var(--text-primary) !important;
+}
+
+.inauguration-quote {
+  background: var(--cream-dark);
+  border-left: 4px solid var(--saffron);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 1.2rem 1.4rem;
+  margin-top: 1.5rem;
+}
+.inauguration-quote p {
+  font-style: italic;
+  color: var(--maroon) !important;
+  font-size: 0.95rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.inauguration-quote-by {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--saffron);
+  letter-spacing: 0.05em;
+}
+
+/* ── About the Centre ── */
+.ck-about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.ck-about-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.ck-about-content p {
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.ck-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+}
+
+.ck-highlight-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--maroon);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ── How to Reach ── */
+.ck-reach-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.ck-reach-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.6rem 1.2rem;
+  box-shadow: var(--shadow-warm);
+  text-align: center;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.ck-reach-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-deep);
+}
+.ck-reach-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.ck-reach-card h3 {
+  font-size: 1rem;
+  color: var(--maroon);
+  margin-bottom: 0.5rem;
+}
+.ck-reach-card p {
+  font-size: 0.84rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ── Facilities ── */
+.ck-facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.ck-facility-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-warm);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.ck-facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-deep);
+}
+
+.ck-facility-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+.ck-facility-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.55));
+  z-index: 1;
+}
+
+.ck-facility-img-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0.75rem 1rem;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.ck-facility-body {
+  padding: 1.2rem 1.3rem 1.4rem;
+}
+.ck-facility-body p {
+  font-size: 0.85rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+/* ── Responsive ── */
+@media (max-width: 1000px) {
+  .ck-reach-grid       { grid-template-columns: repeat(2, 1fr); }
+  .ck-facilities-grid  { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 860px) {
+  .inauguration-grid  { grid-template-columns: 1fr; }
+  .ck-about-grid      { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .ck-reach-grid       { grid-template-columns: 1fr; }
+  .ck-facilities-grid  { grid-template-columns: 1fr; }
+  .ck-highlights       { gap: 0.4rem; }
+}

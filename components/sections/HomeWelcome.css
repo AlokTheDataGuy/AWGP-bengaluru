@@ -1,0 +1,140 @@
+/* =========================================================
+   Home Welcome Strip  (§2)
+   ========================================================= */
+
+/* ── Scroll-reveal ── */
+.home-welcome {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+.home-welcome.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.home-welcome.is-visible .home-welcome__text {
+  transition-delay: 0.05s;
+}
+.home-welcome.is-visible .home-welcome__img-wrap {
+  transition-delay: 0.22s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-welcome,
+  .home-welcome .home-welcome__text,
+  .home-welcome .home-welcome__img-wrap {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ── Layout ── */
+.home-welcome__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: center;
+}
+
+/* ── Text ── */
+.home-welcome__title {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+}
+.home-welcome__desc {
+  font-size: 0.97rem;
+  color: var(--text-mid);
+  line-height: 1.8;
+  margin-bottom: 1.1rem;
+}
+
+/* ── Quote ── */
+.home-welcome__quote {
+  margin: 1.8rem 0 2rem;
+  padding: 1.3rem 1.6rem;
+  border-left: 3px solid var(--gold);
+  background: var(--cream-2);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.home-welcome__quote blockquote {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--maroon);
+  line-height: 1.5;
+  margin: 0 0 0.4rem;
+}
+.home-welcome__quote figcaption {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── Image frame ── */
+.home-welcome__img-wrap {
+  position: relative;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+.home-welcome.is-visible .home-welcome__img-wrap {
+  opacity: 1;
+  transform: none;
+}
+.home-welcome__img-frame {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Badge ── */
+.home-welcome__badge {
+  position: absolute;
+  bottom: -1.5rem;
+  left: -1.5rem;
+  background: var(--gold);
+  color: var(--dark);
+  border-radius: var(--radius-sm);
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--shadow-md);
+}
+.home-welcome__badge-num {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.home-welcome__badge-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+/* ── Responsive ── */
+@media (max-width: 860px) {
+  .home-welcome__inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .home-welcome__img-wrap {
+    order: -1;
+  }
+  .home-welcome__badge {
+    left: 1rem;
+    bottom: -1rem;
+  }
+}

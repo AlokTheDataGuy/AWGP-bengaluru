@@ -1,0 +1,68 @@
+.program-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 3rem;
+  align-items: start;
+}
+
+.program-big-icon {
+  font-size: 3.5rem;
+  display: block;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 3px 8px rgba(224,123,39,0.35));
+}
+
+.program-intro-text {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--text-primary);
+}
+
+.program-sub-heading {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--maroon);
+}
+
+.program-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.program-schedule-card {
+  background: var(--cream-dark);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+}
+.program-schedule-card h4 {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  color: var(--maroon);
+  margin-bottom: 0.6rem;
+}
+.program-schedule-card p {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+.program-contact-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+  box-shadow: var(--shadow-warm);
+}
+.program-contact-card p {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+@media (max-width: 860px) {
+  .program-intro-grid {
+    grid-template-columns: 1fr;
+  }
+}

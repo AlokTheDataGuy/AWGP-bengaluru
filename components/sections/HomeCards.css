@@ -1,0 +1,193 @@
+/* =========================================================
+   Home — Paths of Growth  (§4, "What we offer")
+   Image-top cards with a Read More button, a centered title
+   flanked by rules, and traditional lotus-mandala watermarks.
+   ========================================================= */
+
+.paths {
+  position: relative;
+  overflow: hidden;
+}
+/* tighter than the global .section padding (higher specificity to win) */
+.paths.section {
+  padding-top: clamp(38px, 5vw, 60px);
+  padding-bottom: clamp(38px, 5vw, 60px);
+}
+.paths .section-inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Traditional mandala watermarks (design1 / design2) ─── */
+
+.paths__wm {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+}
+
+/* design1 — flat edge to the left, blooms from the left-middle */
+.paths__wm--left {
+  top: 50%;
+  left: clamp(-90px, -5vw, -40px);
+  transform: translateY(-50%);
+  width: clamp(150px, 17vw, 250px);
+  height: clamp(320px, 42vw, 540px);
+  background-image: url('/assets/designs/design1.png');
+  background-position: left center;
+  background-size: contain;
+}
+
+/* design1 mirrored — blooms from the right-middle, level with the left */
+.paths__wm--right {
+  top: 50%;
+  right: clamp(-90px, -5vw, -40px);
+  transform: translateY(-50%) scaleX(-1);
+  width: clamp(150px, 17vw, 250px);
+  height: clamp(320px, 42vw, 540px);
+  background-image: url('/assets/designs/design1.png');
+  background-position: left center;
+  background-size: contain;
+}
+
+/* ── Section heading (title flanked by rules) ───────────── */
+
+.paths__head {
+  text-align: center;
+  margin-bottom: clamp(1.75rem, 3.5vw, 2.75rem);
+}
+.paths__eyebrow {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 0.7rem;
+}
+.paths__title {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--maroon);
+  line-height: 1.2;
+}
+.paths__divider {
+  display: block;
+  width: min(260px, 70%);
+  height: 30px;
+  margin: 1rem auto 0;
+  background: url('/assets/designs/divider1.png') center / contain no-repeat;
+}
+
+/* ── Card grid ──────────────────────────────────────────── */
+
+.paths__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.75rem, 3vw, 2.75rem);
+}
+
+.path-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image */
+.path-card__img {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 11;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+.path-card__img img {
+  transition: transform 0.6s ease;
+}
+.path-card:hover .path-card__img img {
+  transform: scale(1.06);
+}
+
+/* Body */
+.path-card__body {
+  padding-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+.path-card__eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--saffron);
+}
+.path-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.path-card__title a {
+  color: var(--text-dark);
+  transition: color 0.2s ease;
+}
+.path-card:hover .path-card__title a,
+.path-card__title a:hover {
+  color: var(--maroon);
+}
+.path-card__desc {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+/* Read More button */
+.path-card__btn {
+  margin-top: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  background: var(--saffron);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-heading);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.path-card__btn:hover {
+  background: var(--saffron-deep);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-gold);
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+
+@media (max-width: 860px) {
+  .paths__grid { grid-template-columns: 1fr 1fr; }
+  .paths__grid .path-card:last-child {
+    grid-column: span 2;
+    max-width: 520px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  /* Side mandalas crowd the cards on phones */
+  .paths__wm { display: none; }
+}
+@media (max-width: 560px) {
+  .paths__grid { grid-template-columns: 1fr; }
+  .paths__grid .path-card:last-child {
+    grid-column: span 1;
+    max-width: none;
+  }
+}

@@ -1,0 +1,118 @@
+.home-cta {
+  padding: clamp(32px, 4.5vw, 52px) clamp(20px, 5vw, 60px);
+  background: #7A2424;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle background pattern */
+.home-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 80% at 80% 50%, rgba(200,155,78,0.09) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 70% at 20% 50%, rgba(160,40,40,0.18) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Rotating mandala flowers (design3) ─────────────────── */
+/* design3 is a light mandala on black; `screen` drops the black
+   and leaves a warm glow over the maroon. */
+.home-cta__flower {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  background: url('/assets/designs/design3.png') center / contain no-repeat;
+  mix-blend-mode: screen;
+  opacity: 0;
+  will-change: transform, opacity;
+  animation: ctaFlowerIn 1.4s ease-out forwards,
+             ctaSpin 90s linear infinite;
+}
+.home-cta__flower--tr {
+  width: clamp(150px, 16vw, 250px);
+  height: clamp(150px, 16vw, 250px);
+  top: clamp(-110px, -7vw, -70px);
+  right: clamp(-90px, -5vw, -50px);
+}
+.home-cta__flower--bl {
+  width: clamp(130px, 14vw, 220px);
+  height: clamp(130px, 14vw, 220px);
+  bottom: clamp(-100px, -6vw, -60px);
+  left: clamp(-80px, -4vw, -45px);
+  /* fade forward, spin the opposite direction */
+  animation-direction: normal, reverse;
+  animation-delay: 0.2s, 0s;
+}
+
+@keyframes ctaFlowerIn {
+  from { opacity: 0; }
+  to   { opacity: 0.45; }
+}
+@keyframes ctaSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-cta__flower {
+    animation: ctaFlowerIn 1s ease-out forwards;
+  }
+}
+
+.home-cta__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  flex-wrap: wrap;
+}
+
+.home-cta__text {
+  text-align: left;
+  max-width: 640px;
+}
+
+.home-cta__title {
+  font-size: clamp(1.55rem, 3vw, 2.3rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0.3rem 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+.home-cta__title em {
+  font-style: normal;
+  color: var(--gold-lt);
+}
+
+.home-cta__desc {
+  font-size: 0.97rem;
+  color: var(--text-light-2);
+  line-height: 1.65;
+  margin: 0;
+  max-width: 520px;
+}
+
+.home-cta__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 720px) {
+  .home-cta__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .home-cta__actions { width: 100%; }
+  .home-cta__actions .btn { flex: 1; justify-content: center; }
+}

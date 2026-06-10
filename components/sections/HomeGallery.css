@@ -1,0 +1,121 @@
+.home-gallery {
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 100%);
+  padding-top: clamp(56px, 7vw, 88px);
+  padding-bottom: clamp(56px, 7vw, 88px);
+  overflow: hidden;
+}
+
+/* Heading */
+.home-gallery__head {
+  padding: 0 clamp(20px, 5vw, 60px);
+  margin-bottom: clamp(2.5rem, 4vw, 3.5rem);
+}
+.home-gallery__head .sec-head__eyebrow {
+  color: var(--saffron);
+}
+.home-gallery__title {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  color: var(--maroon);
+  margin-top: 0.5rem;
+  line-height: 1.2;
+}
+
+/* Marquee container */
+.home-gallery__marquee {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Single scrolling row */
+.gallery-row {
+  overflow: hidden;
+  /* Fade edges */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+.gallery-track {
+  display: flex;
+  gap: 1.2rem;
+  width: max-content;
+  animation: marquee-left 40s linear infinite;
+}
+
+.gallery-row--reverse .gallery-track {
+  animation: marquee-right 44s linear infinite;
+}
+
+/* Pause on hover */
+.gallery-row:hover .gallery-track {
+  animation-play-state: paused;
+}
+
+/* Each image tile */
+.gallery-item {
+  position: relative;
+  width: 280px;
+  height: 196px;
+  border-radius: 6px; /* gallery keeps rounded corners */
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--cream-3);
+  box-shadow: var(--shadow-sm);
+}
+.gallery-item img {
+  transition: transform 0.6s ease;
+}
+.gallery-item:hover img {
+  transform: scale(1.06);
+}
+
+/* Gold border accent on hover */
+.gallery-item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  border-radius: 6px; /* gallery keeps rounded corners */
+  transition: border-color 0.3s ease;
+  pointer-events: none;
+}
+.gallery-item:hover::after {
+  border-color: var(--gold);
+}
+
+/* Keyframes */
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .gallery-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .gallery-item { width: 220px; height: 154px; }
+}

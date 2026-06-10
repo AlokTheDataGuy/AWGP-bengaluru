@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "punsavan",
+    "heroColor": "linear-gradient(135deg, #5A3000 0%, #3D1F0A 100%)",
+    "heroImage": "/assets/sanskars/punsavan.jpeg",
+    "heroImgMobile": "/assets/sanskars/punsavan-small.jpeg",
+    "title":    { "en": "Punsavan Sanskar",    "hi": "पुंसवन संस्कार",       "kn": "ಪುಂಸವನ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "Sacred Rites for the Unborn", "hi": "अजन्मे शिशु के लिए पवित्र संस्कार", "kn": "ಅಜನ್ಮ ಶಿಶುವಿಗಾಗಿ ಪವಿತ್ರ ಸಂಸ್ಕಾರ" },
+    "intro":    { "en": "Punsavan is performed during the 3rd month of pregnancy to bless the unborn child with good health, intelligence, and virtue. The ceremony invokes divine blessings for a safe pregnancy and a spiritually gifted child.", "hi": "पुंसवन गर्भावस्था के तीसरे महीने में किया जाता है। यह अजन्मे शिशु के स्वास्थ्य, बुद्धि और सद्गुण के लिए दिव्य आशीर्वाद प्राप्त करने का संस्कार है।", "kn": "ಪುಂಸವನವನ್ನು ಗರ್ಭಾವಸ್ಥೆಯ 3ನೇ ತಿಂಗಳಲ್ಲಿ ನಡೆಸಲಾಗುತ್ತದೆ. ಆರೋಗ್ಯ, ಬುದ್ಧಿ ಮತ್ತು ಸದ್ಗುಣಗಳಿಗಾಗಿ ದಿವ್ಯ ಆಶೀರ್ವಾದ ಪಡೆಯುವ ಸಂಸ್ಕಾರ." },
+    "significance": { "en": "This Sanskar establishes a sacred connection between the parents, the unborn child, and divine consciousness — shaping the child's personality even before birth.", "hi": "यह संस्कार माता-पिता, अजन्मे शिशु और दिव्य चेतना के बीच एक पवित्र संबंध स्थापित करता है।", "kn": "ಈ ಸಂಸ್ಕಾರ ಪಾಲಕರು, ಅಜನ್ಮ ಶಿಶು ಮತ್ತು ದಿವ್ಯ ಚೇತನದ ನಡುವೆ ಪವಿತ್ರ ಸಂಬಂಧ ಸ್ಥಾಪಿಸುತ್ತದೆ." },
+    "steps": [
+      { "en": "Sankalp and Punyahavachan", "hi": "संकल्प और पुण्याहवाचन", "kn": "ಸಂಕಲ್ಪ ಮತ್ತು ಪುಣ್ಯಾಹವಾಚನ" },
+      { "en": "Gayatri Yagya with prenatal mantras", "hi": "प्रसव पूर्व मंत्रों के साथ गायत्री यज्ञ", "kn": "ಪ್ರಸವ ಪೂರ್ವ ಮಂತ್ರಗಳೊಂದಿಗೆ ಗಾಯತ್ರಿ ಯಜ್ಞ" },
+      { "en": "Prayers for the mother and child", "hi": "माँ और शिशु के लिए प्रार्थनाएं", "kn": "ತಾಯಿ ಮತ್ತು ಶಿಶುವಿಗಾಗಿ ಪ್ರಾರ್ಥನೆ" },
+      { "en": "Family blessings and prasad", "hi": "परिवार का आशीर्वाद और प्रसाद", "kn": "ಕುಟುಂಬ ಆಶೀರ್ವಾದ ಮತ್ತು ಪ್ರಸಾದ" }
+    ],
+    "materials": [
+      { "en": "Havan samagri, ghee, camphor", "hi": "हवन सामग्री, घी, कपूर", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ, ಕರ್ಪೂರ" },
+      { "en": "Flowers and fruits for prasad", "hi": "फूल और प्रसाद के लिए फल", "kn": "ಹೂಗಳು ಮತ್ತು ಪ್ರಸಾದಕ್ಕಾಗಿ ಹಣ್ಣುಗಳು" }
+    ],
+    "ctaTitle": { "en": "Book Punsavan Sanskar", "hi": "पुंसवन संस्कार बुक करें", "kn": "ಪುಂಸವನ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Contact us to schedule this sacred ceremony.", "hi": "इस पवित्र संस्कार के लिए संपर्क करें।", "kn": "ಈ ಪವಿತ್ರ ಸಂಸ್ಕಾರಕ್ಕಾಗಿ ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "naamkaran",
+    "heroColor": "linear-gradient(135deg, #7B4A00 0%, #3D1F0A 100%)",
+    "heroImage": "/assets/sanskars/naamkaran.jpg",
+    "heroImgMobile": "/assets/sanskars/naamkaran1.jpg",
+    "title":    { "en": "Naamkaran Sanskar", "hi": "नामकरण संस्कार", "kn": "ನಾಮಕರಣ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "The Sacred Naming Ceremony", "hi": "पवित्र नामकरण संस्कार", "kn": "ಪವಿತ್ರ ನಾಮಕರಣ ಸಂಸ್ಕಾರ" },
+    "intro":    { "en": "Naamkaran is the naming ceremony performed 11 days after birth. A meaningful, auspicious name is chosen for the child, and the family gathers to welcome the new soul into the world with Vedic rituals and prayers.", "hi": "नामकरण जन्म के 11 दिन बाद किया जाने वाला संस्कार है। बच्चे के लिए एक सार्थक, शुभ नाम चुना जाता है।", "kn": "ನಾಮಕರಣವನ್ನು ಜನನದ 11 ದಿನಗಳ ನಂತರ ನಡೆಸಲಾಗುತ್ತದೆ. ಮಗುವಿಗೆ ಅರ್ಥಪೂರ್ಣ ಶುಭ ಹೆಸರು ನೀಡಲಾಗುತ್ತದೆ." },
+    "significance": { "en": "A name carries vibration and meaning. In Vedic tradition, a child's name shapes their identity and destiny. The Naamkaran ceremony ensures the name chosen resonates with divine qualities.", "hi": "एक नाम कंपन और अर्थ वहन करता है। वैदिक परंपरा में, बच्चे का नाम उनकी पहचान और भाग्य को आकार देता है।", "kn": "ಒಂದು ಹೆಸರು ಕಂಪನ ಮತ್ತು ಅರ್ಥವನ್ನು ಹೊತ್ತಿರುತ್ತದೆ. ವೈದಿಕ ಸಂಪ್ರದಾಯದಲ್ಲಿ ಮಗುವಿನ ಹೆಸರು ಅವರ ಗುರುತನ್ನು ರೂಪಿಸುತ್ತದೆ." },
+    "steps": [
+      { "en": "Sankalp and purification rituals", "hi": "संकल्प और शुद्धिकरण अनुष्ठान", "kn": "ಸಂಕಲ್ಪ ಮತ್ತು ಶುದ್ಧೀಕರಣ ಆಚರಣೆ" },
+      { "en": "Gayatri Yagya and naming mantras", "hi": "गायत्री यज्ञ और नामकरण मंत्र", "kn": "ಗಾಯತ್ರಿ ಯಜ್ಞ ಮತ್ತು ನಾಮಕರಣ ಮಂತ್ರ" },
+      { "en": "Announcing the child's name to the family", "hi": "परिवार को बच्चे का नाम बताना", "kn": "ಕುಟುಂಬಕ್ಕೆ ಮಗುವಿನ ಹೆಸರು ಘೋಷಿಸುವುದು" },
+      { "en": "Blessings, prasad and celebration", "hi": "आशीर्वाद, प्रसाद और उत्सव", "kn": "ಆಶೀರ್ವಾದ, ಪ್ರಸಾದ ಮತ್ತು ಸಂಭ್ರಮ" }
+    ],
+    "materials": [
+      { "en": "Havan samagri, ghee, camphor", "hi": "हवन सामग्री, घी, कपूर", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ, ಕರ್ಪೂರ" },
+      { "en": "Honey for the child's first taste", "hi": "बच्चे के पहले स्वाद के लिए शहद", "kn": "ಮಗುವಿನ ಮೊದಲ ರುಚಿಗಾಗಿ ಜೇನುತುಪ್ಪ" }
+    ],
+    "ctaTitle": { "en": "Book Naamkaran Sanskar", "hi": "नामकरण संस्कार बुक करें", "kn": "ನಾಮಕರಣ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Contact us to arrange this joyful ceremony at your home.", "hi": "अपने घर पर यह आनंदमय संस्कार आयोजित करने के लिए संपर्क करें।", "kn": "ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಈ ಸಂಭ್ರಮದ ಸಂಸ್ಕಾರಕ್ಕಾಗಿ ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "annaprashan",
+    "heroColor": "linear-gradient(135deg, #7B5A00 0%, #3D1F0A 100%)",
+    "heroImage": "/assets/sanskars/annaprashan.jpg",
+    "heroImgMobile": "/assets/sanskars/annaprashan-small.jpg",
+    "title":    { "en": "Annaprashan Sanskar", "hi": "अन्नप्राशन संस्कार", "kn": "ಅನ್ನಪ್ರಾಶನ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "The First Solid Food Ceremony", "hi": "प्रथम अन्न ग्रहण संस्कार", "kn": "ಪ್ರಥಮ ಅನ್ನ ಸ್ವೀಕಾರ ಸಂಸ್ಕಾರ" },
+    "intro":    { "en": "Annaprashan is the ceremony of a child's first intake of solid food, typically performed in the 6th month. It is a joyful family celebration accompanied by Vedic rituals and a Gayatri Yagya.", "hi": "अन्नप्राशन बच्चे के पहले ठोस आहार ग्रहण का संस्कार है, आमतौर पर 6वें महीने में किया जाता है।", "kn": "ಅನ್ನಪ್ರಾಶನವು ಮಗುವಿನ ಮೊದಲ ಘನ ಆಹಾರ ಸ್ವೀಕಾರದ ಸಂಸ್ಕಾರ, ಸಾಮಾನ್ಯವಾಗಿ 6ನೇ ತಿಂಗಳಲ್ಲಿ." },
+    "significance": { "en": "The first grain offered carries the vibrations of prayers and mantras, setting an auspicious foundation for the child's physical and spiritual development.", "hi": "बच्चे को दिया गया पहला अन्न जप किए गए मंत्रों का कंपन वहन करता है।", "kn": "ಮೊದಲ ಆಹಾರವು ಮಂತ್ರ ಜಪದ ಕಂಪನಗಳನ್ನು ಹೊತ್ತಿರುತ್ತದೆ." },
+    "steps": [
+      { "en": "Sankalp and Punyahavachan", "hi": "संकल्प और पुण्याहवाचन", "kn": "ಸಂಕಲ್ಪ ಮತ್ತು ಪುಣ್ಯಾಹವಾಚನ" },
+      { "en": "Gayatri Yagya with child-related mantras", "hi": "बाल-संबंधित मंत्रों के साथ गायत्री यज्ञ", "kn": "ಮಗುವಿಗೆ ಸಂಬಂಧಿಸಿದ ಮಂತ್ರಗಳೊಂದಿಗೆ ಗಾಯತ್ರಿ ಯಜ್ಞ" },
+      { "en": "Feeding the child the first spoon of kheer", "hi": "बच्चे को खीर की पहली चम्मच खिलाना", "kn": "ಮಗುವಿಗೆ ಮೊದಲ ಚಮಚ ಖೀರ್ ತಿನ್ನಿಸುವುದು" },
+      { "en": "Family blessings and prasad distribution", "hi": "परिवार का आशीर्वाद और प्रसाद वितरण", "kn": "ಕುಟುಂಬ ಆಶೀರ್ವಾದ ಮತ್ತು ಪ್ರಸಾದ ವಿತರಣೆ" }
+    ],
+    "materials": [
+      { "en": "Kheer (sweet rice) — the first food", "hi": "खीर — पहला भोजन", "kn": "ಖೀರ್ — ಮೊದಲ ಆಹಾರ" },
+      { "en": "Havan samagri, ghee, camphor", "hi": "हवन सामग्री, घी, कपूर", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ, ಕರ್ಪೂರ" },
+      { "en": "Flowers, fruits for prasad", "hi": "फूल, प्रसाद के लिए फल", "kn": "ಹೂಗಳು, ಪ್ರಸಾದಕ್ಕಾಗಿ ಹಣ್ಣುಗಳು" }
+    ],
+    "ctaTitle": { "en": "Book Annaprashan", "hi": "अन्नप्राशन बुक करें", "kn": "ಅನ್ನಪ್ರಾಶನ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Contact us to schedule this auspicious ceremony at your home.", "hi": "अपने घर पर इस शुभ संस्कार के लिए संपर्क करें।", "kn": "ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಈ ಶುಭ ಸಂಸ್ಕಾರಕ್ಕಾಗಿ ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "mundan",
+    "heroColor": "linear-gradient(135deg, #4A2800 0%, #3D1F0A 100%)",
+    "heroImage": "/assets/sanskars/mundan.jpg",
+    "title":    { "en": "Mundan Sanskar", "hi": "मुंडन संस्कार", "kn": "ಮುಂಡನ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "The Sacred First Haircut", "hi": "पवित्र प्रथम केश-मुंडन", "kn": "ಪವಿತ್ರ ಪ್ರಥಮ ಕ್ಷೌರ" },
+    "intro":    { "en": "Mundan, or Chudakarana, is the first haircut ceremony performed between the child's 1st and 3rd year. The removal of birth hair symbolises purification and a fresh beginning, free from past-life karmas.", "hi": "मुंडन या चूडाकरण संस्कार बच्चे के पहले से तीसरे वर्ष के बीच किया जाता है।", "kn": "ಮುಂಡನ ಅಥವಾ ಚೂಡಾಕರಣ ಸಂಸ್ಕಾರ ಮಗುವಿನ 1ರಿಂದ 3ನೇ ವರ್ಷದ ನಡುವೆ ನಡೆಸಲಾಗುತ್ತದೆ." },
+    "significance": { "en": "Birth hair is considered to carry karmic imprints from previous lives. Removing it symbolises a clean slate — a fresh start on the spiritual journey of this life.", "hi": "जन्म के बाल को पूर्व जन्म के कार्मिक अंकों का वाहक माना जाता है।", "kn": "ಜನ್ಮ ಕೂದಲನ್ನು ಹಿಂದಿನ ಜನ್ಮದ ಕಾರ್ಮಿಕ ಮುದ್ರೆಗಳ ವಾಹಕ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ." },
+    "steps": [
+      { "en": "Sankalp and opening prayers", "hi": "संकल्प और प्रारंभिक प्रार्थनाएं", "kn": "ಸಂಕಲ್ಪ ಮತ್ತು ಆರಂಭಿಕ ಪ್ರಾರ್ಥನೆಗಳು" },
+      { "en": "Gayatri Yagya", "hi": "गायत्री यज्ञ", "kn": "ಗಾಯತ್ರಿ ಯಜ್ಞ" },
+      { "en": "First cut of hair by the father or barber", "hi": "पिता या नाई द्वारा पहला बाल काटना", "kn": "ತಂದೆ ಅಥವಾ ಕ್ಷೌರಿಕನಿಂದ ಮೊದಲ ಕೂದಲು ಕತ್ತರಿಸುವಿಕೆ" },
+      { "en": "Immersion of hair in sacred water", "hi": "पवित्र जल में बालों का विसर्जन", "kn": "ಪವಿತ್ರ ಜಲದಲ್ಲಿ ಕೂದಲಿನ ವಿಸರ್ಜನ" }
+    ],
+    "materials": [
+      { "en": "Havan samagri, ghee", "hi": "हवन सामग्री, घी", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ" },
+      { "en": "Turmeric paste for the scalp", "hi": "सिर के लिए हल्दी का लेप", "kn": "ತಲೆಗೆ ಅರಿಶಿನ ಲೇಪ" }
+    ],
+    "ctaTitle": { "en": "Book Mundan Sanskar", "hi": "मुंडन संस्कार बुक करें", "kn": "ಮುಂಡನ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Our volunteers come to your home. Contact us to schedule.", "hi": "हमारे स्वयंसेवक आपके घर आते हैं। बुकिंग के लिए संपर्क करें।", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ನಿಮ್ಮ ಮನೆಗೆ ಬರುತ್ತಾರೆ. ಬುಕ್ ಮಾಡಲು ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "vidyarambh",
+    "heroColor": "linear-gradient(135deg, #1A4A6B 0%, #0A2A3D 100%)",
+    "heroImage": "/assets/sanskars/vidyaarambh.jpg",
+    "title":    { "en": "Vidyarambh Sanskar", "hi": "विद्यारंभ संस्कार", "kn": "ವಿದ್ಯಾರಂಭ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "Initiation into Learning", "hi": "विद्या-दीक्षा का शुभ आरंभ", "kn": "ವಿದ್ಯಾ ದೀಕ್ಷೆಯ ಶುಭ ಆರಂಭ" },
+    "intro":    { "en": "Vidyarambh marks the formal beginning of a child's education. Performed before starting school, this ceremony invokes the blessings of Saraswati Mata — the goddess of knowledge — and sets an auspicious foundation for lifelong learning.", "hi": "विद्यारंभ संस्कार बच्चे की शिक्षा के औपचारिक प्रारंभ का प्रतीक है। विद्यालय शुरू करने से पहले किया जाता है।", "kn": "ವಿದ್ಯಾರಂಭ ಮಗುವಿನ ಶಿಕ್ಷಣದ ಔಪಚಾರಿಕ ಆರಂಭದ ಸಂಕೇತ." },
+    "significance": { "en": "Education is considered a sacred gift. The Vidyarambh ceremony creates a conscious, blessed relationship between the student and knowledge — with Saraswati as the divine guide.", "hi": "शिक्षा को एक पवित्र उपहार माना जाता है। यह संस्कार छात्र और ज्ञान के बीच एक सचेत, आशीर्वादित संबंध बनाता है।", "kn": "ಶಿಕ್ಷಣವನ್ನು ಪವಿತ್ರ ಕೊಡುಗೆ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ." },
+    "steps": [
+      { "en": "Saraswati Puja and invocation", "hi": "सरस्वती पूजा और आवाहन", "kn": "ಸರಸ್ವತಿ ಪೂಜೆ ಮತ್ತು ಆವಾಹನ" },
+      { "en": "Gayatri Yagya", "hi": "गायत्री यज्ञ", "kn": "ಗಾಯತ್ರಿ ಯಜ್ಞ" },
+      { "en": "Child writes first letters on rice or slate", "hi": "बच्चा चावल या पट्टी पर पहले अक्षर लिखता है", "kn": "ಮಗು ಅಕ್ಕಿ ಅಥವಾ ಸ್ಲೇಟ್ ಮೇಲೆ ಮೊದಲ ಅಕ್ಷರ ಬರೆಯುತ್ತದೆ" },
+      { "en": "Blessings and prasad", "hi": "आशीर्वाद और प्रसाद", "kn": "ಆಶೀರ್ವಾದ ಮತ್ತು ಪ್ರಸಾದ" }
+    ],
+    "materials": [
+      { "en": "Saraswati idol or image", "hi": "सरस्वती की मूर्ति या चित्र", "kn": "ಸರಸ್ವತಿ ಮೂರ್ತಿ ಅಥವಾ ಚಿತ್ರ" },
+      { "en": "Rice tray or slate for writing", "hi": "लिखने के लिए चावल की थाली या पट्टी", "kn": "ಬರೆಯಲು ಅಕ್ಕಿ ತಟ್ಟೆ ಅಥವಾ ಸ್ಲೇಟ್" },
+      { "en": "Havan samagri, flowers, fruits", "hi": "हवन सामग्री, फूल, फल", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ಹೂಗಳು, ಹಣ್ಣುಗಳು" }
+    ],
+    "ctaTitle": { "en": "Book Vidyarambh Sanskar", "hi": "विद्यारंभ संस्कार बुक करें", "kn": "ವಿದ್ಯಾರಂಭ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Contact us to begin your child's educational journey auspiciously.", "hi": "अपने बच्चे की शैक्षणिक यात्रा को शुभ रूप से शुरू करने के लिए संपर्क करें।", "kn": "ನಿಮ್ಮ ಮಗುವಿನ ಶೈಕ್ಷಣಿಕ ಪ್ರಯಾಣವನ್ನು ಶುಭವಾಗಿ ಆರಂಭಿಸಲು ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "yagyopaveet",
+    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
+    "heroImage": "/assets/sanskars/yagyopaveet.jpg",
+    "title":    { "en": "Yagyopaveet Sanskar", "hi": "यज्ञोपवीत संस्कार", "kn": "ಯಜ್ಞೋಪವೀತ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "The Sacred Thread Ceremony", "hi": "पवित्र जनेऊ संस्कार", "kn": "ಪವಿತ್ರ ದಾರ ಸಮಾರಂಭ" },
+    "intro":    { "en": "Yagyopaveet (Janeu) is the sacred thread ceremony that marks a young person's initiation into study, discipline, and Dharma. It represents a second birth into the world of knowledge and spiritual responsibility.", "hi": "यज्ञोपवीत वह पवित्र धागा संस्कार है जो एक युवा व्यक्ति को अध्ययन, अनुशासन और धर्म में दीक्षित करता है।", "kn": "ಯಜ್ಞೋಪವೀತ (ಜನಿವಾರ) ಪವಿತ್ರ ದಾರ ಸಮಾರಂಭ." },
+    "significance": { "en": "The sacred thread of three strands symbolises the three debts every person owes — to God, to ancestors, and to teachers. Wearing it is a constant reminder of one's duties.", "hi": "तीन धागों का पवित्र धागा तीन ऋणों का प्रतीक है — देव ऋण, पितृ ऋण और गुरु ऋण।", "kn": "ಮೂರು ದಾರಗಳ ಪವಿತ್ರ ಧಾಗೆ ಮೂರು ಋಣಗಳ ಸಂಕೇತ." },
+    "steps": [
+      { "en": "Mundan (head shaving) before the ceremony", "hi": "संस्कार से पहले मुंडन", "kn": "ಸಂಸ್ಕಾರದ ಮೊದಲು ಮುಂಡನ" },
+      { "en": "Gayatri Yagya and Sankalp", "hi": "गायत्री यज्ञ और संकल्प", "kn": "ಗಾಯತ್ರಿ ಯಜ್ಞ ಮತ್ತು ಸಂಕಲ್ಪ" },
+      { "en": "Investiture of the sacred thread by the Guru", "hi": "गुरु द्वारा पवित्र धागा धारण कराना", "kn": "ಗುರುವಿನಿಂದ ಪವಿತ್ರ ದಾರ ಧಾರಣ" },
+      { "en": "Gayatri Mantra initiation", "hi": "गायत्री मंत्र दीक्षा", "kn": "ಗಾಯತ್ರಿ ಮಂತ್ರ ದೀಕ್ಷೆ" }
+    ],
+    "materials": [
+      { "en": "Yagyopaveet (sacred thread)", "hi": "यज्ञोपवीत (जनेऊ)", "kn": "ಯಜ್ಞೋಪವೀತ (ಜನಿವಾರ)" },
+      { "en": "Havan samagri, ghee", "hi": "हवन सामग्री, घी", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ" },
+      { "en": "New dhoti and uttariya for the initiate", "hi": "दीक्षार्थी के लिए नई धोती और उत्तरीय", "kn": "ದೀಕ್ಷಾರ್ಥಿಗೆ ಹೊಸ ಧೋತಿ ಮತ್ತು ಉತ್ತರೀಯ" }
+    ],
+    "ctaTitle": { "en": "Book Yagyopaveet Sanskar", "hi": "यज्ञोपवीत संस्कार बुक करें", "kn": "ಯಜ್ಞೋಪವೀತ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Contact us to conduct this meaningful ceremony.", "hi": "इस अर्थपूर्ण संस्कार के लिए संपर्क करें।", "kn": "ಈ ಅರ್ಥಪೂರ್ಣ ಸಂಸ್ಕಾರಕ್ಕಾಗಿ ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "deeksha",
+    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #2A0A2A 100%)",
+    "heroImage": "/assets/sanskars/deeksha.jpg",
+    "title":    { "en": "Gayatri Deeksha", "hi": "गायत्री दीक्षा", "kn": "ಗಾಯತ್ರಿ ದೀಕ್ಷೆ" },
+    "subtitle": { "en": "Spiritual Initiation into the Gayatri Path", "hi": "गायत्री पथ पर आध्यात्मिक दीक्षा", "kn": "ಗಾಯತ್ರಿ ಪಥದಲ್ಲಿ ಆಧ್ಯಾತ್ಮಿಕ ದೀಕ್ಷೆ" },
+    "intro":    { "en": "Gayatri Deeksha is the formal initiation into Gayatri Sadhana. The seeker receives the sacred Gayatri Mantra from a trained AWGP volunteer, along with guidance on daily practice, Yagya, and the path of self-transformation.", "hi": "गायत्री दीक्षा गायत्री साधना में औपचारिक दीक्षा है। साधक AWGP के प्रशिक्षित स्वयंसेवक से पवित्र गायत्री मंत्र प्राप्त करता है।", "kn": "ಗಾಯತ್ರಿ ದೀಕ್ಷೆ ಗಾಯತ್ರಿ ಸಾಧನೆಯ ಔಪಚಾರಿಕ ದೀಕ್ಷೆ." },
+    "significance": { "en": "Deeksha creates a formal bond between the seeker and the divine. It marks the beginning of a disciplined spiritual life guided by the Gayatri Mantra.", "hi": "दीक्षा साधक और परमात्मा के बीच एक औपचारिक बंधन बनाती है। यह गायत्री मंत्र द्वारा निर्देशित अनुशासित आध्यात्मिक जीवन की शुरुआत है।", "kn": "ದೀಕ್ಷೆ ಸಾಧಕ ಮತ್ತು ದಿವ್ಯ ಚೇತನದ ನಡುವೆ ಔಪಚಾರಿಕ ಬಂಧ ಸ್ಥಾಪಿಸುತ್ತದೆ." },
+    "steps": [
+      { "en": "Registration and pre-Deeksha counselling", "hi": "पंजीकरण और दीक्षा पूर्व परामर्श", "kn": "ನೋಂದಣಿ ಮತ್ತು ದೀಕ್ಷಾ ಪೂರ್ವ ಸಮಾಲೋಚನೆ" },
+      { "en": "Sankalp and Yagya", "hi": "संकल्प और यज्ञ", "kn": "ಸಂಕಲ್ಪ ಮತ್ತು ಯಜ್ಞ" },
+      { "en": "Formal conferral of Gayatri Mantra", "hi": "गायत्री मंत्र का औपचारिक प्रदान", "kn": "ಗಾಯತ್ರಿ ಮಂತ್ರದ ಔಪಚಾರಿಕ ಪ್ರದಾನ" },
+      { "en": "Guidance on daily Sadhana practice", "hi": "दैनिक साधना अभ्यास पर मार्गदर्शन", "kn": "ದೈನಂದಿನ ಸಾಧನಾ ಅಭ್ಯಾಸದ ಮಾರ್ಗದರ್ಶನ" }
+    ],
+    "materials": [
+      { "en": "Rudraksha mala for Jap", "hi": "जप के लिए रुद्राक्ष माला", "kn": "ಜಪಕ್ಕಾಗಿ ರುದ್ರಾಕ್ಷ ಮಾಲಾ" },
+      { "en": "Havan samagri, ghee", "hi": "हवन सामग्री, घी", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ" }
+    ],
+    "ctaTitle": { "en": "Take Gayatri Deeksha", "hi": "गायत्री दीक्षा लें", "kn": "ಗಾಯತ್ರಿ ದೀಕ್ಷೆ ಪಡೆಯಿರಿ" },
+    "ctaDesc":  { "en": "Begin your Sadhana journey. Contact us to register.", "hi": "अपनी साधना यात्रा शुरू करें। पंजीकरण के लिए संपर्क करें।", "kn": "ನಿಮ್ಮ ಸಾಧನಾ ಪ್ರಯಾಣ ಆರಂಭಿಸಿ. ನೋಂದಣಿಗಾಗಿ ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "janm-divas",
+    "heroColor": "linear-gradient(135deg, #7B5A00 0%, #3D1F0A 100%)",
+    "heroImage": "/assets/sanskars/janmdin.jpg",
+    "title":    { "en": "Janm Divas Sanskar", "hi": "जन्म दिवस संस्कार", "kn": "ಜನ್ಮ ದಿವಸ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "A Spiritually Meaningful Birthday", "hi": "आध्यात्मिक रूप से अर्थपूर्ण जन्मदिन", "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಅರ್ಥದ ಹುಟ್ಟುಹಬ್ಬ" },
+    "intro":    { "en": "Janm Divas Sanskar transforms a birthday into a day of gratitude, reflection, and resolve. Rather than mere celebration, it encourages conscious living — reviewing the past year and setting intentions for growth.", "hi": "जन्म दिवस संस्कार जन्मदिन को कृतज्ञता, चिंतन और संकल्प का दिन बनाता है।", "kn": "ಜನ್ಮ ದಿವಸ ಸಂಸ್ಕಾರ ಹುಟ್ಟುಹಬ್ಬವನ್ನು ಕೃತಜ್ಞತೆ, ಚಿಂತನೆ ಮತ್ತು ಸಂಕಲ್ಪದ ದಿನವಾಗಿ ಮಾಡುತ್ತದೆ." },
+    "significance": { "en": "A birthday is an opportunity to reflect on the purpose of one's life and recommit to values. The Gayatri Yagya on this day invites divine blessings for the year ahead.", "hi": "जन्मदिन अपने जीवन के उद्देश्य पर विचार करने का अवसर है।", "kn": "ಹುಟ್ಟುಹಬ್ಬ ತನ್ನ ಜೀವನದ ಉದ್ದೇಶದ ಕುರಿತು ಯೋಚಿಸುವ ಅವಕಾಶ." },
+    "steps": [
+      { "en": "Morning Sadhana and personal reflection", "hi": "सुबह की साधना और व्यक्तिगत चिंतन", "kn": "ಬೆಳಗಿನ ಸಾಧನೆ ಮತ್ತು ವ್ಯಕ್ತಿಗತ ಚಿಂತನ" },
+      { "en": "Gayatri Yagya with family", "hi": "परिवार के साथ गायत्री यज्ञ", "kn": "ಕುಟುಂಬದೊಂದಿಗೆ ಗಾಯತ್ರಿ ಯಜ್ಞ" },
+      { "en": "Sankalp — setting intentions for the year ahead", "hi": "संकल्प — आने वाले वर्ष के लिए इरादे तय करना", "kn": "ಸಂಕಲ್ಪ — ಮುಂಬರುವ ವರ್ಷದ ಉದ್ದೇಶಗಳನ್ನು ನಿರ್ಧರಿಸುವುದು" },
+      { "en": "Prasad and family blessings", "hi": "प्रसाद और परिवार का आशीर्वाद", "kn": "ಪ್ರಸಾದ ಮತ್ತು ಕುಟುಂಬ ಆಶೀರ್ವಾದ" }
+    ],
+    "materials": [
+      { "en": "Havan samagri, ghee, camphor", "hi": "हवन सामग्री, घी, कपूर", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ, ಕರ್ಪೂರ" },
+      { "en": "Flowers and fruits for prasad", "hi": "फूल और प्रसाद के लिए फल", "kn": "ಹೂಗಳು ಮತ್ತು ಪ್ರಸಾದಕ್ಕಾಗಿ ಹಣ್ಣುಗಳು" }
+    ],
+    "ctaTitle": { "en": "Book Janm Divas Sanskar", "hi": "जन्म दिवस संस्कार बुक करें", "kn": "ಜನ್ಮ ದಿವಸ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Make your next birthday spiritually meaningful.", "hi": "अपना अगला जन्मदिन आध्यात्मिक रूप से अर्थपूर्ण बनाएं।", "kn": "ನಿಮ್ಮ ಮುಂದಿನ ಹುಟ್ಟುಹಬ್ಬವನ್ನು ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಿ." }
+  },
+  {
+    "slug": "vivah-divas",
+    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #4A0A2A 100%)",
+    "heroImage": "/assets/sanskars/vivah-diwas.png",
+    "title":    { "en": "Vivah Divas Sanskar", "hi": "विवाह दिवस संस्कार", "kn": "ವಿವಾಹ ದಿವಸ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "Anniversary Renewal of Sacred Vows", "hi": "पवित्र प्रतिज्ञाओं का वार्षिक नवीनीकरण", "kn": "ಪವಿತ್ರ ಪ್ರತಿಜ್ಞೆಗಳ ವಾರ್ಷಿಕ ನವೀಕರಣ" },
+    "intro":    { "en": "Vivah Divas Sanskar transforms a wedding anniversary into a sacred occasion — a time for couples to renew their vows before the sacred fire and recommit to their shared spiritual journey.", "hi": "विवाह दिवस संस्कार विवाह वर्षगांठ को एक पवित्र अवसर में बदलता है।", "kn": "ವಿವಾಹ ದಿವಸ ಸಂಸ್ಕಾರ ಮದುವೆ ವಾರ್ಷಿಕೋತ್ಸವವನ್ನು ಪವಿತ್ರ ಸಂದರ್ಭವನ್ನಾಗಿ ಮಾಡುತ್ತದೆ." },
+    "significance": { "en": "Marriage in the Vedic tradition is a sacred covenant — not just between two people, but between two souls committed to mutual growth. The anniversary Yagya keeps this covenant alive and sacred.", "hi": "वैदिक परंपरा में विवाह एक पवित्र वाचा है — केवल दो व्यक्तियों के बीच नहीं, बल्कि परस्पर विकास के प्रति प्रतिबद्ध दो आत्माओं के बीच।", "kn": "ವೈದಿಕ ಸಂಪ್ರದಾಯದಲ್ಲಿ ವಿವಾಹ ಪವಿತ್ರ ಒಪ್ಪಂದ." },
+    "steps": [
+      { "en": "Sankalp and opening prayers", "hi": "संकल्प और प्रारंभिक प्रार्थनाएं", "kn": "ಸಂಕಲ್ಪ ಮತ್ತು ಆರಂಭಿಕ ಪ್ರಾರ್ಥನೆಗಳು" },
+      { "en": "Gayatri Yagya for the couple", "hi": "दम्पति के लिए गायत्री यज्ञ", "kn": "ದಂಪತಿಗಾಗಿ ಗಾಯತ್ರಿ ಯಜ್ಞ" },
+      { "en": "Renewal of marriage vows before the fire", "hi": "अग्नि के समक्ष विवाह प्रतिज्ञाओं का नवीनीकरण", "kn": "ಅಗ್ನಿ ಸಾಕ್ಷಿಯಾಗಿ ವಿವಾಹ ಪ್ರತಿಜ್ಞೆಗಳ ನವೀಕರಣ" },
+      { "en": "Blessings, prasad and family celebration", "hi": "आशीर्वाद, प्रसाद और पारिवारिक उत्सव", "kn": "ಆಶೀರ್ವಾದ, ಪ್ರಸಾದ ಮತ್ತು ಕೌಟುಂಬಿಕ ಸಂಭ್ರಮ" }
+    ],
+    "materials": [
+      { "en": "Havan samagri, ghee, camphor", "hi": "हवन सामग्री, घी, कपूर", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ, ಕರ್ಪೂರ" },
+      { "en": "Flowers and garlands", "hi": "फूल और माला", "kn": "ಹೂಗಳು ಮತ್ತು ಹಾರ" }
+    ],
+    "ctaTitle": { "en": "Book Vivah Divas Sanskar", "hi": "विवाह दिवस संस्कार बुक करें", "kn": "ವಿವಾಹ ದಿವಸ ಸಂಸ್ಕಾರ ಬುಕ್ ಮಾಡಿ" },
+    "ctaDesc":  { "en": "Celebrate your anniversary in a sacred, meaningful way.", "hi": "अपनी वर्षगांठ को पवित्र और अर्थपूर्ण तरीके से मनाएं।", "kn": "ನಿಮ್ಮ ವಾರ್ಷಿಕೋತ್ಸವವನ್ನು ಪವಿತ್ರ ರೀತಿಯಲ್ಲಿ ಆಚರಿಸಿ." }
+  },
+  {
+    "slug": "tarpan",
+    "heroColor": "linear-gradient(135deg, #1A3A5A 0%, #0A1A2A 100%)",
+    "heroImage": "/assets/sanskars/tarpan.jpeg",
+    "title":    { "en": "Pitru Tarpan", "hi": "पितृ तर्पण", "kn": "ಪಿತೃ ತರ್ಪಣ" },
+    "subtitle": { "en": "Offerings of Reverence to Ancestors", "hi": "पितरों को श्रद्धांजलि", "kn": "ಪಿತೃಗಳಿಗೆ ಗೌರವ ಅರ್ಪಣೆ" },
+    "intro":    { "en": "Tarpan is the sacred rite of offering water and sesame to one's ancestors — an act of gratitude, remembrance, and prayer for their continued peace. It is performed on Pitru Paksha, Amavasya, and other sacred dates.", "hi": "तर्पण पूर्वजों को जल और तिल अर्पित करने का पवित्र अनुष्ठान है।", "kn": "ತರ್ಪಣ ಪೂರ್ವಜರಿಗೆ ಜಲ ಮತ್ತು ಎಳ್ಳು ಅರ್ಪಿಸುವ ಪವಿತ್ರ ವಿಧಿ." },
+    "significance": { "en": "In Vedic tradition, we carry an eternal debt to our ancestors who gave us life, values, and cultural heritage. Tarpan is how we honour and repay this debt.", "hi": "वैदिक परंपरा में, हम अपने पूर्वजों का ऋण वहन करते हैं।", "kn": "ವೈದಿಕ ಸಂಪ್ರದಾಯದಲ್ಲಿ ನಾವು ನಮ್ಮ ಪೂರ್ವಜರ ಋಣ ಹೊರುತ್ತೇವೆ." },
+    "steps": [
+      { "en": "Purification and Sankalp", "hi": "शुद्धिकरण और संकल्प", "kn": "ಶುದ್ಧೀಕರಣ ಮತ್ತು ಸಂಕಲ್ಪ" },
+      { "en": "Offering water with sesame (til) to ancestors", "hi": "पूर्वजों को तिल-जल अर्पण", "kn": "ಪೂರ್ವಜರಿಗೆ ತಿಲ-ಜಲ ಅರ್ಪಣ" },
+      { "en": "Recitation of Pitru mantras", "hi": "पितृ मंत्रों का जप", "kn": "ಪಿತೃ ಮಂತ್ರಗಳ ಜಪ" },
+      { "en": "Prayers for the peace of departed souls", "hi": "दिवंगत आत्माओं की शांति के लिए प्रार्थना", "kn": "ದಿವಂಗತ ಆತ್ಮಗಳ ಶಾಂತಿಗಾಗಿ ಪ್ರಾರ್ಥನೆ" }
+    ],
+    "materials": [
+      { "en": "Black sesame seeds (kala til)", "hi": "काले तिल (काला तिल)", "kn": "ಕಪ್ಪು ಎಳ್ಳು (ಕಾಳ ತಿಲ)" },
+      { "en": "Kusha grass", "hi": "कुशा घास", "kn": "ದರ್ಭೆ ಹುಲ್ಲು" },
+      { "en": "Copper vessel for water", "hi": "जल के लिए तांबे का पात्र", "kn": "ಜಲಕ್ಕಾಗಿ ತಾಮ್ರದ ಪಾತ್ರೆ" }
+    ],
+    "ctaTitle": { "en": "Perform Tarpan", "hi": "तर्पण करें", "kn": "ತರ್ಪಣ ನಡೆಸಿ" },
+    "ctaDesc":  { "en": "Contact us to perform Tarpan for your ancestors.", "hi": "अपने पूर्वजों के लिए तर्पण करने के लिए संपर्क करें।", "kn": "ನಿಮ್ಮ ಪೂರ್ವಜರಿಗಾಗಿ ತರ್ಪಣ ನಡೆಸಲು ಸಂಪರ್ಕಿಸಿ." }
+  },
+  {
+    "slug": "anteysti",
+    "heroColor": "linear-gradient(135deg, #1A1A2A 0%, #0A0A14 100%)",
+    "heroImage": "/assets/sanskars/anthesyti.jpg",
+    "title":    { "en": "Anteysti Sanskar", "hi": "अंत्येष्टि संस्कार", "kn": "ಅಂತ್ಯೇಷ್ಟಿ ಸಂಸ್ಕಾರ" },
+    "subtitle": { "en": "The Sacred Last Rites", "hi": "पवित्र अंतिम संस्कार", "kn": "ಪವಿತ್ರ ಅಂತಿಮ ಸಂಸ್ಕಾರ" },
+    "intro":    { "en": "Anteysti is the final Sanskar — the sacred rite of passage that honours the soul's transition from this life. Performed with Vedic mantras and the sacred fire, it brings peace to the departed and comfort to the grieving family.", "hi": "अंत्येष्टि अंतिम संस्कार है — आत्मा के इस जीवन से संक्रमण को सम्मानित करने वाला पवित्र अनुष्ठान।", "kn": "ಅಂತ್ಯೇಷ್ಟಿ ಅಂತಿಮ ಸಂಸ್ಕಾರ — ಆತ್ಮದ ಈ ಜೀವನದಿಂದ ಪರಿವರ್ತನೆಯನ್ನು ಗೌರವಿಸುವ ಪವಿತ್ರ ಆಚರಣೆ." },
+    "significance": { "en": "Death is not an end but a transition. The Anteysti Sanskar, performed with full Vedic ritual, ensures the soul departs in peace — with gratitude, prayers, and the sacred fire as witness.", "hi": "मृत्यु अंत नहीं बल्कि एक संक्रमण है। अंत्येष्टि संस्कार यह सुनिश्चित करता है कि आत्मा शांति से विदा हो।", "kn": "ಮರಣ ಅಂತ್ಯವಲ್ಲ ಬದಲಿಗೆ ಪರಿವರ್ತನೆ. ಅಂತ್ಯೇಷ್ಟಿ ಸಂಸ್ಕಾರ ಆತ್ಮ ಶಾಂತಿಯಿಂದ ವಿದಾಯ ಪಡೆಯುವಂತೆ ಖಾತ್ರಿಗೊಳಿಸುತ್ತದೆ." },
+    "steps": [
+      { "en": "Preparation and purification of the body", "hi": "शरीर की तैयारी और शुद्धिकरण", "kn": "ದೇಹದ ತಯಾರಿ ಮತ್ತು ಶುದ್ಧೀಕರಣ" },
+      { "en": "Vedic prayers and Sankalp", "hi": "वैदिक प्रार्थनाएं और संकल्प", "kn": "ವೈದಿಕ ಪ್ರಾರ್ಥನೆಗಳು ಮತ್ತು ಸಂಕಲ್ಪ" },
+      { "en": "Antim Yagya — sacred fire ceremony", "hi": "अंतिम यज्ञ — पवित्र अग्नि अनुष्ठान", "kn": "ಅಂತಿಮ ಯಜ್ಞ — ಪವಿತ್ರ ಅಗ್ನಿ ಆಚರಣೆ" },
+      { "en": "Prayers for peace of the departed soul", "hi": "दिवंगत आत्मा की शांति के लिए प्रार्थना", "kn": "ದಿವಂಗತ ಆತ್ಮದ ಶಾಂತಿಗಾಗಿ ಪ್ರಾರ್ಥನೆ" }
+    ],
+    "materials": [
+      { "en": "Havan samagri, ghee, camphor", "hi": "हवन सामग्री, घी, कपूर", "kn": "ಹವನ ಸಾಮಗ್ರಿ, ತುಪ್ಪ, ಕರ್ಪೂರ" },
+      { "en": "Gangajal (holy water)", "hi": "गंगाजल (पवित्र जल)", "kn": "ಗಂಗಾಜಲ (ಪವಿತ್ರ ಜಲ)" }
+    ],
+    "ctaTitle": { "en": "We Are Here to Help", "hi": "हम मदद के लिए यहाँ हैं", "kn": "ನಾವು ಸಹಾಯಕ್ಕಾಗಿ ಇಲ್ಲಿದ್ದೇವೆ" },
+    "ctaDesc":  { "en": "Our volunteers perform Anteysti with full Vedic rituals. Contact us at any time.", "hi": "हमारे स्वयंसेवक पूर्ण वैदिक अनुष्ठान के साथ अंत्येष्टि करते हैं।", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ಸಂಪೂರ್ಣ ವೈದಿಕ ಆಚರಣೆಯೊಂದಿಗೆ ಅಂತ್ಯೇಷ್ಟಿ ನಡೆಸುತ್ತಾರೆ." }
+  }
+]

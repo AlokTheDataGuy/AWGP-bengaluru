@@ -1,0 +1,85 @@
+.sanskar-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 3rem;
+  align-items: start;
+}
+
+.sanskar-main { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.sanskar-block {
+  margin-top: 2rem;
+}
+.sanskar-block h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--maroon);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--cream-dark);
+}
+.sanskar-block p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.sanskar-steps {
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.sanskar-steps li {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+  padding-left: 0.4rem;
+}
+
+/* Sidebar */
+.sanskar-sidebar { display: flex; flex-direction: column; gap: 1.2rem; }
+
+.sanskar-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+  box-shadow: var(--shadow-warm);
+}
+.sanskar-card h4 {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  color: var(--maroon);
+  margin-bottom: 0.9rem;
+}
+
+.sanskar-booking { background: var(--saffron-pale); }
+.sanskar-booking p {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+@media (max-width: 860px) {
+  .sanskar-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.program-intro-text {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--text-primary);
+}
+
+.detail-back-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--saffron);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 0;
+}
+.detail-back-link:hover { color: var(--maroon); }

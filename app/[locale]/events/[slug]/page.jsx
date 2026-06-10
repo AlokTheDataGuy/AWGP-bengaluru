@@ -1,0 +1,143 @@
+import { notFound } from 'next/navigation';
+import { Link } from '../../../../lib/i18n/navigation';
+import HeroSection from '../../../../components/ui/HeroSection';
+import eventTypesData from '../../../../data/event-types.json';
+import '../../../../components/ui/ProgramPage.css';
+import '../../../../components/ui/DetailPage.css';
+
+export async function generateStaticParams() {
+  return eventTypesData.map((e) => ({ slug: e.slug }));
+}
+
+export async function generateMetadata({ params }) {
+  const { locale, slug } = await params;
+  const event = eventTypesData.find((e) => e.slug === slug);
+  if (!event) return {};
+  return { title: `${event.title[locale] || event.title.en} — AWGP Bengaluru` };
+}
+
+export default async function EventDetailPage({ params }) {
+  const { locale, slug } = await params;
+  const event = eventTypesData.find((e) => e.slug === slug);
+  if (!event) notFound();
+
+  const L = (obj) => (obj && (obj[locale] || obj.en)) || '';
+  const scheduleLabel  = locale === 'hi' ? '📅 समय-सारणी' : locale === 'kn' ? '📅 ವೇಳಾಪಟ್ಟಿ' : '📅 Schedule';
+  const contactDesc    = locale === 'hi' ? 'अधिक जानकारी या पंजीकरण के लिए संपर्क करें।' : locale === 'kn' ? 'ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಅಥವಾ ನೋಂದಣಿಗಾಗಿ ಸಂಪರ್ಕಿಸಿ.' : 'Contact us for more information or to register.';
+  const getInTouch     = locale === 'hi' ? 'संपर्क करें' : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ' : 'Get in Touch';
+  const highlightsLabel= locale === 'hi' ? 'मुख्य विशेषताएं' : locale === 'kn' ? 'ಮುಖ್ಯ ವಿಶೇಷತೆಗಳು' : 'Key Highlights';
+  const festivalsLabel = locale === 'hi' ? 'त्योहार जो हम मनाते हैं' : locale === 'kn' ? 'ನಾವು ಆಚರಿಸುವ ಹಬ್ಬಗಳು' : 'Festivals We Celebrate';
+  const yagyaTypesLabel= locale === 'hi' ? 'यज्ञ के प्रकार' : locale === 'kn' ? 'ಯಜ್ಞ ಪ್ರಕಾರಗಳು' : 'Types of Yagya We Organise';
+  const ctaJoinLabel   = locale === 'hi' ? 'हमारे परिवार से जुड़ें' : locale === 'kn' ? 'ನಮ್ಮ ಪರಿವಾರ ಸೇರಿ' : 'Join Our Pariwar';
+  const ctaJoinDesc    = locale === 'hi' ? 'साधना और सेवा की यात्रा में हमारे साथ आएं।' : locale === 'kn' ? 'ಸಾಧನೆ ಮತ್ತು ಸೇವೆಯ ಪ್ರಯಾಣದಲ್ಲಿ ನಮ್ಮೊಂದಿಗೆ ಬನ್ನಿ.' : 'Come join us on the journey of Sadhana and Seva.';
+
+  return (
+    <>
+      <HeroSection
+        eyebrow={`AWGP Bengaluru · ${locale === 'hi' ? 'कार्यक्रम' : locale === 'kn' ? 'ಕಾರ್ಯಕ್ರಮ' : 'Events'}`}
+        title={L(event.title)}
+        subtitle={L(event.subtitle)}
+        bgImage={event.img}
+        bgColor={event.heroColor}
+        icon={event.icon}
+      />
+
+      <section className="section">
+        <div className="section-inner">
+          <div className="program-intro-grid">
+
+            {/* Main */}
+            <div>
+              <p className="program-intro-text">{L(event.intro)}</p>
+
+              {event.points?.length > 0 && (
+                <>
+                  <h3 className="program-sub-heading" style={{ marginTop: '1.8rem' }}>
+                    {highlightsLabel}
+                  </h3>
+                  <ul className="info-list" style={{ marginTop: '1rem' }}>
+                    {event.points.map((p, i) => <li key={i}>{L(p)}</li>)}
+                  </ul>
+                </>
+              )}
+
+              {event.festivals?.length > 0 && (
+                <div className="detail-block">
+                  <h3 className="detail-sub-heading">{festivalsLabel}</h3>
+                  <div className="festival-chips">
+                    {event.festivals.map((f, i) => (
+                      <div key={i} className="festival-chip">
+                        <span>{L(f.name)}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {event.yagyaTypes?.length > 0 && (
+                <div className="detail-block">
+                  <h3 className="detail-sub-heading">{yagyaTypesLabel}</h3>
+                  <div className="yagya-type-grid">
+                    {event.yagyaTypes.map((y, i) => (
+                      <div key={i} className="yagya-type-card">
+                        <strong>{L(y.name)}</strong>
+                        <p>{L(y.desc)}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Sidebar */}
+            <div className="program-side">
+              {event.schedule && (
+                <div className="program-schedule-card">
+                  <h4>{scheduleLabel}</h4>
+                  <p>{L(event.schedule)}</p>
+                </div>
+              )}
+              <div className="program-contact-card">
+                <p>{contactDesc}</p>
+                <Link
+                  href="/contact"
+                  className="btn btn-primary"
+                  style={{ marginTop: '1rem', display: 'inline-flex' }}
+                >
+                  {getInTouch}
+                </Link>
+                <a
+                  href="https://wa.me/919243755613"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline"
+                  style={{ marginTop: '10px', display: 'inline-flex', width: '100%', justifyContent: 'center' }}
+                >
+                  💬 WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA strip */}
+          <div className="page-cta-strip">
+            <div>
+              <h3>{ctaJoinLabel}</h3>
+              <p>{ctaJoinDesc}</p>
+            </div>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Link href="/contact" className="btn btn-white">{getInTouch}</Link>
+              <Link
+                href="/events"
+                className="btn btn-outline"
+                style={{ borderColor: 'rgba(255,255,255,0.5)', color: '#fff' }}
+              >
+                {locale === 'hi' ? 'सभी कार्यक्रम' : locale === 'kn' ? 'ಎಲ್ಲಾ ಕಾರ್ಯಕ್ರಮಗಳು' : 'All Events'}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

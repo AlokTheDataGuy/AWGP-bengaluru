@@ -1,0 +1,105 @@
+.cseva-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 1.8rem;
+}
+
+.cseva-card {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-warm);
+  background: var(--white);
+}
+
+.cseva-card__img-wrap {
+  position: relative;
+  min-height: 220px;
+}
+
+.cseva-card__img { object-fit: cover; }
+
+.cseva-card__img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(123,28,28,0.35) 0%, rgba(61,31,10,0.25) 100%);
+}
+
+.cseva-card__body {
+  padding: 1.6rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.cseva-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cseva-card__title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--maroon);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.cseva-card__schedule {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  padding-top: 3px;
+}
+
+.cseva-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.cseva-card__highlights-heading {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--maroon);
+  margin: 0.4rem 0 0.2rem;
+}
+
+.cseva-card__highlights {
+  padding-left: 1.2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cseva-card__highlights li {
+  font-size: 0.83rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.cseva-card__link {
+  display: inline-block;
+  margin-top: auto;
+  padding-top: 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--saffron);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.cseva-card__link:hover { color: var(--maroon); }
+
+@media (max-width: 860px) {
+  .cseva-card { grid-template-columns: 1fr; }
+  .cseva-card__img-wrap { min-height: 200px; }
+}

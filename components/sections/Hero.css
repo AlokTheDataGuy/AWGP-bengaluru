@@ -1,0 +1,353 @@
+/* =========================================================
+   Hero Slideshow
+   ========================================================= */
+
+.hero {
+  position: relative;
+  height: 100dvh;
+  min-height: 600px;
+  max-height: 980px;
+  overflow: hidden;
+  background: var(--dark);
+}
+
+/* ── Background stage (crossfade) ───────────────────────── */
+
+.hero__stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1100ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__bg--active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Ken Burns — runs continuously while the slide is active */
+.hero__bg-zoom {
+  position: absolute;
+  inset: 0;
+  transform: scale(1.04);
+  transform-origin: 50% 50%;
+}
+
+@keyframes kenBurns {
+  from { transform: scale(1.04); }
+  to   { transform: scale(1.16); }
+}
+
+.hero__bg--active .hero__bg-zoom {
+  animation: kenBurns 7s ease-out forwards;
+}
+
+/* Directional scrim — dark on the left where the text sits,
+   fading toward the right + a soft floor for the controls */
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    linear-gradient(
+      105deg,
+      rgba(28, 16, 10, 0.86) 0%,
+      rgba(28, 16, 10, 0.62) 34%,
+      rgba(28, 16, 10, 0.20) 66%,
+      rgba(28, 16, 10, 0.08) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgba(20, 12, 8, 0.55) 0%,
+      rgba(20, 12, 8, 0.0) 28%
+    );
+}
+
+/* ── Content ────────────────────────────────────────────── */
+
+.hero__content {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 6vw, 80px);
+  padding-top: var(--nav-h, 72px);
+  /* Let hover/clicks pass through to the edge arrows, except on the buttons */
+  pointer-events: none;
+}
+.hero__actions { pointer-events: auto; }
+
+.hero__inner {
+  max-width: 660px;
+}
+
+/* Eyebrow with a leading gold rule */
+.hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--gold-lt, #FBDA7E);
+  margin-bottom: 1.4rem;
+  animation: heroRise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.05s;
+}
+
+.hero__eyebrow-mark {
+  width: 38px;
+  height: 2px;
+  background: linear-gradient(to right, var(--gold), var(--saffron));
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.1rem, 4.6vw, 4rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin-bottom: 1.3rem;
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.35);
+  animation: heroRise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.14s;
+}
+
+.hero__sub {
+  font-size: clamp(0.98rem, 1.4vw, 1.18rem);
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 520px;
+  margin-bottom: 2.2rem;
+  line-height: 1.7;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.3);
+  animation: heroRise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.24s;
+}
+
+.hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  animation: heroRise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.34s;
+}
+
+@keyframes heroRise {
+  from { opacity: 0; transform: translateY(26px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* CTAs — refined over the global .btn styles */
+.hero__cta {
+  padding: 14px 34px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22);
+}
+.hero__cta.btn-primary {
+  background: var(--gold);
+  color: var(--maroon-dk, #5A1A0E);
+}
+.hero__cta.btn-primary:hover {
+  background: var(--gold-lt, #FBDA7E);
+  color: var(--maroon-dk, #5A1A0E);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(249, 199, 79, 0.32);
+}
+.hero__cta.btn-outline {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+  backdrop-filter: blur(2px);
+}
+.hero__cta.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ── Arrow navigation ───────────────────────────────────── */
+/* Full-height edge zones — invisible until the side is hovered */
+
+.hero__arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 3; /* below content (5) so CTA buttons win where they overlap */
+  width: clamp(64px, 9vw, 130px);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  opacity: 0;
+  transition: opacity 0.35s ease, background 0.35s ease;
+}
+
+/* The chevron starts slightly nudged off-edge, then settles in on hover */
+.hero__arrow svg {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero__arrow--prev {
+  left: 0;
+  justify-content: flex-start;
+  padding-left: clamp(1rem, 2.5vw, 2rem);
+}
+.hero__arrow--prev svg { transform: translateX(-10px); }
+
+.hero__arrow--next {
+  right: 0;
+  justify-content: flex-end;
+  padding-right: clamp(1rem, 2.5vw, 2rem);
+}
+.hero__arrow--next svg { transform: translateX(10px); }
+
+.hero__arrow:hover {
+  opacity: 1;
+}
+.hero__arrow--prev:hover {
+  background: linear-gradient(to right, rgba(20, 12, 8, 0.5), transparent);
+}
+.hero__arrow--next:hover {
+  background: linear-gradient(to left, rgba(20, 12, 8, 0.5), transparent);
+}
+.hero__arrow:hover svg { transform: translateX(0); }
+
+/* ── Dot navigation ─────────────────────────────────────── */
+
+.hero__dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: clamp(2rem, 5vh, 3.2rem);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero__dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+}
+.hero__dot:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.hero__dot--active {
+  background: var(--gold);
+  border-color: var(--gold);
+  transform: scale(1.15);
+}
+
+/* ── Auto-advance progress (bottom edge) ────────────────── */
+
+@keyframes heroProgress {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+.hero__progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.hero__progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, var(--gold), var(--saffron));
+  animation: heroProgress linear forwards;
+}
+
+/* ── Reduced motion ─────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__bg--active .hero__bg-zoom { animation: none; }
+  .hero__eyebrow,
+  .hero__title,
+  .hero__sub,
+  .hero__actions { animation: none; }
+  .hero__bg { transition: opacity 0.4s linear; }
+}
+
+/* ── Tablet ─────────────────────────────────────────────── */
+
+@media (max-width: 860px) {
+  .hero__scrim {
+    background:
+      linear-gradient(
+        100deg,
+        rgba(28, 16, 10, 0.82) 0%,
+        rgba(28, 16, 10, 0.55) 50%,
+        rgba(28, 16, 10, 0.35) 100%
+      ),
+      linear-gradient(to top, rgba(20, 12, 8, 0.6) 0%, rgba(20, 12, 8, 0) 30%);
+  }
+}
+
+/* ── Mobile ─────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: 560px;
+    text-align: left;
+  }
+  .hero__content {
+    align-items: flex-end;
+    padding-bottom: clamp(5rem, 16vh, 7rem);
+  }
+  .hero__scrim {
+    background:
+      linear-gradient(
+        to top,
+        rgba(20, 12, 8, 0.9) 8%,
+        rgba(20, 12, 8, 0.45) 45%,
+        rgba(20, 12, 8, 0.25) 100%
+      );
+  }
+  .hero__title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
+  .hero__sub {
+    font-size: 0.98rem;
+    margin-bottom: 1.8rem;
+  }
+  .hero__actions { width: 100%; }
+  .hero__cta {
+    flex: 1;
+    justify-content: center;
+    min-width: 130px;
+  }
+  .hero__arrow { display: none; }
+  .hero__dots {
+    bottom: 1.5rem;
+    gap: 11px;
+  }
+  .hero__dot { width: 8px; height: 8px; }
+}

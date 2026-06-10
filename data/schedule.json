@@ -1,0 +1,16 @@
+{
+  "morning": [
+    { "time": "5:30 - 5:45 AM", "activity": { "en": "Gayatri Mata Aarti", "hi": "गायत्री माता आरती", "kn": "ಗಾಯತ್ರಿ ಮಾತಾ ಆರತಿ" } },
+    { "time": "5:45 – 6:00 AM", "activity": { "en": "108 Gurudev Mantra & Meditation", "hi": "108 गुरुदेव मंत्र एवं ध्यान", "kn": "108 ಗುರುದೇವ ಮಂತ್ರ ಮತ್ತು ಧ್ಯಾನ" } }
+  ],
+  "evening": [
+    { "time": "5:30 – 5:45 PM", "activity": { "en": "Gayatri Mata Aarti", "hi": "गायत्री माता आरती", "kn": "ಗಾಯತ್ರಿ ಮಾತಾ ಆರತಿ" } },
+    { "time": "6:00 – 6:15 PM", "activity": { "en": "Naadyog Sadhana", "hi": "नादयोग साधना", "kn": "ನಾದಯೋಗ ಸಾಧನೆ" } },
+    { "time": "9:00 PM",         "activity": { "en": "Night Prayer", "hi": "रात्रि प्रार्थना", "kn": "ರಾತ್ರಿ ಪ್ರಾರ್ಥನೆ" } }
+  ],
+  "sunday": [
+    { "time": "9:00 – 10:00 AM", "activity": { "en": "Gayatri Yagya", "hi": "गायत्री यज्ञ", "kn": "ಗಾಯತ್ರಿ ಯಜ್ಞ" } },
+    { "time": "9:30 – 10:00 AM", "activity": { "en": "Dhyan (Group)", "hi": "ध्यान (समूह)", "kn": "ಧ್ಯಾನ (ಗುಂಪು)" } },
+    { "time": "12:00 – 2:00 PM", "activity": { "en": "Bhojan Prasad", "hi": "भोजन प्रसाद", "kn": "ಭೋಜನ ಪ್ರಸಾದ" } }
+  ]
+}

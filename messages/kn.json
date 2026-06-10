@@ -1,0 +1,42 @@
+{
+  "nav_home": "ಮುಖಪುಟ",
+  "nav_about": "ನಮ್ಮ ಬಗ್ಗೆ",
+  "nav_sanskars": "ಸಂಸ್ಕಾರ",
+  "nav_events": "ಕಾರ್ಯಕ್ರಮಗಳು",
+  "nav_activities": "ಚಟುವಟಿಕೆಗಳು",
+  "nav_literature": "ಸಾಹಿತ್ಯ",
+  "nav_contact": "ಸಂಪರ್ಕ",
+
+  "footer_tagline": "ಗಾಯತ್ರಿ ಸಂಪ್ರದಾಯದಲ್ಲಿ ಬೇರೂರಿದ — ಆಧ್ಯಾತ್ಮಿಕ ಸಾಧನೆ, ಸೇವೆ ಮತ್ತು ಸಮುದಾಯದ ಕೇಂದ್ರ.",
+  "footer_rights": "© 2025 AWGP ಬೆಂಗಳೂರು. ಎಲ್ಲ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
+  "footer_quick_links": "ತ್ವರಿತ ಲಿಂಕ್‌ಗಳು",
+  "footer_affiliated": "ಸಂಬದ್ಧ",
+  "footer_contact": "ಸಂಪರ್ಕ",
+  "footer_made_with": "ಪ್ರೀತಿಯಿಂದ ನಿರ್ಮಿಸಲಾಗಿದೆ",
+  "footer_in_bengaluru": "ಬೆಂಗಳೂರಿನಲ್ಲಿ",
+
+  "schedule_title": "ದೈನಂದಿನ ವೇಳಾಪಟ್ಟಿ",
+  "schedule_morning": "ಬೆಳಿಗ್ಗೆ",
+  "schedule_evening": "ಸಂಜೆ",
+  "schedule_sunday": "ಭಾನುವಾರ",
+
+  "contact_address": "ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ, ಬೆಂಗಳೂರು",
+
+  "cta_contact_us": "ಸಂಪರ್ಕಿಸಿ",
+  "cta_learn_more": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",
+  "cta_view_all": "ಎಲ್ಲ ನೋಡಿ",
+  "cta_join_us": "ಸೇರಿ",
+
+  "admin_login_title": "ಅಡ್ಮಿನ್ ಲಾಗಿನ್",
+  "admin_login_subtitle": "AWGP ಬೆಂಗಳೂರು ವಿಷಯ ನಿರ್ವಹಣೆ",
+  "admin_password_label": "ಪಾಸ್‌ವರ್ಡ್",
+  "admin_login_btn": "ಸೈನ್ ಇನ್",
+  "admin_logout": "ಲಾಗ್‌ಔಟ್",
+  "admin_dashboard_title": "ವಿಷಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+  "admin_save": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ",
+  "admin_saving": "ಉಳಿಸಲಾಗುತ್ತಿದೆ...",
+  "admin_saved": "ಉಳಿಸಲಾಗಿದೆ!",
+  "admin_add": "ಹೊಸದನ್ನು ಸೇರಿಸಿ",
+  "admin_delete": "ಅಳಿಸಿ",
+  "admin_edit": "ಸಂಪಾದಿಸಿ"
+}

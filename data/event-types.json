@@ -1,0 +1,92 @@
+[
+  {
+    "id": "festivals",
+    "slug": "festivals",
+    "img": "/assets/programs/festival.jpg",
+    "heroColor": "linear-gradient(135deg, #7B4A00 0%, #7B1C1C 100%)",
+    "schedule": { "en": "As per Hindu Panchang — see festival list below", "hi": "हिंदू पंचांग के अनुसार", "kn": "ಹಿಂದೂ ಪಂಚಾಂಗ ಅನ್ವಯ" },
+    "title":    { "en": "Festival Celebrations", "hi": "पर्व उत्सव", "kn": "ಹಬ್ಬ ಆಚರಣೆ" },
+    "subtitle": { "en": "Celebrating the Sacred Calendar with Joy & Devotion", "hi": "आनंद और भक्ति के साथ पवित्र पंचांग का उत्सव", "kn": "ಸಂತೋಷ ಮತ್ತು ಭಕ್ತಿಯಿಂದ ಪವಿತ್ರ ಪಂಚಾಂಗ ಆಚರಣೆ" },
+    "intro": { "en": "At AWGP Bengaluru, every festival is more than a celebration — it is a collective spiritual experience. We observe all major Indian festivals with Yagya, kirtan, satsang, and prasad.", "hi": "AWGP बेंगलूरु में प्रत्येक त्योहार केवल उत्सव नहीं — यह एक सामूहिक आध्यात्मिक अनुभव है।", "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ರತಿ ಹಬ್ಬವು ಕೇವಲ ಆಚರಣೆಯಲ್ಲ — ಇದು ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವ." },
+    "points": [],
+    "festivals": [
+      { "name": { "en": "Janmashtami", "hi": "जन्माष्टमी", "kn": "ಜನ್ಮಾಷ್ಟಮಿ" } },
+      { "name": { "en": "Navratri (Chaitra & Ashwin)", "hi": "नवरात्रि (चैत्र एवं आश्विन)", "kn": "ನವರಾತ್ರಿ (ಚೈತ್ರ ಮತ್ತು ಆಶ್ವಿನ)" } },
+      { "name": { "en": "Holi", "hi": "होली", "kn": "ಹೋಳಿ" } },
+      { "name": { "en": "Mahashivratri", "hi": "महाशिवरात्रि", "kn": "ಮಹಾಶಿವರಾತ್ರಿ" } },
+      { "name": { "en": "Basant Panchami / Saraswati Puja", "hi": "बसंत पंचमी / सरस्वती पूजा", "kn": "ಬಸಂತ ಪಂಚಮಿ / ಸರಸ್ವತಿ ಪೂಜೆ" } },
+      { "name": { "en": "Makar Sankranti", "hi": "मकर संक्रांति", "kn": "ಮಕರ ಸಂಕ್ರಾಂತಿ" } },
+      { "name": { "en": "Gayatri Jayanti", "hi": "गायत्री जयंती", "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿ" } },
+      { "name": { "en": "Guru Purnima", "hi": "गुरु पूर्णिमा", "kn": "ಗುರು ಪೂರ್ಣಿಮಾ" } },
+      { "name": { "en": "International Women's Day", "hi": "अंतर्राष्ट्रीय महिला दिवस", "kn": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಮಹಿಳಾ ದಿನ" } },
+      { "name": { "en": "Annual Day — Sneh Milan", "hi": "वार्षिक दिवस — स्नेह मिलन", "kn": "ವಾರ್ಷಿಕ ದಿನ — ಸ್ನೇಹ ಮಿಲನ" } },
+      { "name": { "en": "Ugadi", "hi": "उगादि", "kn": "ಉಗಾದಿ" } },
+      { "name": { "en": "Ganesh Chaturthi", "hi": "गणेश चतुर्थी", "kn": "ಗಣೇಶ ಚತುರ್ಥಿ" } },
+      { "name": { "en": "Raksha Bandhan", "hi": "रक्षा बंधन", "kn": "ರಕ್ಷಾ ಬಂಧನ" } }
+    ],
+    "yagyaTypes": []
+  },
+  {
+    "id": "yagya-events",
+    "slug": "yagya-events",
+    "img": "/assets/activities/yagya.jpg",
+    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
+    "schedule": { "en": "Throughout the year — various scales and formats", "hi": "वर्ष भर — विभिन्न स्तरों और प्रारूपों में", "kn": "ವರ್ಷವಿಡೀ — ವಿವಿಧ ಪ್ರಮಾಣ ಮತ್ತು ಸ್ವರೂಪಗಳಲ್ಲಿ" },
+    "title":    { "en": "Yagya Events", "hi": "यज्ञ आयोजन", "kn": "ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು" },
+    "subtitle": { "en": "Sacred Fire Ceremonies at Every Scale", "hi": "हर स्तर पर पवित्र अग्नि अनुष्ठान", "kn": "ಪ್ರತಿ ಮಟ್ಟದಲ್ಲಿ ಪವಿತ್ರ ಅಗ್ನಿ ಅನುಷ್ಠಾನ" },
+    "intro": { "en": "Yagya is the cornerstone of AWGP's spiritual practice. We organise Yagyas at multiple scales — from intimate home ceremonies to large community events. Our trained volunteers conduct Yagyas at members' homes free of charge.", "hi": "यज्ञ AWGP की आध्यात्मिक साधना की आधारशिला है।", "kn": "ಯಜ್ಞವು AWGP ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಮೂಲಾಧಾರ." },
+    "points": [],
+    "festivals": [],
+    "yagyaTypes": [
+      { "name": { "en": "9-Kundi Yagya", "hi": "9 कुंडीय यज्ञ", "kn": "9-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "9 fire pits — performed for community healing and collective well-being", "hi": "9 अग्नि कुंड — सामुदायिक उपचार के लिए", "kn": "9 ಅಗ್ನಿ ಕುಂಡ — ಸಾಮುದಾಯಿಕ ಗುಣಮುಖಕ್ಕಾಗಿ" } },
+      { "name": { "en": "5-Kundi Yagya", "hi": "5 कुंडीय यज्ञ", "kn": "5-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Medium-scale ceremony for special occasions and festivals", "hi": "विशेष अवसरों के लिए मध्यम स्तरीय अनुष्ठान", "kn": "ವಿಶೇಷ ಸಂದರ್ಭಗಳಿಗಾಗಿ ಮಧ್ಯಮ ಪ್ರಮಾಣದ ಅನುಷ್ಠಾನ" } },
+      { "name": { "en": "3-Kundi Yagya", "hi": "3 कुंडीय यज्ञ", "kn": "3-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Standard size — ideal for Navratri, Janmashtami and community events", "hi": "मानक आकार — नवरात्रि, जन्माष्टमी के लिए", "kn": "ಪ್ರಮಾಣಿತ ಗಾತ್ರ — ನವರಾತ್ರಿ ಮತ್ತು ಸಾಮುದಾಯಿಕ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ" } },
+      { "name": { "en": "24-Kundi Yagya", "hi": "24 कुंडीय यज्ञ", "kn": "24-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Grand ceremony — 24 fire pits representing the 24 syllables of the Gayatri Mantra", "hi": "24 अग्नि कुंड — गायत्री मंत्र के 24 अक्षरों का प्रतीक", "kn": "24 ಅಗ್ನಿ ಕುಂಡ — ಗಾಯತ್ರಿ ಮಂತ್ರದ 24 ಅಕ್ಷರಗಳ ಪ್ರತೀಕ" } },
+      { "name": { "en": "Volunteer Home Yagya", "hi": "स्वयंसेवक घर यज्ञ", "kn": "ಸ್ವಯಂಸೇವಕ ಮನೆ ಯಜ್ಞ" }, "desc": { "en": "Our volunteers come to your home for any Sanskar or occasion — free of charge", "hi": "हमारे स्वयंसेवक आपके घर किसी भी संस्कार के लिए निःशुल्क आते हैं", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ನಿಮ್ಮ ಮನೆಗೆ ಉಚಿತವಾಗಿ ಬರುತ್ತಾರೆ" } }
+    ]
+  },
+  {
+    "id": "workshops",
+    "slug": "workshops",
+    "img": "/assets/programs/workshops.jpg",
+    "heroColor": "linear-gradient(135deg, #3D1F0A 0%, #7B1C1C 100%)",
+    "schedule": { "en": "Monthly — announced via WhatsApp group", "hi": "मासिक — WhatsApp समूह पर सूचित किया जाता है", "kn": "ಮಾಸಿಕ — WhatsApp ಗ್ರೂಪ್ ಮೂಲಕ ತಿಳಿಸಲಾಗುತ್ತದೆ" },
+    "title":    { "en": "Workshops & Shivirs", "hi": "कार्यशालाएं एवं शिविर", "kn": "ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು" },
+    "subtitle": { "en": "Transformative Learning for Mind, Body & Spirit", "hi": "मन, शरीर और आत्मा के लिए परिवर्तनकारी शिक्षा", "kn": "ಮನಸ್ಸು, ದೇಹ ಮತ್ತು ಆತ್ಮಕ್ಕಾಗಿ ಪರಿವರ್ತನಕಾರಿ ಕಲಿಕೆ" },
+    "intro": { "en": "Our workshops and shivirs are rooted in Gurudev's vision of Vichar Kranti — a revolution in thought. These sessions bring together ancient Vedic wisdom and practical life skills, helping participants transform themselves from within.", "hi": "हमारी कार्यशालाएं और शिविर गुरुदेव की विचार क्रांति की दृष्टि पर आधारित हैं।", "kn": "ನಮ್ಮ ಕಾರ್ಯಾಗಾರಗಳು ಗುರುದೇವರ ವಿಚಾರ ಕ್ರಾಂತಿ ದೃಷ್ಟಿಕೋನದ ಮೇಲೆ ಆಧಾರಿತ." },
+    "points": [
+      { "en": "Scientific Spirituality — understanding the science behind Vedic practices", "hi": "वैज्ञानिक अध्यात्म — वैदिक प्रथाओं के पीछे के विज्ञान को समझना", "kn": "ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ ಕಾರ್ಯಾಗಾರ" },
+      { "en": "Personality Development shivirs for youth", "hi": "युवाओं के लिए व्यक्तित्व विकास शिविर", "kn": "ಯುವಜನರಿಗಾಗಿ ವ್ಯಕ್ತಿತ್ವ ವಿಕಾಸ ಶಿಬಿರ" },
+      { "en": "Family harmony and Sanskar workshops", "hi": "पारिवारिक सद्भाव और संस्कार कार्यशालाएं", "kn": "ಕುಟುಂಬ ಸೌಹಾರ್ದ ಮತ್ತು ಸಂಸ್ಕಾರ ಕಾರ್ಯಾಗಾರ" },
+      { "en": "Shantikunj residential camps — special trips to Haridwar HQ", "hi": "शांतिकुंज आवासीय शिविर — हरिद्वार मुख्यालय की यात्रा", "kn": "ಶಾಂತಿಕುಂಜ ಆವಾಸೀಯ ಶಿಬಿರ" }
+    ],
+    "festivals": [],
+    "yagyaTypes": []
+  },
+  {
+    "id": "anusthan",
+    "slug": "anusthan",
+    "img": "/assets/programs/akhand-jap.jpeg",
+    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
+    "schedule": { "en": "During Navratri — Chaitra (Mar–Apr) & Ashwin (Sep–Oct)", "hi": "नवरात्रि के दौरान — चैत्र और आश्विन", "kn": "ನವರಾತ್ರಿ ಸಮಯ — ಚೈತ್ರ ಮತ್ತು ಆಶ್ವಿನ" },
+    "title":    { "en": "Anusthan", "hi": "अनुष्ठान", "kn": "ಅನುಷ್ಠಾನ" },
+    "subtitle": { "en": "Intensive 9-Day Spiritual Practice During Navratri", "hi": "नवरात्रि में 9 दिन की गहन साधना", "kn": "ನವರಾತ್ರಿಯಲ್ಲಿ 9 ದಿನಗಳ ತೀವ್ರ ಸಾಧನೆ" },
+    "intro": { "en": "TODO: Anusthan is an intensive 9-day Sadhana practice observed during Navratri. Details coming soon.", "hi": "TODO: अनुष्ठान नवरात्रि के दौरान 9 दिनों की गहन साधना है। विवरण शीघ्र आएगा।", "kn": "TODO: ಅನುಷ್ಠಾನ ನವರಾತ್ರಿ ಸಮಯದಲ್ಲಿ 9 ದಿನಗಳ ತೀವ್ರ ಸಾಧನೆ. ವಿವರಗಳು ಶೀಘ್ರದಲ್ಲಿ." },
+    "points": [],
+    "festivals": [],
+    "yagyaTypes": []
+  },
+  {
+    "id": "akhand-jap",
+    "slug": "akhand-jap",
+    "img": "/assets/programs/akhand-jap.jpeg",
+    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
+    "schedule": { "en": "Every 2nd Saturday · 6-hour unbroken chanting", "hi": "प्रत्येक दूसरे शनिवार · 6 घंटे का अखंड जप", "kn": "ಪ್ರತಿ 2ನೇ ಶನಿವಾರ · 6 ಗಂಟೆ ಅಖಂಡ ಜಪ" },
+    "title":    { "en": "Akhand Jap", "hi": "अखंड जप", "kn": "ಅಖಂಡ ಜಪ" },
+    "subtitle": { "en": "Unbroken 6-Hour Gayatri Mantra Chanting", "hi": "6 घंटे का अखंड गायत्री मंत्र जप", "kn": "6 ಗಂಟೆ ಅಖಂಡ ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ" },
+    "intro": { "en": "TODO: Akhand Jap is a 6-hour unbroken Gayatri Mantra chanting session held every 2nd Saturday. Details coming soon.", "hi": "TODO: अखंड जप प्रत्येक दूसरे शनिवार को 6 घंटे का अखंड गायत्री मंत्र जप है। विवरण शीघ्र आएगा।", "kn": "TODO: ಅಖಂಡ ಜಪ ಪ್ರತಿ 2ನೇ ಶನಿವಾರ 6 ಗಂಟೆ ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ. ವಿವರಗಳು ಶೀಘ್ರದಲ್ಲಿ." },
+    "points": [],
+    "festivals": [],
+    "yagyaTypes": []
+  }
+]

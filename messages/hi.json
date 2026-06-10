@@ -1,0 +1,42 @@
+{
+  "nav_home": "होम",
+  "nav_about": "हमारे बारे में",
+  "nav_sanskars": "संस्कार",
+  "nav_events": "कार्यक्रम",
+  "nav_activities": "गतिविधियाँ",
+  "nav_literature": "साहित्य",
+  "nav_contact": "संपर्क",
+
+  "footer_tagline": "गायत्री परंपरा में आधारित — आध्यात्मिक साधना, सेवा और समुदाय का केंद्र।",
+  "footer_rights": "© 2025 AWGP बेंगलूरु। सर्वाधिकार सुरक्षित।",
+  "footer_quick_links": "त्वरित लिंक",
+  "footer_affiliated": "संबद्ध",
+  "footer_contact": "संपर्क",
+  "footer_made_with": "प्यार से निर्मित",
+  "footer_in_bengaluru": "बेंगलूरु में",
+
+  "schedule_title": "दैनिक कार्यक्रम",
+  "schedule_morning": "सुबह",
+  "schedule_evening": "शाम",
+  "schedule_sunday": "रविवार",
+
+  "contact_address": "गायत्री चेतना केंद्र, बेंगलूरु",
+
+  "cta_contact_us": "संपर्क करें",
+  "cta_learn_more": "अधिक जानें",
+  "cta_view_all": "सभी देखें",
+  "cta_join_us": "जुड़ें",
+
+  "admin_login_title": "एडमिन लॉगिन",
+  "admin_login_subtitle": "AWGP बेंगलूरु सामग्री प्रबंधन",
+  "admin_password_label": "पासवर्ड",
+  "admin_login_btn": "साइन इन",
+  "admin_logout": "लॉगआउट",
+  "admin_dashboard_title": "सामग्री डैशबोर्ड",
+  "admin_save": "परिवर्तन सहेजें",
+  "admin_saving": "सहेजा जा रहा है...",
+  "admin_saved": "सहेजा गया!",
+  "admin_add": "नया जोड़ें",
+  "admin_delete": "हटाएं",
+  "admin_edit": "संपादित करें"
+}

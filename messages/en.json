@@ -1,0 +1,42 @@
+{
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_sanskars": "Sanskars",
+  "nav_events": "Events",
+  "nav_activities": "Activities",
+  "nav_literature": "Literature",
+  "nav_contact": "Contact",
+
+  "footer_tagline": "A centre of spiritual practice, service, and community — rooted in the Gayatri tradition.",
+  "footer_rights": "© 2025 AWGP Bengaluru. All rights reserved.",
+  "footer_quick_links": "Quick Links",
+  "footer_affiliated": "Affiliated With",
+  "footer_contact": "Contact",
+  "footer_made_with": "Made with",
+  "footer_in_bengaluru": "in Bengaluru",
+
+  "schedule_title": "Daily Schedule",
+  "schedule_morning": "Morning",
+  "schedule_evening": "Evening",
+  "schedule_sunday": "Sunday",
+
+  "contact_address": "Gayatri Chetna Kendra, Bengaluru",
+
+  "cta_contact_us": "Contact Us",
+  "cta_learn_more": "Learn More",
+  "cta_view_all": "View All",
+  "cta_join_us": "Join Us",
+
+  "admin_login_title": "Admin Login",
+  "admin_login_subtitle": "AWGP Bengaluru Content Management",
+  "admin_password_label": "Password",
+  "admin_login_btn": "Sign In",
+  "admin_logout": "Logout",
+  "admin_dashboard_title": "Content Dashboard",
+  "admin_save": "Save Changes",
+  "admin_saving": "Saving...",
+  "admin_saved": "Saved!",
+  "admin_add": "Add New",
+  "admin_delete": "Delete",
+  "admin_edit": "Edit"
+}

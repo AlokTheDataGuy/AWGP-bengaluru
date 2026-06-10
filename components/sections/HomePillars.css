@@ -1,0 +1,130 @@
+/* =========================================================
+   Home — Our Four Pillars  (§3)
+   Centered heading with a diamond ornament, then four
+   columns: circular line-icon badge, name, short meaning.
+   ========================================================= */
+
+/* ── Section heading ─────────────────────────────────────── */
+
+.pillars__head {
+  text-align: center;
+  margin-bottom: clamp(2.75rem, 5vw, 4rem);
+}
+.pillars__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+/* gold lotus divider */
+.pillars__ornament {
+  display: block;
+  width: min(240px, 62%);
+  height: 28px;
+  margin: 1rem auto 1.4rem;
+  background: url('/assets/designs/divider1.png') center / contain no-repeat;
+}
+.pillars__sub {
+  max-width: 38rem;
+  margin: 0 auto;
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ── Pillar columns ──────────────────────────────────────── */
+
+.home-pillars__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.pillar-col {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  /* scroll-reveal start */
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.home-pillars.is-visible .pillar-col {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--i) * 0.1s);
+}
+
+/* circular icon badge */
+.pillar-col__icon {
+  display: grid;
+  place-items: center;
+  width: clamp(96px, 11vw, 128px);
+  height: clamp(96px, 11vw, 128px);
+  margin: 0 auto clamp(1.1rem, 2vw, 1.6rem);
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 42%, var(--gold-pale) 0%, #FBE9CB 100%);
+  color: var(--saffron); /* icon colour */
+  font-size: clamp(2.5rem, 4.5vw, 3.3rem); /* sizes the Font Awesome glyph */
+  transition: transform 0.35s ease, box-shadow 0.35s ease, color 0.35s ease;
+}
+.pillar-col__icon svg {
+  display: block;
+  height: 1em;   /* FA glyph height; width auto keeps each icon's ratio */
+  width: auto;
+}
+.pillar-col:hover .pillar-col__icon,
+.pillar-col:focus-visible .pillar-col__icon {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(245, 124, 0, 0.22);
+  color: var(--saffron-deep);
+  outline: none;
+}
+
+.pillar-col__name {
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.2;
+  transition: color 0.2s ease;
+}
+.pillar-col:hover .pillar-col__name,
+.pillar-col:focus-visible .pillar-col__name {
+  color: var(--maroon);
+}
+.pillar-col__desc {
+  max-width: 15rem;
+  margin: 0.75rem auto 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 860px) {
+  .home-pillars__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 1.5rem;
+  }
+}
+@media (max-width: 460px) {
+  .home-pillars__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .pillar-col {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none;
+  }
+  .pillar-col__icon {
+    transition: color 0.3s ease;
+  }
+}

@@ -1,0 +1,128 @@
+.about-section {
+  background: var(--cream);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-p1 {
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.about-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.about-badge {
+  background: var(--cream-dark);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 6px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--maroon);
+  letter-spacing: 0.04em;
+}
+
+/* ── Founders ── */
+.founders-section {
+  background: var(--cream);
+}
+
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.founder-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 2.8rem 2.2rem 2.4rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.28s, box-shadow 0.28s;
+}
+.founder-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Photo: clean double-gold ring (outer gold ring → white gap → photo) */
+.founder-img-wrap {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  margin-bottom: 1.6rem;
+  border-radius: 50%;
+  padding: 5px;                                    /* white gap */
+  background: var(--white);
+  box-shadow:
+    0 0 0 3px var(--gold),                         /* gold ring */
+    0 0 0 6px rgba(200,155,78,0.18),               /* soft outer glow */
+    var(--shadow-md);
+}
+/* hide the old halo div — ring is handled by box-shadow above */
+.founder-halo { display: none; }
+
+.founder-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 12%;
+  display: block;
+}
+
+.founder-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.founder-name {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--maroon);
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+.founder-role {
+  display: block;
+  font-style: normal;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.founder-desc {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  max-width: 36ch;
+  text-align: center;
+}
+
+/* ── Responsive ── */
+@media (max-width: 860px) {
+  .about-grid    { grid-template-columns: 1fr; gap: 2.5rem; }
+  .founders-grid { grid-template-columns: 1fr; max-width: 400px; }
+}

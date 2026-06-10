@@ -1,0 +1,297 @@
+/* ═══════════════════════════════════════════
+   Sanskars Section
+═══════════════════════════════════════════ */
+.sanskars-section {
+  background: var(--white);
+}
+
+.sanskars-subtitle {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  max-width: 560px;
+  margin: 0.5rem auto 0;
+  text-align: center;
+}
+
+/* ═══════════════════════════════════════════
+   Desktop — strip + detail
+═══════════════════════════════════════════ */
+.sanskars-desktop {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  align-items: stretch;
+  min-height: 420px;
+}
+
+/* ── Left: circle strip ── */
+.sk-strip {
+  width: 280px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  max-height: 420px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200, 147, 10, 0.3) transparent;
+}
+.sk-strip::-webkit-scrollbar       { width: 4px; }
+.sk-strip::-webkit-scrollbar-track { background: transparent; }
+.sk-strip::-webkit-scrollbar-thumb { background: rgba(200, 147, 10, 0.35); border-radius: 0; }
+
+.sk-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0;
+  flex-shrink: 0;
+  transition: opacity 0.2s;
+}
+.sk-thumb:hover { opacity: 0.85; }
+
+.sk-thumb__ring {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  padding: 3px;
+  background: transparent;
+  transition: transform 0.3s, box-shadow 0.3s;
+  flex-shrink: 0;
+}
+.sk-thumb--active .sk-thumb__ring {
+  background: conic-gradient(#f0d080 0deg, #c8930a 90deg, #e8c060 180deg, #c8930a 270deg, #f0d080 360deg);
+  transform: scale(1.08);
+  box-shadow: 0 0 0 3px rgba(212, 112, 10, 0.18), 0 4px 18px rgba(212, 112, 10, 0.45);
+  animation: sk-ring-pulse 2.4s ease-in-out infinite;
+}
+@keyframes sk-ring-pulse {
+  0%,  100% { box-shadow: 0 0 0 3px rgba(212,112,10,0.18), 0 4px 18px rgba(212,112,10,0.45); }
+  50%        { box-shadow: 0 0 0 5px rgba(212,112,10,0.10), 0 4px 28px rgba(212,112,10,0.65); }
+}
+
+.sk-thumb__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.sk-thumb__label {
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.2;
+  transition: color 0.25s;
+  max-width: 90px;
+}
+.sk-thumb--active .sk-thumb__label {
+  color: var(--saffron, #d4700a);
+}
+
+/* ── Right: detail panel — full-bleed image card ── */
+.sk-detail {
+  flex: 1;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  min-height: 420px;
+  box-shadow: 0 8px 40px rgba(180, 100, 10, 0.12);
+  transition: opacity 0.35s ease;
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+.sk-detail--fading { opacity: 0; }
+
+/* Image fills the whole card */
+.sk-detail__img-wrap {
+  position: absolute;
+  inset: 0;
+}
+
+.sk-detail__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.sk-detail:hover .sk-detail__img { transform: scale(1.04); }
+
+/* Reddish gradient — only covers lower half for text readability */
+.sk-detail__img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 30%,
+    rgba(160, 40, 8, 0.52) 62%,
+    rgba(110, 22, 4, 0.88) 100%
+  );
+}
+
+/* Arrow hint — top-right corner */
+.sk-detail__arrow {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(160, 45, 10, 0.6);
+  color: #fff;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.25s, transform 0.25s;
+  backdrop-filter: blur(4px);
+  z-index: 3;
+}
+.sk-detail:hover .sk-detail__arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Text sits on top of image at bottom */
+.sk-detail__body {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 2rem 0.5rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.sk-detail__title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  line-height: 1.15;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.sk-detail__desc {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 235, 215, 0.92);
+  margin: 0;
+  max-width: 520px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.35);
+}
+
+/* Progress bar pinned to bottom */
+.sk-detail__progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.18);
+  z-index: 3;
+}
+.sk-detail__progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #e8c060, #d4700a);
+  transition: width 0.4s ease;
+}
+
+/* ═══════════════════════════════════════════
+   Mobile — hidden on desktop
+═══════════════════════════════════════════ */
+.sanskars-mobile { display: none; }
+
+@media (max-width: 860px) {
+  .sanskars-desktop { display: none; }
+
+  .sanskars-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1.1rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sanskars-mobile { grid-template-columns: 1fr; }
+}
+
+/* ── Mobile cards ── */
+.sk-mobile-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(200, 147, 10, 0.2);
+  transition: box-shadow 0.2s;
+  text-decoration: none;
+}
+.sk-mobile-item:hover {
+  box-shadow: 0 4px 16px rgba(212, 112, 10, 0.12);
+}
+
+.sk-mobile-item__img-wrap {
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sk-mobile-item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.sk-mobile-item:hover .sk-mobile-item__img { transform: scale(1.04); }
+
+.sk-mobile-item__body {
+  flex: 1;
+  padding: 0.7rem 0.85rem 0.85rem;
+}
+
+.sk-mobile-item__title {
+  font-family: var(--font-serif);
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.2rem;
+  line-height: 1.25;
+}
+
+.sk-mobile-item__desc {
+  font-size: 0.76rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 0.35rem;
+}
+
+.sk-mobile-item__link {
+  font-size: 0.73rem;
+  font-weight: 700;
+  color: var(--saffron, #d4700a);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+.sk-mobile-item__link:hover { letter-spacing: 0.08em; }
