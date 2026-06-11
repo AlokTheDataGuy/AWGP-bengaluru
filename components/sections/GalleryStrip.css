@@ -1,0 +1,81 @@
+/* =========================================================
+   Gallery Strip — full-bleed single row of photo tiles,
+   framed by maroon rules. Overlay + label reveal on hover.
+   ========================================================= */
+
+.gallery-strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+}
+
+.gallery-strip__item {
+  position: relative;
+  height: clamp(150px, 17vw, 230px);
+  overflow: hidden;
+}
+
+.gallery-strip__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0.2, 1);
+}
+.gallery-strip__item:hover .gallery-strip__img {
+  transform: scale(1.07);
+}
+
+/* hidden at rest — fades in on hover. Minimal, neutral darkening
+   at the bottom only (no reddish tint, just a little dark). */
+.gallery-strip__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.gallery-strip__item:hover .gallery-strip__overlay {
+  opacity: 1;
+}
+
+.gallery-strip__label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: clamp(0.85rem, 1.4vw, 1.25rem);
+  text-align: center;
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(0.78rem, 1vw, 0.92rem);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.gallery-strip__item:hover .gallery-strip__label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Responsive — wrap into fewer columns ────────────────── */
+
+@media (max-width: 900px) {
+  .gallery-strip { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 540px) {
+  .gallery-strip { grid-template-columns: repeat(2, 1fr); }
+  .gallery-strip__item { height: clamp(150px, 38vw, 200px); }
+}
+
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .gallery-strip__img,
+  .gallery-strip__label,
+  .gallery-strip__overlay { transition: none; }
+}

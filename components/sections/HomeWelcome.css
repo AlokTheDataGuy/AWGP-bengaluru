@@ -43,7 +43,7 @@
   font-weight: 700;
   color: var(--text-dark);
   line-height: 1.2;
-  margin-bottom: 1.4rem;
+  margin-bottom: 0.5rem;
 }
 .home-welcome__desc {
   font-size: 0.97rem;

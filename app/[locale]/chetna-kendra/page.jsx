@@ -106,6 +106,23 @@ const FACILITIES = [
   },
 ];
 
+const DAILY = [
+  { time: '05:30 – 05:45 AM',    en: 'Morning Aarti (Puja)',     hi: 'प्रातः आरती (पूजा)',           kn: 'ಬೆಳಗಿನ ಆರತಿ (ಪೂಜೆ)' },
+  { time: '05:45 – 06:30 AM',    en: 'Morning Meditation',       hi: 'प्रातः ध्यान',                kn: 'ಬೆಳಗಿನ ಧ್ಯಾನ' },
+  { time: '06:30 – 07:15 AM',    en: 'Daily Yagya (Homa)',       hi: 'दैनिक यज्ञ (हवन)',             kn: 'ದೈನಂದಿನ ಯಜ್ಞ (ಹೋಮ)' },
+  { time: '11:00 AM – 12:00 PM', en: 'Yog Training (For Women)', hi: 'योग प्रशिक्षण (महिलाओं हेतु)',  kn: 'ಯೋಗ ತರಬೇತಿ (ಮಹಿಳೆಯರಿಗೆ)' },
+  { time: '05:30 – 06:00 PM',    en: 'Evening Aarti (Puja)',     hi: 'सायं आरती (पूजा)',             kn: 'ಸಂಜೆ ಆರತಿ (ಪೂಜೆ)' },
+  { time: '06:00 – 06:20 PM',    en: 'Naadyog Sadhana',          hi: 'नादयोग साधना',                kn: 'ನಾದಯೋಗ ಸಾಧನೆ' },
+];
+
+const SUNDAY = [
+  { time: '09:00 – 11:00 AM',    en: 'All Vedic Sanskar',  hi: 'समस्त वैदिक संस्कार', kn: 'ಎಲ್ಲಾ ವೈದಿಕ ಸಂಸ್ಕಾರ' },
+  { time: '09:00 – 10:00 AM',    en: 'Morning Meditation', hi: 'प्रातः ध्यान',        kn: 'ಬೆಳಗಿನ ಧ್ಯಾನ' },
+  { time: '09:00 – 11:30 AM',    en: 'Yagya (Homa)',       hi: 'यज्ञ (हवन)',          kn: 'ಯಜ್ಞ (ಹೋಮ)' },
+  { time: '11:30 AM – 12:30 PM', en: 'Workshops',          hi: 'कार्यशालाएँ',          kn: 'ಕಾರ್ಯಾಗಾರಗಳು' },
+  { time: '12:00 – 01:30 PM',    en: 'Maha-prasadam',      hi: 'महाप्रसादम्',          kn: 'ಮಹಾಪ್ರಸಾದಂ' },
+];
+
 export default async function ChetnaKendraPage({ params }) {
   const { locale } = await params;
   const L = (en, hi, kn) => locale === 'hi' ? hi : locale === 'kn' ? kn : en;
@@ -308,6 +325,46 @@ export default async function ChetnaKendraPage({ params }) {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Daily & Sunday Schedule */}
+      <section className="section" style={{ background: 'var(--cream)' }}>
+        <div className="section-inner">
+          <SectionHeader
+            eyebrow={L('Timings', 'समय', 'ಸಮಯ')}
+            title={L('Daily Schedule', 'दैनिक कार्यक्रम', 'ದೈನಂದಿನ ವೇಳಾಪಟ್ಟಿ')}
+            ornament="🕉️"
+          />
+          <div className="ck-schedule-grid">
+            <div className="ck-sched-box">
+              <h3 className="ck-sched-box__title">
+                {L('Daily Activities (Mon–Sat)', 'दैनिक गतिविधियाँ (सोम–शनि)', 'ದೈನಂದಿನ ಚಟುವಟಿಕೆಗಳು (ಸೋಮ–ಶನಿ)')}
+              </h3>
+              <ul className="ck-sched-list">
+                {DAILY.map((it, i) => (
+                  <li key={i} className="ck-sched-row">
+                    <span className="ck-sched-act">{t(it)}</span>
+                    <span className="ck-sched-time">{it.time}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="ck-sched-box ck-sched-box--sunday">
+              <h3 className="ck-sched-box__title">
+                {L('Sunday Activities', 'रविवार की गतिविधियाँ', 'ಭಾನುವಾರದ ಚಟುವಟಿಕೆಗಳು')}
+              </h3>
+              <ul className="ck-sched-list">
+                {SUNDAY.map((it, i) => (
+                  <li key={i} className="ck-sched-row">
+                    <span className="ck-sched-act">{t(it)}</span>
+                    <span className="ck-sched-time">{it.time}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

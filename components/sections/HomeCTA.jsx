@@ -26,6 +26,7 @@ export default function HomeCTA() {
               <>ಗಾಯತ್ರಿ ಪರಿವಾರದ <em>ಭಾಗವಾಗಿ</em></>
             )}
           </h2>
+          <div className="ornament ornament--left" aria-hidden="true" />
           <p className="home-cta__desc">
             {L(
               'Join thousands of seekers on the path of truth, wisdom, and selfless service.',

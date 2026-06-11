@@ -1,0 +1,189 @@
+/* =========================================================
+   Home — Contact ("We Welcome You")
+   A single info panel (address / phone / email / hours) with
+   a social row on the left, and an embedded map with a
+   "Get Directions" bar on the right.
+   ========================================================= */
+
+.home-contact {
+  background: var(--cream-2);
+  /* compact band — override the section's default vertical padding */
+  padding-top: clamp(2rem, 3.5vw, 3rem);
+  padding-bottom: clamp(2rem, 3.5vw, 3rem);
+}
+
+/* ── Heading ─────────────────────────────────────────────── */
+
+.home-contact__head {
+  text-align: center;
+  margin-bottom: clamp(1.25rem, 2.5vw, 1.85rem);
+}
+.home-contact__eyebrow {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 0.6rem;
+}
+.home-contact__title {
+  font-family: var(--font-quote);
+  font-size: clamp(1.7rem, 3.4vw, 2.5rem);
+  font-weight: 700;
+  color: var(--maroon);
+  line-height: 1.1;
+}
+.home-contact__head .ornament {
+  margin-bottom: 0;
+}
+
+/* ── Grid ────────────────────────────────────────────────── */
+
+.home-contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+  align-items: stretch;
+}
+
+/* ── Info panel ──────────────────────────────────────────── */
+
+.home-contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.home-contact__panel {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+.home-contact__card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.8rem 1.1rem;
+  transition: background 0.2s ease;
+}
+.home-contact__card + .home-contact__card {
+  border-top: 1px solid var(--border);
+}
+.home-contact__card:hover {
+  background: var(--cream);
+}
+.home-contact__card-icon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  background: var(--gold-pale);
+  color: var(--saffron);
+}
+.home-contact__card-body {
+  min-width: 0;
+}
+.home-contact__card-label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+}
+.home-contact__card-value {
+  display: block;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  word-break: break-word;
+}
+a.home-contact__card-value {
+  transition: color 0.2s ease;
+}
+a.home-contact__card-value:hover {
+  color: var(--saffron);
+}
+
+/* ── Social row ──────────────────────────────────────────── */
+
+.home-contact__social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  margin-top: auto;
+}
+.home-contact__social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.6rem 0.4rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.home-contact__social-btn:hover {
+  background: var(--saffron);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-gold);
+}
+
+/* ── Map ─────────────────────────────────────────────────── */
+
+.home-contact__map {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  background: var(--white);
+}
+.home-contact__map iframe {
+  flex: 1;
+  min-height: clamp(260px, 26vw, 340px);
+}
+.home-contact__directions {
+  display: block;
+  text-align: center;
+  padding: 0.75rem;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--saffron);
+  border-top: 1px solid var(--border);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.home-contact__directions:hover {
+  background: var(--saffron);
+  color: #fff;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 860px) {
+  .home-contact__grid {
+    grid-template-columns: 1fr;
+  }
+  .home-contact__map iframe {
+    min-height: 280px;
+  }
+}
+@media (max-width: 460px) {
+  .home-contact__social {
+    grid-template-columns: 1fr;
+  }
+}

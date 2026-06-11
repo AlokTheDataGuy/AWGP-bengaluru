@@ -49,6 +49,12 @@
   animation: kenBurns 7s ease-out forwards;
 }
 
+/* Desktop / mobile image swap — mobile variant only renders on small screens */
+.hero__img--mobile { display: none; }
+
+/* Shorter mobile subtitle — hidden on desktop, swapped in below */
+.hero__sub--mob { display: none; }
+
 /* Directional scrim — dark on the left where the text sits,
    fading toward the right + a soft floor for the controls */
 .hero__scrim {
@@ -161,14 +167,14 @@
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22);
 }
 .hero__cta.btn-primary {
-  background: var(--gold);
-  color: var(--maroon-dk, #5A1A0E);
+  background: var(--saffron);
+  color: #fff;
 }
 .hero__cta.btn-primary:hover {
-  background: var(--gold-lt, #FBDA7E);
-  color: var(--maroon-dk, #5A1A0E);
+  background: var(--saffron-deep);
+  color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(249, 199, 79, 0.32);
+  box-shadow: 0 10px 28px rgba(245, 124, 0, 0.35);
 }
 .hero__cta.btn-outline {
   border-color: rgba(255, 255, 255, 0.5);
@@ -333,6 +339,11 @@
         rgba(20, 12, 8, 0.25) 100%
       );
   }
+  .hero__img--desktop { display: none; }
+  .hero__img--mobile { display: block; }
+  /* Use the shorter subtitle; drop the full one only when a mobile variant exists */
+  .hero__sub--mob { display: block; }
+  .hero__inner:has(.hero__sub--mob) .hero__sub--full { display: none; }
   .hero__title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
   .hero__sub {
     font-size: 0.98rem;

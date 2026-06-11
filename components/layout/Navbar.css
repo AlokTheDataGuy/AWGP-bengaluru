@@ -95,7 +95,7 @@
   font-family: var(--font-primary);
 }
 .lang-btn--active {
-  background: var(--gold);
+  background: var(--saffron);
   color: #fff;
 }
 
@@ -120,7 +120,7 @@
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  background: var(--gold);
+  background: var(--saffron);
   color: #fff;
   text-decoration: none;
   transition: background 0.2s, transform 0.15s;
@@ -129,7 +129,7 @@
   font-family: var(--font-primary);
 }
 .navbar__join-btn:hover {
-  background: var(--gold-lt);
+  background: var(--saffron-deep);
   color: #fff;
   transform: translateY(-1px);
 }

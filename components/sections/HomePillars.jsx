@@ -2,24 +2,8 @@
 
 import { useRef, useEffect } from 'react';
 import { useLocale } from 'next-intl';
-import { MdMenuBook, MdBalance, MdVolunteerActivism } from 'react-icons/md';
 import { Link } from '../../lib/i18n/navigation';
 import './HomePillars.css';
-
-/* Flat diya (oil lamp) — no icon set ships one, so it's a filled SVG
-   in the same solid style as the Material icons (fills via currentColor). */
-function DiyaIcon(props) {
-  return (
-    <svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true" {...props}>
-      {/* flame */}
-      <path d="M256 104c-20 50-54 80-54 126a54 54 0 0 0 108 0c0-32-24-56-38-84-7-15-12-28-16-42z" />
-      {/* wick bridging flame to the bowl */}
-      <path d="M246 250h20l-4 64h-12z" />
-      {/* lamp bowl (boat shape, rim raised at the tips) */}
-      <path d="M40 298c84 22 348 22 432 0-10 64-92 110-216 110S50 362 40 298z" />
-    </svg>
-  );
-}
 
 const HEAD = {
   en: {
@@ -67,12 +51,12 @@ const PILLARS = [
   },
 ];
 
-/* Flat icons — colour inherits from the badge via currentColor */
+/* Pillar icons — PNGs from /public/assets/icon */
 const ICONS = {
-  sadhana: <DiyaIcon />,
-  swadhyaya: <MdMenuBook aria-hidden="true" />,
-  sanyam: <MdBalance aria-hidden="true" />,
-  seva: <MdVolunteerActivism aria-hidden="true" />,
+  sadhana: '/assets/icon/sadhna1.png',
+  swadhyaya: '/assets/icon/swadhayay1.png',
+  sanyam: '/assets/icon/sanyam1.png',
+  seva: '/assets/icon/seva1.png',
 };
 
 function useReveal(threshold = 0.15) {
@@ -115,9 +99,17 @@ export default function HomePillars() {
             const d = p[locale] || p.en;
             return (
               <Link key={p.href} href={p.href} className="pillar-col" style={{ '--i': i }}>
-                <span className="pillar-col__icon">{ICONS[p.key]}</span>
+                <span className="pillar-col__icon">
+                  <img src={ICONS[p.key]} alt="" aria-hidden="true" loading="lazy" />
+                </span>
                 <h3 className="pillar-col__name">{d.name}</h3>
                 <p className="pillar-col__desc">{d.meaning}</p>
+                <span className="pillar-col__arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="13 6 19 12 13 18" />
+                  </svg>
+                </span>
               </Link>
             );
           })}

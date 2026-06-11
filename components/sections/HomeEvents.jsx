@@ -45,6 +45,7 @@ export default function HomeEvents({ locale = 'en' }) {
         <div className="home-events__intro" style={{ '--i': 0 }}>
           <span className="home-events__eyebrow">{upcomingLabel}</span>
           <h2 className="home-events__heading">{eventsLabel}</h2>
+          <div className="ornament ornament--left" aria-hidden="true" />
         </div>
 
         {upcoming.map((ev, i) => {

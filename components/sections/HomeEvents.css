@@ -178,8 +178,8 @@
   gap: 8px;
   padding: 10px 18px;
   border-radius: var(--radius-sm);
-  background: var(--gold);
-  color: var(--maroon-dk);
+  background: var(--saffron);
+  color: #fff;
   font-family: var(--font-heading);
   font-size: 0.76rem;
   font-weight: 700;
@@ -189,8 +189,8 @@
   transition: background 0.25s ease, transform 0.25s ease;
 }
 .ev-card__cal:hover {
-  background: var(--gold-lt);
-  color: var(--maroon-dk);
+  background: var(--saffron-deep);
+  color: #fff;
   transform: translateY(-2px);
 }
 .ev-card__cal svg { flex-shrink: 0; }

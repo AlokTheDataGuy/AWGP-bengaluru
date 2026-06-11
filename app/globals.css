@@ -199,11 +199,11 @@ a:hover { color: var(--maroon); }
   white-space: nowrap;
 }
 .btn-primary {
-  background: var(--gold);
+  background: var(--saffron);
   color: #fff;
 }
 .btn-primary:hover {
-  background: var(--gold-lt);
+  background: var(--saffron-deep);
   color: #fff;
   transform: translateY(-2px);
   box-shadow: var(--shadow-gold);
@@ -238,11 +238,11 @@ a:hover { color: var(--maroon); }
 }
 .btn-gold-outline {
   background: transparent;
-  color: var(--gold);
-  border: 1.5px solid var(--gold);
+  color: var(--saffron);
+  border: 1.5px solid var(--saffron);
 }
 .btn-gold-outline:hover {
-  background: var(--gold);
+  background: var(--saffron);
   color: #fff;
 }
 
@@ -516,6 +516,12 @@ a:hover { color: var(--maroon); }
 .ornament::after { content: none; }
 /* the emoji passed to SectionHeader is replaced by the gold divider */
 .ornament span { display: none; }
+/* left-aligned variant for two-column / left-aligned section heads */
+.ornament--left {
+  margin-left: 0;
+  margin-right: auto;
+  background-position: left center;
+}
 
 /* ────────────────────────────────────
    ANIMATIONS

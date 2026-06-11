@@ -71,8 +71,8 @@ export default function HomeWelcome() {
         {/* Text side */}
         <div className="home-welcome__text">
           <span className="sec-head__eyebrow">{d.eyebrow}</span>
-          <div className="divider" />
           <h2 className="home-welcome__title">{d.title}</h2>
+          <div className="ornament ornament--left" aria-hidden="true" />
           <p className="home-welcome__desc">{d.desc1}</p>
           <p className="home-welcome__desc">{d.desc2}</p>
           <figure className="home-welcome__quote">

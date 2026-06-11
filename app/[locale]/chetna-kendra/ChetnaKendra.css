@@ -185,6 +185,46 @@
   color: var(--text-muted);
 }
 
+/* ── Daily / Sunday schedule ── */
+.ck-schedule-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: clamp(1.25rem, 2.5vw, 2rem);
+  align-items: start;
+}
+.ck-sched-box {
+  background: #fff;
+  box-shadow: var(--shadow-md);
+  padding: clamp(1.5rem, 2.5vw, 2.25rem);
+}
+.ck-sched-box--sunday {
+  background: var(--cream-2);
+}
+.ck-sched-box__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 1.9vw, 1.4rem);
+  font-weight: 700;
+  color: var(--maroon);
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--saffron);
+}
+.ck-sched-list {
+  list-style: none;
+}
+.ck-sched-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: clamp(0.88rem, 1.2vw, 0.95rem);
+}
+.ck-sched-row:last-child { border-bottom: none; }
+.ck-sched-act { color: var(--text-dark); line-height: 1.4; }
+.ck-sched-time { color: var(--maroon); font-weight: 700; white-space: nowrap; }
+
 /* ── Responsive ── */
 @media (max-width: 1000px) {
   .ck-reach-grid       { grid-template-columns: repeat(2, 1fr); }
@@ -194,6 +234,7 @@
 @media (max-width: 860px) {
   .inauguration-grid  { grid-template-columns: 1fr; }
   .ck-about-grid      { grid-template-columns: 1fr; }
+  .ck-schedule-grid   { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {

@@ -8,7 +8,7 @@
 
 .pillars__head {
   text-align: center;
-  margin-bottom: clamp(2.75rem, 5vw, 4rem);
+  margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
 }
 .pillars__title {
   font-family: var(--font-heading);
@@ -39,57 +39,69 @@
 .home-pillars__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: clamp(1.5rem, 3vw, 2.5rem);
+  align-items: stretch;
+  gap: clamp(0.5rem, 1.5vw, 1rem);
 }
 
+/* Each pillar is a card that lifts into a white panel on hover/active,
+   matching the gita-theme "services" row. */
 .pillar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   text-decoration: none;
-  display: block;
+  padding: clamp(0.75rem, 1.2vw, 1rem) clamp(0.75rem, 1.5vw, 1.25rem);
+  border-radius: 4px;
+  background: transparent;
+  box-shadow: 0 0 0 0 rgba(58, 50, 43, 0);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
   /* scroll-reveal start */
   opacity: 0;
   transform: translateY(28px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 .home-pillars.is-visible .pillar-col {
   opacity: 1;
   transform: none;
+  transition: opacity 0.6s ease, transform 0.6s ease;
   transition-delay: calc(var(--i) * 0.1s);
 }
+.home-pillars.is-visible .pillar-col:hover,
+.home-pillars.is-visible .pillar-col:focus-visible {
+  background: var(--white);
+  box-shadow: 0 24px 54px rgba(58, 50, 43, 0.12);
+  transform: translateY(-10px);
+  transition-delay: 0s;
+  outline: none;
+}
 
-/* circular icon badge */
+/* plain line-style icon (no badge) */
 .pillar-col__icon {
   display: grid;
   place-items: center;
-  width: clamp(96px, 11vw, 128px);
-  height: clamp(96px, 11vw, 128px);
-  margin: 0 auto clamp(1.1rem, 2vw, 1.6rem);
-  border-radius: 50%;
-  background: radial-gradient(circle at 50% 42%, var(--gold-pale) 0%, #FBE9CB 100%);
-  color: var(--saffron); /* icon colour */
-  font-size: clamp(2.5rem, 4.5vw, 3.3rem); /* sizes the Font Awesome glyph */
-  transition: transform 0.35s ease, box-shadow 0.35s ease, color 0.35s ease;
+  width: clamp(128px, 13vw, 176px);
+  height: clamp(128px, 13vw, 176px);
+  margin: 0 auto clamp(-1rem, -1.2vw, -0.5rem);
+  transition: transform 0.4s ease;
 }
-.pillar-col__icon svg {
+.pillar-col__icon img {
   display: block;
-  height: 1em;   /* FA glyph height; width auto keeps each icon's ratio */
-  width: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .pillar-col:hover .pillar-col__icon,
 .pillar-col:focus-visible .pillar-col__icon {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(245, 124, 0, 0.22);
-  color: var(--saffron-deep);
-  outline: none;
+  transform: translateY(-4px) scale(1.05);
 }
 
 .pillar-col__name {
   font-family: var(--font-heading);
-  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.45rem);
   font-weight: 700;
   color: var(--text-dark);
   line-height: 1.2;
-  transition: color 0.2s ease;
+  transition: color 0.25s ease;
 }
 .pillar-col:hover .pillar-col__name,
 .pillar-col:focus-visible .pillar-col__name {
@@ -97,10 +109,30 @@
 }
 .pillar-col__desc {
   max-width: 15rem;
-  margin: 0.75rem auto 0;
+  margin: 0.7rem auto 0;
   font-size: 0.95rem;
   line-height: 1.7;
   color: var(--text-muted);
+}
+
+/* circular outlined arrow button */
+.pillar-col__arrow {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin: clamp(0.9rem, 1.5vw, 1.25rem) auto 0;
+  border: 1.5px solid var(--border);
+  border-radius: 50%;
+  color: var(--text-muted);
+  transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease, transform 0.3s ease;
+}
+.pillar-col:hover .pillar-col__arrow,
+.pillar-col:focus-visible .pillar-col__arrow {
+  color: var(--white);
+  background: var(--saffron);
+  border-color: var(--saffron);
+  transform: translateX(4px);
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
@@ -108,7 +140,7 @@
 @media (max-width: 860px) {
   .home-pillars__grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem 1.5rem;
+    gap: 1rem;
   }
 }
 @media (max-width: 460px) {
@@ -119,12 +151,15 @@
 
 /* ── Reduced motion ──────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
-  .pillar-col {
+  .pillar-col,
+  .home-pillars.is-visible .pillar-col:hover,
+  .home-pillars.is-visible .pillar-col:focus-visible {
     opacity: 1 !important;
     transform: none !important;
-    transition: none;
   }
-  .pillar-col__icon {
-    transition: color 0.3s ease;
+  .pillar-col,
+  .pillar-col__icon,
+  .pillar-col__arrow {
+    transition: color 0.3s ease, background 0.3s ease, border-color 0.3s ease;
   }
 }

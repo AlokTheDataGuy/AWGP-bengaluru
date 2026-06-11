@@ -66,6 +66,7 @@ export default function HomeGallery() {
         <h2 className="home-gallery__title">
           {L('Moments from the Pariwar', 'परिवार के पल', 'ಪರಿವಾರದ ಕ್ಷಣಗಳು')}
         </h2>
+        <div className="ornament ornament--left" aria-hidden="true" />
       </div>
 
       <div className="home-gallery__marquee">
