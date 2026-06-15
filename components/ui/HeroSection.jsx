@@ -64,8 +64,12 @@ export default function HeroSection({
           <p className="page-hero__eyebrow anim-fade-up">{eyebrow}</p>
         )}
         <h1 className="page-hero__title anim-fade-up" style={{ animationDelay: '0.15s' }}>
-          {icon && <span className="program-big-icon">{icon}</span>}
-          {title}
+          <span className="page-hero__rule" aria-hidden="true" />
+          <span className="page-hero__title-text">
+            {icon && <span className="program-big-icon">{icon}</span>}
+            {title}
+          </span>
+          <span className="page-hero__rule" aria-hidden="true" />
         </h1>
         {subtitle && (
           <p className="page-hero__subtitle anim-fade-up" style={{ animationDelay: '0.28s' }}>

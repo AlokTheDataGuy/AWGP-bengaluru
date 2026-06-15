@@ -1,13 +1,20 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname, Link } from '../../lib/i18n/navigation';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Facebook, Instagram, Youtube, MessageCircle } from 'lucide-react';
 import Image from 'next/image';
 import './Navbar.css';
 
 const JOIN_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSenAHsGkgiiYVh4GkGFiV6XAFFEFqTk4LNEA0U20KiBAnHoFA/viewform?fbzx=-8132684196568383509';
+
+const SOCIALS = [
+  { href: 'https://www.facebook.com/awgp',  label: 'Facebook',  Icon: Facebook },
+  { href: 'https://wa.me/919243755613',     label: 'WhatsApp',  Icon: MessageCircle },
+  { href: 'https://www.instagram.com/awgp', label: 'Instagram', Icon: Instagram },
+  { href: 'https://www.youtube.com/awgp',   label: 'YouTube',   Icon: Youtube },
+];
 
 const aboutMenu = [
   { href: '/about',         en: 'About Us',        hi: 'हमारे बारे में',  kn: 'ನಮ್ಮ ಬಗ್ಗೆ' },
@@ -68,9 +75,7 @@ export default function Navbar() {
 
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileExpanded, setMobileExpanded] = useState(null);
-  const dropdownRef = useRef(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -87,24 +92,16 @@ export default function Navbar() {
   // Close everything on route change
   useEffect(() => {
     setOpen(false);
-    setActiveDropdown(null);
     setMobileExpanded(null);
   }, [pathname]);
-
-  // Close desktop dropdown on outside click
-  useEffect(() => {
-    const handler = (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        setActiveDropdown(null);
-      }
-    };
-    document.addEventListener('mousedown', handler);
-    return () => document.removeEventListener('mousedown', handler);
-  }, []);
 
   const label = (item) => item[locale] || item.en;
   const transparent = !scrolled;
   const switchLocale = (newLocale) => router.replace(pathname, { locale: newLocale });
+
+  // Active when the current route matches a section root or any of its subpages
+  const isActive = (...roots) =>
+    roots.some((r) => (r === '/' ? pathname === '/' : pathname === r || pathname.startsWith(r + '/')));
 
   const renderDropdownItem = (item, onClick) => {
     if (item.isLabel) {
@@ -121,9 +118,12 @@ export default function Navbar() {
     );
   };
 
+  const L = (en, hi, kn) => (locale === 'hi' ? hi : locale === 'kn' ? kn : en);
+
   return (
     <nav className={`navbar${!transparent ? ' navbar--scrolled' : ''}`}>
-      <div className="navbar__inner" ref={dropdownRef}>
+
+      <div className="navbar__inner">
 
         {/* Logo */}
         <Link href="/" className="navbar__logo">
@@ -139,77 +139,45 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <ul className="navbar__links">
-          <li><Link href="/">{t('nav_home')}</Link></li>
+          <li><Link href="/" className={isActive('/') ? 'is-active' : undefined}>{t('nav_home')}</Link></li>
 
           <li className="navbar__dropdown-wrap">
-            <button
-              className="navbar__dropdown-trigger"
-              onClick={() => setActiveDropdown(activeDropdown === 'about' ? null : 'about')}
-            >
-              {t('nav_about')}
-              <ChevronDown size={14} className={activeDropdown === 'about' ? 'rotated' : ''} />
-            </button>
-            {activeDropdown === 'about' && (
-              <div className="navbar__dropdown">
-                {aboutMenu.map((item) => (
-                  <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
-                ))}
-              </div>
-            )}
+            <button className={`navbar__dropdown-trigger${isActive('/about', '/initiatives', '/chetna-kendra') ? ' is-active' : ''}`}>{t('nav_about')}</button>
+            <div className="navbar__dropdown">
+              {aboutMenu.map((item) => (
+                <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
+              ))}
+            </div>
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <button
-              className="navbar__dropdown-trigger"
-              onClick={() => setActiveDropdown(activeDropdown === 'sanskars' ? null : 'sanskars')}
-            >
-              {t('nav_sanskars')}
-              <ChevronDown size={14} className={activeDropdown === 'sanskars' ? 'rotated' : ''} />
-            </button>
-            {activeDropdown === 'sanskars' && (
-              <div className="navbar__dropdown navbar__dropdown--right">
-                {sanskarsMenu.map((item) => (
-                  <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
-                ))}
-              </div>
-            )}
+            <button className={`navbar__dropdown-trigger${isActive('/sanskars') ? ' is-active' : ''}`}>{t('nav_sanskars')}</button>
+            <div className="navbar__dropdown navbar__dropdown--right">
+              {sanskarsMenu.map((item) => (
+                <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
+              ))}
+            </div>
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <button
-              className="navbar__dropdown-trigger"
-              onClick={() => setActiveDropdown(activeDropdown === 'events' ? null : 'events')}
-            >
-              {t('nav_events')}
-              <ChevronDown size={14} className={activeDropdown === 'events' ? 'rotated' : ''} />
-            </button>
-            {activeDropdown === 'events' && (
-              <div className="navbar__dropdown">
-                {eventsMenu.map((item) => (
-                  <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
-                ))}
-              </div>
-            )}
+            <button className={`navbar__dropdown-trigger${isActive('/events') ? ' is-active' : ''}`}>{t('nav_events')}</button>
+            <div className="navbar__dropdown">
+              {eventsMenu.map((item) => (
+                <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
+              ))}
+            </div>
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <button
-              className="navbar__dropdown-trigger"
-              onClick={() => setActiveDropdown(activeDropdown === 'activities' ? null : 'activities')}
-            >
-              {t('nav_activities')}
-              <ChevronDown size={14} className={activeDropdown === 'activities' ? 'rotated' : ''} />
-            </button>
-            {activeDropdown === 'activities' && (
-              <div className="navbar__dropdown">
-                {activitiesMenu.map((item) => renderDropdownItem(item, undefined))}
-              </div>
-            )}
+            <button className={`navbar__dropdown-trigger${isActive('/activities') ? ' is-active' : ''}`}>{t('nav_activities')}</button>
+            <div className="navbar__dropdown">
+              {activitiesMenu.map((item) => renderDropdownItem(item, undefined))}
+            </div>
           </li>
 
-          <li><Link href="/literature">{t('nav_literature')}</Link></li>
+          <li><Link href="/literature" className={isActive('/literature') ? 'is-active' : undefined}>{t('nav_literature')}</Link></li>
 
-          <li><Link href="/contact">{t('nav_contact')}</Link></li>
+          <li><Link href="/contact" className={isActive('/contact') ? 'is-active' : undefined}>{t('nav_contact')}</Link></li>
         </ul>
 
         {/* Right: lang toggle + Join Us + hamburger */}
@@ -360,6 +328,20 @@ export default function Navbar() {
           >
             {locale === 'hi' ? 'परिवार से जुड़ें' : locale === 'kn' ? 'ಪರಿವಾರ ಸೇರಿ' : 'Join the Pariwar'}
           </a>
+          <div className="navbar__mobile-social">
+            {SOCIALS.map(({ href, label, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="navbar__mobile-social-btn"
+              >
+                <Icon size={18} aria-hidden="true" />
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </nav>
