@@ -44,7 +44,7 @@
 .navbar__links a {
   display: block;
   padding: 6px 12px;
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.07em;
@@ -235,6 +235,7 @@
 .navbar__mobile-links > li > a {
   display: block;
   padding: 13px 24px;
+  font-family: var(--font-heading);
   font-size: 0.88rem;
   font-weight: 500;
   letter-spacing: 0.05em;
@@ -289,7 +290,7 @@
   color: var(--text-mid);
   cursor: pointer;
   padding: 6px 12px;
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   transition: color 0.2s;
   position: relative;
 }
@@ -380,6 +381,42 @@
 .navbar__mobile-accordion > button:hover { color: var(--gold); }
 .navbar__mobile-accordion > button svg { flex-shrink: 0; transition: transform 0.2s; }
 .navbar__mobile-accordion > button svg.rotated { transform: rotate(180deg); }
+
+/* Accordion head: section label links to the listing page; chevron toggles the submenu */
+.navbar__mobile-accordion-head {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--border);
+}
+.navbar__mobile-accordion-head > a {
+  flex: 1;
+  display: block;
+  padding: 13px 24px;
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar__mobile-accordion-head > a:hover { color: var(--gold); }
+.navbar__mobile-accordion-head > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-left: 1px solid var(--border);
+  padding: 0 20px;
+  color: var(--text-mid);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.navbar__mobile-accordion-head > button:hover { color: var(--gold); }
+.navbar__mobile-accordion-head > button svg { transition: transform 0.2s; }
+.navbar__mobile-accordion-head > button svg.rotated { transform: rotate(180deg); }
 
 .navbar__mobile-sub {
   list-style: none;

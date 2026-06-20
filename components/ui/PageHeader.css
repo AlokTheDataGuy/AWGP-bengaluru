@@ -1,0 +1,58 @@
+/* =========================================================
+   PageHeader — compact title band for hero-less pages
+   ========================================================= */
+.page-head {
+  background: var(--cream);
+  padding: calc(var(--nav-h) + clamp(30px, 5vw, 60px)) clamp(20px, 5vw, 60px) clamp(24px, 3.5vw, 40px);
+  border-bottom: 1px solid var(--border);
+}
+.page-head__inner {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-head__eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin: 0 0 0.9rem;
+}
+.page-head__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.8rem, 2vw, 1.4rem);
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  font-weight: 700;
+  color: var(--maroon);
+  margin: 0;
+  line-height: 1.1;
+}
+.page-head__title-text { white-space: nowrap; }
+.page-head__rule {
+  height: 1.5px;
+  width: clamp(28px, 6vw, 70px);
+  background: linear-gradient(to right, transparent, var(--gold));
+  flex-shrink: 0;
+}
+.page-head__title .page-head__rule:last-child {
+  background: linear-gradient(to left, transparent, var(--gold));
+}
+.page-head__subtitle {
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  line-height: 1.7;
+  color: var(--text-mid);
+  margin: 1.1rem 0 0;
+  max-width: 620px;
+}
+
+@media (max-width: 560px) {
+  .page-head__title-text { white-space: normal; }
+}

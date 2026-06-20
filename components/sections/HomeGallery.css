@@ -1,5 +1,5 @@
 .home-gallery {
-  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 100%);
+  background: linear-gradient(160deg, #2A2A2A 0%, #141414 45%, #000000 100%);
   padding-top: clamp(56px, 7vw, 88px);
   padding-bottom: clamp(56px, 7vw, 88px);
   overflow: hidden;
@@ -11,12 +11,12 @@
   margin-bottom: clamp(2.5rem, 4vw, 3.5rem);
 }
 .home-gallery__head .sec-head__eyebrow {
-  color: var(--saffron);
+  color: var(--gold);
 }
 .home-gallery__title {
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 700;
-  color: var(--maroon);
+  color: #fff;
   margin-top: 0.5rem;
   line-height: 1.2;
 }

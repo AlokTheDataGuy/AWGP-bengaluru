@@ -35,7 +35,7 @@ const programs = [
     img: '/assets/programs/yoga_session.jpg',
     href: '/programs/yoga',
     isNew: false,
-    title: { en: 'Yoga Sessions',           hi: 'योग सत्र',               kn: 'ಯೋಗ ಸತ್ರಗಳು' },
+    title: { en: 'Yoga',                    hi: 'योग',                    kn: 'ಯೋಗ' },
     desc:  { en: 'Daily weekday yoga combining asanas, pranayam, and meditation — open to all levels.',
              hi: 'दैनिक योग सत्र जिसमें आसन, प्राणायाम और ध्यान शामिल हैं — सभी स्तरों के लिए।',
              kn: 'ಆಸನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಧ್ಯಾನ ಒಳಗೊಂಡ ದೈನಂದಿನ ಯೋಗ — ಎಲ್ಲ ಹಂತಗಳಿಗೆ ಮುಕ್ತ.' },

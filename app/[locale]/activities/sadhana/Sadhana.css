@@ -1,0 +1,94 @@
+.sadhana-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sadhana-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-warm);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.sadhana-card:hover {
+  box-shadow: var(--shadow-deep);
+  transform: translateY(-2px);
+}
+
+.sadhana-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 200px;
+}
+
+.sadhana-card__body {
+  padding: 1.6rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sadhana-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.sadhana-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  color: var(--maroon);
+  margin: 0 0 0.2rem;
+}
+
+.sadhana-card__schedule {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--saffron);
+  letter-spacing: 0.03em;
+  display: block;
+}
+
+.sadhana-card__desc {
+  font-size: 0.92rem;
+  line-height: 1.8;
+  color: var(--text-mid);
+  margin: 0;
+}
+
+.sadhana-card__highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.sadhana-card__highlights li {
+  font-size: 0.84rem;
+  color: var(--text-primary);
+  padding: 0.3rem 0.6rem;
+  border-left: 3px solid var(--saffron);
+  background: var(--saffron-pale);
+  border-radius: 0;
+}
+
+@media (max-width: 760px) {
+  .sadhana-card {
+    grid-template-columns: 1fr;
+  }
+  .sadhana-card__img {
+    min-height: 160px;
+    max-height: 200px;
+  }
+}

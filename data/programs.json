@@ -58,7 +58,7 @@
     "img": "/assets/programs/yoga_session.jpg",
     "heroColor": "linear-gradient(135deg, #1A4A2A 0%, #0A2A1A 100%)",
     "schedule": { "en": "Monday to Friday · 10:00 AM – 11:00 AM", "hi": "सोमवार से शुक्रवार · सुबह 10:00 – 11:00 बजे", "kn": "ಸೋಮವಾರದಿಂದ ಶುಕ್ರವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 11:00" },
-    "title":    { "en": "Yoga Sessions", "hi": "योग सत्र", "kn": "ಯೋಗ ಸತ್ರ" },
+    "title":    { "en": "Yoga", "hi": "योग", "kn": "ಯೋಗ" },
     "subtitle": { "en": "Daily Yoga for Body, Breath & Being", "hi": "शरीर, श्वास और आत्मा के लिए दैनिक योग", "kn": "ದೇಹ, ಉಸಿರು ಮತ್ತು ಅಸ್ತಿತ್ವಕ್ಕಾಗಿ ದೈನಂದಿನ ಯೋಗ" },
     "intro": { "en": "Our weekday yoga sessions are open to all — from beginners to experienced practitioners. Rooted in the Vedic understanding of yoga, each session combines asanas, pranayam, and a closing meditation.", "hi": "हमारे सप्ताहिक योग सत्र सभी के लिए खुले हैं। प्रत्येक सत्र में आसन, प्राणायाम और समापन ध्यान शामिल है।", "kn": "ನಮ್ಮ ವಾರದ ಯೋಗ ಸತ್ರಗಳು ಎಲ್ಲರಿಗೂ ಮುಕ್ತ. ಪ್ರತಿ ಸತ್ರದಲ್ಲಿ ಆಸನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಧ್ಯಾನ ಸೇರಿರುತ್ತದೆ." },
     "points": [

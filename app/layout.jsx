@@ -1,5 +1,6 @@
 import { Kumbh_Sans, Nunito_Sans, Mukta, Noto_Sans_Kannada } from 'next/font/google';
 import './globals.css';
+import SiteLoader from '../components/ui/SiteLoader';
 
 const kumbhSans = Kumbh_Sans({
   subsets: ['latin'],
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body className={`${kumbhSans.variable} ${nunitoSans.variable} ${mukta.variable} ${notoKannada.variable}`}>
+        <SiteLoader />
         {children}
       </body>
     </html>

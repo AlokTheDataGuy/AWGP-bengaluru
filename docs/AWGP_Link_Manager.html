@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AWGP Link Manager</title>
+<style>
+  :root {
+    --blue: #2E75B6;
+    --dark: #1F4E5F;
+    --bg: #f4f6f8;
+    --card: #ffffff;
+    --border: #dde3e8;
+    --green: #2e7d32;
+    --amber: #9c5700;
+    --red: #b3261e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    margin: 0;
+    padding: 0 0 80px 0;
+    color: #222;
+  }
+  header {
+    background: var(--dark);
+    color: white;
+    padding: 22px 28px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  header h1 { margin: 0 0 4px 0; font-size: 20px; }
+  header p { margin: 0; font-size: 13px; color: #cfe0e8; }
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 16px 28px;
+    background: white;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 78px;
+    z-index: 9;
+  }
+  button {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 9px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--blue);
+    background: var(--blue);
+    color: white;
+    cursor: pointer;
+  }
+  button.secondary { background: white; color: var(--blue); }
+  button.ghost { background: white; color: #555; border-color: var(--border); }
+  button.small { padding: 5px 10px; font-size: 12px; }
+  button.danger { border-color: var(--red); color: var(--red); background: white; }
+  button:hover { opacity: 0.88; }
+  #status {
+    align-self: center;
+    font-size: 13px;
+    color: var(--green);
+    margin-left: 6px;
+  }
+  .search {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .search input {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    width: 220px;
+  }
+  main { max-width: 1000px; margin: 0 auto; padding: 20px 28px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+    transition: box-shadow .15s;
+  }
+  .card.filled { border-left: 4px solid var(--green); }
+  .card.empty { border-left: 4px solid var(--amber); }
+  .card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+  .card-title {
+    font-weight: bold;
+    color: var(--dark);
+    font-size: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .badge {
+    font-size: 11px;
+    font-weight: normal;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: #eef3f7;
+    color: #777;
+  }
+  .badge.filled { background: #e7f4e8; color: var(--green); }
+  .badge.empty { background: #fdf0dc; color: var(--amber); }
+  .link-entry {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    background: #fafbfc;
+  }
+  .link-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .link-entry-header span {
+    font-size: 11px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+  }
+  .row { display: flex; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .row label {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    margin-bottom: 3px;
+  }
+  .field { flex: 1; min-width: 200px; }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: inherit;
+  }
+  textarea { resize: vertical; min-height: 36px; }
+  .field.small { flex: 0 0 200px; }
+  .preview {
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+    word-break: break-all;
+  }
+  .preview a { color: var(--blue); }
+  .add-link-row { margin-top: 4px; }
+  footer.bar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    border-top: 1px solid var(--border);
+    padding: 12px 28px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AWGP YouTube Link Manager</h1>
+  <p>Paste links per topic — add as many as you like — and hit Save. Saved in your browser until you export.</p>
+</header>
+
+<div class="toolbar">
+  <button id="saveBtn">💾 Save</button>
+  <button class="secondary" id="exportTxtBtn">Export .txt</button>
+  <button class="secondary" id="exportJsonBtn">Export .json</button>
+  <button class="ghost" id="importJsonBtn">Import .json</button>
+  <button class="ghost" id="resetBtn">Reset to original</button>
+  <input type="file" id="fileInput" accept=".json" style="display:none">
+  <span id="status"></span>
+  <div class="search">
+    <input type="text" id="searchBox" placeholder="Filter topics…">
+  </div>
+</div>
+
+<main id="cards"></main>
+
+<footer class="bar">
+  <span id="progress" style="font-size:13px; color:#555; align-self:center;"></span>
+</footer>
+
+<script>
+const STORAGE_KEY = "awgp_yt_links_v2";
+const OLD_STORAGE_KEY = "awgp_yt_links_v1";
+
+function emptyLink() { return { url: "", channel: "", note: "" }; }
+
+// Default/original data (matches AWGP_YouTube_Links_For_Website_Topics.txt as of 2026-06-18)
+// Each topic now holds a LIST of links instead of a single one.
+const DEFAULT_TOPICS = [
+  { id: "punsavan", title: "Sanskar: Punsavan (Pregnancy)", links: [{ url: "https://www.youtube.com/watch?v=vpX6B6q7Fkc", channel: "@PragyaGeet", note: "" }] },
+  { id: "naamkaran", title: "Sanskar: Naamkaran (Naming)", links: [{ url: "https://www.youtube.com/watch?v=_zrkUYlXrCQ", channel: "@shantikunjvideo", note: "" }] },
+  { id: "annaprashan", title: "Sanskar: Annaprashan (First Feeding)", links: [{ url: "https://www.youtube.com/watch?v=VuNg5k6X6eY", channel: "@shantikunjvideo", note: "" }] },
+  { id: "mundan", title: "Sanskar: Mundan (Tonsure)", links: [{ url: "https://www.youtube.com/watch?v=GBTq2E0iGm8", channel: "@shantikunjvideo", note: "" }] },
+  { id: "vidyarambh", title: "Sanskar: Vidyarambh (Education Initiation)", links: [{ url: "https://www.youtube.com/watch?v=yZquDvmtKeI", channel: "@shantikunjvideo", note: "" }] },
+  { id: "yagyopaveet", title: "Sanskar: Yagyopaveet (Sacred Thread)", links: [{ url: "https://www.youtube.com/watch?v=HFGuMX9Zg-8", channel: "@shantikunjvideo", note: "Also covers Deeksha" }] },
+  { id: "deeksha", title: "Sanskar: Deeksha (Initiation)", links: [{ url: "https://www.youtube.com/watch?v=0vfgzcE4iYw", channel: "@shantikunjvideo", note: "" }] },
+  { id: "janmdivas", title: "Sanskar: Janm-Divas (Birthday)", links: [{ url: "https://www.youtube.com/watch?v=WBYIZ9He8_g", channel: "@shantikunjvideo", note: "" }] },
+  { id: "vivah", title: "Sanskar: Vivah (Marriage)", links: [{ url: "https://www.youtube.com/watch?v=6FqsZdw2WRg", channel: "@shantikunjvideo", note: "" }] },
+  { id: "vivahdivas", title: "Sanskar: Vivah-Divas (Wedding Anniversary)", links: [{ url: "https://www.youtube.com/watch?v=4KeGFbE3ss8", channel: "@shantikunjvideo", note: "" }] },
+  { id: "tarpan", title: "Sanskar: Tarpan (Ancestral Offering)", links: [{ url: "", channel: "", note: "No official-channel match found yet." }] },
+  { id: "antyesti", title: "Sanskar: Antyesti (Funeral Rites)", links: [{ url: "https://www.youtube.com/watch?v=lXo5HJVbPio", channel: "@shantikunjvideo", note: "" }] },
+  { id: "yoga", title: "Program: Yoga", links: [{ url: "", channel: "", note: "No official-channel match found yet." }] },
+  { id: "meditation", title: "Program: Meditation / Dhyan", links: [{ url: "https://www.youtube.com/watch?v=vZBMcTjV89E", channel: "@shantikunjvideo", note: "" }] },
+  { id: "sadhanageneral", title: "Gayatri Sadhana (General)", links: [{ url: "https://www.youtube.com/watch?v=iU89vUPTuWI", channel: "@shantikunjvideo", note: "" }] },
+  { id: "akhandjap", title: "Sadhana Sub-Program: Akhand Jap", links: [{ url: "", channel: "", note: "No official-channel match found yet." }] },
+  { id: "matajijap", title: "Sadhana Sub-Program: Mataji Jap", links: [{ url: "https://www.youtube.com/watch?v=roaVdhHhaqg", channel: "@PragyaGeet", note: "" }] },
+  { id: "anusthan", title: "Sadhana Sub-Program: Anusthan", links: [{ url: "https://www.youtube.com/watch?v=frTQBrWZVwI", channel: "@RishiChintan", note: "" }] },
+  { id: "antahurja", title: "Sadhana Sub-Program: Antahurja / Antahkaran", links: [{ url: "https://www.youtube.com/watch?v=Sm-1xhPt-3M", channel: "@RishiChintan", note: "Antdarshan Ka Dhyan — Dr. Pranav Pandya" }] },
+  { id: "chandrayan", title: "Sadhana Sub-Program: Chandrayan Kalp", links: [{ url: "https://www.youtube.com/watch?v=n2Dx4ZM8-qQ", channel: "@shantikunjvideo", note: "" }] },
+  { id: "sanyam", title: "Sanyam (Self-Restraint)", links: [{ url: "https://www.youtube.com/watch?v=C5PyndZAMws", channel: "@RishiChintan", note: "Indriya Sanyam — Pt. Shriram Sharma Acharya" }] },
+  { id: "seva", title: "Seva (Service)", links: [{ url: "https://www.youtube.com/watch?v=TLo_Z_R7U8Y", channel: "@RishiChintan", note: "" }] },
+  { id: "swadhyaya", title: "Swadhyaya (Self-Study)", links: [{ url: "", channel: "", note: "No official-channel match found yet. Book Fairs & Literature is meant to reuse this link — update both topics when you find one." }] },
+  { id: "yagya", title: "Yagya (Fire Ritual)", links: [{ url: "https://www.youtube.com/watch?v=b5zY1do0KC8", channel: "@shantikunjvideo", note: "Sankshipt Yagya Vidhi — Grihe-Grihe Gayatri Yagya" }] },
+  { id: "balsanskarshala", title: "Bal Sanskar Shala (Children's Values School)", links: [{ url: "", channel: "", note: "No official-channel match found yet." }] },
+  { id: "treeplantation", title: "Tree Plantation (Vriksharopan)", links: [
+    { url: "https://www.youtube.com/watch?v=kZlJpzKxMVA", channel: "@RishiChintan", note: "Vriksharopan Abhiyan — Gayatri Parivar Youth Group" },
+    { url: "https://www.youtube.com/watch?v=WbbIxRphJLM", channel: "@shantikunjvideo", note: "Paryavaran Sanrakshan (Environmental Conservation) — Dr. Chinmay Pandya" }
+  ] },
+  { id: "gauseva", title: "Gau Seva (Cow Service)", links: [{ url: "", channel: "", note: "No official-channel match found yet despite multiple English/Hindi searches." }] },
+  { id: "festivalcelebrations", title: "Festival Celebrations", links: [
+    { url: "https://www.youtube.com/watch?v=9OkQwEKnJCI", channel: "@shantikunjvideo", note: "LIVE Deepavali Parva Poojan, Shantikunj Haridwar — Deepavali 2025" }
+  ] },
+  { id: "bookfairsliterature", title: "Book Fairs & Literature", links: [{ url: "", channel: "", note: "Intentionally mirrors Swadhyaya (Self-Study) — no link there yet, so none here either. Copy whatever you add to Swadhyaya into this topic too." }] },
+];
+
+const CHANNELS = ["", "@PragyaGeet", "@shantikunjvideo", "@RishiChintan", "Other / Unverified"];
+
+let topics = loadData();
+
+// Adds any DEFAULT_TOPICS not already present (by id) to a loaded topic list,
+// so newly-added topics show up for returning users without wiping their saved edits.
+function mergeNewDefaults(loadedTopics) {
+  const existingIds = new Set(loadedTopics.map(t => t.id));
+  DEFAULT_TOPICS.forEach(def => {
+    if (!existingIds.has(def.id)) {
+      loadedTopics.push(JSON.parse(JSON.stringify(def)));
+    }
+  });
+  return loadedTopics;
+}
+
+function loadData() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved) {
+    try { return mergeNewDefaults(JSON.parse(saved)); } catch (e) { /* fall through */ }
+  }
+  // Migrate from old single-link format if present
+  const old = localStorage.getItem(OLD_STORAGE_KEY);
+  if (old) {
+    try {
+      const oldTopics = JSON.parse(old);
+      const migrated = oldTopics.map(t => ({
+        id: t.id, title: t.title,
+        links: t.url ? [{ url: t.url, channel: t.channel || "", note: t.note || "" }] : [{ url: "", channel: "", note: t.note || "" }]
+      }));
+      return mergeNewDefaults(migrated);
+    } catch (e) { /* fall through */ }
+  }
+  return JSON.parse(JSON.stringify(DEFAULT_TOPICS));
+}
+
+function saveData() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(topics));
+  flashStatus("Saved ✓");
+}
+
+function flashStatus(msg) {
+  const el = document.getElementById("status");
+  el.textContent = msg;
+  setTimeout(() => { if (el.textContent === msg) el.textContent = ""; }, 2000);
+}
+
+function extractVideoId(url) {
+  if (!url) return "";
+  const m = url.match(/(?:v=|youtu\.be\/|\/shorts\/)([A-Za-z0-9_-]{6,})/);
+  return m ? m[1] : url.trim();
+}
+
+function topicHasLink(topic) {
+  return topic.links.some(l => l.url);
+}
+
+function render() {
+  const filterText = document.getElementById("searchBox").value.toLowerCase();
+  const container = document.getElementById("cards");
+  container.innerHTML = "";
+  let filledCount = 0;
+
+  topics.forEach((topic, tIdx) => {
+    if (filterText && !topic.title.toLowerCase().includes(filterText)) return;
+    const hasLink = topicHasLink(topic);
+    if (hasLink) filledCount++;
+
+    const card = document.createElement("div");
+    card.className = "card " + (hasLink ? "filled" : "empty");
+    card.dataset.tidx = tIdx;
+
+    const linksHtml = topic.links.map((link, lIdx) => {
+      const videoId = extractVideoId(link.url);
+      const watchUrl = link.url ? `https://www.youtube.com/watch?v=${videoId}` : "";
+      return `
+      <div class="link-entry" data-lidx="${lIdx}">
+        <div class="link-entry-header">
+          <span>Link ${lIdx + 1}</span>
+          ${topic.links.length > 1 ? `<button class="small danger" data-action="removeLink" data-tidx="${tIdx}" data-lidx="${lIdx}">Remove</button>` : ""}
+        </div>
+        <div class="row">
+          <div class="field">
+            <label>Paste YouTube link or video ID</label>
+            <input type="text" data-field="url" data-tidx="${tIdx}" data-lidx="${lIdx}" value="${escapeHtml(link.url)}" placeholder="https://www.youtube.com/watch?v=...">
+          </div>
+          <div class="field small">
+            <label>Channel</label>
+            <select data-field="channel" data-tidx="${tIdx}" data-lidx="${lIdx}">
+              ${CHANNELS.map(c => `<option value="${c}" ${c === link.channel ? "selected" : ""}>${c || "— choose —"}</option>`).join("")}
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label>Note (optional)</label>
+            <textarea data-field="note" data-tidx="${tIdx}" data-lidx="${lIdx}" rows="1">${escapeHtml(link.note)}</textarea>
+          </div>
+        </div>
+        ${watchUrl ? `<div class="preview">Watch: <a href="${watchUrl}" target="_blank">${watchUrl}</a></div>` : ""}
+      </div>`;
+    }).join("");
+
+    card.innerHTML = `
+      <div class="card-title">
+        <span>${topic.title}</span>
+        <span class="badge ${hasLink ? 'filled' : 'empty'}">${hasLink ? topic.links.filter(l=>l.url).length + ' link(s)' : 'No link yet'}</span>
+      </div>
+      ${linksHtml}
+      <div class="add-link-row">
+        <button class="small secondary" data-action="addLink" data-tidx="${tIdx}">+ Add another link</button>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+
+  document.getElementById("progress").textContent =
+    `${filledCount} of ${topics.length} topics have at least one link`;
+
+  container.querySelectorAll("input,select,textarea").forEach(el => {
+    el.addEventListener("input", onFieldChange);
+    el.addEventListener("change", onFieldChange);
+  });
+  container.querySelectorAll("button[data-action]").forEach(el => {
+    el.addEventListener("click", onActionClick);
+  });
+}
+
+function onFieldChange(e) {
+  const tIdx = +e.target.dataset.tidx;
+  const lIdx = +e.target.dataset.lidx;
+  const field = e.target.dataset.field;
+  topics[tIdx].links[lIdx][field] = e.target.value;
+  if (field === "url") {
+    // light-touch update without a full re-render (keeps focus)
+    const card = e.target.closest(".card");
+    const hasLink = topicHasLink(topics[tIdx]);
+    card.classList.toggle("filled", hasLink);
+    card.classList.toggle("empty", !hasLink);
+    const badge = card.querySelector(".badge");
+    const count = topics[tIdx].links.filter(l => l.url).length;
+    badge.textContent = hasLink ? count + " link(s)" : "No link yet";
+    badge.className = "badge " + (hasLink ? "filled" : "empty");
+
+    const entry = e.target.closest(".link-entry");
+    let preview = entry.querySelector(".preview");
+    const videoId = extractVideoId(e.target.value);
+    const watchUrl = e.target.value ? `https://www.youtube.com/watch?v=${videoId}` : "";
+    if (watchUrl) {
+      if (!preview) {
+        preview = document.createElement("div");
+        preview.className = "preview";
+        entry.appendChild(preview);
+      }
+      preview.innerHTML = `Watch: <a href="${watchUrl}" target="_blank">${watchUrl}</a>`;
+    } else if (preview) {
+      preview.remove();
+    }
+    document.getElementById("progress").textContent =
+      `${topics.filter(topicHasLink).length} of ${topics.length} topics have at least one link`;
+  }
+}
+
+function onActionClick(e) {
+  const action = e.target.dataset.action;
+  const tIdx = +e.target.dataset.tidx;
+  if (action === "addLink") {
+    topics[tIdx].links.push(emptyLink());
+    render();
+  } else if (action === "removeLink") {
+    const lIdx = +e.target.dataset.lidx;
+    topics[tIdx].links.splice(lIdx, 1);
+    if (topics[tIdx].links.length === 0) topics[tIdx].links.push(emptyLink());
+    render();
+  }
+}
+
+function escapeHtml(s) {
+  return (s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+function downloadFile(filename, content, mime) {
+  const blob = new Blob([content], { type: mime });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+
+function exportTxt() {
+  let out = "";
+  out += "==============================================================================\n";
+  out += "AWGP YOUTUBE LINKS — CURATED FOR WEBSITE TOPICS ONLY\n";
+  out += "Exported from the AWGP Link Manager tool on " + new Date().toISOString().slice(0,10) + ".\n";
+  out += "==============================================================================\n\n";
+  out += "Format:\n  Watch: https://www.youtube.com/watch?v=<VIDEO_ID>\n         (Channel: <verified channel name>)\n\n";
+
+  topics.forEach(t => {
+    out += "------------------------------------------------------------------------------\n";
+    out += t.title + "\n";
+    out += "------------------------------------------------------------------------------\n";
+    const validLinks = t.links.filter(l => l.url);
+    if (validLinks.length) {
+      validLinks.forEach((link, i) => {
+        const videoId = extractVideoId(link.url);
+        if (validLinks.length > 1) out += `[${i + 1}] `;
+        out += `Watch: https://www.youtube.com/watch?v=${videoId}\n`;
+        out += `       (Channel: ${link.channel || "UNVERIFIED — please confirm"})\n`;
+        if (link.note) out += `       (${link.note})\n`;
+      });
+    } else {
+      out += "NO LINK YET.\n";
+      const note = t.links.find(l => l.note);
+      if (note) out += `(${note.note})\n`;
+    }
+    out += "\n";
+  });
+
+  const filled = topics.filter(topicHasLink).length;
+  const totalLinks = topics.reduce((sum, t) => sum + t.links.filter(l => l.url).length, 0);
+  out += "==============================================================================\n";
+  out += `SUMMARY: ${filled} of ${topics.length} topics have at least one link (${totalLinks} links total).\n`;
+  out += "==============================================================================\n";
+
+  downloadFile("AWGP_YouTube_Links_For_Website_Topics.txt", out, "text/plain");
+  flashStatus("Exported .txt ✓");
+}
+
+function exportJson() {
+  downloadFile("AWGP_YouTube_Links_For_Website_Topics.json", JSON.stringify(topics, null, 2), "application/json");
+  flashStatus("Exported .json ✓");
+}
+
+function importJson(file) {
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const data = JSON.parse(reader.result);
+      if (Array.isArray(data)) {
+        // support importing either the new (links array) or old (single url) shape
+        topics = data.map(t => t.links ? t : {
+          id: t.id, title: t.title,
+          links: [{ url: t.url || "", channel: t.channel || "", note: t.note || "" }]
+        });
+        render();
+        flashStatus("Imported ✓");
+      }
+    } catch (e) {
+      alert("Couldn't read that file as JSON.");
+    }
+  };
+  reader.readAsText(file);
+}
+
+document.getElementById("saveBtn").addEventListener("click", saveData);
+document.getElementById("exportTxtBtn").addEventListener("click", exportTxt);
+document.getElementById("exportJsonBtn").addEventListener("click", exportJson);
+document.getElementById("importJsonBtn").addEventListener("click", () => document.getElementById("fileInput").click());
+document.getElementById("fileInput").addEventListener("change", e => {
+  if (e.target.files[0]) importJson(e.target.files[0]);
+});
+document.getElementById("resetBtn").addEventListener("click", () => {
+  if (confirm("Reset all topics back to the original curated list? This discards unsaved edits.")) {
+    topics = JSON.parse(JSON.stringify(DEFAULT_TOPICS));
+    render();
+    flashStatus("Reset ✓");
+  }
+});
+document.getElementById("searchBox").addEventListener("input", render);
+
+render();
+</script>
+</body>
+</html>

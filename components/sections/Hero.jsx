@@ -144,23 +144,23 @@ const SLIDES = [
     en: {
       eyebrow: 'Wisdom & Knowledge',
       title: 'Enlighten Your Mind with Sacred Literature',
-      sub: 'Explore a rich collection of Vedic literature, spiritual texts, and self-help books at our annual Book Fair events.',
-      subMobile: 'Vedic literature and spiritual texts at our Book Fair.',
-      cta: 'Visit Book Fair', ctaHref: '/activities/book-fair',
+      sub: 'Explore a rich collection of Vedic literature, spiritual texts, and self-help books — read online or order your copies.',
+      subMobile: 'Vedic literature and spiritual texts to read or buy.',
+      cta: 'Explore Our Literature', ctaHref: '/literature',
     },
     hi: {
       eyebrow: 'ज्ञान का भंडार',
       title: 'पवित्र साहित्य से मन को प्रकाशित करें',
-      sub: 'हमारे वार्षिक पुस्तक मेले में वैदिक साहित्य, आध्यात्मिक ग्रंथों और स्व-सहायता पुस्तकों का समृद्ध संग्रह खोजें।',
-      subMobile: 'हमारे पुस्तक मेले में वैदिक साहित्य और आध्यात्मिक ग्रंथ।',
-      cta: 'पुस्तक मेला देखें', ctaHref: '/activities/book-fair',
+      sub: 'वैदिक साहित्य, आध्यात्मिक ग्रंथों और स्व-सहायता पुस्तकों का समृद्ध संग्रह खोजें — ऑनलाइन पढ़ें या मंगवाएं।',
+      subMobile: 'पढ़ने या खरीदने के लिए वैदिक साहित्य और आध्यात्मिक ग्रंथ।',
+      cta: 'हमारा साहित्य देखें', ctaHref: '/literature',
     },
     kn: {
       eyebrow: 'ಜ್ಞಾನ ಭಂಡಾರ',
       title: 'ಪವಿತ್ರ ಸಾಹಿತ್ಯದಿಂದ ಮನಸ್ಸನ್ನು ಬೆಳಗಿಸಿ',
-      sub: 'ನಮ್ಮ ವಾರ್ಷಿಕ ಪುಸ್ತಕ ಮೇಳ ಕಾರ್ಯಕ್ರಮಗಳಲ್ಲಿ ವೈದಿಕ ಸಾಹಿತ್ಯ, ಆಧ್ಯಾತ್ಮಿಕ ಗ್ರಂಥಗಳು ಮತ್ತು ಸ್ವ-ಸಹಾಯ ಪುಸ್ತಕಗಳ ಸಮೃದ್ಧ ಸಂಗ್ರಹ ಅನ್ವೇಷಿಸಿ.',
-      subMobile: 'ನಮ್ಮ ಪುಸ್ತಕ ಮೇಳದಲ್ಲಿ ವೈದಿಕ ಸಾಹಿತ್ಯ ಮತ್ತು ಗ್ರಂಥಗಳು.',
-      cta: 'ಪುಸ್ತಕ ಮೇಳ ಭೇಟಿ', ctaHref: '/activities/book-fair',
+      sub: 'ವೈದಿಕ ಸಾಹಿತ್ಯ, ಆಧ್ಯಾತ್ಮಿಕ ಗ್ರಂಥಗಳು ಮತ್ತು ಸ್ವ-ಸಹಾಯ ಪುಸ್ತಕಗಳ ಸಮೃದ್ಧ ಸಂಗ್ರಹ ಅನ್ವೇಷಿಸಿ — ಆನ್‌ಲೈನ್ ಓದಿ ಅಥವಾ ಖರೀದಿಸಿ.',
+      subMobile: 'ಓದಲು ಅಥವಾ ಖರೀದಿಸಲು ವೈದಿಕ ಸಾಹಿತ್ಯ ಮತ್ತು ಗ್ರಂಥಗಳು.',
+      cta: 'ನಮ್ಮ ಸಾಹಿತ್ಯ ನೋಡಿ', ctaHref: '/literature',
     },
   },
   {
@@ -190,7 +190,7 @@ const SLIDES = [
   },
   {
     id: 'contact',
-    image: '/assets/homepage/hero/gayatri-maa.png',
+    image: '/assets/homepage/hero/hero1.png',
     imageMobile: '/assets/mobile_imgs/contact.png',
     en: {
       eyebrow: 'Reach Out to Us',
@@ -303,6 +303,21 @@ export default function Hero() {
           <h1 className="hero__title">{d.title}</h1>
           {d.sub && <p className="hero__sub hero__sub--full">{d.sub}</p>}
           {d.subMobile && <p className="hero__sub hero__sub--mob">{d.subMobile}</p>}
+
+          {/* Gold diamond divider — the ownable "light from a single point" motif */}
+          <div className="hero__divider" aria-hidden="true">
+            <span className="hero__divider-line hero__divider-line--l" />
+            <span className="hero__divider-diamond" />
+            <span className="hero__divider-line hero__divider-line--r" />
+          </div>
+
+          {/* Brand anchor line — fixed Devanagari mantra, in the quote serif */}
+          {active.id === 'home' && (
+            <p className="hero__mantra" lang="hi">
+              हम बदलेंगे, युग बदलेगा | हम सुधरेंगे, युग सुधरेगा |
+            </p>
+          )}
+
           <div className="hero__actions">
             <Link href={d.ctaHref} className="btn btn-primary hero__cta">{d.cta}</Link>
             {d.cta2 && (

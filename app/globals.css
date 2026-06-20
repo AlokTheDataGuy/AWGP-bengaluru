@@ -127,7 +127,7 @@
   --radius:        0;       /* square corners site-wide */
   --radius-sm:     0;       /* (gallery keeps its own rounding) */
   --radius-lg:     0;
-  --nav-h:         72px;
+  --nav-h:         96px;
 
   /* Shadows */
   --shadow-sm:     0 2px 12px rgba(58,50,43,0.08);
@@ -173,7 +173,7 @@ p  { color: var(--text-mid); line-height: 1.75; }
 a  { color: var(--saffron); text-decoration: none; transition: color 0.2s; }
 a:hover { color: var(--maroon); }
 
-/* ── Scrollbar ── */
+/* ── Scrollbar ── */ 
 ::-webkit-scrollbar       { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--cream-2); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 0; }

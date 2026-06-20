@@ -1,0 +1,150 @@
+{
+  "highlights": [
+    {
+      "id": "deepyagya-2026",
+      "image": "/assets/misc/deepyagya.jpg",
+      "date": "2026-06-08",
+      "tag": { "en": "Yagya", "hi": "यज्ञ", "kn": "ಯಜ್ಞ" },
+      "title": {
+        "en": "1000-Lamp Deep Yagya Lights Up the Kendra",
+        "hi": "केंद्र में दीप यज्ञ — एक हजार दीप जगमगाए",
+        "kn": "ಕೇಂದ್ರದಲ್ಲಿ ಸಾವಿರ ದೀಪಗಳ ದೀಪ ಯಜ್ಞ"
+      },
+      "blurb": {
+        "en": "Hundreds of families gathered as a thousand lamps were lit together in a moving evening of collective prayer.",
+        "hi": "सैकड़ों परिवार एकत्र हुए और सामूहिक प्रार्थना की भावपूर्ण संध्या में एक हजार दीप एक साथ प्रज्वलित किए गए।",
+        "kn": "ನೂರಾರು ಕುಟುಂಬಗಳು ಸೇರಿ, ಸಾಮೂಹಿಕ ಪ್ರಾರ್ಥನೆಯ ಭಾವಪೂರ್ಣ ಸಂಜೆಯಲ್ಲಿ ಸಾವಿರ ದೀಪಗಳನ್ನು ಒಟ್ಟಿಗೆ ಬೆಳಗಿಸಲಾಯಿತು."
+      }
+    },
+    {
+      "id": "tree-drive-2026",
+      "image": "/assets/activities/tree-plantation.jpg",
+      "date": "2026-06-05",
+      "tag": { "en": "Seva", "hi": "सेवा", "kn": "ಸೇವೆ" },
+      "title": {
+        "en": "World Environment Day: 500 Saplings Planted",
+        "hi": "विश्व पर्यावरण दिवस: 500 पौधे रोपे गए",
+        "kn": "ವಿಶ್ವ ಪರಿಸರ ದಿನ: 500 ಸಸಿಗಳ ನೆಡುವಿಕೆ"
+      },
+      "blurb": {
+        "en": "Volunteers and students came together to plant and pledge to nurture 500 native saplings across the city.",
+        "hi": "स्वयंसेवकों और विद्यार्थियों ने मिलकर शहर भर में 500 देशी पौधे लगाए और उनके पोषण का संकल्प लिया।",
+        "kn": "ಸ್ವಯಂಸೇವಕರು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳು ಒಟ್ಟಾಗಿ ನಗರದಾದ್ಯಂತ 500 ದೇಶೀಯ ಸಸಿಗಳನ್ನು ನೆಟ್ಟು ಪೋಷಿಸುವ ಪ್ರತಿಜ್ಞೆ ಮಾಡಿದರು."
+      }
+    },
+    {
+      "id": "yuva-shivir-2026",
+      "image": "/assets/programs/workshops.jpg",
+      "date": "2026-05-18",
+      "tag": { "en": "Shivir", "hi": "शिविर", "kn": "ಶಿಬಿರ" },
+      "title": {
+        "en": "Youth Personality-Development Shivir Draws 200",
+        "hi": "युवा व्यक्तित्व-विकास शिविर में 200 सहभागी",
+        "kn": "ಯುವ ವ್ಯಕ್ತಿತ್ವ-ವಿಕಸನ ಶಿಬಿರಕ್ಕೆ 200 ಮಂದಿ"
+      },
+      "blurb": {
+        "en": "A two-day residential shivir guided young participants through time management, focus and stress-free living.",
+        "hi": "दो दिवसीय आवासीय शिविर ने युवा सहभागियों को समय प्रबंधन, एकाग्रता और तनावमुक्त जीवन का मार्गदर्शन दिया।",
+        "kn": "ಎರಡು ದಿನಗಳ ವಸತಿ ಶಿಬಿರವು ಯುವ ಸಹಭಾಗಿಗಳಿಗೆ ಸಮಯ ನಿರ್ವಹಣೆ, ಏಕಾಗ್ರತೆ ಮತ್ತು ಒತ್ತಡ-ಮುಕ್ತ ಜೀವನದ ಮಾರ್ಗದರ್ಶನ ನೀಡಿತು."
+      }
+    },
+    {
+      "id": "book-fair-2026",
+      "image": "/assets/activities/book-fair.jpg",
+      "date": "2026-04-28",
+      "tag": { "en": "Book Fair", "hi": "पुस्तक मेला", "kn": "ಪುಸ್ತಕ ಮೇಳ" },
+      "title": {
+        "en": "Yug Sahitya Book Fair Returns to Bengaluru",
+        "hi": "युग साहित्य पुस्तक मेला बेंगलूरु में पुनः",
+        "kn": "ಯುಗ ಸಾಹಿತ್ಯ ಪುಸ್ತಕ ಮೇಳ ಬೆಂಗಳೂರಿಗೆ ಮರಳಿದೆ"
+      },
+      "blurb": {
+        "en": "Thousands of visitors explored Gurudev's literature in Kannada, Hindi and English at the annual fair.",
+        "hi": "वार्षिक मेले में हजारों आगंतुकों ने कन्नड़, हिंदी और अंग्रेज़ी में गुरुदेव का साहित्य देखा-पढ़ा।",
+        "kn": "ವಾರ್ಷಿಕ ಮೇಳದಲ್ಲಿ ಸಾವಿರಾರು ಭೇಟಿಗಾರರು ಕನ್ನಡ, ಹಿಂದಿ ಮತ್ತು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಗುರುದೇವರ ಸಾಹಿತ್ಯವನ್ನು ವೀಕ್ಷಿಸಿದರು."
+      }
+    },
+    {
+      "id": "gau-seva-2026",
+      "image": "/assets/activities/gau-seva.jpg",
+      "date": "2026-04-12",
+      "tag": { "en": "Gau Seva", "hi": "गौ सेवा", "kn": "ಗೌ ಸೇವೆ" },
+      "title": {
+        "en": "Gau Seva Day at the Kendra Gaushala",
+        "hi": "केंद्र गौशाला में गौ सेवा दिवस",
+        "kn": "ಕೇಂದ್ರ ಗೋಶಾಲೆಯಲ್ಲಿ ಗೌ ಸೇವಾ ದಿನ"
+      },
+      "blurb": {
+        "en": "Families spent the morning feeding and caring for cows, sharing the joy of seva with their children.",
+        "hi": "परिवारों ने सुबह गायों को चारा खिलाते और उनकी देखभाल करते हुए बिताई, बच्चों के साथ सेवा का आनंद बाँटा।",
+        "kn": "ಕುಟುಂಬಗಳು ಬೆಳಗ್ಗೆ ಗೋವುಗಳಿಗೆ ಆಹಾರ ನೀಡಿ ಆರೈಕೆ ಮಾಡುತ್ತಾ, ಮಕ್ಕಳೊಂದಿಗೆ ಸೇವೆಯ ಆನಂದ ಹಂಚಿಕೊಂಡರು."
+      }
+    },
+    {
+      "id": "akhand-jap-2026",
+      "image": "/assets/programs/akhand-jap.jpeg",
+      "date": "2026-03-30",
+      "tag": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+      "title": {
+        "en": "24-Hour Akhand Jap Observed with Devotion",
+        "hi": "24 घंटे का अखंड जप श्रद्धापूर्वक सम्पन्न",
+        "kn": "24 ಗಂಟೆಗಳ ಅಖಂಡ ಜಪ ಭಕ್ತಿಯಿಂದ ನೆರವೇರಿತು"
+      },
+      "blurb": {
+        "en": "Sadhaks took turns through the day and night to keep the Gayatri Mantra unbroken for a full day.",
+        "hi": "साधकों ने दिन-रात बारी-बारी से गायत्री मंत्र को पूरे एक दिन तक अखंड बनाए रखा।",
+        "kn": "ಸಾಧಕರು ಹಗಲು-ರಾತ್ರಿ ಸರದಿಯಂತೆ ಗಾಯತ್ರಿ ಮಂತ್ರವನ್ನು ಪೂರ್ಣ ದಿನ ಅಖಂಡವಾಗಿ ಉಳಿಸಿದರು."
+      }
+    }
+  ],
+  "press": [
+    {
+      "id": "clip-deepyagya",
+      "image": "/assets/misc/deepyagya1.jpg",
+      "publication": { "en": "Deccan Herald", "hi": "डेक्कन हेराल्ड", "kn": "ಡೆಕ್ಕನ್ ಹೆರಾಲ್ಡ್" },
+      "date": "2026-06-09",
+      "headline": {
+        "en": "Thousand lamps glow as city marks collective Deep Yagya",
+        "hi": "सामूहिक दीप यज्ञ में जगमगाए एक हजार दीप",
+        "kn": "ಸಾಮೂಹಿಕ ದೀಪ ಯಜ್ಞದಲ್ಲಿ ಬೆಳಗಿದ ಸಾವಿರ ದೀಪಗಳು"
+      },
+      "url": ""
+    },
+    {
+      "id": "clip-environment",
+      "image": "/assets/activities/tree-plantation1.jpg",
+      "publication": { "en": "The Hindu", "hi": "द हिंदू", "kn": "ದಿ ಹಿಂದೂ" },
+      "date": "2026-06-06",
+      "headline": {
+        "en": "Volunteers green the city on World Environment Day",
+        "hi": "विश्व पर्यावरण दिवस पर स्वयंसेवकों ने शहर को हरा-भरा किया",
+        "kn": "ವಿಶ್ವ ಪರಿಸರ ದಿನದಂದು ನಗರವನ್ನು ಹಸಿರಾಗಿಸಿದ ಸ್ವಯಂಸೇವಕರು"
+      },
+      "url": ""
+    },
+    {
+      "id": "clip-bookfair",
+      "image": "/assets/activities/book-fair1.jpg",
+      "publication": { "en": "Vijaya Karnataka", "hi": "विजय कर्नाटक", "kn": "ವಿಜಯ ಕರ್ನಾಟಕ" },
+      "date": "2026-04-29",
+      "headline": {
+        "en": "Yug Sahitya fair draws thousands of young readers",
+        "hi": "युग साहित्य मेले में उमड़े हजारों युवा पाठक",
+        "kn": "ಯುಗ ಸಾಹಿತ್ಯ ಮೇಳಕ್ಕೆ ಸಾವಿರಾರು ಯುವ ಓದುಗರು"
+      },
+      "url": ""
+    },
+    {
+      "id": "clip-shivir",
+      "image": "/assets/programs/workshops1.jpg",
+      "publication": { "en": "Prajavani", "hi": "प्रजावाणी", "kn": "ಪ್ರಜಾವಾಣಿ" },
+      "date": "2026-05-20",
+      "headline": {
+        "en": "Youth shivir teaches stress-free living the Gayatri way",
+        "hi": "युवा शिविर ने सिखाया गायत्री पद्धति से तनावमुक्त जीवन",
+        "kn": "ಯುವ ಶಿಬಿರ ಗಾಯತ್ರಿ ಮಾರ್ಗದ ಒತ್ತಡ-ಮುಕ್ತ ಜೀವನ ಕಲಿಸಿತು"
+      },
+      "url": ""
+    }
+  ]
+}

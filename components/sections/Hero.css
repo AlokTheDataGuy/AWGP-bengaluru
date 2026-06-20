@@ -145,6 +145,43 @@
   animation-delay: 0.24s;
 }
 
+/* Gold diamond divider — line · ◆ · line, radiating from a centre point */
+.hero__divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 240px;
+  margin-bottom: 1.4rem;
+  animation: heroRise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.3s;
+}
+.hero__divider-line {
+  height: 1.5px;
+  flex: 1;
+}
+.hero__divider-line--l { background: linear-gradient(to right, transparent, var(--gold)); }
+.hero__divider-line--r { background: linear-gradient(to left,  transparent, var(--gold)); }
+.hero__divider-diamond {
+  width: 9px;
+  height: 9px;
+  background: var(--gold);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* Brand anchor mantra — Reforma italic, gold */
+.hero__mantra {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--gold-lt);
+  margin-bottom: 2rem;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.3);
+  animation: heroRise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.32s;
+}
+
 .hero__actions {
   display: flex;
   align-items: center;
@@ -300,6 +337,8 @@
   .hero__eyebrow,
   .hero__title,
   .hero__sub,
+  .hero__divider,
+  .hero__mantra,
   .hero__actions { animation: none; }
   .hero__bg { transition: opacity 0.4s linear; }
 }
@@ -347,7 +386,12 @@
   .hero__title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
   .hero__sub {
     font-size: 0.98rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .hero__divider { width: 180px; margin-bottom: 1.1rem; }
+  .hero__mantra {
+    font-size: 1rem;
+    margin-bottom: 1.6rem;
   }
   .hero__actions { width: 100%; }
   .hero__cta {

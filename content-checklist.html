@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AWGP Bengaluru — Content Collection Checklist (Next.js site)</title>
+<style>
+  :root{
+    --maroon:#8B1E1E; --maroon-deep:#6E1414; --gold:#C9A227; --saffron:#E8943B;
+    --cream:#F7F1E5; --ink:#2B221E; --sage:#5E7367; --line:#E4D9C4;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+    background:var(--cream); color:var(--ink); line-height:1.55;
+  }
+  header{
+    background:linear-gradient(135deg,var(--maroon) 0%,var(--maroon-deep) 100%);
+    color:var(--cream); padding:28px 24px 22px;
+  }
+  header h1{margin:0 0 6px; font-size:24px; font-weight:700;}
+  header p{margin:0; opacity:.85; font-size:14px;}
+  .wrap{max-width:980px; margin:0 auto; padding:24px 18px 80px;}
+  .progress-bar-outer{
+    position:sticky; top:0; z-index:50; background:var(--cream);
+    border-bottom:1px solid var(--line); padding:14px 18px;
+  }
+  .progress-bar-inner{max-width:980px; margin:0 auto;}
+  .progress-track{height:10px; background:var(--line); border-radius:6px; overflow:hidden;}
+  .progress-fill{height:100%; background:linear-gradient(90deg,var(--gold),var(--saffron)); width:0%; transition:width .25s;}
+  .progress-label{font-size:13px; margin-top:6px; display:flex; justify-content:space-between; color:var(--ink);}
+  .toolbar{display:flex; gap:10px; flex-wrap:wrap; margin:16px 0;}
+  .toolbar button{
+    border:1px solid var(--maroon); background:#fff; color:var(--maroon);
+    padding:8px 14px; border-radius:8px; font-size:13px; cursor:pointer; font-weight:600;
+  }
+  .toolbar button:hover{background:var(--maroon); color:#fff;}
+  .note-box{
+    background:#fff; border:1px solid var(--line); border-left:4px solid var(--gold);
+    border-radius:8px; padding:14px 16px; font-size:14px; margin:18px 0;
+  }
+  .note-box b{color:var(--maroon);}
+  details.section{
+    background:#fff; border:1px solid var(--line); border-radius:10px;
+    margin-bottom:14px; overflow:hidden;
+  }
+  details.section[open] summary{border-bottom:1px solid var(--line);}
+  summary{
+    padding:14px 18px; cursor:pointer; font-weight:700; font-size:16px;
+    color:var(--maroon); display:flex; align-items:center; justify-content:space-between;
+    list-style:none;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary .sec-count{
+    font-size:12px; font-weight:600; color:var(--sage); background:var(--cream);
+    border:1px solid var(--line); border-radius:20px; padding:3px 10px; margin-left:10px;
+  }
+  .section-body{padding:6px 18px 16px;}
+  .section-desc{font-size:13.5px; color:#564a3f; margin:4px 0 14px;}
+  .priority{
+    display:inline-block; font-size:10.5px; font-weight:700; text-transform:uppercase;
+    letter-spacing:.05em; border-radius:4px; padding:2px 7px; margin-left:8px; vertical-align:middle;
+  }
+  .priority.urgent{background:#fbe1e1; color:#a31515;}
+  .priority.build{background:#e1ecfb; color:#1a4a8b;}
+  .priority.verify{background:#fff3d6; color:#8a6d00;}
+  .priority.new{background:#e3f3e3; color:#1f6e30;}
+  .subgroup{
+    border:1px solid var(--line); border-radius:8px; margin:10px 0; padding:10px 14px;
+    background:#fffdf9;
+  }
+  .subgroup h4{margin:0 0 4px; font-size:14.5px; color:var(--ink); display:flex; align-items:center; flex-wrap:wrap; gap:4px;}
+  .item{display:flex; align-items:flex-start; gap:10px; padding:6px 2px; font-size:14px;}
+  .item input[type=checkbox]{
+    margin-top:3px; width:17px; height:17px; accent-color:var(--maroon); cursor:pointer; flex-shrink:0;
+  }
+  .item label{cursor:pointer;}
+  .item.done label{color:#8b8378; text-decoration:line-through;}
+  .field-path{
+    font-family:'SFMono-Regular',Consolas,monospace; font-size:11.5px; color:var(--sage);
+    background:var(--cream); border-radius:4px; padding:1px 5px; margin-left:4px;
+  }
+  footer{text-align:center; font-size:12px; color:#8b8378; padding:30px 0 10px;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AWGP Bengaluru — Content Collection Checklist</h1>
+  <p>For the live Next.js site (<code>awgp-next-snapshot</code>). Tracks every piece of real-world text/image/link content still needed before launch. Full Sanskar ceremony content is already finalized — only a book link and YouTube link are needed per Sanskar.</p>
+</header>
+
+<div class="progress-bar-outer">
+  <div class="progress-bar-inner">
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-label"><span id="progressText">0 / 0 complete</span><span id="progressPct">0%</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="toolbar">
+    <button onclick="setAll(true)">Mark all done</button>
+    <button onclick="setAll(false)">Reset all</button>
+    <button onclick="expandAll(true)">Expand all sections</button>
+    <button onclick="expandAll(false)">Collapse all sections</button>
+  </div>
+
+  <div class="note-box">
+    <b>How to use:</b> Tick a box once that item is collected, written, or verified and handed off for the site to be updated. Progress is saved automatically in this browser (no server needed). Items marked <span class="priority build">build</span> mean the page itself doesn't exist in the codebase yet — content is needed before a developer can even build it. <span class="priority urgent">urgent</span> means current content is stale, fake, or a literal "TODO/coming soon" placeholder. <span class="priority verify">verify</span> means real content already exists — just confirm it's accurate/current. <span class="priority new">new</span> means this is a brand-new field being added (e.g. Sanskar book/video links).
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 1: SANSKARS — book + youtube link only -->
+  <!-- ============================================================ -->
+  <details class="section" open>
+    <summary>1. Sanskars — Book &amp; YouTube link <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">Ceremony content (intro, significance, steps, materials) is already finalized for all 11 Sanskars — <b>do not touch</b>. Only two new fields are being added per Sanskar: a recommended book link and a YouTube video link, to be inserted into <span class="field-path">data/sanskars.json</span> and rendered on <span class="field-path">app/[locale]/sanskars/[slug]/page.jsx</span>.</p>
+      <!-- sanskars generated -->
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 2: ABOUT RESTRUCTURE -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>2. About Section — split into 3 pages <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">Restructure the single About area into three real pages: <b>About Us</b>, <b>Our Initiatives</b>, and <b>Chetna Kendra</b>. The first two already have dedicated routes (<span class="field-path">app/[locale]/about</span>, <span class="field-path">app/[locale]/initiatives</span>) with substantial real content — these are mostly verification tasks. Chetna Kendra already has a route too (<span class="field-path">app/[locale]/chetna-kendra</span>) with 6 facilities + daily schedule, but is missing inauguration content.</p>
+
+      <div class="subgroup">
+        <h4>About Us <span class="priority verify">verify</span></h4>
+        <div class="item"><input type="checkbox" id="about-1"><label for="about-1">Confirm "Our Founders" copy (Gurudev &amp; Mataji bios) is accurate and approved for this chapter</label></div>
+        <div class="item"><input type="checkbox" id="about-2"><label for="about-2">Add/confirm current Bengaluru chapter leadership names &amp; roles (not just Gurudev/Mataji historically)</label></div>
+        <div class="item"><input type="checkbox" id="about-3"><label for="about-3">Confirm AWGP &amp; Shantikunj Haridwar relationship paragraph (parent-org framing) is accurate</label></div>
+        <div class="item"><input type="checkbox" id="about-4"><label for="about-4">Confirm Bengaluru-specific founding facts (year founded, what makes this chapter distinct)</label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Our Initiatives <span class="priority verify">verify</span></h4>
+        <div class="item"><input type="checkbox" id="init-1"><label for="init-1">Confirm Mission statement wording</label></div>
+        <div class="item"><input type="checkbox" id="init-2"><label for="init-2">Confirm Vision statement wording</label></div>
+        <div class="item"><input type="checkbox" id="init-3"><label for="init-3">Confirm Yug Nirman Yojana description</label></div>
+        <div class="item"><input type="checkbox" id="init-4"><label for="init-4">Confirm all 7 Sapt Andolan (Seven Movements) names &amp; descriptions are current</label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Chetna Kendra <span class="priority urgent">missing piece</span></h4>
+        <div class="item"><input type="checkbox" id="ck-1"><label for="ck-1">Write Inauguration section — date, who inaugurated it, founding story of this specific Kendra (currently absent from the page)</label></div>
+        <div class="item"><input type="checkbox" id="ck-2"><label for="ck-2">Confirm "About Chetna Kendra" overview paragraph</label></div>
+        <div class="item"><input type="checkbox" id="ck-3"><label for="ck-3">Verify Daily Schedule shown on this page matches <span class="field-path">data/schedule.json</span> (see Section 10)</label></div>
+      </div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 3: LITERATURE -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>3. Literature page <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc"><span class="field-path">app/[locale]/literature/page.jsx</span> is essentially complete, including an Akhand Jyoti "Read &amp; Subscribe" feature that already links to <span class="field-path">literature.awgp.org/magazine/akhandjyoti</span>. This is a verification task, not a build task.</p>
+      <div class="item"><input type="checkbox" id="lit-1"><label for="lit-1">Click through the Akhand Jyoti "Read &amp; Subscribe" link on the live site and confirm it loads the correct magazine page</label></div>
+      <div class="item"><input type="checkbox" id="lit-2"><label for="lit-2">Confirm the rest of the book/literature catalogue listed on this page is current and correctly linked</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 4: BLOGS -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>4. Blogs (new section) <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">No blog route exists anywhere in the codebase yet — this is a brand-new top-level section. Display format will likely change later, so for now focus on getting real written content for all 3 placeholder blog posts rather than worrying about layout.</p>
+      <div class="item"><input type="checkbox" id="blog-1"><label for="blog-1">Write real content for Blog Post 1 <span class="priority build">build</span></label></div>
+      <div class="item"><input type="checkbox" id="blog-2"><label for="blog-2">Write real content for Blog Post 2 <span class="priority build">build</span></label></div>
+      <div class="item"><input type="checkbox" id="blog-3"><label for="blog-3">Write real content for Blog Post 3 <span class="priority build">build</span></label></div>
+      <div class="item"><input type="checkbox" id="blog-4"><label for="blog-4">Decide on author name/byline convention for blog posts (e.g. "AWGP Bengaluru Team" vs named author)</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 5: GALLERY -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>5. Gallery (new section) <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">No dedicated <span class="field-path">/gallery</span> route exists. Plan: a timeline-style gallery page with roughly 10 photos per year, going back to 2017. Homepage components named <span class="field-path">HomeGallery.jsx</span> / <span class="field-path">GalleryStrip.jsx</span> already exist — check those first for reusable photos before sourcing new ones.</p>
+      <div class="item"><input type="checkbox" id="gal-0"><label for="gal-0">Review existing <span class="field-path">HomeGallery.jsx</span> / <span class="field-path">GalleryStrip.jsx</span> photo sets for images that can be reused on the Gallery page</label></div>
+      <div class="item"><input type="checkbox" id="gal-2017"><label for="gal-2017">Collect 10 photos — 2017</label></div>
+      <div class="item"><input type="checkbox" id="gal-2018"><label for="gal-2018">Collect 10 photos — 2018</label></div>
+      <div class="item"><input type="checkbox" id="gal-2019"><label for="gal-2019">Collect 10 photos — 2019</label></div>
+      <div class="item"><input type="checkbox" id="gal-2020"><label for="gal-2020">Collect 10 photos — 2020</label></div>
+      <div class="item"><input type="checkbox" id="gal-2021"><label for="gal-2021">Collect 10 photos — 2021</label></div>
+      <div class="item"><input type="checkbox" id="gal-2022"><label for="gal-2022">Collect 10 photos — 2022</label></div>
+      <div class="item"><input type="checkbox" id="gal-2023"><label for="gal-2023">Collect 10 photos — 2023</label></div>
+      <div class="item"><input type="checkbox" id="gal-2024"><label for="gal-2024">Collect 10 photos — 2024</label></div>
+      <div class="item"><input type="checkbox" id="gal-2025"><label for="gal-2025">Collect 10 photos — 2025</label></div>
+      <div class="item"><input type="checkbox" id="gal-2026"><label for="gal-2026">Collect 10 photos — 2026 (year to date)</label></div>
+      <div class="item"><input type="checkbox" id="gal-cap"><label for="gal-cap">Write a one-line caption per photo (or per year, if captioning individually isn't feasible)</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 6: HOMEPAGE -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>6. Homepage sections <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc"><span class="field-path">app/[locale]/page.jsx</span> renders 11 section components. Their content hasn't been fully audited yet — verify each for stale/placeholder copy.</p>
+      <div class="item"><input type="checkbox" id="home-1"><label for="home-1">Hero — tagline, title, subtitle, CTA destination</label></div>
+      <div class="item"><input type="checkbox" id="home-2"><label for="home-2">HomeWelcome — intro copy</label></div>
+      <div class="item"><input type="checkbox" id="home-3"><label for="home-3">HomePillars — pillar titles/descriptions</label></div>
+      <div class="item"><input type="checkbox" id="home-4"><label for="home-4">HomeCards — card titles/descriptions/links</label></div>
+      <div class="item"><input type="checkbox" id="home-5"><label for="home-5">HomeStats — verify real numbers (member families, weekly programs, years of service, etc.)</label></div>
+      <div class="item"><input type="checkbox" id="home-6"><label for="home-6">HomeEvents — confirm it's pulling live/current events once Section 9 is fixed</label></div>
+      <div class="item"><input type="checkbox" id="home-7"><label for="home-7">HomeChetna — confirm copy matches the restructured Chetna Kendra page (Section 2)</label></div>
+      <div class="item"><input type="checkbox" id="home-8"><label for="home-8">GalleryStrip — confirm photos are real Bengaluru-Kendra photos, not generic/Shantikunj stock</label></div>
+      <div class="item"><input type="checkbox" id="home-9"><label for="home-9">HomeContact — confirm contact snippet matches Contact page (Section 11)</label></div>
+      <div class="item"><input type="checkbox" id="home-10"><label for="home-10">HomeCTA — confirm call-to-action text/destination</label></div>
+      <div class="item"><input type="checkbox" id="home-11"><label for="home-11">HomeGallery — confirm photos shown are current and consistent with the new Gallery page (Section 5)</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 7: SANYAM / SEVA / SWADHYAYA -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>7. Sanyam, Seva, Swadhyaya — fully unbuilt pages <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">All three pages currently render only a "TODO — coming soon" placeholder in all 3 languages. These need full content written from scratch, the same as a Program page (title, subtitle, intro paragraph, 4-6 points, schedule if applicable) — and since each is its own dedicated page, each also needs a recommended book link and a YouTube video link per the site-wide "big reading topic" rule.</p>
+
+      <div class="subgroup">
+        <h4>Sanyam <span class="priority urgent">TODO placeholder</span></h4>
+        <div class="item"><input type="checkbox" id="sanyam-1"><label for="sanyam-1">Title, subtitle, intro paragraph (EN/HI/KN)</label></div>
+        <div class="item"><input type="checkbox" id="sanyam-2"><label for="sanyam-2">4-6 bullet points on what Sanyam practice involves</label></div>
+        <div class="item"><input type="checkbox" id="sanyam-3"><label for="sanyam-3">Schedule, if Sanyam is held at a fixed time at this Kendra</label></div>
+        <div class="item"><input type="checkbox" id="sanyam-4"><label for="sanyam-4">Recommended book link <span class="priority new">new</span></label></div>
+        <div class="item"><input type="checkbox" id="sanyam-5"><label for="sanyam-5">YouTube video link <span class="priority new">new</span></label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Seva <span class="priority urgent">TODO placeholder</span></h4>
+        <div class="item"><input type="checkbox" id="seva-1"><label for="seva-1">Title, subtitle, intro paragraph (EN/HI/KN)</label></div>
+        <div class="item"><input type="checkbox" id="seva-2"><label for="seva-2">4-6 bullet points on Seva activities/philosophy</label></div>
+        <div class="item"><input type="checkbox" id="seva-3"><label for="seva-3">Schedule, if applicable</label></div>
+        <div class="item"><input type="checkbox" id="seva-4"><label for="seva-4">Recommended book link <span class="priority new">new</span></label></div>
+        <div class="item"><input type="checkbox" id="seva-5"><label for="seva-5">YouTube video link <span class="priority new">new</span></label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Swadhyaya <span class="priority urgent">TODO placeholder</span></h4>
+        <div class="item"><input type="checkbox" id="swa-1"><label for="swa-1">Title, subtitle, intro paragraph (EN/HI/KN)</label></div>
+        <div class="item"><input type="checkbox" id="swa-2"><label for="swa-2">4-6 bullet points on Swadhyaya practice</label></div>
+        <div class="item"><input type="checkbox" id="swa-3"><label for="swa-3">Schedule, if applicable</label></div>
+        <div class="item"><input type="checkbox" id="swa-4"><label for="swa-4">Recommended book link <span class="priority new">new</span></label></div>
+        <div class="item"><input type="checkbox" id="swa-5"><label for="swa-5">YouTube video link <span class="priority new">new</span></label></div>
+      </div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 8: PROGRAMS, SADHANA, ACTIVITIES -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>8. Programs, Sadhana &amp; Activities — verify + add book/video links <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">Content in <span class="field-path">data/programs.json</span>, <span class="field-path">data/sadhana.json</span>, and <span class="field-path">data/activities.json</span> is overwhelmingly complete and detailed — these are mostly verification tasks, not fresh-content tasks. Two confirmed exceptions need real content from scratch. Every one of these is a "big reading topic" with its own page, so each also gets a new book link + YouTube link field.</p>
+
+      <div class="subgroup">
+        <h4>Programs index <span class="priority verify">verify</span></h4>
+        <div class="item"><input type="checkbox" id="prog-sadhana"><label for="prog-sadhana">Sadhana — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="prog-meditation"><label for="prog-meditation">Meditation — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="prog-workshops"><label for="prog-workshops">Workshops — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="prog-yoga"><label for="prog-yoga">Yoga — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="prog-festivals"><label for="prog-festivals">Festivals — confirm which of the 13 listed festivals are actually celebrated at this Kendra; add specific 2026 dates where known</label></div>
+        <div class="item"><input type="checkbox" id="prog-bss"><label for="prog-bss">Bal Sanskar Shala — confirm schedule/fee status is current + add book/video links</label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Sadhana sub-programs <span class="priority verify">verify</span></h4>
+        <div class="item"><input type="checkbox" id="sad-akhandjap"><label for="sad-akhandjap">Akhand Jap — verify schedule is real/current + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="sad-matajijap"><label for="sad-matajijap">Mataji Jap — verify schedule is real/current + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="sad-anusthan"><label for="sad-anusthan">Anusthan — verify schedule is real/current + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="sad-antahurja"><label for="sad-antahurja">Antah Urja Jagran — verify schedule is real/current + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="sad-chandrayaan"><label for="sad-chandrayaan">Chandrayaan Kalp — verify schedule is real/current + add book/video links</label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Activities <span class="priority verify">verify</span></h4>
+        <div class="item"><input type="checkbox" id="act-blood"><label for="act-blood">Blood Donation — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-tree"><label for="act-tree">Tree Plantation — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-food"><label for="act-food">Food &amp; Cloth Distribution — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-tours"><label for="act-tours">Tours — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-funsports"><label for="act-funsports">Fun &amp; Sports — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-bsgp"><label for="act-bsgp">BSGP — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-hospital"><label for="act-hospital">Hospital Volunteering — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-bookfair"><label for="act-bookfair">Book Fair — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-gauseva"><label for="act-gauseva">Gau Seva — verify content + add book/video links</label></div>
+        <div class="item"><input type="checkbox" id="act-jap"><label for="act-jap">Jap — write real intro paragraph + points (currently a literal "TODO ... coming soon" placeholder) + add book/video links <span class="priority urgent">TODO placeholder</span></label></div>
+      </div>
+
+      <div class="subgroup">
+        <h4>Event types <span class="priority urgent">2 TODO entries</span></h4>
+        <div class="item"><input type="checkbox" id="et-anusthan"><label for="et-anusthan">Anusthan entry in <span class="field-path">data/event-types.json</span> is a TODO placeholder, even though a fuller "anusthan" already exists in <span class="field-path">data/sadhana.json</span> — reconcile/copy real content over</label></div>
+        <div class="item"><input type="checkbox" id="et-akhandjap"><label for="et-akhandjap">Akhand Jap entry in <span class="field-path">data/event-types.json</span> is a TODO placeholder, even though a fuller "akhandjap" already exists in <span class="field-path">data/sadhana.json</span> — reconcile/copy real content over</label></div>
+        <div class="item"><input type="checkbox" id="et-yagya"><label for="et-yagya">Confirm all 5 Yagya types (9-Kundi, 5-Kundi, 3-Kundi, 24-Kundi, Volunteer Home Yagya) descriptions are accurate</label></div>
+      </div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 9: EVENTS CALENDAR -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>9. Upcoming Events calendar <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc"><span class="field-path">data/events.json</span> currently has only 3 entries, all dated 2025 — every one is now in the past (today is June 2026). This is a living list that needs an actual current/upcoming events calendar, and should be revisited regularly going forward, not treated as a one-time fix.</p>
+      <div class="item"><input type="checkbox" id="ev-1"><label for="ev-1">Replace the 3 stale 2025 events with real upcoming 2026+ events (title, date, location, short description EN/HI/KN) <span class="priority urgent">all 3 are in the past</span></label></div>
+      <div class="item"><input type="checkbox" id="ev-2"><label for="ev-2">Set up a recurring process/owner to keep this list current going forward</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 10: DAILY SCHEDULE -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>10. Daily Schedule board <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc"><span class="field-path">data/schedule.json</span> has specific Morning/Evening/Sunday times already filled in — looks complete, but needs a sanity check against actual current practice.</p>
+      <div class="item"><input type="checkbox" id="sch-1"><label for="sch-1">Confirm Morning schedule times are accurate</label></div>
+      <div class="item"><input type="checkbox" id="sch-2"><label for="sch-2">Confirm Evening schedule times are accurate</label></div>
+      <div class="item"><input type="checkbox" id="sch-3"><label for="sch-3">Confirm Sunday schedule times are accurate</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 11: CONTACT -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>11. Contact page <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">Most core details look real already (address, phone, email, hours, and a real WhatsApp number is now wired into the Sanskars booking flow: <span class="field-path">wa.me/919243755613</span>). The remaining gaps are mostly external links/embeds.</p>
+      <div class="item"><input type="checkbox" id="con-1"><label for="con-1">Confirm address, phone, email, hours are still current</label></div>
+      <div class="item"><input type="checkbox" id="con-2"><label for="con-2">Confirm the WhatsApp number (919243755613) used across the site is the correct, intended public number</label></div>
+      <div class="item"><input type="checkbox" id="con-3"><label for="con-3">Get real Google Maps embed code for the Contact page (Google Maps → Share → Embed a map) <span class="priority urgent">placeholder embed</span></label></div>
+      <div class="item"><input type="checkbox" id="con-4"><label for="con-4">Add real YouTube / Facebook / Instagram links, or confirm none exist yet</label></div>
+      <div class="item"><input type="checkbox" id="con-5"><label for="con-5">Add real nearest Metro station info under "How to Reach" <span class="priority urgent">placeholder text</span></label></div>
+      <div class="item"><input type="checkbox" id="con-6"><label for="con-6">Add real BMTC bus route numbers under "How to Reach" <span class="priority urgent">placeholder text</span></label></div>
+      <div class="item"><input type="checkbox" id="con-7"><label for="con-7">Confirm QR code image(s) (e.g. <span class="field-path">public/assets/misc/qr-code.png</span>) point to the correct destination/group</label></div>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <!-- SECTION 12: CHETNA KENDRA PHOTOS -->
+  <!-- ============================================================ -->
+  <details class="section">
+    <summary>12. Chetna Kendra — photos per facility <span class="sec-count" data-count></span></summary>
+    <div class="section-body">
+      <p class="section-desc">Real photos needed for each named facility/area at the Kendra (used on the Chetna Kendra page and potentially the homepage gallery components).</p>
+      <div class="item"><input type="checkbox" id="ph-1"><label for="ph-1">Gayatri Mata Mandir</label></div>
+      <div class="item"><input type="checkbox" id="ph-2"><label for="ph-2">Library</label></div>
+      <div class="item"><input type="checkbox" id="ph-3"><label for="ph-3">Bhatka Hua Devta</label></div>
+      <div class="item"><input type="checkbox" id="ph-4"><label for="ph-4">Yagyashala</label></div>
+      <div class="item"><input type="checkbox" id="ph-5"><label for="ph-5">Meditation Hall</label></div>
+      <div class="item"><input type="checkbox" id="ph-6"><label for="ph-6">Gaushala</label></div>
+    </div>
+  </details>
+
+</div>
+
+<footer>AWGP Bengaluru content checklist · auto-saves to this browser only · generated for the awgp-next-snapshot codebase</footer>
+
+<script>
+  const SANSKARS = [
+    ["punsavan","Punsavan Sanskar"],
+    ["naamkaran","Naamkaran Sanskar"],
+    ["annaprashan","Annaprashan Sanskar"],
+    ["mundan","Mundan Sanskar"],
+    ["vidyarambh","Vidyarambh Sanskar"],
+    ["yagyopaveet","Yagyopaveet Sanskar"],
+    ["deeksha","Gayatri Deeksha"],
+    ["janm-divas","Janm Divas Sanskar"],
+    ["vivah-divas","Vivah Divas Sanskar"],
+    ["tarpan","Pitru Tarpan"],
+    ["anteysti","Anteysti Sanskar"]
+  ];
+
+  (function buildSanskars(){
+    const container = document.querySelector('details.section .section-body');
+    let html = '';
+    SANSKARS.forEach(([slug, name]) => {
+      html += `<div class="subgroup"><h4>${name} <span class="priority new">new fields</span></h4>
+        <div class="item"><input type="checkbox" id="sk-${slug}-book"><label for="sk-${slug}-book">Recommended book link</label></div>
+        <div class="item"><input type="checkbox" id="sk-${slug}-yt"><label for="sk-${slug}-yt">YouTube video link</label></div>
+      </div>`;
+    });
+    container.insertAdjacentHTML('beforeend', html);
+  })();
+
+  const STORAGE_KEY = 'awgp_checklist_state_v1';
+  function loadState(){ try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch(e){ return {}; } }
+  function saveState(state){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+
+  const checkboxes = () => Array.from(document.querySelectorAll('input[type=checkbox]'));
+
+  function applyState(){
+    const state = loadState();
+    checkboxes().forEach(cb => {
+      cb.checked = !!state[cb.id];
+      cb.closest('.item').classList.toggle('done', cb.checked);
+    });
+    updateProgress();
+    updateSectionCounts();
+  }
+
+  function updateProgress(){
+    const boxes = checkboxes();
+    const total = boxes.length;
+    const done = boxes.filter(b => b.checked).length;
+    const pct = total ? Math.round((done/total)*100) : 0;
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressText').textContent = `${done} / ${total} complete`;
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  function updateSectionCounts(){
+    document.querySelectorAll('details.section').forEach(sec => {
+      const boxes = Array.from(sec.querySelectorAll('input[type=checkbox]'));
+      const done = boxes.filter(b => b.checked).length;
+      const countEl = sec.querySelector('summary .sec-count');
+      if (countEl) countEl.textContent = `${done} / ${boxes.length}`;
+    });
+  }
+
+  document.addEventListener('change', (e) => {
+    if (e.target.matches('input[type=checkbox]')) {
+      const state = loadState();
+      state[e.target.id] = e.target.checked;
+      saveState(state);
+      e.target.closest('.item').classList.toggle('done', e.target.checked);
+      updateProgress();
+      updateSectionCounts();
+    }
+  });
+
+  function setAll(value){
+    const state = loadState();
+    checkboxes().forEach(cb => {
+      cb.checked = value;
+      state[cb.id] = value;
+      cb.closest('.item').classList.toggle('done', value);
+    });
+    saveState(state);
+    updateProgress();
+    updateSectionCounts();
+  }
+
+  function expandAll(open){
+    document.querySelectorAll('details.section').forEach(d => d.open = open);
+  }
+
+  applyState();
+</script>
+
+</body>
+</html>

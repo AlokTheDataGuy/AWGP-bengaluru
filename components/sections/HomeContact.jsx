@@ -19,52 +19,60 @@ export default function HomeContact() {
 
         <div className="home-contact__head">
           <span className="home-contact__eyebrow">
-            {L('Visit & Contact Us', 'पधारें एवं संपर्क करें', 'ಭೇಟಿ ಮತ್ತು ಸಂಪರ್ಕ')}
+            {L('Reach Out to Us', 'हमसे संपर्क करें', 'ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ')}
           </span>
           <h2 className="home-contact__title">
-            {L('We Welcome You', 'आपका स्वागत है', 'ನಿಮಗೆ ಸ್ವಾಗತ')}
+            {L('We’d love to hear from you', 'हमें आपसे सुनकर प्रसन्नता होगी', 'ನಿಮ್ಮಿಂದ ಕೇಳಲು ನಾವು ಇಷ್ಟಪಡುತ್ತೇವೆ')}
           </h2>
-          <div className="ornament" aria-hidden="true" />
+          <p className="home-contact__lead">
+            {L(
+              'Whether you want to join our spiritual family, volunteer, or simply visit — our doors are always open.',
+              'चाहे आप हमारे आध्यात्मिक परिवार से जुड़ना चाहें, सेवा करना चाहें, या केवल पधारना चाहें — हमारे द्वार सदैव खुले हैं।',
+              'ನೀವು ನಮ್ಮ ಆಧ್ಯಾತ್ಮಿಕ ಕುಟುಂಬ ಸೇರಲು, ಸೇವೆ ಮಾಡಲು ಅಥವಾ ಸುಮ್ಮನೆ ಭೇಟಿ ನೀಡಲು ಬಯಸಿದರೂ — ನಮ್ಮ ಬಾಗಿಲುಗಳು ಸದಾ ತೆರೆದಿವೆ.',
+            )}
+          </p>
         </div>
 
         <div className="home-contact__grid">
           {/* Left — info panel + social */}
           <div className="home-contact__info">
             <div className="home-contact__panel">
-              <InfoCard
-                icon={<MapPin size={20} />}
-                label={L('Address', 'पता', 'ವಿಳಾಸ')}
-                value="37, Lakshmi Layout Main Rd, Chikka Begur, Begur, Bengaluru – 560114"
-              />
-              <InfoCard
-                icon={<Phone size={20} />}
-                label={L('Phone', 'फ़ोन', 'ದೂರವಾಣಿ')}
-                value="+91 92437 55613"
-                href="tel:+919243755613"
-              />
-              <InfoCard
-                icon={<Mail size={20} />}
-                label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                value="bangalore.ka.in@awgp.org"
-                href="mailto:bangalore.ka.in@awgp.org"
-              />
-              <InfoCard
-                icon={<Clock size={20} />}
-                label={L('Hours', 'समय', 'ಸಮಯ')}
-                value={L('Open Daily: 5:00 AM – 9:00 PM', 'प्रतिदिन: 5:00 AM – 9:00 PM', 'ಪ್ರತಿದಿನ: 5:00 AM – 9:00 PM')}
-              />
-            </div>
+              <div className="home-contact__cards">
+                <InfoCard
+                  icon={<MapPin size={20} />}
+                  label={L('Address', 'पता', 'ವಿಳಾಸ')}
+                  value="37, Lakshmi Layout Main Rd, Chikka Begur, Begur, Bengaluru — 560114"
+                />
+                <InfoCard
+                  icon={<Phone size={20} />}
+                  label={L('Phone', 'फ़ोन', 'ದೂರವಾಣಿ')}
+                  value="+91 92437 55613"
+                  href="tel:+919243755613"
+                />
+                <InfoCard
+                  icon={<Mail size={20} />}
+                  label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
+                  value="bangalore.ka.in@awgp.org"
+                  href="mailto:bangalore.ka.in@awgp.org"
+                />
+                <InfoCard
+                  icon={<Clock size={20} />}
+                  label={L('Hours', 'समय', 'ಸಮಯ')}
+                  value={L('Open Daily: 5:00 AM – 9:00 PM', 'प्रतिदिन: 5:00 AM – 9:00 PM', 'ಪ್ರತಿದಿನ: 5:00 AM – 9:00 PM')}
+                />
+              </div>
 
-            <div className="home-contact__social">
-              <a href="https://www.awgp.org" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
-                <Globe size={18} aria-hidden="true" /> AWGP.org
-              </a>
-              <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
-                <MessageCircle size={18} aria-hidden="true" /> WhatsApp
-              </a>
-              <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
-                <Youtube size={18} aria-hidden="true" /> YouTube
-              </a>
+              <div className="home-contact__social">
+                <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
+                  <MessageCircle size={18} aria-hidden="true" /> WhatsApp
+                </a>
+                <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
+                  <Youtube size={18} aria-hidden="true" /> YouTube
+                </a>
+                <a href="https://www.awgp.org" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
+                  <Globe size={18} aria-hidden="true" /> AWGP.org
+                </a>
+              </div>
             </div>
           </div>
 
@@ -81,7 +89,7 @@ export default function HomeContact() {
               referrerPolicy="no-referrer-when-downgrade"
             />
             <a href={MAP_LINK} target="_blank" rel="noopener noreferrer" className="home-contact__directions">
-              📍 {L('Get Directions', 'दिशा-निर्देश पाएं', 'ದಾರಿ ಪಡೆಯಿರಿ')}
+              {L('Get Directions', 'दिशा-निर्देश पाएं', 'ದಾರಿ ಪಡೆಯಿರಿ')}
             </a>
           </div>
         </div>

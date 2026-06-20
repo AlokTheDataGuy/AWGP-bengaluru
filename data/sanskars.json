@@ -220,10 +220,10 @@
     "slug": "anteysti",
     "heroColor": "linear-gradient(135deg, #1A1A2A 0%, #0A0A14 100%)",
     "heroImage": "/assets/sanskars/anthesyti.jpg",
-    "title":    { "en": "Anteysti Sanskar", "hi": "अंत्येष्टि संस्कार", "kn": "ಅಂತ್ಯೇಷ್ಟಿ ಸಂಸ್ಕಾರ" },
+    "title":    { "en": "Marnottar Sanskar", "hi": "मरणोत्तर संस्कार", "kn": "ಮರಣೋತ್ತರ ಸಂಸ್ಕಾರ" },
     "subtitle": { "en": "The Sacred Last Rites", "hi": "पवित्र अंतिम संस्कार", "kn": "ಪವಿತ್ರ ಅಂತಿಮ ಸಂಸ್ಕಾರ" },
-    "intro":    { "en": "Anteysti is the final Sanskar — the sacred rite of passage that honours the soul's transition from this life. Performed with Vedic mantras and the sacred fire, it brings peace to the departed and comfort to the grieving family.", "hi": "अंत्येष्टि अंतिम संस्कार है — आत्मा के इस जीवन से संक्रमण को सम्मानित करने वाला पवित्र अनुष्ठान।", "kn": "ಅಂತ್ಯೇಷ್ಟಿ ಅಂತಿಮ ಸಂಸ್ಕಾರ — ಆತ್ಮದ ಈ ಜೀವನದಿಂದ ಪರಿವರ್ತನೆಯನ್ನು ಗೌರವಿಸುವ ಪವಿತ್ರ ಆಚರಣೆ." },
-    "significance": { "en": "Death is not an end but a transition. The Anteysti Sanskar, performed with full Vedic ritual, ensures the soul departs in peace — with gratitude, prayers, and the sacred fire as witness.", "hi": "मृत्यु अंत नहीं बल्कि एक संक्रमण है। अंत्येष्टि संस्कार यह सुनिश्चित करता है कि आत्मा शांति से विदा हो।", "kn": "ಮರಣ ಅಂತ್ಯವಲ್ಲ ಬದಲಿಗೆ ಪರಿವರ್ತನೆ. ಅಂತ್ಯೇಷ್ಟಿ ಸಂಸ್ಕಾರ ಆತ್ಮ ಶಾಂತಿಯಿಂದ ವಿದಾಯ ಪಡೆಯುವಂತೆ ಖಾತ್ರಿಗೊಳಿಸುತ್ತದೆ." },
+    "intro":    { "en": "Marnottar is the final Sanskar — the sacred rite of passage that honours the soul's transition from this life. Performed with Vedic mantras and the sacred fire, it brings peace to the departed and comfort to the grieving family.", "hi": "मरणोत्तर अंतिम संस्कार है — आत्मा के इस जीवन से संक्रमण को सम्मानित करने वाला पवित्र अनुष्ठान।", "kn": "ಮರಣೋತ್ತರ ಅಂತಿಮ ಸಂಸ್ಕಾರ — ಆತ್ಮದ ಈ ಜೀವನದಿಂದ ಪರಿವರ್ತನೆಯನ್ನು ಗೌರವಿಸುವ ಪವಿತ್ರ ಆಚರಣೆ." },
+    "significance": { "en": "Death is not an end but a transition. The Marnottar Sanskar, performed with full Vedic ritual, ensures the soul departs in peace — with gratitude, prayers, and the sacred fire as witness.", "hi": "मृत्यु अंत नहीं बल्कि एक संक्रमण है। मरणोत्तर संस्कार यह सुनिश्चित करता है कि आत्मा शांति से विदा हो।", "kn": "ಮರಣ ಅಂತ್ಯವಲ್ಲ ಬದಲಿಗೆ ಪರಿವರ್ತನೆ. ಮರಣೋತ್ತರ ಸಂಸ್ಕಾರ ಆತ್ಮ ಶಾಂತಿಯಿಂದ ವಿದಾಯ ಪಡೆಯುವಂತೆ ಖಾತ್ರಿಗೊಳಿಸುತ್ತದೆ." },
     "steps": [
       { "en": "Preparation and purification of the body", "hi": "शरीर की तैयारी और शुद्धिकरण", "kn": "ದೇಹದ ತಯಾರಿ ಮತ್ತು ಶುದ್ಧೀಕರಣ" },
       { "en": "Vedic prayers and Sankalp", "hi": "वैदिक प्रार्थनाएं और संकल्प", "kn": "ವೈದಿಕ ಪ್ರಾರ್ಥನೆಗಳು ಮತ್ತು ಸಂಕಲ್ಪ" },
@@ -235,6 +235,6 @@
       { "en": "Gangajal (holy water)", "hi": "गंगाजल (पवित्र जल)", "kn": "ಗಂಗಾಜಲ (ಪವಿತ್ರ ಜಲ)" }
     ],
     "ctaTitle": { "en": "We Are Here to Help", "hi": "हम मदद के लिए यहाँ हैं", "kn": "ನಾವು ಸಹಾಯಕ್ಕಾಗಿ ಇಲ್ಲಿದ್ದೇವೆ" },
-    "ctaDesc":  { "en": "Our volunteers perform Anteysti with full Vedic rituals. Contact us at any time.", "hi": "हमारे स्वयंसेवक पूर्ण वैदिक अनुष्ठान के साथ अंत्येष्टि करते हैं।", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ಸಂಪೂರ್ಣ ವೈದಿಕ ಆಚರಣೆಯೊಂದಿಗೆ ಅಂತ್ಯೇಷ್ಟಿ ನಡೆಸುತ್ತಾರೆ." }
+    "ctaDesc":  { "en": "Our volunteers perform Marnottar with full Vedic rituals. Contact us at any time.", "hi": "हमारे स्वयंसेवक पूर्ण वैदिक अनुष्ठान के साथ मरणोत्तर करते हैं।", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ಸಂಪೂರ್ಣ ವೈದಿಕ ಆಚರಣೆಯೊಂದಿಗೆ ಮರಣೋತ್ತರ ನಡೆಸುತ್ತಾರೆ." }
   }
 ]

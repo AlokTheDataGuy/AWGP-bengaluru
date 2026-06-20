@@ -26,6 +26,8 @@ export default function Footer() {
               <li><Link href="/">{t('nav_home')}</Link></li>
               <li><Link href="/about">{t('nav_about')}</Link></li>
               <li><Link href="/sanskars">{t('nav_sanskars')}</Link></li>
+              <li><Link href="/media/gallery">{L('Gallery', 'गैलरी', 'ಗ್ಯಾಲರಿ')}</Link></li>
+              <li><Link href="/blog">{t('nav_blog')}</Link></li>
               <li><Link href="/literature">{t('nav_literature')}</Link></li>
               <li><Link href="/contact">{t('nav_contact')}</Link></li>
             </ul>
@@ -36,7 +38,7 @@ export default function Footer() {
             <h4>{L('Practice', 'साधना', 'ಅಭ್ಯಾಸ')}</h4>
             <ul>
               <li><Link href="/activities/meditation">{L('Meditation', 'ध्यान', 'ಧ್ಯಾನ')}</Link></li>
-              <li><Link href="/activities/yoga">{L('Yoga Sessions', 'योग सत्र', 'ಯೋಗ ಸತ್ರ')}</Link></li>
+              <li><Link href="/activities/yoga">{L('Yoga', 'योग', 'ಯೋಗ')}</Link></li>
               <li><Link href="/activities/bal-sanskar-shala">{L('Bal Sanskar Shala', 'बाल संस्कार शाला', 'ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ')}</Link></li>
               <li><Link href="/activities">{L('All Activities', 'सभी गतिविधियाँ', 'ಎಲ್ಲಾ ಚಟುವಟಿಕೆಗಳು')}</Link></li>
             </ul>
@@ -59,11 +61,11 @@ export default function Footer() {
           <div className="footer__brand">
             <div className="footer__logo">
               <Image
-                src="/assets/logo-dark.png"
+                src="/assets/logos/final_logo_light.png"
                 alt="AWGP Bengaluru"
-                width={200}
-                height={68}
-                style={{ objectFit: 'contain', width: 'auto', height: '68px' }}
+                width={280}
+                height={96}
+                style={{ objectFit: 'contain', width: 'auto', height: '96px' }}
               />
             </div>
             <p className="footer__tagline">{t('footer_tagline')}</p>

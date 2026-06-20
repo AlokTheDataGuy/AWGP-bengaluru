@@ -1,0 +1,330 @@
+/* =========================================================
+   Media pages — Gallery & Press/Highlights
+   ========================================================= */
+.media-section {
+  background: var(--cream);
+  padding: clamp(48px, 6vw, 80px) clamp(20px, 5vw, 60px) clamp(56px, 7vw, 96px);
+}
+/* First section on a hero-less page must clear the fixed navbar */
+.media-section--top {
+  padding-top: calc(var(--nav-h) + clamp(28px, 4vw, 48px));
+}
+.media-section--press {
+  background: var(--cream-2);
+  border-top: 1px solid var(--border);
+}
+.media-section--cta {
+  background: var(--cream);
+  border-top: 1px solid var(--border);
+}
+
+.media-intro .idx-eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--saffron);
+}
+.media-intro {
+  max-width: 720px;
+  margin: 0 auto clamp(2.2rem, 4vw, 3.2rem);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+.media-intro__heading {
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  color: var(--maroon);
+  margin: 0;
+}
+.media-intro__text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-mid);
+  margin: 0;
+}
+
+/* ── Gallery filters ────────────────────────────────────── */
+.gal-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: clamp(1.8rem, 3vw, 2.6rem);
+}
+.gal-filter {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text-mid);
+  background: #fff;
+  border: 1.5px solid var(--border);
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.gal-filter:hover { border-color: var(--gold); color: var(--saffron); }
+.gal-filter--active {
+  background: var(--saffron);
+  border-color: var(--saffron);
+  color: #fff;
+}
+.gal-filter--active:hover {
+  background: var(--saffron-deep);
+  border-color: var(--saffron-deep);
+  color: #fff;
+}
+
+/* ── Masonry grid (CSS columns) ─────────────────────────── */
+.gal-grid {
+  column-count: 4;
+  column-gap: 14px;
+}
+@media (max-width: 1100px) { .gal-grid { column-count: 3; } }
+@media (max-width: 760px)  { .gal-grid { column-count: 2; } }
+@media (max-width: 420px)  { .gal-grid { column-count: 1; } }
+
+.gal-item {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 0 14px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+  break-inside: avoid;
+  box-shadow: var(--shadow-sm);
+}
+.gal-item img { transition: transform 0.5s ease; }
+.gal-item:hover img { transform: scale(1.06); }
+.gal-item__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.9rem;
+  background: linear-gradient(to top, rgba(58, 22, 14, 0.78) 0%, transparent 55%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gal-item:hover .gal-item__overlay { opacity: 1; }
+.gal-item__caption {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+}
+
+/* ── Lightbox ───────────────────────────────────────────── */
+.gal-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(20, 10, 6, 0.94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: galFade 0.2s ease;
+}
+@keyframes galFade { from { opacity: 0; } to { opacity: 1; } }
+.gal-lb-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.gal-lb-caption {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+.gal-lb-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.4rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.gal-lb-close:hover { background: rgba(255, 255, 255, 0.25); }
+.gal-lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  color: #fff;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.gal-lb-nav:hover { background: rgba(255, 255, 255, 0.25); }
+.gal-lb-nav--prev { left: 1rem; }
+.gal-lb-nav--next { right: 1rem; }
+@media (max-width: 560px) {
+  .gal-lb-nav { width: 42px; height: 42px; }
+  .gal-lb-nav--prev { left: 0.4rem; }
+  .gal-lb-nav--next { right: 0.4rem; }
+}
+
+/* ── News / highlights grid ─────────────────────────────── */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.4rem, 2.4vw, 2rem);
+}
+@media (max-width: 900px) { .news-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .news-grid { grid-template-columns: 1fr; } }
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.news-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+.news-card__media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+.news-card__tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--saffron);
+  padding: 0.28rem 0.65rem;
+}
+.news-card__body {
+  padding: 1.2rem 1.3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.news-card__date {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.news-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.12rem;
+  line-height: 1.32;
+  color: var(--maroon);
+  margin: 0;
+}
+.news-card__blurb {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text-mid);
+  margin: 0;
+}
+
+/* ── Press clippings grid ───────────────────────────────── */
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.2rem, 2vw, 1.8rem);
+}
+@media (max-width: 1000px) { .press-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px)  { .press-grid { grid-template-columns: 1fr; } }
+
+.press-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.press-card--link { text-decoration: none; }
+.press-card--link:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+.press-card__clip {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  filter: saturate(0.85) contrast(1.02);
+  border-bottom: 3px double var(--border);
+}
+.press-card__paper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: rgba(58, 22, 14, 0.82);
+  padding: 0.35rem 0.6rem;
+}
+.press-card__body {
+  padding: 0.9rem 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+}
+.press-card__date {
+  font-family: var(--font-heading);
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.press-card__headline {
+  font-family: var(--font-heading);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text-dark);
+  margin: 0;
+}
+.press-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--saffron);
+  margin-top: auto;
+}

@@ -48,9 +48,9 @@ const SANSKARS = [
     hi: { title: 'तर्पण',         desc: 'पितरों को जल-अर्पण — श्रद्धा, स्मृति और कृतज्ञता का पवित्र संस्कार।' },
     kn: { title: 'ತರ್ಪಣ',         desc: 'ಪಿತೃಗಳಿಗೆ ಜಲ ಅರ್ಪಣೆ — ಗೌರವ, ಸ್ಮರಣೆ ಮತ್ತು ಕೃತಜ್ಞತೆಯ ವಿಧಿ.' } },
   { href: '/sanskars/anteysti',    img: '/assets/sanskars/anthesyti.jpg',
-    en: { title: 'Antyeshti',    desc: "The last rites — honouring the soul's transition with sacred fire and prayer." },
-    hi: { title: 'अंत्येष्टि',    desc: 'अंतिम संस्कार — पवित्र अग्नि और प्रार्थना के साथ आत्मा को विदाई।' },
-    kn: { title: 'ಅಂತ್ಯೇಷ್ಟಿ',    desc: 'ಅಂತಿಮ ಸಂಸ್ಕಾರ — ಪವಿತ್ರ ಅಗ್ನಿ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯೊಂದಿಗೆ ಆತ್ಮಕ್ಕೆ ವಿದಾಯ.' } },
+    en: { title: 'Marnottar',    desc: "The last rites — honouring the soul's transition with sacred fire and prayer." },
+    hi: { title: 'मरणोत्तर',    desc: 'अंतिम संस्कार — पवित्र अग्नि और प्रार्थना के साथ आत्मा को विदाई।' },
+    kn: { title: 'ಮರಣೋತ್ತರ',    desc: 'ಅಂತಿಮ ಸಂಸ್ಕಾರ — ಪವಿತ್ರ ಅಗ್ನಿ ಮತ್ತು ಪ್ರಾರ್ಥನೆಯೊಂದಿಗೆ ಆತ್ಮಕ್ಕೆ ವಿದಾಯ.' } },
 ];
 
 const FADE_DURATION = 350;

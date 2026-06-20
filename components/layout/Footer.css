@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #8A2A1A 0%, var(--maroon) 45%, var(--maroon-dk) 100%);
+  background: #5A1A0E;
   color: var(--text-light-2);
 }
 
@@ -197,7 +197,7 @@
   align-items: center;
   padding: 1.1rem 0;
   font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.85);
   flex-wrap: wrap;
   gap: 0.5rem;
 }

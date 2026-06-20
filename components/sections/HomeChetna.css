@@ -1,18 +1,40 @@
 /* =========================================================
    Home — Chetna Kendra
-   Centered heading, a photo with two overlapping cards
-   (white visiting-hours + maroon CTA), and the daily /
-   Sunday activity schedule boxes.
+   Reddish (maroon) band with a faint Gayatri-mantra mandala
+   watermark and a bento grid of facility tiles. The hero tile
+   carries the daily darshan / sadhana schedule.
    ========================================================= */
 
 .home-chetna {
-  background: var(--cream);
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 90% at 50% -10%, rgba(163, 53, 37, 0.55) 0%, transparent 55%),
+    linear-gradient(165deg, var(--maroon-dk) 0%, var(--maroon) 52%, #6E1E10 100%);
+}
+
+/* Gayatri-mantra mandala watermark */
+.home-chetna__mandala {
+  position: absolute;
+  top: clamp(-140px, -10vw, -70px);
+  right: clamp(-160px, -8vw, -60px);
+  width: clamp(360px, 48vw, 660px);
+  aspect-ratio: 1;
+  background: url('/assets/designs/gayatri-mandala.png') center / contain no-repeat;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-chetna__inner {
+  position: relative;
+  z-index: 1;
 }
 
 /* ── Centered heading ────────────────────────────────────── */
 .home-chetna__head {
   text-align: center;
-  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: clamp(2.2rem, 4.5vw, 3.4rem);
 }
 .home-chetna__eyebrow {
   display: block;
@@ -21,14 +43,14 @@
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--saffron);
+  color: var(--gold);
   margin-bottom: 0.7rem;
 }
 .home-chetna__title {
   font-family: var(--font-heading);
   font-size: clamp(1.8rem, 3.4vw, 2.7rem);
   font-weight: 700;
-  color: var(--text-dark);
+  color: #fff;
   line-height: 1.2;
 }
 .home-chetna__lead {
@@ -36,104 +58,138 @@
   margin: 0 auto;
   font-size: clamp(0.95rem, 1.4vw, 1.05rem);
   line-height: 1.75;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.8);
 }
 
-/* ── Showcase: photo + overlapping cards ─────────────────── */
-.home-chetna__showcase {
-  position: relative;
-  max-width: 1080px;
-  margin: 0 auto clamp(4.5rem, 7vw, 6.5rem);
+/* ── Bento grid ──────────────────────────────────────────── */
+.ck-bento {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: clamp(150px, 17vw, 210px) clamp(150px, 17vw, 210px) clamp(140px, 15vw, 190px);
+  grid-template-areas:
+    "big big big mandir mandir mandir"
+    "big big big yagya  yagya  yagya"
+    "gau gau gyan gyan dhyan dhyan";
 }
-/* narrower photo, centred — cards overlap its edges from the gutters */
-.home-chetna__media {
+
+.ck-tile {
   position: relative;
-  width: min(620px, 60%);
-  height: clamp(340px, 40vw, 480px);
-  margin: 0 auto;
   overflow: hidden;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+  background: var(--maroon-dk);
+}
+.ck-tile img { transition: transform 0.6s ease; }
+.ck-tile:hover img { transform: scale(1.07); }
+
+.ck-tile__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to top, rgba(36, 11, 6, 0.9) 0%, rgba(36, 11, 6, 0.18) 48%, transparent 72%);
 }
 
-.ck-card {
+.ck-tile__caption {
   position: absolute;
-  z-index: 2;
-  width: clamp(248px, 26vw, 312px);
-  padding: clamp(1.4rem, 2.2vw, 2rem);
-  box-shadow: var(--shadow-lg);
-}
-.ck-card--light {
   left: 0;
-  bottom: clamp(-40px, -3vw, -16px);
-  background: #fff;
+  bottom: 0;
+  z-index: 2;
+  padding: 0.9rem 1.05rem;
+  font-family: var(--font-heading);
+  font-size: clamp(0.92rem, 1.4vw, 1.08rem);
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 }
-.ck-card--accent {
+
+/* Hero tile + schedule */
+.ck-tile--hero .ck-tile__scrim {
+  background: linear-gradient(to top, rgba(36, 11, 6, 0.94) 8%, rgba(36, 11, 6, 0.35) 50%, rgba(36, 11, 6, 0.1) 100%);
+}
+.ck-tile__schedule {
+  position: absolute;
+  left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background: var(--maroon);
+  bottom: 0;
+  z-index: 2;
+  padding: clamp(1.2rem, 2.2vw, 2rem);
+}
+.ck-tile__schedule-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 1.9vw, 1.5rem);
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.7rem;
+}
+.ck-tile__schedule ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 340px;
+}
+.ck-tile__schedule li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: clamp(0.82rem, 1.2vw, 0.95rem);
+  color: rgba(255, 255, 255, 0.92);
+}
+.ck-tile__schedule li:last-child { border-bottom: none; }
+.ck-tile__schedule b {
+  color: var(--gold-lt);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ── CTA ─────────────────────────────────────────────────── */
+.home-chetna__cta {
+  text-align: center;
+  margin-top: clamp(2rem, 3.5vw, 3rem);
+}
+.home-chetna__cta .btn {
+  display: inline-flex;
+  align-items: center;
+}
+.home-chetna__cta .btn-gold-outline {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.home-chetna__cta .btn-gold-outline:hover {
+  background: var(--saffron);
+  border-color: var(--saffron);
   color: #fff;
 }
 
-.ck-card__title {
-  font-family: var(--font-heading);
-  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
-  font-weight: 700;
-  line-height: 1.25;
-}
-.ck-card--light .ck-card__title { color: var(--maroon); }
-.ck-card--accent .ck-card__title { color: #fff; }
-
-.ck-card__sub {
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  line-height: 1.6;
-}
-.ck-card--light .ck-card__sub { color: var(--text-muted); }
-.ck-card--accent .ck-card__sub { color: rgba(255, 255, 255, 0.82); }
-
-.ck-card__list {
-  margin-top: 0.9rem;
-  list-style: none;
-}
-.ck-card__list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.45rem 0;
-  border-bottom: 1px dashed var(--border);
-  font-size: 0.85rem;
-  color: var(--text-dark);
-}
-.ck-card__list li:last-child { border-bottom: none; }
-.ck-card__list b { color: var(--maroon); white-space: nowrap; }
-
-.ck-card__btn {
-  margin-top: 1.2rem;
-}
-
-/* ── Responsive — stack cards under the photo ────────────── */
-@media (max-width: 860px) {
-  .home-chetna__showcase {
-    margin-bottom: clamp(2rem, 5vw, 3rem);
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .ck-bento {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+    grid-template-areas:
+      "big big"
+      "mandir yagya"
+      "gau gyan"
+      "dhyan dhyan";
   }
-  .home-chetna__media {
-    width: min(520px, 100%);
-    height: clamp(240px, 56vw, 360px);
-  }
-  .ck-card {
-    position: static;
-    transform: none;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .ck-card--light {
-    margin-top: -2.5rem; /* keep a slight overlap onto the photo */
-    margin-left: auto;
-    margin-right: auto;
-    width: 92%;
-  }
+  .ck-tile { min-height: clamp(150px, 30vw, 200px); }
+  .ck-tile--hero { min-height: clamp(280px, 60vw, 360px); }
 }
 
-@media (max-width: 480px) {
-  .ck-card--light { width: 100%; margin-top: -1.5rem; }
+@media (max-width: 560px) {
+  .ck-bento {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "big"
+      "mandir"
+      "yagya"
+      "gau"
+      "gyan"
+      "dhyan";
+  }
+  .ck-tile { min-height: 200px; }
+  .ck-tile--hero { min-height: 300px; }
 }

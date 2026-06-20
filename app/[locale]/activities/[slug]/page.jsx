@@ -5,7 +5,8 @@ import activitiesData from '../../../../data/activities.json';
 import '../../../../components/ui/DetailPage.css';
 
 export async function generateStaticParams() {
-  return activitiesData.map((a) => ({ slug: a.slug }));
+  // Skip entries that link to a custom standalone page (href override, e.g. Community Seva)
+  return activitiesData.filter((a) => !a.href).map((a) => ({ slug: a.slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }) {
 export default async function ActivityDetailPage({ params }) {
   const { locale, slug } = await params;
   const activity = activitiesData.find((a) => a.slug === slug);
-  if (!activity) notFound();
+  if (!activity || activity.href) notFound();
 
   const L = (obj) => (obj && (obj[locale] || obj.en)) || '';
   const activitiesLabel = locale === 'hi' ? 'गतिविधियां' : locale === 'kn' ? 'ಚಟುವಟಿಕೆಗಳು' : 'Activities';

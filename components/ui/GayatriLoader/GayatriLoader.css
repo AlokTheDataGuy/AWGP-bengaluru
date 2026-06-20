@@ -1,0 +1,72 @@
+/* GayatriLoader.css
+   Scoped styles for the Gayatri Mantra loader.
+   All animation knobs are driven by CSS variables set from the component:
+   --gl-size, --gl-t1 .. --gl-t4
+*/
+
+.gl-loader {
+  position: relative;
+  width: var(--gl-size, min(80vw, 80vh, 560px));
+  height: var(--gl-size, min(80vw, 80vh, 560px));
+  /* keep the loader's own box; let the parent center it */
+  flex: none;
+}
+
+.gl-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: 50% 50%;
+  will-change: transform;
+  backface-visibility: hidden;
+  /* prevent accidental selection/drag highlight */
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Alternating rotation directions:
+   ring 1 (innermost) CW, ring 2 CCW, ring 3 CW, ring 4 (outermost) CCW */
+.gl-r1 { animation: gl-spin-cw  var(--gl-t1, 28s) linear infinite; }
+.gl-r2 { animation: gl-spin-ccw var(--gl-t2, 36s) linear infinite; }
+.gl-r3 { animation: gl-spin-cw  var(--gl-t3, 44s) linear infinite; }
+.gl-r4 { animation: gl-spin-ccw var(--gl-t4, 60s) linear infinite; }
+
+/* Om stays perfectly still; optional gentle breathing glow */
+.gl-om { transform: none; }
+.gl-om--glow { animation: gl-pulse 3.4s ease-in-out infinite; }
+
+@keyframes gl-spin-cw  { to { transform: rotate(360deg); } }
+@keyframes gl-spin-ccw { to { transform: rotate(-360deg); } }
+
+@keyframes gl-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 0 rgba(255, 140, 0, 0));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 14px rgba(255, 140, 0, 0.55));
+    transform: scale(1.04);
+  }
+}
+
+/* Visually hidden but available to screen readers */
+.gl-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Respect users who prefer reduced motion: freeze everything */
+@media (prefers-reduced-motion: reduce) {
+  .gl-r1, .gl-r2, .gl-r3, .gl-r4, .gl-om--glow {
+    animation: none;
+  }
+}

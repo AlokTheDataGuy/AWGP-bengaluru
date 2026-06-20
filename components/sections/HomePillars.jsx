@@ -22,7 +22,7 @@ const HEAD = {
 
 const PILLARS = [
   {
-    href: '/sadhana',
+    href: '/activities/sadhana',
     key: 'sadhana',
     en: { name: 'Sadhna',     meaning: 'Daily spiritual practices to elevate consciousness and inner strength.' },
     hi: { name: 'साधना',      meaning: 'चेतना और आंतरिक शक्ति को ऊँचा उठाने के लिए दैनिक आध्यात्मिक अभ्यास।' },

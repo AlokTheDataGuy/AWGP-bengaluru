@@ -64,21 +64,9 @@
     "yagyaTypes": []
   },
   {
-    "id": "anusthan",
-    "slug": "anusthan",
-    "img": "/assets/programs/akhand-jap.jpeg",
-    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
-    "schedule": { "en": "During Navratri — Chaitra (Mar–Apr) & Ashwin (Sep–Oct)", "hi": "नवरात्रि के दौरान — चैत्र और आश्विन", "kn": "ನವರಾತ್ರಿ ಸಮಯ — ಚೈತ್ರ ಮತ್ತು ಆಶ್ವಿನ" },
-    "title":    { "en": "Anusthan", "hi": "अनुष्ठान", "kn": "ಅನುಷ್ಠಾನ" },
-    "subtitle": { "en": "Intensive 9-Day Spiritual Practice During Navratri", "hi": "नवरात्रि में 9 दिन की गहन साधना", "kn": "ನವರಾತ್ರಿಯಲ್ಲಿ 9 ದಿನಗಳ ತೀವ್ರ ಸಾಧನೆ" },
-    "intro": { "en": "TODO: Anusthan is an intensive 9-day Sadhana practice observed during Navratri. Details coming soon.", "hi": "TODO: अनुष्ठान नवरात्रि के दौरान 9 दिनों की गहन साधना है। विवरण शीघ्र आएगा।", "kn": "TODO: ಅನುಷ್ಠಾನ ನವರಾತ್ರಿ ಸಮಯದಲ್ಲಿ 9 ದಿನಗಳ ತೀವ್ರ ಸಾಧನೆ. ವಿವರಗಳು ಶೀಘ್ರದಲ್ಲಿ." },
-    "points": [],
-    "festivals": [],
-    "yagyaTypes": []
-  },
-  {
     "id": "akhand-jap",
     "slug": "akhand-jap",
+    "listed": false,
     "img": "/assets/programs/akhand-jap.jpeg",
     "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
     "schedule": { "en": "Every 2nd Saturday · 6-hour unbroken chanting", "hi": "प्रत्येक दूसरे शनिवार · 6 घंटे का अखंड जप", "kn": "ಪ್ರತಿ 2ನೇ ಶನಿವಾರ · 6 ಗಂಟೆ ಅಖಂಡ ಜಪ" },
@@ -86,6 +74,58 @@
     "subtitle": { "en": "Unbroken 6-Hour Gayatri Mantra Chanting", "hi": "6 घंटे का अखंड गायत्री मंत्र जप", "kn": "6 ಗಂಟೆ ಅಖಂಡ ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ" },
     "intro": { "en": "TODO: Akhand Jap is a 6-hour unbroken Gayatri Mantra chanting session held every 2nd Saturday. Details coming soon.", "hi": "TODO: अखंड जप प्रत्येक दूसरे शनिवार को 6 घंटे का अखंड गायत्री मंत्र जप है। विवरण शीघ्र आएगा।", "kn": "TODO: ಅಖಂಡ ಜಪ ಪ್ರತಿ 2ನೇ ಶನಿವಾರ 6 ಗಂಟೆ ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ. ವಿವರಗಳು ಶೀಘ್ರದಲ್ಲಿ." },
     "points": [],
+    "festivals": [],
+    "yagyaTypes": []
+  },
+  {
+    "id": "book-fair",
+    "slug": "book-fair",
+    "img": "/assets/activities/book-fair.jpg",
+    "heroColor": "linear-gradient(135deg, #5A3000 0%, #3D1F0A 100%)",
+    "schedule": {
+      "en": "Annual — usually during festivals or special occasions",
+      "hi": "वार्षिक — सामान्यतः त्योहारों या विशेष अवसरों पर",
+      "kn": "ವಾರ್ಷಿಕ — ಸಾಮಾನ್ಯವಾಗಿ ಹಬ್ಬಗಳು ಅಥವಾ ವಿಶೇಷ ಸಂದರ್ಭಗಳಲ್ಲಿ"
+    },
+    "title": { "en": "Book Fair", "hi": "पुस्तक मेला", "kn": "ಪುಸ್ತಕ ಮೇಳ" },
+    "subtitle": { "en": "Spreading Vedic Wisdom Through Literature", "hi": "साहित्य के माध्यम से वैदिक ज्ञान का प्रसार", "kn": "ಸಾಹಿತ್ಯದ ಮೂಲಕ ವೈದಿಕ ಜ್ಞಾನದ ಪ್ರಸಾರ" },
+    "intro": {
+      "en": "AWGP's literary wing — Akhand Jyoti Sansthan (established 1938) — has published over 3,300 books and the iconic Akhand Jyoti magazine. AWGP Bengaluru organises an annual book fair showcasing this vast library of Vedic literature, personal development, and spiritual science. Free entry, open to all.",
+      "hi": "AWGP की साहित्यिक शाखा — अखंड ज्योति संस्थान (1938 से) — ने 3,300 से अधिक पुस्तकें और अखंड ज्योति पत्रिका प्रकाशित की है।",
+      "kn": "AWGP ಸಾಹಿತ್ಯ ವಿಭಾಗ — ಅಖಂಡ ಜ್ಯೋತಿ ಸಂಸ್ಥಾನ (1938 ರಿಂದ) — 3,300 ಕ್ಕೂ ಹೆಚ್ಚು ಪುಸ್ತಕಗಳನ್ನು ಪ್ರಕಟಿಸಿದೆ."
+    },
+    "points": [
+      { "en": "Akhand Jyoti magazine — in publication since 1938, available in Hindi & English", "hi": "अखंड ज्योति पत्रिका — 1938 से प्रकाशित", "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ — 1938 ರಿಂದ ಪ್ರಕಟಣೆ" },
+      { "en": "Books on Gayatri Sadhana, Yagya science, health, values & family harmony", "hi": "गायत्री साधना, यज्ञ विज्ञान पर पुस्तकें", "kn": "ಗಾಯತ್ರಿ ಸಾಧನೆ, ಯಜ್ಞ ವಿಜ್ಞಾನ ಕುರಿತು ಪುಸ್ತಕಗಳು" },
+      { "en": "Personality development & motivational literature for the modern professional", "hi": "व्यक्तित्व विकास और प्रेरणादायक साहित्य", "kn": "ವ್ಯಕ್ತಿತ್ವ ವಿಕಾಸ ಮತ್ತು ಪ್ರೇರಣಾದಾಯಕ ಸಾಹಿತ್ಯ" },
+      { "en": "Children's literature — stories from Indian epics and value-based comics", "hi": "बच्चों का साहित्य — महाकाव्यों की कहानियां", "kn": "ಮಕ್ಕಳ ಸಾಹಿತ್ಯ — ಮಹಾಕಾವ್ಯಗಳ ಕಥೆಗಳು" },
+      { "en": "Free entry — open to all, no registration required", "hi": "निःशुल्क प्रवेश — सभी के लिए खुला", "kn": "ಉಚಿತ ಪ್ರವೇಶ — ಎಲ್ಲರಿಗೂ ಮುಕ್ತ" }
+    ],
+    "festivals": [],
+    "yagyaTypes": []
+  },
+  {
+    "id": "tree-plantation",
+    "slug": "tree-plantation",
+    "img": "/assets/activities/tree-plantation.jpg",
+    "heroColor": "linear-gradient(135deg, #2F5A1E 0%, #3D1F0A 100%)",
+    "schedule": {
+      "en": "World Environment Day (June 5), Van Mahotsav & other occasions",
+      "hi": "विश्व पर्यावरण दिवस (5 जून), वन महोत्सव एवं अन्य अवसर",
+      "kn": "ವಿಶ್ವ ಪರಿಸರ ದಿನ (ಜೂನ್ 5), ವನ ಮಹೋತ್ಸವ ಮತ್ತು ಇತರ ಸಂದರ್ಭಗಳು"
+    },
+    "title": { "en": "Tree Plantation Drive", "hi": "वृक्षारोपण अभियान", "kn": "ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ" },
+    "subtitle": { "en": "Caring for the Earth as an Act of Seva", "hi": "सेवा के रूप में पृथ्वी की देखभाल", "kn": "ಸೇವೆಯ ಕಾರ್ಯವಾಗಿ ಭೂಮಿಯ ಆರೈಕೆ" },
+    "intro": {
+      "en": "Environment protection is a core part of AWGP's mission. Gurudev was a pioneer of ecological consciousness decades before it became mainstream. Our tree plantation drives are held on World Environment Day, Van Mahotsav, and other occasions — bringing members together to serve Mother Earth.",
+      "hi": "पर्यावरण संरक्षण AWGP के मिशन का एक मूल हिस्सा है। गुरुदेव पारिस्थितिक चेतना के अग्रदूत थे।",
+      "kn": "ಪರಿಸರ ಸಂರಕ್ಷಣೆ AWGP ಮಿಷನ್‌ನ ಮೂಲ ಭಾಗ."
+    },
+    "points": [
+      { "en": "Native species planted at public spaces, schools, and community areas", "hi": "सार्वजनिक स्थानों, विद्यालयों में देशी प्रजातियां", "kn": "ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ ಸ್ಥಳೀಯ ಪ್ರಜಾತಿಗಳ ನಾಟಿ" },
+      { "en": "Participants adopt trees and commit to caring for them", "hi": "प्रतिभागी पेड़ों को अपनाते हैं", "kn": "ಭಾಗವಹಿಸುವವರು ಮರಗಳನ್ನು ದತ್ತು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ" },
+      { "en": "Educational awareness sessions on biodiversity and conservation", "hi": "जैव विविधता पर शैक्षणिक सत्र", "kn": "ಜೀವವೈವಿಧ್ಯ ಕುರಿತು ಶೈಕ್ಷಣಿಕ ಜಾಗೃತಿ ಸತ್ರ" }
+    ],
     "festivals": [],
     "yagyaTypes": []
   }

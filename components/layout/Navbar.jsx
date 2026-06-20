@@ -23,28 +23,19 @@ const aboutMenu = [
 ];
 
 const eventsMenu = [
-  { href: '/events/festivals',    en: 'Festival Celebrations',  hi: 'पर्व उत्सव',             kn: 'ಹಬ್ಬದ ಆಚರಣೆಗಳು' },
-  { href: '/events/yagya-events', en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
-  { href: '/events/workshops',    en: 'Workshops & Shivirs',    hi: 'कार्यशालाएं एवं शिविर',   kn: 'ಕಾರ್ಯಾಗಾರಗಳು' },
-  { href: '/events/anusthan',     en: 'Anusthan',               hi: 'अनुष्ठान',                kn: 'ಅನುಷ್ಠಾನ' },
-  { href: '/events/akhand-jap',   en: 'Akhand Jap',             hi: 'अखंड जप',                kn: 'ಅಖಂಡ ಜಪ' },
+  { href: '/events/festivals',       en: 'Festival Celebrations',  hi: 'पर्व उत्सव',             kn: 'ಹಬ್ಬದ ಆಚರಣೆಗಳು' },
+  { href: '/events/yagya-events',    en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
+  { href: '/events/workshops',       en: 'Workshops & Shivirs',    hi: 'कार्यशालाएं एवं शिविर',   kn: 'ಕಾರ್ಯಾಗಾರಗಳು' },
+  { href: '/events/book-fair',       en: 'Book Fair',              hi: 'पुस्तक मेला',            kn: 'ಪುಸ್ತಕ ಮೇಳ' },
+  { href: '/events/tree-plantation', en: 'Tree Plantation',        hi: 'वृक्षारोपण',             kn: 'ವೃಕ್ಷಾರೋಪಣ' },
 ];
 
-// isLabel items render as non-link group headings in the dropdown
 const activitiesMenu = [
-  { isLabel: true,                                   en: 'Practice',         hi: 'साधना',         kn: 'ಅಭ್ಯಾಸ' },
-  { href: '/activities/yoga',                        en: 'Yoga Sessions',    hi: 'योग सत्र',       kn: 'ಯೋಗ ಸತ್ರ' },
-  { href: '/activities/meditation',                  en: 'Meditation',       hi: 'ध्यान',          kn: 'ಧ್ಯಾನ' },
-  { href: '/activities/jap',                         en: 'Jap',              hi: 'जप',             kn: 'ಜಪ' },
-  { href: '/activities/bal-sanskar-shala',           en: 'Bal Sanskar Shala',hi: 'बाल संस्कार शाला',kn: 'ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ' },
-  { isLabel: true,                                   en: 'Seva',             hi: 'सेवा',           kn: 'ಸೇವೆ' },
-  { href: '/activities/community-seva',              en: 'Community Seva',   hi: 'सामुदायिक सेवा', kn: 'ಸಾಮುದಾಯಿಕ ಸೇವೆ' },
-  { href: '/activities/gau-seva',                    en: 'Gau Seva',         hi: 'गौ सेवा',        kn: 'ಗೌ ಸೇವಾ' },
-  { href: '/activities/hospital-volunteering',       en: 'Hospital Volunteering',hi: 'अस्पताल सेवा',kn: 'ಆಸ್ಪತ್ರೆ ಸೇವೆ' },
-  { href: '/activities/blood-donation',              en: 'Blood Donation',   hi: 'रक्तदान',        kn: 'ರಕ್ತದಾನ' },
-  { href: '/activities/food-cloth-distribution',     en: 'Food & Cloth Distribution',hi: 'अन्न-वस्त्र वितरण',kn: 'ಅನ್ನ-ವಸ್ತ್ರ ವಿತರಣೆ' },
-  { href: '/activities/tree-plantation',             en: 'Tree Plantation',  hi: 'वृक्षारोपण',     kn: 'ವೃಕ್ಷಾರೋಪಣ' },
-  { href: '/activities/book-fair',                   en: 'Book Fair',        hi: 'पुस्तक मेला',    kn: 'ಪುಸ್ತಕ ಮೇಳ' },
+  { href: '/activities/yoga',           en: 'Yoga',             hi: 'योग',            kn: 'ಯೋಗ' },
+  { href: '/activities/meditation',     en: 'Meditation',       hi: 'ध्यान',          kn: 'ಧ್ಯಾನ' },
+  { href: '/activities/sadhana',        en: 'Sadhana',          hi: 'साधना',          kn: 'ಸಾಧನೆ' },
+  { href: '/activities/community-seva', en: 'Community Seva',   hi: 'सामुदायिक सेवा', kn: 'ಸಾಮುದಾಯಿಕ ಸೇವೆ' },
+  { href: '/activities/gau-seva',       en: 'Gau Seva',         hi: 'गौ सेवा',        kn: 'ಗೌ ಸೇವಾ' },
 ];
 
 const sanskarsMenu = [
@@ -58,7 +49,12 @@ const sanskarsMenu = [
   { href: '/sanskars/yagyopaveet', en: 'Yagyopaveet',          hi: 'यज्ञोपवीत',             kn: 'ಯಜ್ಞೋಪವೀತ' },
   { href: '/sanskars/deeksha',     en: 'Gayatri Deeksha',      hi: 'गायत्री दीक्षा',        kn: 'ಗಾಯತ್ರಿ ದೀಕ್ಷೆ' },
   { href: '/sanskars/tarpan',      en: 'Tarpan',               hi: 'पितृ तर्पण',             kn: 'ಪಿತೃ ತರ್ಪಣ' },
-  { href: '/sanskars/anteysti',    en: 'Anteysti',             hi: 'अंत्येष्टि',             kn: 'ಅಂತ್ಯೇಷ್ಟಿ' },
+  { href: '/sanskars/anteysti',    en: 'Marnottar',            hi: 'मरणोत्तर',              kn: 'ಮರಣೋತ್ತರ' },
+];
+
+const mediaMenu = [
+  { href: '/media/gallery', en: 'Gallery',            hi: 'गैलरी',              kn: 'ಗ್ಯಾಲರಿ' },
+  { href: '/media/news',    en: 'Press & Highlights', hi: 'समाचार एवं झलकियाँ', kn: 'ಸುದ್ದಿ ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು' },
 ];
 
 const LANGS = [
@@ -96,7 +92,10 @@ export default function Navbar() {
   }, [pathname]);
 
   const label = (item) => item[locale] || item.en;
-  const transparent = !scrolled;
+  // Pages without a full hero banner need the navbar to render solid from the top
+  const noHeroRoutes = ['/blog', '/media'];
+  const forceSolid = noHeroRoutes.some((r) => pathname === r || pathname.startsWith(r + '/'));
+  const transparent = !scrolled && !forceSolid;
   const switchLocale = (newLocale) => router.replace(pathname, { locale: newLocale });
 
   // Active when the current route matches a section root or any of its subpages
@@ -128,12 +127,12 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="navbar__logo">
           <Image
-            src={transparent ? '/assets/logo-dark.png' : '/assets/logo-light.png'}
+            src={transparent ? '/assets/logos/final_logo_light.png' : '/assets/logos/final_logo_dark.png'}
             alt="AWGP Bengaluru"
-            width={160}
-            height={40}
+            width={300}
+            height={84}
             priority
-            style={{ objectFit: 'contain', width: 'auto', height: '48px' }}
+            style={{ objectFit: 'contain', width: 'auto', height: '84px' }}
           />
         </Link>
 
@@ -151,7 +150,7 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <button className={`navbar__dropdown-trigger${isActive('/sanskars') ? ' is-active' : ''}`}>{t('nav_sanskars')}</button>
+            <Link href="/sanskars" className={`navbar__dropdown-trigger${isActive('/sanskars') ? ' is-active' : ''}`}>{t('nav_sanskars')}</Link>
             <div className="navbar__dropdown navbar__dropdown--right">
               {sanskarsMenu.map((item) => (
                 <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
@@ -160,7 +159,7 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <button className={`navbar__dropdown-trigger${isActive('/events') ? ' is-active' : ''}`}>{t('nav_events')}</button>
+            <Link href="/events" className={`navbar__dropdown-trigger${isActive('/events') ? ' is-active' : ''}`}>{t('nav_events')}</Link>
             <div className="navbar__dropdown">
               {eventsMenu.map((item) => (
                 <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
@@ -169,11 +168,22 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <button className={`navbar__dropdown-trigger${isActive('/activities') ? ' is-active' : ''}`}>{t('nav_activities')}</button>
+            <Link href="/activities" className={`navbar__dropdown-trigger${isActive('/activities') ? ' is-active' : ''}`}>{t('nav_activities')}</Link>
             <div className="navbar__dropdown">
               {activitiesMenu.map((item) => renderDropdownItem(item, undefined))}
             </div>
           </li>
+
+          <li className="navbar__dropdown-wrap">
+            <button className={`navbar__dropdown-trigger${isActive('/media') ? ' is-active' : ''}`}>{t('nav_media')}</button>
+            <div className="navbar__dropdown navbar__dropdown--right">
+              {mediaMenu.map((item) => (
+                <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
+              ))}
+            </div>
+          </li>
+
+          <li><Link href="/blog" className={isActive('/blog') ? 'is-active' : undefined}>{t('nav_blog')}</Link></li>
 
           <li><Link href="/literature" className={isActive('/literature') ? 'is-active' : undefined}>{t('nav_literature')}</Link></li>
 
@@ -227,7 +237,7 @@ export default function Navbar() {
         <div className="navbar__mobile-header">
           <Link href="/" className="navbar__mobile-logo" onClick={() => setOpen(false)}>
             <Image
-              src="/assets/logo-light.png"
+              src="/assets/logos/final_logo_light.png"
               alt="AWGP Bengaluru"
               width={140}
               height={36}
@@ -258,10 +268,16 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__mobile-accordion">
-            <button onClick={() => setMobileExpanded(mobileExpanded === 'sanskars' ? null : 'sanskars')}>
-              {t('nav_sanskars')}
-              <ChevronDown size={14} className={mobileExpanded === 'sanskars' ? 'rotated' : ''} />
-            </button>
+            <div className="navbar__mobile-accordion-head">
+              <Link href="/sanskars" onClick={() => setOpen(false)}>{t('nav_sanskars')}</Link>
+              <button
+                onClick={() => setMobileExpanded(mobileExpanded === 'sanskars' ? null : 'sanskars')}
+                aria-label={t('nav_sanskars')}
+                aria-expanded={mobileExpanded === 'sanskars'}
+              >
+                <ChevronDown size={16} className={mobileExpanded === 'sanskars' ? 'rotated' : ''} />
+              </button>
+            </div>
             {mobileExpanded === 'sanskars' && (
               <ul className="navbar__mobile-sub">
                 {sanskarsMenu.map((item) => (
@@ -272,10 +288,16 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__mobile-accordion">
-            <button onClick={() => setMobileExpanded(mobileExpanded === 'events' ? null : 'events')}>
-              {t('nav_events')}
-              <ChevronDown size={14} className={mobileExpanded === 'events' ? 'rotated' : ''} />
-            </button>
+            <div className="navbar__mobile-accordion-head">
+              <Link href="/events" onClick={() => setOpen(false)}>{t('nav_events')}</Link>
+              <button
+                onClick={() => setMobileExpanded(mobileExpanded === 'events' ? null : 'events')}
+                aria-label={t('nav_events')}
+                aria-expanded={mobileExpanded === 'events'}
+              >
+                <ChevronDown size={16} className={mobileExpanded === 'events' ? 'rotated' : ''} />
+              </button>
+            </div>
             {mobileExpanded === 'events' && (
               <ul className="navbar__mobile-sub">
                 {eventsMenu.map((item) => (
@@ -286,10 +308,16 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__mobile-accordion">
-            <button onClick={() => setMobileExpanded(mobileExpanded === 'activities' ? null : 'activities')}>
-              {t('nav_activities')}
-              <ChevronDown size={14} className={mobileExpanded === 'activities' ? 'rotated' : ''} />
-            </button>
+            <div className="navbar__mobile-accordion-head">
+              <Link href="/activities" onClick={() => setOpen(false)}>{t('nav_activities')}</Link>
+              <button
+                onClick={() => setMobileExpanded(mobileExpanded === 'activities' ? null : 'activities')}
+                aria-label={t('nav_activities')}
+                aria-expanded={mobileExpanded === 'activities'}
+              >
+                <ChevronDown size={16} className={mobileExpanded === 'activities' ? 'rotated' : ''} />
+              </button>
+            </div>
             {mobileExpanded === 'activities' && (
               <ul className="navbar__mobile-sub">
                 {activitiesMenu.map((item) =>
@@ -300,6 +328,22 @@ export default function Navbar() {
               </ul>
             )}
           </li>
+
+          <li className="navbar__mobile-accordion">
+            <button onClick={() => setMobileExpanded(mobileExpanded === 'media' ? null : 'media')}>
+              {t('nav_media')}
+              <ChevronDown size={14} className={mobileExpanded === 'media' ? 'rotated' : ''} />
+            </button>
+            {mobileExpanded === 'media' && (
+              <ul className="navbar__mobile-sub">
+                {mediaMenu.map((item) => (
+                  <li key={item.href}><Link href={item.href} onClick={() => setOpen(false)}>{label(item)}</Link></li>
+                ))}
+              </ul>
+            )}
+          </li>
+
+          <li><Link href="/blog" onClick={() => setOpen(false)}>{t('nav_blog')}</Link></li>
 
           <li><Link href="/literature" onClick={() => setOpen(false)}>{t('nav_literature')}</Link></li>
 

@@ -9,33 +9,33 @@ import './HomeWelcome.css';
 const DATA = {
   en: {
     eyebrow: 'Who We Are',
-    title: 'A Community Rooted in the Gayatri Tradition',
-    desc1: 'Gayatri Chetna Kendra, Bengaluru is a vibrant centre of the All World Gayatri Pariwar — inspired by the life and teachings of Pandit Shriram Sharma Acharya ji and Mata Bhagwati Devi Sharma ji.',
-    desc2: 'We offer a path of scientific spirituality — blending ancient Vedic wisdom with modern understanding — to help individuals and families live with purpose, virtue, and inner peace.',
-    quote: '॥ हम सुधरेंगे — युग सुधरेगा ॥',
-    quoteSub: 'The motto of Yug Nirman Yojana',
-    cta: 'Learn More About Us',
-    badgeLabel: 'Years of Service',
+    title: 'Ancient wisdom you can actually live by',
+    desc1: 'All World Gayatri Pariwar is a global movement for scientific spirituality, founded on the teachings of Yugrishi Pandit Shriram Sharma Acharya. Here in Bengaluru, we carry that light forward — through sadhana, study, self-restraint and service.',
+    desc2: 'Whether you are a young professional seeking focus and calm, or a family continuing a lifelong practice — our doors are open. Come as you are.',
+    quote: 'हम बदलेंगे, युग बदलेगा।',
+    quoteSub: 'Transform the self, and the era follows.',
+    cta: 'Read Our Story',
+    portrait: 'Yugrishi Pt. Shriram Sharma Acharya',
   },
   hi: {
     eyebrow: 'हम कौन हैं',
-    title: 'गायत्री परंपरा में निहित एक समुदाय',
-    desc1: 'गायत्री चेतना केंद्र, बेंगलुरु — अखिल विश्व गायत्री परिवार का एक जीवंत केंद्र है, जो पं. श्रीराम शर्मा आचार्य जी और माता भगवती देवी शर्मा जी की शिक्षाओं से प्रेरित है।',
-    desc2: 'हम वैज्ञानिक अध्यात्म का मार्ग प्रदान करते हैं — प्राचीन वैदिक ज्ञान को आधुनिक समझ के साथ जोड़कर — व्यक्तियों और परिवारों को सार्थक, सदाचारी और शांतिपूर्ण जीवन की ओर ले जाने के लिए।',
-    quote: '॥ हम सुधरेंगे — युग सुधरेगा ॥',
-    quoteSub: 'युग निर्माण योजना का संकल्प',
-    cta: 'हमारे बारे में जानें',
-    badgeLabel: 'सेवा के वर्ष',
+    title: 'प्राचीन ज्ञान — जिसे आप वास्तव में जी सकते हैं',
+    desc1: 'अखिल विश्व गायत्री परिवार वैज्ञानिक अध्यात्म का एक वैश्विक आंदोलन है, जो युगऋषि पं. श्रीराम शर्मा आचार्य की शिक्षाओं पर आधारित है। यहाँ बेंगलुरु में, हम उस ज्योति को आगे बढ़ाते हैं — साधना, स्वाध्याय, संयम और सेवा के माध्यम से।',
+    desc2: 'चाहे आप एकाग्रता और शांति की खोज में एक युवा पेशेवर हों, या आजीवन साधना निभाने वाला परिवार — हमारे द्वार खुले हैं। जैसे हैं वैसे ही आइए।',
+    quote: 'हम बदलेंगे, युग बदलेगा।',
+    quoteSub: 'स्वयं को बदलें, युग बदलेगा।',
+    cta: 'हमारी कहानी पढ़ें',
+    portrait: 'युगऋषि पं. श्रीराम शर्मा आचार्य',
   },
   kn: {
     eyebrow: 'ನಾವು ಯಾರು',
-    title: 'ಗಾಯತ್ರಿ ಪರಂಪರೆಯಲ್ಲಿ ಬೇರೂರಿದ ಒಂದು ಸಮುದಾಯ',
-    desc1: 'ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ, ಬೆಂಗಳೂರು — ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರದ ಒಂದು ಜೀವಂತ ಕೇಂದ್ರ, ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯ ಜಿ ಮತ್ತು ಮಾತಾ ಭಗವತಿ ದೇವಿ ಶರ್ಮಾ ಜಿ ಅವರ ಬೋಧನೆಗಳಿಂದ ಪ್ರೇರಿತ.',
-    desc2: 'ನಾವು ವೈಜ್ಞಾನಿಕ ಅಧ್ಯಾತ್ಮದ ಮಾರ್ಗವನ್ನು ನೀಡುತ್ತೇವೆ — ಪ್ರಾಚೀನ ವೈದಿಕ ಜ್ಞಾನ ಮತ್ತು ಆಧುನಿಕ ತಿಳಿವಳಿಕೆಯ ಸಮ್ಮಿಲನದ ಮೂಲಕ — ಸಾರ್ಥಕ, ಸಚ್ಚರಿತ್ರ ಮತ್ತು ಶಾಂತ ಜೀವನದ ಕಡೆ ಕರೆದೊಯ್ಯಲು.',
-    quote: '॥ हम सुधरेंगे — युग सुधरेगा ॥',
-    quoteSub: 'ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆಯ ಧ್ಯೇಯ',
-    cta: 'ನಮ್ಮ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ',
-    badgeLabel: 'ಸೇವೆಯ ವರ್ಷಗಳು',
+    title: 'ನೀವು ನಿಜವಾಗಿಯೂ ಬದುಕಬಹುದಾದ ಪ್ರಾಚೀನ ಜ್ಞಾನ',
+    desc1: 'ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರವು ವೈಜ್ಞಾನಿಕ ಅಧ್ಯಾತ್ಮದ ಒಂದು ಜಾಗತಿಕ ಆಂದೋಲನ, ಯುಗಋಷಿ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಬೋಧನೆಗಳ ಮೇಲೆ ಸ್ಥಾಪಿತ. ಇಲ್ಲಿ ಬೆಂಗಳೂರಿನಲ್ಲಿ, ನಾವು ಆ ಬೆಳಕನ್ನು ಮುಂದೆ ಸಾಗಿಸುತ್ತೇವೆ — ಸಾಧನೆ, ಸ್ವಾಧ್ಯಾಯ, ಸಂಯಮ ಮತ್ತು ಸೇವೆಯ ಮೂಲಕ.',
+    desc2: 'ನೀವು ಏಕಾಗ್ರತೆ ಮತ್ತು ಶಾಂತಿಯನ್ನು ಬಯಸುವ ಯುವ ವೃತ್ತಿಪರರಾಗಿರಲಿ, ಅಥವಾ ಆಜೀವ ಸಾಧನೆಯನ್ನು ಮುಂದುವರಿಸುವ ಕುಟುಂಬವಾಗಿರಲಿ — ನಮ್ಮ ಬಾಗಿಲುಗಳು ತೆರೆದಿವೆ. ಇರುವಂತೆಯೇ ಬನ್ನಿ.',
+    quote: 'हम बदलेंगे, युग बदलेगा।',
+    quoteSub: 'ಸ್ವಯಂ ಬದಲಾಗಿ, ಯುಗ ಬದಲಾಗುತ್ತದೆ.',
+    cta: 'ನಮ್ಮ ಕಥೆ ಓದಿ',
+    portrait: 'ಯುಗಋಷಿ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯ',
   },
 };
 
@@ -68,35 +68,43 @@ export default function HomeWelcome() {
     <section className="home-welcome section section--white" ref={ref}>
       <div className="section-inner home-welcome__inner">
 
-        {/* Text side */}
-        <div className="home-welcome__text">
-          <span className="sec-head__eyebrow">{d.eyebrow}</span>
-          <h2 className="home-welcome__title">{d.title}</h2>
-          <div className="ornament ornament--left" aria-hidden="true" />
-          <p className="home-welcome__desc">{d.desc1}</p>
-          <p className="home-welcome__desc">{d.desc2}</p>
-          <figure className="home-welcome__quote">
-            <blockquote>{d.quote}</blockquote>
-            <figcaption>{d.quoteSub}</figcaption>
-          </figure>
-          <Link href="/about" className="link-arrow">{d.cta}</Link>
-        </div>
-
         {/* Image side */}
-        <div className="home-welcome__img-wrap">
+        <div className="home-welcome__media">
           <div className="home-welcome__img-frame">
             <Image
-              src="/assets/chetna-kendra/mandir.png"
+              src="/assets/homepage/hero/about-hero.png"
               alt="Gayatri Chetna Kendra Bengaluru"
               fill
               style={{ objectFit: 'cover' }}
               sizes="(max-width: 860px) 100vw, 50vw"
             />
           </div>
-          <div className="home-welcome__badge">
-            <span className="home-welcome__badge-num">40+</span>
-            <span className="home-welcome__badge-label">{d.badgeLabel}</span>
-          </div>
+          <figure className="home-welcome__portrait">
+            <span className="home-welcome__portrait-img">
+              <Image
+                src="/assets/founders/guruji.jpeg"
+                alt={d.portrait}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="120px"
+              />
+            </span>
+            <figcaption className="home-welcome__portrait-label">{d.portrait}</figcaption>
+          </figure>
+        </div>
+
+        {/* Text side */}
+        <div className="home-welcome__text">
+          <span className="sec-head__eyebrow">{d.eyebrow}</span>
+          <h2 className="home-welcome__title">{d.title}</h2>
+          <span className="home-welcome__rule" aria-hidden="true" />
+          <p className="home-welcome__desc">{d.desc1}</p>
+          <p className="home-welcome__desc">{d.desc2}</p>
+          <figure className="home-welcome__quote">
+            <blockquote lang="hi">{d.quote}</blockquote>
+            <figcaption>{d.quoteSub}</figcaption>
+          </figure>
+          <Link href="/about" className="btn btn-primary home-welcome__cta">{d.cta}</Link>
         </div>
 
       </div>

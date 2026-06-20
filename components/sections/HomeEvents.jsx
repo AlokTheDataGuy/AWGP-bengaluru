@@ -31,7 +31,6 @@ export default function HomeEvents({ locale = 'en' }) {
 
   const upcomingLabel = locale === 'hi' ? 'आगामी' : locale === 'kn' ? 'ಮುಂಬರುವ' : 'Upcoming';
   const eventsLabel   = locale === 'hi' ? 'कार्यक्रम' : locale === 'kn' ? 'ಕಾರ್ಯಕ್ರಮಗಳು' : 'Events';
-  const viewAllLabel  = locale === 'hi' ? 'सभी कार्यक्रम देखें' : locale === 'kn' ? 'ಎಲ್ಲ ಕಾರ್ಯಕ್ರಮಗಳು' : 'View All Events';
   const addCalLabel   = locale === 'hi' ? 'कैलेंडर में जोड़ें' : locale === 'kn' ? 'ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಸೇರಿಸಿ' : 'Add to Calendar';
 
   const fmt = new Intl.DateTimeFormat(LOCALE_TAG[locale] || 'en-US', {
@@ -112,12 +111,6 @@ export default function HomeEvents({ locale = 'en' }) {
           );
         })}
 
-      </div>
-
-      <div className="home-events__footer">
-        <Link href="/events" className="btn btn-outline-dark">
-          {viewAllLabel}
-        </Link>
       </div>
     </section>
   );

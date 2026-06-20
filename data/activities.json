@@ -1,7 +1,48 @@
 [
   {
+    "id": "sadhana",
+    "slug": "sadhana",
+    "href": "/activities/sadhana",
+    "img": "/assets/programs/akhand-jap.jpeg",
+    "schedule": {
+      "en": "Daily — collective Gayatri Sadhana, jap & meditation",
+      "hi": "प्रतिदिन — सामूहिक गायत्री साधना, जप एवं ध्यान",
+      "kn": "ಪ್ರತಿದಿನ — ಸಾಮೂಹಿಕ ಗಾಯತ್ರಿ ಸಾಧನೆ, ಜಪ ಮತ್ತು ಧ್ಯಾನ"
+    },
+    "title": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+    "subtitle": { "en": "The Heart of Spiritual Practice", "hi": "आध्यात्मिक साधना का केंद्र", "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಕೇಂದ್ರ" },
+    "intro": {
+      "en": "Sadhana is the cornerstone of personal transformation at AWGP — a disciplined daily practice of Gayatri Mantra jap, meditation, and self-reflection, offered in five forms for every schedule and spiritual level.",
+      "hi": "साधना AWGP में व्यक्तिगत परिवर्तन की आधारशिला है — गायत्री मंत्र जप, ध्यान और स्वाध्याय की दैनिक साधना, पाँच रूपों में उपलब्ध।",
+      "kn": "ಸಾಧನೆ AWGP ನಲ್ಲಿ ವೈಯಕ್ತಿಕ ಪರಿವರ್ತನೆಯ ಮೂಲಾಧಾರ — ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ, ಧ್ಯಾನ ಮತ್ತು ಸ್ವಾಧ್ಯಾಯದ ದೈನಂದಿನ ಸಾಧನೆ."
+    },
+    "points": [],
+    "yagyaTypes": []
+  },
+  {
+    "id": "community-seva",
+    "slug": "community-seva",
+    "href": "/activities/community-seva",
+    "img": "/assets/activities/seva.jpg",
+    "schedule": {
+      "en": "Ongoing — blood donation, food & cloth distribution, hospital visits & more",
+      "hi": "सतत — रक्तदान, अन्न-वस्त्र वितरण, अस्पताल सेवा एवं अधिक",
+      "kn": "ನಿರಂತರ — ರಕ್ತದಾನ, ಆಹಾರ-ವಸ್ತ್ರ ವಿತರಣೆ, ಆಸ್ಪತ್ರೆ ಸೇವೆ ಮತ್ತು ಹೆಚ್ಚು"
+    },
+    "title": { "en": "Community Seva", "hi": "सामुदायिक सेवा", "kn": "ಸಾಮುದಾಯಿಕ ಸೇವೆ" },
+    "subtitle": { "en": "Selfless Service to Society", "hi": "समाज की निःस्वार्थ सेवा", "kn": "ಸಮಾಜದ ನಿಸ್ವಾರ್ಥ ಸೇವೆ" },
+    "intro": {
+      "en": "Living spirituality through seva — blood donation camps, food & cloth distribution, hospital visits, and care for those in need, all under one community service initiative.",
+      "hi": "सेवा के माध्यम से अध्यात्म — रक्तदान शिविर, अन्न-वस्त्र वितरण, अस्पताल सेवा और जरूरतमंदों की देखभाल।",
+      "kn": "ಸೇವೆಯ ಮೂಲಕ ಆಧ್ಯಾತ್ಮ — ರಕ್ತದಾನ ಶಿಬಿರ, ಆಹಾರ-ವಸ್ತ್ರ ವಿತರಣೆ, ಆಸ್ಪತ್ರೆ ಸೇವೆ ಮತ್ತು ಅಗತ್ಯವಿರುವವರ ಆರೈಕೆ."
+    },
+    "points": [],
+    "yagyaTypes": []
+  },
+  {
     "id": "blood-donation",
     "slug": "blood-donation",
+    "listed": false,
     "img": "/assets/activities/blood-camp.jpg",
     "schedule": {
       "en": "Periodically — 2 to 3 times a year",
@@ -23,31 +64,9 @@
     "yagyaTypes": []
   },
   {
-    "id": "tree-plantation",
-    "slug": "tree-plantation",
-    "img": "/assets/activities/tree-plantation.jpg",
-    "schedule": {
-      "en": "World Environment Day (June 5), Van Mahotsav & other occasions",
-      "hi": "विश्व पर्यावरण दिवस (5 जून), वन महोत्सव एवं अन्य अवसर",
-      "kn": "ವಿಶ್ವ ಪರಿಸರ ದಿನ (ಜೂನ್ 5), ವನ ಮಹೋತ್ಸವ ಮತ್ತು ಇತರ ಸಂದರ್ಭಗಳು"
-    },
-    "title": { "en": "Tree Plantation Drive", "hi": "वृक्षारोपण अभियान", "kn": "ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ" },
-    "subtitle": { "en": "Caring for the Earth as an Act of Seva", "hi": "सेवा के रूप में पृथ्वी की देखभाल", "kn": "ಸೇವೆಯ ಕಾರ್ಯವಾಗಿ ಭೂಮಿಯ ಆರೈಕೆ" },
-    "intro": {
-      "en": "Environment protection is a core part of AWGP's mission. Gurudev was a pioneer of ecological consciousness decades before it became mainstream. Our tree plantation drives are held on World Environment Day, Van Mahotsav, and other occasions — bringing members together to serve Mother Earth.",
-      "hi": "पर्यावरण संरक्षण AWGP के मिशन का एक मूल हिस्सा है। गुरुदेव पारिस्थितिक चेतना के अग्रदूत थे।",
-      "kn": "ಪರಿಸರ ಸಂರಕ್ಷಣೆ AWGP ಮಿಷನ್‌ನ ಮೂಲ ಭಾಗ."
-    },
-    "points": [
-      { "en": "Native species planted at public spaces, schools, and community areas", "hi": "सार्वजनिक स्थानों, विद्यालयों में देशी प्रजातियां", "kn": "ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ ಸ್ಥಳೀಯ ಪ್ರಜಾತಿಗಳ ನಾಟಿ" },
-      { "en": "Participants adopt trees and commit to caring for them", "hi": "प्रतिभागी पेड़ों को अपनाते हैं", "kn": "ಭಾಗವಹಿಸುವವರು ಮರಗಳನ್ನು ದತ್ತು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ" },
-      { "en": "Educational awareness sessions on biodiversity and conservation", "hi": "जैव विविधता पर शैक्षणिक सत्र", "kn": "ಜೀವವೈವಿಧ್ಯ ಕುರಿತು ಶೈಕ್ಷಣಿಕ ಜಾಗೃತಿ ಸತ್ರ" }
-    ],
-    "yagyaTypes": []
-  },
-  {
     "id": "food-cloth-distribution",
     "slug": "food-cloth-distribution",
+    "listed": false,
     "img": "/assets/activities/food-distribution.jpg",
     "schedule": {
       "en": "Monthly visits — orphanages and old age homes",
@@ -65,52 +84,6 @@
       { "en": "Monthly visits to orphanages — meals, clothing, stationery for children", "hi": "अनाथालयों में मासिक दौरे", "kn": "ಅನಾಥಾಶ್ರಮಗಳಿಗೆ ಮಾಸಿಕ ಭೇಟಿ" },
       { "en": "Old age home visits — spending time, cultural programs, and essentials", "hi": "वृद्धाश्रम दौरे", "kn": "ವೃದ್ಧಾಶ್ರಮ ಭೇಟಿ" },
       { "en": "Clothing drives — collect donations from community members", "hi": "वस्त्र अभियान", "kn": "ವಸ್ತ್ರ ಅಭಿಯಾನ" }
-    ],
-    "yagyaTypes": []
-  },
-  {
-    "id": "tours",
-    "slug": "tours",
-    "img": "/assets/activities/tours.jpg",
-    "schedule": {
-      "en": "1–2 times a year — dates announced in advance",
-      "hi": "वर्ष में 1-2 बार — तिथियां पहले से घोषित",
-      "kn": "ವರ್ಷಕ್ಕೆ 1-2 ಬಾರಿ — ದಿನಾಂಕಗಳನ್ನು ಮುಂಚಿತವಾಗಿ ಘೋಷಿಸಲಾಗುತ್ತದೆ"
-    },
-    "title": { "en": "Spiritual Tours & Pilgrimages", "hi": "आध्यात्मिक यात्राएं एवं तीर्थयात्राएं", "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಪ್ರವಾಸ ಮತ್ತು ಯಾತ್ರೆಗಳು" },
-    "subtitle": { "en": "Journeying Together to Sacred Places", "hi": "पवित्र स्थानों की सामूहिक यात्रा", "kn": "ಪವಿತ್ರ ಸ್ಥಳಗಳಿಗೆ ಒಟ್ಟಾಗಿ ಪ್ರಯಾಣ" },
-    "intro": {
-      "en": "We organise group tours to spiritual destinations — including Shantikunj (Haridwar), Mathura-Vrindavan, and other pilgrimage sites.",
-      "hi": "हम शांतिकुंज (हरिद्वार), मथुरा-वृंदावन की सामूहिक यात्राएं आयोजित करते हैं।",
-      "kn": "ನಾವು ಶಾಂತಿಕುಂಜ, ಮಥುರಾ-ವೃಂದಾವನಕ್ಕೆ ಗುಂಪು ಪ್ರವಾಸ ಆಯೋಜಿಸುತ್ತೇವೆ."
-    },
-    "points": [
-      { "en": "Annual Shantikunj trip — experience the global HQ in Haridwar firsthand", "hi": "वार्षिक शांतिकुंज यात्रा", "kn": "ವಾರ್ಷಿಕ ಶಾಂತಿಕುಂಜ ಪ್ರವಾಸ" },
-      { "en": "Pilgrimage to Mathura, Vrindavan, Haridwar, and Rishikesh", "hi": "मथुरा, वृंदावन, हरिद्वार की तीर्थयात्रा", "kn": "ಮಥುರಾ, ವೃಂದಾವನ, ಹರಿದ್ವಾರ ಯಾತ್ರೆ" },
-      { "en": "Group travel makes pilgrimages affordable and safe for all", "hi": "सामूहिक यात्रा सभी के लिए किफायती", "kn": "ಗುಂಪು ಪ್ರಯಾಣ ಎಲ್ಲರಿಗೂ ಕೈಗೆಟಕುವಂತೆ ಮಾಡುತ್ತದೆ" }
-    ],
-    "yagyaTypes": []
-  },
-  {
-    "id": "fun-sports",
-    "slug": "fun-sports",
-    "img": "/assets/activities/sports/sports1.jpg",
-    "schedule": {
-      "en": "Annual Day (Sneh Milan) & special occasions",
-      "hi": "वार्षिक दिवस (स्नेह मिलन) एवं विशेष अवसर",
-      "kn": "ವಾರ್ಷಿಕ ದಿನ (ಸ್ನೇಹ ಮಿಲನ) ಮತ್ತು ವಿಶೇಷ ಸಂದರ್ಭಗಳು"
-    },
-    "title": { "en": "Fun Activities & Sports", "hi": "मनोरंजन गतिविधियां एवं खेल", "kn": "ಮನರಂಜನಾ ಚಟುವಟಿಕೆಗಳು ಮತ್ತು ಕ್ರೀಡೆ" },
-    "subtitle": { "en": "Celebrating Together with Joy & Laughter", "hi": "आनंद और हंसी के साथ एक साथ उत्सव", "kn": "ಸಂತೋಷ ಮತ್ತು ನಗುವಿನೊಂದಿಗೆ ಆಚರಣೆ" },
-    "intro": {
-      "en": "A community that prays together also plays together! Our fun activities and sports events bring children, youth, and elders together.",
-      "hi": "जो समुदाय एक साथ प्रार्थना करता है, वह एक साथ खेलता भी है!",
-      "kn": "ಒಟ್ಟಾಗಿ ಪ್ರಾರ್ಥಿಸುವ ಸಮುದಾಯ ಒಟ್ಟಾಗಿ ಆಡುತ್ತದೆ!"
-    },
-    "points": [
-      { "en": "Annual Day (Sneh Milan) — games, cultural programs, and community feast", "hi": "वार्षिक दिवस (स्नेह मिलन)", "kn": "ವಾರ್ಷಿಕ ದಿನ (ಸ್ನೇಹ ಮಿಲನ)" },
-      { "en": "Cricket, badminton, and indoor games tournaments", "hi": "क्रिकेट, बैडमिंटन टूर्नामेंट", "kn": "ಕ್ರಿಕೆಟ್, ಬ್ಯಾಡ್ಮಿಂಟನ್ ಸ್ಪರ್ಧೆ" },
-      { "en": "Talent shows and cultural performances by children", "hi": "बच्चों द्वारा प्रतिभा प्रदर्शन", "kn": "ಮಕ್ಕಳಿಂದ ಪ್ರತಿಭಾ ಪ್ರದರ್ಶನ" }
     ],
     "yagyaTypes": []
   },
@@ -141,6 +114,7 @@
   {
     "id": "hospital-volunteering",
     "slug": "hospital-volunteering",
+    "listed": false,
     "img": "/assets/activities/hospital-visit.jpg",
     "schedule": {
       "en": "Monthly — coordinated with partner hospitals",
@@ -159,31 +133,6 @@
       { "en": "Distribution of fruits, snacks, and essential supplies to patients", "hi": "मरीजों को फल और आवश्यक सामग्री", "kn": "ರೋಗಿಗಳಿಗೆ ಹಣ್ಣು ಮತ್ತು ಅಗತ್ಯ ವಸ್ತುಗಳ ವಿತರಣೆ" },
       { "en": "Guided mantra chanting and short satsang for patients who wish", "hi": "इच्छुक मरीजों के लिए मंत्र जप और सत्संग", "kn": "ಇಚ್ಛಿಸುವ ರೋಗಿಗಳಿಗೆ ಮಂತ್ರ ಜಪ ಮತ್ತು ಸತ್ಸಂಗ" },
       { "en": "Medical assistance guidance — connecting needy patients with resources", "hi": "जरूरतमंद मरीजों को संसाधनों से जोड़ना", "kn": "ಅಗತ್ಯ ರೋಗಿಗಳನ್ನು ಸಂಪನ್ಮೂಲಗಳೊಂದಿಗೆ ಸಂಪರ್ಕಿಸುವುದು" }
-    ],
-    "yagyaTypes": []
-  },
-  {
-    "id": "book-fair",
-    "slug": "book-fair",
-    "img": "/assets/activities/book-fair.jpg",
-    "schedule": {
-      "en": "Annual — usually during festivals or special occasions",
-      "hi": "वार्षिक — सामान्यतः त्योहारों या विशेष अवसरों पर",
-      "kn": "ವಾರ್ಷಿಕ — ಸಾಮಾನ್ಯವಾಗಿ ಹಬ್ಬಗಳು ಅಥವಾ ವಿಶೇಷ ಸಂದರ್ಭಗಳಲ್ಲಿ"
-    },
-    "title": { "en": "Book Fair", "hi": "पुस्तक मेला", "kn": "ಪುಸ್ತಕ ಮೇಳ" },
-    "subtitle": { "en": "Spreading Vedic Wisdom Through Literature", "hi": "साहित्य के माध्यम से वैदिक ज्ञान का प्रसार", "kn": "ಸಾಹಿತ್ಯದ ಮೂಲಕ ವೈದಿಕ ಜ್ಞಾನದ ಪ್ರಸಾರ" },
-    "intro": {
-      "en": "AWGP's literary wing — Akhand Jyoti Sansthan (established 1938) — has published over 3,300 books and the iconic Akhand Jyoti magazine. AWGP Bengaluru organises an annual book fair showcasing this vast library of Vedic literature, personal development, and spiritual science. Free entry, open to all.",
-      "hi": "AWGP की साहित्यिक शाखा — अखंड ज्योति संस्थान (1938 से) — ने 3,300 से अधिक पुस्तकें और अखंड ज्योति पत्रिका प्रकाशित की है।",
-      "kn": "AWGP ಸಾಹಿತ್ಯ ವಿಭಾಗ — ಅಖಂಡ ಜ್ಯೋತಿ ಸಂಸ್ಥಾನ (1938 ರಿಂದ) — 3,300 ಕ್ಕೂ ಹೆಚ್ಚು ಪುಸ್ತಕಗಳನ್ನು ಪ್ರಕಟಿಸಿದೆ."
-    },
-    "points": [
-      { "en": "Akhand Jyoti magazine — in publication since 1938, available in Hindi & English", "hi": "अखंड ज्योति पत्रिका — 1938 से प्रकाशित", "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ — 1938 ರಿಂದ ಪ್ರಕಟಣೆ" },
-      { "en": "Books on Gayatri Sadhana, Yagya science, health, values & family harmony", "hi": "गायत्री साधना, यज्ञ विज्ञान पर पुस्तकें", "kn": "ಗಾಯತ್ರಿ ಸಾಧನೆ, ಯಜ್ಞ ವಿಜ್ಞಾನ ಕುರಿತು ಪುಸ್ತಕಗಳು" },
-      { "en": "Personality development & motivational literature for the modern professional", "hi": "व्यक्तित्व विकास और प्रेरणादायक साहित्य", "kn": "ವ್ಯಕ್ತಿತ್ವ ವಿಕಾಸ ಮತ್ತು ಪ್ರೇರಣಾದಾಯಕ ಸಾಹಿತ್ಯ" },
-      { "en": "Children's literature — stories from Indian epics and value-based comics", "hi": "बच्चों का साहित्य — महाकाव्यों की कहानियां", "kn": "ಮಕ್ಕಳ ಸಾಹಿತ್ಯ — ಮಹಾಕಾವ್ಯಗಳ ಕಥೆಗಳು" },
-      { "en": "Free entry — open to all, no registration required", "hi": "निःशुल्क प्रवेश — सभी के लिए खुला", "kn": "ಉಚಿತ ಪ್ರವೇಶ — ಎಲ್ಲರಿಗೂ ಮುಕ್ತ" }
     ],
     "yagyaTypes": []
   },
@@ -234,7 +183,7 @@
     "slug": "yoga",
     "img": "/assets/programs/yoga_session.jpg",
     "schedule": { "en": "Monday to Friday · 10:00 AM – 11:00 AM", "hi": "सोमवार से शुक्रवार · सुबह 10:00 – 11:00 बजे", "kn": "ಸೋಮವಾರದಿಂದ ಶುಕ್ರವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 11:00" },
-    "title":    { "en": "Yoga Sessions", "hi": "योग सत्र", "kn": "ಯೋಗ ಸತ್ರ" },
+    "title":    { "en": "Yoga", "hi": "योग", "kn": "ಯೋಗ" },
     "subtitle": { "en": "Daily Yoga for Body, Breath & Being", "hi": "शरीर, श्वास और आत्मा के लिए दैनिक योग", "kn": "ದೇಹ, ಉಸಿರು ಮತ್ತು ಅಸ್ತಿತ್ವಕ್ಕಾಗಿ ದೈನಂದಿನ ಯೋಗ" },
     "intro": { "en": "Our weekday yoga sessions are open to all — from beginners to experienced practitioners. Rooted in the Vedic understanding of yoga, each session combines asanas, pranayam, and a closing meditation.", "hi": "हमारे सप्ताहिक योग सत्र सभी के लिए खुले हैं। प्रत्येक सत्र में आसन, प्राणायाम और समापन ध्यान शामिल है।", "kn": "ನಮ್ಮ ವಾರದ ಯೋಗ ಸತ್ರಗಳು ಎಲ್ಲರಿಗೂ ಮುಕ್ತ." },
     "points": [
@@ -248,6 +197,7 @@
   {
     "id": "bal-sanskar-shala",
     "slug": "bal-sanskar-shala",
+    "listed": false,
     "img": "/assets/programs/bal-sanskar-shala.jpg",
     "schedule": { "en": "Sundays · 10:00 AM – 12:00 PM", "hi": "रविवार · सुबह 10:00 – 12:00 बजे", "kn": "ಭಾನುವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 12:00" },
     "title":    { "en": "Bal Sanskar Shala", "hi": "बाल संस्कार शाला", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ" },
@@ -259,17 +209,6 @@
       { "en": "Art, craft, and creative expression with cultural themes", "hi": "सांस्कृतिक विषयों के साथ कला और शिल्प", "kn": "ಸಾಂಸ್ಕೃತಿಕ ವಿಷಯಗಳೊಂದಿಗೆ ಕಲೆ ಮತ್ತು ಸೃಜನಶೀಲ ಅಭಿವ್ಯಕ್ತಿ" },
       { "en": "Good manners, sewa, and environmental awareness", "hi": "अच्छे आचरण, सेवा और पर्यावरण जागरूकता", "kn": "ಒಳ್ಳೆಯ ಆಚರಣೆ, ಸೇವೆ ಮತ್ತು ಪರಿಸರ ಜಾಗೃತಿ" }
     ],
-    "yagyaTypes": []
-  },
-  {
-    "id": "jap",
-    "slug": "jap",
-    "img": "/assets/programs/akhand-jap.jpeg",
-    "schedule": { "en": "Daily practice — personal & group sessions available", "hi": "दैनिक अभ्यास — व्यक्तिगत एवं सामूहिक सत्र उपलब्ध", "kn": "ದೈನಂದಿನ ಅಭ್ಯಾಸ — ವ್ಯಕ್ತಿಗತ ಮತ್ತು ಗುಂಪು ಸತ್ರ ಲಭ್ಯ" },
-    "title":    { "en": "Jap", "hi": "जप", "kn": "ಜಪ" },
-    "subtitle": { "en": "The Practice of Mantra Repetition", "hi": "मंत्र जप का अभ्यास", "kn": "ಮಂತ್ರ ಜಪದ ಅಭ್ಯಾಸ" },
-    "intro": { "en": "TODO: Jap — the sustained repetition of the Gayatri Mantra — is a core daily practice at AWGP. Details and guidance coming soon.", "hi": "TODO: जप — गायत्री मंत्र का निरंतर जप — AWGP में दैनिक साधना का मूल है। विवरण शीघ्र आएगा।", "kn": "TODO: ಜಪ — ಗಾಯತ್ರಿ ಮಂತ್ರದ ನಿರಂತರ ಪುನರಾವರ್ತನೆ — AWGP ಯ ದೈನಂದಿನ ಅಭ್ಯಾಸದ ಮೂಲ. ವಿವರಗಳು ಶೀಘ್ರದಲ್ಲಿ." },
-    "points": [],
     "yagyaTypes": []
   }
 ]
