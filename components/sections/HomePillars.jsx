@@ -1,20 +1,23 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '../../lib/i18n/navigation';
+import { useReveal } from '../../lib/useReveal';
 import './HomePillars.css';
 
 const HEAD = {
   en: {
+    eyebrow: 'The Foundation',
     title: 'Our Four Pillars',
     sub: 'The foundation of our journey towards individual excellence and social transformation.',
   },
   hi: {
+    eyebrow: 'आधारशिला',
     title: 'हमारे चार स्तंभ',
     sub: 'व्यक्तिगत उत्कृष्टता और सामाजिक परिवर्तन की हमारी यात्रा का आधार।',
   },
   kn: {
+    eyebrow: 'ಅಡಿಪಾಯ',
     title: 'ನಮ್ಮ ನಾಲ್ಕು ಸ್ತಂಭಗಳು',
     sub: 'ವೈಯಕ್ತಿಕ ಶ್ರೇಷ್ಠತೆ ಮತ್ತು ಸಾಮಾಜಿಕ ಪರಿವರ್ತನೆಯ ನಮ್ಮ ಪ್ರಯಾಣದ ಅಡಿಪಾಯ.',
   },
@@ -51,7 +54,7 @@ const PILLARS = [
   },
 ];
 
-/* Pillar icons — PNGs from /public/assets/icon */
+/* Pillar icons — colourful diya PNGs from /public/assets/icon */
 const ICONS = {
   sadhana: '/assets/icon/sadhna1.png',
   swadhyaya: '/assets/icon/swadhayay1.png',
@@ -59,38 +62,21 @@ const ICONS = {
   seva: '/assets/icon/seva1.png',
 };
 
-function useReveal(threshold = 0.15) {
-  const ref = useRef(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          el.classList.add('is-visible');
-          obs.disconnect();
-        }
-      },
-      { threshold }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, [threshold]);
-  return ref;
-}
-
 export default function HomePillars() {
   const locale = useLocale();
   const h = HEAD[locale] || HEAD.en;
   const ref = useReveal();
 
   return (
-    <section className="home-pillars section section--cream" ref={ref}>
-      <div className="section-inner">
+    <section className="home-pillars section" ref={ref}>
+      <span className="pillars__mandala" aria-hidden="true" />
+
+      <div className="section-inner home-pillars__inner">
 
         <div className="pillars__head">
+          <span className="pillars__eyebrow">{h.eyebrow}</span>
           <h2 className="pillars__title">{h.title}</h2>
-          <span className="pillars__ornament" aria-hidden="true" />
+          <span className="pillars__divider" aria-hidden="true" />
           <p className="pillars__sub">{h.sub}</p>
         </div>
 
@@ -98,13 +84,19 @@ export default function HomePillars() {
           {PILLARS.map((p, i) => {
             const d = p[locale] || p.en;
             return (
-              <Link key={p.href} href={p.href} className="pillar-col" style={{ '--i': i }}>
-                <span className="pillar-col__icon">
+              <Link key={p.href} href={p.href} className="pillar-card" style={{ '--i': i }}>
+                <span className="pillar-card__index" aria-hidden="true">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+
+                <span className="pillar-card__medallion">
                   <img src={ICONS[p.key]} alt="" aria-hidden="true" loading="lazy" />
                 </span>
-                <h3 className="pillar-col__name">{d.name}</h3>
-                <p className="pillar-col__desc">{d.meaning}</p>
-                <span className="pillar-col__arrow" aria-hidden="true">
+
+                <h3 className="pillar-card__name">{d.name}</h3>
+                <p className="pillar-card__desc">{d.meaning}</p>
+
+                <span className="pillar-card__arrow" aria-hidden="true">
                   <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12" />
                     <polyline points="13 6 19 12 13 18" />

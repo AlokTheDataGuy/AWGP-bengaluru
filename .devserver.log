@@ -1,0 +1,64 @@
+
+> awgp-bengaluru@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.15 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.22.208.1:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · turbo
+
+ ✓ Starting...
+ ✓ Compiled middleware in 149ms
+ ✓ Ready in 1551ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 2.8s
+ GET /en 200 in 4510ms
+ GET /en 200 in 415ms
+ GET /en 200 in 436ms
+ ○ Compiling /[locale]/media/gallery ...
+ ✓ Compiled /[locale]/media/gallery in 789ms
+ GET /en/media/gallery 200 in 2139ms
+ GET /en 200 in 435ms
+ ○ Compiling /[locale]/events ...
+ ✓ Compiled /[locale]/events in 886ms
+ GET /en/events 200 in 1937ms
+ GET /en 200 in 389ms
+ GET /en 200 in 716ms
+ GET /en 200 in 1345ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 973ms
+ GET /en/about 200 in 2337ms
+ GET /en/about 200 in 404ms
+ GET /en/about 200 in 284ms
+ ○ Compiling /[locale]/sanskars ...
+ ✓ Compiled /[locale]/sanskars in 659ms
+ GET /en/sanskars 200 in 1624ms
+ ○ Compiling /[locale]/events/[slug] ...
+ ✓ Compiled /[locale]/events/[slug] in 734ms
+ GET /en/events/festivals 200 in 1757ms
+ GET /en/events/festivals 200 in 266ms
+ GET /en 200 in 327ms
+ GET /en 200 in 1359ms
+ GET /en 200 in 1178ms
+ GET /en 200 in 895ms
+ ✓ Compiled in 329ms
+ ✓ Compiled in 272ms
+ ✓ Compiled in 225ms
+ ✓ Compiled in 276ms
+ ✓ Compiled in 787ms
+ ✓ Compiled in 242ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 603ms
+ GET /en 200 in 5751ms
+ GET /en 200 in 1731ms
+ GET /en 200 in 2615ms
+ GET /en 200 in 4540ms
+ GET /en 200 in 2161ms
+ ✓ Compiled in 739ms
+ ✓ Compiled in 363ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 551ms
+ GET /en 200 in 5618ms
+ GET /en 200 in 2164ms

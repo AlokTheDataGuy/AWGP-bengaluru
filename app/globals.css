@@ -79,15 +79,20 @@
 /* ── Design tokens ── */
 :root {
   /* ── Font primitives (loaded via next/font) ── */
-  --font-primary:  var(--font-primary,  'Kumbh Sans'),        'Helvetica Neue', sans-serif;
-  --font-nunito:   var(--font-nunito,   'Nunito Sans'),        'Helvetica Neue', sans-serif;
+  --font-jost:     var(--font-jost,     'Jost'),               'Helvetica Neue', sans-serif;
   --font-mukta:    var(--font-mukta,    'Mukta'),              sans-serif;
   --font-kn:       var(--font-kn,       'Noto Sans Kannada'),  sans-serif;
   --font-reforma:  'Reforma2018', Georgia, serif;
 
-  /* ── Font roles — change only these to restyle the whole site ── */
-  --font-heading:  var(--font-primary);   /* Kumbh Sans  — all headings */
-  --font-body:     var(--font-nunito);    /* Nunito Sans — English body */
+  /* Legacy aliases — keep existing component references working.
+     Both map to Jost (Samadhi uses Renner for all body/UI text). */
+  --font-primary:  var(--font-jost);
+  --font-nunito:   var(--font-jost);
+
+  /* ── Font roles — Samadhi typography: Reforma headings, Jost body ──
+     Change only these to restyle the whole site. */
+  --font-heading:  var(--font-reforma);   /* Reforma 2018 — all headings (Samadhi)  */
+  --font-body:     var(--font-jost);      /* Jost (Renner-style) — English body/UI   */
   --font-body-hi:  var(--font-mukta);     /* Mukta       — Hindi body   */
   --font-body-kn:  var(--font-kn);        /* Noto Kannada — Kannada body */
   --font-quote:    var(--font-reforma);   /* Reforma 2018 — quotes/mantras */
@@ -129,6 +134,10 @@
   --radius-lg:     0;
   --nav-h:         96px;
 
+  /* Full-width body — single horizontal gutter, equal on both sides,
+     applied to navbar, hero, sections, footer & inner pages. */
+  --page-gutter:   clamp(30px, 7vw, 110px);
+
   /* Shadows */
   --shadow-sm:     0 2px 12px rgba(58,50,43,0.08);
   --shadow-md:     0 4px 24px rgba(58,50,43,0.12);
@@ -155,8 +164,8 @@ body[data-lang="kn"] { font-family: var(--font-body-kn); }
 /* ── Typography ── */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 700;
-  line-height: 1.2;
+  font-weight: 400;          /* Reforma is set at regular weight in Samadhi */
+  line-height: 1.3;          /* Samadhi headings use a relaxed ~1.45 line-height */
   color: var(--text-dark);
 }
 
@@ -165,9 +174,9 @@ blockquote, q, .mantra, .page-hero__mantra {
   font-style: italic;
 }
 h1 { font-size: clamp(2.6rem, 6vw, 5rem); }
-h2 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 600; }
-h3 { font-size: clamp(1.3rem, 2.5vw, 1.75rem); font-weight: 600; }
-h4 { font-size: 1.1rem; font-weight: 600; }
+h2 { font-size: clamp(2rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.3rem, 2.5vw, 1.75rem); }
+h4 { font-size: 1.1rem; }
 
 p  { color: var(--text-mid); line-height: 1.75; }
 a  { color: var(--saffron); text-decoration: none; transition: color 0.2s; }
@@ -187,10 +196,10 @@ a:hover { color: var(--maroon); }
   gap: 8px;
   padding: 13px 30px;
   border-radius: 0;
-  font-family: var(--font-heading);
+  font-family: var(--font-body);     /* Samadhi buttons use the body sans (Renner→Jost) */
   font-size: 0.88rem;
-  font-weight: 600;
-  letter-spacing: 0.07em;
+  font-weight: 700;
+  letter-spacing: 0.124rem;          /* Samadhi button tracking */
   text-transform: uppercase;
   cursor: pointer;
   border: none;
@@ -250,7 +259,7 @@ a:hover { color: var(--maroon); }
    SECTION LAYOUT
 ──────────────────────────────────── */
 .section {
-  padding: clamp(64px, 9vw, 110px) clamp(20px, 5vw, 60px);
+  padding: clamp(64px, 9vw, 110px) var(--page-gutter);
 }
 .section--dark {
   background: var(--dark);
@@ -270,7 +279,7 @@ a:hover { color: var(--maroon); }
   background: var(--white);
 }
 .section-inner {
-  max-width: 1200px;
+  max-width: none;     /* full-width body — gutter comes from .section */
   margin: 0 auto;
 }
 
@@ -341,6 +350,10 @@ a:hover { color: var(--maroon); }
 @media (max-width: 1000px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 860px)  { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px)  { .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; } }
+
+/* Shorter navbar on phones/tablets — keeps content offsets in sync */
+@media (max-width: 960px) { :root { --nav-h: 84px; } }
+@media (max-width: 480px) { :root { --nav-h: 72px; } }
 
 /* ────────────────────────────────────
    FORMS
@@ -422,9 +435,9 @@ a:hover { color: var(--maroon); }
    PAGE DETAIL LAYOUT (inner pages)
 ──────────────────────────────────── */
 .page-content {
-  max-width: 1160px;
+  max-width: none;
   margin: 0 auto;
-  padding: clamp(50px, 7vw, 90px) clamp(20px, 5vw, 60px);
+  padding: clamp(50px, 7vw, 90px) var(--page-gutter);
 }
 .content-grid {
   display: grid;
@@ -475,7 +488,9 @@ a:hover { color: var(--maroon); }
    LEGACY COMPAT — used by SectionHeader, inner pages
 ──────────────────────────────────── */
 :root {
-  --font-serif:    'Georgia', 'Times New Roman', serif;
+  /* Inner-page serif headings now use the landing-page display face (Reforma),
+     so typography is consistent on every page. Georgia stays as the fallback. */
+  --font-serif:    var(--font-reforma);
   --cream-dark:    var(--cream-2);
   --shadow-warm:   var(--shadow-sm);
   --shadow-deep:   var(--shadow-lg);

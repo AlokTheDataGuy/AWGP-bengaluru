@@ -36,10 +36,10 @@ export default async function EventsIndexPage({ params }) {
           </h2>
           <p className="idx-intro__text">
             {locale === 'hi'
-              ? 'AWGP बेंगलूरु के कार्यक्रम — उत्सव, यज्ञ, कार्यशालाएं, अनुष्ठान और अखंड जप — सामूहिक आध्यात्मिक अनुभव के अवसर हैं। सभी कार्यक्रम निःशुल्क और सभी के लिए खुले हैं।'
+              ? 'AWGP बेंगलूरु के कार्यक्रम — उत्सव, यज्ञ, अनुष्ठान और अखंड जप — सामूहिक आध्यात्मिक अनुभव के अवसर हैं। सभी कार्यक्रम निःशुल्क और सभी के लिए खुले हैं।'
               : locale === 'kn'
-              ? 'AWGP ಬೆಂಗಳೂರಿನ ಕಾರ್ಯಕ್ರಮಗಳು — ಹಬ್ಬಗಳು, ಯಜ್ಞ, ಕಾರ್ಯಾಗಾರ, ಅನುಷ್ಠಾನ ಮತ್ತು ಅಖಂಡ ಜಪ — ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವದ ಅವಕಾಶಗಳು. ಎಲ್ಲ ಕಾರ್ಯಕ್ರಮಗಳು ಉಚಿತ ಮತ್ತು ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.'
-              : "AWGP Bengaluru's events — festivals, Yagyas, workshops, Anusthan, and Akhand Jap — are occasions for collective spiritual experience. All events are free and open to everyone."}
+              ? 'AWGP ಬೆಂಗಳೂರಿನ ಕಾರ್ಯಕ್ರಮಗಳು — ಹಬ್ಬಗಳು, ಯಜ್ಞ, ಅನುಷ್ಠಾನ ಮತ್ತು ಅಖಂಡ ಜಪ — ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವದ ಅವಕಾಶಗಳು. ಎಲ್ಲ ಕಾರ್ಯಕ್ರಮಗಳು ಉಚಿತ ಮತ್ತು ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.'
+              : "AWGP Bengaluru's events — festivals, Yagyas, Anusthan, and Akhand Jap — are occasions for collective spiritual experience. All events are free and open to everyone."}
           </p>
           <span className="idx-divider" aria-hidden="true" />
         </div>

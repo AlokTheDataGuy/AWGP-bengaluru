@@ -101,11 +101,10 @@ export default function GalleryLightbox({ items, index, onClose, onIndex }) {
           <Image
             src={current.src}
             alt={current.caption || ''}
-            width={1400}
-            height={1000}
-            sizes="92vw"
+            fill
+            sizes="100vw"
             className="gal-lb-img"
-            style={{ width: 'auto', height: 'auto', objectFit: 'contain' }}
+            style={{ objectFit: 'contain' }}
             priority
           />
         </figure>

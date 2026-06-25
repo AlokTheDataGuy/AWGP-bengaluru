@@ -1,18 +1,13 @@
-import { Kumbh_Sans, Nunito_Sans, Mukta, Noto_Sans_Kannada } from 'next/font/google';
+import { Jost, Mukta, Noto_Sans_Kannada } from 'next/font/google';
 import './globals.css';
 import SiteLoader from '../components/ui/SiteLoader';
 
-const kumbhSans = Kumbh_Sans({
+// Jost — open-source geometric sans in the Futura/Renner lineage,
+// matching the Samadhi theme's "Renner" body/UI typeface.
+const jost = Jost({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-primary',
-  display: 'swap',
-});
-
-const nunitoSans = Nunito_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '600', '700'],
-  variable: '--font-nunito',
+  variable: '--font-jost',
   display: 'swap',
 });
 
@@ -40,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body className={`${kumbhSans.variable} ${nunitoSans.variable} ${mukta.variable} ${notoKannada.variable}`}>
+      <body className={`${jost.variable} ${mukta.variable} ${notoKannada.variable}`}>
         <SiteLoader />
         {children}
       </body>

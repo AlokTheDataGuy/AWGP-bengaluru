@@ -27,9 +27,9 @@ brand-facing rollout, the team must decide which is canonical and align the othe
 | Saffron (energy) | `#E8943B` | `#F57C00` |
 | Cream (background) | `#F7F1E5` (warm) | `#FFFDF7` (near-white ivory) |
 | Ink (text) | `#2B221E` | `#3A322B` |
-| Display / headings | Fraunces (serif) | **Reforma 2018 (serif)** — serif-display intent now met; exact face differs |
-| UI chrome (nav, buttons) | Plus Jakarta Sans | **Kumbh Sans** (`--font-sans`) |
-| Body | Plus Jakarta Sans | **Nunito Sans** |
+| Display / headings | Fraunces (serif) | **Reforma 2018** — matches Samadhi's heading face |
+| UI chrome (nav, buttons) | Plus Jakarta Sans | **Jost** (`--font-primary`) — Renner-style geometric sans |
+| Body | Plus Jakarta Sans | **Jost** |
 | Hindi / Sanskrit | Tiro Devanagari Hindi | **Mukta** (body), **Reforma 2018** (mantras) |
 | Kannada | *(not specified)* | **Noto Sans Kannada** |
 
@@ -98,24 +98,27 @@ Follow the brand spec's ratio: **~60% cream · 25% maroon · 10% ink text · 5% 
 
 ## 2. Typography
 
-Loaded via `next/font` (Kumbh Sans, Nunito Sans, Mukta, Noto Sans Kannada) + local Reforma
-(`@font-face` in `globals.css`). **Roles are tokenized — change a role, restyle the site.**
+Loaded via `next/font` (Jost, Mukta, Noto Sans Kannada) + local Reforma
+(`@font-face` in `globals.css`). This mirrors the **Samadhi theme** typography: **Reforma**
+for headings, **Renner** (a commercial geometric sans) for body/UI — substituted here by
+**Jost**, an open-source font in the same Futura/Renner lineage. **Roles are tokenized —
+change a role, restyle the site.**
 
 | Role token | Family | Use |
 |---|---|---|
-| `--font-heading` | **Reforma 2018 (serif)** | All headings/titles (`h1–h6`, section titles, card titles) — the Samadhi display voice |
-| `--font-sans` | Kumbh Sans | UI chrome — nav links, buttons, form labels (the modern-minimal layer) |
-| `--font-body` | Nunito Sans | English body copy |
+| `--font-heading` | **Reforma 2018** | All headings/titles (`h1–h6`, section titles, card titles) — the Samadhi display voice, set at **regular weight (400)** |
+| `--font-primary` | Jost | UI chrome — nav links, buttons, form labels (alias of `--font-body`) |
+| `--font-body` | Jost | English body copy |
 | `--font-body-hi` | Mukta | Hindi body (`body[data-lang="hi"]`) |
 | `--font-body-kn` | Noto Sans Kannada | Kannada body (`body[data-lang="kn"]`) |
 | `--font-quote` | Reforma 2018 | Mantras, pull-quotes |
 
-**Heading face is the theme typeface (Reforma), pairing a serif display with the sans body/UI
-— the editorial premium look.** Because Reforma is Latin-only, `--font-heading` and
-`--font-sans` are **re-pointed per language** (`body[data-lang="hi"|"kn"]` → Mukta / Noto Sans
-Kannada) so Devanagari/Kannada headings never fall back to broken glyphs. Body font likewise
-switches by `data-lang` (see `LangBodySync`). Reforma ships weights 300/400/700 — `font-weight:
-500/600` resolve to the real 700 (no faux-bold), so headings stay crisp.
+**Headings use the theme typeface (Reforma) at regular weight, paired with a geometric sans
+(Jost) for body/UI — the editorial premium look of Samadhi.** Because Reforma is Latin-only,
+`--font-heading` is **re-pointed per language** (`body[data-lang="hi"|"kn"]` → Mukta / Noto
+Sans Kannada) so Devanagari/Kannada headings never fall back to broken glyphs. Body font
+likewise switches by `data-lang` (see `LangBodySync`). Reforma ships weights 300/400/700, and
+headings are set to 400 to match Samadhi's elegant, non-bold display style.
 
 ### Type scale (from `globals.css`)
 

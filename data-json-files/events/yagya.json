@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "id": "yagya",
+    "slug": "yagya",
+    "navLabel": { "en": "Yagya", "hi": "यज्ञ", "kn": "ಯಜ್ಞ / ಹೋಮ" },
+    "seoDescription": {
+      "en": "Yagya, or homa, at AWGP Bengaluru — the meaning of the sacred fire, Gurudev's Deep Yagya of light, and the 24-, 9-, 5-, 3-kund and home Gayatri yagyas we organise through the year.",
+      "hi": "एडब्ल्यूजीपी बेंगलुरु में यज्ञ (होम) — पवित्र अग्नि का अर्थ, गुरुदेव का दीप यज्ञ, और वर्ष भर आयोजित 24-, 9-, 5-, 3-कुंडीय तथा गृह गायत्री यज्ञ।",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಯಜ್ಞ (ಹೋಮ) — ಪವಿತ್ರ ಅಗ್ನಿಯ ಅರ್ಥ, ಗುರುದೇವ್ ಅವರ ದೀಪ ಯಜ್ಞ, ಮತ್ತು ವರ್ಷವಿಡೀ ಆಯೋಜಿಸುವ 24-, 9-, 5-, 3-ಕುಂಡ ಹಾಗೂ ಗೃಹ ಗಾಯತ್ರಿ ಯಜ್ಞಗಳು."
+    }
+  },
+  "hero": {
+    "title": { "en": "Yagya / Homa", "hi": "यज्ञ / हवन", "kn": "ಯಜ್ಞ / ಹೋಮ" },
+    "tagline": {
+      "en": "The sacred fire at the heart of Vedic life — an offering of purity, unity, and selfless giving.",
+      "hi": "वैदिक जीवन के केंद्र में प्रज्वलित पवित्र अग्नि — पवित्रता, एकता और निःस्वार्थ दान का अर्पण।",
+      "kn": "ವೈದಿಕ ಜೀವನದ ಹೃದಯದಲ್ಲಿ ಬೆಳಗುವ ಪವಿತ್ರ ಅಗ್ನಿ — ಪಾವಿತ್ರ್ಯ, ಏಕತೆ ಮತ್ತು ನಿಃಸ್ವಾರ್ಥ ದಾನದ ಅರ್ಪಣೆ."
+    },
+    "intro": {
+      "en": "Yagya — known across Bengaluru as homa or havan — is among the oldest and most loved of Vedic practices. In its visible form it is the offering of herbal preparations (havan samagri) into a sacred fire, accompanied by Gayatri and Vedic mantras. But its meaning runs deeper: the word comes from the root yaj — to worship, to unite, and to give. At AWGP Bengaluru we organise yagyas of every scale, from a single home fire to grand multi-kund ceremonies, on festivals and sacred occasions through the year.",
+      "hi": "यज्ञ — जिसे बेंगलुरु में प्रायः होम या हवन कहा जाता है — वैदिक साधनाओं में सबसे प्राचीन और प्रिय है। अपने प्रत्यक्ष रूप में यह पवित्र अग्नि में हवन सामग्री का अर्पण है, गायत्री और वैदिक मंत्रों के उच्चारण के साथ। पर इसका अर्थ और गहरा है: यह शब्द 'यज्' धातु से बना है — अर्थात् देवपूजन, संगतिकरण (एकता) और दान। एडब्ल्यूजीपी बेंगलुरु में हम वर्ष भर पर्वों और पावन अवसरों पर हर आकार के यज्ञ आयोजित करते हैं — एक घरेलू अग्नि से लेकर भव्य बहु-कुंडीय अनुष्ठान तक।",
+      "kn": "ಯಜ್ಞ — ಬೆಂಗಳೂರಿನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಹೋಮ ಅಥವಾ ಹವನ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ — ವೈದಿಕ ಸಾಧನೆಗಳಲ್ಲಿ ಅತ್ಯಂತ ಪ್ರಾಚೀನ ಮತ್ತು ಪ್ರಿಯವಾದದ್ದು. ಇದರ ಪ್ರತ್ಯಕ್ಷ ರೂಪದಲ್ಲಿ ಇದು ಪವಿತ್ರ ಅಗ್ನಿಯಲ್ಲಿ ಹವನ ಸಾಮಗ್ರಿಯ ಅರ್ಪಣೆ, ಗಾಯತ್ರಿ ಮತ್ತು ವೈದಿಕ ಮಂತ್ರಗಳ ಉಚ್ಚಾರಣೆಯೊಂದಿಗೆ. ಆದರೆ ಇದರ ಅರ್ಥ ಇನ್ನೂ ಆಳವಾದದ್ದು: ಈ ಪದವು 'ಯಜ್' ಧಾತುವಿನಿಂದ ಬಂದಿದೆ — ಅಂದರೆ ದೇವಪೂಜನ, ಸಂಗತಿಕರಣ (ಏಕತೆ) ಮತ್ತು ದಾನ. AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಾವು ವರ್ಷವಿಡೀ ಹಬ್ಬಗಳು ಮತ್ತು ಪವಿತ್ರ ಸಂದರ್ಭಗಳಲ್ಲಿ ಎಲ್ಲಾ ಗಾತ್ರದ ಯಜ್ಞಗಳನ್ನು ಆಯೋಜಿಸುತ್ತೇವೆ — ಒಂದು ಮನೆಯ ಅಗ್ನಿಯಿಂದ ಹಿಡಿದು ಭವ್ಯ ಬಹು-ಕುಂಡ ಅನುಷ್ಠಾನದವರೆಗೆ."
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-yagya",
+      "title": {
+        "en": "What Is Yagya?",
+        "hi": "यज्ञ क्या है?",
+        "kn": "ಯಜ್ಞ ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "Gayatri and Yagya together form the foundation of Vedic culture — Gayatri gives wisdom, Yagya turns that wisdom into action. On the surface, a yagya is simple: herbal offerings (havan samagri) are sublimated in a sacred fire while mantras are chanted, purifying both the air and the mind. Performed on a small scale, this same fire-rite is called havan, homa, or agnihotra. But the word yagya, from the root yaj, carries three meanings at once — worship of the Divine (devpujan), coming together in unity (sangatikaran), and selfless giving (daan). That is its real teaching: a life lived as an offering, in harmony with others and with nature. The fire is simply the visible form of that inner spirit.",
+        "hi": "गायत्री और यज्ञ मिलकर वैदिक संस्कृति की नींव हैं — गायत्री ज्ञान देती है, यज्ञ उस ज्ञान को कर्म में बदलता है। ऊपरी तौर पर यज्ञ सरल है: पवित्र अग्नि में हवन सामग्री का अर्पण और साथ में मंत्रोच्चार, जो वायु और मन दोनों को शुद्ध करता है। छोटे रूप में यही अग्नि-कर्म हवन, होम या अग्निहोत्र कहलाता है। पर 'यज्' धातु से बना यज्ञ शब्द एक साथ तीन अर्थ रखता है — देवपूजन, संगतिकरण (एकता) और दान। यही इसकी असली शिक्षा है: जीवन को एक अर्पण की तरह जीना, दूसरों और प्रकृति के साथ सामंजस्य में। अग्नि तो उसी भीतरी भाव का प्रत्यक्ष रूप है।",
+        "kn": "ಗಾಯತ್ರಿ ಮತ್ತು ಯಜ್ಞ ಒಟ್ಟಾಗಿ ವೈದಿಕ ಸಂಸ್ಕೃತಿಯ ಅಡಿಪಾಯ — ಗಾಯತ್ರಿ ಜ್ಞಾನ ನೀಡುತ್ತದೆ, ಯಜ್ಞ ಆ ಜ್ಞಾನವನ್ನು ಕರ್ಮವಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಮೇಲ್ನೋಟಕ್ಕೆ ಯಜ್ಞ ಸರಳ: ಪವಿತ್ರ ಅಗ್ನಿಯಲ್ಲಿ ಹವನ ಸಾಮಗ್ರಿಯ ಅರ್ಪಣೆ ಮತ್ತು ಮಂತ್ರೋಚ್ಚಾರಣೆ, ಇದು ಗಾಳಿ ಮತ್ತು ಮನಸ್ಸು ಎರಡನ್ನೂ ಶುದ್ಧಗೊಳಿಸುತ್ತದೆ. ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಇದೇ ಅಗ್ನಿ-ಕರ್ಮವನ್ನು ಹವನ, ಹೋಮ ಅಥವಾ ಅಗ್ನಿಹೋತ್ರ ಎನ್ನುತ್ತಾರೆ. ಆದರೆ 'ಯಜ್' ಧಾತುವಿನಿಂದ ಬಂದ ಯಜ್ಞ ಪದವು ಒಟ್ಟಿಗೆ ಮೂರು ಅರ್ಥಗಳನ್ನು ಹೊಂದಿದೆ — ದೇವಪೂಜನ, ಸಂಗತಿಕರಣ (ಏಕತೆ) ಮತ್ತು ದಾನ. ಇದೇ ಅದರ ನಿಜವಾದ ಬೋಧನೆ: ಜೀವನವನ್ನು ಒಂದು ಅರ್ಪಣೆಯಂತೆ ಬದುಕುವುದು, ಇತರರು ಮತ್ತು ಪ್ರಕೃತಿಯೊಂದಿಗೆ ಸಾಮರಸ್ಯದಲ್ಲಿ. ಅಗ್ನಿ ಆ ಆಂತರಿಕ ಭಾವದ ಪ್ರತ್ಯಕ್ಷ ರೂಪ ಮಾತ್ರ."
+      },
+      "highlights": {
+        "en": [
+          "Yaj means three things at once — worship, unity, and selfless giving",
+          "On a small scale, the same rite is called havan, homa, or agnihotra",
+          "The fire purifies the air and the mind, while mantras carry the inner intent"
+        ],
+        "hi": [
+          "'यज्' के तीन अर्थ एक साथ — देवपूजन, एकता और निःस्वार्थ दान",
+          "छोटे रूप में यही कर्म हवन, होम या अग्निहोत्र कहलाता है",
+          "अग्नि वायु व मन को शुद्ध करती है, मंत्र भीतरी भाव को वहन करते हैं"
+        ],
+        "kn": [
+          "'ಯಜ್' ಎಂದರೆ ಒಟ್ಟಿಗೆ ಮೂರು — ದೇವಪೂಜನ, ಏಕತೆ ಮತ್ತು ನಿಃಸ್ವಾರ್ಥ ದಾನ",
+          "ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಇದೇ ಕರ್ಮ ಹವನ, ಹೋಮ ಅಥವಾ ಅಗ್ನಿಹೋತ್ರ",
+          "ಅಗ್ನಿ ಗಾಳಿ ಮತ್ತು ಮನಸ್ಸನ್ನು ಶುದ್ಧಗೊಳಿಸುತ್ತದೆ, ಮಂತ್ರಗಳು ಆಂತರಿಕ ಭಾವವನ್ನು ಹೊರುತ್ತವೆ"
+        ]
+      }
+    },
+    {
+      "id": "deep-yagya",
+      "title": {
+        "en": "Deep Yagya — the Yagya of Light",
+        "hi": "दीप यज्ञ — प्रकाश का यज्ञ",
+        "kn": "ದೀಪ ಯಜ್ಞ — ಬೆಳಕಿನ ಯಜ್ಞ"
+      },
+      "body": {
+        "en": "Deep Yagya is a beautiful, accessible form of yagya introduced by Gurudev Pandit Shriram Sharma Acharya. Here, rows of lit lamps (deepak) take the place of the fire pits, and the agnihotra happens gently through incense sticks made of havan samagri. It asks for no elaborate arrangements and no special resources — only a flame and a sincere heart — yet it carries the full spirit and inspiration of a traditional yagya. Since 1988 it has been performed at grand gatherings for mass awakening and thought-illumination, filling the space with sacred light. It is equally loved for personal occasions — birthdays, wedding anniversaries, and other samskaras — bringing a holy, luminous atmosphere within everyone's reach.",
+        "hi": "दीप यज्ञ यज्ञ का एक सुंदर और सहज रूप है, जिसे गुरुदेव पंडित श्रीराम शर्मा आचार्य ने प्रवर्तित किया। इसमें जलते हुए दीपकों की पंक्तियाँ यज्ञ-कुंडों का स्थान लेती हैं, और हवन सामग्री से बनी अगरबत्ती के माध्यम से अग्निहोत्र सहज रूप से सम्पन्न होता है। इसमें न किसी विस्तृत व्यवस्था की आवश्यकता है, न विशेष साधनों की — बस एक ज्योति और एक सच्चा मन — फिर भी यह पारंपरिक यज्ञ की पूरी भावना और प्रेरणा को धारण करता है। सन् 1988 से यह विशाल समागमों में जनजागरण और विचार-क्रांति के लिए किया जाता रहा है, समूचे वातावरण को पवित्र प्रकाश से भर देता है। यह व्यक्तिगत अवसरों — जन्मदिन, विवाह-वर्षगाँठ और अन्य संस्कारों — के लिए भी उतना ही प्रिय है, और एक पावन, ज्योतिर्मय वातावरण को सबकी पहुँच में ले आता है।",
+        "kn": "ದೀಪ ಯಜ್ಞವು ಯಜ್ಞದ ಒಂದು ಸುಂದರ ಮತ್ತು ಸುಲಭ ರೂಪ, ಇದನ್ನು ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಪ್ರವರ್ತಿಸಿದರು. ಇಲ್ಲಿ ಉರಿಯುವ ದೀಪಗಳ ಸಾಲುಗಳು ಯಜ್ಞ-ಕುಂಡಗಳ ಸ್ಥಾನವನ್ನು ಪಡೆಯುತ್ತವೆ, ಮತ್ತು ಹವನ ಸಾಮಗ್ರಿಯಿಂದ ಮಾಡಿದ ಊದುಬತ್ತಿಯ ಮೂಲಕ ಅಗ್ನಿಹೋತ್ರ ಸಹಜವಾಗಿ ನಡೆಯುತ್ತದೆ. ಇದಕ್ಕೆ ಯಾವುದೇ ವಿಸ್ತೃತ ವ್ಯವಸ್ಥೆ ಬೇಕಿಲ್ಲ, ವಿಶೇಷ ಸಾಧನಗಳೂ ಬೇಕಿಲ್ಲ — ಕೇವಲ ಒಂದು ಜ್ಯೋತಿ ಮತ್ತು ಪ್ರಾಮಾಣಿಕ ಮನಸ್ಸು — ಆದರೂ ಇದು ಸಾಂಪ್ರದಾಯಿಕ ಯಜ್ಞದ ಸಂಪೂರ್ಣ ಭಾವ ಮತ್ತು ಪ್ರೇರಣೆಯನ್ನು ಹೊಂದಿರುತ್ತದೆ. 1988ರಿಂದ ಇದು ವಿಶಾಲ ಸಮಾವೇಶಗಳಲ್ಲಿ ಜನಜಾಗೃತಿ ಮತ್ತು ವಿಚಾರ-ಕ್ರಾಂತಿಗಾಗಿ ನಡೆಯುತ್ತಿದೆ, ಇಡೀ ವಾತಾವರಣವನ್ನು ಪವಿತ್ರ ಬೆಳಕಿನಿಂದ ತುಂಬುತ್ತದೆ. ಜನ್ಮದಿನ, ವಿವಾಹ ವಾರ್ಷಿಕೋತ್ಸವ ಮತ್ತು ಇತರ ಸಂಸ್ಕಾರಗಳಂತಹ ವೈಯಕ್ತಿಕ ಸಂದರ್ಭಗಳಿಗೂ ಇದು ಅಷ್ಟೇ ಪ್ರಿಯ, ಮತ್ತು ಪವಿತ್ರ, ಬೆಳಗುವ ವಾತಾವರಣವನ್ನು ಎಲ್ಲರ ಕೈಗೆಟುಕುವಂತೆ ತರುತ್ತದೆ."
+      },
+      "highlights": {
+        "en": [
+          "Rows of lamps replace the fire pits; incense of havan samagri carries the agnihotra",
+          "Simple and low-cost — no elaborate arrangements, open to everyone",
+          "Used for mass gatherings since 1988, and for birthdays, anniversaries & samskaras"
+        ],
+        "hi": [
+          "दीपकों की पंक्तियाँ कुंडों का स्थान लेती हैं; हवन सामग्री की अगरबत्ती से अग्निहोत्र",
+          "सरल व अल्प-व्यय — कोई विस्तृत व्यवस्था नहीं, सबके लिए खुला",
+          "1988 से विशाल समागमों में, तथा जन्मदिन, वर्षगाँठ व संस्कारों के लिए"
+        ],
+        "kn": [
+          "ದೀಪಗಳ ಸಾಲುಗಳು ಕುಂಡಗಳ ಸ್ಥಾನ ಪಡೆಯುತ್ತವೆ; ಹವನ ಸಾಮಗ್ರಿಯ ಊದುಬತ್ತಿಯಿಂದ ಅಗ್ನಿಹೋತ್ರ",
+          "ಸರಳ ಮತ್ತು ಕಡಿಮೆ ವೆಚ್ಚ — ವಿಸ್ತೃತ ವ್ಯವಸ್ಥೆ ಇಲ್ಲ, ಎಲ್ಲರಿಗೂ ಮುಕ್ತ",
+          "1988ರಿಂದ ವಿಶಾಲ ಸಮಾವೇಶಗಳಲ್ಲಿ, ಮತ್ತು ಜನ್ಮದಿನ, ವಾರ್ಷಿಕೋತ್ಸವ ಮತ್ತು ಸಂಸ್ಕಾರಗಳಿಗೆ"
+        ]
+      }
+    }
+  ],
+  "yagyaTypes": [
+    {
+      "id": "24-kundi",
+      "kunds": "24",
+      "title": { "en": "24-Kundi Yagya", "hi": "24-कुंडीय यज्ञ", "kn": "24-ಕುಂಡ ಯಜ್ಞ" },
+      "description": {
+        "en": "The grandest ceremony — 24 fire pits, one for each of the 24 syllables of the Gayatri Mantra. Reserved for major collective occasions.",
+        "hi": "सबसे भव्य अनुष्ठान — 24 यज्ञकुंड, गायत्री मंत्र के 24 अक्षरों में से प्रत्येक के लिए एक। बड़े सामूहिक अवसरों के लिए।",
+        "kn": "ಅತ್ಯಂತ ಭವ್ಯ ಅನುಷ್ಠಾನ — 24 ಯಜ್ಞಕುಂಡಗಳು, ಗಾಯತ್ರಿ ಮಂತ್ರದ 24 ಅಕ್ಷರಗಳಲ್ಲಿ ಪ್ರತಿಯೊಂದಕ್ಕೂ ಒಂದು. ದೊಡ್ಡ ಸಾಮೂಹಿಕ ಸಂದರ್ಭಗಳಿಗೆ."
+      }
+    },
+    {
+      "id": "9-kundi",
+      "kunds": "9",
+      "title": { "en": "9-Kundi Yagya", "hi": "9-कुंडीय यज्ञ", "kn": "9-ಕುಂಡ ಯಜ್ಞ" },
+      "description": {
+        "en": "Nine fire pits, performed for community healing and collective well-being.",
+        "hi": "नौ यज्ञकुंड, सामुदायिक स्वास्थ्य और सामूहिक कल्याण के लिए किया जाने वाला अनुष्ठान।",
+        "kn": "ಒಂಬತ್ತು ಯಜ್ಞಕುಂಡಗಳು, ಸಮುದಾಯದ ಆರೋಗ್ಯ ಮತ್ತು ಸಾಮೂಹಿಕ ಕಲ್ಯಾಣಕ್ಕಾಗಿ ನಡೆಸಲಾಗುತ್ತದೆ."
+      }
+    },
+    {
+      "id": "5-kundi",
+      "kunds": "5",
+      "title": { "en": "5-Kundi Yagya", "hi": "5-कुंडीय यज्ञ", "kn": "5-ಕುಂಡ ಯಜ್ಞ" },
+      "description": {
+        "en": "A medium-scale ceremony, well suited to special occasions and festivals.",
+        "hi": "मध्यम आकार का अनुष्ठान, विशेष अवसरों और पर्वों के लिए उपयुक्त।",
+        "kn": "ಮಧ್ಯಮ ಗಾತ್ರದ ಅನುಷ್ಠಾನ, ವಿಶೇಷ ಸಂದರ್ಭಗಳು ಮತ್ತು ಹಬ್ಬಗಳಿಗೆ ಸೂಕ್ತ."
+      }
+    },
+    {
+      "id": "3-kundi",
+      "kunds": "3",
+      "title": { "en": "3-Kundi Yagya", "hi": "3-कुंडीय यज्ञ", "kn": "3-ಕುಂಡ ಯಜ್ಞ" },
+      "description": {
+        "en": "The standard size — ideal for Navratri, Janmashtami, and community gatherings.",
+        "hi": "मानक आकार — नवरात्रि, जन्माष्टमी और सामुदायिक आयोजनों के लिए आदर्श।",
+        "kn": "ಪ್ರಮಾಣಿತ ಗಾತ್ರ — ನವರಾತ್ರಿ, ಜನ್ಮಾಷ್ಟಮಿ ಮತ್ತು ಸಮುದಾಯ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ ಆದರ್ಶ."
+      }
+    },
+    {
+      "id": "grih-grih-gayatri",
+      "kunds": "home",
+      "title": {
+        "en": "Grih-Grih Gayatri Yagya (Yagya in Every Home)",
+        "hi": "गृह-गृह गायत्री यज्ञ",
+        "kn": "ಗೃಹ-ಗೃಹ ಗಾಯತ್ರಿ ಯಜ್ಞ"
+      },
+      "description": {
+        "en": "A simple household yagya brought to your own home on sacred occasions — Navratri, Guru Purnima, Vasant Panchami, Buddha Purnima and more — so every family can keep the sacred fire alive.",
+        "hi": "पावन अवसरों — नवरात्रि, गुरु पूर्णिमा, वसंत पंचमी, बुद्ध पूर्णिमा आदि — पर आपके अपने घर में सम्पन्न एक सरल गृह-यज्ञ, ताकि हर परिवार पवित्र अग्नि को जीवंत रख सके।",
+        "kn": "ಪವಿತ್ರ ಸಂದರ್ಭಗಳಲ್ಲಿ — ನವರಾತ್ರಿ, ಗುರು ಪೂರ್ಣಿಮಾ, ವಸಂತ ಪಂಚಮಿ, ಬುದ್ಧ ಪೂರ್ಣಿಮಾ ಮುಂತಾದವು — ನಿಮ್ಮ ಮನೆಯಲ್ಲೇ ನಡೆಸುವ ಸರಳ ಗೃಹ-ಯಜ್ಞ, ಪ್ರತಿ ಕುಟುಂಬವೂ ಪವಿತ್ರ ಅಗ್ನಿಯನ್ನು ಜೀವಂತವಾಗಿಡಲಿ ಎಂದು."
+      }
+    }
+  ],
+  "events": {
+    "emptyState": {
+      "en": "Our upcoming Bengaluru yagyas will be listed here. Check back soon.",
+      "hi": "हमारे आगामी बेंगलुरु यज्ञ यहाँ सूचीबद्ध होंगे। शीघ्र पुनः देखें।",
+      "kn": "ನಮ್ಮ ಮುಂಬರುವ ಬೆಂಗಳೂರು ಯಜ್ಞಗಳು ಇಲ್ಲಿ ಪಟ್ಟಿಯಾಗುತ್ತವೆ. ಶೀಘ್ರದಲ್ಲೇ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ."
+    },
+    "items": [
+      {
+        "id": "placeholder-1",
+        "yagyaType": "",
+        "location": "",
+        "date": "",
+        "note": { "en": "", "hi": "", "kn": "" },
+        "image": "",
+        "_placeholder": true
+      },
+      {
+        "id": "placeholder-2",
+        "yagyaType": "",
+        "location": "",
+        "date": "",
+        "note": { "en": "", "hi": "", "kn": "" },
+        "image": "",
+        "_placeholder": true
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "yajna-foundation",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Yajna — The Foundation of Vedic Culture",
+        "hi": "यज्ञ — वैदिक संस्कृति की नींव",
+        "kn": "ಯಜ್ಞ — ವೈದಿಕ ಸಂಸ್ಕೃತಿಯ ಅಡಿಪಾಯ"
+      },
+      "read": "https://www.awgp.org/en/spiritual_wisdom/yagya/yajna_-_the_foundation_of_vedic_culture"
+    },
+    {
+      "id": "types-of-yagya",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Types of Yagya",
+        "hi": "यज्ञ के प्रकार",
+        "kn": "ಯಜ್ಞದ ವಿಧಗಳು"
+      },
+      "read": "https://www.awgp.org/en/spiritual_wisdom/yagya/types_of_yagya"
+    },
+    {
+      "id": "yagya-overview",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Yagya — Spiritual Wisdom",
+        "hi": "यज्ञ — आध्यात्मिक ज्ञान",
+        "kn": "ಯಜ್ಞ — ಆಧ್ಯಾತ್ಮಿಕ ಜ್ಞಾನ"
+      },
+      "read": "https://www.awgp.org/en/spiritual_wisdom/yagya"
+    },
+    {
+      "id": "deep-yagya-initiative",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Deep Yagya — Initiative",
+        "hi": "दीप यज्ञ — पहल",
+        "kn": "ದೀಪ ಯಜ್ಞ — ಉಪಕ್ರಮ"
+      },
+      "read": "https://www.awgp.org/en/initiatives/spiritual/deep_yagya"
+    },
+    {
+      "id": "yagya-ka-gyan-vigyan",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Yagya Ka Gyan Vigyan (The Science & Knowledge of Yagya)",
+        "hi": "यज्ञ का ज्ञान विज्ञान",
+        "kn": "ಯಜ್ಞ ಕಾ ಜ್ಞಾನ ವಿಜ್ಞಾನ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/yagya_ka_gyan_vigyan/v1"
+    },
+    {
+      "id": "applied-science-of-yagya",
+      "type": "book",
+      "lang": "en",
+      "title": {
+        "en": "Applied Science of Yagya for Health and Environment",
+        "hi": "स्वास्थ्य व पर्यावरण हेतु यज्ञ का अनुप्रयुक्त विज्ञान",
+        "kn": "ಆರೋಗ್ಯ ಮತ್ತು ಪರಿಸರಕ್ಕಾಗಿ ಯಜ್ಞದ ಅನ್ವಯಿಕ ವಿಜ್ಞಾನ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/Applied_Science_of_Yagya_for_Health_and_Environment/v1"
+    },
+    {
+      "id": "karmakand",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Karmakand (Manual of Vedic Rituals)",
+        "hi": "कर्मकाण्ड",
+        "kn": "ಕರ್ಮಕಾಂಡ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/Karmakand/v1.188"
+    },
+    {
+      "id": "deep-yagya-book",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Deep Yagya (Book)",
+        "hi": "दीप यज्ञ",
+        "kn": "ದೀಪ ಯಜ್ಞ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/deep_yagya/v2"
+    }
+  ],
+  "cta": {
+    "title": {
+      "en": "Invite a Yagya to Your Home",
+      "hi": "अपने घर में यज्ञ आमंत्रित करें",
+      "kn": "ನಿಮ್ಮ ಮನೆಗೆ ಯಜ್ಞವನ್ನು ಆಹ್ವಾನಿಸಿ"
+    },
+    "text": {
+      "en": "From a simple Deep Yagya to a full Gayatri havan, we can help you mark any sacred occasion — at the Chetna Kendra or in your own home.",
+      "hi": "एक सरल दीप यज्ञ से लेकर पूर्ण गायत्री हवन तक, हम किसी भी पावन अवसर को सम्पन्न कराने में आपकी सहायता कर सकते हैं — चेतना केंद्र में या आपके अपने घर में।",
+      "kn": "ಸರಳ ದೀಪ ಯಜ್ಞದಿಂದ ಹಿಡಿದು ಸಂಪೂರ್ಣ ಗಾಯತ್ರಿ ಹವನದವರೆಗೆ, ಯಾವುದೇ ಪವಿತ್ರ ಸಂದರ್ಭವನ್ನು ನಡೆಸಲು ನಾವು ಸಹಾಯ ಮಾಡಬಲ್ಲೆವು — ಚೇತನಾ ಕೇಂದ್ರದಲ್ಲಿ ಅಥವಾ ನಿಮ್ಮ ಮನೆಯಲ್ಲೇ."
+    },
+    "buttonLabel": {
+      "en": "Get in touch",
+      "hi": "संपर्क करें",
+      "kn": "ಸಂಪರ್ಕಿಸಿ"
+    },
+    "link": "/contact"
+  }
+}

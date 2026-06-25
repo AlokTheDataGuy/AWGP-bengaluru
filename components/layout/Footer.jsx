@@ -39,6 +39,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/activities/meditation">{L('Meditation', 'ध्यान', 'ಧ್ಯಾನ')}</Link></li>
               <li><Link href="/activities/yoga">{L('Yoga', 'योग', 'ಯೋಗ')}</Link></li>
+              <li><Link href="/activities/workshops">{L('Workshops & Shivirs', 'कार्यशालाएं एवं शिविर', 'ಕಾರ್ಯಾಗಾರಗಳು')}</Link></li>
               <li><Link href="/activities/bal-sanskar-shala">{L('Bal Sanskar Shala', 'बाल संस्कार शाला', 'ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ')}</Link></li>
               <li><Link href="/activities">{L('All Activities', 'सभी गतिविधियाँ', 'ಎಲ್ಲಾ ಚಟುವಟಿಕೆಗಳು')}</Link></li>
             </ul>
@@ -50,7 +51,6 @@ export default function Footer() {
             <ul>
               <li><Link href="/events/festivals">{L('Festivals', 'पर्व उत्सव', 'ಹಬ್ಬಗಳು')}</Link></li>
               <li><Link href="/events/yagya-events">{L('Yagya Events', 'यज्ञ आयोजन', 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮ')}</Link></li>
-              <li><Link href="/events/workshops">{L('Workshops', 'कार्यशालाएं', 'ಕಾರ್ಯಾಗಾರ')}</Link></li>
               <li><Link href="/events">{L('All Events', 'सभी कार्यक्रम', 'ಎಲ್ಲಾ ಕಾರ್ಯಕ್ರಮ')}</Link></li>
             </ul>
           </nav>

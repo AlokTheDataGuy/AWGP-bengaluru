@@ -195,6 +195,22 @@
     "yagyaTypes": []
   },
   {
+    "id": "workshops",
+    "slug": "workshops",
+    "img": "/assets/programs/workshops.jpg",
+    "schedule": { "en": "Monthly — announced via WhatsApp group", "hi": "मासिक — WhatsApp समूह पर सूचित किया जाता है", "kn": "ಮಾಸಿಕ — WhatsApp ಗ್ರೂಪ್ ಮೂಲಕ ತಿಳಿಸಲಾಗುತ್ತದೆ" },
+    "title":    { "en": "Workshops & Shivirs", "hi": "कार्यशालाएं एवं शिविर", "kn": "ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು" },
+    "subtitle": { "en": "Transformative Learning for Mind, Body & Spirit", "hi": "मन, शरीर और आत्मा के लिए परिवर्तनकारी शिक्षा", "kn": "ಮನಸ್ಸು, ದೇಹ ಮತ್ತು ಆತ್ಮಕ್ಕಾಗಿ ಪರಿವರ್ತನಕಾರಿ ಕಲಿಕೆ" },
+    "intro": { "en": "Our workshops and shivirs are rooted in Gurudev's vision of Vichar Kranti — a revolution in thought. These sessions bring together ancient Vedic wisdom and practical life skills, helping participants transform themselves from within.", "hi": "हमारी कार्यशालाएं और शिविर गुरुदेव की विचार क्रांति की दृष्टि पर आधारित हैं।", "kn": "ನಮ್ಮ ಕಾರ್ಯಾಗಾರಗಳು ಗುರುದೇವರ ವಿಚಾರ ಕ್ರಾಂತಿ ದೃಷ್ಟಿಕೋನದ ಮೇಲೆ ಆಧಾರಿತ." },
+    "points": [
+      { "en": "Scientific Spirituality — understanding the science behind Vedic practices", "hi": "वैज्ञानिक अध्यात्म — वैदिक प्रथाओं के पीछे के विज्ञान को समझना", "kn": "ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ ಕಾರ್ಯಾಗಾರ" },
+      { "en": "Personality Development shivirs for youth", "hi": "युवाओं के लिए व्यक्तित्व विकास शिविर", "kn": "ಯುವಜನರಿಗಾಗಿ ವ್ಯಕ್ತಿತ್ವ ವಿಕಾಸ ಶಿಬಿರ" },
+      { "en": "Family harmony and Sanskar workshops", "hi": "पारिवारिक सद्भाव और संस्कार कार्यशालाएं", "kn": "ಕುಟುಂಬ ಸೌಹಾರ್ದ ಮತ್ತು ಸಂಸ್ಕಾರ ಕಾರ್ಯಾಗಾರ" },
+      { "en": "Shantikunj residential camps — special trips to Haridwar HQ", "hi": "शांतिकुंज आवासीय शिविर — हरिद्वार मुख्यालय की यात्रा", "kn": "ಶಾಂತಿಕುಂಜ ಆವಾಸೀಯ ಶಿಬಿರ" }
+    ],
+    "yagyaTypes": []
+  },
+  {
     "id": "bal-sanskar-shala",
     "slug": "bal-sanskar-shala",
     "listed": false,

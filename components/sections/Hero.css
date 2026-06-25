@@ -84,9 +84,9 @@
   height: 100%;
   display: flex;
   align-items: center;
-  max-width: 1280px;
+  max-width: none;
   margin: 0 auto;
-  padding: 0 clamp(24px, 6vw, 80px);
+  padding: 0 var(--page-gutter);
   padding-top: var(--nav-h, 72px);
   /* Let hover/clicks pass through to the edge arrows, except on the buttons */
   pointer-events: none;
@@ -94,7 +94,7 @@
 .hero__actions { pointer-events: auto; }
 
 .hero__inner {
-  max-width: 660px;
+  max-width: 760px;
 }
 
 /* Eyebrow with a leading gold rule */
@@ -137,7 +137,7 @@
 .hero__sub {
   font-size: clamp(0.98rem, 1.4vw, 1.18rem);
   color: rgba(255, 255, 255, 0.86);
-  max-width: 520px;
+  max-width: 600px;
   margin-bottom: 2.2rem;
   line-height: 1.7;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.3);

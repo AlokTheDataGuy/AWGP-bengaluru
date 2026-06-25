@@ -25,7 +25,6 @@ const aboutMenu = [
 const eventsMenu = [
   { href: '/events/festivals',       en: 'Festival Celebrations',  hi: 'पर्व उत्सव',             kn: 'ಹಬ್ಬದ ಆಚರಣೆಗಳು' },
   { href: '/events/yagya-events',    en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
-  { href: '/events/workshops',       en: 'Workshops & Shivirs',    hi: 'कार्यशालाएं एवं शिविर',   kn: 'ಕಾರ್ಯಾಗಾರಗಳು' },
   { href: '/events/book-fair',       en: 'Book Fair',              hi: 'पुस्तक मेला',            kn: 'ಪುಸ್ತಕ ಮೇಳ' },
   { href: '/events/tree-plantation', en: 'Tree Plantation',        hi: 'वृक्षारोपण',             kn: 'ವೃಕ್ಷಾರೋಪಣ' },
 ];
@@ -34,8 +33,9 @@ const activitiesMenu = [
   { href: '/activities/yoga',           en: 'Yoga',             hi: 'योग',            kn: 'ಯೋಗ' },
   { href: '/activities/meditation',     en: 'Meditation',       hi: 'ध्यान',          kn: 'ಧ್ಯಾನ' },
   { href: '/activities/sadhana',        en: 'Sadhana',          hi: 'साधना',          kn: 'ಸಾಧನೆ' },
-  { href: '/activities/community-seva', en: 'Community Seva',   hi: 'सामुदायिक सेवा', kn: 'ಸಾಮುದಾಯಿಕ ಸೇವೆ' },
-  { href: '/activities/gau-seva',       en: 'Gau Seva',         hi: 'गौ सेवा',        kn: 'ಗೌ ಸೇವಾ' },
+  { href: '/activities/community-seva', en: 'Community Seva',     hi: 'सामुदायिक सेवा', kn: 'ಸಾಮುದಾಯಿಕ ಸೇವೆ' },
+  { href: '/activities/gau-seva',       en: 'Gau Seva',           hi: 'गौ सेवा',        kn: 'ಗೌ ಸೇವಾ' },
+  { href: '/activities/workshops',      en: 'Workshops & Shivirs', hi: 'कार्यशालाएं एवं शिविर', kn: 'ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು' },
 ];
 
 const sanskarsMenu = [
@@ -237,11 +237,11 @@ export default function Navbar() {
         <div className="navbar__mobile-header">
           <Link href="/" className="navbar__mobile-logo" onClick={() => setOpen(false)}>
             <Image
-              src="/assets/logos/final_logo_light.png"
+              src="/assets/logos/final_logo_dark.png"
               alt="AWGP Bengaluru"
               width={140}
               height={36}
-              style={{ objectFit: 'contain', width: 'auto', height: '40px' }}
+              style={{ objectFit: 'contain', width: 'auto', height: '60px' }}
             />
           </Link>
           <button className="navbar__mobile-close" onClick={() => setOpen(false)} aria-label="Close">
@@ -352,17 +352,6 @@ export default function Navbar() {
 
         {/* Panel footer */}
         <div className="navbar__mobile-footer">
-          <div className="lang-toggle">
-            {LANGS.map(({ code, label: lbl }) => (
-              <button
-                key={code}
-                className={`lang-btn${locale === code ? ' lang-btn--active' : ''}`}
-                onClick={() => switchLocale(code)}
-              >
-                {lbl}
-              </button>
-            ))}
-          </div>
           <a
             href={JOIN_FORM_URL}
             target="_blank"

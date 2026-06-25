@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "page": "book-fairs",
+    "languages": ["en", "hi", "kn"],
+    "_note_for_editor": "Fill the past-fairs gallery from the Bangalore chapter's records / Facebook (https://www.facebook.com/gayatripariwarbangalore/). Each entry shape is shown in 'fairs' below — copy an object, fill it in, and remove the _placeholder flag. 'image' is a path/URL to a photo (optional; leave empty string if none). Dates are display strings, not parsed."
+  },
+  "hero": {
+    "title": {
+      "en": "Book Fairs",
+      "hi": "पुस्तक मेला",
+      "kn": "ಪುಸ್ತಕ ಮೇಳ"
+    },
+    "tagline": {
+      "en": "Good books, brought closer to the community.",
+      "hi": "अच्छी पुस्तकें, समुदाय के और करीब।",
+      "kn": "ಒಳ್ಳೆಯ ಪುಸ್ತಕಗಳು, ಸಮುದಾಯಕ್ಕೆ ಹತ್ತಿರ."
+    },
+    "intro": {
+      "en": "A good book can change the way you live — and from time to time, AWGP Bengaluru brings that opportunity right to your neighbourhood. We organise Pustak Melas (book fairs) at different locations in and around Bengaluru, carrying Gurudev Pandit Shriram Sharma Acharya's life-transforming literature on health, character, family, and the science of living. Here is a look back at the fairs we've held.",
+      "hi": "एक अच्छी पुस्तक आपके जीने का ढंग बदल सकती है — और समय-समय पर AWGP बेंगलुरु यह अवसर सीधे आपके मोहल्ले तक लाता है। हम बेंगलुरु और आसपास विभिन्न स्थानों पर पुस्तक मेले आयोजित करते हैं, जिनमें गुरुदेव पंडित श्रीराम शर्मा आचार्य का जीवन बदल देने वाला साहित्य होता है — स्वास्थ्य, चरित्र, परिवार और जीवन-जीने के विज्ञान पर। यहाँ हमारे अब तक के मेलों की एक झलक है।",
+      "kn": "ಒಂದು ಒಳ್ಳೆಯ ಪುಸ್ತಕ ನಿಮ್ಮ ಬದುಕಿನ ರೀತಿಯನ್ನೇ ಬದಲಿಸಬಲ್ಲದು — ಮತ್ತು ಕಾಲಕಾಲಕ್ಕೆ AWGP ಬೆಂಗಳೂರು ಆ ಅವಕಾಶವನ್ನು ನೇರವಾಗಿ ನಿಮ್ಮ ಸಮೀಪಕ್ಕೆ ತರುತ್ತದೆ. ನಾವು ಬೆಂಗಳೂರು ಮತ್ತು ಸುತ್ತಮುತ್ತ ವಿವಿಧ ಸ್ಥಳಗಳಲ್ಲಿ ಪುಸ್ತಕ ಮೇಳಗಳನ್ನು ಆಯೋಜಿಸುತ್ತೇವೆ, ಇದರಲ್ಲಿ ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಜೀವನ ಪರಿವರ್ತಿಸುವ ಸಾಹಿತ್ಯ ಇರುತ್ತದೆ — ಆರೋಗ್ಯ, ಚಾರಿತ್ರ್ಯ, ಕುಟುಂಬ ಮತ್ತು ಬದುಕಿನ ವಿಜ್ಞಾನದ ಬಗ್ಗೆ. ಇಲ್ಲಿ ನಾವು ನಡೆಸಿದ ಮೇಳಗಳ ಒಂದು ನೋಟ."
+    }
+  },
+  "categories": {
+    "heading": {
+      "en": "What you'll find at a Pustak Mela",
+      "hi": "पुस्तक मेले में आपको क्या मिलेगा",
+      "kn": "ಪುಸ್ತಕ ಮೇಳದಲ್ಲಿ ನಿಮಗೆ ಏನು ಸಿಗುತ್ತದೆ"
+    },
+    "items": [
+      {
+        "en": "Personality development & self-improvement",
+        "hi": "व्यक्तित्व विकास व आत्म-सुधार",
+        "kn": "ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ ಮತ್ತು ಆತ್ಮ-ಸುಧಾರಣೆ"
+      },
+      {
+        "en": "Health, yoga & Ayurveda",
+        "hi": "स्वास्थ्य, योग व आयुर्वेद",
+        "kn": "ಆರೋಗ್ಯ, ಯೋಗ ಮತ್ತು ಆಯುರ್ವೇದ"
+      },
+      {
+        "en": "Meditation & spiritual practice",
+        "hi": "ध्यान व आध्यात्मिक साधना",
+        "kn": "ಧ್ಯಾನ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಸಾಧನೆ"
+      },
+      {
+        "en": "Bal Sanskar & value-based education",
+        "hi": "बाल संस्कार व मूल्य-आधारित शिक्षा",
+        "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಮತ್ತು ಮೌಲ್ಯಾಧಾರಿತ ಶಿಕ್ಷಣ"
+      },
+      {
+        "en": "Family & relationships",
+        "hi": "परिवार व रिश्ते",
+        "kn": "ಕುಟುಂಬ ಮತ್ತು ಸಂಬಂಧಗಳು"
+      },
+      {
+        "en": "Science & philosophy of Gayatri & Yagna",
+        "hi": "गायत्री व यज्ञ का विज्ञान व दर्शन",
+        "kn": "ಗಾಯತ್ರಿ ಮತ್ತು ಯಜ್ಞದ ವಿಜ್ಞಾನ ಮತ್ತು ತತ್ತ್ವಶಾಸ್ತ್ರ"
+      },
+      {
+        "en": "Women empowerment",
+        "hi": "नारी सशक्तिकरण",
+        "kn": "ಮಹಿಳಾ ಸಬಲೀಕರಣ"
+      },
+      {
+        "en": "Akhand Jyoti & Gurudev's magazines",
+        "hi": "अखण्ड ज्योति व गुरुदेव की पत्रिकाएँ",
+        "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಮತ್ತು ಗುರುದೇವರ ಪತ್ರಿಕೆಗಳು"
+      }
+    ]
+  },
+  "gallery": {
+    "heading": {
+      "en": "Past book fairs",
+      "hi": "पिछले पुस्तक मेले",
+      "kn": "ಹಿಂದಿನ ಪುಸ್ತಕ ಮೇಳಗಳು"
+    },
+    "emptyState": {
+      "en": "Our past book fairs will be listed here soon. Follow AWGP Bengaluru on Facebook for the latest.",
+      "hi": "हमारे पिछले पुस्तक मेले यहाँ जल्द ही सूचीबद्ध होंगे। नवीनतम जानकारी के लिए फेसबुक पर AWGP बेंगलुरु को फॉलो करें।",
+      "kn": "ನಮ್ಮ ಹಿಂದಿನ ಪುಸ್ತಕ ಮೇಳಗಳು ಶೀಘ್ರದಲ್ಲೇ ಇಲ್ಲಿ ಪಟ್ಟಿಯಾಗಲಿವೆ. ಇತ್ತೀಚಿನ ಮಾಹಿತಿಗಾಗಿ ಫೇಸ್‌ಬುಕ್‌ನಲ್ಲಿ AWGP ಬೆಂಗಳೂರನ್ನು ಅನುಸರಿಸಿ."
+    },
+    "fairs": [
+      {
+        "id": "fair-placeholder-1",
+        "_placeholder": true,
+        "location": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "date": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "note": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "image": ""
+      },
+      {
+        "id": "fair-placeholder-2",
+        "_placeholder": true,
+        "location": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "date": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "note": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "image": ""
+      },
+      {
+        "id": "fair-placeholder-3",
+        "_placeholder": true,
+        "location": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "date": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "note": {
+          "en": "",
+          "hi": "",
+          "kn": ""
+        },
+        "image": ""
+      }
+    ]
+  },
+  "cta": {
+    "heading": {
+      "en": "Want a book fair in your area?",
+      "hi": "अपने क्षेत्र में पुस्तक मेला चाहते हैं?",
+      "kn": "ನಿಮ್ಮ ಪ್ರದೇಶದಲ್ಲಿ ಪುಸ್ತಕ ಮೇಳ ಬೇಕೇ?"
+    },
+    "body": {
+      "en": "If you'd like to host or help organise a Pustak Mela near you — at your community, school, or workplace — reach out to AWGP Bengaluru. Spreading good literature is a service anyone can be part of.",
+      "hi": "यदि आप अपने पास — अपने समुदाय, स्कूल या कार्यस्थल पर — पुस्तक मेला आयोजित करना या उसमें सहयोग देना चाहते हैं, तो AWGP बेंगलुरु से संपर्क करें। अच्छे साहित्य का प्रसार एक ऐसी सेवा है जिसमें कोई भी भाग ले सकता है।",
+      "kn": "ನೀವು ನಿಮ್ಮ ಸಮೀಪದಲ್ಲಿ — ನಿಮ್ಮ ಸಮುದಾಯ, ಶಾಲೆ ಅಥವಾ ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ — ಪುಸ್ತಕ ಮೇಳ ಆಯೋಜಿಸಲು ಅಥವಾ ಸಹಾಯ ಮಾಡಲು ಬಯಸಿದರೆ, AWGP ಬೆಂಗಳೂರನ್ನು ಸಂಪರ್ಕಿಸಿ. ಒಳ್ಳೆಯ ಸಾಹಿತ್ಯವನ್ನು ಹರಡುವುದು ಯಾರೂ ಭಾಗವಹಿಸಬಹುದಾದ ಸೇವೆ."
+    },
+    "facebook": "https://www.facebook.com/gayatripariwarbangalore/"
+  }
+}

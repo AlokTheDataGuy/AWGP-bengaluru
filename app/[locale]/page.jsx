@@ -1,7 +1,7 @@
 import Hero from '../../components/sections/Hero';
 import HomeWelcome from '../../components/sections/HomeWelcome';
 import HomePillars from '../../components/sections/HomePillars';
-import HomeCards from '../../components/sections/HomeCards';
+import HomePath from '../../components/sections/HomePath';
 import HomeStats from '../../components/sections/HomeStats';
 import HomeEvents from '../../components/sections/HomeEvents';
 import HomeChetna from '../../components/sections/HomeChetna';
@@ -27,9 +27,9 @@ export default async function HomePage({ params }) {
     <div className="homepage">
       <Hero />
       <HomeWelcome />
-      <HomeStats />
+      {/* <HomeStats /> */}
       <HomePillars />
-      <HomeCards />
+      <HomePath />
       <HomeEvents locale={locale} />
       <HomeChetna />
       <HomeGallery />

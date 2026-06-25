@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "page": "yoga",
+    "languages": ["en", "hi", "kn"]
+  },
+  "hero": {
+    "title": {
+      "en": "Yoga",
+      "hi": "योग",
+      "kn": "ಯೋಗ"
+    },
+    "tagline": {
+      "en": "Ancient science of well-being, made simple for daily life.",
+      "hi": "स्वास्थ्य का प्राचीन विज्ञान, रोज़ के जीवन के लिए सरल बनाया गया।",
+      "kn": "ಯೋಗಕ್ಷೇಮದ ಪ್ರಾಚೀನ ವಿಜ್ಞಾನ, ದೈನಂದಿನ ಜೀವನಕ್ಕಾಗಿ ಸರಳಗೊಳಿಸಲಾಗಿದೆ."
+    },
+    "intro": {
+      "en": "At AWGP, yoga is far more than physical exercise. As Gurudev Pandit Shriram Sharma Acharya taught, yoga is the science of uniting body, mind, and soul — a practical path the rishis gave us for a healthy, balanced, and purposeful life. Here in Bengaluru we follow that approach, with regular guided sessions open to everyone.",
+      "hi": "AWGP में योग केवल शारीरिक व्यायाम नहीं है। गुरुदेव पंडित श्रीराम शर्मा आचार्य के अनुसार, योग शरीर, मन और आत्मा को जोड़ने का विज्ञान है — ऋषियों द्वारा दिया गया एक व्यावहारिक मार्ग, स्वस्थ, संतुलित और सार्थक जीवन के लिए। बेंगलुरु में हम इसी दृष्टि का अनुसरण करते हैं, सभी के लिए खुले नियमित मार्गदर्शित सत्रों के साथ।",
+      "kn": "AWGPಯಲ್ಲಿ ಯೋಗವು ಕೇವಲ ದೈಹಿಕ ವ್ಯಾಯಾಮಕ್ಕಿಂತ ಹೆಚ್ಚಿನದು. ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಪ್ರಕಾರ, ಯೋಗವು ದೇಹ, ಮನಸ್ಸು ಮತ್ತು ಆತ್ಮವನ್ನು ಒಂದುಗೂಡಿಸುವ ವಿಜ್ಞಾನ — ಆರೋಗ್ಯಕರ, ಸಮತೋಲಿತ ಮತ್ತು ಸಾರ್ಥಕ ಜೀವನಕ್ಕಾಗಿ ಋಷಿಗಳು ನೀಡಿದ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಮಾರ್ಗ. ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಾವು ಅದೇ ದೃಷ್ಟಿಯನ್ನು ಅನುಸರಿಸುತ್ತೇವೆ, ಎಲ್ಲರಿಗೂ ಮುಕ್ತವಾದ ನಿಯಮಿತ ಮಾರ್ಗದರ್ಶಿತ ಸೆಷನ್‌ಗಳೊಂದಿಗೆ."
+    }
+  },
+  "sections": [
+    {
+      "id": "perspective",
+      "heading": {
+        "en": "The AWGP perspective on yoga",
+        "hi": "योग पर AWGP की दृष्टि",
+        "kn": "ಯೋಗದ ಬಗ್ಗೆ AWGP ದೃಷ್ಟಿಕೋನ"
+      },
+      "body": {
+        "en": "The rishis of the Vedic age gave humanity a precious science of well-being. Over time, as life grew more materialistic and hurried, much of it was forgotten. Gurudev saw that modern people need this wisdom more than ever — but in a form that fits a busy life. He taught that true yoga works on all three layers of a person at once: the body is rejuvenated by asana, the mind is strengthened by pranayama (breath), and the inner self is awakened by mantra. Yoga, in this view, is not about difficult postures or escape from the world — it is a daily practice of bringing one's whole being into balance, so that health, calm, and clarity become natural.",
+        "hi": "वैदिक युग के ऋषियों ने मानवता को स्वास्थ्य का एक अमूल्य विज्ञान दिया। समय के साथ, जैसे-जैसे जीवन अधिक भौतिक और भागदौड़ भरा होता गया, इसका बहुत कुछ भुला दिया गया। गुरुदेव ने देखा कि आज के मनुष्य को इस ज्ञान की पहले से कहीं अधिक आवश्यकता है — पर ऐसे रूप में जो व्यस्त जीवन में सध सके। उन्होंने सिखाया कि सच्चा योग व्यक्ति की तीनों परतों पर एक साथ काम करता है: आसन से शरीर का पुनर्नवीनीकरण होता है, प्राणायाम (श्वास) से मन सशक्त होता है, और मंत्र से अंतरात्मा जागृत होती है। इस दृष्टि में योग कठिन आसनों या संसार से पलायन का नाम नहीं — यह अपने समूचे अस्तित्व को संतुलन में लाने का दैनिक अभ्यास है, ताकि स्वास्थ्य, शांति और स्पष्टता सहज बन जाएँ।",
+        "kn": "ವೈದಿಕ ಯುಗದ ಋಷಿಗಳು ಮಾನವಕುಲಕ್ಕೆ ಯೋಗಕ್ಷೇಮದ ಅಮೂಲ್ಯ ವಿಜ್ಞಾನವನ್ನು ನೀಡಿದರು. ಕಾಲಕ್ರಮೇಣ, ಜೀವನ ಹೆಚ್ಚು ಭೌತಿಕ ಮತ್ತು ತ್ವರಿತವಾದಂತೆ, ಅದರ ಬಹಳಷ್ಟು ಮರೆತುಹೋಯಿತು. ಆಧುನಿಕ ಮನುಷ್ಯನಿಗೆ ಈ ಜ್ಞಾನ ಹಿಂದೆಂದಿಗಿಂತಲೂ ಹೆಚ್ಚು ಅಗತ್ಯ ಎಂದು ಗುರುದೇವ್ ಕಂಡರು — ಆದರೆ ಬಿಡುವಿಲ್ಲದ ಜೀವನಕ್ಕೆ ಹೊಂದುವ ರೂಪದಲ್ಲಿ. ನಿಜವಾದ ಯೋಗವು ವ್ಯಕ್ತಿಯ ಮೂರೂ ಪದರಗಳಲ್ಲಿ ಏಕಕಾಲದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ಅವರು ಕಲಿಸಿದರು: ಆಸನದಿಂದ ದೇಹ ಪುನಶ್ಚೇತನಗೊಳ್ಳುತ್ತದೆ, ಪ್ರಾಣಾಯಾಮದಿಂದ (ಉಸಿರು) ಮನಸ್ಸು ಬಲಗೊಳ್ಳುತ್ತದೆ, ಮತ್ತು ಮಂತ್ರದಿಂದ ಅಂತರಾತ್ಮ ಜಾಗೃತಗೊಳ್ಳುತ್ತದೆ. ಈ ದೃಷ್ಟಿಯಲ್ಲಿ ಯೋಗವು ಕಠಿಣ ಭಂಗಿಗಳ ಅಥವಾ ಜಗತ್ತಿನಿಂದ ಪಲಾಯನದ ಹೆಸರಲ್ಲ — ಇದು ತನ್ನ ಇಡೀ ಅಸ್ತಿತ್ವವನ್ನು ಸಮತೋಲನಕ್ಕೆ ತರುವ ದೈನಂದಿನ ಅಭ್ಯಾಸ, ಆರೋಗ್ಯ, ಶಾಂತಿ ಮತ್ತು ಸ್ಪಷ್ಟತೆ ಸಹಜವಾಗುವಂತೆ."
+      }
+    },
+    {
+      "id": "pragya-yoga",
+      "heading": {
+        "en": "Pragya Yoga — Gurudev's gift to the modern seeker",
+        "hi": "प्रज्ञा योग — आधुनिक साधक को गुरुदेव का उपहार",
+        "kn": "ಪ್ರಜ್ಞಾ ಯೋಗ — ಆಧುನಿಕ ಸಾಧಕನಿಗೆ ಗುರುದೇವರ ಕೊಡುಗೆ"
+      },
+      "body": {
+        "en": "Drawing on the legacy of Maharishi Patanjali, Gurudev created a simple, complete practice for everyday people and named it Pragya Yoga. It is a flowing sequence of sixteen gentle asanas, each performed in rhythm with one syllable of the Gayatri Mantra and steady, deep breathing. Beginning standing — meditating for a moment on the light of Savita (the rising sun) — the practitioner moves through the sequence with full inner engagement. In this single practice, asana cares for the body, the breath works as pranayama, and the mantra carries the mind inward — so it gently touches all three bodies (physical, subtle, and causal) at once. One round takes only about ten minutes, needs no equipment or cost, and suits every age. Practised sincerely along with Gayatri meditation, it offers the benefits of Ashtang Yoga in an accessible form.",
+        "hi": "महर्षि पतंजलि की परंपरा का आधार लेकर, गुरुदेव ने आम लोगों के लिए एक सरल और संपूर्ण अभ्यास रचा और उसे प्रज्ञा योग नाम दिया। यह सोलह सरल आसनों का एक प्रवाहमय क्रम है, हर आसन गायत्री मंत्र के एक-एक अक्षर और गहरी, स्थिर श्वास के साथ किया जाता है। खड़े होकर — सविता (उगते सूर्य) के प्रकाश का क्षण भर ध्यान करते हुए — साधक पूरे भाव से इस क्रम में आगे बढ़ता है। इस एक ही अभ्यास में आसन शरीर की देखभाल करता है, श्वास प्राणायाम का काम करती है, और मंत्र मन को भीतर ले जाता है — इस तरह यह तीनों शरीरों (स्थूल, सूक्ष्म व कारण) को एक साथ सहज रूप से स्पर्श करता है। एक चक्र में केवल लगभग दस मिनट लगते हैं, न कोई उपकरण चाहिए न कोई खर्च, और यह हर आयु के लिए उपयुक्त है। गायत्री ध्यान के साथ श्रद्धापूर्वक करने पर यह अष्टांग योग के लाभ सुलभ रूप में देता है।",
+        "kn": "ಮಹರ್ಷಿ ಪತಂಜಲಿಯ ಪರಂಪರೆಯ ಆಧಾರದಲ್ಲಿ, ಗುರುದೇವ್ ಸಾಮಾನ್ಯ ಜನರಿಗಾಗಿ ಒಂದು ಸರಳ ಮತ್ತು ಸಂಪೂರ್ಣ ಅಭ್ಯಾಸವನ್ನು ರಚಿಸಿ ಅದಕ್ಕೆ ಪ್ರಜ್ಞಾ ಯೋಗ ಎಂದು ಹೆಸರಿಟ್ಟರು. ಇದು ಹದಿನಾರು ಸರಳ ಆಸನಗಳ ಹರಿಯುವ ಕ್ರಮ, ಪ್ರತಿ ಆಸನವನ್ನೂ ಗಾಯತ್ರಿ ಮಂತ್ರದ ಒಂದೊಂದು ಅಕ್ಷರ ಮತ್ತು ಸ್ಥಿರ, ಆಳವಾದ ಉಸಿರಿನ ಲಯದಲ್ಲಿ ಮಾಡಲಾಗುತ್ತದೆ. ನಿಂತುಕೊಂಡು — ಸವಿತಾ (ಉದಯಿಸುವ ಸೂರ್ಯ) ಬೆಳಕನ್ನು ಕ್ಷಣಕಾಲ ಧ್ಯಾನಿಸಿ — ಸಾಧಕನು ಪೂರ್ಣ ಭಾವದಿಂದ ಈ ಕ್ರಮದಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತಾನೆ. ಈ ಒಂದೇ ಅಭ್ಯಾಸದಲ್ಲಿ ಆಸನ ದೇಹವನ್ನು ಪೋಷಿಸುತ್ತದೆ, ಉಸಿರು ಪ್ರಾಣಾಯಾಮದಂತೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ, ಮತ್ತು ಮಂತ್ರ ಮನಸ್ಸನ್ನು ಒಳಮುಖವಾಗಿ ಕೊಂಡೊಯ್ಯುತ್ತದೆ — ಹೀಗೆ ಇದು ಮೂರೂ ಶರೀರಗಳನ್ನು (ಸ್ಥೂಲ, ಸೂಕ್ಷ್ಮ ಮತ್ತು ಕಾರಣ) ಏಕಕಾಲದಲ್ಲಿ ಸಹಜವಾಗಿ ಸ್ಪರ್ಶಿಸುತ್ತದೆ. ಒಂದು ಸುತ್ತಿಗೆ ಸುಮಾರು ಹತ್ತು ನಿಮಿಷ ಮಾತ್ರ, ಯಾವುದೇ ಉಪಕರಣ ಅಥವಾ ವೆಚ್ಚ ಬೇಕಿಲ್ಲ, ಎಲ್ಲ ವಯಸ್ಸಿಗೂ ಸೂಕ್ತ. ಗಾಯತ್ರಿ ಧ್ಯಾನದೊಂದಿಗೆ ಶ್ರದ್ಧೆಯಿಂದ ಮಾಡಿದರೆ ಇದು ಅಷ್ಟಾಂಗ ಯೋಗದ ಲಾಭಗಳನ್ನು ಸುಲಭ ರೂಪದಲ್ಲಿ ನೀಡುತ್ತದೆ."
+      },
+      "highlights": {
+        "en": [
+          "A sequence of sixteen gentle asanas synced to the syllables of the Gayatri Mantra",
+          "Asana, breath, and mantra together — caring for body, mind, and inner self",
+          "About ten minutes a round · no equipment · suitable for every age"
+        ],
+        "hi": [
+          "गायत्री मंत्र के अक्षरों से जुड़ा सोलह सरल आसनों का क्रम",
+          "आसन, श्वास और मंत्र एक साथ — शरीर, मन व अंतरात्मा की देखभाल",
+          "एक चक्र लगभग दस मिनट · कोई उपकरण नहीं · हर आयु के लिए उपयुक्त"
+        ],
+        "kn": [
+          "ಗಾಯತ್ರಿ ಮಂತ್ರದ ಅಕ್ಷರಗಳಿಗೆ ಜೋಡಿಸಿದ ಹದಿನಾರು ಸರಳ ಆಸನಗಳ ಕ್ರಮ",
+          "ಆಸನ, ಉಸಿರು ಮತ್ತು ಮಂತ್ರ ಒಟ್ಟಿಗೆ — ದೇಹ, ಮನಸ್ಸು ಮತ್ತು ಅಂತರಾತ್ಮದ ಆರೈಕೆ",
+          "ಒಂದು ಸುತ್ತಿಗೆ ಸುಮಾರು ಹತ್ತು ನಿಮಿಷ · ಉಪಕರಣ ಬೇಕಿಲ್ಲ · ಎಲ್ಲ ವಯಸ್ಸಿಗೂ ಸೂಕ್ತ"
+        ]
+      },
+      "link": {
+        "label": {
+          "en": "See the full Pragya Yoga sequence on AWGP",
+          "hi": "AWGP पर पूरा प्रज्ञा योग क्रम देखें",
+          "kn": "AWGPಯಲ್ಲಿ ಸಂಪೂರ್ಣ ಪ್ರಜ್ಞಾ ಯೋಗ ಕ್ರಮವನ್ನು ನೋಡಿ"
+        },
+        "url": "https://www.awgp.org/en/initiatives/health/pragya_yogaasan"
+      }
+    }
+  ],
+  "sessions": {
+    "heading": {
+      "en": "Yoga sessions at AWGP Bengaluru",
+      "hi": "AWGP बेंगलुरु में योग सत्र",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಯೋಗ ಸೆಷನ್‌ಗಳು"
+    },
+    "items": [
+      {
+        "id": "womens-yoga-kendra",
+        "title": {
+          "en": "Women's Yoga (at the Kendra)",
+          "hi": "महिला योग (केंद्र में)",
+          "kn": "ಮಹಿಳಾ ಯೋಗ (ಕೇಂದ್ರದಲ್ಲಿ)"
+        },
+        "timing": {
+          "en": "11:00 AM – 12:00 PM · in person at the Chetna Kendra",
+          "hi": "सुबह 11:00 – दोपहर 12:00 · चेतना केंद्र में प्रत्यक्ष",
+          "kn": "ಬೆಳಿಗ್ಗೆ 11:00 – ಮಧ್ಯಾಹ್ನ 12:00 · ಚೇತನಾ ಕೇಂದ್ರದಲ್ಲಿ ಖುದ್ದಾಗಿ"
+        },
+        "description": {
+          "en": "A guided morning session for women, held in person at the Kendra. A calm, welcoming space to learn Pragya Yoga asanas, breathing, and Gayatri meditation together — no prior experience needed.",
+          "hi": "महिलाओं के लिए एक मार्गदर्शित प्रातःकालीन सत्र, केंद्र में प्रत्यक्ष रूप से। प्रज्ञा योग के आसन, श्वास और गायत्री ध्यान साथ मिलकर सीखने का एक शांत, स्वागतपूर्ण स्थान — किसी पूर्व-अनुभव की आवश्यकता नहीं।",
+          "kn": "ಮಹಿಳೆಯರಿಗಾಗಿ ಮಾರ್ಗದರ್ಶಿತ ಬೆಳಗಿನ ಸೆಷನ್, ಕೇಂದ್ರದಲ್ಲಿ ಖುದ್ದಾಗಿ ನಡೆಯುತ್ತದೆ. ಪ್ರಜ್ಞಾ ಯೋಗ ಆಸನಗಳು, ಉಸಿರಾಟ ಮತ್ತು ಗಾಯತ್ರಿ ಧ್ಯಾನವನ್ನು ಒಟ್ಟಿಗೆ ಕಲಿಯಲು ಶಾಂತ, ಸ್ವಾಗತಪೂರ್ಣ ಸ್ಥಳ — ಪೂರ್ವಾನುಭವ ಅಗತ್ಯವಿಲ್ಲ."
+        }
+      },
+      {
+        "id": "online-yoga-all",
+        "title": {
+          "en": "Online Yoga (for everyone)",
+          "hi": "ऑनलाइन योग (सभी के लिए)",
+          "kn": "ಆನ್‌ಲೈನ್ ಯೋಗ (ಎಲ್ಲರಿಗೂ)"
+        },
+        "timing": {
+          "en": "5:30 PM – 6:30 PM · online · open to all",
+          "hi": "शाम 5:30 – 6:30 · ऑनलाइन · सभी के लिए खुला",
+          "kn": "ಸಂಜೆ 5:30 – 6:30 · ಆನ್‌ಲೈನ್ · ಎಲ್ಲರಿಗೂ ಮುಕ್ತ"
+        },
+        "description": {
+          "en": "An evening session open to everyone, joined online from wherever you are. Wind down the day with guided asanas, breathing, and meditation — suitable for men, women, youth, and elders alike.",
+          "hi": "शाम का एक सत्र जो सभी के लिए खुला है, जहाँ भी आप हों वहीं से ऑनलाइन जुड़ें। मार्गदर्शित आसन, श्वास और ध्यान के साथ दिन को शांत करें — पुरुष, महिला, युवा और वरिष्ठ, सभी के लिए उपयुक्त।",
+          "kn": "ಸಂಜೆಯ ಸೆಷನ್ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ, ನೀವು ಎಲ್ಲಿದ್ದರೂ ಅಲ್ಲಿಂದಲೇ ಆನ್‌ಲೈನ್ ಸೇರಿ. ಮಾರ್ಗದರ್ಶಿತ ಆಸನಗಳು, ಉಸಿರಾಟ ಮತ್ತು ಧ್ಯಾನದೊಂದಿಗೆ ದಿನವನ್ನು ಶಾಂತಗೊಳಿಸಿ — ಪುರುಷ, ಮಹಿಳೆ, ಯುವಕರು ಮತ್ತು ಹಿರಿಯರು ಎಲ್ಲರಿಗೂ ಸೂಕ್ತ."
+        }
+      }
+    ]
+  },
+  "resources": {
+    "heading": {
+      "en": "Learn more — books & resources",
+      "hi": "और जानें — पुस्तकें व संसाधन",
+      "kn": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ — ಪುಸ್ತಕಗಳು ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳು"
+    },
+    "note": {
+      "en": "These titles by Gurudev Pandit Shriram Sharma Acharya go deeper into asana, pranayama, and the science behind them. Read free online, or order a copy.",
+      "hi": "गुरुदेव पंडित श्रीराम शर्मा आचार्य की ये पुस्तकें आसन, प्राणायाम और उनके पीछे के विज्ञान में और गहराई से ले जाती हैं। ऑनलाइन निःशुल्क पढ़ें, या प्रति मँगवाएँ।",
+      "kn": "ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಈ ಪುಸ್ತಕಗಳು ಆಸನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಅವುಗಳ ಹಿಂದಿನ ವಿಜ್ಞಾನವನ್ನು ಆಳವಾಗಿ ತಿಳಿಸುತ್ತವೆ. ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಉಚಿತವಾಗಿ ಓದಿ, ಅಥವಾ ಪ್ರತಿ ತರಿಸಿಕೊಳ್ಳಿ."
+    },
+    "links": [
+      {
+        "id": "yoga-health-awgp",
+        "title": {
+          "en": "Yoga & Health (AWGP overview)",
+          "hi": "योग व स्वास्थ्य (AWGP परिचय)",
+          "kn": "ಯೋಗ ಮತ್ತು ಆರೋಗ್ಯ (AWGP ಪರಿಚಯ)"
+        },
+        "type": "page",
+        "read": "https://www.awgp.org/en/initiatives/health/yoga_&_health"
+      },
+      {
+        "id": "health-tips-vedas",
+        "title": {
+          "en": "Health Tips From the Vedas",
+          "hi": "वेदों से स्वास्थ्य सूत्र",
+          "kn": "ವೇದಗಳಿಂದ ಆರೋಗ್ಯ ಸೂತ್ರಗಳು"
+        },
+        "type": "book",
+        "read": "https://www.awgp.org/en/literature/book/Health_Tips_From_the_Vedas/v1"
+      },
+      {
+        "id": "asan-aur-pranayam",
+        "code": "SA12",
+        "lang": "Hindi",
+        "title": {
+          "en": "Asan Aur Pranayam",
+          "hi": "आसन और प्राणायाम",
+          "kn": "ಆಸನ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ"
+        },
+        "type": "book",
+        "read": "https://www.awgp.org/en/literature/book/Asan_Aur_Pranayam/v1",
+        "buy": "https://www.awgpstore.com/product?id=SA12"
+      },
+      {
+        "id": "asan-pranayam-adhi-vyadhi",
+        "code": "SV09",
+        "lang": "Hindi",
+        "title": {
+          "en": "Asan Pranayam Se Adhi Vyadhi Nivaran",
+          "hi": "आसन प्राणायाम से आधि-व्याधि निवारण",
+          "kn": "ಆಸನ ಪ್ರಾಣಾಯಾಮದಿಂದ ಆಧಿ-ವ್ಯಾಧಿ ನಿವಾರಣ"
+        },
+        "type": "book",
+        "read": "https://www.awgp.org/en/literature/book/Asan_Pranayam_Se_Adhi_Vyadhi_Nivaran/v1",
+        "buy": "https://www.awgpstore.com/product?id=SV09"
+      },
+      {
+        "id": "asan-pranayam-bandhmudra-panchkosh",
+        "code": "SA37",
+        "lang": "Hindi",
+        "title": {
+          "en": "Asan Pranayam Bandh-Mudra Panchkosh",
+          "hi": "आसन प्राणायाम बंध-मुद्रा पंचकोश",
+          "kn": "ಆಸನ ಪ್ರಾಣಾಯಾಮ ಬಂಧ-ಮುದ್ರಾ ಪಂಚಕೋಶ"
+        },
+        "type": "book",
+        "read": "https://www.awgp.org/en/literature/book/Ashan_Pranayam_Bandhmudra_Panchkosh/v1",
+        "buy": "https://www.awgpstore.com/product?id=SA37"
+      }
+    ]
+  }
+}

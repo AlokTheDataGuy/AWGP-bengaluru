@@ -1,0 +1,2245 @@
+ ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` or run `npx @next/codemod@latest next-experimental-turbo-to-turbopack .`
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/jost_96ae779b.module.css
+next/font: warning:
+Failed to download `Jost` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/jost_96ae779b.module.css
+    [next]/internal/font/google/jost_96ae779b.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/mukta_aefad19c.module.css
+next/font: warning:
+Failed to download `Mukta` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/mukta_aefad19c.module.css
+    [next]/internal/font/google/mukta_aefad19c.js
+    ./app/layout.jsx
+
+
+ ⚠ [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+next/font: warning:
+Failed to download `Noto Sans Kannada` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.module.css
+    [next]/internal/font/google/noto_sans_kannada_6fd818cc.js
+    ./app/layout.jsx
+
+
