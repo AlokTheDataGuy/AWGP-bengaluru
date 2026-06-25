@@ -5,6 +5,7 @@ import HomePath from '../../components/sections/HomePath';
 import HomeStats from '../../components/sections/HomeStats';
 import HomeEvents from '../../components/sections/HomeEvents';
 import HomeChetna from '../../components/sections/HomeChetna';
+import HomeBlog from '../../components/sections/HomeBlog';
 import GalleryStrip from '../../components/sections/GalleryStrip';
 import HomeCTA from '../../components/sections/HomeCTA';
 import HomeGallery from '../../components/sections/HomeGallery';
@@ -32,6 +33,7 @@ export default async function HomePage({ params }) {
       <HomePath />
       <HomeEvents locale={locale} />
       <HomeChetna />
+      <HomeBlog locale={locale} />
       <HomeGallery />
       <HomeCTA />
       <HomeContact />

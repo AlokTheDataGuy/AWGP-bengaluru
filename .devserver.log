@@ -62,3 +62,43 @@
  ✓ Compiled /[locale] in 551ms
  GET /en 200 in 5618ms
  GET /en 200 in 2164ms
+ ✓ Compiled in 445ms
+ ✓ Compiled /[locale] in 404ms
+ GET /en 200 in 4762ms
+ ✓ Compiled middleware in 4ms
+ ✓ Compiled middleware in 5ms
+ ✓ Compiled middleware in 8ms
+ ○ Compiling /[locale]/sadhana ...
+ ✓ Compiled /[locale]/sadhana in 3.3s
+ GET /en/sadhana 200 in 4893ms
+ ○ Compiling /[locale]/swadhyay ...
+ ✓ Compiled /[locale]/swadhyay in 1255ms
+ GET /en/swadhyay 200 in 3227ms
+ ○ Compiling /[locale]/sanyam ...
+ ✓ Compiled /[locale]/sanyam in 1152ms
+ GET /en/sanyam 200 in 3144ms
+ ○ Compiling /[locale]/seva ...
+ ✓ Compiled /[locale]/seva in 1138ms
+ GET /en/seva 200 in 3237ms
+ GET /en/seva 200 in 1536ms
+ GET /en/sanyam 200 in 1233ms
+ GET /hi/sadhana 200 in 1083ms
+ GET /kn/sanyam 200 in 1130ms
+ GET /hi/swadhyay 200 in 1168ms
+ GET /kn/seva 200 in 1246ms
+ GET /hi/sadhana 200 in 1290ms
+ GET /kn/sanyam 200 in 1700ms
+ ✓ Compiled in 238ms
+ ✓ Compiled /[locale] in 440ms
+ GET /en 200 in 4629ms
+ ✓ Compiled in 417ms
+ ✓ Compiled in 203ms
+ ✓ Compiled /[locale] in 158ms
+ GET /en 200 in 4585ms
+ GET /en 200 in 2044ms
+ GET /en 200 in 3003ms
+ GET /hi 200 in 2916ms
+ GET /en/sadhana 200 in 1582ms
+ GET /en/swadhyay 200 in 1369ms
+ GET /en/sanyam 200 in 1574ms
+ GET /en/seva 200 in 1180ms

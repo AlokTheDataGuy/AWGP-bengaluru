@@ -1,27 +1,42 @@
 /* =========================================================
-   Home — Chetna Kendra
-   Reddish (maroon) band with a faint Gayatri-mantra mandala
-   watermark and a bento grid of facility tiles. The hero tile
-   carries the daily darshan / sadhana schedule.
+   Home — Gayatri Chetna Kendra   (maroon band)
+   A clean two-part showcase: a large featured photo of the
+   Kendra carrying a frosted daily-schedule panel, beside an
+   elegant list of facility cards. Ambient rotating mandala,
+   soft gold glow, and staggered scroll-reveal.
    ========================================================= */
 
 .home-chetna {
   position: relative;
   overflow: hidden;
+  isolation: isolate;
   background:
     radial-gradient(120% 90% at 50% -10%, rgba(163, 53, 37, 0.55) 0%, transparent 55%),
     linear-gradient(165deg, var(--maroon-dk) 0%, var(--maroon) 52%, #6E1E10 100%);
 }
 
-/* Gayatri-mantra mandala watermark */
+/* Slowly-rotating Gayatri-mantra mandala watermark */
 .home-chetna__mandala {
   position: absolute;
-  top: clamp(-140px, -10vw, -70px);
-  right: clamp(-160px, -8vw, -60px);
-  width: clamp(360px, 48vw, 660px);
+  top: clamp(-150px, -10vw, -80px);
+  right: clamp(-170px, -9vw, -70px);
+  width: clamp(360px, 48vw, 680px);
   aspect-ratio: 1;
   background: url('/assets/designs/gayatri-mandala.png') center / contain no-repeat;
-  opacity: 0.08;
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: 0;
+  animation: ckMandalaSpin 120s linear infinite;
+}
+
+/* Soft gold bloom, bottom-left, to balance the mandala */
+.home-chetna__glow {
+  position: absolute;
+  left: -10%;
+  bottom: -20%;
+  width: clamp(320px, 40vw, 560px);
+  aspect-ratio: 1;
+  background: radial-gradient(circle, rgba(249, 199, 79, 0.16) 0%, transparent 68%);
   pointer-events: none;
   z-index: 0;
 }
@@ -34,115 +49,265 @@
 /* ── Centered heading ────────────────────────────────────── */
 .home-chetna__head {
   text-align: center;
-  margin-bottom: clamp(2.2rem, 4.5vw, 3.4rem);
+  max-width: 50rem;
+  margin: 0 auto clamp(2.6rem, 5vw, 3.8rem);
 }
 .home-chetna__eyebrow {
   display: block;
   font-family: var(--font-heading);
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
+  font-size: var(--eyebrow-size, 0.75rem);
+  font-weight: var(--eyebrow-weight, 700);
+  letter-spacing: var(--eyebrow-tracking, 0.26em);
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.85rem;
 }
 .home-chetna__title {
   font-family: var(--font-heading);
-  font-size: clamp(1.8rem, 3.4vw, 2.7rem);
+  font-size: clamp(1.9rem, 3.6vw, 2.8rem);
   font-weight: 700;
   color: #fff;
   line-height: 1.2;
 }
+
+/* Signature gold-diamond rule — line · ◆ · line */
+.home-chetna__rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 200px;
+  margin: 1.1rem auto 1.3rem;
+}
+.home-chetna__rule-line {
+  height: 1.5px;
+  flex: 1;
+}
+.home-chetna__rule-line:first-child { background: linear-gradient(to right, transparent, var(--gold)); }
+.home-chetna__rule-line:last-child  { background: linear-gradient(to left,  transparent, var(--gold)); }
+.home-chetna__rule-diamond {
+  width: 9px;
+  height: 9px;
+  background: var(--gold);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  box-shadow: 0 0 14px rgba(249, 199, 79, 0.7);
+}
 .home-chetna__lead {
-  max-width: 46rem;
-  margin: 0 auto;
   font-size: clamp(0.95rem, 1.4vw, 1.05rem);
   line-height: 1.75;
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* ── Bento grid ──────────────────────────────────────────── */
-.ck-bento {
+/* ── Showcase grid ───────────────────────────────────────── */
+.ck-showcase {
   display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: clamp(150px, 17vw, 210px) clamp(150px, 17vw, 210px) clamp(140px, 15vw, 190px);
-  grid-template-areas:
-    "big big big mandir mandir mandir"
-    "big big big yagya  yagya  yagya"
-    "gau gau gyan gyan dhyan dhyan";
+  grid-template-columns: 1.12fr 1fr;
+  gap: clamp(1.2rem, 2.4vw, 2rem);
+  align-items: stretch;
 }
 
-.ck-tile {
+/* ── Featured card ───────────────────────────────────────── */
+.ck-feature {
   position: relative;
+  display: block;
+  min-height: clamp(380px, 46vw, 540px);
   overflow: hidden;
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
-  background: var(--maroon-dk);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  /* scroll-reveal start */
+  opacity: 0;
+  transform: translateY(40px);
 }
-.ck-tile img { transition: transform 0.6s ease; }
-.ck-tile:hover img { transform: scale(1.07); }
+.home-chetna.is-visible .ck-feature {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
-.ck-tile__scrim {
+.ck-feature__media { position: absolute; inset: 0; z-index: 0; }
+.ck-feature__media img { transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1); }
+.ck-feature:hover .ck-feature__media img,
+.ck-feature:focus-visible .ck-feature__media img { transform: scale(1.06); }
+
+.ck-feature__scrim {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(to top, rgba(36, 11, 6, 0.9) 0%, rgba(36, 11, 6, 0.18) 48%, transparent 72%);
+  background: linear-gradient(to top, rgba(36, 11, 6, 0.92) 6%, rgba(36, 11, 6, 0.35) 46%, rgba(36, 11, 6, 0.05) 100%);
 }
 
-.ck-tile__caption {
+/* gold top-edge accent that wipes across on hover */
+.ck-feature::after {
+  content: "";
   position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 2;
-  padding: 0.9rem 1.05rem;
-  font-family: var(--font-heading);
-  font-size: clamp(0.92rem, 1.4vw, 1.08rem);
-  font-weight: 700;
-  color: #fff;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  top: 0; left: 0;
+  z-index: 3;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(to right, var(--gold), var(--saffron-lt));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
 }
+.ck-feature:hover::after,
+.ck-feature:focus-visible::after { transform: scaleX(1); }
 
-/* Hero tile + schedule */
-.ck-tile--hero .ck-tile__scrim {
-  background: linear-gradient(to top, rgba(36, 11, 6, 0.94) 8%, rgba(36, 11, 6, 0.35) 50%, rgba(36, 11, 6, 0.1) 100%);
-}
-.ck-tile__schedule {
+/* Frosted daily-schedule panel */
+.ck-schedule {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: clamp(0.9rem, 1.8vw, 1.5rem);
+  right: clamp(0.9rem, 1.8vw, 1.5rem);
+  bottom: clamp(0.9rem, 1.8vw, 1.5rem);
   z-index: 2;
-  padding: clamp(1.2rem, 2.2vw, 2rem);
+  padding: clamp(1.1rem, 2vw, 1.6rem);
+  background: rgba(36, 11, 6, 0.42);
+  backdrop-filter: blur(10px) saturate(1.1);
+  -webkit-backdrop-filter: blur(10px) saturate(1.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-top: 2px solid var(--gold);
+  max-width: 360px;
 }
-.ck-tile__schedule-title {
-  font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 1.9vw, 1.5rem);
-  font-weight: 700;
-  color: #fff;
-  margin: 0 0 0.7rem;
-}
-.ck-tile__schedule ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  max-width: 340px;
-}
-.ck-tile__schedule li {
+.ck-schedule__title {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-  font-size: clamp(0.82rem, 1.2vw, 0.95rem);
-  color: rgba(255, 255, 255, 0.92);
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-heading);
+  font-size: clamp(1.02rem, 1.6vw, 1.25rem);
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.85rem;
 }
-.ck-tile__schedule li:last-child { border-bottom: none; }
-.ck-tile__schedule b {
+.ck-schedule__title svg { color: var(--gold-lt); flex-shrink: 0; }
+.ck-schedule__list { list-style: none; margin: 0; padding: 0; }
+.ck-schedule__list li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: clamp(0.84rem, 1.2vw, 0.95rem);
+}
+.ck-schedule__list li:last-child { border-bottom: none; }
+.ck-schedule__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+  flex-shrink: 0;
+  box-shadow: 0 0 0 0 rgba(249, 199, 79, 0.6);
+  animation: ckPulse 2.6s ease-out infinite;
+}
+.ck-schedule__label { color: rgba(255, 255, 255, 0.92); }
+.ck-schedule__time {
+  margin-left: auto;
   color: var(--gold-lt);
   font-weight: 700;
   white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+
+/* ── Facility list ───────────────────────────────────────── */
+.ck-facilities {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.6rem, 1.1vw, 0.85rem);
+}
+.ck-fac-item {
+  flex: 1;
+  /* scroll-reveal start */
+  opacity: 0;
+  transform: translateX(36px);
+}
+.home-chetna.is-visible .ck-fac-item {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: calc(var(--i) * 0.09s);
+}
+
+.ck-fac {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: clamp(0.85rem, 1.5vw, 1.15rem);
+  height: 100%;
+  padding: clamp(0.7rem, 1.1vw, 0.85rem);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  transition: background 0.35s ease, border-color 0.35s ease, transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* gold accent bar that grows from the left on hover */
+.ck-fac::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(var(--gold), var(--saffron));
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.ck-fac:hover,
+.ck-fac:focus-visible {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(249, 199, 79, 0.4);
+  transform: translateX(5px);
+  outline: none;
+}
+.ck-fac:hover::before,
+.ck-fac:focus-visible::before { transform: scaleY(1); }
+
+.ck-fac__thumb {
+  position: relative;
+  width: clamp(64px, 7vw, 84px);
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+.ck-fac__thumb img { transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1); }
+.ck-fac:hover .ck-fac__thumb img,
+.ck-fac:focus-visible .ck-fac__thumb img { transform: scale(1.1); }
+
+.ck-fac__text { min-width: 0; }
+.ck-fac__name {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  transition: color 0.3s ease;
+}
+.ck-fac:hover .ck-fac__name,
+.ck-fac:focus-visible .ck-fac__name { color: var(--gold-lt); }
+.ck-fac__desc {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: clamp(0.78rem, 1.1vw, 0.88rem);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.ck-fac__arrow {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--gold);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.ck-fac:hover .ck-fac__arrow,
+.ck-fac:focus-visible .ck-fac__arrow {
+  opacity: 1;
+  transform: none;
 }
 
 /* ── CTA ─────────────────────────────────────────────────── */
@@ -150,13 +315,9 @@
   text-align: center;
   margin-top: clamp(2rem, 3.5vw, 3rem);
 }
-.home-chetna__cta .btn {
-  display: inline-flex;
-  align-items: center;
-}
 .home-chetna__cta .btn-gold-outline {
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.55);
 }
 .home-chetna__cta .btn-gold-outline:hover {
   background: var(--saffron);
@@ -165,31 +326,46 @@
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
-@media (max-width: 900px) {
-  .ck-bento {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: none;
-    grid-template-areas:
-      "big big"
-      "mandir yagya"
-      "gau gyan"
-      "dhyan dhyan";
-  }
-  .ck-tile { min-height: clamp(150px, 30vw, 200px); }
-  .ck-tile--hero { min-height: clamp(280px, 60vw, 360px); }
+@media (max-width: 920px) {
+  .ck-showcase { grid-template-columns: 1fr; }
+  .ck-feature { min-height: clamp(320px, 64vw, 440px); }
+  .ck-facilities { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+}
+@media (max-width: 560px) {
+  .ck-facilities { grid-template-columns: 1fr; }
+  .ck-schedule { max-width: none; }
+  .ck-fac__desc { display: none; }
 }
 
-@media (max-width: 560px) {
-  .ck-bento {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "big"
-      "mandir"
-      "yagya"
-      "gau"
-      "gyan"
-      "dhyan";
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .home-chetna__mandala,
+  .ck-schedule__dot { animation: none; }
+  .ck-feature,
+  .ck-fac-item,
+  .home-chetna.is-visible .ck-feature,
+  .home-chetna.is-visible .ck-fac-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none;
   }
-  .ck-tile { min-height: 200px; }
-  .ck-tile--hero { min-height: 300px; }
+  .ck-feature__media img,
+  .ck-fac__thumb img,
+  .ck-fac,
+  .ck-fac__arrow {
+    transition: color 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  }
+  .ck-feature:hover .ck-feature__media img,
+  .ck-fac:hover .ck-fac__thumb img { transform: none; }
+  .ck-fac__arrow { opacity: 1; transform: none; }
+}
+
+/* ── Keyframes ───────────────────────────────────────────── */
+@keyframes ckMandalaSpin {
+  to { transform: rotate(360deg); }
+}
+@keyframes ckPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(249, 199, 79, 0.55); }
+  70%  { box-shadow: 0 0 0 7px rgba(249, 199, 79, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(249, 199, 79, 0); }
 }

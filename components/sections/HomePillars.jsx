@@ -25,14 +25,14 @@ const HEAD = {
 
 const PILLARS = [
   {
-    href: '/activities/sadhana',
+    href: '/sadhana',
     key: 'sadhana',
     en: { name: 'Sadhna',     meaning: 'Daily spiritual practices to elevate consciousness and inner strength.' },
     hi: { name: 'साधना',      meaning: 'चेतना और आंतरिक शक्ति को ऊँचा उठाने के लिए दैनिक आध्यात्मिक अभ्यास।' },
     kn: { name: 'ಸಾಧನೆ',      meaning: 'ಪ್ರಜ್ಞೆ ಮತ್ತು ಆಂತರಿಕ ಶಕ್ತಿಯನ್ನು ಎತ್ತರಿಸಲು ದೈನಂದಿನ ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸಗಳು.' },
   },
   {
-    href: '/swadhyaya',
+    href: '/swadhyay',
     key: 'swadhyaya',
     en: { name: 'Swadhyay',   meaning: 'Self study of wisdom literature for knowledge and self-realization.' },
     hi: { name: 'स्वाध्याय',   meaning: 'ज्ञान और आत्म-साक्षात्कार के लिए सद्ग्रंथों का स्वाध्याय।' },
