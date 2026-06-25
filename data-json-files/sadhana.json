@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "id": "sadhana",
+    "slug": "sadhana",
+    "navLabel": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+    "pillar": 1,
+    "seoDescription": {
+      "en": "Sadhana as taught by Gurudev Pandit Shriram Sharma Acharya — the first of his four steps (Sadhana, Sanyam, Swadhyay, Seva): what it means, why it matters, and the Sadhana Andolan that brought it to everyone.",
+      "hi": "गुरुदेव पंडित श्रीराम शर्मा आचार्य द्वारा सिखाई गई साधना — उनके चार सूत्रों (साधना, संयम, स्वाध्याय, सेवा) में पहला: इसका अर्थ, महत्व, और वह साधना आंदोलन जिसने इसे सबके लिए सुलभ किया।",
+      "kn": "ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಬೋಧಿಸಿದ ಸಾಧನೆ — ಅವರ ನಾಲ್ಕು ಸೂತ್ರಗಳಲ್ಲಿ (ಸಾಧನೆ, ಸಂಯಮ, ಸ್ವಾಧ್ಯಾಯ, ಸೇವೆ) ಮೊದಲನೆಯದು: ಅದರ ಅರ್ಥ, ಮಹತ್ವ, ಮತ್ತು ಅದನ್ನು ಎಲ್ಲರಿಗೂ ತಲುಪಿಸಿದ ಸಾಧನಾ ಆಂದೋಲನ."
+    }
+  },
+  "hero": {
+    "title": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+    "tagline": {
+      "en": "The first of Gurudev's four steps — refining the self from within.",
+      "hi": "गुरुदेव के चार सूत्रों में पहला — भीतर से स्वयं का परिष्कार।",
+      "kn": "ಗುರುದೇವ್ ಅವರ ನಾಲ್ಕು ಸೂತ್ರಗಳಲ್ಲಿ ಮೊದಲನೆಯದು — ಒಳಗಿನಿಂದ ಸ್ವಯಂ ಪರಿಷ್ಕಾರ."
+    },
+    "intro": {
+      "en": "Gurudev Pandit Shriram Sharma Acharya gave seekers a simple, complete path of four words — Sadhana, Sanyam, Swadhyay, and Seva. Sadhana, the first, is the inner work: the daily practice of worship, japa, and meditation through which a person refines their own self. It is not ritual for its own sake, but a steady effort to become purer, calmer, and stronger from within. At AWGP Bengaluru, Sadhana is the ground on which the other three rest — and the doorway to every practice we offer.",
+      "hi": "गुरुदेव पंडित श्रीराम शर्मा आचार्य ने साधकों को चार शब्दों का एक सरल, पूर्ण पथ दिया — साधना, संयम, स्वाध्याय और सेवा। इनमें पहला, साधना, भीतरी कार्य है: उपासना, जप और ध्यान का नित्य अभ्यास, जिसके द्वारा मनुष्य अपने ही स्वरूप का परिष्कार करता है। यह केवल कर्मकांड नहीं, बल्कि भीतर से अधिक निर्मल, शांत और सशक्त होने का सतत प्रयास है। एडब्ल्यूजीपी बेंगलुरु में साधना वह भूमि है जिस पर शेष तीनों टिके हैं — और हमारी हर साधना-पद्धति का प्रवेशद्वार।",
+      "kn": "ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಸಾಧಕರಿಗೆ ನಾಲ್ಕು ಪದಗಳ ಸರಳ, ಸಂಪೂರ್ಣ ಪಥವನ್ನು ನೀಡಿದರು — ಸಾಧನೆ, ಸಂಯಮ, ಸ್ವಾಧ್ಯಾಯ ಮತ್ತು ಸೇವೆ. ಇವುಗಳಲ್ಲಿ ಮೊದಲನೆಯದು, ಸಾಧನೆ, ಆಂತರಿಕ ಕೆಲಸ: ಉಪಾಸನೆ, ಜಪ ಮತ್ತು ಧ್ಯಾನದ ನಿತ್ಯ ಅಭ್ಯಾಸ, ಇದರ ಮೂಲಕ ಮನುಷ್ಯನು ತನ್ನದೇ ಸ್ವರೂಪವನ್ನು ಪರಿಷ್ಕರಿಸುತ್ತಾನೆ. ಇದು ಕೇವಲ ಕರ್ಮಕಾಂಡವಲ್ಲ, ಬದಲಿಗೆ ಒಳಗಿನಿಂದ ಹೆಚ್ಚು ನಿರ್ಮಲ, ಶಾಂತ ಮತ್ತು ಸಶಕ್ತನಾಗುವ ನಿರಂತರ ಪ್ರಯತ್ನ. AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಸಾಧನೆಯೇ ಉಳಿದ ಮೂರೂ ನಿಂತಿರುವ ತಳಹದಿ — ಮತ್ತು ನಮ್ಮ ಪ್ರತಿ ಸಾಧನಾ ಪದ್ಧತಿಯ ಪ್ರವೇಶದ್ವಾರ."
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-sadhana",
+      "title": {
+        "en": "What Is Sadhana?",
+        "hi": "साधना क्या है?",
+        "kn": "ಸಾಧನೆ ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "The word sadhana means the means by which a goal (sadhya) is reached — and for Gurudev, the goal is the refinement of the self. He taught that true sadhana is not the mechanical performance of rites, nor a bargain struck with God through flattery. It is the patient, daily ploughing of the inner field: worship to remember the Divine, japa to steady the mind, meditation to turn it inward. Done sincerely, it slowly clears the dirt of old habits and lets a person's higher nature shine through. Gurudev placed self-refinement (atma-parishkar) at the very centre — for only a refined self can rise toward the Divine. In his words, sadhana is the art of making one's own life worthy.",
+        "hi": "साधना शब्द का अर्थ है वह साधन जिससे साध्य (लक्ष्य) तक पहुँचा जाए — और गुरुदेव के लिए वह लक्ष्य है स्वयं का परिष्कार। वे सिखाते थे कि सच्ची साधना न तो कर्मकांडों का यांत्रिक निर्वाह है, न परमात्मा से स्तुति द्वारा किया गया कोई सौदा। यह तो भीतरी भूमि का धैर्यपूर्वक नित्य जोतना है: परमात्मा के स्मरण हेतु उपासना, मन को साधने हेतु जप, उसे भीतर मोड़ने हेतु ध्यान। सच्चे भाव से की गई साधना धीरे-धीरे पुरानी आदतों की मलिनता हटाकर मनुष्य के उच्चतर स्वरूप को प्रकट होने देती है। गुरुदेव ने आत्म-परिष्कार को ही केंद्र में रखा — क्योंकि परिष्कृत आत्मा ही परमात्मा की ओर उठ सकती है। उनके शब्दों में, साधना अपने ही जीवन को श्रेष्ठ बनाने की कला है।",
+        "kn": "ಸಾಧನೆ ಎಂಬ ಪದದ ಅರ್ಥ — ಸಾಧ್ಯವನ್ನು (ಗುರಿ) ತಲುಪುವ ಸಾಧನ — ಮತ್ತು ಗುರುದೇವ್ ಅವರಿಗೆ ಆ ಗುರಿ ಸ್ವಯಂ ಪರಿಷ್ಕಾರ. ನಿಜವಾದ ಸಾಧನೆ ಕರ್ಮಕಾಂಡಗಳ ಯಾಂತ್ರಿಕ ನಿರ್ವಹಣೆಯಲ್ಲ, ಪರಮಾತ್ಮನೊಂದಿಗೆ ಸ್ತುತಿಯ ಮೂಲಕ ಮಾಡಿದ ಒಪ್ಪಂದವೂ ಅಲ್ಲ ಎಂದು ಅವರು ಬೋಧಿಸಿದರು. ಅದು ಆಂತರಿಕ ಭೂಮಿಯ ತಾಳ್ಮೆಯ ನಿತ್ಯ ಉಳುಮೆ: ಪರಮಾತ್ಮನ ಸ್ಮರಣೆಗೆ ಉಪಾಸನೆ, ಮನಸ್ಸನ್ನು ಸ್ಥಿರಗೊಳಿಸಲು ಜಪ, ಅದನ್ನು ಒಳಮುಖವಾಗಿಸಲು ಧ್ಯಾನ. ಪ್ರಾಮಾಣಿಕ ಭಾವದಿಂದ ಮಾಡಿದ ಸಾಧನೆ ನಿಧಾನವಾಗಿ ಹಳೆಯ ಅಭ್ಯಾಸಗಳ ಮಲಿನತೆಯನ್ನು ತೆಗೆದು ಮನುಷ್ಯನ ಉನ್ನತ ಸ್ವರೂಪವನ್ನು ಪ್ರಕಟಗೊಳಿಸುತ್ತದೆ. ಗುರುದೇವ್ ಆತ್ಮ-ಪರಿಷ್ಕಾರವನ್ನೇ ಕೇಂದ್ರದಲ್ಲಿ ಇಟ್ಟರು — ಏಕೆಂದರೆ ಪರಿಷ್ಕೃತ ಆತ್ಮವೇ ಪರಮಾತ್ಮನ ಕಡೆಗೆ ಏರಬಲ್ಲದು. ಅವರ ಮಾತಿನಲ್ಲಿ, ಸಾಧನೆ ತನ್ನದೇ ಜೀವನವನ್ನು ಶ್ರೇಷ್ಠಗೊಳಿಸುವ ಕಲೆ."
+      },
+      "highlights": {
+        "en": [
+          "Sadhana is the means; the goal is atma-parishkar — refinement of the self",
+          "Not mechanical ritual or flattery, but the patient daily work of inner cleansing",
+          "Worship, japa, and meditation that let one's higher nature shine through"
+        ],
+        "hi": [
+          "साधना साधन है; लक्ष्य है आत्म-परिष्कार — स्वयं का परिष्कार",
+          "यांत्रिक कर्मकांड या स्तुति नहीं, बल्कि भीतरी शुद्धि का धैर्यपूर्ण नित्य कार्य",
+          "उपासना, जप और ध्यान, जो उच्चतर स्वरूप को प्रकट होने देते हैं"
+        ],
+        "kn": [
+          "ಸಾಧನೆ ಸಾಧನ; ಗುರಿ ಆತ್ಮ-ಪರಿಷ್ಕಾರ — ಸ್ವಯಂ ಪರಿಷ್ಕಾರ",
+          "ಯಾಂತ್ರಿಕ ಕರ್ಮಕಾಂಡ ಅಥವಾ ಸ್ತುತಿಯಲ್ಲ, ಆಂತರಿಕ ಶುದ್ಧಿಯ ತಾಳ್ಮೆಯ ನಿತ್ಯ ಕೆಲಸ",
+          "ಉಪಾಸನೆ, ಜಪ ಮತ್ತು ಧ್ಯಾನ, ಉನ್ನತ ಸ್ವರೂಪವನ್ನು ಪ್ರಕಟಗೊಳಿಸುತ್ತವೆ"
+        ]
+      }
+    },
+    {
+      "id": "why-it-matters",
+      "title": {
+        "en": "Why Sadhana Matters",
+        "hi": "साधना क्यों आवश्यक है",
+        "kn": "ಸಾಧನೆ ಏಕೆ ಮುಖ್ಯ"
+      },
+      "body": {
+        "en": "Gurudev called upasana-sadhana an essential necessity of life — as vital to the inner self as food and bathing are to the body. Just as the mind gathers dust each day from all it sees and hears, daily sadhana is the bath that keeps it clean. Its benefits are twofold: worldly and spiritual. A steadied, focused mind handles life's tasks with greater skill and calm; and the same focus, turned inward, becomes the path to lasting peace and to the Divine. Above all, sadhana builds character — for Gurudev taught that grace is earned not by ritual but by refinement of conduct. A little practice every day, done with sincerity, slowly reshapes a whole life.",
+        "hi": "गुरुदेव उपासना-साधना को जीवन की अनिवार्य आवश्यकता कहते थे — अंतःकरण के लिए उतनी ही ज़रूरी जितनी शरीर के लिए भोजन और स्नान। जैसे मन प्रतिदिन देखे-सुने से मैल बटोरता है, वैसे ही नित्य साधना वह स्नान है जो उसे स्वच्छ रखती है। इसके लाभ दो प्रकार के हैं: सांसारिक और आध्यात्मिक। सधा हुआ, एकाग्र मन जीवन के कार्यों को अधिक कुशलता और शांति से सँभालता है; और वही एकाग्रता भीतर मुड़कर स्थायी शांति और परमात्मा का मार्ग बन जाती है। सबसे बढ़कर, साधना चरित्र का निर्माण करती है — क्योंकि गुरुदेव कहते थे कि कृपा कर्मकांड से नहीं, आचरण के परिष्कार से अर्जित होती है। प्रतिदिन थोड़ी-सी साधना, सच्चे भाव से, धीरे-धीरे पूरे जीवन को नया रूप दे देती है।",
+        "kn": "ಗುರುದೇವ್ ಉಪಾಸನೆ-ಸಾಧನೆಯನ್ನು ಜೀವನದ ಅನಿವಾರ್ಯ ಅಗತ್ಯ ಎಂದು ಕರೆದರು — ದೇಹಕ್ಕೆ ಆಹಾರ ಮತ್ತು ಸ್ನಾನ ಎಷ್ಟು ಅಗತ್ಯವೋ ಅಂತರಂಗಕ್ಕೆ ಅಷ್ಟೇ ಅಗತ್ಯ. ಮನಸ್ಸು ಪ್ರತಿದಿನ ನೋಡಿದ-ಕೇಳಿದ್ದರಿಂದ ಕೊಳೆ ಸಂಗ್ರಹಿಸುವಂತೆ, ನಿತ್ಯ ಸಾಧನೆ ಅದನ್ನು ಸ್ವಚ್ಛವಾಗಿಡುವ ಸ್ನಾನ. ಇದರ ಲಾಭ ಎರಡು ಬಗೆಯದು: ಲೌಕಿಕ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ. ಸ್ಥಿರವಾದ, ಏಕಾಗ್ರ ಮನಸ್ಸು ಜೀವನದ ಕೆಲಸಗಳನ್ನು ಹೆಚ್ಚು ಕೌಶಲ್ಯ ಮತ್ತು ಶಾಂತಿಯಿಂದ ನಿಭಾಯಿಸುತ್ತದೆ; ಅದೇ ಏಕಾಗ್ರತೆ ಒಳಮುಖವಾಗಿ ತಿರುಗಿ ಶಾಶ್ವತ ಶಾಂತಿ ಮತ್ತು ಪರಮಾತ್ಮನ ಮಾರ್ಗವಾಗುತ್ತದೆ. ಎಲ್ಲಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ, ಸಾಧನೆ ಚಾರಿತ್ರ್ಯವನ್ನು ಕಟ್ಟುತ್ತದೆ — ಏಕೆಂದರೆ ಕೃಪೆ ಕರ್ಮಕಾಂಡದಿಂದಲ್ಲ, ಆಚರಣೆಯ ಪರಿಷ್ಕಾರದಿಂದ ಗಳಿಸಲಾಗುತ್ತದೆ ಎಂದು ಗುರುದೇವ್ ಬೋಧಿಸಿದರು. ಪ್ರತಿದಿನ ಸ್ವಲ್ಪ ಸಾಧನೆ, ಪ್ರಾಮಾಣಿಕ ಭಾವದಿಂದ, ನಿಧಾನವಾಗಿ ಇಡೀ ಜೀವನಕ್ಕೆ ಹೊಸ ರೂಪ ನೀಡುತ್ತದೆ."
+      },
+      "highlights": {
+        "en": [
+          "Gurudev called daily sadhana a necessity of life — the inner self's daily bath",
+          "Its fruits are twofold: sharper skill in the world, and peace within",
+          "Grace is earned through refined character, not ritual alone"
+        ],
+        "hi": [
+          "गुरुदेव ने नित्य साधना को जीवन की आवश्यकता कहा — अंतःकरण का दैनिक स्नान",
+          "इसके फल दो प्रकार के: संसार में कुशलता, और भीतर शांति",
+          "कृपा आचरण के परिष्कार से अर्जित होती है, केवल कर्मकांड से नहीं"
+        ],
+        "kn": [
+          "ಗುರುದೇವ್ ನಿತ್ಯ ಸಾಧನೆಯನ್ನು ಜೀವನದ ಅಗತ್ಯ ಎಂದರು — ಅಂತರಂಗದ ದೈನಂದಿನ ಸ್ನಾನ",
+          "ಇದರ ಫಲ ಎರಡು ಬಗೆ: ಲೋಕದಲ್ಲಿ ಕೌಶಲ್ಯ, ಮತ್ತು ಒಳಗೆ ಶಾಂತಿ",
+          "ಕೃಪೆ ಆಚರಣೆಯ ಪರಿಷ್ಕಾರದಿಂದ ಗಳಿಸಲಾಗುತ್ತದೆ, ಕೇವಲ ಕರ್ಮಕಾಂಡದಿಂದಲ್ಲ"
+        ]
+      }
+    },
+    {
+      "id": "sadhana-andolan",
+      "title": {
+        "en": "The Sadhana Andolan",
+        "hi": "साधना आंदोलन",
+        "kn": "ಸಾಧನಾ ಆಂದೋಲನ"
+      },
+      "body": {
+        "en": "For centuries, sadhana was treated as the preserve of saints and ascetics. Gurudev's great contribution was to bring it to everyone. Through the Sadhana Andolan — the movement for accessible sadhana — he made the path simple enough for any householder: a few sincere minutes of Gayatri upasana and self-discipline, woven into ordinary daily life. He asked not for grand austerities but for steady, honest practice by the many. From this grew vast collective efforts, including a continuous mass Gayatri mahapurashcharan in which millions chanted together for the dawn of a brighter era. The message is simple and still open to all: every person can be a sadhak, and a transformed individual is the seed of a transformed world.",
+        "hi": "सदियों तक साधना को संतों और तपस्वियों की धरोहर माना जाता रहा। गुरुदेव का महान योगदान यह था कि उन्होंने इसे सबके लिए सुलभ बनाया। साधना आंदोलन — सुलभ साधना के आंदोलन — के माध्यम से उन्होंने इस पथ को हर गृहस्थ के लिए इतना सरल कर दिया: कुछ सच्चे मिनटों की गायत्री उपासना और आत्म-संयम, साधारण दैनिक जीवन में पिरोया हुआ। उन्होंने भव्य तपस्या नहीं माँगी, बल्कि अनेकों द्वारा निरंतर, ईमानदार अभ्यास। इसी से विशाल सामूहिक प्रयास जन्मे, जिनमें एक सतत गायत्री महापुरश्चरण भी शामिल है, जिसमें लाखों लोगों ने उज्जवल युग के उदय हेतु साथ-साथ जप किया। संदेश सरल है और आज भी सबके लिए खुला: हर व्यक्ति साधक बन सकता है, और एक परिवर्तित व्यक्ति ही परिवर्तित विश्व का बीज है।",
+        "kn": "ಶತಮಾನಗಳ ಕಾಲ ಸಾಧನೆಯನ್ನು ಸಂತರು ಮತ್ತು ತಪಸ್ವಿಗಳ ಸೊತ್ತೆಂದು ಭಾವಿಸಲಾಗಿತ್ತು. ಅದನ್ನು ಎಲ್ಲರಿಗೂ ತಲುಪಿಸಿದ್ದು ಗುರುದೇವ್ ಅವರ ಮಹಾನ್ ಕೊಡುಗೆ. ಸಾಧನಾ ಆಂದೋಲನದ — ಸುಲಭ ಸಾಧನೆಯ ಚಳವಳಿಯ — ಮೂಲಕ ಅವರು ಈ ಪಥವನ್ನು ಪ್ರತಿ ಗೃಹಸ್ಥನಿಗೆ ಇಷ್ಟು ಸರಳಗೊಳಿಸಿದರು: ಕೆಲವು ಪ್ರಾಮಾಣಿಕ ನಿಮಿಷಗಳ ಗಾಯತ್ರಿ ಉಪಾಸನೆ ಮತ್ತು ಆತ್ಮ-ಸಂಯಮ, ಸಾಮಾನ್ಯ ದೈನಂದಿನ ಜೀವನದಲ್ಲಿ ಹೆಣೆದದ್ದು. ಅವರು ಭವ್ಯ ತಪಸ್ಸನ್ನು ಕೇಳಲಿಲ್ಲ, ಬದಲಿಗೆ ಅನೇಕರಿಂದ ನಿರಂತರ, ಪ್ರಾಮಾಣಿಕ ಅಭ್ಯಾಸವನ್ನು. ಇದರಿಂದ ವಿಶಾಲ ಸಾಮೂಹಿಕ ಪ್ರಯತ್ನಗಳು ಹುಟ್ಟಿದವು, ಅದರಲ್ಲಿ ಒಂದು ನಿರಂತರ ಗಾಯತ್ರಿ ಮಹಾಪುರಶ್ಚರಣವೂ ಸೇರಿದೆ, ಇದರಲ್ಲಿ ಲಕ್ಷಾಂತರ ಜನರು ಉಜ್ವಲ ಯುಗದ ಉದಯಕ್ಕಾಗಿ ಒಟ್ಟಿಗೆ ಜಪಿಸಿದರು. ಸಂದೇಶ ಸರಳ ಮತ್ತು ಇಂದಿಗೂ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ: ಪ್ರತಿಯೊಬ್ಬರೂ ಸಾಧಕರಾಗಬಹುದು, ಮತ್ತು ಪರಿವರ್ತಿತ ವ್ಯಕ್ತಿಯೇ ಪರಿವರ್ತಿತ ವಿಶ್ವದ ಬೀಜ."
+      },
+      "highlights": {
+        "en": [
+          "Gurudev opened sadhana — once reserved for saints — to every householder",
+          "The movement asks for simple, sincere daily practice, not grand austerity",
+          "Millions joined a collective Gayatri mahapurashcharan for a brighter era"
+        ],
+        "hi": [
+          "गुरुदेव ने संतों तक सीमित साधना को हर गृहस्थ के लिए खोल दिया",
+          "आंदोलन भव्य तप नहीं, सरल व सच्चे नित्य अभ्यास की माँग करता है",
+          "लाखों ने उज्जवल युग हेतु सामूहिक गायत्री महापुरश्चरण में भाग लिया"
+        ],
+        "kn": [
+          "ಸಂತರಿಗೆ ಸೀಮಿತವಾಗಿದ್ದ ಸಾಧನೆಯನ್ನು ಗುರುದೇವ್ ಪ್ರತಿ ಗೃಹಸ್ಥನಿಗೆ ತೆರೆದರು",
+          "ಆಂದೋಲನ ಭವ್ಯ ತಪವಲ್ಲ, ಸರಳ ಮತ್ತು ಪ್ರಾಮಾಣಿಕ ನಿತ್ಯ ಅಭ್ಯಾಸವನ್ನು ಕೇಳುತ್ತದೆ",
+          "ಲಕ್ಷಾಂತರ ಜನರು ಉಜ್ವಲ ಯುಗಕ್ಕಾಗಿ ಸಾಮೂಹಿಕ ಗಾಯತ್ರಿ ಮಹಾಪುರಶ್ಚರಣದಲ್ಲಿ ಭಾಗವಹಿಸಿದರು"
+        ]
+      }
+    }
+  ],
+  "fourPillars": {
+    "intro": {
+      "en": "Sadhana is the first of four steps Gurudev gave for a complete life. Each supports the others.",
+      "hi": "साधना गुरुदेव द्वारा दिए गए पूर्ण जीवन के चार सूत्रों में पहला है। हर एक दूसरे का आधार है।",
+      "kn": "ಸಾಧನೆ ಗುರುದೇವ್ ಅವರು ನೀಡಿದ ಸಂಪೂರ್ಣ ಜೀವನದ ನಾಲ್ಕು ಸೂತ್ರಗಳಲ್ಲಿ ಮೊದಲನೆಯದು. ಪ್ರತಿಯೊಂದೂ ಮತ್ತೊಂದಕ್ಕೆ ಆಧಾರ."
+    },
+    "items": [
+      {
+        "id": "sadhana",
+        "current": true,
+        "name": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+        "summary": {
+          "en": "Refining the self through worship, japa, and meditation.",
+          "hi": "उपासना, जप और ध्यान द्वारा स्वयं का परिष्कार।",
+          "kn": "ಉಪಾಸನೆ, ಜಪ ಮತ್ತು ಧ್ಯಾನದ ಮೂಲಕ ಸ್ವಯಂ ಪರಿಷ್ಕಾರ."
+        },
+        "link": "/sadhana"
+      },
+      {
+        "id": "sanyam",
+        "current": false,
+        "name": { "en": "Sanyam", "hi": "संयम", "kn": "ಸಂಯಮ" },
+        "summary": {
+          "en": "Self-discipline — mastering the senses, time, thought, and resources.",
+          "hi": "आत्म-अनुशासन — इंद्रिय, समय, विचार और साधनों का संयम।",
+          "kn": "ಆತ್ಮ-ಶಿಸ್ತು — ಇಂದ್ರಿಯ, ಸಮಯ, ವಿಚಾರ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳ ಸಂಯಮ."
+        },
+        "link": "/sanyam"
+      },
+      {
+        "id": "swadhyay",
+        "current": false,
+        "name": { "en": "Swadhyay", "hi": "स्वाध्याय", "kn": "ಸ್ವಾಧ್ಯಾಯ" },
+        "summary": {
+          "en": "Self-study — daily reading of uplifting, sattvic literature.",
+          "hi": "स्वाध्याय — श्रेष्ठ, सात्विक साहित्य का नित्य अध्ययन।",
+          "kn": "ಸ್ವಾಧ್ಯಾಯ — ಶ್ರೇಷ್ಠ, ಸಾತ್ವಿಕ ಸಾಹಿತ್ಯದ ನಿತ್ಯ ಅಧ್ಯಯನ."
+        },
+        "link": "/swadhyay"
+      },
+      {
+        "id": "seva",
+        "current": false,
+        "name": { "en": "Seva", "hi": "सेवा", "kn": "ಸೇವೆ" },
+        "summary": {
+          "en": "Selfless service — sharing one's time and gifts for the good of all.",
+          "hi": "निःस्वार्थ सेवा — अपने समय और सामर्थ्य का सबके हित में योगदान।",
+          "kn": "ನಿಃಸ್ವಾರ್ಥ ಸೇವೆ — ತನ್ನ ಸಮಯ ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಎಲ್ಲರ ಹಿತಕ್ಕಾಗಿ ಹಂಚುವುದು."
+        },
+        "link": "/seva"
+      }
+    ]
+  },
+  "practices": {
+    "title": {
+      "en": "Forms of Sadhana We Practise",
+      "hi": "हमारी साधना-पद्धतियाँ",
+      "kn": "ನಾವು ಅಭ್ಯಾಸಿಸುವ ಸಾಧನಾ ರೂಪಗಳು"
+    },
+    "text": {
+      "en": "From the unbroken Akhand Jap to the nine-day Gayatri Anusthan and the lunar Chandrayaan Kalp Sadhana, explore the sadhanas open to everyone at our centre — no prior experience needed.",
+      "hi": "अखण्ड जप से लेकर नौ-दिवसीय गायत्री अनुष्ठान और चांद्रायण कल्प साधना तक — हमारे केंद्र में सबके लिए खुली साधनाओं को जानें, किसी पूर्व-अनुभव की आवश्यकता नहीं।",
+      "kn": "ಅಖಂಡ ಜಪದಿಂದ ಒಂಬತ್ತು ದಿನಗಳ ಗಾಯತ್ರಿ ಅನುಷ್ಠಾನ ಮತ್ತು ಚಾಂದ್ರಾಯಣ ಕಲ್ಪ ಸಾಧನೆಯವರೆಗೆ — ನಮ್ಮ ಕೇಂದ್ರದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಮುಕ್ತವಾದ ಸಾಧನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ, ಪೂರ್ವಾನುಭವ ಅಗತ್ಯವಿಲ್ಲ."
+    },
+    "buttonLabel": {
+      "en": "Explore the practices",
+      "hi": "साधनाएँ देखें",
+      "kn": "ಸಾಧನೆಗಳನ್ನು ನೋಡಿ"
+    },
+    "link": "/sadhana/practices"
+  },
+  "resources": [
+    {
+      "id": "worship-sadhan-everyone",
+      "type": "book",
+      "lang": "en",
+      "title": {
+        "en": "Worship & Sadhana Convenient for Everyone",
+        "hi": "सबके लिये सुलभ उपासना-साधना",
+        "kn": "ಎಲ್ಲರಿಗೂ ಸುಲಭ ಉಪಾಸನೆ-ಸಾಧನೆ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/worship_sadhan_convenient_for_everyone/v1"
+    },
+    {
+      "id": "para-normal-self-discipline",
+      "type": "book",
+      "lang": "en",
+      "title": {
+        "en": "Para-Normal Achievements Through Self-Discipline",
+        "hi": "आत्म-अनुशासन द्वारा अतीन्द्रिय उपलब्धियाँ",
+        "kn": "ಆತ್ಮ-ಶಿಸ್ತಿನ ಮೂಲಕ ಅತೀಂದ್ರಿಯ ಸಾಧನೆಗಳು"
+      },
+      "read": "https://www.awgp.org/en/literature/book/Para_Normal_Achievements_Through_Self_Discipline/v2"
+    },
+    {
+      "id": "gayatri-sugam-sadhnaye",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Gayatri Ki Sugam Sadhnaye (Simple Gayatri Practices)",
+        "hi": "गायत्री की सुगम साधनाएं",
+        "kn": "ಗಾಯತ್ರಿಯ ಸುಗಮ ಸಾಧನೆಗಳು"
+      },
+      "read": "https://www.awgp.org/en/literature/book/gayatari_ki_sugam_sadhnaye/v1"
+    },
+    {
+      "id": "sadhana-andolan-kn",
+      "type": "book",
+      "lang": "kn",
+      "title": {
+        "en": "Sadhana Andolan (Kannada)",
+        "hi": "साधना आंदोलन (कन्नड़)",
+        "kn": "ಸಾಧನಾ ಆಂದೋಲನ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/Sadhana_Andholan/v1"
+    }
+  ]
+}

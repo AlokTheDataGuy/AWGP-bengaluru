@@ -32,7 +32,6 @@ export default async function HomePage({ params }) {
       <HomeCards />
       <HomeEvents locale={locale} />
       <HomeChetna />
-      {/* <GalleryStrip />       */}
       <HomeGallery />
       <HomeCTA />
       <HomeContact />

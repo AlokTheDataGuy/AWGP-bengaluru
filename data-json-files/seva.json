@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "seva",
+    "pillar": "Seva",
+    "pillarGroup": ["sadhana", "swadhyay", "sanyam", "seva"],
+    "order": 4
+  },
+
+  "hero": {
+    "title": {
+      "en": "Seva — Selfless Service",
+      "hi": "सेवा",
+      "kn": "ಸೇವಾ"
+    },
+    "subtitle": {
+      "en": "Worship that takes the shape of giving",
+      "hi": "वह उपासना जो देने का रूप ले लेती है",
+      "kn": "ಕೊಡುಗೆಯ ರೂಪ ತಾಳುವ ಉಪಾಸನೆ"
+    },
+    "intro": {
+      "en": "Seva is the fourth of Gurudev Pandit Shriram Sharma Acharya's four pillars of inner growth — completing Sadhana, Swadhyay, and Sanyam. A human being, he says, is forever in debt to society, for we are social creatures shaped by countless hands. Seva repays that debt. And it is not separate from worship — for Gurudev, true service of society is itself the truest service of God. There is no greater tap (austerity) and no greater punya (merit) than seva offered selflessly.",
+      "hi": "सेवा गुरुदेव पंडित श्रीराम शर्मा आचार्य के आत्मिक उन्नति के चार आधारों में चौथा है — साधना, स्वाध्याय और संयम को पूर्ण करता हुआ। वे कहते हैं कि मनुष्य समाज का सदा ऋणी है, क्योंकि वह एक सामाजिक प्राणी है, अनगिनत हाथों से गढ़ा हुआ। सेवा उसी ऋण को चुकाती है। और यह उपासना से अलग नहीं — गुरुदेव के लिए समाज की सच्ची सेवा ही ईश्वर की सच्ची सेवा है। निःस्वार्थ भाव से की गई सेवा से बड़ा कोई तप और कोई पुण्य नहीं।",
+      "kn": "ಸೇವಾ ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಆತ್ಮಿಕ ಉನ್ನತಿಯ ನಾಲ್ಕು ಆಧಾರಗಳಲ್ಲಿ ನಾಲ್ಕನೆಯದು — ಸಾಧನಾ, ಸ್ವಾಧ್ಯಾಯ ಮತ್ತು ಸಂಯಮವನ್ನು ಪೂರ್ಣಗೊಳಿಸುತ್ತದೆ. ಮನುಷ್ಯ ಸಮಾಜದ ಶಾಶ್ವತ ಋಣಿ ಎಂದು ಅವರು ಹೇಳುತ್ತಾರೆ, ಏಕೆಂದರೆ ಅವನು ಅಸಂಖ್ಯ ಕೈಗಳಿಂದ ರೂಪುಗೊಂಡ ಸಾಮಾಜಿಕ ಜೀವಿ. ಸೇವಾ ಆ ಋಣವನ್ನು ತೀರಿಸುತ್ತದೆ. ಇದು ಉಪಾಸನೆಯಿಂದ ಬೇರೆಯಲ್ಲ — ಗುರುದೇವರಿಗೆ ಸಮಾಜದ ನಿಜವಾದ ಸೇವೆಯೇ ದೇವರ ನಿಜವಾದ ಸೇವೆ. ನಿಸ್ವಾರ್ಥವಾಗಿ ಸಲ್ಲಿಸಿದ ಸೇವೆಗಿಂತ ದೊಡ್ಡ ತಪವೂ ಪುಣ್ಯವೂ ಇಲ್ಲ."
+    }
+  },
+
+  "sections": [
+    {
+      "id": "what-is-seva",
+      "title": {
+        "en": "What is Seva?",
+        "hi": "सेवा क्या है?",
+        "kn": "ಸೇವಾ ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "Seva means lifting another soul to a higher level. Gurudev draws a sharp line here: handing a suffering person money or goods brings temporary relief, but the real welfare of a soul comes from raising its understanding — and that is why he calls the highest service gyan-yagya, the sacrifice of knowledge. God, he reminds us, is not a person to be flattered with offerings; God is a presence within all beings. So worship that stays locked in ritual is incomplete. The feeling behind our prayer only ripens when it flows outward as service to living people. Spend a little of yourself — your time, your skill, your care — on those who suffer, and that is worship in action.",
+        "hi": "सेवा का अर्थ है किसी आत्मा का स्तर ऊँचा उठाना। गुरुदेव यहाँ स्पष्ट रेखा खींचते हैं: किसी दुखी को पैसा या सामान देना सामयिक राहत देता है, पर आत्मा का सच्चा कल्याण उसकी समझ को ऊँचा उठाने से होता है — इसीलिए वे सर्वोच्च सेवा को ज्ञान-यज्ञ कहते हैं। वे स्मरण कराते हैं कि ईश्वर कोई व्यक्ति नहीं जिसे भेंट से प्रसन्न किया जाए; ईश्वर सब प्राणियों के भीतर बसी एक वृत्ति है। इसलिए केवल कर्मकांड में बँधी उपासना अधूरी है। हमारी प्रार्थना के पीछे की भावना तभी पकती है जब वह जीवित मनुष्यों की सेवा बनकर बाहर बहे। अपना थोड़ा अंश — समय, कौशल, करुणा — दुखियों पर लगाइए, यही क्रियाशील उपासना है।",
+        "kn": "ಸೇವಾ ಎಂದರೆ ಇನ್ನೊಂದು ಆತ್ಮವನ್ನು ಉನ್ನತ ಮಟ್ಟಕ್ಕೆ ಏರಿಸುವುದು. ಗುರುದೇವ್ ಇಲ್ಲಿ ಸ್ಪಷ್ಟ ರೇಖೆ ಎಳೆಯುತ್ತಾರೆ: ದುಃಖಿತನಿಗೆ ಹಣ ಅಥವಾ ವಸ್ತು ನೀಡುವುದು ತಾತ್ಕಾಲಿಕ ನೆಮ್ಮದಿ ತರುತ್ತದೆ, ಆದರೆ ಆತ್ಮದ ನಿಜವಾದ ಕಲ್ಯಾಣ ಅದರ ತಿಳಿವಳಿಕೆಯನ್ನು ಎತ್ತರಿಸುವುದರಿಂದ ಬರುತ್ತದೆ — ಆದ್ದರಿಂದಲೇ ಅವರು ಅತ್ಯುನ್ನತ ಸೇವೆಯನ್ನು ಜ್ಞಾನ-ಯಜ್ಞ ಎನ್ನುತ್ತಾರೆ. ದೇವರು ಅರ್ಪಣೆಗಳಿಂದ ಮೆಚ್ಚಿಸಬೇಕಾದ ವ್ಯಕ್ತಿಯಲ್ಲ; ದೇವರು ಎಲ್ಲ ಜೀವಿಗಳೊಳಗಿನ ಒಂದು ಉಪಸ್ಥಿತಿ ಎಂದು ಅವರು ನೆನಪಿಸುತ್ತಾರೆ. ಆದ್ದರಿಂದ ಕೇವಲ ಕರ್ಮಕಾಂಡದಲ್ಲಿ ಬಂಧಿತವಾದ ಉಪಾಸನೆ ಅಪೂರ್ಣ. ನಮ್ಮ ಪ್ರಾರ್ಥನೆಯ ಹಿಂದಿನ ಭಾವ ಜೀವಂತ ಮನುಷ್ಯರ ಸೇವೆಯಾಗಿ ಹೊರಹರಿದಾಗಲೇ ಪಕ್ವವಾಗುತ್ತದೆ. ನಿಮ್ಮ ಸ್ವಲ್ಪ ಅಂಶವನ್ನು — ಸಮಯ, ಕೌಶಲ್ಯ, ಕಾಳಜಿ — ದುಃಖಿತರ ಮೇಲೆ ವಿನಿಯೋಗಿಸಿ, ಅದೇ ಕ್ರಿಯಾಶೀಲ ಉಪಾಸನೆ."
+      }
+    },
+    {
+      "id": "why-it-matters",
+      "title": {
+        "en": "Why Seva Matters",
+        "hi": "सेवा क्यों आवश्यक है",
+        "kn": "ಸೇವಾ ಏಕೆ ಮುಖ್ಯ"
+      },
+      "body": {
+        "en": "We should not live by material life alone, Gurudev urges — we must live an inner life too, spending some of our capacity and time not just on filling our own stomachs but on the good of all. This is the discipline that keeps a person from becoming a slave to self-interest. He makes the maths beautifully plain: of a day's 24 hours, give 8 to earning, 8 to rest and the body — and from what remains, even four hours given attentively to society would turn millions of ordinary people into loksevis, servants of humanity. Money you may or may not have; but time and heartfelt feeling are gifts every person holds, and used well, their service is worth more than crores.",
+        "hi": "गुरुदेव आग्रह करते हैं कि हम केवल भौतिक जीवन ही न जिएँ — आत्मिक जीवन भी जिएँ, अपनी क्षमता और समय का कुछ अंश केवल अपना पेट भरने में नहीं, बल्कि सबके हित में लगाएँ। यही वह अनुशासन है जो मनुष्य को स्वार्थ का गुलाम बनने से बचाता है। वे गणित बड़ी सरलता से रखते हैं: दिन के 24 घंटों में 8 कमाने को दें, 8 विश्राम और शरीर को — और जो बचे, उसमें से केवल चार घंटे भी मनोयोग से समाज को दिए जाएँ तो करोड़ों साधारण लोग लोकसेवी बन जाएँ। धन हो या न हो; पर समय और सच्ची भावना हर व्यक्ति के पास उपहार हैं, और सुनियोजित हों तो उनकी सेवा करोड़ों से अधिक मूल्यवान है।",
+        "kn": "ನಾವು ಕೇವಲ ಭೌತಿಕ ಜೀವನವನ್ನಷ್ಟೇ ಬದುಕಬಾರದು ಎಂದು ಗುರುದೇವ್ ಒತ್ತಾಯಿಸುತ್ತಾರೆ — ಆತ್ಮಿಕ ಜೀವನವನ್ನೂ ಬದುಕಬೇಕು, ನಮ್ಮ ಸಾಮರ್ಥ್ಯ ಮತ್ತು ಸಮಯದ ಸ್ವಲ್ಪ ಭಾಗವನ್ನು ಕೇವಲ ಹೊಟ್ಟೆ ತುಂಬಿಸಿಕೊಳ್ಳಲಲ್ಲ, ಎಲ್ಲರ ಒಳಿತಿಗೂ ತೊಡಗಿಸಬೇಕು. ಇದೇ ಮನುಷ್ಯನನ್ನು ಸ್ವಾರ್ಥದ ಗುಲಾಮನಾಗದಂತೆ ಕಾಪಾಡುವ ಶಿಸ್ತು. ಅವರು ಲೆಕ್ಕವನ್ನು ಸುಂದರವಾಗಿ ಸರಳಗೊಳಿಸುತ್ತಾರೆ: ದಿನದ 24 ಗಂಟೆಗಳಲ್ಲಿ 8 ಗಳಿಕೆಗೆ, 8 ವಿಶ್ರಾಂತಿ ಮತ್ತು ದೇಹಕ್ಕೆ — ಉಳಿದದ್ದರಲ್ಲಿ ನಾಲ್ಕು ಗಂಟೆಗಳನ್ನಾದರೂ ಮನಃಪೂರ್ವಕವಾಗಿ ಸಮಾಜಕ್ಕೆ ನೀಡಿದರೆ ಕೋಟ್ಯಂತರ ಸಾಮಾನ್ಯ ಜನರು ಲೋಕಸೇವಿಗಳಾಗುತ್ತಾರೆ. ಹಣ ಇರಬಹುದು ಇಲ್ಲದಿರಬಹುದು; ಆದರೆ ಸಮಯ ಮತ್ತು ಹೃತ್ಪೂರ್ವಕ ಭಾವ ಪ್ರತಿಯೊಬ್ಬರ ಬಳಿ ಇರುವ ಕೊಡುಗೆಗಳು, ಚೆನ್ನಾಗಿ ಬಳಸಿದರೆ ಅವುಗಳ ಸೇವೆ ಕೋಟಿಗಳಿಗಿಂತ ಹೆಚ್ಚು ಮೌಲ್ಯಯುತ."
+      },
+      "highlights": {
+        "en": [
+          "We are all in debt to society — seva repays it",
+          "True service of society is itself the service of God",
+          "Time and feeling are gifts everyone can give, with or without money"
+        ],
+        "hi": [
+          "हम सब समाज के ऋणी हैं — सेवा उसे चुकाती है",
+          "समाज की सच्ची सेवा ही ईश्वर की सेवा है",
+          "समय और भावना हर किसी का उपहार — धन हो या न हो"
+        ],
+        "kn": [
+          "ನಾವೆಲ್ಲರೂ ಸಮಾಜದ ಋಣಿಗಳು — ಸೇವಾ ಅದನ್ನು ತೀರಿಸುತ್ತದೆ",
+          "ಸಮಾಜದ ನಿಜವಾದ ಸೇವೆಯೇ ದೇವರ ಸೇವೆ",
+          "ಸಮಯ ಮತ್ತು ಭಾವ ಎಲ್ಲರೂ ನೀಡಬಲ್ಲ ಕೊಡುಗೆ — ಹಣವಿರಲಿ ಇಲ್ಲದಿರಲಿ"
+        ]
+      }
+    }
+  ],
+
+  "types": {
+    "heading": {
+      "en": "The Two Forms of Seva",
+      "hi": "सेवा के दो रूप",
+      "kn": "ಸೇವೆಯ ಎರಡು ರೂಪಗಳು"
+    },
+    "intro": {
+      "en": "Gurudev gave a beautifully simple, universal practice: every person, however busy or modest in means, can offer two things to the divine mission — a share of their time, and a share of their resources. He set the minimum himself: at least one hour of time and a small portion of income, every single day. These two offerings are Samaydaan and Anshdaan.",
+      "hi": "गुरुदेव ने एक अत्यंत सरल, सार्वभौमिक अभ्यास दिया: हर व्यक्ति, चाहे कितना भी व्यस्त या सीमित साधनों वाला हो, दिव्य मिशन को दो चीजें दे सकता है — अपने समय का एक अंश और अपने साधनों का एक अंश। न्यूनतम उन्होंने स्वयं तय किया: प्रतिदिन कम से कम एक घंटा समय और आय का एक छोटा भाग। ये दो भेंटें ही समयदान और अंशदान हैं।",
+      "kn": "ಗುರುದೇವ್ ಅತ್ಯಂತ ಸರಳ, ಸಾರ್ವತ್ರಿಕ ಅಭ್ಯಾಸವನ್ನು ನೀಡಿದರು: ಪ್ರತಿಯೊಬ್ಬ ವ್ಯಕ್ತಿಯೂ, ಎಷ್ಟೇ ಕಾರ್ಯನಿರತನಾಗಿರಲಿ ಅಥವಾ ಸೀಮಿತ ಸಾಧನಗಳವನಾಗಿರಲಿ, ದಿವ್ಯ ಮಿಷನ್‌ಗೆ ಎರಡು ವಿಷಯಗಳನ್ನು ನೀಡಬಲ್ಲ — ತನ್ನ ಸಮಯದ ಒಂದು ಅಂಶ ಮತ್ತು ತನ್ನ ಸಾಧನಗಳ ಒಂದು ಅಂಶ. ಕನಿಷ್ಠವನ್ನು ಅವರೇ ನಿಗದಿಪಡಿಸಿದರು: ಪ್ರತಿದಿನ ಕನಿಷ್ಠ ಒಂದು ಗಂಟೆ ಸಮಯ ಮತ್ತು ಆದಾಯದ ಒಂದು ಸಣ್ಣ ಭಾಗ. ಈ ಎರಡು ಅರ್ಪಣೆಗಳೇ ಸಮಯದಾನ ಮತ್ತು ಅಂಶದಾನ."
+    },
+    "items": [
+      {
+        "id": "samaydaan",
+        "icon": "⏱️",
+        "name": {
+          "en": "Samaydaan — Gift of Time",
+          "hi": "समयदान",
+          "kn": "ಸಮಯದಾನ"
+        },
+        "summary": {
+          "en": "Donating a portion of your daily time to the welfare of society.",
+          "hi": "अपने दैनिक समय का एक अंश समाज के कल्याण को दान करना।",
+          "kn": "ನಿಮ್ಮ ದೈನಂದಿನ ಸಮಯದ ಒಂದು ಅಂಶವನ್ನು ಸಮಾಜದ ಕಲ್ಯಾಣಕ್ಕೆ ದಾನ ಮಾಡುವುದು."
+        },
+        "description": {
+          "en": "Time, Gurudev says, is the one resource everyone owns. Give 8 hours to earning and 8 to rest, and hours still remain — most of which slip away in idleness and time-pass. Reclaim even a part of that and donate it to the mission: teaching the unlettered at a night school, spreading right thinking, organising, serving the needy. He set the floor at one hour a day, and asked those who can to give more — even four. This is samaydaan: the steady gift of your hours to the work of building a better society, the highest form of which is sharing wisdom (gyan-yagya).",
+          "hi": "गुरुदेव कहते हैं कि समय वही एक संसाधन है जो हर किसी के पास है। 8 घंटे कमाने को दें, 8 विश्राम को, फिर भी घंटे बचते हैं — जिनका अधिकांश आलस्य और समय-पास में फिसल जाता है। उसी का एक भाग वापस पाकर मिशन को दान करें: रात्रि पाठशाला में अनपढ़ों को पढ़ाना, सद्विचार फैलाना, संगठन करना, जरूरतमंदों की सेवा। उन्होंने न्यूनतम एक घंटा प्रतिदिन रखा, और जो दे सकें उनसे अधिक माँगा — चार घंटे तक। यही समयदान है: एक बेहतर समाज के निर्माण-कार्य को अपने घंटों का नियमित दान, जिसका सर्वोच्च रूप है ज्ञान बाँटना (ज्ञान-यज्ञ)।",
+          "kn": "ಸಮಯ ಎಲ್ಲರ ಬಳಿಯೂ ಇರುವ ಏಕೈಕ ಸಂಪನ್ಮೂಲ ಎಂದು ಗುರುದೇವ್ ಹೇಳುತ್ತಾರೆ. 8 ಗಂಟೆ ಗಳಿಕೆಗೆ, 8 ವಿಶ್ರಾಂತಿಗೆ ನೀಡಿದರೂ ಗಂಟೆಗಳು ಉಳಿಯುತ್ತವೆ — ಬಹುಪಾಲು ಆಲಸ್ಯ ಮತ್ತು ಸಮಯ-ಪಾಸ್‌ನಲ್ಲಿ ಜಾರಿಹೋಗುತ್ತವೆ. ಅದರ ಒಂದು ಭಾಗವನ್ನಾದರೂ ಮರಳಿ ಪಡೆದು ಮಿಷನ್‌ಗೆ ದಾನ ಮಾಡಿ: ರಾತ್ರಿ ಶಾಲೆಯಲ್ಲಿ ಅನಕ್ಷರಸ್ಥರಿಗೆ ಕಲಿಸುವುದು, ಸದ್ವಿಚಾರ ಹರಡುವುದು, ಸಂಘಟನೆ, ಅಗತ್ಯವಿರುವವರ ಸೇವೆ. ಅವರು ಕನಿಷ್ಠ ದಿನಕ್ಕೆ ಒಂದು ಗಂಟೆ ಇಟ್ಟರು, ಕೊಡಬಲ್ಲವರಿಂದ ಹೆಚ್ಚು — ನಾಲ್ಕು ಗಂಟೆಯವರೆಗೆ — ಕೇಳಿದರು. ಇದೇ ಸಮಯದಾನ: ಉತ್ತಮ ಸಮಾಜ ನಿರ್ಮಾಣದ ಕಾರ್ಯಕ್ಕೆ ನಿಮ್ಮ ಗಂಟೆಗಳ ನಿಯಮಿತ ದಾನ, ಇದರ ಅತ್ಯುನ್ನತ ರೂಪವೇ ಜ್ಞಾನ ಹಂಚುವುದು (ಜ್ಞಾನ-ಯಜ್ಞ)."
+        }
+      },
+      {
+        "id": "anshdaan",
+        "icon": "🪔",
+        "name": {
+          "en": "Anshdaan — Gift of a Share",
+          "hi": "अंशदान",
+          "kn": "ಅಂಶದಾನ"
+        },
+        "summary": {
+          "en": "Setting aside a small share of your income for the divine mission.",
+          "hi": "अपनी आय का एक छोटा अंश दिव्य मिशन के लिए अलग रखना।",
+          "kn": "ನಿಮ್ಮ ಆದಾಯದ ಒಂದು ಸಣ್ಣ ಅಂಶವನ್ನು ದಿವ್ಯ ಮಿಷನ್‌ಗಾಗಿ ತೆಗೆದಿಡುವುದು."
+        },
+        "description": {
+          "en": "Alongside time, Gurudev asked for a small, regular share of one's earnings to be set aside for collective good — a practice he placed at the heart of the mission as a daily discipline, beginning at a token amount within everyone's reach. Its spirit is not the size of the sum but the regularity and the feeling: a daily reminder that what we earn is not ours alone, that a portion belongs to the society that made our earning possible. Pooled across countless hands, these small shares become a great river — funding gyan-yagya, relief, education, and every constructive work. Anshdaan keeps generosity woven into ordinary life, not saved for rare grand gestures.",
+          "hi": "समय के साथ-साथ गुरुदेव ने अपनी कमाई का एक छोटा, नियमित अंश सामूहिक हित के लिए अलग रखने को कहा — इसे उन्होंने मिशन के केंद्र में एक दैनिक अनुशासन के रूप में रखा, हर किसी की पहुँच के भीतर एक प्रतीकात्मक राशि से आरंभ करते हुए। इसकी आत्मा राशि का आकार नहीं, बल्कि नियमितता और भावना है: एक दैनिक स्मरण कि हम जो कमाते हैं वह केवल हमारा नहीं, उसका एक अंश उस समाज का है जिसने हमारी कमाई संभव बनाई। अनगिनत हाथों से जुड़कर ये छोटे अंश एक विशाल नदी बन जाते हैं — ज्ञान-यज्ञ, राहत, शिक्षा और हर रचनात्मक कार्य को सींचते हुए। अंशदान उदारता को असाधारण अवसरों के लिए बचाकर नहीं रखता, बल्कि साधारण जीवन में बुन देता है।",
+          "kn": "ಸಮಯದ ಜೊತೆಗೆ ಗುರುದೇವ್ ತಮ್ಮ ಗಳಿಕೆಯ ಒಂದು ಸಣ್ಣ, ನಿಯಮಿತ ಅಂಶವನ್ನು ಸಾಮೂಹಿಕ ಒಳಿತಿಗಾಗಿ ತೆಗೆದಿಡಲು ಕೇಳಿದರು — ಇದನ್ನು ಮಿಷನ್‌ನ ಕೇಂದ್ರದಲ್ಲಿ ದೈನಂದಿನ ಶಿಸ್ತಾಗಿ ಇಟ್ಟರು, ಎಲ್ಲರ ಕೈಗೆಟುಕುವ ಸಾಂಕೇತಿಕ ಮೊತ್ತದಿಂದ ಆರಂಭಿಸಿ. ಇದರ ಆತ್ಮ ಮೊತ್ತದ ಗಾತ್ರವಲ್ಲ, ನಿಯಮಿತತೆ ಮತ್ತು ಭಾವ: ನಾವು ಗಳಿಸುವುದು ನಮ್ಮದು ಮಾತ್ರವಲ್ಲ, ಅದರ ಒಂದು ಅಂಶ ನಮ್ಮ ಗಳಿಕೆಯನ್ನು ಸಾಧ್ಯವಾಗಿಸಿದ ಸಮಾಜದ್ದು ಎಂಬ ದೈನಂದಿನ ನೆನಪು. ಅಸಂಖ್ಯ ಕೈಗಳಿಂದ ಒಗ್ಗೂಡಿ ಈ ಸಣ್ಣ ಅಂಶಗಳು ಮಹಾನದಿಯಾಗುತ್ತವೆ — ಜ್ಞಾನ-ಯಜ್ಞ, ಪರಿಹಾರ, ಶಿಕ್ಷಣ ಮತ್ತು ಪ್ರತಿ ರಚನಾತ್ಮಕ ಕಾರ್ಯಕ್ಕೆ ನೀರೆರೆಯುತ್ತವೆ. ಅಂಶದಾನ ಔದಾರ್ಯವನ್ನು ಅಪರೂಪದ ದೊಡ್ಡ ಸನ್ನಿವೇಶಗಳಿಗೆ ಕಾದಿರಿಸದೆ ಸಾಮಾನ್ಯ ಜೀವನದಲ್ಲಿ ಹೆಣೆದಿಡುತ್ತದೆ."
+        }
+      }
+    ]
+  },
+
+  "gyanYagya": {
+    "heading": {
+      "en": "Gyan-Yagya — The Highest Seva",
+      "hi": "ज्ञान-यज्ञ — सर्वोच्च सेवा",
+      "kn": "ಜ್ಞಾನ-ಯಜ್ಞ — ಅತ್ಯುನ್ನತ ಸೇವಾ"
+    },
+    "body": {
+      "en": "Of all service, Gurudev held one above the rest: gyan-yagya, the sharing of right thought and wisdom — also called brahmadaan. Money and goods ease a moment's hardship; but giving someone a clearer way to think and live changes their whole course, and through them, society itself. This is why he made spreading good ideas the core of seva — through night schools, satsang, literature, and simple conversation that helps people think well and live nobly. Both samaydaan and anshdaan ultimately feed this fire: the quiet, lasting work of lifting minds.",
+      "hi": "सब सेवाओं में गुरुदेव ने एक को सर्वोपरि माना: ज्ञान-यज्ञ, सद्विचार और ज्ञान का बाँटना — जिसे ब्रह्मदान भी कहते हैं। धन और सामान क्षण भर का कष्ट हरते हैं; पर किसी को सोचने और जीने का स्पष्ट मार्ग देना उसकी पूरी दिशा बदल देता है, और उसके माध्यम से समाज को भी। इसीलिए उन्होंने सद्विचारों का प्रसार सेवा का केंद्र बनाया — रात्रि पाठशाला, सत्संग, साहित्य और सरल संवाद के माध्यम से जो लोगों को अच्छा सोचना और श्रेष्ठ जीना सिखाए। समयदान और अंशदान दोनों अंततः इसी अग्नि को सींचते हैं: मनों को ऊँचा उठाने का शांत, चिरस्थायी कार्य।",
+      "kn": "ಎಲ್ಲ ಸೇವೆಗಳಲ್ಲಿ ಗುರುದೇವ್ ಒಂದನ್ನು ಸರ್ವೋಪರಿ ಎಂದು ಪರಿಗಣಿಸಿದರು: ಜ್ಞಾನ-ಯಜ್ಞ, ಸದ್ವಿಚಾರ ಮತ್ತು ಜ್ಞಾನವನ್ನು ಹಂಚುವುದು — ಇದನ್ನು ಬ್ರಹ್ಮದಾನ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ. ಹಣ ಮತ್ತು ವಸ್ತುಗಳು ಕ್ಷಣದ ಕಷ್ಟವನ್ನು ನಿವಾರಿಸುತ್ತವೆ; ಆದರೆ ಯಾರಿಗಾದರೂ ಯೋಚಿಸುವ ಮತ್ತು ಬದುಕುವ ಸ್ಪಷ್ಟ ಮಾರ್ಗ ನೀಡುವುದು ಅವರ ಸಂಪೂರ್ಣ ದಿಕ್ಕನ್ನು ಬದಲಿಸುತ್ತದೆ, ಅವರ ಮೂಲಕ ಸಮಾಜವನ್ನೂ. ಆದ್ದರಿಂದಲೇ ಅವರು ಸದ್ವಿಚಾರಗಳ ಪ್ರಸಾರವನ್ನು ಸೇವೆಯ ಕೇಂದ್ರವಾಗಿಸಿದರು — ರಾತ್ರಿ ಶಾಲೆ, ಸತ್ಸಂಗ, ಸಾಹಿತ್ಯ ಮತ್ತು ಜನರಿಗೆ ಚೆನ್ನಾಗಿ ಯೋಚಿಸಲು ಮತ್ತು ಶ್ರೇಷ್ಠವಾಗಿ ಬದುಕಲು ನೆರವಾಗುವ ಸರಳ ಸಂವಾದದ ಮೂಲಕ. ಸಮಯದಾನ ಮತ್ತು ಅಂಶದಾನ ಎರಡೂ ಅಂತಿಮವಾಗಿ ಈ ಅಗ್ನಿಯನ್ನೇ ಪೋಷಿಸುತ್ತವೆ: ಮನಸ್ಸುಗಳನ್ನು ಎತ್ತರಿಸುವ ಶಾಂತ, ಚಿರಸ್ಥಾಯಿ ಕಾರ್ಯ."
+    }
+  },
+
+  "practice": {
+    "heading": {
+      "en": "How to Begin",
+      "hi": "आरंभ कैसे करें",
+      "kn": "ಹೇಗೆ ಆರಂಭಿಸುವುದು"
+    },
+    "body": {
+      "en": "Begin where you are, Gurudev advised — at home, with the people nearest you. Set a fixed daily time when the household gathers for a short satsang: a little Gayatri jap together, a page of good reading, a shared resolve. Then let service widen outward from there. Fix a small samaydaan and a small anshdaan you can keep every single day without fail — and rather than dropping them when life gets busy, only let them grow. Consistency matters more than scale: a modest gift kept faithfully outweighs a grand one offered once.",
+      "hi": "गुरुदेव सलाह देते हैं — जहाँ आप हैं वहीं से आरंभ करें, घर से, अपने निकटतम लोगों के साथ। एक नियत दैनिक समय तय करें जब परिवार एक छोटे सत्संग के लिए जुटे: थोड़ा गायत्री जप साथ में, अच्छे पाठ का एक पृष्ठ, एक साझा संकल्प। फिर सेवा को वहीं से बाहर की ओर फैलने दें। एक छोटा समयदान और एक छोटा अंशदान तय करें जिसे आप हर दिन बिना चूके निभा सकें — और व्यस्तता में उन्हें छोड़ने के बजाय केवल बढ़ने दें। निरंतरता आकार से अधिक मायने रखती है: निष्ठा से निभाया छोटा दान, एक बार की भव्यता से बड़ा है।",
+      "kn": "ನೀವು ಇರುವಲ್ಲಿಂದಲೇ ಆರಂಭಿಸಿ ಎಂದು ಗುರುದೇವ್ ಸಲಹೆ ನೀಡಿದರು — ಮನೆಯಿಂದ, ನಿಮ್ಮ ಹತ್ತಿರದ ಜನರೊಂದಿಗೆ. ಕುಟುಂಬ ಸಣ್ಣ ಸತ್ಸಂಗಕ್ಕೆ ಸೇರುವ ನಿಗದಿತ ದೈನಂದಿನ ಸಮಯವನ್ನು ಗೊತ್ತುಪಡಿಸಿ: ಒಟ್ಟಿಗೆ ಸ್ವಲ್ಪ ಗಾಯತ್ರಿ ಜಪ, ಒಳ್ಳೆಯ ಓದಿನ ಒಂದು ಪುಟ, ಒಂದು ಹಂಚಿಕೊಂಡ ಸಂಕಲ್ಪ. ನಂತರ ಸೇವೆ ಅಲ್ಲಿಂದ ಹೊರಗೆ ಹರಡಲಿ. ನೀವು ಪ್ರತಿದಿನ ತಪ್ಪದೆ ಪಾಲಿಸಬಲ್ಲ ಒಂದು ಸಣ್ಣ ಸಮಯದಾನ ಮತ್ತು ಸಣ್ಣ ಅಂಶದಾನವನ್ನು ನಿಗದಿಪಡಿಸಿ — ಜೀವನ ಕಾರ್ಯನಿರತವಾದಾಗ ಅವನ್ನು ಬಿಡುವ ಬದಲು ಬೆಳೆಯಲು ಬಿಡಿ. ಗಾತ್ರಕ್ಕಿಂತ ನಿರಂತರತೆ ಮುಖ್ಯ: ನಿಷ್ಠೆಯಿಂದ ಪಾಲಿಸಿದ ಸಣ್ಣ ದಾನ ಒಮ್ಮೆ ನೀಡಿದ ದೊಡ್ಡದಕ್ಕಿಂತ ಮಿಗಿಲು."
+    }
+  },
+
+  "relatedPillars": {
+    "heading": {
+      "en": "The Four Pillars of Inner Growth",
+      "hi": "आत्मिक उन्नति के चार आधार",
+      "kn": "ಆತ್ಮಿಕ ಉನ್ನತಿಯ ನಾಲ್ಕು ಆಧಾರಗಳು"
+    },
+    "note": {
+      "en": "Seva completes the four — Gurudev says none can be left out, like seed, soil, manure, and water in farming. Explore the others:",
+      "hi": "सेवा चारों को पूर्ण करती है — गुरुदेव कहते हैं इनमें से एक भी छोड़ा नहीं जा सकता, जैसे खेती में बीज, भूमि, खाद और पानी। शेष को भी जानें:",
+      "kn": "ಸೇವಾ ನಾಲ್ಕನ್ನೂ ಪೂರ್ಣಗೊಳಿಸುತ್ತದೆ — ಕೃಷಿಯಲ್ಲಿ ಬೀಜ, ಮಣ್ಣು, ಗೊಬ್ಬರ ಮತ್ತು ನೀರಿನಂತೆ ಯಾವುದನ್ನೂ ಬಿಡಲಾಗದು ಎಂದು ಗುರುದೇವ್ ಹೇಳುತ್ತಾರೆ. ಉಳಿದವನ್ನೂ ಅನ್ವೇಷಿಸಿ:"
+    },
+    "links": [
+      {
+        "slug": "sadhana",
+        "label": { "en": "Sadhana — Self-Refinement", "hi": "साधना", "kn": "ಸಾಧನಾ" }
+      },
+      {
+        "slug": "swadhyay",
+        "label": { "en": "Swadhyay — Self-Study", "hi": "स्वाध्याय", "kn": "ಸ್ವಾಧ್ಯಾಯ" }
+      },
+      {
+        "slug": "sanyam",
+        "label": { "en": "Sanyam — Self-Restraint", "hi": "संयम", "kn": "ಸಂಯಮ" }
+      }
+    ]
+  },
+
+  "references": {
+    "heading": {
+      "en": "References & Further Reading",
+      "hi": "संदर्भ व आगे पढ़ें",
+      "kn": "ಉಲ್ಲೇಖಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ಓದು"
+    },
+    "note": {
+      "en": "Source teachings of Gurudev Pandit Shriram Sharma Acharya on seva, from awgp.org:",
+      "hi": "सेवा पर गुरुदेव पंडित श्रीराम शर्मा आचार्य की मूल शिक्षाएँ, awgp.org से:",
+      "kn": "ಸೇವೆಯ ಬಗ್ಗೆ ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಮೂಲ ಬೋಧನೆಗಳು, awgp.org ನಿಂದ:"
+    },
+    "items": [
+      {
+        "title": "सेवा साधना और उसके सिद्धांत",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/Seva_Sadhna_Aur_Uske_Siddhant/v1"
+      },
+      {
+        "title": "सेवा धर्म और उसका स्वरूप",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/Seva_Dharam_Aur_Uska_Swaroop/v1.4"
+      },
+      {
+        "title": "सेवा साधना",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/seva_sadhana/v1"
+      },
+      {
+        "title": "Akhand Jyoti — July 1950",
+        "type": "magazine",
+        "url": "https://www.awgp.org/en/literature/akhandjyoti/1950/July/v2.11"
+      }
+    ]
+  }
+}

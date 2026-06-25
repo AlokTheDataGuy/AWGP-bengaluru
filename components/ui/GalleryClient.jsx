@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { useLocale } from 'next-intl';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import GalleryTimeline from './GalleryTimeline';
+import GalleryLightbox from './GalleryLightbox';
 import './Media.css';
 
 /* Category keys → trilingual labels */
@@ -54,91 +55,105 @@ const IMAGES = [
 
 export default function GalleryClient() {
   const locale = useLocale();
-  const L = (item) => (item && (item[locale] || item.en)) || '';
+  const L = (en, hi, kn) => (locale === 'hi' ? hi : locale === 'kn' ? kn : en);
+  const Lc = (item) => (item && (item[locale] || item.en)) || '';
 
+  const [view, setView] = useState('year'); // 'year' | 'theme'
   const [active, setActive] = useState('all');
-  const [lightbox, setLightbox] = useState(null); // index into `shown` or null
+  const [lb, setLb] = useState(null); // { items, index } | null
+
+  const open = useCallback((items, index) => setLb({ items, index }), []);
+  const close = useCallback(() => setLb(null), []);
+  const setIndex = useCallback((index) => setLb((s) => (s ? { ...s, index } : s)), []);
 
   const shown = active === 'all' ? IMAGES : IMAGES.filter((i) => i.cat === active);
-
-  const close = useCallback(() => setLightbox(null), []);
-  const prev = useCallback(() => setLightbox((i) => (i === null ? i : (i - 1 + shown.length) % shown.length)), [shown.length]);
-  const next = useCallback(() => setLightbox((i) => (i === null ? i : (i + 1) % shown.length)), [shown.length]);
-
-  useEffect(() => {
-    if (lightbox === null) return;
-    const onKey = (e) => {
-      if (e.key === 'Escape') close();
-      else if (e.key === 'ArrowLeft') prev();
-      else if (e.key === 'ArrowRight') next();
-    };
-    document.addEventListener('keydown', onKey);
-    document.body.style.overflow = 'hidden';
-    return () => {
-      document.removeEventListener('keydown', onKey);
-      document.body.style.overflow = '';
-    };
-  }, [lightbox, close, prev, next]);
-
-  const current = lightbox === null ? null : shown[lightbox];
+  const themeItems = shown.map((img) => ({ src: img.src, caption: Lc(img) }));
 
   return (
     <>
-      {/* Filter tabs */}
-      <div className="gal-filters">
-        {CATEGORIES.map((c) => (
-          <button
-            key={c.key}
-            className={`gal-filter${active === c.key ? ' gal-filter--active' : ''}`}
-            onClick={() => { setActive(c.key); }}
-          >
-            {L(c)}
-          </button>
-        ))}
-      </div>
-
-      {/* Masonry grid */}
-      <div className="gal-grid">
-        {shown.map((img, i) => (
-          <button
-            key={img.src}
-            className="gal-item"
-            onClick={() => setLightbox(i)}
-            aria-label={L(img)}
-          >
-            <Image
-              src={img.src}
-              alt={L(img)}
-              width={500}
-              height={500}
-              sizes="(max-width: 560px) 50vw, (max-width: 900px) 33vw, 25vw"
-              style={{ width: '100%', height: 'auto', display: 'block' }}
-            />
-            <span className="gal-item__overlay">
-              <span className="gal-item__caption">{L(img)}</span>
-            </span>
-          </button>
-        ))}
-      </div>
-
-      {/* Lightbox */}
-      {current && (
-        <div className="gal-lightbox" role="dialog" aria-modal="true" onClick={close}>
-          <button className="gal-lb-close" onClick={close} aria-label="Close"><X size={26} /></button>
-          <button className="gal-lb-nav gal-lb-nav--prev" onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Previous"><ChevronLeft size={32} /></button>
-          <figure className="gal-lb-figure" onClick={(e) => e.stopPropagation()}>
-            <Image
-              src={current.src}
-              alt={L(current)}
-              width={1400}
-              height={1000}
-              sizes="90vw"
-              style={{ width: 'auto', height: 'auto', maxWidth: '90vw', maxHeight: '80vh', objectFit: 'contain' }}
-            />
-            <figcaption className="gal-lb-caption">{L(current)}</figcaption>
-          </figure>
-          <button className="gal-lb-nav gal-lb-nav--next" onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Next"><ChevronRight size={32} /></button>
+      {/* Page head */}
+      <div className="gal-head">
+        <span className="sec-head__eyebrow">{L('Our Journey', 'हमारी यात्रा', 'ನಮ್ಮ ಪ್ರಯಾಣ')}</span>
+        <h1 className="gal-head__title">{L('A Decade of Light', 'प्रकाश का एक दशक', 'ಬೆಳಕಿನ ಒಂದು ದಶಕ')}</h1>
+        <div className="gal-head__divider" aria-hidden="true">
+          <span /><span className="gal-head__diamond" /><span />
         </div>
+        <p className="gal-head__stats">
+          {L('9 Years', '9 वर्ष', '9 ವರ್ಷ')} · {L('One Pariwar', 'एक परिवार', 'ಒಂದು ಪರಿವಾರ')}
+        </p>
+      </div>
+
+      {/* View toggle */}
+      <div className="gal-toggle" role="tablist" aria-label={L('Gallery view', 'गैलरी दृश्य', 'ಗ್ಯಾಲರಿ ನೋಟ')}>
+        <button
+          role="tab"
+          aria-selected={view === 'year'}
+          className={`gal-toggle__btn${view === 'year' ? ' gal-toggle__btn--active' : ''}`}
+          onClick={() => setView('year')}
+        >
+          {L('By Year', 'वर्षानुसार', 'ವರ್ಷವಾರು')}
+        </button>
+        <button
+          role="tab"
+          aria-selected={view === 'theme'}
+          className={`gal-toggle__btn${view === 'theme' ? ' gal-toggle__btn--active' : ''}`}
+          onClick={() => setView('theme')}
+        >
+          {L('By Theme', 'विषयानुसार', 'ವಿಷಯವಾರು')}
+        </button>
+      </div>
+
+      {/* By Year — timeline */}
+      {view === 'year' && <GalleryTimeline onOpen={open} />}
+
+      {/* By Theme — category masonry */}
+      {view === 'theme' && (
+        <>
+          <div className="gal-filters">
+            {CATEGORIES.map((c) => (
+              <button
+                key={c.key}
+                className={`gal-filter${active === c.key ? ' gal-filter--active' : ''}`}
+                onClick={() => setActive(c.key)}
+              >
+                {Lc(c)}
+              </button>
+            ))}
+          </div>
+
+          <div className="gal-grid">
+            {shown.map((img, i) => (
+              <button
+                key={img.src}
+                className="gal-item"
+                onClick={() => open(themeItems, i)}
+                aria-label={Lc(img)}
+              >
+                <Image
+                  src={img.src}
+                  alt={Lc(img)}
+                  width={500}
+                  height={500}
+                  sizes="(max-width: 420px) 100vw, (max-width: 760px) 50vw, (max-width: 1100px) 33vw, 25vw"
+                  style={{ width: '100%', height: 'auto', display: 'block' }}
+                />
+                <span className="gal-item__overlay">
+                  <span className="gal-item__caption">{Lc(img)}</span>
+                </span>
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+
+      {/* Shared lightbox */}
+      {lb && (
+        <GalleryLightbox
+          items={lb.items}
+          index={lb.index}
+          onClose={close}
+          onIndex={setIndex}
+        />
       )}
     </>
   );

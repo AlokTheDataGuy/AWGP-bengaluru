@@ -1,0 +1,230 @@
+/* =========================================================
+   Home — The Path of Growth
+   Three seamless full-height image columns (Samadhi-style).
+   Each column zooms its image on hover, deepens its scrim,
+   lifts its serif title and reveals a description + arrow.
+   ========================================================= */
+
+.home-path {
+  position: relative;
+  overflow: hidden;
+  /* let the image columns run edge-to-edge below the centered heading */
+  padding-bottom: 0;
+}
+
+/* ── Centered heading ────────────────────────────────────── */
+.home-path__head {
+  text-align: center;
+  margin-bottom: clamp(2.4rem, 5vw, 3.6rem);
+}
+.home-path__eyebrow {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--eyebrow-size);
+  font-weight: var(--eyebrow-weight);
+  letter-spacing: var(--eyebrow-tracking);
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.8rem;
+}
+.home-path__title {
+  font-family: var(--font-quote);
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+}
+.home-path__ornament {
+  display: block;
+  width: min(240px, 60%);
+  height: 26px;
+  margin: 1rem auto 1.3rem;
+  background: url('/assets/designs/divider1.png') center / contain no-repeat;
+}
+.home-path__sub {
+  max-width: 40rem;
+  margin: 0 auto;
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* ── Seamless column grid ────────────────────────────────── */
+.home-path__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Each column is a clickable, full-height image block. */
+.path-col {
+  position: relative;
+  display: block;
+  height: clamp(420px, 46vw, 620px);
+  overflow: hidden;
+  text-decoration: none;
+  background: var(--dark-2);
+  /* scroll-reveal start */
+  opacity: 0;
+  transform: translateY(40px);
+}
+.home-path.is-visible .path-col {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition-delay: calc(var(--i) * 0.14s);
+}
+
+/* The image itself — driven by the inline --bg variable so the
+   markup stays clean. Zooms in on hover. */
+.path-col__img {
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.02);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 0;
+}
+.path-col:hover .path-col__img,
+.path-col:focus-visible .path-col__img {
+  transform: scale(1.12);
+}
+
+/* Gradient scrim — always present for legibility, deepens on hover. */
+.path-col__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to top,
+    rgba(28, 12, 6, 0.92) 0%,
+    rgba(28, 12, 6, 0.45) 42%,
+    rgba(28, 12, 6, 0.08) 72%,
+    transparent 100%
+  );
+  transition: opacity 0.5s ease, background 0.5s ease;
+}
+.path-col:hover .path-col__scrim,
+.path-col:focus-visible .path-col__scrim {
+  background: linear-gradient(
+    to top,
+    rgba(122, 35, 21, 0.94) 0%,
+    rgba(58, 17, 9, 0.55) 50%,
+    rgba(28, 12, 6, 0.18) 80%,
+    transparent 100%
+  );
+}
+
+/* Decorative step index, top-left. */
+.path-col__index {
+  position: absolute;
+  top: clamp(1.1rem, 2vw, 1.8rem);
+  left: clamp(1.3rem, 2.4vw, 2.1rem);
+  z-index: 2;
+  font-family: var(--font-quote);
+  font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  color: rgba(255, 255, 255, 0.45);
+  transition: color 0.45s ease, transform 0.45s ease;
+}
+.path-col:hover .path-col__index,
+.path-col:focus-visible .path-col__index {
+  color: var(--gold);
+  transform: translateY(-3px);
+}
+
+/* ── Text block, bottom-left ─────────────────────────────── */
+.path-col__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: clamp(1.5rem, 3vw, 2.6rem) clamp(1.3rem, 2.6vw, 2.2rem);
+}
+
+.path-col__name {
+  font-family: var(--font-quote);
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.18;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  /* lifts to make room for the revealed description */
+  transform: translateY(clamp(2rem, 4vw, 3rem));
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.path-col:hover .path-col__name,
+.path-col:focus-visible .path-col__name {
+  transform: translateY(0);
+}
+
+/* Description + arrow are hidden until hover, then slide up + fade in. */
+.path-col__desc {
+  margin: 0.7rem 0 1rem;
+  max-width: 22rem;
+  font-size: clamp(0.9rem, 1.4vw, 1rem);
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.45s ease 0.05s, transform 0.45s ease 0.05s;
+}
+.path-col:hover .path-col__desc,
+.path-col:focus-visible .path-col__desc {
+  opacity: 1;
+  transform: none;
+}
+
+.path-col__more {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.45s ease 0.12s, transform 0.45s ease 0.12s,
+    background 0.3s ease, border-color 0.3s ease;
+}
+.path-col:hover .path-col__more,
+.path-col:focus-visible .path-col__more {
+  opacity: 1;
+  transform: none;
+  background: var(--saffron);
+  border-color: var(--saffron);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 860px) {
+  .home-path__grid {
+    grid-template-columns: 1fr;
+  }
+  .path-col {
+    height: clamp(340px, 60vw, 460px);
+  }
+  /* On touch / single column, reveal the description by default. */
+  .path-col__name { transform: none; }
+  .path-col__desc,
+  .path-col__more { opacity: 1; transform: none; }
+}
+
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .home-path.is-visible .path-col,
+  .path-col__img,
+  .path-col__name,
+  .path-col__desc,
+  .path-col__more,
+  .path-col__index {
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .path-col:hover .path-col__img,
+  .path-col:focus-visible .path-col__img {
+    transform: none !important;
+  }
+}

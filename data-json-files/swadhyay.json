@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "id": "swadhyay",
+    "slug": "swadhyay",
+    "navLabel": { "en": "Swadhyay", "hi": "स्वाध्याय", "kn": "ಸ್ವಾಧ್ಯಾಯ" },
+    "pillar": 3,
+    "seoDescription": {
+      "en": "Swadhyay as taught by Gurudev Pandit Shriram Sharma Acharya — the third of his four steps (Sadhana, Sanyam, Swadhyay, Seva): its two meanings, why the scriptures place it so high, and the Jnana Yagya literature movement.",
+      "hi": "गुरुदेव पंडित श्रीराम शर्मा आचार्य द्वारा सिखाया गया स्वाध्याय — उनके चार सूत्रों (साधना, संयम, स्वाध्याय, सेवा) में तीसरा: इसके दो अर्थ, शास्त्रों में इसका उच्च स्थान, और ज्ञान यज्ञ साहित्य आंदोलन।",
+      "kn": "ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಬೋಧಿಸಿದ ಸ್ವಾಧ್ಯಾಯ — ಅವರ ನಾಲ್ಕು ಸೂತ್ರಗಳಲ್ಲಿ (ಸಾಧನೆ, ಸಂಯಮ, ಸ್ವಾಧ್ಯಾಯ, ಸೇವೆ) ಮೂರನೆಯದು: ಅದರ ಎರಡು ಅರ್ಥಗಳು, ಶಾಸ್ತ್ರಗಳಲ್ಲಿ ಅದರ ಉನ್ನತ ಸ್ಥಾನ, ಮತ್ತು ಜ್ಞಾನ ಯಜ್ಞ ಸಾಹಿತ್ಯ ಆಂದೋಲನ."
+    }
+  },
+  "hero": {
+    "title": { "en": "Swadhyay", "hi": "स्वाध्याय", "kn": "ಸ್ವಾಧ್ಯಾಯ" },
+    "tagline": {
+      "en": "The third of Gurudev's four steps — feeding the mind, and knowing the self.",
+      "hi": "गुरुदेव के चार सूत्रों में तीसरा — बुद्धि का पोषण, और स्वयं को जानना।",
+      "kn": "ಗುರುದೇವ್ ಅವರ ನಾಲ್ಕು ಸೂತ್ರಗಳಲ್ಲಿ ಮೂರನೆಯದು — ಮನಸ್ಸಿನ ಪೋಷಣೆ, ಮತ್ತು ಸ್ವಯಂ ಅರಿವು."
+    },
+    "intro": {
+      "en": "In Gurudev's fourfold path — Sadhana, Sanyam, Swadhyay, Seva — Swadhyay is the daily nourishment of the mind. Just as the body needs food, the intellect needs the steady study of uplifting literature (sat-sahitya). But swadhyay is more than reading: the word means both self-study — learning and reflecting on one's own — and study of the self — watching one's inner tendencies and slowly raising the good above the base. At AWGP Bengaluru, a little swadhyay each day is held to be as essential as a daily meal.",
+      "hi": "गुरुदेव के चतुर्विध पथ — साधना, संयम, स्वाध्याय, सेवा — में स्वाध्याय बुद्धि का नित्य पोषण है। जैसे शरीर को भोजन चाहिए, वैसे ही बुद्धि को सत्साहित्य का निरंतर अध्ययन चाहिए। पर स्वाध्याय केवल पढ़ना नहीं है: इस शब्द के दो अर्थ हैं — स्वयं अध्ययन, अर्थात् स्वयं विचार और मनन द्वारा सीखना; और स्वयं का अध्ययन, अर्थात् अपनी भीतरी वृत्तियों का निरीक्षण और शुभ को अशुभ से ऊपर उठाना। एडब्ल्यूजीपी बेंगलुरु में प्रतिदिन थोड़ा स्वाध्याय एक दैनिक आहार जितना ही आवश्यक माना जाता है।",
+      "kn": "ಗುರುದೇವ್ ಅವರ ಚತುರ್ವಿಧ ಪಥದಲ್ಲಿ — ಸಾಧನೆ, ಸಂಯಮ, ಸ್ವಾಧ್ಯಾಯ, ಸೇವೆ — ಸ್ವಾಧ್ಯಾಯವು ಬುದ್ಧಿಯ ನಿತ್ಯ ಪೋಷಣೆ. ದೇಹಕ್ಕೆ ಆಹಾರ ಬೇಕಾದಂತೆ, ಬುದ್ಧಿಗೆ ಸತ್ಸಾಹಿತ್ಯದ ನಿರಂತರ ಅಧ್ಯಯನ ಬೇಕು. ಆದರೆ ಸ್ವಾಧ್ಯಾಯ ಕೇವಲ ಓದುವುದಲ್ಲ: ಈ ಪದಕ್ಕೆ ಎರಡು ಅರ್ಥಗಳಿವೆ — ಸ್ವಯಂ ಅಧ್ಯಯನ, ಅಂದರೆ ತಾನೇ ವಿಚಾರ ಮತ್ತು ಮನನದ ಮೂಲಕ ಕಲಿಯುವುದು; ಮತ್ತು ಸ್ವಯಂ ಅಧ್ಯಯನ (ಆತ್ಮಚಿಂತನೆ), ಅಂದರೆ ತನ್ನ ಆಂತರಿಕ ವೃತ್ತಿಗಳ ನಿರೀಕ್ಷಣೆ ಮತ್ತು ಒಳಿತನ್ನು ಕೆಡುಕಿನ ಮೇಲೆ ಎತ್ತುವುದು. AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ರತಿದಿನ ಸ್ವಲ್ಪ ಸ್ವಾಧ್ಯಾಯವನ್ನು ದೈನಂದಿನ ಆಹಾರದಷ್ಟೇ ಅಗತ್ಯ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ."
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-swadhyay",
+      "title": {
+        "en": "What Is Swadhyay?",
+        "hi": "स्वाध्याय क्या है?",
+        "kn": "ಸ್ವಾಧ್ಯಾಯ ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "The word swadhyay (sva + adhyay) carries two meanings, and the tradition holds that both are needed. The first is self-study: learning on one's own, through reflection (vichar), contemplation (chintan), and deep thought (manan) — reading the works that ask life's real questions: What is this world? What is my true nature? What is the goal of life? How should I treat other beings? The second is study of the self (atma-chintan): quietly observing the divine and the base tendencies at work within, reducing the base and nurturing the good. Crucially, swadhyay is not the reading of just any book. It means sat-sahitya — literature that actually changes a life for the better, the way a chemical reaction changes a substance. The wrong books harm; the right ones refine.",
+        "hi": "स्वाध्याय (स्व + अध्याय) शब्द के दो अर्थ हैं, और परंपरा मानती है कि दोनों आवश्यक हैं। पहला है स्वयं अध्ययन: विचार, चिंतन और मनन द्वारा स्वयं सीखना — उन ग्रंथों को पढ़ना जो जीवन के वास्तविक प्रश्न पूछते हैं: यह संसार क्या है? मेरा सच्चा स्वरूप क्या है? जीवन का लक्ष्य क्या है? अन्य जीवों के साथ मेरा कैसा व्यवहार हो? दूसरा है स्वयं का अध्ययन (आत्मचिंतन): भीतर काम करती दैवी और आसुरी वृत्तियों का शांत निरीक्षण, आसुरी को घटाना और दैवी को बढ़ाना। महत्वपूर्ण बात — स्वाध्याय किसी भी पुस्तक का पढ़ना नहीं है। इसका अर्थ है सत्साहित्य — वह साहित्य जो जीवन को सचमुच श्रेष्ठ बना दे, जैसे रासायनिक क्रिया किसी पदार्थ का स्वभाव बदल देती है। ग़लत पुस्तकें हानि करती हैं; सही पुस्तकें परिष्कार करती हैं।",
+        "kn": "ಸ್ವಾಧ್ಯಾಯ (ಸ್ವ + ಅಧ್ಯಾಯ) ಪದಕ್ಕೆ ಎರಡು ಅರ್ಥಗಳಿವೆ, ಮತ್ತು ಎರಡೂ ಅಗತ್ಯ ಎಂದು ಪರಂಪರೆ ಪರಿಗಣಿಸುತ್ತದೆ. ಮೊದಲನೆಯದು ಸ್ವಯಂ ಅಧ್ಯಯನ: ವಿಚಾರ, ಚಿಂತನೆ ಮತ್ತು ಮನನದ ಮೂಲಕ ತಾನೇ ಕಲಿಯುವುದು — ಜೀವನದ ನಿಜವಾದ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುವ ಗ್ರಂಥಗಳನ್ನು ಓದುವುದು: ಈ ಜಗತ್ತು ಏನು? ನನ್ನ ನಿಜ ಸ್ವರೂಪ ಏನು? ಜೀವನದ ಗುರಿ ಏನು? ಇತರ ಜೀವಿಗಳೊಂದಿಗೆ ನನ್ನ ವರ್ತನೆ ಹೇಗಿರಬೇಕು? ಎರಡನೆಯದು ಸ್ವಯಂ ಅಧ್ಯಯನ (ಆತ್ಮಚಿಂತನೆ): ಒಳಗೆ ಕೆಲಸ ಮಾಡುವ ದೈವಿ ಮತ್ತು ಆಸುರಿ ವೃತ್ತಿಗಳ ಶಾಂತ ನಿರೀಕ್ಷಣೆ, ಆಸುರಿಯನ್ನು ಕಡಿಮೆಗೊಳಿಸಿ ದೈವಿಯನ್ನು ಬೆಳೆಸುವುದು. ಮುಖ್ಯವಾದ ಸಂಗತಿ — ಸ್ವಾಧ್ಯಾಯ ಯಾವುದೋ ಒಂದು ಪುಸ್ತಕದ ಓದುವಿಕೆಯಲ್ಲ. ಇದರ ಅರ್ಥ ಸತ್ಸಾಹಿತ್ಯ — ರಾಸಾಯನಿಕ ಕ್ರಿಯೆ ವಸ್ತುವಿನ ಸ್ವಭಾವವನ್ನು ಬದಲಿಸುವಂತೆ, ಜೀವನವನ್ನು ನಿಜವಾಗಿ ಶ್ರೇಷ್ಠಗೊಳಿಸುವ ಸಾಹಿತ್ಯ. ತಪ್ಪು ಪುಸ್ತಕಗಳು ಹಾನಿ ಮಾಡುತ್ತವೆ; ಸರಿಯಾದವು ಪರಿಷ್ಕರಿಸುತ್ತವೆ."
+      },
+      "highlights": {
+        "en": [
+          "Two meanings, both essential: self-study, and study of the self (atma-chintan)",
+          "Reading the works that ask life's real questions — and reflecting, not just skimming",
+          "Only sat-sahitya counts — books that change a life for the better, not just any book"
+        ],
+        "hi": [
+          "दो अर्थ, दोनों आवश्यक: स्वयं अध्ययन, और स्वयं का अध्ययन (आत्मचिंतन)",
+          "जीवन के सच्चे प्रश्न पूछती कृतियों को पढ़ना — और मनन करना, केवल सरसरी नहीं",
+          "केवल सत्साहित्य ही स्वाध्याय — जो जीवन को श्रेष्ठ बनाए, कोई भी पुस्तक नहीं"
+        ],
+        "kn": [
+          "ಎರಡು ಅರ್ಥ, ಎರಡೂ ಅಗತ್ಯ: ಸ್ವಯಂ ಅಧ್ಯಯನ, ಮತ್ತು ಸ್ವಯಂ ಅಧ್ಯಯನ (ಆತ್ಮಚಿಂತನೆ)",
+          "ಜೀವನದ ನಿಜ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುವ ಕೃತಿಗಳನ್ನು ಓದುವುದು — ಮನನ ಮಾಡುವುದು, ಕೇವಲ ಮೇಲ್ನೋಟವಲ್ಲ",
+          "ಸತ್ಸಾಹಿತ್ಯ ಮಾತ್ರ ಸ್ವಾಧ್ಯಾಯ — ಜೀವನವನ್ನು ಶ್ರೇಷ್ಠಗೊಳಿಸುವ ಪುಸ್ತಕ, ಯಾವುದೋ ಪುಸ್ತಕವಲ್ಲ"
+        ]
+      }
+    },
+    {
+      "id": "why-it-matters",
+      "title": {
+        "en": "Why Swadhyay Matters",
+        "hi": "स्वाध्याय क्यों आवश्यक है",
+        "kn": "ಸ್ವಾಧ್ಯಾಯ ಏಕೆ ಮುಖ್ಯ"
+      },
+      "body": {
+        "en": "The scriptures place swadhyay very high. The Gita calls it the tapa of speech (Gita 17.15); Patanjali lists it among the five niyamas of yoga; and dharma itself is said to rest on three pillars — yajna, swadhyay, and daan. The Upanishad simply commands: \"svadhyayan ma pramadah\" — never be negligent in swadhyay. The reason is plain: as the body weakens without food, the intellect weakens without study. A day passed without swadhyay is, the elders said, a day wasted. Above all, swadhyay is how we meet the great souls. Their bodies pass, but their words remain — to read the Gita, the Upanishads, or the works of any awakened being is to sit beside them in conversation. A single good book becomes a friend, a guru, and a guide.",
+        "hi": "शास्त्रों ने स्वाध्याय को बहुत ऊँचा स्थान दिया है। गीता इसे वाणी का तप कहती है (गीता 17.15); पतंजलि इसे योग के पाँच नियमों में गिनते हैं; और धर्म स्वयं तीन स्कंधों पर टिका कहा गया है — यज्ञ, स्वाध्याय और दान। उपनिषद् सीधा आदेश देता है: \"स्वाध्यायान्मा प्रमदः\" — स्वाध्याय में कभी प्रमाद मत करो। कारण स्पष्ट है: जैसे भोजन के बिना शरीर दुर्बल होता है, वैसे ही अध्ययन के बिना बुद्धि क्षीण होती है। मनीषियों ने कहा — बिना स्वाध्याय बीता दिन व्यर्थ गया दिन है। सबसे बढ़कर, स्वाध्याय ही महापुरुषों से मिलने का साधन है। उनके शरीर चले जाते हैं, पर उनके शब्द रह जाते हैं — गीता, उपनिषद् या किसी जाग्रत आत्मा की कृति पढ़ना मानो उनके पास बैठकर बातें करना है। एक श्रेष्ठ पुस्तक मित्र, गुरु और पथ-प्रदर्शक बन जाती है।",
+        "kn": "ಶಾಸ್ತ್ರಗಳು ಸ್ವಾಧ್ಯಾಯಕ್ಕೆ ಬಹಳ ಎತ್ತರದ ಸ್ಥಾನ ನೀಡಿವೆ. ಗೀತೆ ಇದನ್ನು ವಾಣಿಯ ತಪ ಎನ್ನುತ್ತದೆ (ಗೀತೆ 17.15); ಪತಂಜಲಿ ಇದನ್ನು ಯೋಗದ ಐದು ನಿಯಮಗಳಲ್ಲಿ ಒಂದಾಗಿ ಎಣಿಸುತ್ತಾರೆ; ಮತ್ತು ಧರ್ಮವೇ ಮೂರು ಸ್ಕಂಧಗಳ ಮೇಲೆ ನಿಂತಿದೆ ಎನ್ನಲಾಗಿದೆ — ಯಜ್ಞ, ಸ್ವಾಧ್ಯಾಯ ಮತ್ತು ದಾನ. ಉಪನಿಷತ್ತು ನೇರವಾಗಿ ಆದೇಶಿಸುತ್ತದೆ: \"ಸ್ವಾಧ್ಯಾಯಾನ್ಮಾ ಪ್ರಮದಃ\" — ಸ್ವಾಧ್ಯಾಯದಲ್ಲಿ ಎಂದಿಗೂ ಪ್ರಮಾದ ಮಾಡಬೇಡ. ಕಾರಣ ಸ್ಪಷ್ಟ: ಆಹಾರವಿಲ್ಲದೆ ದೇಹ ದುರ್ಬಲವಾಗುವಂತೆ, ಅಧ್ಯಯನವಿಲ್ಲದೆ ಬುದ್ಧಿ ಕ್ಷೀಣಿಸುತ್ತದೆ. ಸ್ವಾಧ್ಯಾಯವಿಲ್ಲದೆ ಕಳೆದ ದಿನ ವ್ಯರ್ಥ ದಿನ ಎಂದು ಹಿರಿಯರು ಹೇಳಿದರು. ಎಲ್ಲಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ, ಸ್ವಾಧ್ಯಾಯವೇ ಮಹಾಪುರುಷರನ್ನು ಭೇಟಿಯಾಗುವ ಸಾಧನ. ಅವರ ದೇಹಗಳು ಹೋಗುತ್ತವೆ, ಆದರೆ ಅವರ ಮಾತುಗಳು ಉಳಿಯುತ್ತವೆ — ಗೀತೆ, ಉಪನಿಷತ್ತು ಅಥವಾ ಯಾವುದೇ ಜಾಗೃತ ಆತ್ಮದ ಕೃತಿಯನ್ನು ಓದುವುದು ಅವರ ಬಳಿ ಕುಳಿತು ಮಾತನಾಡಿದಂತೆ. ಒಂದು ಶ್ರೇಷ್ಠ ಪುಸ್ತಕ ಮಿತ್ರ, ಗುರು ಮತ್ತು ಮಾರ್ಗದರ್ಶಕವಾಗುತ್ತದೆ."
+      },
+      "highlights": {
+        "en": [
+          "The Gita calls swadhyay the tapa of speech; the Upanishad says: never neglect it",
+          "As the body weakens without food, the mind weakens without daily study",
+          "Through good books we commune with great souls — a book is a friend and a guru"
+        ],
+        "hi": [
+          "गीता स्वाध्याय को वाणी का तप कहती है; उपनिषद् कहता है — कभी प्रमाद न करो",
+          "भोजन बिना शरीर, वैसे ही नित्य अध्ययन बिना बुद्धि क्षीण होती है",
+          "श्रेष्ठ पुस्तकों से हम महापुरुषों से मिलते हैं — पुस्तक मित्र और गुरु है"
+        ],
+        "kn": [
+          "ಗೀತೆ ಸ್ವಾಧ್ಯಾಯವನ್ನು ವಾಣಿಯ ತಪ ಎನ್ನುತ್ತದೆ; ಉಪನಿಷತ್ತು — ಎಂದಿಗೂ ಪ್ರಮಾದ ಮಾಡಬೇಡ ಎನ್ನುತ್ತದೆ",
+          "ಆಹಾರವಿಲ್ಲದೆ ದೇಹ, ಹಾಗೆಯೇ ನಿತ್ಯ ಅಧ್ಯಯನವಿಲ್ಲದೆ ಬುದ್ಧಿ ಕ್ಷೀಣಿಸುತ್ತದೆ",
+          "ಶ್ರೇಷ್ಠ ಪುಸ್ತಕಗಳಿಂದ ನಾವು ಮಹಾಪುರುಷರನ್ನು ಭೇಟಿಯಾಗುತ್ತೇವೆ — ಪುಸ್ತಕ ಮಿತ್ರ ಮತ್ತು ಗುರು"
+        ]
+      }
+    },
+    {
+      "id": "jnana-yagya",
+      "title": {
+        "en": "Jnana Yagya — The Movement of Swadhyay",
+        "hi": "ज्ञान यज्ञ — स्वाध्याय का आंदोलन",
+        "kn": "ಜ್ಞಾನ ಯಜ್ಞ — ಸ್ವಾಧ್ಯಾಯದ ಆಂದೋಲನ"
+      },
+      "body": {
+        "en": "Gurudev called the spread of right thought a Jnana Yagya — a fire-offering of knowledge. He gave his life to it: writing some three thousand books in plain, living language so that the wisdom of the scriptures could reach the ordinary reader. In 1938 he founded the Akhand Jyoti magazine, still published today, to carry uplifting thought into homes every month. To make good books reach everyone, the mission built swadhyay mandals and jhola pustakalayas — simple \"bag libraries\" carried door to door, so that no one is denied sat-sahitya for want of means. The call is the same as ever: let every home hold good books, and let a few minutes of reading refine each day.",
+        "hi": "गुरुदेव ने श्रेष्ठ विचारों के प्रसार को ज्ञान यज्ञ कहा — ज्ञान की एक यज्ञाहुति। उन्होंने इसी को अपना जीवन समर्पित किया: लगभग तीन हजार पुस्तकें सरल, जीवंत भाषा में लिखीं, ताकि शास्त्रों की प्रज्ञा साधारण पाठक तक पहुँचे। सन् 1938 में उन्होंने अखंड ज्योति पत्रिका की स्थापना की, जो आज भी प्रकाशित होती है, ताकि हर माह श्रेष्ठ विचार घर-घर पहुँचें। अच्छी पुस्तकें सब तक पहुँचाने के लिए मिशन ने स्वाध्याय मंडल और झोला पुस्तकालय बनाए — सरल \"झोला पुस्तकालय\" जो घर-घर ले जाए जाते हैं, ताकि साधन के अभाव में कोई सत्साहित्य से वंचित न रहे। पुकार वही है: हर घर में अच्छी पुस्तकें हों, और कुछ मिनटों का पठन हर दिन को परिष्कृत करे।",
+        "kn": "ಗುರುದೇವ್ ಶ್ರೇಷ್ಠ ವಿಚಾರಗಳ ಪ್ರಸಾರವನ್ನು ಜ್ಞಾನ ಯಜ್ಞ ಎಂದು ಕರೆದರು — ಜ್ಞಾನದ ಒಂದು ಯಜ್ಞಾಹುತಿ. ಅವರು ಇದಕ್ಕೇ ತಮ್ಮ ಜೀವನವನ್ನು ಮುಡಿಪಾಗಿಟ್ಟರು: ಶಾಸ್ತ್ರಗಳ ಪ್ರಜ್ಞೆ ಸಾಮಾನ್ಯ ಓದುಗನಿಗೆ ತಲುಪಲೆಂದು ಸುಮಾರು ಮೂರು ಸಾವಿರ ಪುಸ್ತಕಗಳನ್ನು ಸರಳ, ಜೀವಂತ ಭಾಷೆಯಲ್ಲಿ ಬರೆದರು. 1938ರಲ್ಲಿ ಅವರು ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆಯನ್ನು ಸ್ಥಾಪಿಸಿದರು, ಇದು ಇಂದಿಗೂ ಪ್ರಕಟವಾಗುತ್ತಿದೆ, ಪ್ರತಿ ತಿಂಗಳು ಶ್ರೇಷ್ಠ ವಿಚಾರಗಳು ಮನೆಮನೆಗೆ ತಲುಪಲೆಂದು. ಒಳ್ಳೆಯ ಪುಸ್ತಕಗಳು ಎಲ್ಲರಿಗೂ ತಲುಪಲೆಂದು ಮಿಷನ್ ಸ್ವಾಧ್ಯಾಯ ಮಂಡಲ ಮತ್ತು ಝೋಲಾ ಪುಸ್ತಕಾಲಯಗಳನ್ನು ಕಟ್ಟಿತು — ಮನೆಮನೆಗೆ ಕೊಂಡೊಯ್ಯುವ ಸರಳ \"ಚೀಲ ಗ್ರಂಥಾಲಯಗಳು\", ಸಾಧನದ ಕೊರತೆಯಿಂದ ಯಾರೂ ಸತ್ಸಾಹಿತ್ಯದಿಂದ ವಂಚಿತರಾಗದಂತೆ. ಕರೆ ಎಂದಿನಂತೆಯೇ: ಪ್ರತಿ ಮನೆಯಲ್ಲೂ ಒಳ್ಳೆಯ ಪುಸ್ತಕಗಳಿರಲಿ, ಮತ್ತು ಕೆಲವು ನಿಮಿಷಗಳ ಓದು ಪ್ರತಿ ದಿನವನ್ನೂ ಪರಿಷ್ಕರಿಸಲಿ."
+      },
+      "highlights": {
+        "en": [
+          "Gurudev wrote ~3,000 books in simple language and founded Akhand Jyoti (1938)",
+          "Swadhyay mandals and jhola pustakalayas carry good books door to door",
+          "The aim: sat-sahitya in every home, and a few minutes of reading every day"
+        ],
+        "hi": [
+          "गुरुदेव ने सरल भाषा में ~3,000 पुस्तकें लिखीं और अखंड ज्योति (1938) की स्थापना की",
+          "स्वाध्याय मंडल और झोला पुस्तकालय घर-घर अच्छी पुस्तकें पहुँचाते हैं",
+          "लक्ष्य: हर घर में सत्साहित्य, और प्रतिदिन कुछ मिनटों का पठन"
+        ],
+        "kn": [
+          "ಗುರುದೇವ್ ಸರಳ ಭಾಷೆಯಲ್ಲಿ ~3,000 ಪುಸ್ತಕಗಳನ್ನು ಬರೆದರು ಮತ್ತು ಅಖಂಡ ಜ್ಯೋತಿ (1938) ಸ್ಥಾಪಿಸಿದರು",
+          "ಸ್ವಾಧ್ಯಾಯ ಮಂಡಲ ಮತ್ತು ಝೋಲಾ ಪುಸ್ತಕಾಲಯಗಳು ಮನೆಮನೆಗೆ ಒಳ್ಳೆಯ ಪುಸ್ತಕಗಳನ್ನು ತಲುಪಿಸುತ್ತವೆ",
+          "ಗುರಿ: ಪ್ರತಿ ಮನೆಯಲ್ಲೂ ಸತ್ಸಾಹಿತ್ಯ, ಮತ್ತು ಪ್ರತಿದಿನ ಕೆಲವು ನಿಮಿಷಗಳ ಓದು"
+        ]
+      }
+    }
+  ],
+  "fourPillars": {
+    "intro": {
+      "en": "Swadhyay is the third of four steps Gurudev gave for a complete life. Each supports the others.",
+      "hi": "स्वाध्याय गुरुदेव द्वारा दिए गए पूर्ण जीवन के चार सूत्रों में तीसरा है। हर एक दूसरे का आधार है।",
+      "kn": "ಸ್ವಾಧ್ಯಾಯ ಗುರುದೇವ್ ಅವರು ನೀಡಿದ ಸಂಪೂರ್ಣ ಜೀವನದ ನಾಲ್ಕು ಸೂತ್ರಗಳಲ್ಲಿ ಮೂರನೆಯದು. ಪ್ರತಿಯೊಂದೂ ಮತ್ತೊಂದಕ್ಕೆ ಆಧಾರ."
+    },
+    "items": [
+      {
+        "id": "sadhana",
+        "current": false,
+        "name": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+        "summary": {
+          "en": "Refining the self through worship, japa, and meditation.",
+          "hi": "उपासना, जप और ध्यान द्वारा स्वयं का परिष्कार।",
+          "kn": "ಉಪಾಸನೆ, ಜಪ ಮತ್ತು ಧ್ಯಾನದ ಮೂಲಕ ಸ್ವಯಂ ಪರಿಷ್ಕಾರ."
+        },
+        "link": "/sadhana"
+      },
+      {
+        "id": "sanyam",
+        "current": false,
+        "name": { "en": "Sanyam", "hi": "संयम", "kn": "ಸಂಯಮ" },
+        "summary": {
+          "en": "Self-discipline — mastering the senses, time, thought, and resources.",
+          "hi": "आत्म-अनुशासन — इंद्रिय, समय, विचार और साधनों का संयम।",
+          "kn": "ಆತ್ಮ-ಶಿಸ್ತು — ಇಂದ್ರಿಯ, ಸಮಯ, ವಿಚಾರ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳ ಸಂಯಮ."
+        },
+        "link": "/sanyam"
+      },
+      {
+        "id": "swadhyay",
+        "current": true,
+        "name": { "en": "Swadhyay", "hi": "स्वाध्याय", "kn": "ಸ್ವಾಧ್ಯಾಯ" },
+        "summary": {
+          "en": "Self-study — daily reading of uplifting, sattvic literature.",
+          "hi": "स्वाध्याय — श्रेष्ठ, सात्विक साहित्य का नित्य अध्ययन।",
+          "kn": "ಸ್ವಾಧ್ಯಾಯ — ಶ್ರೇಷ್ಠ, ಸಾತ್ವಿಕ ಸಾಹಿತ್ಯದ ನಿತ್ಯ ಅಧ್ಯಯನ."
+        },
+        "link": "/swadhyay"
+      },
+      {
+        "id": "seva",
+        "current": false,
+        "name": { "en": "Seva", "hi": "सेवा", "kn": "ಸೇವೆ" },
+        "summary": {
+          "en": "Selfless service — sharing one's time and gifts for the good of all.",
+          "hi": "निःस्वार्थ सेवा — अपने समय और सामर्थ्य का सबके हित में योगदान।",
+          "kn": "ನಿಃಸ್ವಾರ್ಥ ಸೇವೆ — ತನ್ನ ಸಮಯ ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ಎಲ್ಲರ ಹಿತಕ್ಕಾಗಿ ಹಂಚುವುದು."
+        },
+        "link": "/seva"
+      }
+    ]
+  },
+  "practices": {
+    "title": {
+      "en": "Begin Your Swadhyay",
+      "hi": "अपना स्वाध्याय आरंभ करें",
+      "kn": "ನಿಮ್ಮ ಸ್ವಾಧ್ಯಾಯ ಆರಂಭಿಸಿ"
+    },
+    "text": {
+      "en": "Fix a few quiet minutes each day — ideally morning — for sat-sahitya. A page of Gurudev's writings or the monthly Akhand Jyoti is a gentle place to start; read slowly, and reflect on what you read.",
+      "hi": "प्रतिदिन कुछ शांत मिनट — यथासंभव प्रातःकाल — सत्साहित्य के लिए निश्चित करें। गुरुदेव की किसी रचना का एक पृष्ठ या मासिक अखंड ज्योति आरंभ के लिए सहज है; धीरे पढ़ें, और पढ़े हुए पर मनन करें।",
+      "kn": "ಪ್ರತಿದಿನ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು — ಸಾಧ್ಯವಾದರೆ ಮುಂಜಾವು — ಸತ್ಸಾಹಿತ್ಯಕ್ಕೆ ಮೀಸಲಿಡಿ. ಗುರುದೇವ್ ಅವರ ಯಾವುದೇ ಬರಹದ ಒಂದು ಪುಟ ಅಥವಾ ಮಾಸಿಕ ಅಖಂಡ ಜ್ಯೋತಿ ಆರಂಭಕ್ಕೆ ಸುಲಭ; ನಿಧಾನವಾಗಿ ಓದಿ, ಓದಿದ್ದರ ಬಗ್ಗೆ ಮನನ ಮಾಡಿ."
+    },
+    "buttonLabel": {
+      "en": "Read Akhand Jyoti",
+      "hi": "अखंड ज्योति पढ़ें",
+      "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಓದಿ"
+    },
+    "link": "https://www.awgp.org/en/read/akhand_jyoti"
+  },
+  "resources": [
+    {
+      "id": "swadhyay-aur-satsang",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Swadhyay Aur Satsang (Self-Study and Holy Company)",
+        "hi": "स्वाध्याय और सत्संग",
+        "kn": "ಸ್ವಾಧ್ಯಾಯ ಮತ್ತು ಸತ್ಸಂಗ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/Swadhyay_Aur_Satsang/v2"
+    },
+    {
+      "id": "swadhyay-men-pramad-na-karen",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Swadhyay Men Pramad Na Karen (Be Not Negligent in Swadhyay)",
+        "hi": "स्वाध्याय में प्रमाद न करें",
+        "kn": "ಸ್ವಾಧ್ಯಾಯದಲ್ಲಿ ಪ್ರಮಾದ ಮಾಡಬೇಡಿ"
+      },
+      "read": "https://www.awgp.org/en/literature/book/swadhyay_men_pramad_na_karen/v1"
+    },
+    {
+      "id": "akhand-jyoti-1954-swadhyay",
+      "type": "article",
+      "lang": "hi",
+      "title": {
+        "en": "Swadhyay Avashyak Hai (Akhand Jyoti, Nov 1954)",
+        "hi": "स्वाध्याय आवश्यक है (अखंड ज्योति, नवंबर 1954)",
+        "kn": "ಸ್ವಾಧ್ಯಾಯ ಆವಶ್ಯಕ ಹೈ (ಅಖಂಡ ಜ್ಯೋತಿ, ನವೆಂಬರ್ 1954)"
+      },
+      "read": "https://www.awgp.org/en/literature/akhandjyoti/1954/November/v2.12"
+    },
+    {
+      "id": "akhand-jyoti-magazine",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Akhand Jyoti Magazine",
+        "hi": "अखंड ज्योति पत्रिका",
+        "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ"
+      },
+      "read": "https://www.awgp.org/en/read/akhand_jyoti"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Swadhyay Avashyak Hai — Akhand Jyoti, Nov 1954 (by Shri Vikramaditya Acharya)",
+      "url": "https://www.awgp.org/en/literature/akhandjyoti/1954/November/v2.12",
+      "media": "text",
+      "used": "primary"
+    },
+    {
+      "title": "Swadhyay primary text (your pasted Hindi passage with scriptural proofs)",
+      "url": null,
+      "media": "text",
+      "used": "primary"
+    },
+    {
+      "title": "Swadhyay Aur Satsang",
+      "url": "https://www.awgp.org/en/literature/book/Swadhyay_Aur_Satsang/v2",
+      "media": "unknown",
+      "used": "reference"
+    },
+    {
+      "title": "Swadhyay Men Pramad Na Karen",
+      "url": "https://www.awgp.org/en/literature/book/swadhyay_men_pramad_na_karen/v1",
+      "media": "unknown",
+      "used": "reference"
+    }
+  ]
+}

@@ -118,27 +118,6 @@
   margin-bottom: 1.1rem;
 }
 
-/* ── Quote ── */
-.home-welcome__quote {
-  margin: 1.8rem 0 2rem;
-  padding: 0.4rem 0 0.4rem 1.4rem;
-  border-left: 3px solid var(--gold);
-}
-.home-welcome__quote blockquote {
-  font-family: var(--font-quote);
-  font-style: italic;
-  font-size: 1.2rem;
-  color: var(--maroon);
-  line-height: 1.5;
-  margin: 0 0 0.4rem;
-}
-.home-welcome__quote figcaption {
-  font-family: var(--font-quote);
-  font-style: italic;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-}
-
 /* ── CTA ── */
 .home-welcome__cta {
   text-transform: uppercase;

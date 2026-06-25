@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "slug": "sanyam",
+    "pillar": "Sanyam",
+    "pillarGroup": ["sadhana", "swadhyay", "sanyam", "seva"],
+    "order": 3
+  },
+
+  "hero": {
+    "title": {
+      "en": "Sanyam — Self-Restraint",
+      "hi": "संयम",
+      "kn": "ಸಂಯಮ"
+    },
+    "subtitle": {
+      "en": "The art of not wasting yourself",
+      "hi": "अपनी शक्तियों को व्यर्थ न बहने देने की कला",
+      "kn": "ನಿಮ್ಮ ಶಕ್ತಿಯನ್ನು ವ್ಯರ್ಥವಾಗದಂತೆ ಕಾಪಾಡುವ ಕಲೆ"
+    },
+    "intro": {
+      "en": "Sanyam is one of the four pillars of inner growth taught by Gurudev Pandit Shriram Sharma Acharya — alongside Sadhana, Swadhyay, and Seva. Where Sadhana refines character and Swadhyay clears the mind, Sanyam guards the energy that powers both. It is not suppression; it is the quiet discipline of spending your powers where they truly matter.",
+      "hi": "संयम गुरुदेव पंडित श्रीराम शर्मा आचार्य द्वारा बताए गए आत्मिक उन्नति के चार आधारों में से एक है — साधना, स्वाध्याय और सेवा के साथ। साधना जहाँ स्वभाव को गढ़ती है और स्वाध्याय मन को निर्मल करता है, वहीं संयम उस शक्ति की रक्षा करता है जो दोनों को चलाती है। यह दमन नहीं है — यह अपनी सामर्थ्य को वहीं लगाने का शांत अनुशासन है जहाँ उसका सच्चा मूल्य है।",
+      "kn": "ಸಂಯಮವು ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಬೋಧಿಸಿದ ಆತ್ಮಿಕ ಉನ್ನತಿಯ ನಾಲ್ಕು ಆಧಾರಸ್ತಂಭಗಳಲ್ಲಿ ಒಂದು — ಸಾಧನಾ, ಸ್ವಾಧ್ಯಾಯ ಮತ್ತು ಸೇವೆಯ ಜೊತೆಗೆ. ಸಾಧನಾ ಸ್ವಭಾವವನ್ನು ರೂಪಿಸಿದರೆ, ಸ್ವಾಧ್ಯಾಯ ಮನಸ್ಸನ್ನು ನಿರ್ಮಲಗೊಳಿಸುತ್ತದೆ; ಸಂಯಮ ಆ ಎರಡನ್ನೂ ನಡೆಸುವ ಶಕ್ತಿಯನ್ನು ಕಾಪಾಡುತ್ತದೆ. ಇದು ದಮನವಲ್ಲ — ನಿಮ್ಮ ಸಾಮರ್ಥ್ಯವನ್ನು ನಿಜವಾಗಿ ಮುಖ್ಯವಾದಲ್ಲಿ ವಿನಿಯೋಗಿಸುವ ಶಾಂತ ಶಿಸ್ತು."
+    }
+  },
+
+  "sections": [
+    {
+      "id": "what-is-sanyam",
+      "title": {
+        "en": "What is Sanyam?",
+        "hi": "संयम क्या है?",
+        "kn": "ಸಂಯಮ ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "The literal meaning of sanyam is restraint. Gurudev explains it simply: most of us drain our mental and physical energy in scattered, impulse-driven activity — pulled this way and that by a restless mind and hungry senses. Even an ordinary person, he says, can achieve remarkable things by simply stopping this wastage and turning saved energy toward something worthwhile. Sanyam is that act of saving. It asks us to stay watchful on four fronts — the senses, the mind, time, and money — not to deny life, but to stop the leaks so our true strength is available when we need it.",
+        "hi": "संयम का शाब्दिक अर्थ है — रोकथाम। गुरुदेव इसे सरलता से समझाते हैं: हममें से अधिकांश अपनी मानसिक और शारीरिक शक्ति को बिखरे, आवेग-भरे कामों में बहा देते हैं — एक अस्थिर मन और भूखी इंद्रियों के खींचने पर इधर-उधर डोलते हुए। वे कहते हैं कि एक साधारण व्यक्ति भी केवल इस अपव्यय को रोककर और बची हुई शक्ति को किसी सार्थक दिशा में लगाकर अद्भुत काम कर सकता है। संयम यही बचत है। यह हमें चार मोर्चों पर सजग रहने को कहता है — इंद्रियाँ, मन, समय और धन — जीवन को नकारने के लिए नहीं, बल्कि रिसाव रोकने के लिए, ताकि हमारी असली सामर्थ्य आवश्यकता के समय उपलब्ध रहे।",
+        "kn": "ಸಂಯಮದ ಅಕ್ಷರಶಃ ಅರ್ಥ ತಡೆ ಅಥವಾ ನಿಗ್ರಹ. ಗುರುದೇವ್ ಇದನ್ನು ಸರಳವಾಗಿ ವಿವರಿಸುತ್ತಾರೆ: ನಮ್ಮಲ್ಲಿ ಬಹುತೇಕರು ನಮ್ಮ ಮಾನಸಿಕ ಮತ್ತು ದೈಹಿಕ ಶಕ್ತಿಯನ್ನು ಚದುರಿದ, ಆವೇಗ-ಪ್ರೇರಿತ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ ಸೋರಿಸುತ್ತೇವೆ — ಚಂಚಲ ಮನಸ್ಸು ಮತ್ತು ಹಸಿದ ಇಂದ್ರಿಯಗಳು ಎಳೆದತ್ತ ಸಾಗುತ್ತೇವೆ. ಒಬ್ಬ ಸಾಮಾನ್ಯ ವ್ಯಕ್ತಿಯೂ ಸಹ ಈ ಪೋಲನ್ನು ನಿಲ್ಲಿಸಿ, ಉಳಿದ ಶಕ್ತಿಯನ್ನು ಸಾರ್ಥಕ ದಿಕ್ಕಿನಲ್ಲಿ ತೊಡಗಿಸಿದರೆ ಅದ್ಭುತವಾದದ್ದನ್ನು ಸಾಧಿಸಬಲ್ಲ ಎನ್ನುತ್ತಾರೆ. ಸಂಯಮ ಆ ಉಳಿತಾಯವೇ. ಅದು ನಮ್ಮನ್ನು ನಾಲ್ಕು ರಂಗಗಳಲ್ಲಿ ಜಾಗೃತರಾಗಿರಲು ಕೇಳುತ್ತದೆ — ಇಂದ್ರಿಯಗಳು, ಮನಸ್ಸು, ಸಮಯ ಮತ್ತು ಹಣ — ಜೀವನವನ್ನು ನಿರಾಕರಿಸಲು ಅಲ್ಲ, ಬದಲಿಗೆ ಸೋರಿಕೆಯನ್ನು ತಡೆದು ನಮ್ಮ ನಿಜವಾದ ಶಕ್ತಿ ಅಗತ್ಯವಿರುವಾಗ ಲಭ್ಯವಿರುವಂತೆ ಮಾಡಲು."
+      }
+    },
+    {
+      "id": "why-it-matters",
+      "title": {
+        "en": "Why Sanyam Matters",
+        "hi": "संयम क्यों आवश्यक है",
+        "kn": "ಸಂಯಮ ಏಕೆ ಮುಖ್ಯ"
+      },
+      "body": {
+        "en": "Through countless lives, Gurudev says, we have collected impulses that pull us downward — and the world around us only adds pressure, teaching us to chase success at any cost. Without restraint, our finest powers scatter and are lost; with it, that same energy becomes the raw material of greatness. The scientist, the writer, the achiever in any field share one trait — they gathered their scattered force and aimed it in one direction. Sanyam is what makes a person tapasvi: one who saves a large part of their strength and invests it in good work. It is the discipline that turns potential into achievement, in both worldly and spiritual life.",
+        "hi": "गुरुदेव कहते हैं कि अनेक जन्मों से हमने ऐसी प्रवृत्तियाँ संचित की हैं जो हमें नीचे की ओर खींचती हैं — और चारों ओर का वातावरण केवल दबाव बढ़ाता है, हमें किसी भी कीमत पर सफलता के पीछे दौड़ना सिखाता है। संयम के बिना हमारी श्रेष्ठतम शक्तियाँ बिखरकर नष्ट हो जाती हैं; संयम के साथ वही शक्ति महानता की कच्ची सामग्री बन जाती है। वैज्ञानिक, साहित्यकार, हर क्षेत्र का सफल व्यक्ति — सबमें एक बात समान है: उन्होंने अपनी बिखरी शक्ति को समेटकर एक दिशा में लगाया। संयम ही मनुष्य को तपस्वी बनाता है — जो अपनी शक्ति का बड़ा भाग बचाकर अच्छे कार्य में लगाता है। यही वह अनुशासन है जो सामर्थ्य को सिद्धि में बदलता है — भौतिक और आध्यात्मिक, दोनों जीवन में।",
+        "kn": "ಅಸಂಖ್ಯ ಜನ್ಮಗಳಿಂದ ನಾವು ನಮ್ಮನ್ನು ಕೆಳಗೆಳೆಯುವ ಪ್ರವೃತ್ತಿಗಳನ್ನು ಸಂಗ್ರಹಿಸಿಕೊಂಡಿದ್ದೇವೆ ಎಂದು ಗುರುದೇವ್ ಹೇಳುತ್ತಾರೆ — ಸುತ್ತಲಿನ ಪರಿಸರವೂ ಒತ್ತಡವನ್ನೇ ಹೆಚ್ಚಿಸಿ, ಯಾವ ಬೆಲೆಗಾದರೂ ಯಶಸ್ಸಿನ ಬೆನ್ನಟ್ಟಲು ಕಲಿಸುತ್ತದೆ. ನಿಗ್ರಹವಿಲ್ಲದೆ ನಮ್ಮ ಶ್ರೇಷ್ಠ ಶಕ್ತಿಗಳು ಚದುರಿ ನಷ್ಟವಾಗುತ್ತವೆ; ನಿಗ್ರಹದೊಂದಿಗೆ ಅದೇ ಶಕ್ತಿ ಮಹತ್ತ್ವದ ಕಚ್ಚಾ ಸಾಮಗ್ರಿಯಾಗುತ್ತದೆ. ವಿಜ್ಞಾನಿ, ಸಾಹಿತಿ, ಯಾವುದೇ ಕ್ಷೇತ್ರದ ಸಾಧಕ — ಎಲ್ಲರಲ್ಲೂ ಒಂದು ಸಮಾನ ಗುಣ: ಅವರು ತಮ್ಮ ಚದುರಿದ ಶಕ್ತಿಯನ್ನು ಒಗ್ಗೂಡಿಸಿ ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ತೊಡಗಿಸಿದರು. ಸಂಯಮವೇ ಮನುಷ್ಯನನ್ನು ತಪಸ್ವಿಯಾಗಿ ಮಾಡುತ್ತದೆ — ತನ್ನ ಶಕ್ತಿಯ ದೊಡ್ಡ ಭಾಗವನ್ನು ಉಳಿಸಿ ಒಳ್ಳೆಯ ಕಾರ್ಯದಲ್ಲಿ ತೊಡಗಿಸುವವನು. ಇದು ಸಾಮರ್ಥ್ಯವನ್ನು ಸಿದ್ಧಿಯಾಗಿ ಪರಿವರ್ತಿಸುವ ಶಿಸ್ತು — ಲೌಕಿಕ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಎರಡೂ ಜೀವನದಲ್ಲಿ."
+      },
+      "highlights": {
+        "en": [
+          "Stops the daily leak of physical and mental energy",
+          "Concentrated, saved energy is the seed of every success",
+          "Practising restraint is what makes one a tapasvi"
+        ],
+        "hi": [
+          "शारीरिक व मानसिक शक्ति के दैनिक अपव्यय को रोकता है",
+          "एकाग्र, बची हुई शक्ति ही हर सफलता का बीज है",
+          "संयम का अभ्यास ही मनुष्य को तपस्वी बनाता है"
+        ],
+        "kn": [
+          "ದೈಹಿಕ ಮತ್ತು ಮಾನಸಿಕ ಶಕ್ತಿಯ ನಿತ್ಯ ಸೋರಿಕೆಯನ್ನು ತಡೆಯುತ್ತದೆ",
+          "ಕೇಂದ್ರೀಕೃತ, ಉಳಿದ ಶಕ್ತಿಯೇ ಪ್ರತಿ ಯಶಸ್ಸಿನ ಬೀಜ",
+          "ಸಂಯಮದ ಅಭ್ಯಾಸವೇ ಮನುಷ್ಯನನ್ನು ತಪಸ್ವಿಯಾಗಿ ಮಾಡುತ್ತದೆ"
+        ]
+      }
+    }
+  ],
+
+  "types": {
+    "heading": {
+      "en": "The Four Kinds of Sanyam",
+      "hi": "संयम के चार प्रकार",
+      "kn": "ಸಂಯಮದ ನಾಲ್ಕು ಪ್ರಕಾರಗಳು"
+    },
+    "intro": {
+      "en": "Gurudev describes restraint on four fronts (chaturvidh nigrah). Practise all four and you become truly self-disciplined.",
+      "hi": "गुरुदेव चार मोर्चों पर निग्रह बताते हैं (चतुर्विध निग्रह)। चारों का अभ्यास करने पर मनुष्य सच्चे अर्थों में संयमशील बनता है।",
+      "kn": "ಗುರುದೇವ್ ನಾಲ್ಕು ರಂಗಗಳಲ್ಲಿ ನಿಗ್ರಹವನ್ನು ವಿವರಿಸುತ್ತಾರೆ (ಚತುರ್ವಿಧ ನಿಗ್ರಹ). ನಾಲ್ಕನ್ನೂ ಅಭ್ಯಾಸ ಮಾಡಿದರೆ ನಿಜವಾದ ಅರ್ಥದಲ್ಲಿ ಸಂಯಮಶೀಲರಾಗುತ್ತೀರಿ."
+    },
+    "items": [
+      {
+        "id": "indriya-sanyam",
+        "icon": "👁️",
+        "name": {
+          "en": "Indriya Sanyam — Restraint of the Senses",
+          "hi": "इंद्रिय संयम",
+          "kn": "ಇಂದ್ರಿಯ ಸಂಯಮ"
+        },
+        "summary": {
+          "en": "Mastery over the senses — above all the tongue and the reproductive urge.",
+          "hi": "इंद्रियों पर नियंत्रण — विशेषकर जिह्वा और कामेंद्रिय पर।",
+          "kn": "ಇಂದ್ರಿಯಗಳ ಮೇಲೆ ಹಿಡಿತ — ಮುಖ್ಯವಾಗಿ ನಾಲಿಗೆ ಮತ್ತು ಕಾಮೇಂದ್ರಿಯದ ಮೇಲೆ."
+        },
+        "description": {
+          "en": "Of all the senses, the two hardest and most important to restrain are the tongue and the sex-organs — the greediest, most addiction-prone of all. The craving of the tongue upsets digestion and ruins health; unbridled speech invites animosity and insult; the unchecked drain of vital energy weakens both body and mind. Gurudev is clear: lasting health, vigour, and long life are simply not possible without restraining these. Aswad-vrat (eating for nourishment, not taste) and brahmacharya (continence) are its core practices.",
+          "hi": "सभी इंद्रियों में सबसे कठिन और सबसे महत्त्वपूर्ण है जिह्वा और कामेंद्रिय का संयम — ये सबसे लालची और 'व्यसन' की ओर सबसे जल्दी झुकने वाली हैं। जिह्वा का लोभ पाचन बिगाड़ता है और स्वास्थ्य चौपट करता है; अनियंत्रित वाणी शत्रुता और अपमान बुलाती है; प्राणशक्ति का अनियंत्रित क्षय तन और मन दोनों को दुर्बल करता है। गुरुदेव स्पष्ट कहते हैं: इनके संयम के बिना स्थायी स्वास्थ्य, बल और दीर्घायु संभव ही नहीं। अस्वाद-व्रत (स्वाद नहीं, पोषण के लिए भोजन) और ब्रह्मचर्य इसके मूल अभ्यास हैं।",
+          "kn": "ಎಲ್ಲ ಇಂದ್ರಿಯಗಳಲ್ಲಿ ನಿಗ್ರಹಿಸಲು ಅತ್ಯಂತ ಕಠಿಣ ಮತ್ತು ಮುಖ್ಯವಾದವು ನಾಲಿಗೆ ಮತ್ತು ಕಾಮೇಂದ್ರಿಯ — ಅತ್ಯಂತ ಲೋಭಿ ಮತ್ತು ವ್ಯಸನಕ್ಕೆ ಬೇಗ ಒಲಿಯುವವು. ನಾಲಿಗೆಯ ದುರಾಸೆ ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಕೆಡಿಸಿ ಆರೋಗ್ಯವನ್ನು ಹಾಳುಮಾಡುತ್ತದೆ; ಅನಿಯಂತ್ರಿತ ಮಾತು ವೈರ ಮತ್ತು ಅವಮಾನವನ್ನು ಆಹ್ವಾನಿಸುತ್ತದೆ; ಪ್ರಾಣಶಕ್ತಿಯ ಅನಿಯಂತ್ರಿತ ಸೋರಿಕೆ ದೇಹ ಮತ್ತು ಮನಸ್ಸನ್ನು ದುರ್ಬಲಗೊಳಿಸುತ್ತದೆ. ಗುರುದೇವ್ ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತಾರೆ: ಇವುಗಳ ನಿಗ್ರಹವಿಲ್ಲದೆ ಶಾಶ್ವತ ಆರೋಗ್ಯ, ಚೈತನ್ಯ ಮತ್ತು ದೀರ್ಘಾಯುಷ್ಯ ಸಾಧ್ಯವೇ ಇಲ್ಲ. ಅಸ್ವಾದ-ವ್ರತ (ರುಚಿಗಲ್ಲ, ಪೋಷಣೆಗಾಗಿ ಆಹಾರ) ಮತ್ತು ಬ್ರಹ್ಮಚರ್ಯ ಇದರ ಮೂಲ ಅಭ್ಯಾಸಗಳು."
+        }
+      },
+      {
+        "id": "vichar-sanyam",
+        "icon": "🧠",
+        "name": {
+          "en": "Vichar Sanyam — Restraint of the Mind",
+          "hi": "विचार (मन) संयम",
+          "kn": "ವಿಚಾರ (ಮನ) ಸಂಯಮ"
+        },
+        "summary": {
+          "en": "Stilling the restless mind and channelling thought toward one aim.",
+          "hi": "अस्थिर मन को साधना और विचारों को एक लक्ष्य की ओर मोड़ना।",
+          "kn": "ಚಂಚಲ ಮನಸ್ಸನ್ನು ನಿಲ್ಲಿಸಿ ವಿಚಾರಗಳನ್ನು ಒಂದೇ ಗುರಿಯತ್ತ ತಿರುಗಿಸುವುದು."
+        },
+        "description": {
+          "en": "From the moment we wake, the mind rarely rests — but most of its activity is undisciplined, full of stray desires and disturbances. Anger, agitation, anxiety, and depression are all offshoots of a wayward mind. Gurudev points out that had this same mental force been gathered and aimed, we might have become scientists or writers — reached the heights of whatever we chose. Vichar sanyam (he calls it mano-nigrah) is the discipline of concentration: stilling the noise and channelling thought in one direction. Master it, and the doors to success in any chosen path swing open.",
+          "hi": "जागते ही मन शायद ही कभी रुकता है — पर उसकी अधिकांश गतिविधि अनुशासनहीन होती है, भटकती इच्छाओं और विक्षोभों से भरी। क्रोध, उत्तेजना, चिंता और अवसाद — सब अस्थिर मन की ही उपज हैं। गुरुदेव बताते हैं कि यही मानसिक शक्ति यदि समेटकर लगाई गई होती तो हम वैज्ञानिक या साहित्यकार बन गए होते — जिस दिशा में चाहते, उसकी ऊँचाई तक पहुँच जाते। विचार संयम (जिसे वे मनोनिग्रह कहते हैं) एकाग्रता का अनुशासन है: शोर को शांत कर विचारों को एक दिशा में मोड़ना। इसे साध लें, तो किसी भी चुने हुए मार्ग पर सफलता के द्वार खुल जाते हैं।",
+          "kn": "ಎಚ್ಚರಗೊಂಡ ಕ್ಷಣದಿಂದ ಮನಸ್ಸು ವಿರಳವಾಗಿ ವಿಶ್ರಮಿಸುತ್ತದೆ — ಆದರೆ ಅದರ ಬಹುತೇಕ ಚಟುವಟಿಕೆ ಶಿಸ್ತಿಲ್ಲದ್ದು, ಅಲೆದಾಡುವ ಆಸೆಗಳು ಮತ್ತು ಕ್ಷೋಭೆಗಳಿಂದ ತುಂಬಿದ್ದು. ಕೋಪ, ಉದ್ವೇಗ, ಆತಂಕ ಮತ್ತು ಖಿನ್ನತೆ — ಎಲ್ಲವೂ ಚಂಚಲ ಮನಸ್ಸಿನ ಫಲ. ಇದೇ ಮಾನಸಿಕ ಶಕ್ತಿಯನ್ನು ಒಗ್ಗೂಡಿಸಿ ತೊಡಗಿಸಿದ್ದರೆ ನಾವು ವಿಜ್ಞಾನಿಗಳೋ ಸಾಹಿತಿಗಳೋ ಆಗಬಹುದಿತ್ತು ಎಂದು ಗುರುದೇವ್ ಸೂಚಿಸುತ್ತಾರೆ. ವಿಚಾರ ಸಂಯಮ (ಅವರು ಮನೋನಿಗ್ರಹ ಎನ್ನುತ್ತಾರೆ) ಏಕಾಗ್ರತೆಯ ಶಿಸ್ತು: ಗದ್ದಲವನ್ನು ಶಮನಗೊಳಿಸಿ ವಿಚಾರಗಳನ್ನು ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗಿಸುವುದು. ಇದನ್ನು ಸಾಧಿಸಿದರೆ ಆಯ್ದ ಯಾವುದೇ ಮಾರ್ಗದಲ್ಲಿ ಯಶಸ್ಸಿನ ಬಾಗಿಲು ತೆರೆಯುತ್ತದೆ."
+        }
+      },
+      {
+        "id": "samay-sanyam",
+        "icon": "⏳",
+        "name": {
+          "en": "Samay Sanyam — Restraint of Time",
+          "hi": "समय संयम",
+          "kn": "ಸಮಯ ಸಂಯಮ"
+        },
+        "summary": {
+          "en": "Guarding time — Nature's most precious, non-renewable gift.",
+          "hi": "समय की रक्षा — प्रकृति का सबसे मूल्यवान, अपुनरावर्ती उपहार।",
+          "kn": "ಸಮಯದ ರಕ್ಷಣೆ — ಪ್ರಕೃತಿಯ ಅತ್ಯಂತ ಅಮೂಲ್ಯ, ಮರಳಿ ಸಿಗದ ಕೊಡುಗೆ."
+        },
+        "description": {
+          "en": "Time is the most precious resource Nature gives us, yet most of it slips away in sleep, laziness, and aimless drifting. We avoid steady work and act without a plan — then, under sudden pressure or excitement, we burn ourselves out on a single task, only to collapse back into dullness once it passes. Both extremes waste life. Look at anyone who has truly succeeded, Gurudev says, and you find one shared habit: prudent management of time. Even a little well-used time yields enormous returns. A planned, systematic day is itself a sadhana.",
+          "hi": "समय प्रकृति का दिया सबसे मूल्यवान संसाधन है, फिर भी अधिकांश नींद, आलस्य और लक्ष्यहीन बहाव में फिसल जाता है। हम निरंतर परिश्रम से बचते हैं और बिना योजना के काम करते हैं — फिर अचानक दबाव या उत्साह में स्वयं को एक ही काम में झोंककर थका डालते हैं, और वह बीतते ही फिर सुस्ती में लौट आते हैं। दोनों अति जीवन को नष्ट करती हैं। गुरुदेव कहते हैं — किसी भी सच्चे सफल व्यक्ति को देखें, एक आदत समान मिलेगी: समय का विवेकपूर्ण प्रबंधन। थोड़ा-सा भी सुनियोजित समय विशाल लाभ देता है। एक योजनाबद्ध, व्यवस्थित दिन स्वयं एक साधना है।",
+          "kn": "ಸಮಯ ಪ್ರಕೃತಿ ನೀಡುವ ಅತ್ಯಂತ ಅಮೂಲ್ಯ ಸಂಪನ್ಮೂಲ, ಆದರೂ ಬಹುಪಾಲು ನಿದ್ರೆ, ಆಲಸ್ಯ ಮತ್ತು ಗುರಿಯಿಲ್ಲದ ಹರಿವಿನಲ್ಲಿ ಜಾರಿಹೋಗುತ್ತದೆ. ನಾವು ನಿರಂತರ ಶ್ರಮವನ್ನು ತಪ್ಪಿಸಿ ಯೋಜನೆಯಿಲ್ಲದೆ ವರ್ತಿಸುತ್ತೇವೆ — ನಂತರ ಹಠಾತ್ ಒತ್ತಡ ಅಥವಾ ಉತ್ಸಾಹದಲ್ಲಿ ಒಂದೇ ಕೆಲಸದಲ್ಲಿ ನಮ್ಮನ್ನು ಸುಟ್ಟುಕೊಂಡು, ಅದು ಮುಗಿದ ಕೂಡಲೇ ಮತ್ತೆ ಮಂದತೆಗೆ ಮರಳುತ್ತೇವೆ. ಎರಡೂ ಅತಿರೇಕಗಳು ಜೀವನವನ್ನು ವ್ಯರ್ಥಮಾಡುತ್ತವೆ. ನಿಜವಾಗಿ ಯಶಸ್ವಿಯಾದ ಯಾರನ್ನೇ ನೋಡಿ, ಒಂದು ಸಮಾನ ಅಭ್ಯಾಸ ಸಿಗುತ್ತದೆ ಎಂದು ಗುರುದೇವ್ ಹೇಳುತ್ತಾರೆ: ಸಮಯದ ವಿವೇಕಯುತ ನಿರ್ವಹಣೆ. ಸ್ವಲ್ಪ ಚೆನ್ನಾಗಿ ಬಳಸಿದ ಸಮಯವೂ ದೊಡ್ಡ ಲಾಭ ನೀಡುತ್ತದೆ. ಯೋಜಿತ, ವ್ಯವಸ್ಥಿತ ದಿನವೇ ಒಂದು ಸಾಧನೆ."
+        }
+      },
+      {
+        "id": "arth-sanyam",
+        "icon": "🪙",
+        "name": {
+          "en": "Arth Sanyam — Restraint of Money",
+          "hi": "अर्थ संयम",
+          "kn": "ಅರ್ಥ ಸಂಯಮ"
+        },
+        "summary": {
+          "en": "Wise, frugal use of money — the engine of both prosperity and self-reliance.",
+          "hi": "धन का विवेकपूर्ण, मितव्ययी उपयोग — समृद्धि और आत्मनिर्भरता दोनों का आधार।",
+          "kn": "ಹಣದ ವಿವೇಕಯುತ, ಮಿತವ್ಯಯ ಬಳಕೆ — ಸಮೃದ್ಧಿ ಮತ್ತು ಸ್ವಾವಲಂಬನೆ ಎರಡರ ಆಧಾರ."
+        },
+        "description": {
+          "en": "Money is a vital resource — but used carelessly it feeds addictions, luxury, and show-off spending, which in turn breed ill-health, jealousy, and anxiety. Those with little must guard every coin; those with more than they need should invest the surplus wisely in work that helps many and generates more good. Industriousness, planned budgeting, and thoughtful spending, Gurudev says, are the real secret of prosperity. And restraint over money supports restraint everywhere else — it is the ground of self-reliance and self-development.",
+          "hi": "धन एक महत्त्वपूर्ण संसाधन है — पर लापरवाही से खर्च हो तो यह व्यसन, विलासिता और दिखावे को पोषता है, जो बदले में रुग्णता, ईर्ष्या और चिंता जनमते हैं। जिनके पास कम है, वे हर पैसे की रक्षा करें; जिनके पास आवश्यकता से अधिक है, वे शेष को ऐसे कार्यों में विवेकपूर्वक लगाएँ जो अनेकों का हित करें और अधिक भलाई उपजाएँ। गुरुदेव कहते हैं — परिश्रम, सुनियोजित बजट और सोच-समझकर खर्च ही समृद्धि का असली रहस्य है। और अर्थ का संयम बाकी हर संयम को सहारा देता है — यह आत्मनिर्भरता और आत्म-विकास की भूमि है।",
+          "kn": "ಹಣ ಒಂದು ಮುಖ್ಯ ಸಂಪನ್ಮೂಲ — ಆದರೆ ಅಜಾಗರೂಕವಾಗಿ ಬಳಸಿದರೆ ಅದು ವ್ಯಸನ, ವೈಭವ ಮತ್ತು ಆಡಂಬರದ ಖರ್ಚನ್ನು ಪೋಷಿಸುತ್ತದೆ, ಅವು ಅನಾರೋಗ್ಯ, ಅಸೂಯೆ ಮತ್ತು ಆತಂಕವನ್ನು ಹುಟ್ಟಿಸುತ್ತವೆ. ಕಡಿಮೆ ಇರುವವರು ಪ್ರತಿ ನಾಣ್ಯವನ್ನೂ ಕಾಪಾಡಬೇಕು; ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಇರುವವರು ಉಳಿದದ್ದನ್ನು ಅನೇಕರಿಗೆ ನೆರವಾಗುವ ಮತ್ತು ಹೆಚ್ಚು ಒಳಿತು ಹುಟ್ಟಿಸುವ ಕಾರ್ಯದಲ್ಲಿ ವಿವೇಕದಿಂದ ತೊಡಗಿಸಬೇಕು. ಶ್ರಮಶೀಲತೆ, ಯೋಜಿತ ಬಜೆಟ್ ಮತ್ತು ವಿಚಾರಪೂರ್ವಕ ಖರ್ಚೇ ಸಮೃದ್ಧಿಯ ನಿಜವಾದ ರಹಸ್ಯ ಎಂದು ಗುರುದೇವ್ ಹೇಳುತ್ತಾರೆ. ಅರ್ಥ ಸಂಯಮ ಉಳಿದೆಲ್ಲ ಸಂಯಮಕ್ಕೂ ಆಧಾರ — ಇದು ಸ್ವಾವಲಂಬನೆ ಮತ್ತು ಆತ್ಮ-ವಿಕಾಸದ ನೆಲೆ."
+        }
+      }
+    ]
+  },
+
+  "practice": {
+    "heading": {
+      "en": "How to Begin — Gurudev's Simple Method",
+      "hi": "आरंभ कैसे करें — गुरुदेव की सरल विधि",
+      "kn": "ಹೇಗೆ ಆರಂಭಿಸುವುದು — ಗುರುದೇವರ ಸರಳ ವಿಧಾನ"
+    },
+    "body": {
+      "en": "Gurudev gave a beautifully practical method: plan your sanyam at night, just before sleep. As you lie down, review the day — how much of your body's strength, mind's power, time, and money went into ordinary living? Could some have been saved? If you overspent any of them, mark it as a lapse and resolve that tomorrow it will be a little less. You need not give up every excess at once — only ensure it shrinks day by day, never grows. Saved energy, time, and money are then turned toward sat-karma — good and selfless work. That redirection is the whole point of restraint.",
+      "hi": "गुरुदेव ने एक सुंदर व्यावहारिक विधि दी: संयम की योजना रात को, सोने से ठीक पहले बनाएँ। लेटते ही दिन की समीक्षा करें — आज शरीर का कितना बल, मन की कितनी शक्ति, कितना समय और धन साधारण निर्वाह में लगा? क्या कुछ बचाया जा सकता था? यदि किसी का अधिक व्यय हुआ, तो उसे असंयम का चिह्न मानें और संकल्प लें कि कल वह थोड़ा कम होगा। हर अति को एक साथ छोड़ना आवश्यक नहीं — बस यह सुनिश्चित करें कि वह दिन-प्रतिदिन घटे, बढ़े नहीं। बची हुई शक्ति, समय और धन फिर सत्कर्म में लगाएँ — शुभ और निःस्वार्थ कार्य में। यही पुनर्निर्देशन ही संयम का पूरा उद्देश्य है।",
+      "kn": "ಗುರುದೇವ್ ಒಂದು ಸುಂದರ ಪ್ರಾಯೋಗಿಕ ವಿಧಾನ ನೀಡಿದರು: ನಿಮ್ಮ ಸಂಯಮವನ್ನು ರಾತ್ರಿ, ನಿದ್ರೆಗೆ ಮೊದಲು ಯೋಜಿಸಿ. ಮಲಗಿದಾಗ ದಿನವನ್ನು ಪರಿಶೀಲಿಸಿ — ಇಂದು ದೇಹದ ಎಷ್ಟು ಬಲ, ಮನಸ್ಸಿನ ಎಷ್ಟು ಶಕ್ತಿ, ಎಷ್ಟು ಸಮಯ ಮತ್ತು ಹಣ ಸಾಮಾನ್ಯ ಜೀವನದಲ್ಲಿ ವ್ಯಯವಾಯಿತು? ಸ್ವಲ್ಪ ಉಳಿಸಬಹುದಿತ್ತೇ? ಯಾವುದನ್ನಾದರೂ ಅತಿಯಾಗಿ ವ್ಯಯಿಸಿದ್ದರೆ ಅದನ್ನು ಅಸಂಯಮದ ಗುರುತು ಎಂದು ಗುರುತಿಸಿ, ನಾಳೆ ಅದು ಸ್ವಲ್ಪ ಕಡಿಮೆಯಾಗಲಿ ಎಂದು ಸಂಕಲ್ಪಿಸಿ. ಪ್ರತಿ ಅತಿರೇಕವನ್ನೂ ಒಮ್ಮೆಲೇ ಬಿಡಬೇಕಿಲ್ಲ — ಅದು ದಿನದಿಂದ ದಿನಕ್ಕೆ ಕಡಿಮೆಯಾಗಲಿ, ಹೆಚ್ಚಾಗದಿರಲಿ. ಉಳಿದ ಶಕ್ತಿ, ಸಮಯ ಮತ್ತು ಹಣವನ್ನು ಸತ್ಕರ್ಮದಲ್ಲಿ — ಶುಭ ಮತ್ತು ನಿಸ್ವಾರ್ಥ ಕಾರ್ಯದಲ್ಲಿ — ತೊಡಗಿಸಿ. ಆ ಪುನರ್ನಿರ್ದೇಶನವೇ ಸಂಯಮದ ಸಂಪೂರ್ಣ ಉದ್ದೇಶ."
+    }
+  },
+
+  "relatedPillars": {
+    "heading": {
+      "en": "The Four Pillars of Inner Growth",
+      "hi": "आत्मिक उन्नति के चार आधार",
+      "kn": "ಆತ್ಮಿಕ ಉನ್ನತಿಯ ನಾಲ್ಕು ಆಧಾರಗಳು"
+    },
+    "note": {
+      "en": "Sanyam is one of four — Gurudev says none can be left out, like seed, soil, manure, and water in farming. Explore the others:",
+      "hi": "संयम चार में से एक है — गुरुदेव कहते हैं इनमें से एक भी छोड़ा नहीं जा सकता, जैसे खेती में बीज, भूमि, खाद और पानी। शेष को भी जानें:",
+      "kn": "ಸಂಯಮ ನಾಲ್ಕರಲ್ಲಿ ಒಂದು — ಕೃಷಿಯಲ್ಲಿ ಬೀಜ, ಮಣ್ಣು, ಗೊಬ್ಬರ ಮತ್ತು ನೀರಿನಂತೆ ಯಾವುದನ್ನೂ ಬಿಡಲಾಗದು ಎಂದು ಗುರುದೇವ್ ಹೇಳುತ್ತಾರೆ. ಉಳಿದವನ್ನೂ ಅನ್ವೇಷಿಸಿ:"
+    },
+    "links": [
+      {
+        "slug": "sadhana",
+        "label": { "en": "Sadhana — Self-Refinement", "hi": "साधना", "kn": "ಸಾಧನಾ" }
+      },
+      {
+        "slug": "swadhyay",
+        "label": { "en": "Swadhyay — Self-Study", "hi": "स्वाध्याय", "kn": "ಸ್ವಾಧ್ಯಾಯ" }
+      },
+      {
+        "slug": "seva",
+        "label": { "en": "Seva — Selfless Service", "hi": "सेवा", "kn": "ಸೇವಾ" }
+      }
+    ]
+  },
+
+  "references": {
+    "heading": {
+      "en": "References & Further Reading",
+      "hi": "संदर्भ व आगे पढ़ें",
+      "kn": "ಉಲ್ಲೇಖಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ಓದು"
+    },
+    "note": {
+      "en": "Source teachings of Gurudev Pandit Shriram Sharma Acharya on sanyam, from awgp.org:",
+      "hi": "संयम पर गुरुदेव पंडित श्रीराम शर्मा आचार्य की मूल शिक्षाएँ, awgp.org से:",
+      "kn": "ಸಂಯಮದ ಬಗ್ಗೆ ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಮೂಲ ಬೋಧನೆಗಳು, awgp.org ನಿಂದ:"
+    },
+    "items": [
+      {
+        "title": "Self-restraint, Sanyam — The Definitive Guide",
+        "type": "article",
+        "url": "https://www.awgp.org/en/spiritual_wisdom/life_management/personality_development/the_definitive_guide/self-restraint"
+      },
+      {
+        "title": "आत्मिक उन्नति के चार चरण — साधना, स्वाध्याय, संयम, सेवा",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/aatmik_unnati_ke_char_charan/v1"
+      },
+      {
+        "title": "इंद्रिय संयम का महत्त्व",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/Indriya_Sanyam_Ka_Mahatva/v3"
+      },
+      {
+        "title": "समय का सदुपयोग",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/Samay_Ka_Sadupayog/v2"
+      },
+      {
+        "title": "इक्कीसवीं सदी का संविधान",
+        "type": "book",
+        "url": "https://www.awgp.org/en/literature/book/ikkeesaveen_sadee_ka_sanvidhan/v2.4"
+      },
+      {
+        "title": "Akhand Jyoti — January 1964",
+        "type": "magazine",
+        "url": "https://www.awgp.org/en/literature/akhandjyoti/1964/January/v2.25"
+      },
+      {
+        "title": "Akhand Jyoti — September 1969",
+        "type": "magazine",
+        "url": "https://www.awgp.org/en/literature/akhandjyoti/1969/September/v2.18"
+      }
+    ]
+  }
+}
