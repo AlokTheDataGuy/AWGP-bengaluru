@@ -10,8 +10,8 @@ const SECTION_LABELS = {
   'why-it-matters': { en: 'Why It Matters', hi: 'महत्त्व', kn: 'ಮಹತ್ವ' },
 };
 const SECTION_IMG = {
-  'what-is-sadhana': `${IMG}/meaning.jpg`,
-  'why-it-matters': `${IMG}/why.jpg`,
+  'what-is-sadhana': `${IMG}/meaning.png`,
+  'why-it-matters': `${IMG}/why.png`,
 };
 
 export async function generateMetadata({ params }) {
@@ -29,7 +29,7 @@ export default async function SadhanaPillarPage({ params }) {
 
   const hero = {
     icon: SEAL,
-    image: `${IMG}/hero.jpg`,
+    image: `${IMG}/hero.png`,
     eyebrow: L({ en: 'The First Pillar · Self-Refinement', hi: 'पहला स्तंभ · आत्म-परिष्कार', kn: 'ಮೊದಲ ಸ್ತಂಭ · ಆತ್ಮ-ಪರಿಷ್ಕಾರ' }),
     title: L(data.hero.title),
     subtitle: L(data.hero.tagline),
@@ -50,7 +50,7 @@ export default async function SadhanaPillarPage({ params }) {
     eyebrow: L({ en: 'The Movement', hi: 'आंदोलन', kn: 'ಆಂದೋಲನ' }),
     title: L(andolan.title),
     body: L(andolan.body),
-    image: `${IMG}/andolan.jpg`,
+    image: `${IMG}/andolan.png`,
   };
 
   const practice = {

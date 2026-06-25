@@ -9,8 +9,8 @@ const SECTION_LABELS = {
   'why-it-matters': { en: 'Why It Matters', hi: 'महत्त्व', kn: 'ಮಹತ್ವ' },
 };
 const SECTION_IMG = {
-  'what-is-seva': `${IMG}/meaning.jpg`,
-  'why-it-matters': `${IMG}/why.jpg`,
+  'what-is-seva': `${IMG}/meaning.png`,
+  'why-it-matters': `${IMG}/why.png`,
 };
 const TYPE_IMG = {
   samaydaan: `${IMG}/types/samaydaan.jpg`,
@@ -29,7 +29,7 @@ export default async function SevaPillarPage({ params }) {
 
   const hero = {
     icon: SEAL,
-    image: `${IMG}/hero.jpg`,
+    image: `${IMG}/hero.png`,
     eyebrow: L({ en: 'The Fourth Pillar · Selfless Service', hi: 'चौथा स्तंभ · सेवा', kn: 'ನಾಲ್ಕನೇ ಸ್ತಂಭ · ಸೇವೆ' }),
     title: L(data.hero.title),
     subtitle: L(data.hero.subtitle),

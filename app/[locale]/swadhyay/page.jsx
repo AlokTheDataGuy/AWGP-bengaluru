@@ -9,8 +9,8 @@ const SECTION_LABELS = {
   'why-it-matters': { en: 'Why It Matters', hi: 'महत्त्व', kn: 'ಮಹತ್ವ' },
 };
 const SECTION_IMG = {
-  'what-is-swadhyay': `${IMG}/meaning.jpg`,
-  'why-it-matters': `${IMG}/why.jpg`,
+  'what-is-swadhyay': `${IMG}/meaning.png`,
+  'why-it-matters': `${IMG}/why.png`,
 };
 
 export async function generateMetadata({ params }) {
@@ -28,7 +28,7 @@ export default async function SwadhyayPillarPage({ params }) {
 
   const hero = {
     icon: SEAL,
-    image: `${IMG}/hero.jpg`,
+    image: `${IMG}/hero.png`,
     eyebrow: L({ en: 'The Second Pillar · Self-Study', hi: 'दूसरा स्तंभ · स्वाध्याय', kn: 'ಎರಡನೇ ಸ್ತಂಭ · ಸ್ವಾಧ್ಯಾಯ' }),
     title: L(data.hero.title),
     subtitle: L(data.hero.tagline),
@@ -48,7 +48,7 @@ export default async function SwadhyayPillarPage({ params }) {
     eyebrow: L({ en: 'The Movement', hi: 'आंदोलन', kn: 'ಆಂದೋಲನ' }),
     title: L(jnana.title),
     body: L(jnana.body),
-    image: `${IMG}/jnana-yagya.jpg`,
+    image: `${IMG}/jnana-yagya.png`,
   };
 
   const practice = {

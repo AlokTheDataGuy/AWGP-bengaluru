@@ -135,7 +135,7 @@ export default function PillarPage({
         <span className="pillar-hero__mandala" aria-hidden="true" />
 
         <div className="pillar-hero__inner">
-          <span className="pillar-hero__index" aria-hidden="true">{String(index).padStart(2, '0')}</span>
+          {/* <span className="pillar-hero__index" aria-hidden="true">{String(index).padStart(2, '0')}</span> */}
           <img className="pillar-hero__seal" src={hero.icon} alt="" aria-hidden="true" />
           <span className="pillar-hero__eyebrow">{hero.eyebrow}</span>
           <h1 className="pillar-hero__title">{hero.title}</h1>

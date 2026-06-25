@@ -9,8 +9,8 @@ const SECTION_LABELS = {
   'why-it-matters': { en: 'Why It Matters', hi: 'महत्त्व', kn: 'ಮಹತ್ವ' },
 };
 const SECTION_IMG = {
-  'what-is-sanyam': `${IMG}/meaning.jpg`,
-  'why-it-matters': `${IMG}/why.jpg`,
+  'what-is-sanyam': `${IMG}/meaning.png`,
+  'why-it-matters': `${IMG}/why.png`,
 };
 const TYPE_IMG = {
   'indriya-sanyam': `${IMG}/types/indriya.jpg`,
@@ -31,7 +31,7 @@ export default async function SanyamPillarPage({ params }) {
 
   const hero = {
     icon: SEAL,
-    image: `${IMG}/hero.jpg`,
+    image: `${IMG}/hero.png`,
     eyebrow: L({ en: 'The Third Pillar · Self-Restraint', hi: 'तीसरा स्तंभ · संयम', kn: 'ಮೂರನೇ ಸ್ತಂಭ · ಸಂಯಮ' }),
     title: L(data.hero.title),
     subtitle: L(data.hero.subtitle),
