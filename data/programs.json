@@ -1,115 +1,26 @@
 [
   {
-    "id": "sadhana",
-    "slug": "sadhana",
-    "img": "/assets/programs/akhand-jap.jpeg",
-    "heroColor": "linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)",
-    "schedule": { "en": "Multiple formats — weekly, bi-weekly & seasonal", "hi": "अनेक स्वरूप — साप्ताहिक, पाक्षिक एवं मौसमी", "kn": "ಹಲವು ರೀತಿ — ಸಾಪ್ತಾಹಿಕ, ಪಾಕ್ಷಿಕ ಮತ್ತು ಕಾಲಿಕ" },
-    "title":    { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
-    "subtitle": { "en": "The Heart of Spiritual Practice at AWGP", "hi": "AWGP में आध्यात्मिक साधना का केंद्र", "kn": "AWGP ನಲ್ಲಿ ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಕೇಂದ್ರ" },
-    "intro": { "en": "Sadhana is the cornerstone of personal transformation at AWGP. Guided by Gurudev's teachings, our Sadhana programs include Akhand Jap, Anusthan, Antah-Urja Jagran, Mataji Janm Satabdi Jap, and Chandrayaan Kalp Sadhana — each offering a structured path to deepen your spiritual practice.", "hi": "साधना AWGP में व्यक्तिगत परिवर्तन की आधारशिला है। हमारे साधना कार्यक्रमों में अखंड जप, अनुष्ठान, अंतः-ऊर्जा जागरण, माताजी जन्म शताब्दी जप और चांद्रायण कल्प साधना शामिल हैं।", "kn": "ಸಾಧನೆ AWGP ನಲ್ಲಿ ವೈಯಕ್ತಿಕ ಪರಿವರ್ತನೆಯ ಮೂಲಾಧಾರ. ಅಖಂಡ ಜಪ, ಅನುಷ್ಠಾನ, ಅಂತಃ-ಊರ್ಜಾ ಜಾಗರಣ, ಮಾತಾಜಿ ಜಪ ಮತ್ತು ಚಾಂದ್ರಾಯಣ ಕಲ್ಪ ಸಾಧನೆ ಸೇರಿವೆ." },
-    "points": [
-      { "en": "Akhand Jap — unbroken 6-hour Gayatri Mantra chanting every 2nd Saturday", "hi": "अखंड जप — प्रत्येक दूसरे शनिवार 6 घंटे का अखंड गायत्री मंत्र जप", "kn": "ಅಖಂಡ ಜಪ — ಪ್ರತಿ 2ನೇ ಶನಿವಾರ 6 ಗಂಟೆ ಅಖಂಡ ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ" },
-      { "en": "Anusthan — intensive 9-day practice during Navratri (Chaitra & Ashwin)", "hi": "अनुष्ठान — नवरात्रि में 9 दिन की गहन साधना", "kn": "ಅನುಷ್ಠಾನ — ನವರಾತ್ರಿಯಲ್ಲಿ 9 ದಿನಗಳ ತೀವ್ರ ಸಾಧನೆ" },
-      { "en": "Antah-Urja Jagran — full-day Maun Sadhana with digital detox", "hi": "अंतः-ऊर्जा जागरण — डिजिटल डिटॉक्स के साथ पूर्ण दिन मौन साधना", "kn": "ಅಂತಃ-ಊರ್ಜಾ ಜಾಗರಣ — ಡಿಜಿಟಲ್ ಡಿಟಾಕ್ಸ್‌ನೊಂದಿಗೆ ಪೂರ್ಣ ದಿನ ಮೌನ ಸಾಧನೆ" },
-      { "en": "Mataji Janm Satabdi Jap — special 3-hour Jap every 4th Sunday", "hi": "माताजी जन्म शताब्दी जप — प्रत्येक चौथे रविवार 3 घंटे का विशेष जप", "kn": "ಮಾತಾಜಿ ಜನ್ಮ ಶತಾಬ್ದಿ ಜಪ — ಪ್ರತಿ 4ನೇ ಭಾನುವಾರ 3 ಗಂಟೆ ವಿಶೇಷ ಜಪ" },
-      { "en": "Chandrayaan Kalp Sadhana — lunar-cycle purification and upasana", "hi": "चांद्रायण कल्प साधना — चंद्र-चक्र शुद्धि और उपासना", "kn": "ಚಾಂದ್ರಾಯಣ ಕಲ್ಪ ಸಾಧನೆ — ಚಂದ್ರ-ಚಕ್ರ ಶುದ್ಧಿ ಮತ್ತು ಉಪಾಸನೆ" }
-    ],
-    "festivals": []
+    "id": "yoga-divas-2025",
+    "date": "2025-06-21",
+    "img": "/assets/programs/yoga.jpg",
+    "location": { "en": "Bengaluru Chetna Kendra", "hi": "बेंगलुरु चेतना केंद्र", "kn": "ಬೆಂಗಳೂರು ಚೇತನ ಕೇಂದ್ರ" },
+    "title": { "en": "International Yoga Day", "hi": "अंतर्राष्ट्रीय योग दिवस", "kn": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಯೋಗ ದಿವಸ" },
+    "desc": { "en": "Group yoga, pranayam and meditation on International Yoga Day", "hi": "अंतर्राष्ट्रीय योग दिवस पर समूह योग, प्राणायाम और ध्यान", "kn": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಯೋಗ ದಿವಸದಂದು ಗುಂಪು ಯೋಗ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಧ್ಯಾನ" }
   },
   {
-    "id": "meditation",
-    "slug": "meditation",
-    "img": "/assets/programs/meditation.jpg",
-    "heroColor": "linear-gradient(135deg, #0A2A3D 0%, #1A4A6B 100%)",
-    "schedule": { "en": "Every Sunday · 7:00 AM – 8:00 AM", "hi": "प्रत्येक रविवार · सुबह 7:00 – 8:00 बजे", "kn": "ಪ್ರತಿ ಭಾನುವಾರ · ಬೆಳಿಗ್ಗೆ 7:00 – 8:00" },
-    "title":    { "en": "Meditation", "hi": "ध्यान", "kn": "ಧ್ಯಾನ" },
-    "subtitle": { "en": "Scientific Meditation for the Modern Mind", "hi": "आधुनिक मन के लिए वैज्ञानिक ध्यान", "kn": "ಆಧುನಿಕ ಮನಸ್ಸಿಗಾಗಿ ವೈಜ್ಞಾನಿಕ ಧ್ಯಾನ" },
-    "intro": { "en": "Rooted in Gurudev Pandit Shriram Sharma Acharya's teachings on scientific spirituality, our guided meditation sessions offer a practical path to inner stillness. Combining breath awareness, mantra meditation, and visualisation, these sessions help reduce stress, improve focus, and cultivate lasting inner peace — accessible to anyone, regardless of background.", "hi": "गुरुदेव पंडित श्रीराम शर्मा आचार्य की वैज्ञानिक अध्यात्म की शिक्षाओं पर आधारित, हमारे निर्देशित ध्यान सत्र आंतरिक शांति का एक व्यावहारिक मार्ग प्रदान करते हैं। श्वास जागरूकता, मंत्र ध्यान और दृश्यावलोकन को मिलाकर ये सत्र तनाव कम करते हैं और एकाग्रता बढ़ाते हैं।", "kn": "ಗುರುದೇವ ಪಂಡಿತ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ ಬೋಧನೆಗಳ ಆಧಾರದ ಮೇಲೆ, ನಮ್ಮ ಧ್ಯಾನ ಸತ್ರಗಳು ಆಂತರಿಕ ಶಾಂತಿಯ ಪ್ರಾಯೋಗಿಕ ಮಾರ್ಗ ನೀಡುತ್ತವೆ." },
-    "points": [
-      { "en": "Breath-awareness & mindfulness — calming the restless mind", "hi": "श्वास जागरूकता और माइंडफुलनेस — अशांत मन को शांत करना", "kn": "ಉಸಿರು ಜಾಗೃತಿ ಮತ್ತು ಮೈಂಡ್‌ಫುಲ್‌ನೆಸ್ — ಚಂಚಲ ಮನಸ್ಸನ್ನು ಶಾಂತಗೊಳಿಸುವುದು" },
-      { "en": "Gayatri Mantra meditation — using sacred sound as an anchor", "hi": "गायत्री मंत्र ध्यान — पवित्र ध्वनि को आधार के रूप में उपयोग करना", "kn": "ಗಾಯತ್ರಿ ಮಂತ್ರ ಧ್ಯಾನ — ಪವಿತ್ರ ಶಬ್ದವನ್ನು ಆಧಾರವಾಗಿ ಬಳಸುವುದು" },
-      { "en": "Visualisation & Trataka — sharpening concentration and awareness", "hi": "दृश्यावलोकन और त्राटक — एकाग्रता और जागरूकता को तीव्र करना", "kn": "ದೃಶ್ಯಾವಲೋಕನ ಮತ್ತು ತ್ರಾಟಕ — ಏಕಾಗ್ರತೆ ಮತ್ತು ಜಾಗೃತಿ ಹೆಚ್ಚಿಸುವುದು" },
-      { "en": "Proven benefits — reduces stress, anxiety, and burnout", "hi": "सिद्ध लाभ — तनाव, चिंता और बर्नआउट में कमी", "kn": "ಸಾಬೀತಾದ ಲಾಭಗಳು — ಒತ್ತಡ, ಆತಂಕ ಮತ್ತು ಬರ್ನ್‌ಔಟ್ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ" },
-      { "en": "Open to all — no prior experience required, beginners warmly welcome", "hi": "सभी के लिए खुला — पूर्व अनुभव आवश्यक नहीं, नवागंतुकों का स्वागत", "kn": "ಎಲ್ಲರಿಗೂ ಮುಕ್ತ — ಮೊದಲ ಅನುಭವ ಬೇಡ, ಆರಂಭಿಕರಿಗೆ ಸ್ವಾಗತ" }
-    ],
-    "festivals": []
+    "id": "gayatri-jayanti-2025",
+    "date": "2025-06-25",
+    "img": "/assets/gayatri-mata1.jpeg",
+    "location": { "en": "Bengaluru Chetna Kendra", "hi": "बेंगलुरु चेतना केंद्र", "kn": "ಬೆಂಗಳೂರು ಚೇತನ ಕೇಂದ್ರ" },
+    "title": { "en": "Gayatri Jayanti", "hi": "गायत्री जयंती", "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿ" },
+    "desc": { "en": "Grand celebration with Yagya, Kirtan & Prasad", "hi": "यज्ञ, कीर्तन एवं प्रसाद के साथ भव्य उत्सव", "kn": "ಯಜ್ಞ, ಕೀರ್ತನ ಮತ್ತು ಪ್ರಸಾದದೊಂದಿಗೆ ಮಹಾ ಉತ್ಸವ" }
   },
   {
-    "id": "workshops",
-    "slug": "workshops",
-    "img": "/assets/programs/workshops.jpg",
-    "heroColor": "linear-gradient(135deg, #3D1F0A 0%, #7B1C1C 100%)",
-    "schedule": { "en": "Monthly — announced via WhatsApp group", "hi": "मासिक — WhatsApp समूह पर सूचित किया जाता है", "kn": "ಮಾಸಿಕ — WhatsApp ಗ್ರೂಪ್ ಮೂಲಕ ತಿಳಿಸಲಾಗುತ್ತದೆ" },
-    "title":    { "en": "Workshops & Shivirs", "hi": "कार्यशालाएं एवं शिविर", "kn": "ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು" },
-    "subtitle": { "en": "Transformative Learning for Mind, Body & Spirit", "hi": "मन, शरीर और आत्मा के लिए परिवर्तनकारी शिक्षा", "kn": "ಮನಸ್ಸು, ದೇಹ ಮತ್ತು ಆತ್ಮಕ್ಕಾಗಿ ಪರಿವರ್ತನಕಾರಿ ಕಲಿಕೆ" },
-    "intro": { "en": "Our workshops and shivirs are rooted in Gurudev's vision of Vichar Kranti — a revolution in thought. These sessions bring together ancient Vedic wisdom and practical life skills, helping participants transform themselves from within.", "hi": "हमारी कार्यशालाएं और शिविर गुरुदेव की विचार क्रांति की दृष्टि पर आधारित हैं। ये सत्र प्राचीन वैदिक ज्ञान और व्यावहारिक जीवन कौशल को एक साथ लाते हैं।", "kn": "ನಮ್ಮ ಕಾರ್ಯಾಗಾರಗಳು ಗುರುದೇವರ ವಿಚಾರ ಕ್ರಾಂತಿ ದೃಷ್ಟಿಕೋನದ ಮೇಲೆ ಆಧಾರಿತ." },
-    "points": [
-      { "en": "Scientific Spirituality — understanding the science behind Vedic practices", "hi": "वैज्ञानिक अध्यात्म — वैदिक प्रथाओं के पीछे के विज्ञान को समझना", "kn": "ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ ಕಾರ್ಯಾಗಾರ" },
-      { "en": "Personality Development shivirs for youth", "hi": "युवाओं के लिए व्यक्तित्व विकास शिविर", "kn": "ಯುವಜನರಿಗಾಗಿ ವ್ಯಕ್ತಿತ್ವ ವಿಕಾಸ ಶಿಬಿರ" },
-      { "en": "Family harmony and Sanskar workshops", "hi": "पारिवारिक सद्भाव और संस्कार कार्यशालाएं", "kn": "ಕುಟುಂಬ ಸೌಹಾರ್ದ ಮತ್ತು ಸಂಸ್ಕಾರ ಕಾರ್ಯಾಗಾರ" },
-      { "en": "Shantikunj residential camps — special trips to Haridwar HQ", "hi": "शांतिकुंज आवासीय शिविर — हरिद्वार मुख्यालय की यात्रा", "kn": "ಶಾಂತಿಕುಂಜ ಆವಾಸೀಯ ಶಿಬಿರ" }
-    ],
-    "festivals": []
-  },
-  {
-    "id": "yoga",
-    "slug": "yoga",
-    "img": "/assets/programs/yoga_session.jpg",
-    "heroColor": "linear-gradient(135deg, #1A4A2A 0%, #0A2A1A 100%)",
-    "schedule": { "en": "Monday to Friday · 10:00 AM – 11:00 AM", "hi": "सोमवार से शुक्रवार · सुबह 10:00 – 11:00 बजे", "kn": "ಸೋಮವಾರದಿಂದ ಶುಕ್ರವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 11:00" },
-    "title":    { "en": "Yoga", "hi": "योग", "kn": "ಯೋಗ" },
-    "subtitle": { "en": "Daily Yoga for Body, Breath & Being", "hi": "शरीर, श्वास और आत्मा के लिए दैनिक योग", "kn": "ದೇಹ, ಉಸಿರು ಮತ್ತು ಅಸ್ತಿತ್ವಕ್ಕಾಗಿ ದೈನಂದಿನ ಯೋಗ" },
-    "intro": { "en": "Our weekday yoga sessions are open to all — from beginners to experienced practitioners. Rooted in the Vedic understanding of yoga, each session combines asanas, pranayam, and a closing meditation.", "hi": "हमारे सप्ताहिक योग सत्र सभी के लिए खुले हैं। प्रत्येक सत्र में आसन, प्राणायाम और समापन ध्यान शामिल है।", "kn": "ನಮ್ಮ ವಾರದ ಯೋಗ ಸತ್ರಗಳು ಎಲ್ಲರಿಗೂ ಮುಕ್ತ. ಪ್ರತಿ ಸತ್ರದಲ್ಲಿ ಆಸನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಧ್ಯಾನ ಸೇರಿರುತ್ತದೆ." },
-    "points": [
-      { "en": "Surya Namaskar with Gayatri Mantra", "hi": "गायत्री मंत्र के साथ सूर्य नमस्कार", "kn": "ಗಾಯತ್ರಿ ಮಂತ್ರದೊಂದಿಗೆ ಸೂರ್ಯ ನಮಸ್ಕಾರ" },
-      { "en": "Therapeutic asanas for back pain, stress, and hypertension", "hi": "पीठ दर्द, तनाव के लिए चिकित्सीय आसन", "kn": "ಬೆನ್ನು ನೋವು ಮತ್ತು ಒತ್ತಡಕ್ಕೆ ಚಿಕಿತ್ಸಕ ಆಸನಗಳು" },
-      { "en": "Pranayam — Anulom Vilom, Bhramari, Kapalbhati", "hi": "प्राणायाम — अनुलोम विलोम, भ्रामरी, कपालभाति", "kn": "ಪ್ರಾಣಾಯಾಮ — ಅನುಲೋಮ ವಿಲೋಮ, ಭ್ರಾಮರಿ, ಕಪಾಲಭಾತಿ" },
-      { "en": "Special sessions on International Yoga Day (June 21)", "hi": "अंतर्राष्ट्रीय योग दिवस (21 जून) पर विशेष सत्र", "kn": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಯೋಗ ದಿವಸ (ಜೂನ್ 21) ರಂದು ವಿಶೇಷ ಸತ್ರ" }
-    ],
-    "festivals": []
-  },
-  {
-    "id": "festivals",
-    "slug": "festivals",
-    "img": "/assets/programs/festival.jpg",
-    "heroColor": "linear-gradient(135deg, #7B4A00 0%, #7B1C1C 100%)",
-    "schedule": { "en": "As per Hindu Panchang — see festival list below", "hi": "हिंदू पंचांग के अनुसार", "kn": "ಹಿಂದೂ ಪಂಚಾಂಗ ಅನ್ವಯ" },
-    "title":    { "en": "Festival Celebrations", "hi": "पर्व उत्सव", "kn": "ಹಬ್ಬ ಆಚರಣೆ" },
-    "subtitle": { "en": "Celebrating the Sacred Calendar with Joy & Devotion", "hi": "आनंद और भक्ति के साथ पवित्र पंचांग का उत्सव", "kn": "ಸಂತೋಷ ಮತ್ತು ಭಕ್ತಿಯಿಂದ ಪವಿತ್ರ ಪಂಚಾಂಗ ಆಚರಣೆ" },
-    "intro": { "en": "At AWGP Bengaluru, every festival is more than a celebration — it is a collective spiritual experience. We observe all major Indian festivals with Yagya, kirtan, satsang, and prasad.", "hi": "AWGP बेंगलूरु में प्रत्येक त्योहार केवल उत्सव नहीं — यह एक सामूहिक आध्यात्मिक अनुभव है।", "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ರತಿ ಹಬ್ಬವು ಕೇವಲ ಆಚರಣೆಯಲ್ಲ — ಇದು ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವ." },
-    "points": [],
-    "festivals": [
-      { "name": { "en": "Janmashtami", "hi": "जन्माष्टमी", "kn": "ಜನ್ಮಾಷ್ಟಮಿ" } },
-      { "name": { "en": "Navratri (Chaitra & Ashwin)", "hi": "नवरात्रि (चैत्र एवं आश्विन)", "kn": "ನವರಾತ್ರಿ (ಚೈತ್ರ ಮತ್ತು ಆಶ್ವಿನ)" } },
-      { "name": { "en": "Holi", "hi": "होली", "kn": "ಹೋಳಿ" } },
-      { "name": { "en": "Mahashivratri", "hi": "महाशिवरात्रि", "kn": "ಮಹಾಶಿವರಾತ್ರಿ" } },
-      { "name": { "en": "Basant Panchami / Saraswati Puja", "hi": "बसंत पंचमी / सरस्वती पूजा", "kn": "ಬಸಂತ ಪಂಚಮಿ / ಸರಸ್ವತಿ ಪೂಜೆ" } },
-      { "name": { "en": "Makar Sankranti", "hi": "मकर संक्रांति", "kn": "ಮಕರ ಸಂಕ್ರಾಂತಿ" } },
-      { "name": { "en": "Gayatri Jayanti", "hi": "गायत्री जयंती", "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿ" } },
-      { "name": { "en": "Guru Purnima", "hi": "गुरु पूर्णिमा", "kn": "ಗುರು ಪೂರ್ಣಿಮಾ" } },
-      { "name": { "en": "International Women's Day", "hi": "अंतर्राष्ट्रीय महिला दिवस", "kn": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಮಹಿಳಾ ದಿನ" } },
-      { "name": { "en": "Annual Day — Sneh Milan", "hi": "वार्षिक दिवस — स्नेह मिलन", "kn": "ವಾರ್ಷಿಕ ದಿನ — ಸ್ನೇಹ ಮಿಲನ" } },
-      { "name": { "en": "Ugadi", "hi": "उगादि", "kn": "ಉಗಾದಿ" } },
-      { "name": { "en": "Ganesh Chaturthi", "hi": "गणेश चतुर्थी", "kn": "ಗಣೇಶ ಚತುರ್ಥಿ" } },
-      { "name": { "en": "Raksha Bandhan", "hi": "रक्षा बंधन", "kn": "ರಕ್ಷಾ ಬಂಧನ" } }
-    ]
-  },
-  {
-    "id": "bal-sanskar-shala",
-    "slug": "bal-sanskar-shala",
-    "img": "/assets/programs/bal-sanskar-shala.jpg",
-    "heroColor": "linear-gradient(135deg, #5A3000 0%, #3D1F0A 100%)",
-    "schedule": { "en": "Sundays · 10:00 AM – 12:00 PM", "hi": "रविवार · सुबह 10:00 – 12:00 बजे", "kn": "ಭಾನುವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 12:00" },
-    "title":    { "en": "Bal Sanskar Shala", "hi": "बाल संस्कार शाला", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ" },
-    "subtitle": { "en": "Nurturing Character, Values & Vedic Culture in Children", "hi": "बच्चों में चरित्र, मूल्य और वैदिक संस्कृति का पोषण", "kn": "ಮಕ್ಕಳಲ್ಲಿ ಚಾರಿತ್ರ್ಯ, ಮೌಲ್ಯ ಮತ್ತು ವೈದಿಕ ಸಂಸ್ಕೃತಿ ಪೋಷಣೆ" },
-    "intro": { "en": "Bal Sanskar Shala is a weekly Sunday program for children aged 5–15. Rooted in Gurudev's vision of value-based education, it nurtures character, creativity, and cultural pride through stories, activities, and Vedic teachings.", "hi": "बाल संस्कार शाला 5-15 वर्ष के बच्चों के लिए साप्ताहिक रविवारीय कार्यक्रम है।", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ 5-15 ವರ್ಷ ವಯಸ್ಸಿನ ಮಕ್ಕಳಿಗಾಗಿ ವಾರದ ಭಾನುವಾರ ಕಾರ್ಯಕ್ರಮ." },
-    "points": [
-      { "en": "Stories from Ramayana, Mahabharata, and Gurudev's life", "hi": "रामायण, महाभारत और गुरुदेव के जीवन की कथाएं", "kn": "ರಾಮಾಯಣ, ಮಹಾಭಾರತ ಮತ್ತು ಗುರುದೇವ ಜೀವನ ಕಥೆಗಳು" },
-      { "en": "Gayatri Mantra chanting and basic Yagya participation", "hi": "गायत्री मंत्र जप और बुनियादी यज्ञ में भागीदारी", "kn": "ಗಾಯತ್ರಿ ಮಂತ್ರ ಜಪ ಮತ್ತು ಮೂಲ ಯಜ್ಞ ಭಾಗವಹಿಸುವಿಕೆ" },
-      { "en": "Art, craft, and creative expression with cultural themes", "hi": "सांस्कृतिक विषयों के साथ कला, शिल्प और रचनात्मक अभिव्यक्ति", "kn": "ಸಾಂಸ್ಕೃತಿಕ ವಿಷಯಗಳೊಂದಿಗೆ ಕಲೆ ಮತ್ತು ಸೃಜನಶೀಲ ಅಭಿವ್ಯಕ್ತಿ" },
-      { "en": "Good manners, sewa, and environmental awareness", "hi": "अच्छे आचरण, सेवा और पर्यावरण जागरूकता", "kn": "ಒಳ್ಳೆಯ ಆಚರಣೆ, ಸೇವೆ ಮತ್ತು ಪರಿಸರ ಜಾಗೃತಿ" }
-    ],
-    "festivals": []
+    "id": "guru-purnima-2025",
+    "date": "2025-07-29",
+    "img": "/assets/founders/smile.jpeg",
+    "location": { "en": "Bengaluru Chetna Kendra", "hi": "बेंगलुरु चेतना केंद्र", "kn": "ಬೆಂಗಳೂರು ಚೇತನ ಕೇಂದ್ರ" },
+    "title": { "en": "Guru Purnima", "hi": "गुरु पूर्णिमा", "kn": "ಗುರು ಪೂರ್ಣಿಮಾ" },
+    "desc": { "en": "Special program to honor Param Pujya Gurudev on Ashadha Shukla Purnima", "hi": "आषाढ़ शुक्ल पूर्णिमा पर परम पूज्य गुरुदेव के सम्मान में विशेष कार्यक्रम", "kn": "ಆಷಾಢ ಶುಕ್ಲ ಪೂರ್ಣಿಮೆಯಂದು ಪರಮ ಪೂಜ್ಯ ಗುರುದೇವರಿಗೆ ವಂದಿಸುವ ವಿಶೇಷ ಕಾರ್ಯಕ್ರಮ" }
   }
 ]
