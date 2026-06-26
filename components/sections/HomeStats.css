@@ -1,15 +1,86 @@
 /* =========================================================
-   Home — Stats band
-   Each stat is a large number with its bold label stacked
-   below it, columns split by short vertical rules.
+   Home — Stats band  (dark maroon, matches Gayatri Chetna
+   Kendra section). A compact full-width strip: gold count-up
+   numbers with an icon + label, split by faint gold rules,
+   over an ambient pillar-rays watermark and gold glow.
    ========================================================= */
 
 .home-stats {
-  padding: clamp(2.5rem, 5vw, 4.5rem) clamp(20px, 5vw, 60px);
-  background: linear-gradient(180deg, var(--cream) 0%, #FFF9EF 100%);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: clamp(2.6rem, 5vw, 4rem) var(--page-gutter);
+  background:
+    radial-gradient(120% 90% at 50% -10%, rgba(163, 53, 37, 0.55) 0%, transparent 55%),
+    linear-gradient(165deg, var(--maroon-dk) 0%, var(--maroon) 52%, #6E1E10 100%);
+}
+
+/* Thin gold hairline along the top edge */
+.home-stats::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 2;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--gold) 22%,
+    var(--saffron) 50%,
+    var(--gold) 78%,
+    transparent
+  );
+  opacity: 0.7;
+}
+
+/* Slowly-rotating sunburst watermark, centred behind the numbers */
+.home-stats__rays {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(420px, 60vw, 780px);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  background: url('/assets/designs/pillar-rays.png') center / contain no-repeat;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 0;
+  animation: hsRaysSpin 100s linear infinite;
+}
+
+/* Soft gold bloom for depth */
+.home-stats__glow {
+  position: absolute;
+  left: 50%;
+  bottom: -40%;
+  width: clamp(360px, 50vw, 640px);
+  aspect-ratio: 1;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(249, 199, 79, 0.14) 0%, transparent 66%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .home-stats__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+/* Gold flourish above the row */
+.home-stats__ornament {
+  display: block;
+  width: clamp(160px, 24vw, 240px);
+  height: 22px;
+  margin: 0 auto clamp(1.4rem, 3vw, 2.1rem);
+  background: url('/assets/designs/divider2.png') center / contain no-repeat;
+  opacity: 0.95;
+}
+
+.home-stats__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -19,13 +90,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: clamp(0.35rem, 1vw, 0.75rem);
-  min-height: clamp(130px, 17vw, 210px);
-  padding: 0 clamp(8px, 1.5vw, 20px);
+  text-align: center;
+  padding: 0 clamp(10px, 1.8vw, 24px);
+  /* reveal start */
+  opacity: 0;
+  transform: translateY(26px);
+}
+.home-stats.is-visible .home-stats__item {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: calc(var(--i) * 0.12s);
 }
 
-/* short, vertically-centred divider between columns */
+/* faint gold rule between columns */
 .home-stats__item:not(:last-child)::after {
   content: '';
   position: absolute;
@@ -33,51 +111,84 @@
   right: 0;
   transform: translateY(-50%);
   width: 1px;
-  height: clamp(56px, 9vw, 120px);
-  background: var(--border);
+  height: clamp(66px, 9vw, 112px);
+  background: linear-gradient(to bottom, transparent, rgba(249, 199, 79, 0.34), transparent);
 }
 
-/* large faint number on top */
+/* large gold count-up number */
 .home-stats__num {
   font-family: var(--font-heading);
-  font-size: clamp(2.5rem, 6vw, 5.25rem);
+  font-size: clamp(2.3rem, 5.2vw, 3.9rem);
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1;
-  color: var(--maroon);
-  opacity: 0.08;
+  letter-spacing: -0.02em;
+  /* roomy line-box + padding so background-clip:text doesn't slice glyph tops */
+  line-height: 1.2;
+  padding: 0.06em 0.06em 0;
   white-space: nowrap;
-  user-select: none;
+  color: var(--gold); /* fallback */
+  background: linear-gradient(135deg, var(--gold-lt) 0%, var(--gold) 46%, var(--saffron-lt) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* bold label below the number */
+/* small gold diamond accent between the number and label */
+.home-stats__accent {
+  width: 7px;
+  height: 7px;
+  margin: clamp(0.4rem, 0.9vw, 0.65rem) 0 clamp(0.45rem, 0.9vw, 0.7rem);
+  transform: rotate(45deg);
+  background: var(--gold);
+  box-shadow: 0 0 12px rgba(249, 199, 79, 0.6);
+}
+
+/* label below */
 .home-stats__label {
   font-family: var(--font-heading);
-  font-size: clamp(1.05rem, 1.7vw, 1.4rem);
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  color: var(--text-dark);
-  text-align: center;
+  font-size: clamp(0.9rem, 1.4vw, 1.12rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.82);
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
-
 @media (max-width: 760px) {
-  .home-stats__inner {
+  .home-stats__grid {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: clamp(1rem, 4vw, 2rem);
+    row-gap: clamp(1.6rem, 5vw, 2.4rem);
   }
-  /* drop the divider at the end of each row */
+  /* drop the rule at the end of each row */
   .home-stats__item:nth-child(2n)::after {
     display: none;
   }
 }
 
 @media (max-width: 420px) {
-  .home-stats__inner {
+  .home-stats__grid {
     grid-template-columns: 1fr;
   }
   .home-stats__item::after {
     display: none !important;
+  }
+}
+
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .home-stats__rays {
+    animation: none;
+  }
+  .home-stats__item,
+  .home-stats.is-visible .home-stats__item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none;
+  }
+}
+
+/* ── Keyframes ───────────────────────────────────────────── */
+@keyframes hsRaysSpin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }

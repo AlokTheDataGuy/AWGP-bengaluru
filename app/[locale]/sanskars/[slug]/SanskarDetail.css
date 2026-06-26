@@ -1,0 +1,302 @@
+/* ════════════════════════════════════════════════════════════
+   SANSKAR DETAIL PAGE
+   Gradient bands, mandala blooms, reveal-on-scroll content blocks,
+   benefit cards, prev/next navigation.
+═══════════════════════════════════════════════════════════════ */
+
+/* ── Themed hero (gradient, not photo) ─────────────────────── */
+.skd-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: calc(var(--nav-h) + clamp(26px, 6vw, 58px)) var(--page-gutter) clamp(40px, 7vw, 72px);
+  background: linear-gradient(135deg, var(--maroon) 0%, #5A1A0E 52%, #3D1F0A 100%);
+  color: var(--text-light);
+}
+.skd-hero__glow {
+  position: absolute;
+  top: -28%;
+  right: -8%;
+  width: 58%;
+  aspect-ratio: 1;
+  background: radial-gradient(circle, rgba(249, 199, 79, 0.18) 0%, transparent 60%);
+  z-index: -1;
+  pointer-events: none;
+}
+.skd-hero__mandala {
+  position: absolute;
+  right: -6%;
+  bottom: -34%;
+  width: min(420px, 54vw);
+  aspect-ratio: 1;
+  background: url('/assets/designs/lotus-mandala.png') center / contain no-repeat;
+  opacity: 0.10;
+  z-index: -1;
+  pointer-events: none;
+}
+.skd-hero__inner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.skd-hero__eyebrow {
+  display: block;
+  font-family: var(--font-body);
+  font-size: clamp(0.64rem, 1.2vw, 0.76rem);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-lt);
+  margin-bottom: 1rem;
+}
+.skd-hero__title {
+  font-size: clamp(2rem, 6.4vw, 3.6rem);
+  color: #fff;
+  line-height: 1.12;
+  max-width: 20ch;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+.skd-hero__rule {
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin: clamp(0.9rem, 2vw, 1.3rem) 0;
+  background: linear-gradient(90deg, var(--gold), var(--saffron));
+}
+.skd-hero__subtitle {
+  max-width: 60ch;
+  font-size: clamp(0.98rem, 1.5vw, 1.18rem);
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.7;
+}
+
+.skd {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(48px, 7vw, 90px) var(--page-gutter) clamp(56px, 8vw, 100px);
+  background:
+    radial-gradient(120% 80% at 50% -10%, var(--cream-2) 0%, var(--cream) 45%),
+    linear-gradient(180deg, var(--cream) 0%, #FFF6E4 60%, var(--cream) 100%);
+}
+.skd__bloom {
+  position: absolute;
+  width: clamp(320px, 40vw, 600px);
+  aspect-ratio: 1;
+  background: url('/assets/designs/gayatri-mandala.png') center / contain no-repeat;
+  opacity: 0.05;
+  pointer-events: none;
+}
+.skd__bloom--a { top: 2%;   right: -12%; }
+.skd__bloom--b { bottom: 4%; left: -12%; }
+.skd__inner {
+  position: relative;
+  max-width: 880px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/* Back link */
+.skd__back {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brown);
+  margin-bottom: clamp(1.6rem, 3vw, 2.4rem);
+}
+.skd__back:hover { color: var(--saffron); }
+
+/* ── Shared reveal ─────────────────────────────────────────── */
+.skd-block, .skd-cta {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.skd-block.is-visible, .skd-cta.is-visible { opacity: 1; transform: none; }
+
+/* ── Generic block ─────────────────────────────────────────── */
+.skd-block { margin-bottom: clamp(1.8rem, 4vw, 2.8rem); }
+.skd-block__kicker {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 0.9rem;
+}
+.skd-block__title {
+  font-size: clamp(1.4rem, 2.6vw, 1.95rem);
+  color: var(--maroon);
+  line-height: 1.25;
+}
+.skd-block__title--center { text-align: center; }
+.skd-block p {
+  font-size: clamp(1rem, 1.25vw, 1.08rem);
+  color: var(--text-mid);
+  line-height: 1.85;
+}
+.skd-rule {
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 0.8rem 0 1.1rem;
+  background: linear-gradient(90deg, var(--saffron), var(--gold));
+}
+.skd-rule--gold { background: linear-gradient(90deg, var(--gold), var(--saffron-lt)); }
+.skd-rule--center { margin-left: auto; margin-right: auto; }
+
+/* Lead — sanskar photo beside the introduction text */
+.skd-lead {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: clamp(1.2rem, 3vw, 2.4rem);
+  align-items: center;
+  background: linear-gradient(135deg, rgba(255, 244, 214, 0.7), rgba(255, 253, 247, 0.9));
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--saffron);
+  padding: clamp(1.2rem, 3vw, 2rem);
+  box-shadow: var(--shadow-sm);
+}
+.skd-lead__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  background: linear-gradient(135deg, var(--cream-3), var(--cream-2));
+}
+.skd-lead__text {
+  font-size: clamp(1.02rem, 1.4vw, 1.16rem) !important;
+  color: var(--text-dark) !important;
+  line-height: 1.85;
+}
+@media (max-width: 720px) {
+  .skd-lead { grid-template-columns: 1fr; }
+}
+
+/* Scientific perspective — distinct tinted panel */
+.skd-science {
+  position: relative;
+  background: linear-gradient(135deg, rgba(249, 199, 79, 0.14), rgba(255, 244, 214, 0.45));
+  border: 1px solid rgba(245, 124, 0, 0.22);
+  padding: clamp(1.5rem, 3.2vw, 2.4rem);
+}
+.skd-science__badge {
+  position: absolute;
+  top: clamp(1.2rem, 3vw, 2rem);
+  right: clamp(1.2rem, 3vw, 2rem);
+  font-size: 1.6rem;
+  opacity: 0.85;
+}
+.skd-science .skd-block__title { color: var(--saffron-deep); }
+
+/* ── Benefits ──────────────────────────────────────────────── */
+.skd-benefits {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: clamp(1.6rem, 3.5vw, 2.6rem);
+  box-shadow: var(--shadow-sm);
+}
+.skd-ben-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+  gap: clamp(14px, 2vw, 22px);
+  margin-top: 1.6rem;
+}
+.skd-ben {
+  display: flex;
+  gap: 14px;
+  padding: 1.1rem 1.2rem;
+  background: linear-gradient(135deg, var(--cream), var(--cream-2));
+  border: 1px solid var(--border);
+  border-bottom: 3px solid var(--gold);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skd-ben:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.skd-ben__no {
+  flex-shrink: 0;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--gold);
+  -webkit-text-stroke: 1px var(--saffron);
+}
+.skd-ben__title {
+  font-size: 1.02rem;
+  color: var(--maroon);
+  line-height: 1.3;
+  margin-bottom: 0.35rem;
+}
+.skd-ben__text {
+  font-size: 0.92rem !important;
+  color: var(--text-mid) !important;
+  line-height: 1.6;
+}
+
+/* ── In-page CTA ───────────────────────────────────────────── */
+.skd-cta {
+  position: relative;
+  overflow: hidden;
+  margin: clamp(2.4rem, 5vw, 3.4rem) 0 clamp(1.8rem, 4vw, 2.6rem);
+  padding: clamp(2rem, 4.5vw, 3rem);
+  text-align: center;
+  background: linear-gradient(135deg, var(--maroon) 0%, var(--maroon-dk) 60%, #3D1F0A 100%);
+  color: var(--text-light);
+}
+.skd-cta__inner { position: relative; z-index: 1; max-width: 560px; margin: 0 auto; }
+.skd-cta h2 { color: #fff; font-size: clamp(1.4rem, 2.8vw, 2rem); margin-bottom: 0.8rem; }
+.skd-cta p { color: var(--text-light); line-height: 1.75; margin-bottom: 1.6rem; }
+
+/* ── Prev / Next ───────────────────────────────────────────── */
+.skd-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 1.4rem;
+}
+.skd-nav__link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 1rem 1.2rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  color: var(--maroon);
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.skd-nav__link:hover { border-color: var(--gold); transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.skd-nav__link--next { justify-content: flex-end; text-align: right; }
+.skd-nav__meta { display: flex; flex-direction: column; min-width: 0; }
+.skd-nav__lbl {
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--saffron);
+}
+.skd-nav__name {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--maroon);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.skd-nav__link svg { flex-shrink: 0; color: var(--saffron); }
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 560px) {
+  .skd-nav { grid-template-columns: 1fr; }
+  .skd-nav__link--next { justify-content: flex-start; text-align: left; flex-direction: row-reverse; }
+  .skd-science__badge { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skd-block, .skd-cta { opacity: 1; transform: none; transition: none; }
+  .skd-ben, .skd-nav__link { transition: none; }
+}

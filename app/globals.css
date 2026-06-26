@@ -191,6 +191,9 @@ a:hover { color: var(--maroon); }
    BUTTONS
 ──────────────────────────────────── */
 .btn {
+  position: relative;                /* anchor the animated sheen sweep */
+  isolation: isolate;                /* keep the sheen between bg and label */
+  overflow: hidden;                  /* clip the sheen to the button */
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -207,15 +210,41 @@ a:hover { color: var(--maroon); }
   text-decoration: none;
   white-space: nowrap;
 }
-.btn-primary {
-  background: var(--saffron);
-  color: #fff;
+/* Animated sheen sweep — shared by every button on the site.
+   z-index:-1 keeps it above the background but below the label/icon. */
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -125%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+  z-index: -1;
+  pointer-events: none;
 }
-.btn-primary:hover {
-  background: var(--saffron-deep);
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-gold);
+.btn:hover::before,
+.btn:focus-visible::before { left: 145%; }
+/* Shared hover lift + trailing-icon nudge */
+.btn:hover,
+.btn:focus-visible { transform: translateY(-2px); }
+.btn svg { transition: transform 0.25s ease; }
+.btn:hover svg,
+.btn:focus-visible svg { transform: translateX(3px); }
+
+/* Primary CTA — gold→orange gradient (matches the gallery button) */
+.btn-primary {
+  background: linear-gradient(135deg, var(--gold-lt) 0%, var(--gold) 36%, var(--saffron-lt) 78%, var(--saffron) 100%);
+  color: #2a1c0a;
+  box-shadow: 0 10px 30px rgba(245, 124, 0, 0.30);
+}
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  color: #2a1c0a;
+  box-shadow: 0 16px 42px rgba(245, 124, 0, 0.42);
+  filter: brightness(1.04);
 }
 .btn-outline {
   background: transparent;
@@ -253,6 +282,62 @@ a:hover { color: var(--maroon); }
 .btn-gold-outline:hover {
   background: var(--saffron);
   color: #fff;
+}
+.btn-white {
+  background: #fff;
+  color: var(--maroon);
+}
+.btn-white:hover {
+  background: var(--gold-pale);
+  color: var(--maroon-dk);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(0,0,0,0.22);
+}
+
+/* Respect reduced-motion — drop the sheen, lift and icon nudge */
+@media (prefers-reduced-motion: reduce) {
+  .btn::before { display: none; }
+  .btn:hover,
+  .btn:focus-visible { transform: none; }
+  .btn:hover svg,
+  .btn:focus-visible svg { transform: none; }
+}
+
+/* ────────────────────────────────────
+   BUTTON FX UTILITIES
+   Reusable sheen sweep + hover lift for buttons that live outside the
+   .btn system (navbar, footer, map links…). Pair with the element's own
+   class, e.g. className="footer__jyoti-btn fx-sheen fx-lift".
+   Add fx-lift only where a lift won't be clipped by an overflow:hidden
+   parent (so: not on the segmented language toggle).
+──────────────────────────────────── */
+.fx-sheen {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.fx-sheen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -125%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+  z-index: -1;
+  pointer-events: none;
+}
+.fx-sheen:hover::before,
+.fx-sheen:focus-visible::before { left: 145%; }
+.fx-lift { transition: transform 0.25s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.25s ease; }
+.fx-lift:hover,
+.fx-lift:focus-visible { transform: translateY(-2px); }
+@media (prefers-reduced-motion: reduce) {
+  .fx-sheen::before { display: none; }
+  .fx-lift:hover,
+  .fx-lift:focus-visible { transform: none; }
 }
 
 /* ────────────────────────────────────

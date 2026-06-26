@@ -128,3 +128,20 @@
 
 @media (max-width: 900px) { .index-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .index-grid { grid-template-columns: 1fr; } }
+
+/* ── Staggered card entrance (paired with the Reveal wrapper) ── */
+.index-grid__item {
+  opacity: 0;
+  transform: translateY(28px);
+}
+.idx-grid-section.is-visible .index-grid__item {
+  animation: idxCardRise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i) * 0.08s);
+}
+@keyframes idxCardRise {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .index-grid__item { opacity: 1; transform: none; animation: none; }
+}

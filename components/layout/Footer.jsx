@@ -70,16 +70,16 @@ export default function Footer() {
             </div>
             <p className="footer__tagline">{t('footer_tagline')}</p>
             <div className="footer__social">
-              <a href="https://www.facebook.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="footer__social-btn">
+              <a href="https://www.facebook.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="footer__social-btn fx-sheen fx-lift">
                 <Facebook size={18} aria-hidden="true" />
               </a>
-              <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="footer__social-btn">
+              <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="footer__social-btn fx-sheen fx-lift">
                 <MessageCircle size={18} aria-hidden="true" />
               </a>
-              <a href="https://www.instagram.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="footer__social-btn">
+              <a href="https://www.instagram.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="footer__social-btn fx-sheen fx-lift">
                 <Instagram size={18} aria-hidden="true" />
               </a>
-              <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="footer__social-btn">
+              <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="footer__social-btn fx-sheen fx-lift">
                 <Youtube size={18} aria-hidden="true" />
               </a>
             </div>
@@ -101,7 +101,7 @@ export default function Footer() {
               </li>
               <li>
                 <Mail size={16} aria-hidden="true" />
-                <a href="mailto:bangalore.ka.in@awgp.org">bangalore.ka.in@awgp.org</a>
+                <a href="mailto:connect@awgp.org">connect@awgp.org</a>
               </li>
               <li>
                 <MapPin size={16} aria-hidden="true" />
@@ -138,7 +138,7 @@ export default function Footer() {
                 href="https://literature.awgp.org/magazine/akhandjyoti"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="footer__jyoti-btn"
+                className="footer__jyoti-btn fx-sheen fx-lift"
               >
                 {L('Subscribe Now', 'अभी सदस्यता लें', 'ಈಗ ಚಂದಾದಾರರಾಗಿ')}
                 <ArrowRight size={16} aria-hidden="true" />

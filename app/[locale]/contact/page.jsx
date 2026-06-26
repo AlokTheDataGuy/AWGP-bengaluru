@@ -111,7 +111,7 @@ export default async function ContactPage({ params }) {
               <a
                 href="https://maps.google.com?q=37,+Lakshmi+Layout+Main+Rd,+Chikka+Begur,+Begur,+Bengaluru,+Karnataka+560114"
                 target="_blank" rel="noopener noreferrer"
-                className="map-directions-btn"
+                className="map-directions-btn fx-sheen fx-lift"
               >
                 📍 {L('Get Directions', 'दिशा-निर्देश पाएं', 'ದಾರಿ ತೋರಿಸಿ')}
               </a>

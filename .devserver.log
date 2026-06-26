@@ -3,116 +3,15 @@
 > next dev --turbopack
 
    ▲ Next.js 15.5.15 (Turbopack)
-   - Local:        http://localhost:3000
-   - Network:      http://172.22.208.1:3000
+   - Local:        http://localhost:3001
+   - Network:      http://172.22.208.1:3001
    - Environments: .env.local
    - Experiments (use with caution):
      · turbo
 
  ✓ Starting...
- ✓ Compiled middleware in 149ms
- ✓ Ready in 1551ms
+ ✓ Compiled middleware in 135ms
+ ✓ Ready in 1566ms
  ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 2.8s
- GET /en 200 in 4510ms
- GET /en 200 in 415ms
- GET /en 200 in 436ms
- ○ Compiling /[locale]/media/gallery ...
- ✓ Compiled /[locale]/media/gallery in 789ms
- GET /en/media/gallery 200 in 2139ms
- GET /en 200 in 435ms
- ○ Compiling /[locale]/events ...
- ✓ Compiled /[locale]/events in 886ms
- GET /en/events 200 in 1937ms
- GET /en 200 in 389ms
- GET /en 200 in 716ms
- GET /en 200 in 1345ms
- ○ Compiling /[locale]/about ...
- ✓ Compiled /[locale]/about in 973ms
- GET /en/about 200 in 2337ms
- GET /en/about 200 in 404ms
- GET /en/about 200 in 284ms
- ○ Compiling /[locale]/sanskars ...
- ✓ Compiled /[locale]/sanskars in 659ms
- GET /en/sanskars 200 in 1624ms
- ○ Compiling /[locale]/events/[slug] ...
- ✓ Compiled /[locale]/events/[slug] in 734ms
- GET /en/events/festivals 200 in 1757ms
- GET /en/events/festivals 200 in 266ms
- GET /en 200 in 327ms
- GET /en 200 in 1359ms
- GET /en 200 in 1178ms
- GET /en 200 in 895ms
- ✓ Compiled in 329ms
- ✓ Compiled in 272ms
- ✓ Compiled in 225ms
- ✓ Compiled in 276ms
- ✓ Compiled in 787ms
- ✓ Compiled in 242ms
- ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 603ms
- GET /en 200 in 5751ms
- GET /en 200 in 1731ms
- GET /en 200 in 2615ms
- GET /en 200 in 4540ms
- GET /en 200 in 2161ms
- ✓ Compiled in 739ms
- ✓ Compiled in 363ms
- ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 551ms
- GET /en 200 in 5618ms
- GET /en 200 in 2164ms
- ✓ Compiled in 445ms
- ✓ Compiled /[locale] in 404ms
- GET /en 200 in 4762ms
- ✓ Compiled middleware in 4ms
- ✓ Compiled middleware in 5ms
- ✓ Compiled middleware in 8ms
- ○ Compiling /[locale]/sadhana ...
- ✓ Compiled /[locale]/sadhana in 3.3s
- GET /en/sadhana 200 in 4893ms
- ○ Compiling /[locale]/swadhyay ...
- ✓ Compiled /[locale]/swadhyay in 1255ms
- GET /en/swadhyay 200 in 3227ms
- ○ Compiling /[locale]/sanyam ...
- ✓ Compiled /[locale]/sanyam in 1152ms
- GET /en/sanyam 200 in 3144ms
- ○ Compiling /[locale]/seva ...
- ✓ Compiled /[locale]/seva in 1138ms
- GET /en/seva 200 in 3237ms
- GET /en/seva 200 in 1536ms
- GET /en/sanyam 200 in 1233ms
- GET /hi/sadhana 200 in 1083ms
- GET /kn/sanyam 200 in 1130ms
- GET /hi/swadhyay 200 in 1168ms
- GET /kn/seva 200 in 1246ms
- GET /hi/sadhana 200 in 1290ms
- GET /kn/sanyam 200 in 1700ms
- ✓ Compiled in 238ms
- ✓ Compiled /[locale] in 440ms
- GET /en 200 in 4629ms
- ✓ Compiled in 417ms
- ✓ Compiled in 203ms
- ✓ Compiled /[locale] in 158ms
- GET /en 200 in 4585ms
- GET /en 200 in 2044ms
- GET /en 200 in 3003ms
- GET /hi 200 in 2916ms
- GET /en/sadhana 200 in 1582ms
- GET /en/swadhyay 200 in 1369ms
- GET /en/sanyam 200 in 1574ms
- GET /en/seva 200 in 1180ms
- ✓ Compiled in 302ms
- ✓ Compiled in 339ms
- ✓ Compiled in 615ms
- ✓ Compiled in 213ms
- ✓ Compiled in 279ms
- ✓ Compiled in 188ms
- ✓ Compiled in 234ms
- ✓ Compiled in 261ms
- ✓ Compiled in 283ms
- ✓ Compiled in 260ms
- ✓ Compiled in 283ms
- ✓ Compiled in 214ms
- ✓ Compiled in 224ms
- ✓ Compiled in 277ms
+ ✓ Compiled /[locale] in 3.1s
+ GET /en 200 in 4824ms

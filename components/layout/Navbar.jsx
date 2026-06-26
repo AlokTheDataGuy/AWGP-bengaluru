@@ -196,7 +196,7 @@ export default function Navbar() {
             {LANGS.map(({ code, label: lbl }) => (
               <button
                 key={code}
-                className={`lang-btn${locale === code ? ' lang-btn--active' : ''}`}
+                className={`lang-btn fx-sheen${locale === code ? ' lang-btn--active' : ''}`}
                 onClick={() => switchLocale(code)}
               >
                 {lbl}
@@ -208,7 +208,7 @@ export default function Navbar() {
             href={JOIN_FORM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="navbar__join-btn"
+            className="navbar__join-btn fx-sheen"
           >
             {locale === 'hi' ? 'जुड़ें' : locale === 'kn' ? 'ಸೇರಿ' : 'Join Us'}
           </a>
@@ -356,7 +356,7 @@ export default function Navbar() {
             href={JOIN_FORM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="navbar__join-btn navbar__join-btn--mobile"
+            className="navbar__join-btn navbar__join-btn--mobile fx-sheen"
             onClick={() => setOpen(false)}
           >
             {locale === 'hi' ? 'परिवार से जुड़ें' : locale === 'kn' ? 'ಪರಿವಾರ ಸೇರಿ' : 'Join the Pariwar'}
@@ -369,7 +369,7 @@ export default function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={label}
-                className="navbar__mobile-social-btn"
+                className="navbar__mobile-social-btn fx-sheen fx-lift"
               >
                 <Icon size={18} aria-hidden="true" />
               </a>

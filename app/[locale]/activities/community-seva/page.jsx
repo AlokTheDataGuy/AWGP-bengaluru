@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
+import Reveal from '../../../../components/ui/Reveal';
+import ReadMore from '../../../../components/ui/ReadMore';
 import activitiesData from '../../../../data/activities.json';
 import '../../../../components/ui/DetailPage.css';
 import '../../../../components/ui/CommunitySeva.css';
@@ -66,8 +68,8 @@ export default async function CommunitySeva({ params }) {
               </p>
 
               <div className="cseva-grid">
-                {sevaForms.map((form) => (
-                  <div key={form.id} className="cseva-card">
+                {sevaForms.map((form, idx) => (
+                  <Reveal as="article" key={form.id} className="cseva-card" style={{ '--i': idx }}>
                     <div className="cseva-card__img-wrap">
                       <Image
                         src={form.img}
@@ -84,7 +86,9 @@ export default async function CommunitySeva({ params }) {
                         <h3 className="cseva-card__title">{L(form.title)}</h3>
                         <span className="cseva-card__schedule">🕐 {L(form.schedule)}</span>
                       </div>
-                      <p className="cseva-card__desc">{L(form.intro)}</p>
+                      <ReadMore locale={locale} lines={4} mobileLines={3}>
+                        <p className="cseva-card__desc">{L(form.intro)}</p>
+                      </ReadMore>
                       {form.points?.length > 0 && (
                         <>
                           <h4 className="cseva-card__highlights-heading">{highlightsLabel}</h4>
@@ -97,7 +101,7 @@ export default async function CommunitySeva({ params }) {
                         {locale === 'hi' ? 'और जानें →' : locale === 'kn' ? 'ಇನ್ನಷ್ಟು →' : 'Learn More →'}
                       </Link>
                     </div>
-                  </div>
+                  </Reveal>
                 ))}
               </div>
             </div>

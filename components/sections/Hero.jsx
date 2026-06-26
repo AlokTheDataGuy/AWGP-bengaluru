@@ -11,13 +11,13 @@ const SLIDES = [
   {
     id: 'home',
     image: '/assets/homepage/hero/hero.png',
-    imageMobile: '/assets/homepage/hero/mashal_mob.png',
+    imageMobile: '/assets/homepage/hero/about_us_bg.jpg',
     en: {
       eyebrow: 'All World Gayatri Pariwar',
       title: 'Welcome to Gayatri Pariwar Bengaluru',
-      sub: 'Scientific spirituality, community, and selfless service — rooted in Gayatri Sadhana.',
-      subMobile: 'Scientific spirituality, community, and selfless service.',
-      cta: 'Explore Events', ctaHref: '/events',
+      // sub: 'Scientific spirituality, community, and selfless service — rooted in Gayatri Sadhana.',
+      // subMobile: 'Scientific spirituality, community, and selfless service.',
+      cta: 'Explore', ctaHref: '/homepath',
       cta2: 'Who We Are',   cta2Href: '/about',
     },
     hi: {
@@ -40,7 +40,7 @@ const SLIDES = [
   {
     id: 'about',
     image: '/assets/homepage/hero/about-hero.png',
-    imageMobile: '/assets/mobile_imgs/about_us_bg.jpg',
+    imageMobile: '/assets/homepage/hero/mashal_mob.png',
     en: {
       eyebrow: 'Our Story',
       title: 'Meet the Gayatri Parivar',
@@ -165,7 +165,7 @@ const SLIDES = [
   },
   {
     id: 'gau-seva',
-    image: '/assets/homepage/hero/gau-seva-hero.png',
+    image: '/assets/homepage/hero/gau-seva-hero-mob.png',
     en: {
       eyebrow: 'Gau-Seva',
       title: 'Honour the Sacred Cow',
@@ -312,11 +312,11 @@ export default function Hero() {
           </div>
 
           {/* Brand anchor line — fixed Devanagari mantra, in the quote serif */}
-          {active.id === 'home' && (
+          {/* {active.id === 'home' && (
             <p className="hero__mantra" lang="hi">
               हम बदलेंगे, युग बदलेगा | हम सुधरेंगे, युग सुधरेगा |
             </p>
-          )}
+          )} */}
 
           <div className="hero__actions">
             <Link href={d.ctaHref} className="btn btn-primary hero__cta">{d.cta}</Link>

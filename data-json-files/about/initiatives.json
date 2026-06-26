@@ -117,16 +117,16 @@
     },
     "ornament": "✨",
     "note": {
-      "en": "Drawn from Gurudev's book Hamare Sapt Andolan, these seven constructive movements turn inner transformation into visible social change — without any discrimination of faith, caste, or status.",
-      "hi": "गुरुदेव की पुस्तक 'हमारे सप्त आंदोलन' से लिए गए ये सात रचनात्मक आंदोलन आंतरिक रूपांतरण को प्रत्यक्ष सामाजिक परिवर्तन में बदलते हैं — मत, जाति या स्थिति के भेद बिना।",
-      "kn": "ಗುರುದೇವರ 'ಹಮಾರೆ ಸಪ್ತ ಆಂದೋಲನ' ಪುಸ್ತಕದಿಂದ ಪಡೆದ ಈ ಏಳು ರಚನಾತ್ಮಕ ಆಂದೋಲನಗಳು ಆಂತರಿಕ ರೂಪಾಂತರವನ್ನು ಗೋಚರ ಸಾಮಾಜಿಕ ಬದಲಾವಣೆಯಾಗಿ ಪರಿವರ್ತಿಸುತ್ತವೆ — ಮತ, ಜಾತಿ ಅಥವಾ ಸ್ಥಿತಿಯ ಭೇದವಿಲ್ಲದೆ."
+      "en": "Gurudev entrusted the Gayatri Pariwar with these seven movements — practical missions for every awakened soul to fulfil, carrying inner transformation into visible social change for all, without distinction of faith, caste, or status.",
+      "hi": "गुरुदेव ने गायत्री परिवार को ये सात आंदोलन सौंपे — हर जाग्रत आत्मा के पूर्ण करने योग्य व्यावहारिक मिशन, जो आंतरिक रूपांतरण को प्रत्यक्ष सामाजिक परिवर्तन में बदलते हैं — मत, जाति या स्थिति के भेद बिना, सबके लिए।",
+      "kn": "ಗುರುದೇವರು ಗಾಯತ್ರಿ ಪರಿವಾರಕ್ಕೆ ಈ ಏಳು ಆಂದೋಲನಗಳನ್ನು ವಹಿಸಿಕೊಟ್ಟರು — ಪ್ರತಿ ಜಾಗೃತ ಆತ್ಮ ಪೂರ್ಣಗೊಳಿಸಬೇಕಾದ ಪ್ರಾಯೋಗಿಕ ಮಿಷನ್‌ಗಳು, ಆಂತರಿಕ ರೂಪಾಂತರವನ್ನು ಗೋಚರ ಸಾಮಾಜಿಕ ಬದಲಾವಣೆಯಾಗಿ ಪರಿವರ್ತಿಸುತ್ತವೆ — ಮತ, ಜಾತಿ ಅಥವಾ ಸ್ಥಿತಿಯ ಭೇದವಿಲ್ಲದೆ, ಎಲ್ಲರಿಗೂ."
     },
     "bookUrl": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1",
     "movements": [
       {
         "key": "sadhana",
         "icon": "🧘",
-        "img": "/assets/misc/vichar.jpg",
+        "img": "/assets/sapt_andolan/sadhna.png",
         "name": { "en": "Sadhana Andolan", "hi": "साधना आंदोलन", "kn": "ಸಾಧನಾ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement for Spiritual Practice",
@@ -160,7 +160,7 @@
       {
         "key": "swasthya",
         "icon": "💪",
-        "img": "/assets/activities/hospital-visit.jpg",
+        "img": "/assets/sapt_andolan/swasth.jpg",
         "name": { "en": "Swasthya Andolan", "hi": "स्वास्थ्य आंदोलन", "kn": "ಸ್ವಾಸ್ಥ್ಯ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement for Health & Healing",
@@ -194,7 +194,7 @@
       {
         "key": "swavalamban",
         "icon": "🪕",
-        "img": "/assets/activities/seva.jpg",
+        "img": "/assets/sapt_andolan/swablamban.jpg",
         "name": { "en": "Swavalamban Andolan", "hi": "स्वावलंबन आंदोलन", "kn": "ಸ್ವಾವಲಂಬನ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement for Self-reliance",
@@ -228,7 +228,7 @@
       {
         "key": "paryavaran",
         "icon": "🌳",
-        "img": "/assets/activities/tree-plantation.jpg",
+        "img": "/assets/sapt_andolan/paryavaran.jpg",
         "name": { "en": "Paryavaran Andolan", "hi": "पर्यावरण आंदोलन", "kn": "ಪರಿಸರ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement for the Environment",
@@ -262,7 +262,7 @@
       {
         "key": "nari",
         "icon": "🌸",
-        "img": "/assets/programs/workshops.jpg",
+        "img": "/assets/sapt_andolan/nari.jpg",
         "name": { "en": "Nari Jagran Andolan", "hi": "नारी जागरण आंदोलन", "kn": "ನಾರಿ ಜಾಗರಣ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement for Women's Awakening",
@@ -296,7 +296,7 @@
       {
         "key": "vyasan-mukti",
         "icon": "🚭",
-        "img": "/assets/activities/food-distribution.jpg",
+        "img": "/assets/sapt_andolan/nasha-mukti.jpg",
         "name": { "en": "Vyasan Mukti Andolan", "hi": "व्यसन मुक्ति आंदोलन", "kn": "ವ್ಯಸನ ಮುಕ್ತಿ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement for Freedom from Addiction",
@@ -330,7 +330,7 @@
       {
         "key": "kuriti-unmoolan",
         "icon": "🤝",
-        "img": "/assets/activities/blood-camp.jpg",
+        "img": "/assets/sapt_andolan/kuriti-unmoolan.png",
         "name": { "en": "Kuriti Unmoolan Andolan", "hi": "कुरीति उन्मूलन आंदोलन", "kn": "ಕುರೀತಿ ನಿರ್ಮೂಲನ ಆಂದೋಲನ" },
         "subtitle": {
           "en": "Movement to End Harmful Customs",

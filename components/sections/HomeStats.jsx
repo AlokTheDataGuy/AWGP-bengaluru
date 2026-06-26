@@ -5,17 +5,21 @@ import { useLocale } from 'next-intl';
 import './HomeStats.css';
 
 const STATS = [
-  { num: '40+',   labelEn: 'Years of Service',  labelHi: 'सेवा के वर्ष',        labelKn: 'ಸೇವೆಯ ವರ್ಷಗಳು' },
-  { num: '5000+', labelEn: 'Pariwar Members',   labelHi: 'परिवार सदस्य',        labelKn: 'ಪರಿವಾರ ಸದಸ್ಯರು' },
-  { num: '12+',   labelEn: 'Active Programs',   labelHi: 'सक्रिय कार्यक्रम',     labelKn: 'ಸಕ್ರಿಯ ಕಾರ್ಯಕ್ರಮಗಳು' },
-  { num: '200+',  labelEn: 'Yagyas Per Year',   labelHi: 'प्रति वर्ष यज्ञ',      labelKn: 'ಪ್ರತಿ ವರ್ಷ ಯಜ್ಞಗಳು' },
+  { num: '15Cr+',  labelEn: 'Members',               labelHi: 'सदस्य',                       labelKn: 'ಸದಸ್ಯರು' },
+  { num: '3500+',  labelEn: 'Centers',               labelHi: 'केंद्र',                       labelKn: 'ಕೇಂದ್ರಗಳು' },
+  { num: '1.5Lc+', labelEn: 'Volunteers',            labelHi: 'स्वयंसेवक',                   labelKn: 'ಸ್ವಯಂಸೇವಕರು' },
+  { num: '100+',   labelEn: 'Activities & Programs', labelHi: 'गतिविधियाँ एवं कार्यक्रम',     labelKn: 'ಚಟುವಟಿಕೆಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳು' },
 ];
 
-/* "5000+" -> { target: 5000, suffix: '+' } */
+/* "15Cr+" -> { target: 15, suffix: 'Cr+', decimals: 0 }
+   "1.5Lc+" -> { target: 1.5, suffix: 'Lc+', decimals: 1 } */
 function parseNum(raw) {
-  const m = String(raw).match(/^(\d[\d,]*)(.*)$/);
-  if (!m) return { target: 0, suffix: raw };
-  return { target: parseInt(m[1].replace(/,/g, ''), 10), suffix: m[2] };
+  const m = String(raw).match(/^(\d[\d,]*(?:\.\d+)?)(.*)$/);
+  if (!m) return { target: 0, suffix: raw, decimals: 0 };
+  const numStr = m[1].replace(/,/g, '');
+  const dot = numStr.indexOf('.');
+  const decimals = dot === -1 ? 0 : numStr.length - dot - 1;
+  return { target: parseFloat(numStr), suffix: m[2], decimals };
 }
 
 function prefersReducedMotion() {
@@ -25,7 +29,7 @@ function prefersReducedMotion() {
 }
 
 function StatNum({ raw, run }) {
-  const { target, suffix } = parseNum(raw);
+  const { target, suffix, decimals } = parseNum(raw);
   const [value, setValue] = useState(0);
 
   useEffect(() => {
@@ -40,7 +44,7 @@ function StatNum({ raw, run }) {
     const tick = (now) => {
       const p = Math.min((now - t0) / duration, 1);
       const eased = 1 - Math.pow(1 - p, 3); // easeOutCubic
-      setValue(Math.round(eased * target));
+      setValue(eased * target);
       if (p < 1) rafId = requestAnimationFrame(tick);
     };
     rafId = requestAnimationFrame(tick);
@@ -49,7 +53,7 @@ function StatNum({ raw, run }) {
 
   return (
     <span className="home-stats__num" aria-hidden="true">
-      {value}{suffix}
+      {value.toFixed(decimals)}{suffix}
     </span>
   );
 }
@@ -78,16 +82,32 @@ export default function HomeStats() {
   }, []);
 
   return (
-    <section className="home-stats" ref={ref}>
+    <section className={`home-stats ${run ? 'is-visible' : ''}`} ref={ref}>
+      <span className="home-stats__rays" aria-hidden="true" />
+      <span className="home-stats__glow" aria-hidden="true" />
+
       <div className="home-stats__inner section-inner">
-        {STATS.map((s) => (
-          <div key={s.labelEn} className="home-stats__item">
-            <StatNum raw={s.num} run={run} />
-            <span className="home-stats__label">
-              {L(s.labelEn, s.labelHi, s.labelKn)}
-            </span>
-          </div>
-        ))}
+        <span className="home-stats__ornament" aria-hidden="true" />
+
+        <div className="home-stats__grid">
+          {STATS.map((s, i) => {
+            const label = L(s.labelEn, s.labelHi, s.labelKn);
+            return (
+              <div
+                key={s.labelEn}
+                className="home-stats__item"
+                style={{ '--i': i + 1 }}
+                aria-label={`${s.num} ${label}`}
+              >
+                <StatNum raw={s.num} run={run} />
+                <span className="home-stats__accent" aria-hidden="true" />
+                <span className="home-stats__label" aria-hidden="true">
+                  {label}
+                </span>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

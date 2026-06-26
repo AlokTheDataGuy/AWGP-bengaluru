@@ -95,7 +95,7 @@
   color: var(--text-light);
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.14);
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.25s ease;
 }
 .footer__social-btn:hover {
   background: var(--gold);
@@ -184,7 +184,7 @@
   background: var(--saffron);
   padding: 0.7rem 1.1rem;
   text-decoration: none;
-  transition: background 0.2s;
+  transition: background 0.2s, transform 0.25s ease;
 }
 .footer__jyoti-btn:hover { background: var(--saffron-deep); }
 .footer__jyoti-btn svg { transition: transform 0.2s; }

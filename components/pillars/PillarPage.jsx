@@ -1,7 +1,7 @@
 'use client';
 
 import { Link } from '../../lib/i18n/navigation';
-import { useReveal } from '../../lib/useReveal';
+import Reveal from '../ui/Reveal';
 import './PillarPage.css';
 
 /* ── Canonical order of the four pillars (matches HomePillars) ──
@@ -84,16 +84,6 @@ const ArrowIcon = () => (
     <polyline points="13 6 19 12 13 18" />
   </svg>
 );
-
-/** Wrap a block so it reveals on scroll (adds `.is-visible` in view). */
-function Reveal({ as: Tag = 'section', className = '', children, ...rest }) {
-  const ref = useReveal(0.12);
-  return (
-    <Tag ref={ref} className={className} {...rest}>
-      {children}
-    </Tag>
-  );
-}
 
 /** A framed visual that gracefully falls back to a warm gradient + the
  *  pillar medallion when its background image is missing. */

@@ -34,7 +34,7 @@
     "schedule": { "en": "Throughout the year — various scales and formats", "hi": "वर्ष भर — विभिन्न स्तरों और प्रारूपों में", "kn": "ವರ್ಷವಿಡೀ — ವಿವಿಧ ಪ್ರಮಾಣ ಮತ್ತು ಸ್ವರೂಪಗಳಲ್ಲಿ" },
     "title":    { "en": "Yagya Events", "hi": "यज्ञ आयोजन", "kn": "ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು" },
     "subtitle": { "en": "Sacred Fire Ceremonies at Every Scale", "hi": "हर स्तर पर पवित्र अग्नि अनुष्ठान", "kn": "ಪ್ರತಿ ಮಟ್ಟದಲ್ಲಿ ಪವಿತ್ರ ಅಗ್ನಿ ಅನುಷ್ಠಾನ" },
-    "intro": { "en": "Yagya is the cornerstone of AWGP's spiritual practice. We organise Yagyas at multiple scales — from intimate home ceremonies to large community events. Our trained volunteers conduct Yagyas at members' homes free of charge.", "hi": "यज्ञ AWGP की आध्यात्मिक साधना की आधारशिला है।", "kn": "ಯಜ್ಞವು AWGP ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಮೂಲಾಧಾರ." },
+    "intro": { "en": "Yagya is the cornerstone of AWGP's spiritual practice. We organise Yagyas at multiple scales — from intimate home ceremonies to large community events. Our trained volunteers conduct Yagyas at members' homes.", "hi": "यज्ञ AWGP की आध्यात्मिक साधना की आधारशिला है।", "kn": "ಯಜ್ಞವು AWGP ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಮೂಲಾಧಾರ." },
     "points": [],
     "festivals": [],
     "yagyaTypes": [
@@ -42,7 +42,7 @@
       { "name": { "en": "5-Kundi Yagya", "hi": "5 कुंडीय यज्ञ", "kn": "5-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Medium-scale ceremony for special occasions and festivals", "hi": "विशेष अवसरों के लिए मध्यम स्तरीय अनुष्ठान", "kn": "ವಿಶೇಷ ಸಂದರ್ಭಗಳಿಗಾಗಿ ಮಧ್ಯಮ ಪ್ರಮಾಣದ ಅನುಷ್ಠಾನ" } },
       { "name": { "en": "3-Kundi Yagya", "hi": "3 कुंडीय यज्ञ", "kn": "3-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Standard size — ideal for Navratri, Janmashtami and community events", "hi": "मानक आकार — नवरात्रि, जन्माष्टमी के लिए", "kn": "ಪ್ರಮಾಣಿತ ಗಾತ್ರ — ನವರಾತ್ರಿ ಮತ್ತು ಸಾಮುದಾಯಿಕ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ" } },
       { "name": { "en": "24-Kundi Yagya", "hi": "24 कुंडीय यज्ञ", "kn": "24-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Grand ceremony — 24 fire pits representing the 24 syllables of the Gayatri Mantra", "hi": "24 अग्नि कुंड — गायत्री मंत्र के 24 अक्षरों का प्रतीक", "kn": "24 ಅಗ್ನಿ ಕುಂಡ — ಗಾಯತ್ರಿ ಮಂತ್ರದ 24 ಅಕ್ಷರಗಳ ಪ್ರತೀಕ" } },
-      { "name": { "en": "Volunteer Home Yagya", "hi": "स्वयंसेवक घर यज्ञ", "kn": "ಸ್ವಯಂಸೇವಕ ಮನೆ ಯಜ್ಞ" }, "desc": { "en": "Our volunteers come to your home for any Sanskar or occasion — free of charge", "hi": "हमारे स्वयंसेवक आपके घर किसी भी संस्कार के लिए निःशुल्क आते हैं", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ನಿಮ್ಮ ಮನೆಗೆ ಉಚಿತವಾಗಿ ಬರುತ್ತಾರೆ" } }
+      { "name": { "en": "Volunteer Home Yagya", "hi": "स्वयंसेवक घर यज्ञ", "kn": "ಸ್ವಯಂಸೇವಕ ಮನೆ ಯಜ್ಞ" }, "desc": { "en": "Our volunteers come to your home for any Sanskar or occasion", "hi": "हमारे स्वयंसेवक आपके घर किसी भी संस्कार के लिए आते हैं", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ನಿಮ್ಮ ಮನೆಗೆ ಉಚಿತವಾಗಿ ಬರುತ್ತಾರೆ" } }
     ]
   },
   {

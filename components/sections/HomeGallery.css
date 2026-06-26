@@ -9,8 +9,8 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  padding-top: clamp(64px, 8vw, 104px);
-  padding-bottom: clamp(64px, 8vw, 104px);
+  padding-top: clamp(2.2rem, 4vw, 3.2rem);
+  padding-bottom: clamp(2.2rem, 4vw, 3.2rem);
   background:
     radial-gradient(120% 90% at 50% -10%, rgba(163, 53, 37, 0.55) 0%, transparent 55%),
     linear-gradient(165deg, var(--maroon-dk) 0%, var(--maroon) 52%, #6E1E10 100%);
@@ -24,52 +24,44 @@
   width: min(920px, 130%);
   aspect-ratio: 1;
   transform: translate(-50%, -50%);
-  background: url('/assets/designs/lotus-mandala.png') center / contain no-repeat;
+  background: url('/assets/designs/design8.png') center / contain no-repeat;
   opacity: 0.06;
   z-index: 0;
   pointer-events: none;
   animation: gallery-spin 100s linear infinite;
 }
 
-/* ── Header ───────────────────────────────────────────────── */
-.home-gallery__head {
+/* ── Header bar (compact, inline CTA) ─────────────────────── */
+.home-gallery__bar {
   position: relative;
   z-index: 1;
-  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  flex-wrap: wrap;
   padding: 0 var(--page-gutter);
-  margin-bottom: clamp(2.5rem, 5vw, 3.75rem);
+  margin-bottom: clamp(1.25rem, 2.6vw, 1.9rem);
+}
+.home-gallery__head {
+  text-align: left;
 }
 .home-gallery__eyebrow {
-  display: inline-block;
+  display: block;
   font-family: var(--font-heading);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.26em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.4rem;
 }
 .home-gallery__title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 4vw, 2.9rem);
+  font-size: clamp(1.3rem, 2.6vw, 1.85rem);
   font-weight: 700;
   color: #fff;
   line-height: 1.2;
-}
-.home-gallery__sub {
-  max-width: 40rem;
-  margin: 0.9rem auto 0;
-  font-size: clamp(0.95rem, 1.4vw, 1.04rem);
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.62);
-}
-.home-gallery__divider {
-  display: block;
-  width: min(230px, 62%);
-  height: 26px;
-  margin: 1.3rem auto 0;
-  background: url('/assets/designs/divider2.png') center / contain no-repeat;
-  opacity: 0.92;
 }
 
 /* ── Marquee ──────────────────────────────────────────────── */
@@ -78,7 +70,7 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: clamp(0.9rem, 1.6vw, 1.35rem);
+  gap: clamp(0.7rem, 1.3vw, 1.1rem);
 }
 
 .gallery-row {
@@ -106,8 +98,8 @@
 .gallery-item {
   position: relative;
   display: block;
-  width: clamp(220px, 26vw, 320px);
-  height: clamp(150px, 18vw, 218px);
+  width: clamp(170px, 20vw, 240px);
+  height: clamp(112px, 13vw, 150px);
   flex-shrink: 0;
   padding: 0;
   cursor: pointer;
@@ -168,82 +160,45 @@
   box-shadow: 0 0 26px rgba(245, 124, 0, 0.38), inset 0 0 0 1px rgba(249, 199, 79, 0.35);
 }
 
-/* ── CTA ──────────────────────────────────────────────────── */
-.home-gallery__cta-wrap {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  margin-top: clamp(2.5rem, 5vw, 3.75rem);
-}
+/* ── CTA (compact inline link) ────────────────────────────── */
 .home-gallery__cta {
-  position: relative;
-  overflow: hidden;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 15px 38px;
-  font-family: var(--font-body);
-  font-size: 0.86rem;
+  gap: 7px;
+  flex-shrink: 0;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #2a1c0a;
-  background: linear-gradient(135deg, var(--gold-lt) 0%, var(--gold) 45%, var(--saffron) 135%);
-  box-shadow: 0 10px 30px rgba(245, 124, 0, 0.30);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
-}
-.home-gallery__cta > * {
-  position: relative;
-  z-index: 1;
+  color: var(--gold-lt);
+  padding-bottom: 3px;
+  border-bottom: 1.5px solid rgba(249, 199, 79, 0.35);
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 .home-gallery__cta svg {
   transition: transform 0.3s ease;
 }
-/* sheen sweep on hover */
-.home-gallery__cta::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -120%;
-  width: 60%;
-  height: 100%;
-  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.55), transparent);
-  transform: skewX(-20deg);
-  transition: left 0.6s ease;
-}
 .home-gallery__cta:hover,
 .home-gallery__cta:focus-visible {
-  transform: translateY(-3px);
-  box-shadow: 0 16px 42px rgba(245, 124, 0, 0.42);
-  filter: brightness(1.04);
-  color: #2a1c0a;
+  color: #fff;
+  border-color: var(--gold);
   outline: none;
 }
 .home-gallery__cta:hover svg,
 .home-gallery__cta:focus-visible svg {
   transform: translateX(4px);
 }
-.home-gallery__cta:hover::before,
-.home-gallery__cta:focus-visible::before {
-  left: 140%;
-}
 
-/* ── Scroll reveal (header + CTA) ─────────────────────────── */
-.home-gallery__head,
-.home-gallery__cta-wrap {
+/* ── Scroll reveal (header bar) ───────────────────────────── */
+.home-gallery__bar {
   opacity: 0;
-  transform: translateY(26px);
+  transform: translateY(20px);
 }
-.home-gallery.is-visible .home-gallery__head {
+.home-gallery.is-visible .home-gallery__bar {
   opacity: 1;
   transform: none;
-  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.home-gallery.is-visible .home-gallery__cta-wrap {
-  opacity: 1;
-  transform: none;
-  transition: opacity 0.8s ease 0.15s, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s;
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ── Keyframes ────────────────────────────────────────────── */
@@ -262,20 +217,11 @@
 /* ── Reduced motion ───────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .home-gallery__mandala { animation: none; }
-  .gallery-track {
-    animation: none;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-  }
-  .home-gallery__head,
-  .home-gallery__cta-wrap {
+  /* keep the strip shape — just stop the drift (extra tiles clipped) */
+  .gallery-track { animation: none; }
+  .home-gallery__bar {
     opacity: 1 !important;
     transform: none !important;
     transition: none;
   }
-}
-
-@media (max-width: 560px) {
-  .home-gallery__cta { padding: 14px 30px; }
 }

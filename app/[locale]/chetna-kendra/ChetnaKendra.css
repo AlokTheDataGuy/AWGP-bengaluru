@@ -16,10 +16,10 @@
 }
 
 .inauguration-content p {
-  font-size: 0.92rem;
-  line-height: 1.85;
-  color: var(--text-muted);
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--text-dark);
+  margin-bottom: 1.1rem;
 }
 
 .inauguration-lead {
@@ -52,24 +52,25 @@
 .ck-about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: start;
+  gap: clamp(2rem, 4vw, 3.25rem);
+  align-items: center;
 }
 
 .ck-about-img-wrap {
   position: relative;
   width: 100%;
   aspect-ratio: 4/3;
+  max-height: 440px;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
 }
 
 .ck-about-content p {
-  font-size: 0.92rem;
-  line-height: 1.85;
-  color: var(--text-muted);
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--text-dark);
+  margin-bottom: 1.1rem;
 }
 
 .ck-highlights {

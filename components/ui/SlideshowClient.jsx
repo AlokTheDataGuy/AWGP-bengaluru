@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import './SlideshowClient.css';
 
-export default function SlideshowClient({ slides, aspectRatio = '4/3', interval = 4000 }) {
+export default function SlideshowClient({ slides, aspectRatio = '4/3', interval = 4000, showDots = true }) {
   const [current, setCurrent] = useState(0);
   const timerRef = useRef(null);
 
@@ -49,16 +49,18 @@ export default function SlideshowClient({ slides, aspectRatio = '4/3', interval 
       </div>
 
       {/* Dots */}
-      <div className="slideshow__dots">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            className={`slideshow__dot${i === current ? ' slideshow__dot--active' : ''}`}
-            onClick={() => goTo(i)}
-            aria-label={`Slide ${i + 1}`}
-          />
-        ))}
-      </div>
+      {showDots && (
+        <div className="slideshow__dots">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              className={`slideshow__dot${i === current ? ' slideshow__dot--active' : ''}`}
+              onClick={() => goTo(i)}
+              aria-label={`Slide ${i + 1}`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

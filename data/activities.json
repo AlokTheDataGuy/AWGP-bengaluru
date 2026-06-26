@@ -139,6 +139,7 @@
   {
     "id": "gau-seva",
     "slug": "gau-seva",
+    "href": "/activities/gau-seva",
     "img": "/assets/activities/gau-seva1.jpg",
     "schedule": {
       "en": "Regular visits — every fortnight at local Gaushalas",
@@ -164,6 +165,7 @@
   {
     "id": "meditation",
     "slug": "meditation",
+    "href": "/activities/meditation",
     "img": "/assets/programs/meditation.jpg",
     "schedule": { "en": "Every Sunday · 7:00 AM – 8:00 AM", "hi": "प्रत्येक रविवार · सुबह 7:00 – 8:00 बजे", "kn": "ಪ್ರತಿ ಭಾನುವಾರ · ಬೆಳಿಗ್ಗೆ 7:00 – 8:00" },
     "title":    { "en": "Meditation", "hi": "ध्यान", "kn": "ಧ್ಯಾನ" },
@@ -181,6 +183,7 @@
   {
     "id": "yoga",
     "slug": "yoga",
+    "href": "/activities/yoga",
     "img": "/assets/programs/yoga_session.jpg",
     "schedule": { "en": "Monday to Friday · 10:00 AM – 11:00 AM", "hi": "सोमवार से शुक्रवार · सुबह 10:00 – 11:00 बजे", "kn": "ಸೋಮವಾರದಿಂದ ಶುಕ್ರವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 11:00" },
     "title":    { "en": "Yoga", "hi": "योग", "kn": "ಯೋಗ" },
@@ -197,6 +200,7 @@
   {
     "id": "workshops",
     "slug": "workshops",
+    "href": "/activities/workshops",
     "img": "/assets/programs/workshops.jpg",
     "schedule": { "en": "Monthly — announced via WhatsApp group", "hi": "मासिक — WhatsApp समूह पर सूचित किया जाता है", "kn": "ಮಾಸಿಕ — WhatsApp ಗ್ರೂಪ್ ಮೂಲಕ ತಿಳಿಸಲಾಗುತ್ತದೆ" },
     "title":    { "en": "Workshops & Shivirs", "hi": "कार्यशालाएं एवं शिविर", "kn": "ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು" },

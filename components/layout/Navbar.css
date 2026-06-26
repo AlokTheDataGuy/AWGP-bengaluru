@@ -270,7 +270,7 @@
   height: 38px;
   color: var(--text-mid);
   border: 1px solid var(--border);
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.25s ease;
 }
 .navbar__mobile-social-btn:hover {
   background: var(--saffron);
@@ -443,7 +443,7 @@
   .navbar__join-btn   { display: none; }
   .navbar__hamburger  { display: flex; }
   .navbar__backdrop   { display: block; }
-  .navbar__inner      { gap: 1rem; }
+  .navbar__inner      { gap: 1rem; padding: 0 16px; }
   .navbar__right      { gap: 8px; margin-left: auto; }
   .lang-btn           { padding: 4px 8px; font-size: 0.7rem; }
   /* Logo height is set inline on the <img>; scale it to fit the bar */
@@ -451,6 +451,7 @@
 }
 
 @media (max-width: 480px) {
+  .navbar__inner      { padding: 0 12px; }
   .navbar__logo img   { height: 67px !important; }
   .navbar__right      { gap: 6px; }
   .lang-btn           { padding: 4px 6px; font-size: 0.68rem; }

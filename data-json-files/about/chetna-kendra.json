@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "slug": "chetna-kendra",
+    "title": {
+      "en": "Chetna Kendra — AWGP Bengaluru",
+      "hi": "चेतना केंद्र — AWGP बेंगलूरु",
+      "kn": "ಚೇತನ ಕೇಂದ್ರ — AWGP ಬೆಂಗಳೂರು"
+    },
+    "order": 3
+  },
+
+  "hero": {
+    "eyebrow": {
+      "en": "All World Gayatri Pariwar · Bengaluru",
+      "hi": "अखिल विश्व गायत्री परिवार · बेंगलूरु",
+      "kn": "ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ · ಬೆಂಗಳೂರು"
+    },
+    "title": {
+      "en": "Gayatri Chetna Kendra",
+      "hi": "गायत्री चेतना केंद्र",
+      "kn": "ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ"
+    },
+    "subtitle": {
+      "en": "A Sacred Space for Spiritual Awakening in the Heart of Bengaluru",
+      "hi": "बेंगलूरु के हृदय में आध्यात्मिक जागृति का पवित्र स्थान",
+      "kn": "ಬೆಂಗಳೂರಿನ ಕೇಂದ್ರದಲ್ಲಿ ಆಧ್ಯಾತ್ಮಿಕ ಜಾಗೃತಿಯ ಪವಿತ್ರ ಸ್ಥಳ"
+    },
+    "bgImage": "/assets/chetna-kendra/building.png",
+    "mantra": "॥ गायत्री माता की जय ॥"
+  },
+
+  "inauguration": {
+    "id": "inauguration",
+    "eyebrow": { "en": "Inauguration", "hi": "उद्घाटन", "kn": "ಉದ್ಘಾಟನೆ" },
+    "title": {
+      "en": "Inaugurated by Shraddhey Dr. Pranav Pandya",
+      "hi": "श्रद्धेय डॉ. प्रणव पंड्या द्वारा उद्घाटित",
+      "kn": "ಶ್ರದ್ಧೇಯ ಡಾ. ಪ್ರಣವ ಪಾಂಡ್ಯ ಅವರಿಂದ ಉದ್ಘಾಟಿಸಲ್ಪಟ್ಟಿದೆ"
+    },
+    "ornament": "🪔",
+    "image": "/assets/chetna-kendra/inauguration.jpg",
+    "lead": {
+      "en": "The Gayatri Chetna Kendra, Bengaluru was inaugurated by Shraddhey Dr. Pranav Pandya — Chancellor of Dev Sanskriti Vishwavidyalaya and Head of All World Gayatri Pariwar — in a magnificent ceremony attended by thousands of devotees and Parijans.",
+      "hi": "गायत्री चेतना केंद्र, बेंगलूरु का उद्घाटन श्रद्धेय डॉ. प्रणव पंड्या — देव संस्कृति विश्वविद्यालय के कुलाधिपति और अखिल विश्व गायत्री परिवार के प्रमुख — द्वारा हजारों भक्तों और परिजनों की उपस्थिति में भव्य समारोह में किया गया।",
+      "kn": "ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ, ಬೆಂಗಳೂರು ಅನ್ನು ಶ್ರದ್ಧೇಯ ಡಾ. ಪ್ರಣವ ಪಾಂಡ್ಯ — ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯದ ಕುಲಾಧಿಪತಿ ಮತ್ತು ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರದ ಮುಖ್ಯಸ್ಥ — ಅವರಿಂದ ಸಾವಿರಾರು ಭಕ್ತರ ಉಪಸ್ಥಿತಿಯಲ್ಲಿ ಉದ್ಘಾಟಿಸಲ್ಪಟ್ಟಿತು."
+    },
+    "body": {
+      "en": "The inauguration was a momentous occasion marking the establishment of a permanent centre of Gayatri consciousness in Karnataka — a hub for spiritual education, Sadhana, and community service for seekers across South India.",
+      "hi": "उद्घाटन कर्नाटक में गायत्री चेतना के एक स्थायी केंद्र की स्थापना को चिह्नित करने वाला एक ऐतिहासिक अवसर था — दक्षिण भारत के साधकों के लिए आध्यात्मिक शिक्षा, साधना और सामुदायिक सेवा का केंद्र।",
+      "kn": "ಉದ್ಘಾಟನೆ ಕರ್ನಾಟಕದಲ್ಲಿ ಗಾಯತ್ರಿ ಪ್ರಜ್ಞೆಯ ಶಾಶ್ವತ ಕೇಂದ್ರ ಸ್ಥಾಪಿಸಿದ ಒಂದು ಐತಿಹಾಸಿಕ ಸಂದರ್ಭ — ದಕ್ಷಿಣ ಭಾರತದ ಸಾಧಕರಿಗೆ ಆಧ್ಯಾತ್ಮಿಕ ಶಿಕ್ಷಣ, ಸಾಧನೆ ಮತ್ತು ಸಮುದಾಯ ಸೇವೆಯ ಕೇಂದ್ರ."
+    },
+    "quote": {
+      "text": {
+        "en": "This centre is not just a building — it is a temple of consciousness, a living flame of the Gayatri tradition that will guide and uplift generations to come.",
+        "hi": "यह केंद्र केवल एक इमारत नहीं है — यह चेतना का मंदिर है, गायत्री परंपरा की एक जीवंत लौ जो आने वाली पीढ़ियों का मार्गदर्शन करेगी।",
+        "kn": "ಈ ಕೇಂದ್ರ ಕೇವಲ ಒಂದು ಕಟ್ಟಡ ಮಾತ್ರವಲ್ಲ — ಇದು ಪ್ರಜ್ಞೆಯ ದೇವಾಲಯ, ಗಾಯತ್ರಿ ಸಂಪ್ರದಾಯದ ಜೀವಂತ ಜ್ಯೋತಿ."
+      },
+      "by": {
+        "en": "Shraddhey Dr. Pranav Pandya",
+        "hi": "श्रद्धेय डॉ. प्रणव पंड्या",
+        "kn": "ಶ್ರದ್ಧೇಯ ಡಾ. ಪ್ರಣವ ಪಾಂಡ್ಯ"
+      }
+    }
+  },
+
+  "about": {
+    "id": "about-centre",
+    "eyebrow": { "en": "The Centre", "hi": "केंद्र परिसर", "kn": "ಕೇಂದ್ರ ಆವರಣ" },
+    "title": {
+      "en": "About the Chetna Kendra",
+      "hi": "चेतना केंद्र के बारे में",
+      "kn": "ಚೇತನ ಕೇಂದ್ರದ ಬಗ್ಗೆ"
+    },
+    "ornament": "🏛️",
+    "image": "/assets/chetna-kendra/gayatri-mata-mandir.png",
+    "paras": [
+      {
+        "en": "The Gayatri Chetna Kendra (Gayatri Consciousness Centre) is AWGP Bengaluru's flagship spiritual campus — a multi-facility centre designed to serve as a complete environment for inner growth, Vedic learning, and community upliftment.",
+        "hi": "गायत्री चेतना केंद्र AWGP बेंगलूरु का प्रमुख आध्यात्मिक परिसर है — आंतरिक विकास, वैदिक अध्ययन और सामुदायिक उत्थान के लिए एक पूर्ण वातावरण के रूप में डिज़ाइन की गई बहु-सुविधा केंद्र।",
+        "kn": "ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ AWGP ಬೆಂಗಳೂರಿನ ಪ್ರಮುಖ ಆಧ್ಯಾತ್ಮಿಕ ಆವರಣ — ಆಂತರಿಕ ಬೆಳವಣಿಗೆ, ವೈದಿಕ ಕಲಿಕೆ ಮತ್ತು ಸಮುದಾಯ ಉನ್ನತಿಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಬಹು-ಸೌಲಭ್ಯ ಕೇಂದ್ರ."
+      },
+      {
+        "en": "Spread across a purpose-built campus in Bengaluru, Karnataka, the centre houses a Gayatri Mata Mandir, Yagya Shala, Meditation Hall, Brahmavarchas Library, Gaushala, and spiritual art installations — making it a complete destination for all aspects of Vedic living.",
+        "hi": "बेंगलूरु, कर्नाटक में एक विशेष रूप से निर्मित परिसर में फैला यह केंद्र गायत्री माता मंदिर, यज्ञ शाला, ध्यान कक्ष, ब्रह्मवर्चस पुस्तकालय, गौशाला और आध्यात्मिक कला प्रतिष्ठानों का घर है।",
+        "kn": "ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಉದ್ದೇಶದಿಂದ ನಿರ್ಮಿಸಲಾದ ಆವರಣದಲ್ಲಿ ಹರಡಿರುವ ಕೇಂದ್ರದಲ್ಲಿ ಗಾಯತ್ರಿ ಮಾತಾ ಮಂದಿರ, ಯಜ್ಞ ಶಾಲೆ, ಧ್ಯಾನ ಕೊಠಡಿ, ಗ್ರಂಥಾಲಯ, ಗೋಶಾಲೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಕಲಾ ಸ್ಥಾಪನೆಗಳಿವೆ."
+      }
+    ],
+    "highlights": [
+      { "icon": "🛕", "text": { "en": "Gayatri Mata Mandir", "hi": "गायत्री माता मंदिर", "kn": "ಗಾಯತ್ರಿ ಮಾತಾ ಮಂದಿರ" } },
+      { "icon": "🔥", "text": { "en": "Yagya Shala", "hi": "यज्ञ शाला", "kn": "ಯಜ್ಞ ಶಾಲೆ" } },
+      { "icon": "🧘", "text": { "en": "Meditation Hall", "hi": "ध्यान कक्ष", "kn": "ಧ್ಯಾನ ಕೊಠಡಿ" } },
+      { "icon": "📚", "text": { "en": "Brahmavarchas Library", "hi": "ब्रह्मवर्चस ग्रंथालय", "kn": "ಬ್ರಹ್ಮವರ್ಚಸ್ ಗ್ರಂಥಾಲಯ" } },
+      { "icon": "🐄", "text": { "en": "Gaushala", "hi": "गौशाला", "kn": "ಗೋಶಾಲೆ" } },
+      { "icon": "🖼️", "text": { "en": "Spiritual Art Gallery", "hi": "आध्यात्मिक कला दीर्घा", "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಕಲಾ ಗ್ಯಾಲರಿ" } }
+    ]
+  },
+
+  "facilities": {
+    "id": "facilities",
+    "eyebrow": { "en": "What We Offer", "hi": "हम क्या प्रदान करते हैं", "kn": "ನಾವು ಏನು ನೀಡುತ್ತೇವೆ" },
+    "title": {
+      "en": "Facilities at Chetna Kendra",
+      "hi": "चेतना केंद्र की सुविधाएं",
+      "kn": "ಚೇತನ ಕೇಂದ್ರದ ಸೌಲಭ್ಯಗಳು"
+    },
+    "ornament": "🏛️",
+    "items": [
+      {
+        "img": "/assets/chetna-kendra/mandir.png",
+        "name": { "en": "Gayatri Mata Mandir", "hi": "गायत्री माता मंदिर", "kn": "ಗಾಯತ್ರಿ ಮಾತಾ ಮಂದಿರ" },
+        "desc": {
+          "en": "The heart of the Chetna Kendra is the beautiful Gayatri Mata Mandir — a sacred space for daily prayers, Gayatri Havan, and personal Sadhana. Devotees find peace and inner clarity through regular worship at this serene temple.",
+          "hi": "चेतना केंद्र का हृदय सुंदर गायत्री माता मंदिर है — दैनिक प्रार्थना, गायत्री हवन और व्यक्तिगत साधना के लिए एक पवित्र स्थान। भक्त इस शांत मंदिर में नियमित पूजा के माध्यम से शांति और आंतरिक स्पष्टता पाते हैं।",
+          "kn": "ಚೇತನ ಕೇಂದ್ರದ ಹೃದಯ ಸುಂದರ ಗಾಯತ್ರಿ ಮಾತಾ ಮಂದಿರ — ದೈನಂದಿನ ಪ್ರಾರ್ಥನೆ, ಗಾಯತ್ರಿ ಹವನ ಮತ್ತು ವೈಯಕ್ತಿಕ ಸಾಧನೆಗಾಗಿ ಒಂದು ಪವಿತ್ರ ಸ್ಥಳ."
+        }
+      },
+      {
+        "img": "/assets/chetna-kendra/library.png",
+        "name": { "en": "Brahmavarchas Granthalaya (Library)", "hi": "ब्रह्मवर्चस ग्रंथालय (पुस्तकालय)", "kn": "ಬ್ರಹ್ಮವರ್ಚಸ್ ಗ್ರಂಥಾಲಯ (ಪುಸ್ತಕಾಲಯ)" },
+        "desc": {
+          "en": "Our well-stocked library houses thousands of books on Vedic philosophy, scientific spirituality, health, and self-development — all authored or published under Gurudev's guidance. It is a treasure trove for seekers of knowledge and wisdom.",
+          "hi": "हमारे सुसज्जित पुस्तकालय में वैदिक दर्शन, वैज्ञानिक अध्यात्म, स्वास्थ्य और आत्म-विकास पर हजारों पुस्तकें हैं — सभी गुरुदेव के मार्गदर्शन में लिखी या प्रकाशित। यह ज्ञान और विवेक के साधकों के लिए एक खजाना है।",
+          "kn": "ನಮ್ಮ ಸುಸಜ್ಜಿತ ಪುಸ್ತಕಾಲಯದಲ್ಲಿ ವೈದಿಕ ತತ್ವಶಾಸ್ತ್ರ, ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ, ಆರೋಗ್ಯ ಮತ್ತು ಸ್ವ-ಅಭಿವೃದ್ಧಿಯ ಸಾವಿರಾರು ಪುಸ್ತಕಗಳಿವೆ."
+        }
+      },
+      {
+        "img": "/assets/chetna-kendra/yagya-shala.png",
+        "name": { "en": "Yagya Shala", "hi": "यज्ञ शाला", "kn": "ಯಜ್ಞ ಶಾಲೆ" },
+        "desc": {
+          "en": "The Yagya Shala is dedicated to the ancient Vedic fire ritual — Yagya or Havan — which purifies the environment, the mind, and the soul. Regular Gayatri Havans, Sahasra Kundiya Yagyas, and Navgraha Pujas are conducted here for the welfare of all.",
+          "hi": "यज्ञ शाला प्राचीन वैदिक अग्नि अनुष्ठान — यज्ञ या हवन — के लिए समर्पित है जो पर्यावरण, मन और आत्मा को शुद्ध करता है। सभी के कल्याण के लिए यहां नियमित गायत्री हवन, सहस्र कुंडीय यज्ञ और नवग्रह पूजा होती है।",
+          "kn": "ಯಜ್ಞ ಶಾಲೆ ಪ್ರಾಚೀನ ವೈದಿಕ ಅಗ್ನಿ ಆಚರಣೆ — ಯಜ್ಞ ಅಥವಾ ಹವನ — ಕ್ಕೆ ಮೀಸಲಾಗಿದೆ. ಇದು ಪರಿಸರ, ಮನಸ್ಸು ಮತ್ತು ಆತ್ಮವನ್ನು ಶುದ್ಧಗೊಳಿಸುತ್ತದೆ."
+        }
+      },
+      {
+        "img": "/assets/chetna-kendra/meditation_room.JPG",
+        "name": { "en": "Meditation & Sadhana Hall", "hi": "ध्यान एवं साधना कक्ष", "kn": "ಧ್ಯಾನ ಮತ್ತು ಸಾಧನಾ ಕೊಠಡಿ" },
+        "desc": {
+          "en": "A calm and serene hall dedicated to meditation, Pranayama, and Gayatri Sadhana. Regular guided meditation sessions, Tratak, and group Sadhana are held here. This peaceful space helps practitioners develop concentration, inner stillness, and spiritual awareness.",
+          "hi": "ध्यान, प्राणायाम और गायत्री साधना के लिए समर्पित एक शांत हॉल। यहां नियमित निर्देशित ध्यान सत्र, त्राटक और समूह साधना होती है। यह शांतिपूर्ण स्थान साधकों को एकाग्रता और आंतरिक शांति विकसित करने में मदद करता है।",
+          "kn": "ಧ್ಯಾನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಗಾಯತ್ರಿ ಸಾಧನೆಗೆ ಮೀಸಲಾದ ಶಾಂತ ಮತ್ತು ನಿರ್ಮಲ ಕೊಠಡಿ. ನಿಯಮಿತ ಮಾರ್ಗದರ್ಶಿ ಧ್ಯಾನ ಸತ್ರಗಳು ಮತ್ತು ಗುಂಪು ಸಾಧನೆ ಇಲ್ಲಿ ನಡೆಯುತ್ತವೆ."
+        }
+      },
+      {
+        "img": "/assets/chetna-kendra/gaushala.png",
+        "name": { "en": "Gaushala (Cow Shelter)", "hi": "गौशाला", "kn": "ಗೋಶಾಲೆ" },
+        "desc": {
+          "en": "In the Vedic tradition, the cow is revered as a symbol of abundance and purity. Our Gaushala shelters and cares for cows, and serves as a living demonstration of Gau Seva — one of AWGP's key initiatives for social upliftment and ecological balance.",
+          "hi": "वैदिक परंपरा में गाय को समृद्धि और पवित्रता के प्रतीक के रूप में पूजा जाता है। हमारी गौशाला गायों को आश्रय देती है और उनकी देखभाल करती है, और गौ सेवा का जीवंत प्रदर्शन करती है।",
+          "kn": "ವೈದಿಕ ಸಂಪ್ರದಾಯದಲ್ಲಿ ಹಸು ಸಮೃದ್ಧಿ ಮತ್ತು ಪವಿತ್ರತೆಯ ಸಂಕೇತವಾಗಿ ಪೂಜಿಸಲ್ಪಡುತ್ತದೆ. ನಮ್ಮ ಗೋಶಾಲೆ ಹಸುಗಳಿಗೆ ಆಶ್ರಯ ನೀಡುತ್ತದೆ ಮತ್ತು ಗೋ ಸೇವೆಯ ಜೀವಂತ ಪ್ರದರ್ಶನ ಆಗಿದೆ."
+        }
+      },
+      {
+        "img": "/assets/chetna-kendra/bhatka-hua-devta.png",
+        "name": { "en": "Spiritual Art — Bhatka Hua Devta", "hi": "आध्यात्मिक कला — भटका हुआ देवता", "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಕಲೆ — ಭಟಕಾ ಹುಆ ದೇವತಾ" },
+        "desc": {
+          "en": "The centre features unique spiritual artwork inspired by Gurudev's philosophy, including the iconic \"Bhatka Hua Devta\" — depicting the soul's journey from delusion toward divine awakening. These artworks serve as contemplative tools that inspire seekers toward the path of self-realisation.",
+          "hi": "केंद्र में गुरुदेव के दर्शन से प्रेरित अनूठी आध्यात्मिक कलाकृतियां हैं, जिनमें \"भटका हुआ देवता\" भी शामिल है — जो आत्मा की भ्रम से दिव्य जागृति की ओर यात्रा को दर्शाता है।",
+          "kn": "ಕೇಂದ್ರದಲ್ಲಿ ಗುರುದೇವರ ತತ್ವಶಾಸ್ತ್ರದಿಂದ ಪ್ರೇರಿತ ಅನನ್ಯ ಆಧ್ಯಾತ್ಮಿಕ ಕಲಾಕೃತಿಗಳಿವೆ, ಇದರಲ್ಲಿ \"ಭಟಕಾ ಹುಆ ದೇವತಾ\" ಸೇರಿದೆ — ಇದು ಆತ್ಮದ ಭ್ರಮೆಯಿಂದ ದಿವ್ಯ ಜಾಗೃತಿಯೆಡೆಗಿನ ಪ್ರಯಾಣವನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ."
+        }
+      }
+    ]
+  },
+
+  "reach": {
+    "id": "reach",
+    "eyebrow": { "en": "Location & Directions", "hi": "स्थान और दिशानिर्देश", "kn": "ಸ್ಥಳ ಮತ್ತು ದಿಕ್ಕುಗಳು" },
+    "title": {
+      "en": "How to Reach Us",
+      "hi": "हम तक कैसे पहुंचें",
+      "kn": "ನಮ್ಮನ್ನು ಹೇಗೆ ತಲುಪುವುದು"
+    },
+    "ornament": "📍",
+    "cards": [
+      {
+        "icon": "🚇",
+        "title": { "en": "By Metro", "hi": "मेट्रो से", "kn": "ಮೆಟ್ರೋ ಮೂಲಕ" },
+        "body": {
+          "en": "Take the Namma Metro to the nearest station and our centre is accessible within a short auto or cab ride. Contact us for the nearest metro stop from your location.",
+          "hi": "नम्मा मेट्रो से निकटतम स्टेशन तक आएं और हमारा केंद्र ऑटो या कैब से पहुंचा जा सकता है।",
+          "kn": "ನಮ್ಮ ಮೆಟ್ರೋ ಮೂಲಕ ಹತ್ತಿರದ ನಿಲ್ದಾಣಕ್ಕೆ ಬನ್ನಿ, ನಂತರ ಆಟೋ ಅಥವಾ ಕ್ಯಾಬ್ ಮೂಲಕ ಕೇಂದ್ರ ತಲುಪಬಹುದು."
+        }
+      },
+      {
+        "icon": "🚌",
+        "title": { "en": "By Bus", "hi": "बस से", "kn": "ಬಸ್ ಮೂಲಕ" },
+        "body": {
+          "en": "BMTC buses connect to all parts of Bengaluru. Please contact us or check our address on Google Maps for the nearest bus stop routes.",
+          "hi": "BMTC बसें बेंगलूरु के सभी हिस्सों से जुड़ती हैं। निकटतम बस स्टॉप के लिए कृपया हमसे संपर्क करें।",
+          "kn": "BMTC ಬಸ್‌ಗಳು ಬೆಂಗಳೂರಿನ ಎಲ್ಲ ಭಾಗಗಳಿಗೆ ಸಂಪರ್ಕ ಕಲ್ಪಿಸುತ್ತವೆ. ಹತ್ತಿರದ ಬಸ್ ನಿಲ್ದಾಣಕ್ಕೆ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ."
+        }
+      },
+      {
+        "icon": "🚗",
+        "title": { "en": "By Car / Auto", "hi": "कार / ऑटो से", "kn": "ಕಾರ್ / ಆಟೋ ಮೂಲಕ" },
+        "body": {
+          "en": "Parking is available at the centre. Search \"AWGP Bengaluru Gayatri Chetna Kendra\" on Google Maps for directions, or call us for a precise address and landmark guidance.",
+          "hi": "केंद्र में पार्किंग उपलब्ध है। दिशानिर्देशों के लिए Google Maps पर \"AWGP Bengaluru Gayatri Chetna Kendra\" खोजें।",
+          "kn": "ಕೇಂದ್ರದಲ್ಲಿ ಪಾರ್ಕಿಂಗ್ ಲಭ್ಯವಿದೆ. ದಿಕ್ಕುಗಳಿಗೆ Google Maps ನಲ್ಲಿ \"AWGP Bengaluru Gayatri Chetna Kendra\" ಹುಡುಕಿ."
+        }
+      },
+      {
+        "icon": "📞",
+        "title": { "en": "Contact & Timings", "hi": "संपर्क और समय", "kn": "ಸಂಪರ್ಕ ಮತ್ತು ಸಮಯ" },
+        "body": {
+          "en": "The centre is open daily. Visit us during morning Aarti (6:00 AM), Yagya sessions, meditation classes, and evening Satsang. Contact us for appointment and directions.",
+          "hi": "केंद्र प्रतिदिन खुला रहता है। प्रातःकाल आरती (6:00 AM), यज्ञ, ध्यान कक्षाओं और सायं सत्संग के दौरान हमारे पास आएं।",
+          "kn": "ಕೇಂದ್ರ ಪ್ರತಿದಿನ ತೆರೆದಿರುತ್ತದೆ. ಬೆಳಿಗ್ಗೆ ಆರತಿ (6:00 AM), ಯಜ್ಞ, ಧ್ಯಾನ ತರಗತಿ ಮತ್ತು ಸಾಯಂಕಾಲ ಸತ್ಸಂಗ ಸಮಯದಲ್ಲಿ ಭೇಟಿ ನೀಡಿ."
+        }
+      }
+    ],
+    "ctaLabel": {
+      "en": "Get Directions & Contact →",
+      "hi": "दिशानिर्देश और संपर्क →",
+      "kn": "ದಿಕ್ಕುಗಳು ಮತ್ತು ಸಂಪರ್ಕ →"
+    }
+  },
+
+  "schedule": {
+    "id": "schedule",
+    "eyebrow": { "en": "Timings", "hi": "समय", "kn": "ಸಮಯ" },
+    "title": { "en": "Daily Schedule", "hi": "दैनिक कार्यक्रम", "kn": "ದೈನಂದಿನ ವೇಳಾಪಟ್ಟಿ" },
+    "ornament": "🕉️",
+    "dailyTitle": {
+      "en": "Daily Activities (Mon–Sat)",
+      "hi": "दैनिक गतिविधियाँ (सोम–शनि)",
+      "kn": "ದೈನಂದಿನ ಚಟುವಟಿಕೆಗಳು (ಸೋಮ–ಶನಿ)"
+    },
+    "sundayTitle": {
+      "en": "Sunday Activities",
+      "hi": "रविवार की गतिविधियाँ",
+      "kn": "ಭಾನುವಾರದ ಚಟುವಟಿಕೆಗಳು"
+    },
+    "daily": [
+      { "time": "05:30 – 05:45 AM", "label": { "en": "Morning Aarti (Puja)", "hi": "प्रातः आरती (पूजा)", "kn": "ಬೆಳಗಿನ ಆರತಿ (ಪೂಜೆ)" } },
+      { "time": "05:45 – 06:30 AM", "label": { "en": "Morning Meditation", "hi": "प्रातः ध्यान", "kn": "ಬೆಳಗಿನ ಧ್ಯಾನ" } },
+      { "time": "06:30 – 07:15 AM", "label": { "en": "Daily Yagya (Homa)", "hi": "दैनिक यज्ञ (हवन)", "kn": "ದೈನಂದಿನ ಯಜ್ಞ (ಹೋಮ)" } },
+      { "time": "11:00 AM – 12:00 PM", "label": { "en": "Yog Training (For Women)", "hi": "योग प्रशिक्षण (महिलाओं हेतु)", "kn": "ಯೋಗ ತರಬೇತಿ (ಮಹಿಳೆಯರಿಗೆ)" } },
+      { "time": "05:30 – 06:00 PM", "label": { "en": "Evening Aarti (Puja)", "hi": "सायं आरती (पूजा)", "kn": "ಸಂಜೆ ಆರತಿ (ಪೂಜೆ)" } },
+      { "time": "06:00 – 06:20 PM", "label": { "en": "Naadyog Sadhana", "hi": "नादयोग साधना", "kn": "ನಾದಯೋಗ ಸಾಧನೆ" } }
+    ],
+    "sunday": [
+      { "time": "09:00 – 11:00 AM", "label": { "en": "All Vedic Sanskar", "hi": "समस्त वैदिक संस्कार", "kn": "ಎಲ್ಲಾ ವೈದಿಕ ಸಂಸ್ಕಾರ" } },
+      { "time": "09:00 – 10:00 AM", "label": { "en": "Morning Meditation", "hi": "प्रातः ध्यान", "kn": "ಬೆಳಗಿನ ಧ್ಯಾನ" } },
+      { "time": "09:00 – 11:30 AM", "label": { "en": "Yagya (Homa)", "hi": "यज्ञ (हवन)", "kn": "ಯಜ್ಞ (ಹೋಮ)" } },
+      { "time": "11:30 AM – 12:30 PM", "label": { "en": "Workshops", "hi": "कार्यशालाएँ", "kn": "ಕಾರ್ಯಾಗಾರಗಳು" } },
+      { "time": "12:00 – 01:30 PM", "label": { "en": "Maha-prasadam", "hi": "महाप्रसादम्", "kn": "ಮಹಾಪ್ರಸಾದಂ" } }
+    ]
+  },
+
+  "cta": {
+    "id": "visit",
+    "title": { "en": "Visit the Chetna Kendra", "hi": "चेतना केंद्र आएं", "kn": "ಚೇತನ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ ನೀಡಿ" },
+    "body": {
+      "en": "Whether you seek peace, knowledge, or community — the Chetna Kendra welcomes you with open arms. All are welcome, regardless of caste, creed, or background.",
+      "hi": "चाहे आप शांति, ज्ञान या समुदाय की तलाश करें — चेतना केंद्र आपका खुले दिल से स्वागत करता है। जाति, पंथ या पृष्ठभूमि के बावजूद सभी का स्वागत है।",
+      "kn": "ನೀವು ಶಾಂತಿ, ಜ್ಞಾನ ಅಥವಾ ಸಮುದಾಯ ಹುಡುಕುತ್ತಿದ್ದರೂ — ಚೇತನ ಕೇಂದ್ರ ತೆರೆದ ತೋಳುಗಳಿಂದ ಸ್ವಾಗತಿಸುತ್ತದೆ. ಎಲ್ಲರೂ ಸ್ವಾಗತಾರ್ಹ."
+    },
+    "buttonLabel": {
+      "en": "Plan Your Visit →",
+      "hi": "अपनी यात्रा योजना बनाएं →",
+      "kn": "ನಿಮ್ಮ ಭೇಟಿ ಯೋಜಿಸಿ →"
+    },
+    "href": "/contact"
+  }
+}

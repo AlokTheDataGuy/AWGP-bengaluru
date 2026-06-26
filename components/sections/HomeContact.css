@@ -6,17 +6,72 @@
    ========================================================= */
 
 .home-contact {
-  background: var(--cream-2);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   /* compact band — override the section's default vertical padding */
-  padding-top: clamp(2rem, 3.5vw, 3rem);
-  padding-bottom: clamp(2rem, 3.5vw, 3rem);
+  padding-top: clamp(2.4rem, 4vw, 3.4rem);
+  padding-bottom: clamp(2.4rem, 4vw, 3.4rem);
+  background:
+    radial-gradient(80% 60% at 50% -8%, rgba(249, 199, 79, 0.16) 0%, transparent 58%),
+    linear-gradient(160deg, var(--cream) 0%, var(--saffron-pale) 52%, var(--gold-pale) 100%);
+}
+
+/* gold hairline along the top edge */
+.home-contact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 2;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--gold) 22%,
+    var(--saffron) 50%,
+    var(--gold) 78%,
+    transparent
+  );
+  opacity: 0.6;
+}
+
+/* rotating lotus-mandala watermark, lower-right */
+.home-contact__mandala {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  width: clamp(280px, 32vw, 460px);
+  aspect-ratio: 1;
+  right: clamp(-140px, -8vw, -70px);
+  bottom: clamp(-160px, -10vw, -90px);
+  background: url('/assets/designs/lotus-mandala.png') center / contain no-repeat;
+  opacity: 0.12;
+  animation: contactSpin 130s linear infinite;
+}
+@keyframes contactSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* keep content above the watermark */
+.home-contact .section-inner {
+  position: relative;
+  z-index: 1;
 }
 
 /* ── Heading ─────────────────────────────────────────────── */
 
 .home-contact__head {
   text-align: center;
-  margin-bottom: clamp(1.25rem, 2.5vw, 1.85rem);
+  margin-bottom: clamp(1.6rem, 3vw, 2.4rem);
+}
+.home-contact__divider {
+  display: block;
+  width: clamp(170px, 26vw, 240px);
+  height: 26px;
+  margin: clamp(0.9rem, 1.8vw, 1.3rem) auto 0;
+  background: url('/assets/designs/divider1.png') center / contain no-repeat;
 }
 .home-contact__eyebrow {
   display: block;
@@ -49,7 +104,7 @@
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: clamp(1.25rem, 2.5vw, 2rem);
-  align-items: start;
+  align-items: stretch;
 }
 
 /* ── Info panel ──────────────────────────────────────────── */
@@ -60,14 +115,26 @@
 }
 /* Single framed, rounded box holding the info rows + social buttons */
 .home-contact__panel {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex: 1;
+  overflow: hidden;
   background: var(--white);
   border-radius: 16px;
-  padding: clamp(1.4rem, 2.4vw, 2.2rem);
+  padding: clamp(1.5rem, 2.6vw, 2.3rem);
   border: 1px solid var(--border);
-  box-shadow: 0 0 0 8px rgba(245, 232, 192, 0.5), 0 16px 40px rgba(58, 50, 43, 0.10);
+  box-shadow: 0 18px 44px rgba(122, 35, 21, 0.1);
+}
+/* gold accent along the panel's top edge */
+.home-contact__panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, var(--gold), var(--saffron));
 }
 .home-contact__cards {
   display: flex;
@@ -85,8 +152,9 @@
   place-items: center;
   width: 46px;
   height: 46px;
-  border-radius: 8px;
-  background: var(--gold-pale);
+  border-radius: 10px;
+  background: linear-gradient(145deg, var(--gold-pale) 0%, #FFE6AE 100%);
+  border: 1px solid rgba(249, 199, 79, 0.45);
   color: var(--saffron);
 }
 .home-contact__card-body {
@@ -122,7 +190,9 @@ a.home-contact__card-value:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.6rem;
-  margin-top: clamp(1.4rem, 2.4vw, 2rem);
+  /* push to the panel's bottom so its height matches the map */
+  margin-top: auto;
+  padding-top: clamp(1.4rem, 2.4vw, 2rem);
 }
 .home-contact__social-btn {
   display: inline-flex;
@@ -153,7 +223,8 @@ a.home-contact__card-value:hover {
   display: flex;
   flex-direction: column;
   border: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
+  border-radius: 16px;
+  box-shadow: 0 18px 44px rgba(122, 35, 21, 0.1);
   overflow: hidden;
   background: var(--white);
   min-height: clamp(360px, 34vw, 460px);
@@ -162,8 +233,10 @@ a.home-contact__card-value:hover {
   flex: 1;
   min-height: clamp(360px, 34vw, 460px);
 }
-/* Orange CTA floating over the bottom-left of the map */
-.home-contact__directions {
+/* Orange CTA floating over the bottom-left of the map.
+   Selector keeps two classes so its absolute placement always beats the
+   .fx-sheen utility's position:relative regardless of stylesheet order. */
+.home-contact__map .home-contact__directions {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -177,7 +250,7 @@ a.home-contact__card-value:hover {
   color: #fff;
   background: var(--saffron);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.25s ease;
 }
 .home-contact__directions:hover {
   background: var(--saffron-deep);

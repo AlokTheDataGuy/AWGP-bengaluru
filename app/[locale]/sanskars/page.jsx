@@ -1,81 +1,109 @@
 import HeroSection from '../../../components/ui/HeroSection';
-import ContentCard from '../../../components/ui/ContentCard';
-import sanskarsData from '../../../data/sanskars.json';
-import '../../../components/ui/IndexPage.css';
+import { Link } from '../../../lib/i18n/navigation';
+import data from '../../../data-json-files/sanskars/sanskars.json';
+import { SANSKAR_IMG, SANSKAR_STAGE } from './sanskarMeta';
+import SanskarsGrid from './SanskarsGrid';
+import './Sanskars.css';
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Sanskars — AWGP Bengaluru', hi: 'संस्कार — AWGP बेंगलूरु', kn: 'ಸಂಸ್ಕಾರಗಳು — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  const titles = {
+    en: 'Shodash Sanskars — AWGP Bengaluru',
+    hi: 'षोडश संस्कार — AWGP बेंगलूरु',
+    kn: 'ಷೋಡಶ ಸಂಸ್ಕಾರಗಳು — AWGP ಬೆಂಗಳೂರು',
+  };
+  return {
+    title: titles[locale] || titles.en,
+    description: data.meta.seoDescription[locale] || data.meta.seoDescription.en,
+  };
 }
 
-export default async function SanskarsIndexPage({ params }) {
+export default async function SanskarsPage({ params }) {
   const { locale } = await params;
-  const L = (obj) => (obj && (obj[locale] || obj.en)) || '';
+  const L = (o) => (o && (o[locale] ?? o.en)) || '';
+
+  const introParas = L(data.hero.intro).split('\n\n').map((p) => p.trim()).filter(Boolean);
+
+  const items = data.sanskars.map((s) => ({
+    id: s.id,
+    name: L(s.name),
+    stage: L(SANSKAR_STAGE[s.id]),
+    image: SANSKAR_IMG[s.id] || null,
+    summary: L(s.summary) || L(s.intro).split('. ')[0],
+  }));
+
+  const labels = {
+    learn: locale === 'hi' ? 'और जानें' : locale === 'kn' ? 'ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ' : 'Learn more',
+    gridEyebrow: locale === 'hi' ? 'षोडश संस्कार' : locale === 'kn' ? 'ಷೋಡಶ ಸಂಸ್ಕಾರಗಳು' : 'The Shodash Sanskars',
+    gridTitle:
+      locale === 'hi' ? 'जीवन के सोलह पवित्र पड़ाव'
+      : locale === 'kn' ? 'ಜೀವನದ ಹದಿನಾರು ಪವಿತ್ರ ಹಂತಗಳು'
+      : 'Sixteen Sacred Milestones of Life',
+    gridNote:
+      locale === 'hi' ? 'किसी भी संस्कार पर क्लिक करें — उसका अर्थ, महत्व और लाभ विस्तार से जानें।'
+      : locale === 'kn' ? 'ಯಾವುದೇ ಸಂಸ್ಕಾರದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ — ಅದರ ಅರ್ಥ, ಮಹತ್ವ ಮತ್ತು ಲಾಭವನ್ನು ವಿವರವಾಗಿ ತಿಳಿಯಿರಿ.'
+      : 'Tap any sanskar to explore its meaning, significance, and benefits in depth.',
+  };
 
   return (
     <>
       <HeroSection
         eyebrow="AWGP Bengaluru"
-        title={locale === 'hi' ? 'संस्कार' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳು' : 'Sanskars'}
-        subtitle={locale === 'hi' ? 'जीवन के पवित्र पड़ावों को अर्थपूर्ण बनाएं' : locale === 'kn' ? 'ಜೀವನದ ಪ್ರತಿ ಹಂತವನ್ನು ಪವಿತ್ರ ಮತ್ತು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಿ' : "Mark Life's Sacred Milestones with Meaning"}
+        title={locale === 'hi' ? 'षोडश संस्कार' : locale === 'kn' ? 'ಷೋಡಶ ಸಂಸ್ಕಾರಗಳು' : 'Shodash Sanskars'}
+        subtitle={
+          locale === 'hi'
+            ? 'जीवन के हर पवित्र पड़ाव को अर्थ और संस्कार से सँवारें'
+            : locale === 'kn'
+            ? 'ಜೀವನದ ಪ್ರತಿ ಪವಿತ್ರ ಹಂತವನ್ನು ಅರ್ಥ ಮತ್ತು ಸಂಸ್ಕಾರದಿಂದ ಅಲಂಕರಿಸಿ'
+            : 'Refining every sacred stage of life — from conception to remembrance'
+        }
         bgImage="/assets/sanskars/sanskar-banner.jpg"
         bgImageMobile="/assets/sanskars/sanskar-banner-mob.jpg"
         mantra="॥ संस्कारात् जायते मानवः ॥"
       />
 
-      <section className="idx-intro">
-        <span className="idx-wm idx-wm--l" aria-hidden="true" />
-        <span className="idx-wm idx-wm--r" aria-hidden="true" />
-        <div className="section-inner idx-intro__inner">
-          <span className="idx-eyebrow">
-            {locale === 'hi' ? 'पवित्र संस्कार' : locale === 'kn' ? 'ಪವಿತ್ರ ಸಂಸ್ಕಾರಗಳು' : 'Sacred Sacraments'}
+      {/* ── Intro ─────────────────────────────────────────── */}
+      <section className="skr-intro">
+        <span className="skr-intro__mandala skr-intro__mandala--l" aria-hidden="true" />
+        <span className="skr-intro__mandala skr-intro__mandala--r" aria-hidden="true" />
+        <div className="skr-intro__inner">
+          <span className="skr-intro__eyebrow">
+            {locale === 'hi' ? 'सोलह वैदिक संस्कार' : locale === 'kn' ? 'ಹದಿನಾರು ವೈದಿಕ ಸಂಸ್ಕಾರಗಳು' : 'The Sixteen Vedic Sacraments'}
           </span>
-          <h2 className="idx-intro__heading">
-            {locale === 'hi' ? 'षोडश संस्कार क्या हैं?' : locale === 'kn' ? 'ಷೋಡಶ ಸಂಸ್ಕಾರ ಎಂದರೇನು?' : 'What are the Shodash Sanskars?'}
-          </h2>
-          <p className="idx-intro__text">
-              {locale === 'hi'
-                ? '"षोडश" का अर्थ है सोलह और "संस्कार" का अर्थ है परिष्कार। हिंदू परंपरा में जन्म से मृत्यु तक 16 संस्कार जीवन के हर महत्वपूर्ण पड़ाव को पवित्र करते हैं। गुरुदेव पंडित श्रीराम शर्मा आचार्य ने इन प्राचीन अनुष्ठानों को सरल और सर्वसुलभ बनाया, ताकि हर परिवार इनका लाभ उठा सके — जाति, क्षेत्र या पृष्ठभूमि की परवाह किए बिना। AWGP बेंगलूरु में हमारे प्रशिक्षित स्वयंसेवक ये संस्कार आपके घर पर निःशुल्क संपन्न करते हैं।'
-                : locale === 'kn'
-                ? '"ಷೋಡಶ" ಎಂದರೆ ಹದಿನಾರು ಮತ್ತು "ಸಂಸ್ಕಾರ" ಎಂದರೆ ಪರಿಷ್ಕರಣ. ಹಿಂದೂ ಸಂಪ್ರದಾಯದಲ್ಲಿ ಜನನದಿಂದ ಮರಣದವರೆಗೆ 16 ಸಂಸ್ಕಾರಗಳು ಜೀವನದ ಪ್ರತಿ ಮಹತ್ವದ ಹಂತವನ್ನು ಪವಿತ್ರಗೊಳಿಸುತ್ತವೆ. ಗುರುದೇವರು ಈ ಆಚರಣೆಗಳನ್ನು ಸರಳ ಮತ್ತು ಎಲ್ಲರಿಗೂ ಸುಲಭಗೊಳಿಸಿದರು. AWGP ಬೆಂಗಳೂರಿನ ಸ್ವಯಂಸೇವಕರು ಈ ಸಂಸ್ಕಾರಗಳನ್ನು ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಉಚಿತವಾಗಿ ನಡೆಸುತ್ತಾರೆ.'
-                : '"Shodash" means sixteen and "Sanskar" means refinement. The Hindu tradition recognises 16 life-cycle rites of passage — each marking a significant transition from birth to death. Gurudev Pandit Shriram Sharma Acharya revived these ancient ceremonies and made them accessible to every household, regardless of caste, region, or background. At AWGP Bengaluru, our trained volunteers perform these Sanskars at your home, free of charge.'}
-            </p>
-          <span className="idx-divider" aria-hidden="true" />
+          <h2 className="skr-intro__title">{L(data.hero.title)}</h2>
+          <span className="skr-intro__divider" aria-hidden="true" />
+          <div className="skr-intro__body">
+            {introParas.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
         </div>
       </section>
 
-      <section className="idx-grid-section">
-        <div className="section-inner">
-          <div className="idx-section-head">
-            <span className="idx-eyebrow">
-              {locale === 'hi' ? 'षोडश संस्कार' : locale === 'kn' ? 'ಷೋಡಶ ಸಂಸ್ಕಾರಗಳು' : 'Shodash Sanskars'}
-            </span>
-            <h2>
-              {locale === 'hi' ? 'हमारे द्वारा किए जाने वाले संस्कार' : locale === 'kn' ? 'ನಾವು ನಡೆಸುವ ಸಂಸ್ಕಾರಗಳು' : 'Sanskars We Perform'}
-            </h2>
-            <p>
-              {locale === 'hi'
-                ? 'किसी भी संस्कार पर क्लिक करें — अर्थ, विधि और बुकिंग की जानकारी पाएं।'
-                : locale === 'kn'
-                ? 'ಯಾವುದೇ ಸಂಸ್ಕಾರದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ — ಅರ್ಥ, ವಿಧಿ ಮತ್ತು ಬುಕಿಂಗ್ ಮಾಹಿತಿ ಪಡೆಯಿರಿ.'
-                : 'Click any card to learn the meaning, procedure, and how to schedule with our volunteers.'}
-            </p>
-          </div>
-          <div className="index-grid">
-            {sanskarsData.map((s) => (
-              <ContentCard
-                key={s.slug}
-                href={`/sanskars/${s.slug}`}
-                image={s.heroImage}
-                imageAlt={L(s.title)}
-                icon={s.icon}
-                title={L(s.title)}
-                subtitle={L(s.subtitle)}
-                cta={locale === 'hi' ? 'और जानें' : locale === 'kn' ? 'ಇನ್ನಷ್ಟು' : 'Learn More'}
-              />
-            ))}
-          </div>
+      {/* ── Card grid ─────────────────────────────────────── */}
+      <SanskarsGrid items={items} labels={labels} />
+
+      {/* ── Closing CTA ───────────────────────────────────── */}
+      <section className="skr-cta">
+        <span className="skr-cta__glow" aria-hidden="true" />
+        <div className="skr-cta__inner">
+          <h2>
+            {locale === 'hi'
+              ? 'अपने परिवार में संस्कारों का दीप जलाएँ'
+              : locale === 'kn'
+              ? 'ನಿಮ್ಮ ಕುಟುಂಬದಲ್ಲಿ ಸಂಸ್ಕಾರಗಳ ದೀಪ ಬೆಳಗಿಸಿ'
+              : 'Bring these Sanskars into your family'}
+          </h2>
+          <p>
+            {locale === 'hi'
+              ? 'AWGP बेंगलूरु के प्रशिक्षित स्वयंसेवक ये संस्कार आपके घर पर सम्पन्न कराते हैं।'
+              : locale === 'kn'
+              ? 'AWGP ಬೆಂಗಳೂರಿನ ತರಬೇತಿ ಪಡೆದ ಸ್ವಯಂಸೇವಕರು ಈ ಸಂಸ್ಕಾರಗಳನ್ನು ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಉಚಿತವಾಗಿ ನಡೆಸುತ್ತಾರೆ.'
+              : 'Our trained volunteers at AWGP Bengaluru perform these Sanskars at your home.'}
+          </p>
+          <Link href="/contact" className="btn btn-primary">
+            {locale === 'hi' ? 'संपर्क करें' : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ' : 'Get in touch'}
+          </Link>
         </div>
       </section>
     </>

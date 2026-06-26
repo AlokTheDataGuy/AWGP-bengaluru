@@ -30,11 +30,11 @@ const row2 = [
   { src: '/assets/programs/festival.jpg',             en: 'Festival',           hi: 'पर्व उत्सव',        kn: 'ಹಬ್ಬದ ಆಚರಣೆ' },
   { src: '/assets/activities/food-distribution.jpg',  en: 'Food Distribution',  hi: 'अन्न वितरण',         kn: 'ಅನ್ನ ವಿತರಣೆ' },
   { src: '/assets/shantikunj/mandir.jpg',             en: 'Shantikunj Mandir',  hi: 'शांतिकुंज मंदिर',    kn: 'ಶಾಂತಿಕುಂಜ ಮಂದಿರ' },
-  { src: '/assets/programs/workshops.jpg',            en: 'Workshop',           hi: 'कार्यशाला',          kn: 'ಕಾರ್ಯಾಗಾರ' },
+  { src: '/assets/workshops/workshops.jpg',            en: 'Workshop',           hi: 'कार्यशाला',          kn: 'ಕಾರ್ಯಾಗಾರ' },
   { src: '/assets/activities/book-fair.jpg',          en: 'Book Fair',          hi: 'पुस्तक मेला',        kn: 'ಪುಸ್ತಕ ಮೇಳ' },
   { src: '/assets/misc/deepyagya1.jpg',               en: 'Deep Yagya',         hi: 'दीप यज्ञ',          kn: 'ದೀಪ ಯಜ್ಞ' },
   { src: '/assets/shantikunj/shivir.jpg',             en: 'Shivir',             hi: 'शिविर',             kn: 'ಶಿಬಿರ' },
-  { src: '/assets/programs/workshops1.jpg',           en: 'Workshop',           hi: 'कार्यशाला',          kn: 'ಕಾರ್ಯಾಗಾರ' },
+  { src: '/assets/workshops/workshops1.jpg',           en: 'Workshop',           hi: 'कार्यशाला',          kn: 'ಕಾರ್ಯಾಗಾರ' },
   { src: '/assets/activities/gau-seva.jpg',           en: 'Gau Seva',           hi: 'गौ सेवा',            kn: 'ಗೌ ಸೇವೆ' },
 ];
 
@@ -88,33 +88,25 @@ export default function HomeGallery() {
       {/* slowly rotating mandala watermark (designs/lotus-mandala.png) */}
       <div className="home-gallery__mandala" aria-hidden="true" />
 
-      <header className="home-gallery__head">
-        <span className="home-gallery__eyebrow">
-          {L('Our Community', 'हमारा समुदाय', 'ನಮ್ಮ ಸಮುದಾಯ')}
-        </span>
-        <h2 className="home-gallery__title">
-          {L('Moments from the Pariwar', 'परिवार के पल', 'ಪರಿವಾರದ ಕ್ಷಣಗಳು')}
-        </h2>
-        <p className="home-gallery__sub">
-          {L(
-            'Glimpses of sadhana, seva and celebration — moments shared across our Gayatri Pariwar family.',
-            'साधना, सेवा और उत्सव की झलकियाँ — हमारे गायत्री परिवार के अनमोल क्षण।',
-            'ಸಾಧನೆ, ಸೇವೆ ಮತ್ತು ಆಚರಣೆಯ ಝಲಕುಗಳು — ನಮ್ಮ ಗಾಯತ್ರಿ ಪರಿವಾರ ಕುಟುಂಬದ ಅಮೂಲ್ಯ ಕ್ಷಣಗಳು.'
-          )}
-        </p>
-        <span className="home-gallery__divider" aria-hidden="true" />
-      </header>
+      <div className="home-gallery__bar">
+        <div className="home-gallery__head">
+          <span className="home-gallery__eyebrow">
+            {L('Our Community', 'हमारा समुदाय', 'ನಮ್ಮ ಸಮುದಾಯ')}
+          </span>
+          <h2 className="home-gallery__title">
+            {L('Moments from the Pariwar', 'परिवार के पल', 'ಪರಿವಾರದ ಕ್ಷಣಗಳು')}
+          </h2>
+        </div>
+
+        <Link href="/media/gallery" className="home-gallery__cta">
+          <span>{L('View Full Gallery', 'पूरी गैलरी देखें', 'ಸಂಪೂರ್ಣ ಗ್ಯಾಲರಿ ನೋಡಿ')}</span>
+          <ArrowRight size={16} aria-hidden="true" />
+        </Link>
+      </div>
 
       <div className="home-gallery__marquee">
         <MarqueeRow items={row1} reverse={false} baseIndex={0} captionFor={captionFor} onOpen={open} />
         <MarqueeRow items={row2} reverse={true} baseIndex={row1.length} captionFor={captionFor} onOpen={open} />
-      </div>
-
-      <div className="home-gallery__cta-wrap">
-        <Link href="/media/gallery" className="home-gallery__cta">
-          <span>{L('View Full Gallery', 'पूरी गैलरी देखें', 'ಸಂಪೂರ್ಣ ಗ್ಯಾಲರಿ ನೋಡಿ')}</span>
-          <ArrowRight size={18} aria-hidden="true" />
-        </Link>
       </div>
 
       {lbIndex !== null && (

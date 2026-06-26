@@ -28,15 +28,16 @@ export default async function HomePage({ params }) {
     <div className="homepage">
       <Hero />
       <HomeWelcome />
-      {/* <HomeStats /> */}
-      <HomePillars />
+      <HomeStats />
       <HomePath />
-      <HomeEvents locale={locale} />
-      <HomeChetna />
-      <HomeBlog locale={locale} />
+      <HomePillars />
+
+      <HomeEvents locale={locale} />      <HomeBlog locale={locale} />
+
+      <HomeChetna />      <HomeContact />
+
       <HomeGallery />
       <HomeCTA />
-      <HomeContact />
     </div>
   );
 }

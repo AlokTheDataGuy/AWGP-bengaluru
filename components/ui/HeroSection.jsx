@@ -24,9 +24,10 @@ export default function HeroSection({
   bgColor = 'linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 60%, #7B1C1C 100%)',
   mantra,
   children,
+  className = '',
 }) {
   return (
-    <section className="page-hero">
+    <section className={`page-hero ${className}`.trim()}>
       {/* Background image */}
       {bgImage ? (
         <div className="page-hero__bg">

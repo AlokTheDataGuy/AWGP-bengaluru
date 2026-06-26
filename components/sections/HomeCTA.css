@@ -1,118 +1,199 @@
+/* =========================================================
+   Home — Join the Pariwar CTA  (light invitation panel)
+   A warm cream band with rotating gold lotus-mandala
+   watermarks, framing a double-bordered card: eyebrow,
+   maroon headline with a gold-gradient accent, a gold
+   lotus divider, and the two actions. Scroll-revealed.
+   ========================================================= */
+
 .home-cta {
-  padding: clamp(32px, 4.5vw, 52px) clamp(20px, 5vw, 60px);
-  background: #7A2424;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+  padding: clamp(3rem, 6vw, 5rem) var(--page-gutter);
+  background: linear-gradient(135deg, var(--cream) 0%, var(--saffron-pale) 52%, var(--gold-pale) 100%);
 }
 
-/* Subtle background pattern */
+/* gold hairline along the top edge */
 .home-cta::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 60% 80% at 80% 50%, rgba(200,155,78,0.09) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 70% at 20% 50%, rgba(160,40,40,0.18) 0%, transparent 70%);
-  pointer-events: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 2;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--gold) 22%,
+    var(--saffron) 50%,
+    var(--gold) 78%,
+    transparent
+  );
+  opacity: 0.65;
 }
 
-/* ── Rotating mandala flowers (design3) ─────────────────── */
-/* design3 is a light mandala on black; `screen` drops the black
-   and leaves a warm glow over the maroon. */
-.home-cta__flower {
+/* ── Rotating lotus-mandala watermarks ───────────────────── */
+.home-cta__mandala {
   position: absolute;
   z-index: 0;
   pointer-events: none;
-  background: url('/assets/designs/design3.png') center / contain no-repeat;
-  mix-blend-mode: screen;
-  opacity: 0;
-  will-change: transform, opacity;
-  animation: ctaFlowerIn 1.4s ease-out forwards,
-             ctaSpin 90s linear infinite;
+  aspect-ratio: 1;
+  background: url('/assets/designs/lotus-mandala.png') center / contain no-repeat;
+  opacity: 0.16;
+  will-change: transform;
 }
-.home-cta__flower--tr {
-  width: clamp(150px, 16vw, 250px);
-  height: clamp(150px, 16vw, 250px);
-  top: clamp(-110px, -7vw, -70px);
-  right: clamp(-90px, -5vw, -50px);
+.home-cta__mandala--tr {
+  width: clamp(220px, 26vw, 380px);
+  top: clamp(-120px, -8vw, -70px);
+  right: clamp(-110px, -7vw, -60px);
+  animation: ctaSpin 120s linear infinite;
 }
-.home-cta__flower--bl {
-  width: clamp(130px, 14vw, 220px);
-  height: clamp(130px, 14vw, 220px);
-  bottom: clamp(-100px, -6vw, -60px);
-  left: clamp(-80px, -4vw, -45px);
-  /* fade forward, spin the opposite direction */
-  animation-direction: normal, reverse;
-  animation-delay: 0.2s, 0s;
+.home-cta__mandala--bl {
+  width: clamp(180px, 22vw, 320px);
+  bottom: clamp(-110px, -7vw, -60px);
+  left: clamp(-100px, -6vw, -55px);
+  animation: ctaSpin 150s linear infinite reverse;
 }
 
-@keyframes ctaFlowerIn {
-  from { opacity: 0; }
-  to   { opacity: 0.45; }
-}
-@keyframes ctaSpin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .home-cta__flower {
-    animation: ctaFlowerIn 1s ease-out forwards;
-  }
-}
-
-.home-cta__inner {
+/* ── Invitation card ─────────────────────────────────────── */
+.home-cta__card {
   position: relative;
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: clamp(1.5rem, 4vw, 3rem);
-  flex-wrap: wrap;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(2.4rem, 5vw, 4rem) clamp(1.5rem, 5vw, 4rem);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 253, 247, 0.85) 100%);
+  border: 1px solid var(--border);
+  box-shadow: 0 14px 54px rgba(122, 35, 21, 0.1), var(--shadow-md);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  /* scroll-reveal start */
+  opacity: 0;
+  transform: translateY(34px);
+}
+.home-cta.is-visible .home-cta__card {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.home-cta__text {
-  text-align: left;
-  max-width: 640px;
+/* inset double-frame hairline */
+.home-cta__card::after {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  z-index: 0;
+  border: 1px solid rgba(249, 199, 79, 0.5);
+  pointer-events: none;
+}
+
+/* soft gold glow blooming from the top */
+.home-cta__glow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(60% 80% at 50% 0%, rgba(249, 199, 79, 0.18) 0%, transparent 60%);
+}
+
+/* keep all content above the frame + glow */
+.home-cta__eyebrow,
+.home-cta__title,
+.home-cta__divider,
+.home-cta__desc,
+.home-cta__actions {
+  position: relative;
+  z-index: 1;
+}
+
+.home-cta__eyebrow {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 0.9rem;
 }
 
 .home-cta__title {
-  font-size: clamp(1.55rem, 3vw, 2.3rem);
+  font-family: var(--font-heading);
+  font-size: clamp(1.9rem, 4vw, 3rem);
   font-weight: 700;
-  color: #fff;
-  line-height: 1.2;
-  margin: 0.3rem 0 0.5rem;
+  line-height: 1.18;
   letter-spacing: -0.01em;
+  color: var(--maroon);
 }
 .home-cta__title em {
   font-style: normal;
-  color: var(--gold-lt);
+  color: var(--saffron); /* fallback */
+  background: linear-gradient(120deg, var(--gold) 0%, var(--saffron) 60%, var(--saffron-lt) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* gold lotus flourish (designs folder) */
+.home-cta__divider {
+  display: block;
+  width: clamp(190px, 30vw, 280px);
+  height: 30px;
+  margin: clamp(1rem, 2vw, 1.5rem) auto clamp(1.1rem, 2vw, 1.6rem);
+  background: url('/assets/designs/divider1.png') center / contain no-repeat;
 }
 
 .home-cta__desc {
-  font-size: 0.97rem;
-  color: var(--text-light-2);
-  line-height: 1.65;
-  margin: 0;
-  max-width: 520px;
+  max-width: 540px;
+  margin: 0 auto;
+  font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+  line-height: 1.8;
+  color: var(--text-muted);
 }
 
 .home-cta__actions {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.9rem;
   flex-wrap: wrap;
-  flex-shrink: 0;
+  margin-top: clamp(1.6rem, 3vw, 2.4rem);
 }
 
-@media (max-width: 720px) {
-  .home-cta__inner {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+/* ── Responsive ──────────────────────────────────────────── */
+.home-cta__btn-label--short { display: none; }
+
+@media (max-width: 480px) {
+  .home-cta__actions {
+    width: 100%;
+  }
+  .home-cta__actions .btn {
+    flex: 1;
+    justify-content: center;
+  }
+  .home-cta__btn-label--full  { display: none; }
+  .home-cta__btn-label--short { display: inline; }
+}
+
+/* ── Keyframes ───────────────────────────────────────────── */
+@keyframes ctaSpin {
+  to {
+    transform: rotate(360deg);
   }
 }
-@media (max-width: 480px) {
-  .home-cta__actions { width: 100%; }
-  .home-cta__actions .btn { flex: 1; justify-content: center; }
+
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .home-cta__mandala {
+    animation: none;
+  }
+  .home-cta__card,
+  .home-cta.is-visible .home-cta__card {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none;
+  }
 }

@@ -14,7 +14,10 @@ export default function HomeContact() {
   const L = (en, hi, kn) => (locale === 'hi' ? hi : locale === 'kn' ? kn : en);
 
   return (
-    <section className="home-contact section section--cream-2">
+    <section className="home-contact section">
+      {/* slowly rotating lotus-mandala watermark (designs folder) */}
+      <span className="home-contact__mandala" aria-hidden="true" />
+
       <div className="section-inner">
 
         <div className="home-contact__head">
@@ -24,6 +27,7 @@ export default function HomeContact() {
           <h2 className="home-contact__title">
             {L('We’d love to hear from you', 'हमें आपसे सुनकर प्रसन्नता होगी', 'ನಿಮ್ಮಿಂದ ಕೇಳಲು ನಾವು ಇಷ್ಟಪಡುತ್ತೇವೆ')}
           </h2>
+          <span className="home-contact__divider" aria-hidden="true" />
           <p className="home-contact__lead">
             {L(
               'Whether you want to join our spiritual family, volunteer, or simply visit — our doors are always open.',
@@ -52,8 +56,8 @@ export default function HomeContact() {
                 <InfoCard
                   icon={<Mail size={20} />}
                   label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                  value="bangalore.ka.in@awgp.org"
-                  href="mailto:bangalore.ka.in@awgp.org"
+                  value="connect@awgp.org"
+                  href="mailto:connect@awgp.org"
                 />
                 <InfoCard
                   icon={<Clock size={20} />}
@@ -88,7 +92,7 @@ export default function HomeContact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-            <a href={MAP_LINK} target="_blank" rel="noopener noreferrer" className="home-contact__directions">
+            <a href={MAP_LINK} target="_blank" rel="noopener noreferrer" className="home-contact__directions fx-sheen fx-lift">
               {L('Get Directions', 'दिशा-निर्देश पाएं', 'ದಾರಿ ಪಡೆಯಿರಿ')}
             </a>
           </div>

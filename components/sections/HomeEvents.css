@@ -221,6 +221,11 @@
     text-align: center;
     padding: clamp(1.75rem, 5vw, 2.5rem);
   }
+  .home-events__intro .ornament {
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+  }
   .ev-card { min-height: clamp(260px, 44vw, 320px); }
 }
 
