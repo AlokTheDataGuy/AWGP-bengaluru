@@ -41,9 +41,9 @@ const STEPS = [
     kn: { name: 'ಚಟುವಟಿಕೆಗಳು', desc: 'ಯೋಗ, ಕಾರ್ಯಾಗಾರಗಳು, ಧ್ಯಾನ, ಸಾಧನೆ ಮತ್ತು ಸೇವೆ — ಅಭ್ಯಾಸವನ್ನು ಕ್ರಿಯೆಯಾಗಿ ಪರಿವರ್ತಿಸುತ್ತವೆ.' },
   },
   {
-    href: '/events',
+    href: '/programs',
     img: '/assets/path_of_growth/events.jpg',
-    en: { name: 'Events', desc: 'Yagyas, festivals and drives through the year — come together in shared light.' },
+    en: { name: 'Programs', desc: 'Yagyas, festivals and drives through the year — come together in shared light.' },
     hi: { name: 'कार्यक्रम', desc: 'वर्ष भर यज्ञ, उत्सव और अभियान — साझा प्रकाश में एक साथ आएं।' },
     kn: { name: 'ಕಾರ್ಯಕ್ರಮಗಳು', desc: 'ವರ್ಷವಿಡೀ ಯಜ್ಞ, ಉತ್ಸವ ಮತ್ತು ಅಭಿಯಾನ — ಹಂಚಿದ ಬೆಳಕಿನಲ್ಲಿ ಒಟ್ಟಿಗೆ ಸೇರಿ.' },
   },

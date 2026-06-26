@@ -15,9 +15,15 @@
 /* ── All World Gayatri Pariwar ── */
 .global-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(280px, 440px) 1fr;
   gap: 3rem;
-  align-items: center;
+  align-items: flex-start;
+}
+/* smaller, gold-framed card — matches the homepage About slideshow */
+.global-slideshow {
+  max-width: 440px;
+  border: 2px solid var(--gold);
+  box-shadow: var(--shadow-warm);
 }
 .global-text p {
   font-size: 1rem;
@@ -469,6 +475,7 @@
 }
 @media (max-width: 860px) {
   .global-grid { grid-template-columns: 1fr; }
+  .global-slideshow { margin: 0 auto; }
   .global-stats { grid-template-columns: repeat(2, 1fr); }
   .founder-row,
   .founder-row--reverse { grid-template-columns: 1fr; }

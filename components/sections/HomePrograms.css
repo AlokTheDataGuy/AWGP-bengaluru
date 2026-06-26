@@ -1,22 +1,22 @@
 /* =========================================================
-   Home — Upcoming Events
-   Full-bleed band: a saffron title panel + image-led event
+   Home — Upcoming Programs
+   Full-bleed band: a saffron title panel + image-led program
    cards whose caption fills with colour on hover.
    ========================================================= */
 
-.home-events {
+.home-programs {
   background: var(--cream);
 }
 
 /* Edge-to-edge band: title panel + 3 cards */
-.home-events__band {
+.home-programs__band {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 /* ── Title panel ────────────────────────────────────────── */
 
-.home-events__intro {
+.home-programs__intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@
   color: #fff;
   animation: fadeInUp 0.7s ease both;
 }
-.home-events__eyebrow {
+.home-programs__eyebrow {
   font-family: var(--font-heading);
   font-size: clamp(0.72rem, 1vw, 0.85rem);
   font-weight: 700;
@@ -34,7 +34,7 @@
   color: rgba(255, 255, 255, 0.82);
   margin-bottom: 0.6rem;
 }
-.home-events__heading {
+.home-programs__heading {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 3.4vw, 3rem);
   font-weight: 700;
@@ -44,9 +44,9 @@
   line-height: 1;
 }
 
-/* ── Event card ─────────────────────────────────────────── */
+/* ── Program card ───────────────────────────────────────── */
 
-.ev-card {
+.prog-card {
   position: relative;
   display: block;
   min-height: clamp(240px, 23vw, 300px);
@@ -58,27 +58,27 @@
 }
 
 /* Stretched whole-card link (sits above the image, below the overlay) */
-.ev-card__link {
+.prog-card__link {
   position: absolute;
   inset: 0;
   z-index: 2;
 }
 
-.ev-card__media {
+.prog-card__media {
   position: absolute;
   inset: 0;
   z-index: 0;
 }
-.ev-card__media img {
+.prog-card__media img {
   transition: transform 0.7s cubic-bezier(0.2, 0, 0.2, 1);
 }
-.ev-card:hover .ev-card__media img,
-.ev-card:focus-within .ev-card__media img {
+.prog-card:hover .prog-card__media img,
+.prog-card:focus-within .prog-card__media img {
   transform: scale(1.07);
 }
 
 /* Default caption — translucent white panel pinned to the bottom */
-.ev-card__cap {
+.prog-card__cap {
   position: absolute;
   left: 0;
   right: 0;
@@ -90,7 +90,7 @@
   pointer-events: none;
   transition: opacity 0.35s ease;
 }
-.ev-card__date {
+.prog-card__date {
   display: block;
   font-family: var(--font-heading);
   font-size: 0.72rem;
@@ -100,21 +100,21 @@
   color: var(--text-muted);
   margin-bottom: 0.35rem;
 }
-.ev-card__title {
+.prog-card__title {
   font-size: clamp(1.05rem, 1.5vw, 1.3rem);
   font-weight: 600;
   color: var(--text-dark);
   line-height: 1.25;
 }
 /* Fade the plain caption out as the overlay rises */
-.ev-card:hover .ev-card__cap,
-.ev-card:focus-within .ev-card__cap {
+.prog-card:hover .prog-card__cap,
+.prog-card:focus-within .prog-card__cap {
   opacity: 0;
 }
 
 /* ── Hover overlay — slides up from the bottom ──────────── */
 
-.ev-card__overlay {
+.prog-card__overlay {
   position: absolute;
   inset: 0;
   z-index: 3;
@@ -133,12 +133,12 @@
   /* let clicks fall through to the stretched link, except on the button */
   pointer-events: none;
 }
-.ev-card:hover .ev-card__overlay,
-.ev-card:focus-within .ev-card__overlay {
+.prog-card:hover .prog-card__overlay,
+.prog-card:focus-within .prog-card__overlay {
   transform: translateY(0);
 }
 
-.ev-card__ov-date {
+.prog-card__ov-date {
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 700;
@@ -147,19 +147,19 @@
   color: var(--gold-lt);
   margin-bottom: 0.5rem;
 }
-.ev-card__ov-title {
+.prog-card__ov-title {
   font-size: clamp(1.15rem, 1.6vw, 1.4rem);
   font-weight: 700;
   color: #fff;
   line-height: 1.25;
   margin-bottom: 0.6rem;
 }
-.ev-card__ov-desc {
+.prog-card__ov-desc {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.6;
 }
-.ev-card__ov-loc {
+.prog-card__ov-loc {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -168,10 +168,10 @@
   font-weight: 600;
   color: var(--gold-lt);
 }
-.ev-card__ov-loc svg { flex-shrink: 0; }
+.prog-card__ov-loc svg { flex-shrink: 0; }
 
 /* Add to Calendar button — pinned to the bottom of the overlay */
-.ev-card__cal {
+.prog-card__cal {
   margin-top: auto;
   display: inline-flex;
   align-items: center;
@@ -188,16 +188,16 @@
   pointer-events: auto;
   transition: background 0.25s ease, transform 0.25s ease;
 }
-.ev-card__cal:hover {
+.prog-card__cal:hover {
   background: var(--saffron-deep);
   color: #fff;
   transform: translateY(-2px);
 }
-.ev-card__cal svg { flex-shrink: 0; }
+.prog-card__cal svg { flex-shrink: 0; }
 
 /* ── Footer CTA ─────────────────────────────────────────── */
 
-.home-events__footer {
+.home-programs__footer {
   text-align: center;
   padding: clamp(2rem, 4vw, 3rem) clamp(20px, 5vw, 60px);
 }
@@ -205,33 +205,33 @@
 /* ── Reduced motion ─────────────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {
-  .home-events__intro,
-  .ev-card { animation: none; }
+  .home-programs__intro,
+  .prog-card { animation: none; }
 }
 
 /* ── Responsive ─────────────────────────────────────────── */
 
 @media (max-width: 900px) {
-  .home-events__band {
+  .home-programs__band {
     grid-template-columns: repeat(2, 1fr);
   }
-  .home-events__intro {
+  .home-programs__intro {
     grid-column: 1 / -1;
     align-items: center;
     text-align: center;
     padding: clamp(1.75rem, 5vw, 2.5rem);
   }
-  .home-events__intro .ornament {
+  .home-programs__intro .ornament {
     margin-left: auto;
     margin-right: auto;
     background-position: center;
   }
-  .ev-card { min-height: clamp(260px, 44vw, 320px); }
+  .prog-card { min-height: clamp(260px, 44vw, 320px); }
 }
 
 @media (max-width: 560px) {
-  .home-events__band {
+  .home-programs__band {
     grid-template-columns: 1fr;
   }
-  .ev-card { min-height: 280px; }
+  .prog-card { min-height: 280px; }
 }

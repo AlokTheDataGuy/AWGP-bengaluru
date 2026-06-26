@@ -4,7 +4,7 @@ import './ContentCard.css';
 
 /**
  * ContentCard — the standard AWGP content card used across listing pages
- * (Sanskars, Events, Activities). White surface, hairline gold-tinted border,
+ * (Sanskars, Programs, Activities). White surface, hairline gold-tinted border,
  * warm shadow that lifts on hover, square corners, image zoom, a gold accent
  * bar that sweeps in, and an animated "Learn More →" CTA.
  *

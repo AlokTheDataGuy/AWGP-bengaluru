@@ -1,7 +1,7 @@
 import SectionEditor from './SectionEditor';
 
 export async function generateStaticParams() {
-  return ['activities', 'programs', 'sanskars', 'events', 'schedule', 'site'].map((s) => ({
+  return ['activities', 'sanskars', 'programs', 'schedule', 'site'].map((s) => ({
     section: s,
   }));
 }

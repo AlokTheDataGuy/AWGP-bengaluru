@@ -102,12 +102,12 @@ export default function Contact() {
             <div className="whatsapp-info">
               <h3>{L('AWGP Bengaluru Pariwar', 'AWGP बेंगलूरु परिवार', 'AWGP ಬೆಂಗಳೂರು ಪರಿವಾರ')}</h3>
               <p>{L(
-                'Join our WhatsApp group to receive instant updates about Yagyas, events, and Sadhana schedules.',
+                'Join our WhatsApp group to receive instant updates about Yagyas, programs, and Sadhana schedules.',
                 'हमारे WhatsApp समूह से जुड़ें और यज्ञ, आयोजन, साधना कार्यक्रमों की तत्काल सूचना पाएं।',
                 'ನಮ್ಮ WhatsApp ಗ್ರೂಪ್ ಸೇರಿ ಮತ್ತು ಯಜ್ಞ, ಕಾರ್ಯಕ್ರಮಗಳ ತಕ್ಷಣ ಅಪ್‌ಡೇಟ್ ಪಡೆಯಿರಿ.'
               )}</p>
               <ul className="info-list" style={{ marginTop: '1rem' }}>
-                <li>{L('Yagya & event updates', 'यज्ञ एवं आयोजन की सूचनाएं', 'ಯಜ್ಞ ಮತ್ತು ಕಾರ್ಯಕ್ರಮ ಅಪ್‌ಡೇಟ್‌ಗಳು')}</li>
+                <li>{L('Yagya & program updates', 'यज्ञ एवं आयोजन की सूचनाएं', 'ಯಜ್ಞ ಮತ್ತು ಕಾರ್ಯಕ್ರಮ ಅಪ್‌ಡೇಟ್‌ಗಳು')}</li>
                 <li>{L('Daily inspiration & thought of the day', 'दैनिक प्रेरणा एवं विचार', 'ದೈನಂದಿನ ಪ್ರೇರಣೆ ಮತ್ತು ಆಲೋಚನೆಗಳು')}</li>
                 <li>{L('Community seva opportunities', 'समुदाय सेवा के अवसर', 'ಸಮುದಾಯ ಸೇವಾ ಅವಕಾಶಗಳು')}</li>
               </ul>

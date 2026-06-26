@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import './SlideshowClient.css';
 
-export default function SlideshowClient({ slides, aspectRatio = '4/3', interval = 4000, showDots = true }) {
+export default function SlideshowClient({ slides, aspectRatio = '4/3', interval = 4000, showDots = true, className = '' }) {
   const [current, setCurrent] = useState(0);
   const timerRef = useRef(null);
 
@@ -27,7 +27,7 @@ export default function SlideshowClient({ slides, aspectRatio = '4/3', interval 
   };
 
   return (
-    <div className="slideshow" style={{ aspectRatio }}>
+    <div className={`slideshow ${className}`.trim()} style={{ aspectRatio }}>
       <div className="slideshow__track">
         {slides.map((slide, i) => (
           <div

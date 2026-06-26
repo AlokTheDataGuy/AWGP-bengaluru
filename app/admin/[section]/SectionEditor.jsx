@@ -262,7 +262,7 @@ export default function SectionEditor({ section }) {
       <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 clamp(20px, 5vw, 60px) 4rem' }}>
         {data === null && <p style={{ color: 'var(--text-muted)' }}>Loading…</p>}
 
-        {/* Array sections: activities, programs, sanskars, events */}
+        {/* Array sections: activities, sanskars, programs */}
         {isArray && (
           <>
             {data.map((item, i) => (

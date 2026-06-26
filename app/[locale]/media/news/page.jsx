@@ -138,15 +138,15 @@ export default async function NewsPage({ params }) {
               <h3>{L('Be Part of the Next One', 'अगले आयोजन का हिस्सा बनें', 'ಮುಂದಿನದರ ಭಾಗವಾಗಿ')}</h3>
               <p>
                 {L(
-                  'Every event is open to all. Come join a yagya, a shivir or a seva drive.',
+                  'Every program is open to all. Come join a yagya, a shivir or a seva drive.',
                   'हर कार्यक्रम सभी के लिए खुला है। किसी यज्ञ, शिविर या सेवा अभियान में सम्मिलित हों।',
                   'ಪ್ರತಿ ಕಾರ್ಯಕ್ರಮವೂ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ. ಯಜ್ಞ, ಶಿಬಿರ ಅಥವಾ ಸೇವಾ ಅಭಿಯಾನದಲ್ಲಿ ಭಾಗವಹಿಸಿ.',
                 )}
               </p>
             </div>
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-              <Link href="/events" className="btn btn-primary">
-                {L('See Events', 'कार्यक्रम देखें', 'ಕಾರ್ಯಕ್ರಮ ನೋಡಿ')}
+              <Link href="/programs" className="btn btn-primary">
+                {L('See Programs', 'कार्यक्रम देखें', 'ಕಾರ್ಯಕ್ರಮ ನೋಡಿ')}
               </Link>
               <Link href="/contact" className="btn btn-outline" style={{ borderColor: 'rgba(255,255,255,0.5)', color: '#fff' }}>
                 {L('Contact Us', 'संपर्क करें', 'ಸಂಪರ್ಕಿಸಿ')}

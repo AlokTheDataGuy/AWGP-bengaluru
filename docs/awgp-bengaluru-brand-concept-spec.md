@@ -187,7 +187,7 @@ The same palette, the radiant motif, and the serif-plus-sans pairing carry acros
 
 | Surface | Direction |
 |---|---|
-| **Website** | Reskin the Gita theme structure (hero, four pillars(sadhna, swadhyay, sanyam, seva), path of life - (sanskars, events, activities), upcoming events, chetna kendra, contact, join us CTA, donation, blogs) into cream-first layouts with maroon blocks and gold accents. More breathing room than the original. Palette is ours, not the theme's. |
+| **Website** | Reskin the Gita theme structure (hero, four pillars(sadhna, swadhyay, sanyam, seva), path of life - (sanskars, programs, activities), upcoming programs, chetna kendra, contact, join us CTA, donation, blogs) into cream-first layouts with maroon blocks and gold accents. More breathing room than the original. Palette is ours, not the theme's. |
 | **Pitch deck** | Opens on the sunburst and the anchor line. Serif headlines, generous cream space, one idea per slide, gold for emphasis only. |
 | **Social posts** | Saffron-forward energy on cream or maroon. Icon as a quiet watermark. Serif headline + one clear message + the anchor line. |
 | **Flyers** | Serif headline, one strong image, a gold divider, clear event details in sans. Cream base keeps it premium. |

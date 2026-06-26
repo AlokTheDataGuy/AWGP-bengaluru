@@ -5,9 +5,8 @@ export const metadata = { title: 'Admin Dashboard — AWGP Bengaluru' };
 
 const sections = [
   { key: 'activities', label: 'Activities', icon: '🌿', desc: 'Blood donation, tree plantation, hospital visits…' },
-  { key: 'programs',   label: 'Programs',   icon: '📿', desc: 'Akhand Jap, Workshops, Yoga, Festivals…' },
   { key: 'sanskars',   label: 'Sanskars',   icon: '🪔', desc: 'Naamkaran, Annaprashan, Vivah, Deeksha…' },
-  { key: 'events',     label: 'Events',     icon: '📅', desc: 'Upcoming events shown on the homepage' },
+  { key: 'programs',   label: 'Programs',   icon: '📅', desc: 'Upcoming programs shown on the homepage' },
   { key: 'schedule',   label: 'Schedule',   icon: '🕐', desc: 'Daily morning, evening and Sunday timings' },
   { key: 'site',       label: 'Site Content', icon: '⚙️', desc: 'Global text: footer tagline, contact info…' },
 ];

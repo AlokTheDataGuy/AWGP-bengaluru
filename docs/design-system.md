@@ -277,7 +277,7 @@ this requirement.
   (`/blog`, `/media`). Logo swaps light/dark with state. Desktop mega-dropdowns; mobile = right
   slide-in panel with accordion sub-menus, locked body scroll, language toggle + Join CTA +
   socials. Trilingual labels.
-- **Footer** — link columns (Explore / Practice / Events) · centered brand + socials · contact
+- **Footer** — link columns (Explore / Practice / Programs) · centered brand + socials · contact
   · Akhand Jyoti subscription card · bottom rights bar. All trilingual via `L()` helper.
 
 ---
@@ -311,7 +311,7 @@ Order in [`app/[locale]/page.jsx`](../app/[locale]/page.jsx), alternating tone p
 layer strategy:
 
 `Hero (image)` → `Welcome (cream)` → `Mantra (maroon)` → `Stats` → `Pillars (cream)` →
-`Path (dark image cols)` → `Cards` → `Events` → `Chetna (maroon)` → `Gallery` → `CTA` →
+`Path (dark image cols)` → `Cards` → `Programs` → `Chetna (maroon)` → `Gallery` → `CTA` →
 `Contact`.
 
 The alternation **cream → accent band → cream** is the "base calm, accent precious" rule made
@@ -329,7 +329,7 @@ Priority order for bringing the whole site to the level the homepage sets:
    onto the new section system (`.section`, `.sec-head`, the gold-divider motif).
 3. **Remove emoji ornaments** (4 pages) — replace with the gold divider / lucide icons; then
    delete the legacy-compat block in `globals.css`.
-4. **Adopt the eyebrow token** in the remaining home sections (`HomeCards`, `HomeEvents`,
+4. **Adopt the eyebrow token** in the remaining home sections (`HomeCards`, `HomePrograms`,
    `HomeContact` still carry drifted literals) and anywhere new.
 5. **Formalize a numeric spacing scale** (`--space-1…8`) to replace ad-hoc clamps, so vertical
    rhythm is enforceable, not eyeballed.

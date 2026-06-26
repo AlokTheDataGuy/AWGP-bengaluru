@@ -3,7 +3,7 @@ import HomeWelcome from '../../components/sections/HomeWelcome';
 import HomePillars from '../../components/sections/HomePillars';
 import HomePath from '../../components/sections/HomePath';
 import HomeStats from '../../components/sections/HomeStats';
-import HomeEvents from '../../components/sections/HomeEvents';
+import HomePrograms from '../../components/sections/HomePrograms';
 import HomeChetna from '../../components/sections/HomeChetna';
 import HomeBlog from '../../components/sections/HomeBlog';
 import GalleryStrip from '../../components/sections/GalleryStrip';
@@ -32,7 +32,7 @@ export default async function HomePage({ params }) {
       <HomePath />
       <HomePillars />
 
-      <HomeEvents locale={locale} />      <HomeBlog locale={locale} />
+      <HomePrograms locale={locale} />      <HomeBlog locale={locale} />
 
       <HomeChetna />      <HomeContact />
 

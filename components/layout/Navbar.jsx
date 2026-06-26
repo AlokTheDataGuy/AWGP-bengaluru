@@ -22,11 +22,11 @@ const aboutMenu = [
   { href: '/chetna-kendra',en: 'Chetna Kendra',   hi: 'चेतना केंद्र',     kn: 'ಚೇತನ ಕೇಂದ್ರ' },
 ];
 
-const eventsMenu = [
-  { href: '/events/festivals',       en: 'Festival Celebrations',  hi: 'पर्व उत्सव',             kn: 'ಹಬ್ಬದ ಆಚರಣೆಗಳು' },
-  { href: '/events/yagya-events',    en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
-  { href: '/events/book-fair',       en: 'Book Fair',              hi: 'पुस्तक मेला',            kn: 'ಪುಸ್ತಕ ಮೇಳ' },
-  { href: '/events/tree-plantation', en: 'Tree Plantation',        hi: 'वृक्षारोपण',             kn: 'ವೃಕ್ಷಾರೋಪಣ' },
+const programsMenu = [
+  { href: '/programs/festivals',       en: 'Festival Celebrations',  hi: 'पर्व उत्सव',             kn: 'ಹಬ್ಬದ ಆಚರಣೆಗಳು' },
+  { href: '/programs/yagya-events',    en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
+  { href: '/programs/book-fair',       en: 'Book Fair',              hi: 'पुस्तक मेला',            kn: 'ಪುಸ್ತಕ ಮೇಳ' },
+  { href: '/programs/tree-plantation', en: 'Tree Plantation',        hi: 'वृक्षारोपण',             kn: 'ವೃಕ್ಷಾರೋಪಣ' },
 ];
 
 const activitiesMenu = [
@@ -159,9 +159,9 @@ export default function Navbar() {
           </li>
 
           <li className="navbar__dropdown-wrap">
-            <Link href="/events" className={`navbar__dropdown-trigger${isActive('/events') ? ' is-active' : ''}`}>{t('nav_events')}</Link>
+            <Link href="/programs" className={`navbar__dropdown-trigger${isActive('/programs') ? ' is-active' : ''}`}>{t('nav_programs')}</Link>
             <div className="navbar__dropdown">
-              {eventsMenu.map((item) => (
+              {programsMenu.map((item) => (
                 <Link key={item.href} href={item.href} className="navbar__dropdown-item">{label(item)}</Link>
               ))}
             </div>
@@ -289,18 +289,18 @@ export default function Navbar() {
 
           <li className="navbar__mobile-accordion">
             <div className="navbar__mobile-accordion-head">
-              <Link href="/events" onClick={() => setOpen(false)}>{t('nav_events')}</Link>
+              <Link href="/programs" onClick={() => setOpen(false)}>{t('nav_programs')}</Link>
               <button
-                onClick={() => setMobileExpanded(mobileExpanded === 'events' ? null : 'events')}
-                aria-label={t('nav_events')}
-                aria-expanded={mobileExpanded === 'events'}
+                onClick={() => setMobileExpanded(mobileExpanded === 'programs' ? null : 'programs')}
+                aria-label={t('nav_programs')}
+                aria-expanded={mobileExpanded === 'programs'}
               >
-                <ChevronDown size={16} className={mobileExpanded === 'events' ? 'rotated' : ''} />
+                <ChevronDown size={16} className={mobileExpanded === 'programs' ? 'rotated' : ''} />
               </button>
             </div>
-            {mobileExpanded === 'events' && (
+            {mobileExpanded === 'programs' && (
               <ul className="navbar__mobile-sub">
-                {eventsMenu.map((item) => (
+                {programsMenu.map((item) => (
                   <li key={item.href}><Link href={item.href} onClick={() => setOpen(false)}>{label(item)}</Link></li>
                 ))}
               </ul>

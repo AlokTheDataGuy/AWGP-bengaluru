@@ -45,13 +45,13 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Events */}
-          <nav className="footer__col" aria-label={L('Events', 'कार्यक्रम', 'ಕಾರ್ಯಕ್ರಮ')}>
-            <h4>{L('Events', 'कार्यक्रम', 'ಕಾರ್ಯಕ್ರಮ')}</h4>
+          {/* Programs */}
+          <nav className="footer__col" aria-label={L('Programs', 'कार्यक्रम', 'ಕಾರ್ಯಕ್ರಮ')}>
+            <h4>{L('Programs', 'कार्यक्रम', 'ಕಾರ್ಯಕ್ರಮ')}</h4>
             <ul>
-              <li><Link href="/events/festivals">{L('Festivals', 'पर्व उत्सव', 'ಹಬ್ಬಗಳು')}</Link></li>
-              <li><Link href="/events/yagya-events">{L('Yagya Events', 'यज्ञ आयोजन', 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮ')}</Link></li>
-              <li><Link href="/events">{L('All Events', 'सभी कार्यक्रम', 'ಎಲ್ಲಾ ಕಾರ್ಯಕ್ರಮ')}</Link></li>
+              <li><Link href="/programs/festivals">{L('Festivals', 'पर्व उत्सव', 'ಹಬ್ಬಗಳು')}</Link></li>
+              <li><Link href="/programs/yagya-events">{L('Yagya Events', 'यज्ञ आयोजन', 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮ')}</Link></li>
+              <li><Link href="/programs">{L('All Programs', 'सभी कार्यक्रम', 'ಎಲ್ಲಾ ಕಾರ್ಯಕ್ರಮ')}</Link></li>
             </ul>
           </nav>
 

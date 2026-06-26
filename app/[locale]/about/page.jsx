@@ -45,6 +45,7 @@ export default async function AboutPage({ params }) {
           <SectionHeader eyebrow={L(data.global.eyebrow)} title={L(data.global.title)} ornament={data.global.ornament} />
           <div className="global-grid">
             <SlideshowClient
+              className="global-slideshow"
               slides={data.global.slides.map((s) => ({ src: s.src, caption: L(s.caption) }))}
               aspectRatio="4/3"
               interval={5000}

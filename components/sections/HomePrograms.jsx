@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Link } from '../../lib/i18n/navigation';
-import { getEvents } from '../../lib/content';
-import './HomeEvents.css';
+import { getPrograms } from '../../lib/content';
+import './HomePrograms.css';
 
 const FALLBACK_IMG = '/assets/programs/festival.jpg';
 const LOCALE_TAG = { hi: 'hi-IN', kn: 'kn-IN', en: 'en-US' };
@@ -23,14 +23,14 @@ function gcalUrl({ date, title, details, location }) {
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
 
-export default function HomeEvents({ locale = 'en' }) {
-  const events = getEvents();
+export default function HomePrograms({ locale = 'en' }) {
+  const programs = getPrograms();
   const L = (obj) => (locale === 'hi' ? obj?.hi : locale === 'kn' ? obj?.kn : obj?.en) || obj?.en || '';
 
-  const upcoming = events.slice(0, 3);
+  const upcoming = programs.slice(0, 3);
 
   const upcomingLabel = locale === 'hi' ? 'आगामी' : locale === 'kn' ? 'ಮುಂಬರುವ' : 'Upcoming';
-  const eventsLabel   = locale === 'hi' ? 'कार्यक्रम' : locale === 'kn' ? 'ಕಾರ್ಯಕ್ರಮಗಳು' : 'Events';
+  const programsLabel = locale === 'hi' ? 'कार्यक्रम' : locale === 'kn' ? 'ಕಾರ್ಯಕ್ರಮಗಳು' : 'Programs';
   const addCalLabel   = locale === 'hi' ? 'कैलेंडर में जोड़ें' : locale === 'kn' ? 'ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಸೇರಿಸಿ' : 'Add to Calendar';
 
   const fmt = new Intl.DateTimeFormat(LOCALE_TAG[locale] || 'en-US', {
@@ -38,35 +38,35 @@ export default function HomeEvents({ locale = 'en' }) {
   });
 
   return (
-    <section className="home-events">
-      <div className="home-events__band">
+    <section className="home-programs">
+      <div className="home-programs__band">
 
-        <div className="home-events__intro" style={{ '--i': 0 }}>
-          <span className="home-events__eyebrow">{upcomingLabel}</span>
-          <h2 className="home-events__heading">{eventsLabel}</h2>
+        <div className="home-programs__intro" style={{ '--i': 0 }}>
+          <span className="home-programs__eyebrow">{upcomingLabel}</span>
+          <h2 className="home-programs__heading">{programsLabel}</h2>
           <div className="ornament ornament--left" aria-hidden="true" />
         </div>
 
-        {upcoming.map((ev, i) => {
-          const title = L(ev.title);
-          let dateStr = fmt.format(new Date(ev.date));
+        {upcoming.map((pr, i) => {
+          const title = L(pr.title);
+          let dateStr = fmt.format(new Date(pr.date));
           if (locale === 'en') dateStr = dateStr.toUpperCase();
 
           const calHref = gcalUrl({
-            date: ev.date,
+            date: pr.date,
             title,
-            details: L(ev.desc),
-            location: L(ev.location),
+            details: L(pr.desc),
+            location: L(pr.location),
           });
 
           return (
-            <article key={ev.id} className="ev-card" style={{ '--i': i + 1 }}>
-              {/* Whole-card link to the events page (stretched, behind the overlay) */}
-              <Link href="/events" className="ev-card__link" aria-label={title} />
+            <article key={pr.id} className="prog-card" style={{ '--i': i + 1 }}>
+              {/* Whole-card link to the programs page (stretched, behind the overlay) */}
+              <Link href="/programs" className="prog-card__link" aria-label={title} />
 
-              <div className="ev-card__media">
+              <div className="prog-card__media">
                 <Image
-                  src={ev.img || FALLBACK_IMG}
+                  src={pr.img || FALLBACK_IMG}
                   alt={title}
                   fill
                   sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, 25vw"
@@ -75,27 +75,27 @@ export default function HomeEvents({ locale = 'en' }) {
               </div>
 
               {/* Default caption */}
-              <div className="ev-card__cap">
-                <span className="ev-card__date">{dateStr}</span>
-                <h3 className="ev-card__title">{title}</h3>
+              <div className="prog-card__cap">
+                <span className="prog-card__date">{dateStr}</span>
+                <h3 className="prog-card__title">{title}</h3>
               </div>
 
               {/* Hover overlay — slides up from the bottom */}
-              <div className="ev-card__overlay">
-                <span className="ev-card__ov-date">{dateStr}</span>
-                <h3 className="ev-card__ov-title">{title}</h3>
-                <p className="ev-card__ov-desc">{L(ev.desc)}</p>
-                {ev.location && (
-                  <p className="ev-card__ov-loc">
+              <div className="prog-card__overlay">
+                <span className="prog-card__ov-date">{dateStr}</span>
+                <h3 className="prog-card__ov-title">{title}</h3>
+                <p className="prog-card__ov-desc">{L(pr.desc)}</p>
+                {pr.location && (
+                  <p className="prog-card__ov-loc">
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    {L(ev.location)}
+                    {L(pr.location)}
                   </p>
                 )}
                 <a
-                  className="ev-card__cal"
+                  className="prog-card__cal"
                   href={calHref}
                   target="_blank"
                   rel="noopener noreferrer"

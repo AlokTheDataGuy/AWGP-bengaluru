@@ -40,7 +40,7 @@ export default function About() {
               'AWGP ಬೆಂಗಳೂರು, ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮ ಆಚಾರ್ಯ ಸ್ಥಾಪಿಸಿದ ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರದ ಕೇಂದ್ರ.'
             )}</p>
             <p style={{ marginTop: '1rem' }}>{L(
-              'Our Gayatri Chetna Kendra hosts daily prayers, Yagyas, yoga sessions, and community events — open to all who seek wisdom, peace, and purpose.',
+              'Our Gayatri Chetna Kendra hosts daily prayers, Yagyas, yoga sessions, and community programs — open to all who seek wisdom, peace, and purpose.',
               'हमारा गायत्री चेतना केंद्र दैनिक प्रार्थना, यज्ञ, योग सत्र और सामुदायिक आयोजन करता है — जो ज्ञान, शांति और उद्देश्य के साधकों के लिए खुला है।',
               'ನಮ್ಮ ಕೇಂದ್ರ ದೈನಂದಿನ ಪ್ರಾರ್ಥನೆ, ಯಜ್ಞ, ಯೋಗ ಸತ್ರ ಮತ್ತು ಸಾಮುದಾಯಿಕ ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಆಯೋಜಿಸುತ್ತದೆ.'
             )}</p>
