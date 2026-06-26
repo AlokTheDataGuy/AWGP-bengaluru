@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useCallback, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -70,9 +71,11 @@ export default function GalleryLightbox({ items, index, onClose, onIndex }) {
   };
 
   const current = items[index];
-  if (!current) return null;
+  /* Render into <body> so the fixed overlay escapes any ancestor stacking
+     context (e.g. an `isolation: isolate` section) and sits above the navbar. */
+  if (!current || typeof document === 'undefined') return null;
 
-  return (
+  return createPortal(
     <div className="gal-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
       {/* Top bar — counter + close */}
       <div className="gal-lb-topbar">
@@ -136,6 +139,7 @@ export default function GalleryLightbox({ items, index, onClose, onIndex }) {
           ))}
         </div>
       )}
-    </div>
+    </div>,
+    document.body
   );
 }

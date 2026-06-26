@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "slug": "initiatives",
+    "title": {
+      "en": "Our Initiatives — AWGP Bengaluru",
+      "hi": "हमारी पहल — AWGP बेंगलूरु",
+      "kn": "ನಮ್ಮ ಉಪಕ್ರಮಗಳು — AWGP ಬೆಂಗಳೂರು"
+    },
+    "order": 2
+  },
+
+  "hero": {
+    "eyebrow": {
+      "en": "All World Gayatri Pariwar · Bengaluru",
+      "hi": "अखिल विश्व गायत्री परिवार · बेंगलूरु",
+      "kn": "ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ · ಬೆಂಗಳೂರು"
+    },
+    "title": {
+      "en": "Our Initiatives",
+      "hi": "हमारी पहल",
+      "kn": "ನಮ್ಮ ಉಪಕ್ರಮಗಳು"
+    },
+    "subtitle": {
+      "en": "Seven Movements for a Transformed World",
+      "hi": "एक परिवर्तित विश्व के लिए सात आंदोलन",
+      "kn": "ಪರಿವರ್ತಿತ ಜಗತ್ತಿಗಾಗಿ ಏಳು ಆಂದೋಲನಗಳು"
+    },
+    "bgImage": "/assets/misc/mashal.jpg",
+    "mantra": "॥ यत् पिण्डे तत् ब्रह्माण्डे ॥",
+    "ctas": [
+      {
+        "type": "white",
+        "href": "https://www.awgp.org/en",
+        "external": true,
+        "label": {
+          "en": "Visit AWGP.org →",
+          "hi": "AWGP वेबसाइट →",
+          "kn": "AWGP ವೆಬ್‌ಸೈಟ್ →"
+        }
+      }
+    ]
+  },
+
+  "missionVision": {
+    "id": "mission-vision",
+    "eyebrow": {
+      "en": "Mission & Vision",
+      "hi": "मिशन और दृष्टि",
+      "kn": "ಮಿಷನ್ ಮತ್ತು ದೃಷ್ಟಿ"
+    },
+    "title": {
+      "en": "Yug Nirman — Reconstruction of the Era",
+      "hi": "युग निर्माण — एक नए युग का निर्माण",
+      "kn": "ಯುಗ ನಿರ್ಮಾಣ — ಒಂದು ಹೊಸ ಯುಗದ ನಿರ್ಮಾಣ"
+    },
+    "ornament": "🔥",
+    "cards": [
+      {
+        "icon": "🌅",
+        "title": { "en": "Our Vision", "hi": "हमारी दृष्टि", "kn": "ನಮ್ಮ ದೃಷ್ಟಿ" },
+        "body": {
+          "en": "A world guided by wisdom, compassion, and unity — a living model of a futuristic society built on human equality and the principle of Vasudhaiva Kutumbakam, the whole world as one family.",
+          "hi": "ज्ञान, करुणा और एकता से निर्देशित एक संसार — मानवीय समता और 'वसुधैव कुटुम्बकम्' के सिद्धांत पर आधारित भविष्योन्मुखी समाज का जीवंत प्रतिरूप।",
+          "kn": "ಜ್ಞಾನ, ಕರುಣೆ ಮತ್ತು ಏಕತೆಯಿಂದ ಮಾರ್ಗದರ್ಶಿತ ಜಗತ್ತು — ಮಾನವ ಸಮಾನತೆ ಮತ್ತು 'ವಸುಧೈವ ಕುಟುಂಬಕಂ' ತತ್ವದ ಮೇಲೆ ಕಟ್ಟಿದ ಭವಿಷ್ಯೋನ್ಮುಖ ಸಮಾಜದ ಜೀವಂತ ಮಾದರಿ."
+        }
+      },
+      {
+        "icon": "🎯",
+        "title": { "en": "Our Mission", "hi": "हमारा मिशन", "kn": "ನಮ್ಮ ಮಿಷನ್" },
+        "body": {
+          "en": "A moral and spiritual revolution that transforms individuals, families, and societies — through Gayatri Sadhana, Yagya, and selfless service rooted in India's living heritage.",
+          "hi": "एक नैतिक-आध्यात्मिक क्रांति जो व्यक्ति, परिवार और समाज को बदले — गायत्री साधना, यज्ञ और भारतीय विरासत में निहित निःस्वार्थ सेवा के माध्यम से।",
+          "kn": "ವ್ಯಕ್ತಿ, ಕುಟುಂಬ ಮತ್ತು ಸಮಾಜವನ್ನು ಬದಲಾಯಿಸುವ ನೈತಿಕ-ಆಧ್ಯಾತ್ಮಿಕ ಕ್ರಾಂತಿ — ಗಾಯತ್ರಿ ಸಾಧನೆ, ಯಜ್ಞ ಮತ್ತು ಭಾರತೀಯ ಪರಂಪರೆಯಲ್ಲಿ ಬೇರೂರಿದ ನಿಸ್ವಾರ್ಥ ಸೇವೆಯ ಮೂಲಕ."
+        }
+      },
+      {
+        "icon": "🌱",
+        "title": { "en": "Yug Nirman Yojana", "hi": "युग निर्माण योजना", "kn": "ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆ" },
+        "body": {
+          "en": "A global movement for the moral, cultural, intellectual, and spiritual reconstruction of society. It addresses the root cause of every problem — human character — and works toward an era of truth, beauty, and goodness.",
+          "hi": "समाज के नैतिक, सांस्कृतिक, बौद्धिक और आध्यात्मिक पुनर्निर्माण का वैश्विक आंदोलन। यह हर समस्या की जड़ — मानव चरित्र — को संबोधित कर सत्य, शिव और सुंदर के युग की ओर बढ़ता है।",
+          "kn": "ಸಮಾಜದ ನೈತಿಕ, ಸಾಂಸ್ಕೃತಿಕ, ಬೌದ್ಧಿಕ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಪುನರ್ನಿರ್ಮಾಣದ ಜಾಗತಿಕ ಆಂದೋಲನ. ಇದು ಪ್ರತಿ ಸಮಸ್ಯೆಯ ಮೂಲ — ಮಾನವ ಚಾರಿತ್ರ್ಯ — ವನ್ನು ಎದುರಿಸಿ ಸತ್ಯ, ಶಿವ, ಸುಂದರದ ಯುಗದತ್ತ ಸಾಗುತ್ತದೆ."
+        }
+      }
+    ]
+  },
+
+  "vicharKranti": {
+    "eyebrow": {
+      "en": "The Foundation",
+      "hi": "आधार",
+      "kn": "ಅಡಿಪಾಯ"
+    },
+    "title": {
+      "en": "Vichar Kranti — The Thought Revolution",
+      "hi": "विचार क्रांति",
+      "kn": "ವಿಚಾರ ಕ್ರಾಂತಿ"
+    },
+    "body": {
+      "en": "Every movement of the Gayatri Pariwar flows from a single conviction of Gurudev Pandit Shriram Sharma Acharya: change the quality of thought, and everything else changes with it. Vichar Kranti — the revolution in thought — is the wellspring from which the Sapt Andolan, the Seven Movements, arise. Through millions of books, the Akhand Jyoti magazine, and today's digital platforms, righteous thought is carried to every doorstep, replacing despair with constructive vision. AWGP Bengaluru brings these seven movements into the rhythm of modern city life — through spiritual wisdom and collective action that meet the deepest challenges of our time.",
+      "hi": "गायत्री परिवार का हर आंदोलन गुरुदेव पं. श्रीराम शर्मा आचार्य की एक ही प्रतीति से बहता है: विचारों की गुणवत्ता बदलो, और शेष सब अपने आप बदल जाता है। विचार क्रांति वह स्रोत है जिससे सप्त आंदोलन फूटते हैं। लाखों पुस्तकों, अखंड ज्योति पत्रिका और आज के डिजिटल माध्यमों के द्वारा सद्विचार हर द्वार तक पहुँचता है और निराशा का स्थान रचनात्मक दृष्टि ले लेती है। AWGP बेंगलूरु इन सात आंदोलनों को आधुनिक नगर-जीवन की लय में उतारता है — आध्यात्मिक प्रज्ञा और सामूहिक प्रयास के द्वारा, जो हमारे समय की गहनतम चुनौतियों का सामना करते हैं।",
+      "kn": "ಗಾಯತ್ರಿ ಪರಿವಾರದ ಪ್ರತಿ ಆಂದೋಲನವೂ ಗುರುದೇವ್ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಒಂದೇ ನಂಬಿಕೆಯಿಂದ ಹರಿಯುತ್ತದೆ: ವಿಚಾರದ ಗುಣಮಟ್ಟವನ್ನು ಬದಲಿಸಿ, ಉಳಿದೆಲ್ಲವೂ ತಾನಾಗಿ ಬದಲಾಗುತ್ತದೆ. ವಿಚಾರ ಕ್ರಾಂತಿ — ವಿಚಾರಗಳ ಕ್ರಾಂತಿ — ಸಪ್ತ ಆಂದೋಲನಗಳು ಹುಟ್ಟುವ ಸೆಲೆ. ಕೋಟ್ಯಂತರ ಪುಸ್ತಕಗಳು, ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ ಮತ್ತು ಇಂದಿನ ಡಿಜಿಟಲ್ ಮಾಧ್ಯಮಗಳ ಮೂಲಕ ಸದ್ವಿಚಾರ ಪ್ರತಿ ಮನೆಬಾಗಿಲಿಗೆ ತಲುಪಿ, ಹತಾಶೆಯ ಸ್ಥಾನವನ್ನು ರಚನಾತ್ಮಕ ದೃಷ್ಟಿ ಪಡೆಯುತ್ತದೆ. AWGP ಬೆಂಗಳೂರು ಈ ಏಳು ಆಂದೋಲನಗಳನ್ನು ಆಧುನಿಕ ನಗರ ಜೀವನದ ಲಯಕ್ಕೆ ತರುತ್ತದೆ — ನಮ್ಮ ಕಾಲದ ಆಳವಾದ ಸವಾಲುಗಳನ್ನು ಎದುರಿಸುವ ಆಧ್ಯಾತ್ಮಿಕ ಪ್ರಜ್ಞೆ ಮತ್ತು ಸಾಮೂಹಿಕ ಕ್ರಿಯೆಯ ಮೂಲಕ."
+    }
+  },
+
+  "saptAndolan": {
+    "id": "sapt-andolan",
+    "eyebrow": {
+      "en": "The Seven Movements",
+      "hi": "सात आंदोलन",
+      "kn": "ಏಳು ಆಂದೋಲನಗಳು"
+    },
+    "title": {
+      "en": "Sapt Andolan",
+      "hi": "सप्त आंदोलन",
+      "kn": "ಸಪ್ತ ಆಂದೋಲನ"
+    },
+    "ornament": "✨",
+    "note": {
+      "en": "Drawn from Gurudev's book Hamare Sapt Andolan, these seven constructive movements turn inner transformation into visible social change — without any discrimination of faith, caste, or status.",
+      "hi": "गुरुदेव की पुस्तक 'हमारे सप्त आंदोलन' से लिए गए ये सात रचनात्मक आंदोलन आंतरिक रूपांतरण को प्रत्यक्ष सामाजिक परिवर्तन में बदलते हैं — मत, जाति या स्थिति के भेद बिना।",
+      "kn": "ಗುರುದೇವರ 'ಹಮಾರೆ ಸಪ್ತ ಆಂದೋಲನ' ಪುಸ್ತಕದಿಂದ ಪಡೆದ ಈ ಏಳು ರಚನಾತ್ಮಕ ಆಂದೋಲನಗಳು ಆಂತರಿಕ ರೂಪಾಂತರವನ್ನು ಗೋಚರ ಸಾಮಾಜಿಕ ಬದಲಾವಣೆಯಾಗಿ ಪರಿವರ್ತಿಸುತ್ತವೆ — ಮತ, ಜಾತಿ ಅಥವಾ ಸ್ಥಿತಿಯ ಭೇದವಿಲ್ಲದೆ."
+    },
+    "bookUrl": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1",
+    "movements": [
+      {
+        "key": "sadhana",
+        "icon": "🧘",
+        "img": "/assets/misc/vichar.jpg",
+        "name": { "en": "Sadhana Andolan", "hi": "साधना आंदोलन", "kn": "ಸಾಧನಾ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement for Spiritual Practice",
+          "hi": "साधना आंदोलन",
+          "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಸಾಧನೆಯ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "The first and foundational movement. Before society can change, the individual must — and Sadhana is the inner work that makes it possible. Through Gayatri Sadhana, daily upasana, Yagya, and self-discipline, the seeker purifies thought, feeling, and action. AWGP Bengaluru holds regular Sunday Yagya, meditation sittings, and Sadhana camps that make this practice accessible to busy city life.",
+          "hi": "पहला और आधारभूत आंदोलन। समाज बदले उससे पहले व्यक्ति को बदलना होता है — और साधना वही आंतरिक कार्य है जो इसे संभव बनाती है। गायत्री साधना, नित्य उपासना, यज्ञ और आत्म-अनुशासन से साधक अपने विचार, भाव और कर्म को निर्मल करता है। AWGP बेंगलूरु नियमित रविवारीय यज्ञ, ध्यान-सत्र और साधना शिविर आयोजित करता है, जो व्यस्त नगर-जीवन में भी इस अभ्यास को सुलभ बनाते हैं।",
+          "kn": "ಮೊದಲ ಮತ್ತು ಆಧಾರಭೂತ ಆಂದೋಲನ. ಸಮಾಜ ಬದಲಾಗುವ ಮೊದಲು ವ್ಯಕ್ತಿ ಬದಲಾಗಬೇಕು — ಸಾಧನೆಯೇ ಅದನ್ನು ಸಾಧ್ಯಗೊಳಿಸುವ ಆಂತರಿಕ ಕಾರ್ಯ. ಗಾಯತ್ರಿ ಸಾಧನೆ, ನಿತ್ಯ ಉಪಾಸನೆ, ಯಜ್ಞ ಮತ್ತು ಆತ್ಮಶಿಸ್ತಿನ ಮೂಲಕ ಸಾಧಕ ತನ್ನ ವಿಚಾರ, ಭಾವ ಮತ್ತು ಕರ್ಮವನ್ನು ನಿರ್ಮಲಗೊಳಿಸುತ್ತಾನೆ. AWGP ಬೆಂಗಳೂರು ನಿಯಮಿತ ಭಾನುವಾರದ ಯಜ್ಞ, ಧ್ಯಾನ ಕೂಟ ಮತ್ತು ಸಾಧನಾ ಶಿಬಿರಗಳನ್ನು ನಡೆಸಿ ಈ ಅಭ್ಯಾಸವನ್ನು ಬಿಡುವಿಲ್ಲದ ನಗರ ಜೀವನಕ್ಕೆ ಸುಲಭಗೊಳಿಸುತ್ತದೆ."
+        },
+        "points": {
+          "en": [
+            "Gayatri Sadhana and daily upasana for inner refinement",
+            "Weekly Yagya and collective meditation sittings",
+            "Sadhana camps and Shivirs adapted to modern life"
+          ],
+          "hi": [
+            "आत्म-परिष्कार हेतु गायत्री साधना और नित्य उपासना",
+            "साप्ताहिक यज्ञ और सामूहिक ध्यान-सत्र",
+            "आधुनिक जीवन के अनुरूप साधना शिविर"
+          ],
+          "kn": [
+            "ಆತ್ಮ-ಪರಿಷ್ಕಾರಕ್ಕಾಗಿ ಗಾಯತ್ರಿ ಸಾಧನೆ ಮತ್ತು ನಿತ್ಯ ಉಪಾಸನೆ",
+            "ಸಾಪ್ತಾಹಿಕ ಯಜ್ಞ ಮತ್ತು ಸಾಮೂಹಿಕ ಧ್ಯಾನ ಕೂಟ",
+            "ಆಧುನಿಕ ಜೀವನಕ್ಕೆ ಹೊಂದುವ ಸಾಧನಾ ಶಿಬಿರಗಳು"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.2"
+      },
+      {
+        "key": "swasthya",
+        "icon": "💪",
+        "img": "/assets/activities/hospital-visit.jpg",
+        "name": { "en": "Swasthya Andolan", "hi": "स्वास्थ्य आंदोलन", "kn": "ಸ್ವಾಸ್ಥ್ಯ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement for Health & Healing",
+          "hi": "स्वास्थ्य एवं चिकित्सा आंदोलन",
+          "kn": "ಆರೋಗ್ಯ ಮತ್ತು ಚಿಕಿತ್ಸಾ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "A healthy body is the first instrument of a meaningful life. This movement unites the body's care (swasthya) with healing (chikitsa) — promoting Yoga, Pranayama, balanced diet, and the time-tested wisdom of Ayurveda, alongside free medical camps for those who cannot afford care. Gayatri Sadhana and Yagya are offered as scientifically grounded, complementary supports to physical and mental wellbeing.",
+          "hi": "स्वस्थ शरीर सार्थक जीवन का पहला साधन है। यह आंदोलन शरीर की देखभाल (स्वास्थ्य) और उपचार (चिकित्सा) को जोड़ता है — योग, प्राणायाम, संतुलित आहार और आयुर्वेद की कसौटी पर खरी प्रज्ञा के साथ-साथ वंचितों के लिए निःशुल्क चिकित्सा शिविर। गायत्री साधना और यज्ञ शारीरिक व मानसिक स्वास्थ्य के वैज्ञानिक, पूरक आधार के रूप में प्रस्तुत किए जाते हैं।",
+          "kn": "ಆರೋಗ್ಯವಂತ ದೇಹ ಅರ್ಥಪೂರ್ಣ ಜೀವನದ ಮೊದಲ ಸಾಧನ. ಈ ಆಂದೋಲನ ದೇಹದ ಆರೈಕೆ (ಸ್ವಾಸ್ಥ್ಯ) ಮತ್ತು ಚಿಕಿತ್ಸೆಯನ್ನು ಒಗ್ಗೂಡಿಸುತ್ತದೆ — ಯೋಗ, ಪ್ರಾಣಾಯಾಮ, ಸಮತೋಲನ ಆಹಾರ ಮತ್ತು ಆಯುರ್ವೇದದ ಸಾಬೀತಾದ ಪ್ರಜ್ಞೆಯ ಜೊತೆಗೆ, ಪಡೆಯಲಾಗದವರಿಗೆ ಉಚಿತ ವೈದ್ಯಕೀಯ ಶಿಬಿರಗಳು. ಗಾಯತ್ರಿ ಸಾಧನೆ ಮತ್ತು ಯಜ್ಞ ದೈಹಿಕ ಹಾಗೂ ಮಾನಸಿಕ ಯೋಗಕ್ಷೇಮದ ವೈಜ್ಞಾನಿಕ, ಪೂರಕ ಆಧಾರವಾಗಿ ನೀಡಲಾಗುತ್ತದೆ."
+        },
+        "points": {
+          "en": [
+            "Yoga, Pranayama, and Ayurvedic wellness for all",
+            "Free medical and health camps for the underprivileged",
+            "Gayatri Sadhana and Yagya as complementary health tools"
+          ],
+          "hi": [
+            "सबके लिए योग, प्राणायाम और आयुर्वेदिक स्वास्थ्य",
+            "वंचितों के लिए निःशुल्क चिकित्सा एवं स्वास्थ्य शिविर",
+            "पूरक स्वास्थ्य साधन के रूप में गायत्री साधना और यज्ञ"
+          ],
+          "kn": [
+            "ಎಲ್ಲರಿಗೂ ಯೋಗ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಆಯುರ್ವೇದ ಕ್ಷೇಮ",
+            "ವಂಚಿತರಿಗೆ ಉಚಿತ ವೈದ್ಯಕೀಯ ಮತ್ತು ಆರೋಗ್ಯ ಶಿಬಿರಗಳು",
+            "ಪೂರಕ ಆರೋಗ್ಯ ಸಾಧನವಾಗಿ ಗಾಯತ್ರಿ ಸಾಧನೆ ಮತ್ತು ಯಜ್ಞ"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.6"
+      },
+      {
+        "key": "swavalamban",
+        "icon": "🪕",
+        "img": "/assets/activities/seva.jpg",
+        "name": { "en": "Swavalamban Andolan", "hi": "स्वावलंबन आंदोलन", "kn": "ಸ್ವಾವಲಂಬನ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement for Self-reliance",
+          "hi": "स्वावलंबन आंदोलन",
+          "kn": "ಸ್ವಾವಲಂಬನ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "Dignity grows from standing on one's own feet. The self-reliance movement encourages honest livelihood, skill-building, frugality, and the wise use of resources, so that families and communities are not dependent but self-sustaining. Industriousness paired with simple living — \"simple living, high thinking\" — is held up as the real foundation of prosperity and freedom.",
+          "hi": "गरिमा अपने पैरों पर खड़े होने से उपजती है। स्वावलंबन आंदोलन ईमानदार आजीविका, कौशल-विकास, मितव्ययिता और संसाधनों के विवेकपूर्ण उपयोग को प्रोत्साहित करता है, ताकि परिवार और समुदाय परावलंबी नहीं, आत्मनिर्भर बनें। परिश्रम के साथ सादगी — 'सादा जीवन, उच्च विचार' — को समृद्धि और स्वतंत्रता की असली नींव माना गया है।",
+          "kn": "ಘನತೆ ತನ್ನ ಕಾಲ ಮೇಲೆ ನಿಲ್ಲುವುದರಿಂದ ಬೆಳೆಯುತ್ತದೆ. ಸ್ವಾವಲಂಬನ ಆಂದೋಲನ ಪ್ರಾಮಾಣಿಕ ಜೀವನೋಪಾಯ, ಕೌಶಲ್ಯ ವೃದ್ಧಿ, ಮಿತವ್ಯಯ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳ ವಿವೇಕಯುತ ಬಳಕೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ, ಇದರಿಂದ ಕುಟುಂಬ ಮತ್ತು ಸಮುದಾಯ ಪರಾವಲಂಬಿಯಲ್ಲ, ಸ್ವಾವಲಂಬಿಯಾಗುತ್ತವೆ. ಶ್ರಮದೊಂದಿಗೆ ಸರಳತೆ — 'ಸರಳ ಜೀವನ, ಉನ್ನತ ವಿಚಾರ' — ಸಮೃದ್ಧಿ ಮತ್ತು ಸ್ವಾತಂತ್ರ್ಯದ ನಿಜವಾದ ಅಡಿಪಾಯ."
+        },
+        "points": {
+          "en": [
+            "Honest livelihood and practical skill-building",
+            "Frugality and the wise use of resources",
+            "Simple living, high thinking as a way of life"
+          ],
+          "hi": [
+            "ईमानदार आजीविका और व्यावहारिक कौशल-विकास",
+            "मितव्ययिता और संसाधनों का विवेकपूर्ण उपयोग",
+            "जीवन-शैली के रूप में सादा जीवन, उच्च विचार"
+          ],
+          "kn": [
+            "ಪ್ರಾಮಾಣಿಕ ಜೀವನೋಪಾಯ ಮತ್ತು ಪ್ರಾಯೋಗಿಕ ಕೌಶಲ್ಯ ವೃದ್ಧಿ",
+            "ಮಿತವ್ಯಯ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳ ವಿವೇಕಯುತ ಬಳಕೆ",
+            "ಜೀವನಶೈಲಿಯಾಗಿ ಸರಳ ಜೀವನ, ಉನ್ನತ ವಿಚಾರ"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.14"
+      },
+      {
+        "key": "paryavaran",
+        "icon": "🌳",
+        "img": "/assets/activities/tree-plantation.jpg",
+        "name": { "en": "Paryavaran Andolan", "hi": "पर्यावरण आंदोलन", "kn": "ಪರಿಸರ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement for the Environment",
+          "hi": "पर्यावरण आंदोलन",
+          "kn": "ಪರಿಸರ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "The Vedic seers revered Nature as sacred, and this movement revives that reverence in practice. It joins ancient wisdom with modern ecology — large-scale tree planting, the protection of rivers, and Yagya, which is offered as a traditional means of purifying the atmosphere. Communities are guided toward sustainable, eco-conscious living that treats the earth as kin, not commodity.",
+          "hi": "वैदिक ऋषियों ने प्रकृति को पवित्र माना, और यह आंदोलन उस श्रद्धा को व्यवहार में पुनर्जीवित करता है। यह प्राचीन प्रज्ञा को आधुनिक पारिस्थितिकी से जोड़ता है — व्यापक वृक्षारोपण, नदियों की रक्षा और यज्ञ, जो वायुमंडल-शुद्धि का पारंपरिक साधन है। समुदायों को टिकाऊ, पर्यावरण-सचेत जीवन की ओर ले जाया जाता है जो धरती को वस्तु नहीं, अपना मानता है।",
+          "kn": "ವೈದಿಕ ಋಷಿಗಳು ಪ್ರಕೃತಿಯನ್ನು ಪವಿತ್ರವೆಂದು ಪೂಜಿಸಿದರು, ಈ ಆಂದೋಲನ ಆ ಶ್ರದ್ಧೆಯನ್ನು ಆಚರಣೆಯಲ್ಲಿ ಪುನರುಜ್ಜೀವನಗೊಳಿಸುತ್ತದೆ. ಇದು ಪ್ರಾಚೀನ ಪ್ರಜ್ಞೆಯನ್ನು ಆಧುನಿಕ ಪರಿಸರ ಶಾಸ್ತ್ರದೊಂದಿಗೆ ಬೆಸೆಯುತ್ತದೆ — ದೊಡ್ಡ ಪ್ರಮಾಣದ ವೃಕ್ಷಾರೋಪಣ, ನದಿಗಳ ರಕ್ಷಣೆ ಮತ್ತು ವಾಯುಮಂಡಲ ಶುದ್ಧಿಯ ಪಾರಂಪರಿಕ ಸಾಧನವಾಗಿ ಯಜ್ಞ. ಸಮುದಾಯಗಳನ್ನು ಭೂಮಿಯನ್ನು ವಸ್ತುವಾಗಿ ಅಲ್ಲ, ಬಂಧುವಾಗಿ ಕಾಣುವ ಸುಸ್ಥಿರ, ಪರಿಸರ-ಸಚೇತನ ಜೀವನದತ್ತ ನಡೆಸಲಾಗುತ್ತದೆ."
+        },
+        "points": {
+          "en": [
+            "Large-scale tree planting and river protection",
+            "Yagya as a traditional means of atmospheric purification",
+            "Eco-conscious, sustainable living education"
+          ],
+          "hi": [
+            "व्यापक वृक्षारोपण और नदी संरक्षण",
+            "वायुमंडल-शुद्धि के पारंपरिक साधन के रूप में यज्ञ",
+            "पर्यावरण-सचेत, सतत जीवन की शिक्षा"
+          ],
+          "kn": [
+            "ದೊಡ್ಡ ಪ್ರಮಾಣದ ವೃಕ್ಷಾರೋಪಣ ಮತ್ತು ನದಿ ಸಂರಕ್ಷಣೆ",
+            "ವಾಯುಮಂಡಲ ಶುದ್ಧಿಯ ಪಾರಂಪರಿಕ ಸಾಧನವಾಗಿ ಯಜ್ಞ",
+            "ಪರಿಸರ-ಸಚೇತನ, ಸುಸ್ಥಿರ ಜೀವನ ಶಿಕ್ಷಣ"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.19"
+      },
+      {
+        "key": "nari",
+        "icon": "🌸",
+        "img": "/assets/programs/workshops.jpg",
+        "name": { "en": "Nari Jagran Andolan", "hi": "नारी जागरण आंदोलन", "kn": "ನಾರಿ ಜಾಗರಣ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement for Women's Awakening",
+          "hi": "नारी जागरण आंदोलन",
+          "kn": "ಮಹಿಳಾ ಜಾಗೃತಿ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "Gurudev held that no society can rise while half of it is held back. The women's awakening movement restores the dignity the Vedic age gave to women — through education, self-confidence, economic self-reliance, and spiritual growth. It stands firmly against the dowry system and gender discrimination, and invites women into full and equal participation in spiritual and community life.",
+          "hi": "गुरुदेव मानते थे कि जिस समाज का आधा भाग पीछे रोक दिया जाए, वह उठ नहीं सकता। नारी जागरण आंदोलन वैदिक युग ने नारी को जो गरिमा दी थी उसे पुनर्स्थापित करता है — शिक्षा, आत्मविश्वास, आर्थिक स्वावलंबन और आध्यात्मिक विकास के माध्यम से। यह दहेज प्रथा और लिंग-भेद के विरुद्ध दृढ़ता से खड़ा है और महिलाओं को आध्यात्मिक तथा सामुदायिक जीवन में पूर्ण व समान सहभागिता के लिए आमंत्रित करता है।",
+          "kn": "ಸಮಾಜದ ಅರ್ಧ ಭಾಗವನ್ನು ಹಿಂದಕ್ಕೆ ತಡೆದರೆ ಅದು ಮೇಲೇಳಲಾರದು ಎಂದು ಗುರುದೇವ್ ನಂಬಿದ್ದರು. ಮಹಿಳಾ ಜಾಗೃತಿ ಆಂದೋಲನ ವೈದಿಕ ಯುಗ ಮಹಿಳೆಗೆ ನೀಡಿದ ಘನತೆಯನ್ನು ಪುನಃಸ್ಥಾಪಿಸುತ್ತದೆ — ಶಿಕ್ಷಣ, ಆತ್ಮವಿಶ್ವಾಸ, ಆರ್ಥಿಕ ಸ್ವಾವಲಂಬನ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಬೆಳವಣಿಗೆಯ ಮೂಲಕ. ಇದು ವರದಕ್ಷಿಣೆ ಪದ್ಧತಿ ಮತ್ತು ಲಿಂಗ ತಾರತಮ್ಯದ ವಿರುದ್ಧ ದೃಢವಾಗಿ ನಿಲ್ಲುತ್ತದೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಹಾಗೂ ಸಮುದಾಯ ಜೀವನದಲ್ಲಿ ಮಹಿಳೆಯರನ್ನು ಪೂರ್ಣ ಮತ್ತು ಸಮಾನ ಸಹಭಾಗಿತ್ವಕ್ಕೆ ಆಹ್ವಾನಿಸುತ್ತದೆ."
+        },
+        "points": {
+          "en": [
+            "Education and economic self-reliance for every woman",
+            "A firm stand against dowry and gender discrimination",
+            "Reviving the Vedic dignity and role of women"
+          ],
+          "hi": [
+            "हर महिला के लिए शिक्षा और आर्थिक स्वावलंबन",
+            "दहेज और लिंग-भेद के विरुद्ध दृढ़ संकल्प",
+            "नारी की वैदिक गरिमा और भूमिका की पुनःस्थापना"
+          ],
+          "kn": [
+            "ಪ್ರತಿ ಮಹಿಳೆಗೆ ಶಿಕ್ಷಣ ಮತ್ತು ಆರ್ಥಿಕ ಸ್ವಾವಲಂಬನ",
+            "ವರದಕ್ಷಿಣೆ ಮತ್ತು ಲಿಂಗ ತಾರತಮ್ಯದ ವಿರುದ್ಧ ದೃಢ ನಿಲುವು",
+            "ಮಹಿಳೆಯ ವೈದಿಕ ಘನತೆ ಮತ್ತು ಪಾತ್ರದ ಪುನಃಸ್ಥಾಪನೆ"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.24"
+      },
+      {
+        "key": "vyasan-mukti",
+        "icon": "🚭",
+        "img": "/assets/activities/food-distribution.jpg",
+        "name": { "en": "Vyasan Mukti Andolan", "hi": "व्यसन मुक्ति आंदोलन", "kn": "ವ್ಯಸನ ಮುಕ್ತಿ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement for Freedom from Addiction",
+          "hi": "व्यसन मुक्ति आंदोलन",
+          "kn": "ಚಟ ಮುಕ್ತಿ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "Addiction quietly drains the health, wealth, and peace of countless families. This movement frees individuals from alcohol, tobacco, and other intoxicants through counselling, community pledges, and the substitution of self-destructive habits with uplifting spiritual practice. Where an addiction once stood, Sadhana and constructive purpose are planted in its place.",
+          "hi": "व्यसन चुपचाप अनगिनत परिवारों के स्वास्थ्य, धन और शांति को खा जाता है। यह आंदोलन परामर्श, सामूहिक संकल्प और आत्म-घातक आदतों के स्थान पर उत्थानकारी आध्यात्मिक अभ्यास रखकर व्यक्तियों को शराब, तंबाकू और अन्य नशों से मुक्त कराता है। जहाँ कभी व्यसन था, वहाँ साधना और रचनात्मक उद्देश्य रोपे जाते हैं।",
+          "kn": "ಚಟ ಮೌನವಾಗಿ ಅಸಂಖ್ಯ ಕುಟುಂಬಗಳ ಆರೋಗ್ಯ, ಸಂಪತ್ತು ಮತ್ತು ಶಾಂತಿಯನ್ನು ಕಬಳಿಸುತ್ತದೆ. ಈ ಆಂದೋಲನ ಸಮಾಲೋಚನೆ, ಸಾಮೂಹಿಕ ಸಂಕಲ್ಪ ಮತ್ತು ಆತ್ಮಘಾತಕ ಅಭ್ಯಾಸಗಳ ಸ್ಥಾನದಲ್ಲಿ ಉನ್ನತಿಕಾರಕ ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸವನ್ನಿಟ್ಟು ವ್ಯಕ್ತಿಗಳನ್ನು ಮದ್ಯ, ತಂಬಾಕು ಮತ್ತು ಇತರ ಮಾದಕ ವಸ್ತುಗಳಿಂದ ಮುಕ್ತಗೊಳಿಸುತ್ತದೆ. ಎಲ್ಲಿ ಒಮ್ಮೆ ಚಟವಿತ್ತೋ, ಅಲ್ಲಿ ಸಾಧನೆ ಮತ್ತು ರಚನಾತ್ಮಕ ಉದ್ದೇಶ ನೆಡಲಾಗುತ್ತದೆ."
+        },
+        "points": {
+          "en": [
+            "Counselling and de-addiction support",
+            "Community awareness drives and public pledges",
+            "Spiritual practice as a positive replacement for addiction"
+          ],
+          "hi": [
+            "परामर्श और नशा-मुक्ति सहायता",
+            "सामुदायिक जागरूकता अभियान और सार्वजनिक संकल्प",
+            "व्यसन के सकारात्मक विकल्प के रूप में आध्यात्मिक साधना"
+          ],
+          "kn": [
+            "ಸಮಾಲೋಚನೆ ಮತ್ತು ಚಟ ಮುಕ್ತಿ ಬೆಂಬಲ",
+            "ಸಮುದಾಯ ಜಾಗೃತಿ ಅಭಿಯಾನ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸಂಕಲ್ಪ",
+            "ಚಟಕ್ಕೆ ಸಕಾರಾತ್ಮಕ ಪರ್ಯಾಯವಾಗಿ ಆಧ್ಯಾತ್ಮಿಕ ಸಾಧನೆ"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.28"
+      },
+      {
+        "key": "kuriti-unmoolan",
+        "icon": "🤝",
+        "img": "/assets/activities/blood-camp.jpg",
+        "name": { "en": "Kuriti Unmoolan Andolan", "hi": "कुरीति उन्मूलन आंदोलन", "kn": "ಕುರೀತಿ ನಿರ್ಮೂಲನ ಆಂದೋಲನ" },
+        "subtitle": {
+          "en": "Movement to End Harmful Customs",
+          "hi": "कुरीति उन्मूलन आंदोलन",
+          "kn": "ಅನಿಷ್ಟ ಪದ್ಧತಿ ನಿರ್ಮೂಲನ ಆಂದೋಲನ"
+        },
+        "desc": {
+          "en": "Society carries customs that have outlived their meaning — blind faith, extravagant weddings, wasteful death-rites, casteism, and child marriage among them. This movement works to gently but firmly retire these, replacing superstition with rational, scientific spirituality. Drawing on Vasudhaiva Kutumbakam, it dissolves barriers of caste and class through shared Yagya, social harmony gatherings, and acts of service such as blood-donation camps.",
+          "hi": "समाज ऐसी कुरीतियाँ ढोता है जिनका अर्थ समाप्त हो चुका है — अंधविश्वास, खर्चीले विवाह, अपव्ययी मृत्यु-भोज, जातिवाद और बाल विवाह इन्हीं में हैं। यह आंदोलन इन्हें सौम्य पर दृढ़ता से विदा करने का कार्य करता है, अंधविश्वास के स्थान पर तर्कसंगत, वैज्ञानिक अध्यात्म रखता है। 'वसुधैव कुटुम्बकम्' के आधार पर यह संयुक्त यज्ञ, समरसता सभाओं और रक्तदान शिविर जैसे सेवा-कार्यों से जाति और वर्ग की दीवारें घोलता है।",
+          "kn": "ಸಮಾಜ ಅರ್ಥ ಕಳೆದುಕೊಂಡ ಪದ್ಧತಿಗಳನ್ನು ಹೊತ್ತಿದೆ — ಅಂಧಶ್ರದ್ಧೆ, ದುಬಾರಿ ಮದುವೆಗಳು, ಪೋಲು ಮಾಡುವ ಮೃತ್ಯುಭೋಜ, ಜಾತಿವಾದ ಮತ್ತು ಬಾಲ್ಯವಿವಾಹ ಇವುಗಳಲ್ಲಿ ಸೇರಿವೆ. ಈ ಆಂದೋಲನ ಇವುಗಳನ್ನು ಮೃದುವಾಗಿ ಆದರೆ ದೃಢವಾಗಿ ನಿವೃತ್ತಿಗೊಳಿಸಿ, ಮೂಢನಂಬಿಕೆಯ ಸ್ಥಾನದಲ್ಲಿ ತಾರ್ಕಿಕ, ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮವನ್ನಿಡುತ್ತದೆ. 'ವಸುಧೈವ ಕುಟುಂಬಕಂ' ಆಧಾರದ ಮೇಲೆ ಇದು ಸಂಯುಕ್ತ ಯಜ್ಞ, ಸೌಹಾರ್ದ ಸಭೆಗಳು ಮತ್ತು ರಕ್ತದಾನ ಶಿಬಿರಗಳಂತಹ ಸೇವಾ ಕಾರ್ಯಗಳ ಮೂಲಕ ಜಾತಿ ಮತ್ತು ವರ್ಗದ ಗೋಡೆಗಳನ್ನು ಕರಗಿಸುತ್ತದೆ."
+        },
+        "points": {
+          "en": [
+            "Ending blind faith, dowry, lavish weddings and death-rites",
+            "Rational, scientific spirituality over superstition",
+            "Social harmony through shared Yagya and blood-donation camps"
+          ],
+          "hi": [
+            "अंधविश्वास, दहेज, खर्चीले विवाह व मृत्यु-भोज का अंत",
+            "अंधविश्वास के बजाय तर्कसंगत, वैज्ञानिक अध्यात्म",
+            "संयुक्त यज्ञ और रक्तदान शिविर से सामाजिक समरसता"
+          ],
+          "kn": [
+            "ಅಂಧಶ್ರದ್ಧೆ, ವರದಕ್ಷಿಣೆ, ದುಬಾರಿ ಮದುವೆ ಮತ್ತು ಮೃತ್ಯುಭೋಜದ ಅಂತ್ಯ",
+            "ಮೂಢನಂಬಿಕೆಗಿಂತ ತಾರ್ಕಿಕ, ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ",
+            "ಸಂಯುಕ್ತ ಯಜ್ಞ ಮತ್ತು ರಕ್ತದಾನ ಶಿಬಿರದಿಂದ ಸಾಮಾಜಿಕ ಸೌಹಾರ್ದ"
+          ]
+        },
+        "link": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.28"
+      }
+    ]
+  },
+
+  "cta": {
+    "id": "join",
+    "eyebrow": {
+      "en": "Be Part of the Change",
+      "hi": "परिवर्तन का हिस्सा बनें",
+      "kn": "ಬದಲಾವಣೆಯ ಭಾಗವಾಗಿ"
+    },
+    "title": {
+      "en": "Join the Movement",
+      "hi": "आंदोलन से जुड़ें",
+      "kn": "ಆಂದೋಲನಕ್ಕೆ ಸೇರಿ"
+    },
+    "ornament": "🕊️",
+    "body": {
+      "en": "Every person who joins AWGP becomes a carrier of this transformation. Take part in Sadhana, Seva, and Swadhyay — and become a living example of Yug Nirman.",
+      "hi": "AWGP से जुड़ने वाला हर व्यक्ति इस परिवर्तन का वाहक बन जाता है। साधना, सेवा और स्वाध्याय में भाग लें — और युग निर्माण का जीवंत उदाहरण बनें।",
+      "kn": "AWGP ಗೆ ಸೇರುವ ಪ್ರತಿಯೊಬ್ಬರೂ ಈ ಪರಿವರ್ತನೆಯ ವಾಹಕರಾಗುತ್ತಾರೆ. ಸಾಧನೆ, ಸೇವೆ ಮತ್ತು ಸ್ವಾಧ್ಯಾಯದಲ್ಲಿ ಭಾಗವಹಿಸಿ — ಯುಗ ನಿರ್ಮಾಣದ ಜೀವಂತ ಉದಾಹರಣೆಯಾಗಿ."
+    },
+    "buttons": [
+      {
+        "type": "primary",
+        "href": "https://www.awgp.org/en",
+        "external": true,
+        "label": {
+          "en": "Explore AWGP.org →",
+          "hi": "AWGP.org देखें →",
+          "kn": "AWGP.org ಅನ್ವೇಷಿಸಿ →"
+        }
+      },
+      {
+        "type": "outline",
+        "href": "/contact",
+        "label": {
+          "en": "Contact Us",
+          "hi": "संपर्क करें",
+          "kn": "ಸಂಪರ್ಕಿಸಿ"
+        }
+      }
+    ]
+  },
+
+  "references": {
+    "heading": {
+      "en": "Sources & Further Reading",
+      "hi": "स्रोत व आगे पढ़ें",
+      "kn": "ಮೂಲಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ಓದು"
+    },
+    "note": {
+      "en": "The Sapt Andolan content is adapted from Gurudev Pandit Shriram Sharma Acharya's book Hamare Sapt Andolan, on awgp.org:",
+      "hi": "सप्त आंदोलन का विषय गुरुदेव पं. श्रीराम शर्मा आचार्य की पुस्तक 'हमारे सप्त आंदोलन' से लिया गया है, awgp.org से:",
+      "kn": "ಸಪ್ತ ಆಂದೋಲನದ ವಿಷಯವನ್ನು ಗುರುದೇವ್ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ 'ಹಮಾರೆ ಸಪ್ತ ಆಂದೋಲನ' ಪುಸ್ತಕದಿಂದ ಪಡೆಯಲಾಗಿದೆ, awgp.org ನಿಂದ:"
+    },
+    "items": [
+      { "title": "हमारे सप्त आंदोलन — साधना आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.2" },
+      { "title": "हमारे सप्त आंदोलन — स्वास्थ्य आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.6" },
+      { "title": "हमारे सप्त आंदोलन — चिकित्सा आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.10" },
+      { "title": "हमारे सप्त आंदोलन — स्वावलम्बन आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.14" },
+      { "title": "हमारे सप्त आंदोलन — पर्यावरण आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.19" },
+      { "title": "हमारे सप्त आंदोलन — नारी जागरण आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.24" },
+      { "title": "हमारे सप्त आंदोलन — व्यसन मुक्ति, कुरीति उन्मूलन आन्दोलन", "type": "book", "url": "https://www.awgp.org/en/literature/book/Hamare_Saat_Andolan/v1.28" },
+      { "title": "Mission Vision — Vichar Kranti Abhiyan", "type": "page", "url": "https://www.awgp.org/en/about_us/mission_vision/vichar_kranti_abhiyan" }
+    ]
+  }
+}

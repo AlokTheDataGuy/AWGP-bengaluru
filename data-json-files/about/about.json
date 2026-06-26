@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "slug": "about",
+    "title": {
+      "en": "About Us — AWGP Bengaluru",
+      "hi": "हमारे बारे में — AWGP बेंगलूरु",
+      "kn": "ನಮ್ಮ ಬಗ್ಗೆ — AWGP ಬೆಂಗಳೂರು"
+    },
+    "order": 1,
+    "anchorLine": {
+      "en": "Hum Badlenge — Yug Badlega · We change, the era changes",
+      "hi": "हम बदलेंगे, युग बदलेगा",
+      "kn": "ನಾವು ಬದಲಾಗುತ್ತೇವೆ, ಯುಗ ಬದಲಾಗುತ್ತದೆ"
+    }
+  },
+
+  "hero": {
+    "eyebrow": {
+      "en": "All World Gayatri Pariwar · Bengaluru",
+      "hi": "अखिल विश्व गायत्री परिवार · बेंगलूरु",
+      "kn": "ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ · ಬೆಂಗಳೂರು"
+    },
+    "title": {
+      "en": "About Us",
+      "hi": "हमारे बारे में",
+      "kn": "ನಮ್ಮ ಬಗ್ಗೆ"
+    },
+    "subtitle": {
+      "en": "Find Your Inner Balance · Scientific Spirituality for the Modern Seeker",
+      "hi": "आंतरिक संतुलन पाएं · आधुनिक साधक के लिए वैज्ञानिक अध्यात्म",
+      "kn": "ಆಂತರಿಕ ಸಮತೋಲನ ಕಂಡುಕೊಳ್ಳಿ · ಆಧುನಿಕ ಸಾಧಕನಿಗೆ ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮ"
+    },
+    "mantra": "॥ ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥",
+    "bgImage": "/assets/shantikunj/banner.jpg",
+    "bgImageMobile": "/assets/mobile_imgs/about_us_bg.jpg",
+    "ctas": [
+      {
+        "type": "primary",
+        "href": "/contact",
+        "label": {
+          "en": "Join Our Pariwar",
+          "hi": "परिवार से जुड़ें",
+          "kn": "ಪರಿವಾರ ಸೇರಿ"
+        }
+      },
+      {
+        "type": "outline",
+        "href": "#mission",
+        "label": {
+          "en": "Our Mission",
+          "hi": "हमारा उद्देश्य",
+          "kn": "ನಮ್ಮ ಉದ್ದೇಶ"
+        }
+      }
+    ]
+  },
+
+  "intro": {
+    "lead": {
+      "en": "We, the Gayatri Chetna Kendra Bengaluru, are a sub-branch of Shantikunj, Haridwar — part of the All World Gayatri Pariwar, a global spiritual movement founded by Pandit Shriram Sharma Acharya. Our motto is the awakening of divinity in humankind and the descent of heaven on earth, through spiritual development, moral upliftment, and social transformation.",
+      "hi": "हम, गायत्री चेतना केंद्र बेंगलूरु, शांतिकुंज, हरिद्वार की एक उपशाखा हैं — पं. श्रीराम शर्मा आचार्य द्वारा स्थापित अखिल विश्व गायत्री परिवार का अंग। हमारा ध्येय है मनुष्य में देवत्व का जागरण और धरती पर स्वर्ग का अवतरण — आध्यात्मिक विकास, नैतिक उत्थान और सामाजिक परिवर्तन के माध्यम से।",
+      "kn": "ನಾವು, ಗಾಯತ್ರಿ ಚೇತನಾ ಕೇಂದ್ರ ಬೆಂಗಳೂರು, ಶಾಂತಿಕುಂಜ, ಹರಿದ್ವಾರದ ಉಪಶಾಖೆ — ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರಿಂದ ಸ್ಥಾಪಿತ ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರದ ಭಾಗ. ಮನುಷ್ಯನಲ್ಲಿ ದೇವತ್ವದ ಜಾಗೃತಿ ಮತ್ತು ಭೂಮಿಯ ಮೇಲೆ ಸ್ವರ್ಗದ ಅವತರಣ — ಆಧ್ಯಾತ್ಮಿಕ ವಿಕಾಸ, ನೈತಿಕ ಉನ್ನತಿ ಮತ್ತು ಸಾಮಾಜಿಕ ಪರಿವರ್ತನೆಯ ಮೂಲಕ — ಇದು ನಮ್ಮ ಧ್ಯೇಯ."
+    },
+    "body": {
+      "en": "Gayatri Pariwar is a living model of a futuristic society, guided by the principles of human unity and equality. It is a modern adaptation of the age-old wisdom of the Vedic Rishis, who practised and propagated Vasudhaiva Kutumbakam — \"the whole world is one family.\" Our aim is simple: a healthy body, a pure mind, and a civilized society, with an equal opportunity for self-growth for everyone, irrespective of caste, colour, or creed. In a fast-paced city of tech, deadlines, and digital overload, AWGP Bengaluru is a space to pause, reset, and grow from within — through Gayatri Sadhana, meditation, yoga, Yagya, and selfless seva.",
+      "hi": "गायत्री परिवार मानवीय एकता और समता के सिद्धांतों पर आधारित एक भविष्योन्मुखी समाज का जीवंत प्रतिरूप है। यह वैदिक ऋषियों की सनातन प्रज्ञा का आधुनिक रूपांतरण है, जिन्होंने 'वसुधैव कुटुम्बकम्' — 'सारा विश्व एक परिवार है' — का आचरण और प्रचार किया। हमारा ध्येय सरल है: स्वस्थ शरीर, पवित्र मन और सभ्य समाज, तथा जाति, वर्ण या मत के भेद बिना सबको आत्म-विकास का समान अवसर। तकनीक, समय-सीमा और डिजिटल अधिभार से भरे इस तेज़ शहर में, AWGP बेंगलूरु एक ऐसा स्थान है जहाँ आप रुककर, स्वयं को संवारकर भीतर से विकसित हो सकें — गायत्री साधना, ध्यान, योग, यज्ञ और निःस्वार्थ सेवा के माध्यम से।",
+      "kn": "ಗಾಯತ್ರಿ ಪರಿವಾರವು ಮಾನವ ಏಕತೆ ಮತ್ತು ಸಮಾನತೆಯ ತತ್ವಗಳಿಂದ ಮಾರ್ಗದರ್ಶಿತವಾದ ಭವಿಷ್ಯೋನ್ಮುಖ ಸಮಾಜದ ಜೀವಂತ ಮಾದರಿ. ಇದು 'ವಸುಧೈವ ಕುಟುಂಬಕಂ' — 'ಇಡೀ ಜಗತ್ತು ಒಂದೇ ಕುಟುಂಬ' — ಎಂದು ಆಚರಿಸಿ ಪ್ರಚಾರ ಮಾಡಿದ ವೈದಿಕ ಋಷಿಗಳ ಸನಾತನ ಪ್ರಜ್ಞೆಯ ಆಧುನಿಕ ರೂಪಾಂತರ. ನಮ್ಮ ಗುರಿ ಸರಳ: ಆರೋಗ್ಯವಂತ ದೇಹ, ಪವಿತ್ರ ಮನಸ್ಸು ಮತ್ತು ಸಭ್ಯ ಸಮಾಜ, ಹಾಗೂ ಜಾತಿ, ಬಣ್ಣ ಅಥವಾ ಮತದ ಭೇದವಿಲ್ಲದೆ ಎಲ್ಲರಿಗೂ ಆತ್ಮ-ವಿಕಾಸದ ಸಮಾನ ಅವಕಾಶ. ತಂತ್ರಜ್ಞಾನ, ಗಡುವು ಮತ್ತು ಡಿಜಿಟಲ್ ಒತ್ತಡದ ವೇಗದ ನಗರದಲ್ಲಿ, AWGP ಬೆಂಗಳೂರು ನಿಂತು, ಮರುಹೊಂದಿಸಿ, ಒಳಗಿನಿಂದ ಬೆಳೆಯುವ ಜಾಗ — ಗಾಯತ್ರಿ ಸಾಧನೆ, ಧ್ಯಾನ, ಯೋಗ, ಯಜ್ಞ ಮತ್ತು ನಿಸ್ವಾರ್ಥ ಸೇವೆಯ ಮೂಲಕ."
+    },
+    "toc": [
+      { "id": "mission", "label": { "en": "Mission & Vision", "hi": "उद्देश्य एवं दृष्टि", "kn": "ಉದ್ದೇಶ ಮತ್ತು ದೃಷ್ಟಿ" } },
+      { "id": "approach", "label": { "en": "Our Approach", "hi": "हमारा दृष्टिकोण", "kn": "ನಮ್ಮ ವಿಧಾನ" } },
+      { "id": "founders", "label": { "en": "Our Founders", "hi": "हमारे संस्थापक", "kn": "ನಮ್ಮ ಸಂಸ್ಥಾಪಕರು" } },
+      { "id": "mentors", "label": { "en": "Our Mentors", "hi": "हमारे मार्गदर्शक", "kn": "ನಮ್ಮ ಮಾರ್ಗದರ್ಶಕರು" } },
+      { "id": "sapt-andolan", "label": { "en": "Sapt Andolan", "hi": "सप्त आंदोलन", "kn": "ಸಪ್ತ ಆಂದೋಲನ" } },
+      { "id": "global", "label": { "en": "Global Movement", "hi": "वैश्विक आंदोलन", "kn": "ಜಾಗತಿಕ ಆಂದೋಲನ" } }
+    ]
+  },
+
+  "sections": [
+    {
+      "id": "mission",
+      "eyebrow": {
+        "en": "Mission & Vision",
+        "hi": "उद्देश्य एवं दृष्टि",
+        "kn": "ಉದ್ದೇಶ ಮತ್ತು ದೃಷ್ಟಿ"
+      },
+      "title": {
+        "en": "A Center for Scientific Spirituality",
+        "hi": "वैज्ञानिक अध्यात्म का केंद्र",
+        "kn": "ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮದ ಕೇಂದ್ರ"
+      },
+      "ornament": "🔥",
+      "vision": {
+        "label": { "en": "Vision", "hi": "दृष्टि", "kn": "ದೃಷ್ಟಿ" },
+        "body": {
+          "en": "Rise of Divinity in Humankind and the Descent of Heaven on Earth — a world where every individual lives with wisdom, compassion, and purpose, contributing to a peaceful, awakened society.",
+          "hi": "मनुष्य में देवत्व का उदय और धरती पर स्वर्ग का अवतरण — एक ऐसा संसार जहाँ हर व्यक्ति ज्ञान, करुणा और उद्देश्य के साथ जीता है और एक शांत, जाग्रत समाज का निर्माण करता है।",
+          "kn": "ಮನುಷ್ಯನಲ್ಲಿ ದೇವತ್ವದ ಉದಯ ಮತ್ತು ಭೂಮಿಯ ಮೇಲೆ ಸ್ವರ್ಗದ ಅವತರಣ — ಪ್ರತಿ ವ್ಯಕ್ತಿಯೂ ಜ್ಞಾನ, ಕರುಣೆ ಮತ್ತು ಉದ್ದೇಶದೊಂದಿಗೆ ಬದುಕಿ, ಶಾಂತ ಹಾಗೂ ಜಾಗೃತ ಸಮಾಜವನ್ನು ಕಟ್ಟುವ ಜಗತ್ತು."
+        }
+      },
+      "mission": {
+        "label": { "en": "Mission", "hi": "मिशन", "kn": "ಮಿಷನ್" },
+        "intro": {
+          "en": "To develop the consciousness of individuals by infusing ancient Vedic teachings — in harmony with modern science — into daily life. Refined individuals build families of trust and cooperation, which in turn create a peaceful society.",
+          "hi": "प्राचीन वैदिक शिक्षाओं को आधुनिक विज्ञान के साथ समन्वित कर दैनिक जीवन में उतारकर व्यक्ति की चेतना का विकास करना। संस्कारित व्यक्ति विश्वास और सहयोग से भरे परिवार बनाते हैं, और वही शांतिपूर्ण समाज की नींव बनते हैं।",
+          "kn": "ಪ್ರಾಚೀನ ವೈದಿಕ ಬೋಧನೆಗಳನ್ನು ಆಧುನಿಕ ವಿಜ್ಞಾನದೊಂದಿಗೆ ಸಮನ್ವಯಗೊಳಿಸಿ ದೈನಂದಿನ ಜೀವನದಲ್ಲಿ ಅಳವಡಿಸುವ ಮೂಲಕ ವ್ಯಕ್ತಿಯ ಪ್ರಜ್ಞೆಯನ್ನು ಬೆಳೆಸುವುದು. ಸಂಸ್ಕಾರಿತ ವ್ಯಕ್ತಿಗಳು ನಂಬಿಕೆ ಮತ್ತು ಸಹಕಾರದ ಕುಟುಂಬಗಳನ್ನು ಕಟ್ಟುತ್ತಾರೆ, ಅವೇ ಶಾಂತಿಯುತ ಸಮಾಜದ ಅಡಿಪಾಯ."
+        },
+        "points": {
+          "en": [
+            "Character Building and Refinement of individuals",
+            "Women Empowerment and Family-building infused with love and cooperation",
+            "Social transformation through universal charity and service to Mother Nature",
+            "Thought Revolution, Moral Revolution, and Social Revolution"
+          ],
+          "hi": [
+            "व्यक्ति का चरित्र-निर्माण और परिष्कार",
+            "नारी सशक्तिकरण और प्रेम-सहयोग से युक्त परिवार-निर्माण",
+            "सार्वभौमिक दान और प्रकृति-सेवा द्वारा सामाजिक परिवर्तन",
+            "विचार क्रांति, नैतिक क्रांति और सामाजिक क्रांति"
+          ],
+          "kn": [
+            "ವ್ಯಕ್ತಿಯ ಚಾರಿತ್ರ್ಯ ನಿರ್ಮಾಣ ಮತ್ತು ಪರಿಷ್ಕಾರ",
+            "ನಾರಿ ಸಬಲೀಕರಣ ಮತ್ತು ಪ್ರೇಮ-ಸಹಕಾರಯುತ ಕುಟುಂಬ ನಿರ್ಮಾಣ",
+            "ಸಾರ್ವತ್ರಿಕ ದಾನ ಮತ್ತು ಪ್ರಕೃತಿ ಸೇವೆಯ ಮೂಲಕ ಸಾಮಾಜಿಕ ಪರಿವರ್ತನೆ",
+            "ವಿಚಾರ ಕ್ರಾಂತಿ, ನೈತಿಕ ಕ್ರಾಂತಿ ಮತ್ತು ಸಾಮಾಜಿಕ ಕ್ರಾಂತಿ"
+          ]
+        }
+      },
+      "aimsNote": {
+        "en": "Toward a healthy body, a pure mind, and a civilized society.",
+        "hi": "स्वस्थ शरीर, पवित्र मन और सभ्य समाज की ओर।",
+        "kn": "ಆರೋಗ್ಯವಂತ ದೇಹ, ಪವಿತ್ರ ಮನಸ್ಸು ಮತ್ತು ಸಭ್ಯ ಸಮಾಜದತ್ತ."
+      }
+    },
+
+    {
+      "id": "approach",
+      "eyebrow": {
+        "en": "Our Approach",
+        "hi": "हमारा दृष्टिकोण",
+        "kn": "ನಮ್ಮ ವಿಧಾನ"
+      },
+      "title": {
+        "en": "Transform the Self, Transform the Era",
+        "hi": "स्वयं बदलें, युग बदलेगा",
+        "kn": "ಸ್ವತಃ ಬದಲಾಗಿ, ಯುಗ ಬದಲಾಗುತ್ತದೆ"
+      },
+      "ornament": "🌱",
+      "body": {
+        "en": "We believe spirituality is scientific — not blind faith. To realize our dream of healthy individuals, happy families, and civilized societies, our foremost focus is the refinement of thought. We work on the three spiritual pillars given by Pandit Shriram Sharma Acharya. With the transformation of the self — at the level of thoughts, feelings, and actions — epochal change in society becomes possible.",
+        "hi": "हम मानते हैं कि अध्यात्म वैज्ञानिक है — अंधविश्वास नहीं। स्वस्थ व्यक्ति, सुखी परिवार और सभ्य समाज के स्वप्न को साकार करने के लिए हमारा मूल केंद्र है विचारों का परिष्कार। हम पं. श्रीराम शर्मा आचार्य द्वारा दिए तीन आध्यात्मिक आधार-स्तंभों पर कार्य करते हैं। स्वयं के — विचार, भाव और कर्म के स्तर पर — रूपांतरण से ही समाज में युगांतरकारी परिवर्तन संभव होता है।",
+        "kn": "ಆಧ್ಯಾತ್ಮವು ವೈಜ್ಞಾನಿಕ — ಕುರುಡು ನಂಬಿಕೆ ಅಲ್ಲ ಎಂದು ನಾವು ನಂಬುತ್ತೇವೆ. ಆರೋಗ್ಯವಂತ ವ್ಯಕ್ತಿ, ಸುಖೀ ಕುಟುಂಬ ಮತ್ತು ಸಭ್ಯ ಸಮಾಜದ ಕನಸನ್ನು ನನಸಾಗಿಸಲು ನಮ್ಮ ಮುಖ್ಯ ಗಮನ ವಿಚಾರಗಳ ಪರಿಷ್ಕಾರ. ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ನೀಡಿದ ಮೂರು ಆಧ್ಯಾತ್ಮಿಕ ಆಧಾರಸ್ತಂಭಗಳ ಮೇಲೆ ನಾವು ಕಾರ್ಯ ಮಾಡುತ್ತೇವೆ. ಸ್ವತಃ — ವಿಚಾರ, ಭಾವ ಮತ್ತು ಕರ್ಮದ ಮಟ್ಟದಲ್ಲಿ — ರೂಪಾಂತರಗೊಂಡಾಗ ಸಮಾಜದಲ್ಲಿ ಯುಗಾಂತರಕಾರಿ ಬದಲಾವಣೆ ಸಾಧ್ಯ."
+      },
+      "pillars": [
+        {
+          "id": "upasana",
+          "icon": "🪔",
+          "name": { "en": "Upasana", "hi": "उपासना", "kn": "ಉಪಾಸನಾ" },
+          "summary": {
+            "en": "Worship & meditation — drawing closer to the Divine.",
+            "hi": "किसी भी रूप में ध्यान या प्रार्थना — परमात्मा के निकट जाना।",
+            "kn": "ಯಾವುದೇ ರೂಪದ ಧ್ಯಾನ ಅಥವಾ ಪ್ರಾರ್ಥನೆ — ಪರಮಾತ್ಮನ ಸಮೀಪ ಸಾಗುವುದು."
+          }
+        },
+        {
+          "id": "sadhana",
+          "icon": "🧘",
+          "name": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನಾ" },
+          "summary": {
+            "en": "Self-restraint and the judicious use of one's resources.",
+            "hi": "आत्म-संयम और अपने साधनों का विवेकपूर्ण उपयोग।",
+            "kn": "ಆತ್ಮ-ಸಂಯಮ ಮತ್ತು ತನ್ನ ಸಂಪನ್ಮೂಲಗಳ ವಿವೇಕಯುತ ಬಳಕೆ."
+          }
+        },
+        {
+          "id": "aradhana",
+          "icon": "🤝",
+          "name": { "en": "Aradhana", "hi": "आराधना", "kn": "ಆರಾಧನಾ" },
+          "summary": {
+            "en": "Selfless service to society and all living beings.",
+            "hi": "समाज और समस्त प्राणियों की निःस्वार्थ सेवा।",
+            "kn": "ಸಮಾಜ ಮತ್ತು ಸಮಸ್ತ ಜೀವಿಗಳ ನಿಸ್ವಾರ್ಥ ಸೇವೆ."
+          }
+        }
+      ]
+    }
+  ],
+
+  "founders": {
+    "id": "founders",
+    "eyebrow": {
+      "en": "Our Founders",
+      "hi": "हमारे संस्थापक",
+      "kn": "ನಮ್ಮ ಸಂಸ್ಥಾಪಕರು"
+    },
+    "title": {
+      "en": "Guiding Lights of the Gayatri Movement",
+      "hi": "गायत्री आंदोलन के पथ-प्रदर्शक",
+      "kn": "ಗಾಯತ್ರಿ ಆಂದೋಲನದ ಮಾರ್ಗದರ್ಶಕ ಜ್ಯೋತಿಗಳು"
+    },
+    "ornament": "🪔",
+    "items": [
+      {
+        "img": "/assets/founders/guruji.jpeg",
+        "name": {
+          "en": "Yug Rishi Pandit Shriram Sharma Acharya",
+          "hi": "युग ऋषि पं. श्रीराम शर्मा आचार्य",
+          "kn": "ಯುಗ ಋಷಿ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯ"
+        },
+        "role": { "en": "Gurudev · 1911–1990", "hi": "गुरुदेव · १९११–१९९०", "kn": "ಗುರುದೇವ · ೧೯೧೧–೧೯೯೦" },
+        "desc": {
+          "en": "Saint, reformer, writer, philosopher, and visionary, Gurudev was born on 20 September 1911 at Anwalkheda, Agra. At fifteen he began 24 Mahapurashcharans of the Gayatri Mantra under the guidance of his Himalayan Guru, and joined India's freedom struggle with Gandhi's blessings. He translated the entire Vedic Vangmaya into lucid Hindi, authored over 3,000 books, and gave a 100-point Yug Nirman Yojna for the spiritual, moral, and social upliftment of the masses. He founded Shantikunj, the Brahmavarchas Research Institute, and the monthly Akhand Jyoti (1940). A devout son of Gayatri Mata, he voluntarily shed his body on Gayatri Jayanti, 2 June 1990.",
+          "hi": "संत, सुधारक, लेखक, दार्शनिक और दृष्टा गुरुदेव का जन्म २० सितंबर १९११ को आँवलखेड़ा, आगरा में हुआ। पंद्रह वर्ष की आयु में उन्होंने अपने हिमालयवासी गुरु के मार्गदर्शन में गायत्री महामंत्र के २४ महापुरश्चरण आरंभ किए और गांधीजी के आशीर्वाद से स्वतंत्रता संग्राम में भाग लिया। उन्होंने संपूर्ण वैदिक वाङ्मय का सरल हिंदी में अनुवाद किया, ३,००० से अधिक ग्रंथ रचे और जन-जन के आध्यात्मिक, नैतिक व सामाजिक उत्थान हेतु १०० सूत्री युग निर्माण योजना दी। उन्होंने शांतिकुंज, ब्रह्मवर्चस शोध संस्थान और मासिक 'अखंड ज्योति' (१९४०) की स्थापना की। गायत्री माता के परम भक्त, उन्होंने गायत्री जयंती, २ जून १९९० को स्वेच्छा से देह त्यागी।",
+          "kn": "ಸಂತ, ಸುಧಾರಕ, ಲೇಖಕ, ತತ್ವಜ್ಞಾನಿ ಮತ್ತು ದ್ರಷ್ಟಾರ ಗುರುದೇವರು ೨೦ ಸೆಪ್ಟೆಂಬರ್ ೧೯೧೧ರಂದು ಆಗ್ರಾದ ಆಂವಲಖೇಡಾದಲ್ಲಿ ಜನಿಸಿದರು. ಹದಿನೈದನೇ ವಯಸ್ಸಿನಲ್ಲಿ ತಮ್ಮ ಹಿಮಾಲಯವಾಸಿ ಗುರುವಿನ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ ಗಾಯತ್ರಿ ಮಹಾಮಂತ್ರದ ೨೪ ಮಹಾಪುರಶ್ಚರಣಗಳನ್ನು ಆರಂಭಿಸಿದರು ಮತ್ತು ಗಾಂಧೀಜಿಯ ಆಶೀರ್ವಾದದೊಂದಿಗೆ ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟದಲ್ಲಿ ಭಾಗವಹಿಸಿದರು. ಸಂಪೂರ್ಣ ವೈದಿಕ ವಾಙ್ಮಯವನ್ನು ಸರಳ ಹಿಂದಿಗೆ ಅನುವಾದಿಸಿ, ೩,೦೦೦ಕ್ಕೂ ಹೆಚ್ಚು ಗ್ರಂಥಗಳನ್ನು ರಚಿಸಿ, ಜನಸಾಮಾನ್ಯರ ಆಧ್ಯಾತ್ಮಿಕ, ನೈತಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ಉನ್ನತಿಗಾಗಿ ೧೦೦ ಸೂತ್ರಗಳ ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆ ನೀಡಿದರು. ಶಾಂತಿಕುಂಜ, ಬ್ರಹ್ಮವರ್ಚಸ್ ಸಂಶೋಧನಾ ಸಂಸ್ಥೆ ಮತ್ತು ಮಾಸಿಕ 'ಅಖಂಡ ಜ್ಯೋತಿ' (೧೯೪೦) ಸ್ಥಾಪಿಸಿದರು. ಗಾಯತ್ರಿ ಮಾತೆಯ ಪರಮ ಭಕ್ತರಾದ ಅವರು ಗಾಯತ್ರಿ ಜಯಂತಿ, ೨ ಜೂನ್ ೧೯೯೦ರಂದು ಸ್ವಯಂ ಇಚ್ಛೆಯಿಂದ ದೇಹತ್ಯಾಗ ಮಾಡಿದರು."
+        },
+        "readMoreUrl": "https://www.awgp.org/en/about_us/patron_founder"
+      },
+      {
+        "img": "/assets/founders/mataji.jpeg",
+        "name": {
+          "en": "Vandaniya Mata Bhagwati Devi Sharma",
+          "hi": "वंदनीया माता भगवती देवी शर्मा",
+          "kn": "ವಂದನೀಯ ಮಾತಾ ಭಗವತಿ ದೇವಿ ಶರ್ಮಾ"
+        },
+        "role": { "en": "Mataji · 1926–1994", "hi": "माताजी · १९२६–१९९४", "kn": "ಮಾತಾಜಿ · ೧೯೨೬–೧೯೯೪" },
+        "desc": {
+          "en": "Born in September 1926, Mataji was the spiritual consort of Acharya Ji and a motherly figure to millions of Gayatri Pariwar members. In Shantikunj's early days she completed 24 Mahapurashcharans of the Gayatri Mantra with the help of the Dev-Kanyas. After Gurudev's Mahasamadhi in 1990 she carried the entire mission forward with great courage — from editing Akhand Jyoti to managing the ashram — and launched the series of grand Ashwamedha Yagyas that spread Dev Sanskriti across the world. It was her boundless love that held the Pariwar together as one family. A perfect example of womanhood in modern times.",
+          "hi": "सितंबर १९२६ में जन्मीं माताजी आचार्यजी की आध्यात्मिक सहधर्मिणी और करोड़ों गायत्री परिजनों की मातृ-स्वरूपा थीं। शांतिकुंज के आरंभिक दिनों में उन्होंने देव-कन्याओं के सहयोग से गायत्री मंत्र के २४ महापुरश्चरण पूर्ण किए। १९९० में गुरुदेव की महासमाधि के बाद उन्होंने 'अखंड ज्योति' के संपादन से लेकर आश्रम-प्रबंधन तक संपूर्ण मिशन को अदम्य साहस से आगे बढ़ाया और देव संस्कृति के विश्व-प्रसार हेतु भव्य अश्वमेध यज्ञों की श्रृंखला आरंभ की। उनके असीम प्रेम ने ही परिवार को एक सूत्र में बाँधे रखा। आधुनिक युग में नारीत्व का आदर्श।",
+          "kn": "ಸೆಪ್ಟೆಂಬರ್ ೧೯೨೬ರಲ್ಲಿ ಜನಿಸಿದ ಮಾತಾಜಿ ಆಚಾರ್ಯರ ಆಧ್ಯಾತ್ಮಿಕ ಸಹಧರ್ಮಿಣಿ ಮತ್ತು ಕೋಟ್ಯಂತರ ಗಾಯತ್ರಿ ಪರಿಜನರ ಮಾತೃಸ್ವರೂಪಿ. ಶಾಂತಿಕುಂಜದ ಆರಂಭದ ದಿನಗಳಲ್ಲಿ ದೇವ-ಕನ್ಯೆಯರ ನೆರವಿನಿಂದ ಗಾಯತ್ರಿ ಮಂತ್ರದ ೨೪ ಮಹಾಪುರಶ್ಚರಣಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದರು. ೧೯೯೦ರಲ್ಲಿ ಗುರುದೇವರ ಮಹಾಸಮಾಧಿಯ ನಂತರ 'ಅಖಂಡ ಜ್ಯೋತಿ' ಸಂಪಾದನೆಯಿಂದ ಆಶ್ರಮ ನಿರ್ವಹಣೆವರೆಗೆ ಸಂಪೂರ್ಣ ಮಿಷನ್ ಅನ್ನು ಅದಮ್ಯ ಧೈರ್ಯದಿಂದ ಮುನ್ನಡೆಸಿ, ದೇವ ಸಂಸ್ಕೃತಿಯ ವಿಶ್ವ ಪ್ರಸಾರಕ್ಕಾಗಿ ಭವ್ಯ ಅಶ್ವಮೇಧ ಯಜ್ಞಗಳ ಸರಣಿಯನ್ನು ಆರಂಭಿಸಿದರು. ಅವರ ಅಪರಿಮಿತ ಪ್ರೇಮವೇ ಪರಿವಾರವನ್ನು ಒಂದು ಕುಟುಂಬವಾಗಿ ಬೆಸೆದಿಟ್ಟಿತು. ಆಧುನಿಕ ಯುಗದಲ್ಲಿ ನಾರಿತ್ವದ ಆದರ್ಶ."
+        },
+        "readMoreUrl": "https://www.awgp.org/en/about_us/patron_founder"
+      }
+    ]
+  },
+
+  "mentors": {
+    "id": "mentors",
+    "eyebrow": {
+      "en": "Present Mentors",
+      "hi": "वर्तमान मार्गदर्शक",
+      "kn": "ಪ್ರಸ್ತುತ ಮಾರ್ಗದರ್ಶಕರು"
+    },
+    "title": {
+      "en": "Our Mentors",
+      "hi": "हमारे मार्गदर्शक",
+      "kn": "ನಮ್ಮ ಮಾರ್ಗದರ್ಶಕರು"
+    },
+    "subtitle": {
+      "en": "Guiding the Global Movement of Thought Revolution",
+      "hi": "विचार क्रांति के वैश्विक आंदोलन का मार्गदर्शन",
+      "kn": "ವಿಚಾರ ಕ್ರಾಂತಿಯ ಜಾಗತಿಕ ಆಂದೋಲನದ ಮಾರ್ಗದರ್ಶನ"
+    },
+    "ornament": "🪔",
+    "items": [
+      {
+        "img": "/assets/founders/shraddheya.jpg",
+        "name": {
+          "en": "Shraddhey Dr. Pranav Pandya",
+          "hi": "श्रद्धेय डॉ. प्रणव पंड्या",
+          "kn": "ಶ್ರದ್ಧೇಯ ಡಾ. ಪ್ರಣವ್ ಪಂಡ್ಯಾ"
+        },
+        "role": {
+          "en": "Head, All World Gayatri Pariwar",
+          "hi": "प्रमुख, अखिल विश्व गायत्री परिवार",
+          "kn": "ಮುಖ್ಯಸ್ಥ, ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ"
+        },
+        "points": {
+          "en": [
+            "Chancellor, Dev Sanskriti Vishwavidyalaya",
+            "Director, Brahmavarchas Research Institute",
+            "Editor, Akhand Jyoti"
+          ],
+          "hi": [
+            "कुलाधिपति, देव संस्कृति विश्वविद्यालय",
+            "निदेशक, ब्रह्मवर्चस शोध संस्थान",
+            "संपादक, अखंड ज्योति"
+          ],
+          "kn": [
+            "ಕುಲಾಧಿಪತಿ, ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯ",
+            "ನಿರ್ದೇಶಕ, ಬ್ರಹ್ಮವರ್ಚಸ್ ಸಂಶೋಧನಾ ಸಂಸ್ಥೆ",
+            "ಸಂಪಾದಕ, ಅಖಂಡ ಜ್ಯೋತಿ"
+          ]
+        },
+        "desc": {
+          "en": "A close and direct disciple of Pandit Shriram Sharma Acharya, Dr. Pranav Pandya is renowned as a pioneer of scientific spirituality. Under his dynamic leadership, Dev Sanskriti Vishwavidyalaya is reshaping modern education by integrating ancient wisdom with contemporary science.",
+          "hi": "पं. श्रीराम शर्मा आचार्य के निकटवर्ती एवं प्रत्यक्ष शिष्य, डॉ. प्रणव पंड्या वैज्ञानिक अध्यात्म के अग्रदूत के रूप में विख्यात हैं। उनके ओजस्वी नेतृत्व में देव संस्कृति विश्वविद्यालय प्राचीन प्रज्ञा को आधुनिक विज्ञान से जोड़कर शिक्षा को नया रूप दे रहा है।",
+          "kn": "ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ನಿಕಟವರ್ತಿ ಹಾಗೂ ನೇರ ಶಿಷ್ಯರಾದ ಡಾ. ಪ್ರಣವ್ ಪಂಡ್ಯಾ ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮದ ಪ್ರವರ್ತಕರೆಂದು ಖ್ಯಾತರು. ಅವರ ಚೈತನ್ಯಶೀಲ ನಾಯಕತ್ವದಲ್ಲಿ ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಪ್ರಾಚೀನ ಪ್ರಜ್ಞೆಯನ್ನು ಆಧುನಿಕ ವಿಜ್ಞಾನದೊಂದಿಗೆ ಬೆಸೆದು ಶಿಕ್ಷಣಕ್ಕೆ ಹೊಸ ರೂಪ ನೀಡುತ್ತಿದೆ."
+        },
+        "readMoreUrl": "https://www.awgp.org/en/about_us/present_mentor"
+      },
+      {
+        "img": "/assets/founders/jiji.jpg",
+        "name": {
+          "en": "Shraddheya Shailbala Pandya",
+          "hi": "श्रद्धेया शैलबाला पंड्या",
+          "kn": "ಶ್ರದ್ಧೇಯ ಶೈಲಬಾಲಾ ಪಂಡ್ಯಾ"
+        },
+        "role": {
+          "en": "Managing Trustee, Shantikunj",
+          "hi": "प्रबंध न्यासी, शांतिकुंज",
+          "kn": "ವ್ಯವಸ್ಥಾಪಕ ಟ್ರಸ್ಟಿ, ಶಾಂತಿಕುಂಜ"
+        },
+        "points": {
+          "en": [
+            "Revered as \"Jiji\" by all Parijans",
+            "Head of the Vichar Kranti Abhiyan",
+            "Masters in Psychology"
+          ],
+          "hi": [
+            "सभी परिजनों की प्रिय \"जीजी\"",
+            "विचार क्रांति अभियान की प्रमुख",
+            "मनोविज्ञान में परास्नातक"
+          ],
+          "kn": [
+            "ಎಲ್ಲ ಪರಿಜನರ ಪ್ರಿಯ \"ಜೀಜೀ\"",
+            "ವಿಚಾರ ಕ್ರಾಂತಿ ಅಭಿಯಾನದ ಮುಖ್ಯಸ್ಥೆ",
+            "ಮನೋವಿಜ್ಞಾನದಲ್ಲಿ ಸ್ನಾತಕೋತ್ತರ"
+          ]
+        },
+        "desc": {
+          "en": "Revered as Jiji, she is the embodiment of boundless love; devotees say her mere darshan eases their suffering. She holds a Masters in Psychology from Devi Ahilya University, Indore, and leads the Vichar Kranti Abhiyan — the movement for the refinement of thought.",
+          "hi": "जीजी के रूप में पूजनीया, वे असीम प्रेम की प्रतिमूर्ति हैं; भक्त कहते हैं उनके दर्शन मात्र से कष्ट दूर होते हैं। देवी अहिल्या विश्वविद्यालय, इंदौर से मनोविज्ञान में परास्नातक, वे विचार क्रांति अभियान — विचारों के परिष्कार का आंदोलन — का नेतृत्व करती हैं।",
+          "kn": "ಜೀಜೀ ಎಂದು ಪೂಜ್ಯರಾದ ಅವರು ಅಪರಿಮಿತ ಪ್ರೇಮದ ಮೂರ್ತರೂಪ; ಅವರ ದರ್ಶನ ಮಾತ್ರದಿಂದ ಕಷ್ಟಗಳು ದೂರವಾಗುತ್ತವೆ ಎಂದು ಭಕ್ತರು ಹೇಳುತ್ತಾರೆ. ಇಂದೋರಿನ ದೇವಿ ಅಹಿಲ್ಯಾ ವಿಶ್ವವಿದ್ಯಾಲಯದಿಂದ ಮನೋವಿಜ್ಞಾನದಲ್ಲಿ ಸ್ನಾತಕೋತ್ತರ ಪದವಿ ಪಡೆದ ಅವರು ವಿಚಾರ ಕ್ರಾಂತಿ ಅಭಿಯಾನವನ್ನು — ವಿಚಾರಗಳ ಪರಿಷ್ಕಾರದ ಆಂದೋಲನವನ್ನು — ಮುನ್ನಡೆಸುತ್ತಾರೆ."
+        },
+        "readMoreUrl": "https://www.awgp.org/en/about_us/present_mentor/shraddheya_shailbala_pandya"
+      },
+      {
+        "img": "/assets/founders/chinmaya-bhaiya.jpg",
+        "name": {
+          "en": "Dr. Chinmay Pandya",
+          "hi": "डॉ. चिन्मय पंड्या",
+          "kn": "ಡಾ. ಚಿನ್ಮಯ ಪಂಡ್ಯಾ"
+        },
+        "role": {
+          "en": "Pro Vice Chancellor, DSVV",
+          "hi": "प्रति-कुलपति, देव संस्कृति विश्वविद्यालय",
+          "kn": "ಪ್ರೊ ವೈಸ್ ಚಾನ್ಸಲರ್, DSVV"
+        },
+        "points": {
+          "en": [
+            "Pro Vice Chancellor, Dev Sanskriti Vishwavidyalaya",
+            "Medical training in India & the UK",
+            "Member of the Royal College of Psychiatrists (MRCPsych)"
+          ],
+          "hi": [
+            "प्रति-कुलपति, देव संस्कृति विश्वविद्यालय",
+            "भारत और यूके में चिकित्सा प्रशिक्षण",
+            "रॉयल कॉलेज ऑफ साइकिएट्रिस्ट्स के सदस्य (MRCPsych)"
+          ],
+          "kn": [
+            "ಪ್ರೊ ವೈಸ್ ಚಾನ್ಸಲರ್, ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯ",
+            "ಭಾರತ ಮತ್ತು ಯುಕೆಯಲ್ಲಿ ವೈದ್ಯಕೀಯ ತರಬೇತಿ",
+            "ರಾಯಲ್ ಕಾಲೇಜ್ ಆಫ್ ಸೈಕಿಯಾಟ್ರಿಸ್ಟ್ಸ್ ಸದಸ್ಯ (MRCPsych)"
+          ]
+        },
+        "desc": {
+          "en": "A pioneering youthful representative of AWGP, Dr. Chinmay Pandya completed his medical training in India and the UK, earning Membership of the Royal College of Psychiatrists. He guides the youth worldwide in scientific spirituality and leads many of the movement's international and academic initiatives.",
+          "hi": "AWGP के अग्रणी युवा प्रतिनिधि, डॉ. चिन्मय पंड्या ने भारत और यूके में चिकित्सा प्रशिक्षण प्राप्त कर रॉयल कॉलेज ऑफ साइकिएट्रिस्ट्स की सदस्यता अर्जित की। वे विश्वभर के युवाओं को वैज्ञानिक अध्यात्म की दिशा में मार्गदर्शन देते हैं और मिशन की अनेक अंतरराष्ट्रीय व शैक्षणिक गतिविधियों का नेतृत्व करते हैं।",
+          "kn": "AWGP ಯ ಅಗ್ರಗಣ್ಯ ಯುವ ಪ್ರತಿನಿಧಿ ಡಾ. ಚಿನ್ಮಯ ಪಂಡ್ಯಾ ಭಾರತ ಮತ್ತು ಯುಕೆಯಲ್ಲಿ ವೈದ್ಯಕೀಯ ತರಬೇತಿ ಪೂರ್ಣಗೊಳಿಸಿ ರಾಯಲ್ ಕಾಲೇಜ್ ಆಫ್ ಸೈಕಿಯಾಟ್ರಿಸ್ಟ್ಸ್ ಸದಸ್ಯತ್ವ ಗಳಿಸಿದರು. ವಿಶ್ವದಾದ್ಯಂತ ಯುವಜನರಿಗೆ ವೈಜ್ಞಾನಿಕ ಆಧ್ಯಾತ್ಮದ ಮಾರ್ಗದರ್ಶನ ನೀಡುತ್ತಾ, ಮಿಷನ್‌ನ ಹಲವು ಅಂತಾರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಶೈಕ್ಷಣಿಕ ಉಪಕ್ರಮಗಳನ್ನು ಮುನ್ನಡೆಸುತ್ತಾರೆ."
+        },
+        "readMoreUrl": "https://www.awgp.org/en/about_us/dr_chinmay_pandya"
+      }
+    ]
+  },
+
+  "saptAndolan": {
+    "id": "sapt-andolan",
+    "eyebrow": {
+      "en": "Yug Nirman Yojna",
+      "hi": "युग निर्माण योजना",
+      "kn": "ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆ"
+    },
+    "title": {
+      "en": "The Sapt Andolan — Seven Movements",
+      "hi": "सप्त आंदोलन — सात आंदोलन",
+      "kn": "ಸಪ್ತ ಆಂದೋಲನ — ಏಳು ಆಂದೋಲನಗಳು"
+    },
+    "ornament": "🌅",
+    "intro": {
+      "en": "The Sapt Andolan are the seven constructive movements through which the Yug Nirman Yojna turns inner transformation into visible social change — awakening the masses and motivating collective effort, without any discrimination of faith, caste, or status. AWGP Bengaluru carries these movements into city life.",
+      "hi": "सप्त आंदोलन वे सात रचनात्मक आंदोलन हैं जिनके माध्यम से युग निर्माण योजना आंतरिक रूपांतरण को प्रत्यक्ष सामाजिक परिवर्तन में बदलती है — जाति, मत या स्थिति के भेद बिना जन-जागरण और सामूहिक प्रयास को प्रेरित करते हुए। AWGP बेंगलूरु इन आंदोलनों को नगर-जीवन में उतारता है।",
+      "kn": "ಸಪ್ತ ಆಂದೋಲನಗಳು ಏಳು ರಚನಾತ್ಮಕ ಆಂದೋಲನಗಳಾಗಿದ್ದು, ಇವುಗಳ ಮೂಲಕ ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆ ಆಂತರಿಕ ರೂಪಾಂತರವನ್ನು ಗೋಚರ ಸಾಮಾಜಿಕ ಬದಲಾವಣೆಯಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ — ಜಾತಿ, ಮತ ಅಥವಾ ಸ್ಥಿತಿಯ ಭೇದವಿಲ್ಲದೆ ಜನಜಾಗೃತಿ ಮತ್ತು ಸಾಮೂಹಿಕ ಪ್ರಯತ್ನವನ್ನು ಪ್ರೇರೇಪಿಸುತ್ತದೆ. AWGP ಬೆಂಗಳೂರು ಈ ಆಂದೋಲನಗಳನ್ನು ನಗರ ಜೀವನಕ್ಕೆ ತರುತ್ತದೆ."
+    },
+    "movements": [
+      { "icon": "🧘", "name": { "en": "Sadhana Andolan — Spiritual Practice", "hi": "साधना आंदोलन", "kn": "ಸಾಧನಾ ಆಂದೋಲನ" } },
+      { "icon": "📚", "name": { "en": "Gyan / Shiksha Andolan — Knowledge & Education", "hi": "ज्ञान / शिक्षा आंदोलन", "kn": "ಜ್ಞಾನ / ಶಿಕ್ಷಣ ಆಂದೋಲನ" } },
+      { "icon": "💪", "name": { "en": "Swasthya Andolan — Health", "hi": "स्वास्थ्य आंदोलन", "kn": "ಆರೋಗ್ಯ ಆಂದೋಲನ" } },
+      { "icon": "🪕", "name": { "en": "Swavalamban Andolan — Self-reliance", "hi": "स्वावलंबन आंदोलन", "kn": "ಸ್ವಾವಲಂಬನ ಆಂದೋಲನ" } },
+      { "icon": "🌸", "name": { "en": "Nari Jagran Andolan — Women's Awakening", "hi": "नारी जागरण आंदोलन", "kn": "ನಾರಿ ಜಾಗರಣ ಆಂದೋಲನ" } },
+      { "icon": "🌳", "name": { "en": "Paryavaran Andolan — Environment", "hi": "पर्यावरण आंदोलन", "kn": "ಪರಿಸರ ಆಂದೋಲನ" } },
+      { "icon": "🤝", "name": { "en": "Vyasan Mukti / Samaj Sudhar — Social Reform", "hi": "व्यसन मुक्ति / समाज सुधार आंदोलन", "kn": "ವ್ಯಸನ ಮುಕ್ತಿ / ಸಮಾಜ ಸುಧಾರಣೆ ಆಂದೋಲನ" } }
+    ],
+    "cta": {
+      "href": "/sapt-andolan",
+      "label": {
+        "en": "Explore the Seven Movements →",
+        "hi": "सप्त आंदोलन विस्तार से देखें →",
+        "kn": "ಏಳು ಆಂದೋಲನಗಳನ್ನು ತಿಳಿಯಿರಿ →"
+      }
+    }
+  },
+
+  "global": {
+    "id": "global",
+    "eyebrow": {
+      "en": "Global Movement",
+      "hi": "वैश्विक आंदोलन",
+      "kn": "ಜಾಗತಿಕ ಆಂದೋಲನ"
+    },
+    "title": {
+      "en": "All World Gayatri Pariwar",
+      "hi": "अखिल विश्व गायत्री परिवार",
+      "kn": "ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ"
+    },
+    "ornament": "🌍",
+    "body": {
+      "en": "Founded by Pandit Shriram Sharma Acharya and headquartered at Shantikunj, Haridwar, the All World Gayatri Pariwar is one of the world's largest spiritual movements, uniting millions across every continent. On completing 24 years of Gayatri Sadhana, Gurudev established Gayatri Tapobhumi at Mathura in 1953 and organised a grand Gayatri Yajna in 1958 that launched the Yug Nirman Yojna. Shantikunj today serves as a living university of spiritual science, hosting lakhs of seekers each year for residential Shivirs, Yagyas, and experiential learning.",
+      "hi": "पं. श्रीराम शर्मा आचार्य द्वारा स्थापित और शांतिकुंज, हरिद्वार में मुख्यालय वाला अखिल विश्व गायत्री परिवार विश्व के सबसे बड़े आध्यात्मिक आंदोलनों में से एक है, जो हर महाद्वीप में करोड़ों को जोड़ता है। २४ वर्षों की गायत्री साधना पूर्ण कर गुरुदेव ने १९५३ में मथुरा में गायत्री तपोभूमि की स्थापना की और १९५८ में एक विराट गायत्री यज्ञ आयोजित किया, जिसने युग निर्माण योजना का सूत्रपात किया। शांतिकुंज आज आध्यात्मिक विज्ञान के जीवंत विश्वविद्यालय के रूप में, प्रतिवर्ष लाखों साधकों को आवासीय शिविर, यज्ञ और अनुभवात्मक शिक्षा प्रदान करता है।",
+      "kn": "ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರಿಂದ ಸ್ಥಾಪಿತ ಮತ್ತು ಶಾಂತಿಕುಂಜ, ಹರಿದ್ವಾರದಲ್ಲಿ ಕೇಂದ್ರ ಕಚೇರಿ ಹೊಂದಿರುವ ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ ವಿಶ್ವದ ಅತಿದೊಡ್ಡ ಆಧ್ಯಾತ್ಮಿಕ ಆಂದೋಲನಗಳಲ್ಲಿ ಒಂದು, ಪ್ರತಿ ಖಂಡದಲ್ಲೂ ಕೋಟ್ಯಂತರ ಜನರನ್ನು ಬೆಸೆಯುತ್ತದೆ. ೨೪ ವರ್ಷಗಳ ಗಾಯತ್ರಿ ಸಾಧನೆ ಪೂರ್ಣಗೊಳಿಸಿ ಗುರುದೇವರು ೧೯೫೩ರಲ್ಲಿ ಮಥುರಾದಲ್ಲಿ ಗಾಯತ್ರಿ ತಪೋಭೂಮಿ ಸ್ಥಾಪಿಸಿ, ೧೯೫೮ರಲ್ಲಿ ಬೃಹತ್ ಗಾಯತ್ರಿ ಯಜ್ಞ ಆಯೋಜಿಸಿದರು, ಅದು ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆಗೆ ನಾಂದಿ ಹಾಡಿತು. ಶಾಂತಿಕುಂಜ ಇಂದು ಆಧ್ಯಾತ್ಮಿಕ ವಿಜ್ಞಾನದ ಜೀವಂತ ವಿಶ್ವವಿದ್ಯಾಲಯವಾಗಿ, ಪ್ರತಿವರ್ಷ ಲಕ್ಷಾಂತರ ಸಾಧಕರಿಗೆ ವಸತಿ ಶಿಬಿರ, ಯಜ್ಞ ಮತ್ತು ಅನುಭವಾತ್ಮಕ ಶಿಕ್ಷಣ ನೀಡುತ್ತದೆ."
+    },
+    "slides": [
+      { "src": "/assets/shantikunj/shantikunj.jpg", "caption": { "en": "Shantikunj, Haridwar — Global HQ", "hi": "शांतिकुंज, हरिद्वार — वैश्विक मुख्यालय", "kn": "ಶಾಂತಿಕುಂಜ, ಹರಿದ್ವಾರ — ಜಾಗತಿಕ ಕೇಂದ್ರ" } },
+      { "src": "/assets/shantikunj/samadhi.png", "caption": { "en": "Samadhi Sthal", "hi": "समाधि स्थल", "kn": "ಸಮಾಧಿ ಸ್ಥಳ" } },
+      { "src": "/assets/shantikunj/deepak.jpg", "caption": { "en": "Akhand Deepak", "hi": "अखंड दीपक", "kn": "ಅಖಂಡ ದೀಪಕ" } },
+      { "src": "/assets/shantikunj/mandir.jpg", "caption": { "en": "Gayatri Mata Mandir", "hi": "गायत्री माता मंदिर", "kn": "ಗಾಯತ್ರಿ ಮಾತಾ ಮಂದಿರ" } },
+      { "src": "/assets/shantikunj/dsvv.jpg", "caption": { "en": "Dev Sanskriti Vishwavidyalaya", "hi": "देव संस्कृति विश्वविद्यालय", "kn": "ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯ" } },
+      { "src": "/assets/shantikunj/shivir.jpg", "caption": { "en": "Shivir — 9-Day Residential Camp", "hi": "शिविर — ९-दिवसीय आवासीय शिविर", "kn": "ಶಿಬಿರ — ೯-ದಿನಗಳ ವಸತಿ ಶಿಬಿರ" } }
+    ],
+    "stats": [
+      { "num": "15M+", "label": { "en": "Members Worldwide", "hi": "विश्वव्यापी सदस्य", "kn": "ವಿಶ್ವಾದ್ಯಂತ ಸದಸ್ಯರು" } },
+      { "num": "100+", "label": { "en": "Countries", "hi": "देश", "kn": "ದೇಶಗಳು" } },
+      { "num": "3000+", "label": { "en": "Books by Gurudev", "hi": "गुरुदेव की पुस्तकें", "kn": "ಗುರುದೇವರ ಪುಸ್ತಕಗಳು" } },
+      { "num": "1971", "label": { "en": "Year Founded", "hi": "स्थापना वर्ष", "kn": "ಸ್ಥಾಪನೆ ವರ್ಷ" } }
+    ],
+    "cta": {
+      "href": "https://www.awgp.org/en",
+      "external": true,
+      "label": {
+        "en": "Visit AWGP.org →",
+        "hi": "AWGP वेबसाइट देखें →",
+        "kn": "AWGP ವೆಬ್‌ಸೈಟ್ ನೋಡಿ →"
+      }
+    }
+  },
+
+  "references": {
+    "heading": {
+      "en": "Sources & Further Reading",
+      "hi": "स्रोत व आगे पढ़ें",
+      "kn": "ಮೂಲಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ಓದು"
+    },
+    "note": {
+      "en": "Authentic content adapted from the official All World Gayatri Pariwar website, awgp.org:",
+      "hi": "अखिल विश्व गायत्री परिवार की आधिकारिक वेबसाइट awgp.org से लिया गया प्रामाणिक विषय:",
+      "kn": "ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರದ ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್ awgp.org ನಿಂದ ಪಡೆದ ಪ್ರಾಮಾಣಿಕ ವಿಷಯ:"
+    },
+    "items": [
+      { "title": "Mission Vision", "type": "page", "url": "https://www.awgp.org/en/about_us/mission_vision" },
+      { "title": "Patron Founder", "type": "page", "url": "https://www.awgp.org/en/about_us/patron_founder" },
+      { "title": "Present Mentor", "type": "page", "url": "https://www.awgp.org/en/about_us/present_mentor" },
+      { "title": "Dr. Chinmay Pandya", "type": "page", "url": "https://www.awgp.org/en/about_us/dr_chinmay_pandya" },
+      { "title": "Gayatri Teerth Shantikunj", "type": "page", "url": "https://www.awgp.org/en/about_us/our_establishments/shantikunj_ashram" },
+      { "title": "हमारे सप्त आंदोलन (Hamare Sapt Andolan)", "type": "book", "url": "https://literature.awgp.org/book/Hamare_Saat_Andolan/v1" }
+    ]
+  }
+}
