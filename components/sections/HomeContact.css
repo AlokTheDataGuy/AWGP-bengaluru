@@ -78,7 +78,7 @@
   font-family: var(--font-heading);
   font-size: 0.74rem;
   font-weight: 700;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
   -webkit-background-clip: text;
@@ -90,8 +90,10 @@
   font-family: var(--font-heading);
   font-size: clamp(1.8rem, 3.6vw, 2.7rem);
   font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--maroon);
-  line-height: 1.12;
+  line-height: 1.15;
 }
 .home-contact__lead {
   max-width: 38rem;

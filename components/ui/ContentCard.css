@@ -96,9 +96,12 @@
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--saffron);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .content-card__title {

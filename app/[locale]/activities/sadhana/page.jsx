@@ -36,8 +36,6 @@ export default async function SadhanaPage({ params }) {
               : 'The Heart of Spiritual Practice at AWGP'
         }
         mantra="॥ ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥"
-        bgImage="/assets/programs/akhand-jap.jpeg"
-        bgColor="linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)"
       />
 
       <section className="section">

@@ -116,7 +116,7 @@
   font-family: var(--font-heading);
   font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.26em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
   -webkit-background-clip: text;
@@ -129,8 +129,9 @@
   font-family: var(--font-heading);
   font-size: clamp(1.9rem, 4vw, 3rem);
   font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: -0.01em;
+  line-height: 1.15;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--maroon);
 }
 .home-cta__title em {

@@ -57,7 +57,7 @@
   font-family: var(--font-heading);
   font-size: var(--eyebrow-size, 0.75rem);
   font-weight: var(--eyebrow-weight, 700);
-  letter-spacing: var(--eyebrow-tracking, 0.26em);
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
   -webkit-background-clip: text;
@@ -69,8 +69,10 @@
   font-family: var(--font-heading);
   font-size: clamp(1.9rem, 3.6vw, 2.8rem);
   font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: #fff;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 /* Signature gold-diamond rule — line · ◆ · line */

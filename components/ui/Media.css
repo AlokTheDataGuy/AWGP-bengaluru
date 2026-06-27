@@ -22,9 +22,12 @@
   font-family: var(--font-heading);
   font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--saffron);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .media-intro {
   max-width: 720px;
@@ -38,6 +41,8 @@
 .media-intro__heading {
   font-family: var(--font-heading);
   font-size: clamp(1.6rem, 3vw, 2.3rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--maroon);
   margin: 0;
 }

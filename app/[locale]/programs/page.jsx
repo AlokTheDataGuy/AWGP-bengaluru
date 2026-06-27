@@ -51,12 +51,6 @@ export default async function ProgramsIndexPage({ params }) {
       hi: 'AWGP बेंगलूरु के कार्यक्रम — उत्सव, यज्ञ, अनुष्ठान और अखंड जप — सामूहिक आध्यात्मिक अनुभव के अवसर हैं। सभी कार्यक्रम निःशुल्क और सभी के लिए खुले हैं।',
       kn: 'AWGP ಬೆಂಗಳೂರಿನ ಕಾರ್ಯಕ್ರಮಗಳು — ಹಬ್ಬಗಳು, ಯಜ್ಞ, ಅನುಷ್ಠಾನ ಮತ್ತು ಅಖಂಡ ಜಪ — ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವದ ಅವಕಾಶಗಳು.',
     }),
-    stat1n:   loc({ en: '4+',  hi: '4+',  kn: '4+' }),
-    stat1l:   loc({ en: 'Program Types', hi: 'कार्यक्रम प्रकार', kn: 'ಕಾರ್ಯಕ್ರಮ ವಿಧಗಳು' }),
-    stat2n:   loc({ en: 'All Year', hi: 'वर्ष भर', kn: 'ವರ್ಷವಿಡೀ' }),
-    stat2l:   loc({ en: 'Round the Calendar', hi: 'पंचांग भर', kn: 'ಪಂಚಾಂಗದ ಉದ್ದಕ್ಕೂ' }),
-    stat3n:   loc({ en: 'Free', hi: 'निःशुल्क', kn: 'ಉಚಿತ' }),
-    stat3l:   loc({ en: 'Always Open to All', hi: 'सभी के लिए', kn: 'ಎಲ್ಲರಿಗೂ ಮುಕ್ತ' }),
     explore:  loc({ en: 'Explore', hi: 'और जानें', kn: 'ಇನ್ನಷ್ಟು' }),
     ctaEye:   loc({ en: 'Come Join Us', hi: 'हमारे साथ जुड़ें', kn: 'ನಮ್ಮೊಂದಿಗೆ ಸೇರಿ' }),
     ctaH:     loc({ en: 'Be Part of Our Pariwar', hi: 'हमारे परिवार का हिस्सा बनें', kn: 'ನಮ್ಮ ಪರಿವಾರದ ಭಾಗವಾಗಿ' }),
@@ -76,8 +70,6 @@ export default async function ProgramsIndexPage({ params }) {
         eyebrow="AWGP Bengaluru"
         title={loc({ en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' })}
         subtitle={loc({ en: 'Festivals, Yagyas & Transformative Shivirs', hi: 'उत्सव, यज्ञ और परिवर्तनकारी शिविर', kn: 'ಉತ್ಸವ, ಯಜ್ಞ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು' })}
-        bgImage="/assets/programs/programs_banner.jpg"
-        bgImageMobile="/assets/programs/programs_banner_mob.jpg"
         mantra="॥ ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥"
       />
 
@@ -87,20 +79,6 @@ export default async function ProgramsIndexPage({ params }) {
           <span className="prog-page__intro-eyebrow">{T.eyebrow}</span>
           <h2 className="prog-page__intro-title">{T.heading}</h2>
           <p className="prog-page__intro-text">{T.body}</p>
-          <div className="prog-page__stats">
-            <div className="prog-page__stat">
-              <span className="prog-page__stat-num">{T.stat1n}</span>
-              <span className="prog-page__stat-label">{T.stat1l}</span>
-            </div>
-            <div className="prog-page__stat">
-              <span className="prog-page__stat-num">{T.stat2n}</span>
-              <span className="prog-page__stat-label">{T.stat2l}</span>
-            </div>
-            <div className="prog-page__stat">
-              <span className="prog-page__stat-num">{T.stat3n}</span>
-              <span className="prog-page__stat-label">{T.stat3l}</span>
-            </div>
-          </div>
         </div>
       </section>
 

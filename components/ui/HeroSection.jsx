@@ -1,82 +1,30 @@
-import Image from 'next/image';
 import './HeroSection.css';
 
 /**
- * Reusable page hero banner.
- * Props:
- *   title          – main heading (string)
- *   subtitle       – smaller text below
- *   eyebrow        – small all-caps label above title
- *   bgImage        – path string e.g. '/assets/shantikunj/banner.jpg'
- *   bgImageMobile  – optional alternate image for mobile
- *   bgColor        – fallback CSS gradient (when no bgImage)
- *   mantra         – Sanskrit quote (optional)
- *   icon           – emoji icon (optional)
- *   imgIcon        – image src for a small icon/seal above the eyebrow
- *   children       – extra CTA buttons etc.
+ * Shared page hero banner — gradient-only (no photo), matching the
+ * Sanskar detail page benchmark. Used at the top of every section/listing
+ * page across the site for a consistent look.
+ *
+ * Props: eyebrow, title, subtitle, mantra, children (extra CTAs), className
  */
 export default function HeroSection({
   title,
-  icon,
-  imgIcon,
   subtitle,
   eyebrow,
-  bgImage,
-  bgImageMobile,
-  bgColor = 'linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 60%, #7B1C1C 100%)',
   mantra,
   children,
   className = '',
 }) {
   return (
     <section className={`page-hero ${className}`.trim()}>
-      {/* Background image */}
-      {bgImage ? (
-        <div className="page-hero__bg">
-          <Image
-            src={bgImage}
-            alt=""
-            fill
-            priority
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
-            sizes="100vw"
-          />
-        </div>
-      ) : (
-        <div className="page-hero__bg" style={{ background: bgColor }} />
-      )}
-
-      {/* Mobile-only alternate bg */}
-      {bgImageMobile && (
-        <div className="page-hero__bg page-hero__bg--mobile">
-          <Image
-            src={bgImageMobile}
-            alt=""
-            fill
-            priority
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
-            sizes="100vw"
-          />
-        </div>
-      )}
-
-      <div className="page-hero__overlay" />
-
-      <div className="page-hero__content">
-        {imgIcon && (
-          <img src={imgIcon} alt="" className="page-hero__img-icon anim-fade-up" aria-hidden="true" />
-        )}
-        {eyebrow && (
-          <p className="page-hero__eyebrow anim-fade-up">{eyebrow}</p>
-        )}
+      <span className="page-hero__glow" aria-hidden="true" />
+      <span className="page-hero__mandala" aria-hidden="true" />
+      <div className="page-hero__inner">
+        {eyebrow && <p className="page-hero__eyebrow anim-fade-up">{eyebrow}</p>}
         <h1 className="page-hero__title anim-fade-up" style={{ animationDelay: '0.15s' }}>
-          <span className="page-hero__rule" aria-hidden="true" />
-          <span className="page-hero__title-text">
-            {icon && <span className="program-big-icon">{icon}</span>}
-            {title}
-          </span>
-          <span className="page-hero__rule" aria-hidden="true" />
+          {title}
         </h1>
+        <span className="page-hero__rule anim-fade-up" style={{ animationDelay: '0.2s' }} aria-hidden="true" />
         {subtitle && (
           <p className="page-hero__subtitle anim-fade-up" style={{ animationDelay: '0.28s' }}>
             {subtitle}

@@ -113,8 +113,6 @@ export default async function ProgramDetailPage({ params }) {
           eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
-          bgImage="/assets/programs/festival-banner.jpg"
-          bgColor={program.heroColor}
         />
         <div className="pd-page">
           <div className="pd-layout">
@@ -172,8 +170,6 @@ export default async function ProgramDetailPage({ params }) {
           eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
-          bgImage="/assets/programs/yagya-banner.png"
-          bgColor={program.heroColor}
         />
         <div className="pd-page">
           <div className="pd-layout">
@@ -239,8 +235,6 @@ export default async function ProgramDetailPage({ params }) {
           eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
-          bgImage="/assets/activities/book-fair.jpg"
-          bgColor={program.heroColor}
         />
         <div className="pd-page">
           <div className="pd-layout">
@@ -306,8 +300,6 @@ export default async function ProgramDetailPage({ params }) {
           eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
-          bgImage="/assets/activities/tree-plantation.jpg"
-          bgColor={program.heroColor}
         />
         <div className="pd-page">
           <div className="pd-layout">
@@ -377,8 +369,6 @@ export default async function ProgramDetailPage({ params }) {
         eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
         title={L(program.title)}
         subtitle={L(program.subtitle)}
-        bgImage={program.img}
-        bgColor={program.heroColor}
       />
       <div className="pd-page">
         <div className="pd-layout">

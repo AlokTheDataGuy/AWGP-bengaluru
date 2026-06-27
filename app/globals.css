@@ -129,9 +129,9 @@
   /* UI */
   --border:        #E8D9B5;
   --border-dark:   rgba(255,255,255,0.12);
-  --radius:        0;       /* square corners site-wide */
-  --radius-sm:     0;       /* (gallery keeps its own rounding) */
-  --radius-lg:     0;
+  --radius:        14px;    /* rounded corners site-wide */
+  --radius-sm:     10px;
+  --radius-lg:     20px;
   --nav-h:         96px;
 
   /* Full-width body — single horizontal gutter, equal on both sides,
@@ -147,7 +147,7 @@
 
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 /* ── Body + language font switching ── */
 body {
@@ -382,19 +382,27 @@ a:hover { color: var(--maroon); }
   display: inline-block;
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.75rem;
 }
 .sec-head__eyebrow--light {
-  color: var(--gold-lt);
+  background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .sec-head__title {
   font-size: clamp(1.9rem, 4vw, 2.8rem);
   font-weight: 700;
-  color: var(--text-dark);
-  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  line-height: 1.15;
   margin-bottom: 1rem;
 }
 .sec-head__title--light {
@@ -592,12 +600,17 @@ a:hover { color: var(--maroon); }
 .section-header .eyebrow {
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.6rem;
 }
 .section-header h2 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--maroon);
   margin-bottom: 0.4rem;
 }

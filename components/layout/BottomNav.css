@@ -1,0 +1,77 @@
+/* ─────────────────────────────────────────────
+   MOBILE BOTTOM NAV (mobile only)
+───────────────────────────────────────────── */
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 970;
+  display: none; /* shown only on mobile below */
+  background: var(--maroon, #7a2315);
+  border-top: 1px solid rgba(249, 199, 79, 0.22);
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.28);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.bottom-nav--visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 767px) {
+  .bottom-nav { display: block; }
+}
+
+.bottom-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 9px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 16px;
+  text-decoration: none;
+  color: rgba(255, 244, 214, 0.78);
+  transition: color 0.2s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border-radius: 12px;
+}
+.bottom-nav__link:active {
+  transform: scale(0.92);
+}
+.bottom-nav__link:focus-visible {
+  outline: 2px solid var(--gold, #f9c74f);
+  outline-offset: 2px;
+}
+.bottom-nav__link.is-active {
+  color: var(--gold, #f9c74f);
+}
+
+.bottom-nav__icon {
+  display: block;
+}
+
+.bottom-nav__label {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+/* Clear the fixed bar so page content / footer never sits under it */
+@media (max-width: 767px) {
+  .footer { padding-bottom: 84px; }
+}

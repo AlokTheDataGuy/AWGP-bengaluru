@@ -156,7 +156,10 @@
   font-weight: 700;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--saffron);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.5rem;
 }
 
@@ -164,6 +167,8 @@
   font-family: var(--font-heading);
   font-size: clamp(2rem, 4vw, 3.4rem);
   font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--maroon);
   line-height: 1.12;
   margin-bottom: 0.85rem;
@@ -666,15 +671,20 @@ a.cp-info__card-value:hover { color: var(--saffron); }
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--saffron);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.45rem;
 }
 .cp-reach__title {
   font-family: var(--font-heading);
   font-size: clamp(1.9rem, 3.6vw, 3rem);
   font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--maroon);
   line-height: 1.18;
 }

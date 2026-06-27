@@ -40,8 +40,6 @@ export default async function ActivityDetailPage({ params }) {
         eyebrow={`AWGP Bengaluru · ${activitiesLabel}`}
         title={L(activity.title)}
         subtitle={L(activity.subtitle)}
-        bgImage={activity.img}
-        bgColor="linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)"
       />
 
       <section className="section">

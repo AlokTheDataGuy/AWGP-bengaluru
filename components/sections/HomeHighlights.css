@@ -1,0 +1,75 @@
+/* =========================================================
+   Home — Recent Highlights (teaser)
+   Reuses the .hl-* grammar from components/ui/Highlights.css
+   (spotlight card + grid + lightbox) for a compact teaser:
+   1 featured + 3 cards (the grid's own 3/2/1 responsive
+   columns apply as-is), with a "View All" link down to the
+   full /media/news highlights page.
+   ========================================================= */
+
+.home-highlights {
+  padding-top: clamp(3.2rem, 5.5vw, 5rem);
+  padding-bottom: clamp(3.2rem, 5.5vw, 5rem);
+}
+
+/* ── Title treatment — match the Programs & Events reference ── */
+.home-highlights .sec-head__eyebrow {
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.home-highlights .hl-head__title {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.15;
+}
+
+/* ── Rounded boxes — match the Programs & Events reference ── */
+.home-highlights .hl-featured {
+  border-radius: 18px;
+}
+.home-highlights .hl-card {
+  border-radius: 16px;
+}
+.home-highlights .hl-tag,
+.home-highlights .hl-photocount {
+  border-radius: 8px;
+}
+.home-highlights .hl-chip,
+.home-highlights .hl-gallery-cta,
+.home-highlights .hl-card__overlay-label {
+  border-radius: 999px;
+}
+
+.home-highlights__footer {
+  text-align: center;
+  margin-top: clamp(2rem, 3.5vw, 2.8rem);
+}
+.home-highlights__view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  text-decoration: none;
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 14px 36px;
+  background: transparent;
+  transition: border-color 0.28s, color 0.28s, background 0.28s, gap 0.28s;
+}
+.home-highlights__view-all:hover {
+  border-color: var(--gold);
+  color: var(--saffron-deep);
+  background: var(--gold-pale);
+  gap: 16px;
+}
+.home-highlights__view-all svg { flex-shrink: 0; }

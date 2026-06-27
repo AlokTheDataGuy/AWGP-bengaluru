@@ -1,0 +1,154 @@
+/* ─────────────────────────────────────────────
+   WHATSAPP BUTTON (desktop only)
+───────────────────────────────────────────── */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 24px;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  display: none; /* hidden on mobile, shown on desktop below */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45), 0 2px 8px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+.whatsapp-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.55), 0 4px 12px rgba(0, 0, 0, 0.22);
+}
+@media (min-width: 768px) {
+  .whatsapp-btn { display: flex; }
+}
+
+/* ─────────────────────────────────────────────
+   FAB SPEED DIAL (mobile only)
+───────────────────────────────────────────── */
+.fab-container {
+  position: fixed;
+  bottom: 28px;
+  right: 24px;
+  z-index: 1000;
+  display: none; /* shown only on mobile below */
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 767px) {
+  .fab-container { display: flex; }
+}
+
+/* Backdrop shown when open */
+.fab-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  animation: fabFadeIn 0.2s ease;
+}
+
+@keyframes fabFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Main trigger button */
+.fab-trigger {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45), 0 2px 8px rgba(0, 0, 0, 0.18);
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.2s ease;
+  position: relative;
+  z-index: 1001;
+  flex-shrink: 0;
+}
+.fab-trigger:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.55), 0 4px 12px rgba(0, 0, 0, 0.22);
+}
+.fab-trigger-open {
+  background: #e53935;
+}
+.fab-trigger-open:hover {
+  box-shadow: 0 6px 28px rgba(229, 57, 53, 0.45), 0 4px 12px rgba(0, 0, 0, 0.22);
+}
+
+/* Sub-action buttons */
+.fab-action {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
+  position: relative;
+  z-index: 1001;
+  flex-shrink: 0;
+  /* hidden by default */
+  opacity: 0;
+  transform: translateY(16px) scale(0.7);
+  pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease, box-shadow 0.15s ease;
+}
+.fab-action:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(0) scale(1.06) !important;
+}
+
+/* WhatsApp action */
+.fab-action-wa { background: #25d366; }
+/* Call action */
+.fab-action-call { background: #1976d2; }
+
+/* Visible state with staggered delay */
+.fab-action-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+.fab-action-1 { transition-delay: 0.04s; }
+.fab-action-2 { transition-delay: 0.1s; }
+
+/* Label tooltip beside each action */
+.fab-label {
+  position: absolute;
+  right: calc(100% + 10px);
+  background: rgba(20, 20, 20, 0.82);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  letter-spacing: 0.02em;
+}
+
+/* Small phones (< 360px) */
+@media (max-width: 359px) {
+  .fab-container { bottom: 82px; right: 14px; }
+  .fab-trigger  { width: 44px; height: 44px; }
+  .fab-action   { width: 40px; height: 40px; }
+}
+
+/* Standard mobile (360–767px) */
+@media (min-width: 360px) and (max-width: 767px) {
+  .fab-container { bottom: 68px; right: 16px; }
+  .fab-trigger  { width: 48px; height: 48px; }
+  .fab-action   { width: 44px; height: 44px; }
+}

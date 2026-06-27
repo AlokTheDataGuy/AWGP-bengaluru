@@ -28,8 +28,6 @@ export default async function WorkshopsPage({ params }) {
               ? 'ಮನಸ್ಸು, ದೇಹ ಮತ್ತು ಆತ್ಮಕ್ಕಾಗಿ ಪರಿವರ್ತನಕಾರಿ ಕಲಿಕೆ'
               : 'Transformative Learning for Mind, Body & Spirit'
         }
-        bgImage="/assets/programs/workshops-banner.jpg"
-        bgColor="linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)"
       />
 
       <section className="section workshops-soon">

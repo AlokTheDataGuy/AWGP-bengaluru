@@ -8,7 +8,7 @@ import HeroSection from '../../../components/ui/HeroSection';
 import './Literature.css';
 
 const LIBRARY_URL = 'https://literature.awgp.org/';
-const AKHAND_JYOTI_URL = 'https://literature.awgp.org/magazine/akhandjyoti';
+const AKHAND_JYOTI_URL = 'https://www.awgp.org/en/literature/akhandjyoti';
 const YOUTUBE_URL = 'https://www.youtube.com/awgp';
 const STORE_BASE = 'https://www.awgpstore.com/category?id=';
 const STORE_PRINT_URL = 'https://www.awgpstore.com/category?id=IG0069';
@@ -178,7 +178,6 @@ export default async function LiteraturePage({ params }) {
           'युग ऋषि पं. श्रीराम शर्मा आचार्य का जीवंत ज्ञान',
           'ಯುಗ ಋಷಿ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಜೀವಂತ ಜ್ಞಾನ',
         )}
-        bgColor="linear-gradient(135deg, #2A1A0A 0%, #5C3D10 60%, #7A2315 100%)"
         mantra="॥ स्वाध्यायान्मा प्रमदः ॥"
       >
         <a href={LIBRARY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-white">
@@ -228,7 +227,7 @@ export default async function LiteraturePage({ params }) {
           <div className="lit-magazine">
             <div className="lit-magazine__art">
               <img
-                src="/assets/literature/akhand-jyoti.png"
+                src="/assets/literature/mag.jpg"
                 alt="Akhand Jyoti magazine cover"
                 className="lit-magazine__cover"
               />

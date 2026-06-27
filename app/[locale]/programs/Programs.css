@@ -7,7 +7,9 @@
 .prog-page__intro {
   position: relative;
   padding: clamp(4rem, 8vw, 6rem) var(--page-gutter);
-  background: linear-gradient(155deg, #2D1008 0%, #5A1A0E 55%, #7B2315 100%);
+  background:
+    radial-gradient(120% 90% at 50% -10%, rgba(249, 199, 79, 0.16) 0%, transparent 55%),
+    linear-gradient(160deg, var(--cream) 0%, var(--cream-2) 55%, #fdf1cf 100%);
   overflow: hidden;
   text-align: center;
 }
@@ -44,7 +46,10 @@
   font-weight: 700;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 1rem;
 }
 
@@ -52,46 +57,17 @@
   font-family: var(--font-heading);
   font-size: clamp(1.8rem, 3.5vw, 2.8rem);
   font-weight: 700;
-  color: #fff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--maroon);
   line-height: 1.2;
   margin-bottom: 1.2rem;
 }
 
 .prog-page__intro-text {
   font-size: clamp(0.92rem, 1.4vw, 1.05rem);
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--text-mid);
   line-height: 1.8;
-  margin-bottom: 3rem;
-}
-
-/* Stats row */
-.prog-page__stats {
-  display: flex;
-  justify-content: center;
-  gap: clamp(2rem, 6vw, 6rem);
-  flex-wrap: wrap;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(249, 199, 79, 0.2);
-}
-
-.prog-page__stat-num {
-  display: block;
-  font-family: var(--font-heading);
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
-  font-weight: 700;
-  color: var(--gold);
-  line-height: 1;
-  letter-spacing: -0.01em;
-}
-
-.prog-page__stat-label {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-  margin-top: 0.4rem;
 }
 
 /* ── Mandala divider ──────────────────────────────────────── */
@@ -352,8 +328,4 @@
   .prog-row__panel { order: 1 !important; min-height: 320px; }
 
   .prog-row__panel-desc { -webkit-line-clamp: 6; }
-}
-
-@media (max-width: 480px) {
-  .prog-page__stats { gap: 1.5rem 3rem; }
 }

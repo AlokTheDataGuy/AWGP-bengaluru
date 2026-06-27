@@ -46,7 +46,7 @@
   margin-bottom: 1.1rem;
 }
 
-.workshops-soon__title { font-size: clamp(1.9rem, 3.6vw, 2.6rem); font-weight: 700; color: var(--maroon); line-height: 1.2; }
+.workshops-soon__title { font-size: clamp(1.9rem, 3.6vw, 2.6rem); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--maroon); line-height: 1.2; }
 
 .workshops-soon__text {
   max-width: 560px;

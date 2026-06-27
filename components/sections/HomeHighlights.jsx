@@ -2,32 +2,34 @@
 
 import { useMemo, useState } from 'react';
 import { useLocale } from 'next-intl';
+import { ArrowRight } from 'lucide-react';
+import { Link } from '../../lib/i18n/navigation';
 import { imagesOf, coverOf, sortByDateDesc } from '../../lib/highlights';
-import HighlightFeatured from './HighlightFeatured';
-import HighlightCard from './HighlightCard';
-import GalleryLightbox from './GalleryLightbox';
+import HighlightFeatured from '../ui/HighlightFeatured';
+import HighlightCard from '../ui/HighlightCard';
+import GalleryLightbox from '../ui/GalleryLightbox';
 import highlightsData from '../../data-json-files/media/highlights.json';
-import './Highlights.css';
+import '../ui/Highlights.css';
+import './HomeHighlights.css';
 
-export default function HighlightsClient() {
+const TEASER_COUNT = 4;
+
+export default function HomeHighlights() {
   const locale = useLocale();
   const L = (en, hi, kn) => (locale === 'hi' ? hi : locale === 'kn' ? kn : en);
   const T = (obj) => (obj && (obj[locale] || obj.en)) || '';
 
   const { section, categories, highlights } = highlightsData;
 
-  const sorted = useMemo(() => sortByDateDesc(highlights), [highlights]);
+  const shown = useMemo(() => sortByDateDesc(highlights).slice(0, TEASER_COUNT), [highlights]);
+  const [featured, ...rest] = shown;
 
-  const cats = useMemo(() => {
-    const present = new Set(sorted.map((h) => h.category));
-    return Object.entries(categories).filter(([key]) => present.has(key));
-  }, [sorted, categories]);
-
-  const [active, setActive] = useState('all');
   const [lb, setLb] = useState(null);
 
-  const shown = active === 'all' ? sorted : sorted.filter((h) => h.category === active);
-  const [featured, ...rest] = shown;
+  if (!featured) return null;
+
+  const viewLabel = L('View photos', 'फ़ोटो देखें', 'ಫೋಟೋ ನೋಡಿ');
+  const featImages = imagesOf(featured);
 
   const openGallery = (h) => {
     const images = imagesOf(h);
@@ -35,13 +37,8 @@ export default function HighlightsClient() {
     setLb({ items, index: (h.coverIndex || 1) - 1 });
   };
 
-  if (!featured) return null;
-
-  const viewLabel = L('View photos', 'फ़ोटो देखें', 'ಫೋಟೋ ನೋಡಿ');
-  const featImages = imagesOf(featured);
-
   return (
-    <section className="hl-section">
+    <section className="hl-section home-highlights">
       <span className="hl-mandala" aria-hidden="true" />
 
       <div className="section-inner">
@@ -53,30 +50,6 @@ export default function HighlightsClient() {
           </div>
           <p className="hl-head__sub">{T(section.subtitle)}</p>
         </div>
-
-        {cats.length > 1 && (
-          <div className="hl-filters" role="tablist" aria-label={L('Filter highlights', 'झलकियाँ फ़िल्टर करें', 'ಮುಖ್ಯಾಂಶಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ')}>
-            <button
-              role="tab"
-              aria-selected={active === 'all'}
-              className={`hl-filter${active === 'all' ? ' hl-filter--active' : ''}`}
-              onClick={() => setActive('all')}
-            >
-              {L('All', 'सभी', 'ಎಲ್ಲಾ')}
-            </button>
-            {cats.map(([key, val]) => (
-              <button
-                key={key}
-                role="tab"
-                aria-selected={active === key}
-                className={`hl-filter${active === key ? ' hl-filter--active' : ''}`}
-                onClick={() => setActive(key)}
-              >
-                {T(val.label)}
-              </button>
-            ))}
-          </div>
-        )}
 
         <HighlightFeatured
           h={featured}
@@ -110,6 +83,13 @@ export default function HighlightsClient() {
             })}
           </div>
         )}
+
+        <div className="home-highlights__footer">
+          <Link href="/media/news" className="home-highlights__view-all">
+            <span>{L('View All Highlights', 'सभी झलकियाँ देखें', 'ಎಲ್ಲಾ ಮುಖ್ಯಾಂಶಗಳು')}</span>
+            <ArrowRight size={16} aria-hidden="true" />
+          </Link>
+        </div>
       </div>
 
       {lb && (

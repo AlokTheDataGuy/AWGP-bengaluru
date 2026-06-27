@@ -48,8 +48,6 @@ export default async function CommunitySeva({ params }) {
         eyebrow="AWGP Bengaluru · Activities"
         title={locale === 'hi' ? 'समुदाय सेवा' : locale === 'kn' ? 'ಸಮುದಾಯ ಸೇವಾ' : 'Community Seva'}
         subtitle={locale === 'hi' ? 'मानवता की सेवा आराधना के रूप में' : locale === 'kn' ? 'ಪೂಜೆಯ ರೂಪದಲ್ಲಿ ಮಾನವತೆಯ ಸೇವೆ' : 'Serving Humanity as an Act of Worship'}
-        bgImage="/assets/activities/food-distribution.jpg"
-        bgColor="linear-gradient(135deg, #7B1C1C 0%, #3D1F0A 100%)"
         mantra="॥ परोपकाराय फलन्ति वृक्षाः परोपकाराय वहन्ति नद्यः ॥"
       />
 

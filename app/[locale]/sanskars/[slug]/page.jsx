@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import data from '../../../../data-json-files/sanskars/sanskars.json';
 import { SANSKAR_IMG, SANSKAR_STAGE } from '../sanskarMeta';
+import HeroSection from '../../../../components/ui/HeroSection';
 import SanskarDetailView from './SanskarDetailView';
 import './SanskarDetail.css';
 
@@ -63,15 +64,11 @@ export default async function SanskarDetailPage({ params }) {
 
   return (
     <>
-      <header className="skd-hero">
-        <span className="skd-hero__glow" aria-hidden="true" />
-        <div className="skd-hero__inner">
-          <span className="skd-hero__eyebrow">AWGP Bengaluru · {view.stage}</span>
-          <h1 className="skd-hero__title">{view.name}</h1>
-          <span className="skd-hero__rule" aria-hidden="true" />
-          {summary && <p className="skd-hero__subtitle">{summary}</p>}
-        </div>
-      </header>
+      <HeroSection
+        eyebrow={`AWGP Bengaluru · ${view.stage}`}
+        title={view.name}
+        subtitle={summary || undefined}
+      />
       <SanskarDetailView view={view} labels={labels} />
     </>
   );

@@ -81,9 +81,12 @@
   font-family: var(--font-heading);
   font-size: var(--eyebrow-size, 0.75rem);
   font-weight: 700;
-  letter-spacing: 0.26em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--gold-lt);
+  background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.8rem;
   animation: aaRise 0.7s ease both;
 }
@@ -91,6 +94,8 @@
   font-family: var(--font-heading);
   font-size: clamp(2.4rem, 6vw, 4rem);
   font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   line-height: 1.1;
   color: #fff;
   text-shadow: 0 2px 30px rgba(0,0,0,0.35);
@@ -155,7 +160,7 @@
   border: 1px solid var(--border);
   box-shadow: var(--shadow-md);
 }
-.aa-heading { font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; color: var(--maroon); line-height: 1.18; }
+.aa-heading { font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--maroon); line-height: 1.18; }
 .aa-heading--center { text-align: center; }
 .aa-body { font-size: 1.02rem; line-height: 1.85; color: var(--text-dark); }
 

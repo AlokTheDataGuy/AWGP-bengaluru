@@ -30,7 +30,7 @@
   font-family: var(--font-heading);
   font-size: var(--eyebrow-size);
   font-weight: var(--eyebrow-weight);
-  letter-spacing: var(--eyebrow-tracking);
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
   -webkit-background-clip: text;
@@ -42,8 +42,10 @@
   font-family: var(--font-heading);
   font-size: clamp(2rem, 4.4vw, 3rem);
   font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--maroon);
-  line-height: 1.2;
+  line-height: 1.15;
 }
 .home-path__ornament {
   display: block;

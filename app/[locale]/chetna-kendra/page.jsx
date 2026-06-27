@@ -22,7 +22,6 @@ export default async function ChetnaKendraPage({ params }) {
         eyebrow={L(data.hero.eyebrow)}
         title={L(data.hero.title)}
         subtitle={L(data.hero.subtitle)}
-        bgImage={data.hero.bgImage}
         mantra={data.hero.mantra}
       />
 

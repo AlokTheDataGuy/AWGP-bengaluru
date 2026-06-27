@@ -51,7 +51,7 @@
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.26em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
   -webkit-background-clip: text;
@@ -63,6 +63,8 @@
   font-family: var(--font-heading);
   font-size: clamp(1.3rem, 2.6vw, 1.85rem);
   font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: #fff;
   line-height: 1.2;
 }

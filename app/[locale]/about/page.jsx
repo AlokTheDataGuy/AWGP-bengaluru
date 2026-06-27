@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Link } from '../../../lib/i18n/navigation';
+import HeroSection from '../../../components/ui/HeroSection';
 import SectionHeader from '../../../components/ui/SectionHeader';
 import SlideshowClient from '../../../components/ui/SlideshowClient';
 import data from '../../../data-json-files/about/about.json';
@@ -20,25 +21,21 @@ export default async function AboutPage({ params }) {
 
   return (
     <>
-      {/* ── Hero — Sanskar-style gradient banner ── */}
-      <header className="about-hero">
-        <span className="about-hero__glow" aria-hidden="true" />
-        <div className="about-hero__inner">
-          <span className="about-hero__eyebrow">{L(data.hero.eyebrow)}</span>
-          <h1 className="about-hero__title">{L(data.hero.title)}</h1>
-          <span className="about-hero__rule" aria-hidden="true" />
-          <p className="about-hero__subtitle">{L(data.meta.anchorLine)}</p>
-          <div className="about-hero__ctas">
-            {heroCtas.map((c, i) =>
-              c.href.startsWith('#') ? (
-                <a key={i} href={c.href} className="btn btn-outline">{L(c.label)}</a>
-              ) : (
-                <Link key={i} href={c.href} className="btn btn-white">{L(c.label)}</Link>
-              )
-            )}
-          </div>
-        </div>
-      </header>
+      {/* ── Hero ── */}
+      <HeroSection
+        eyebrow={L(data.hero.eyebrow)}
+        title={L(data.hero.title)}
+        subtitle={L(data.hero.subtitle)}
+        mantra={data.hero.mantra}
+      >
+        {heroCtas.map((c, i) =>
+          c.href.startsWith('#') ? (
+            <a key={i} href={c.href} className="btn btn-outline">{L(c.label)}</a>
+          ) : (
+            <Link key={i} href={c.href} className="btn btn-white">{L(c.label)}</Link>
+          )
+        )}
+      </HeroSection>
 
       {/* ── All World Gayatri Pariwar (now directly under hero) ── */}
       <section id={data.global.id} className="section" style={{ background: 'var(--cream)' }}>

@@ -23,8 +23,6 @@ export default async function ContactPage({ params }) {
         title={t('contact_title')}
         subtitle={t('contact_subtitle')}
         mantra="॥ सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः ॥"
-        bgImage="/assets/shantikunj/hero.jpg"
-        bgImageMobile="/assets/mobile_imgs/contact.png"
       />
       <ContactBody locale={locale} />
     </>

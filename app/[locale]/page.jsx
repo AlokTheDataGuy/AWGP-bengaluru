@@ -4,6 +4,7 @@ import HomePillars from '../../components/sections/HomePillars';
 import HomePath from '../../components/sections/HomePath';
 import HomeStats from '../../components/sections/HomeStats';
 import HomePrograms from '../../components/sections/HomePrograms';
+import HomeHighlights from '../../components/sections/HomeHighlights';
 import HomeChetna from '../../components/sections/HomeChetna';
 import HomeBlog from '../../components/sections/HomeBlog';
 import GalleryStrip from '../../components/sections/GalleryStrip';
@@ -32,7 +33,9 @@ export default async function HomePage({ params }) {
       <HomePath />
       <HomePillars />
 
-      <HomePrograms locale={locale} />      <HomeBlog locale={locale} />
+      <HomePrograms locale={locale} />
+      <HomeHighlights />
+      <HomeBlog locale={locale} />
 
       <HomeChetna />      <HomeContact />
 

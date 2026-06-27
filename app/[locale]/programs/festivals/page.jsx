@@ -135,12 +135,11 @@ export default async function FestivalsPage({ params }) {
 
   return (
     <>
-      {/* ── Hero — gradient-only, Sanskar-style ── */}
+      {/* ── Hero ── */}
       <HeroSection
         eyebrow={`AWGP Bengaluru · ${loc({ en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' })}`}
         title={loc(festivalsData.hero.title)}
         subtitle={loc(festivalsData.hero.tagline)}
-        bgColor="linear-gradient(135deg, #1A0805 0%, #6B1C1C 40%, #9B5A18 100%)"
       />
 
       {/* ── Intro band ── */}

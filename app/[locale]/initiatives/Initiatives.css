@@ -187,14 +187,19 @@
 .vk-eyebrow {
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.6rem;
 }
 .vk-title {
   font-family: var(--font-serif);
   font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--maroon);
   line-height: 1.2;
 }
@@ -237,6 +242,8 @@
 .init-cta__title {
   font-family: var(--font-serif);
   font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: #fff;
   margin-bottom: 1rem;
 }

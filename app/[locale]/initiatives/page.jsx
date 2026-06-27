@@ -25,7 +25,6 @@ export default async function InitiativesPage({ params }) {
         eyebrow={L(data.hero.eyebrow)}
         title={L(data.hero.title)}
         subtitle={L(data.hero.subtitle)}
-        bgImage={data.hero.bgImage}
         mantra={data.hero.mantra}
       >
         {(data.hero.ctas || []).map((c, i) => (

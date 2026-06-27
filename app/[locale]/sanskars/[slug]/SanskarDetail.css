@@ -2,72 +2,8 @@
    SANSKAR DETAIL PAGE
    Gradient bands, mandala blooms, reveal-on-scroll content blocks,
    benefit cards, prev/next navigation.
+   (Hero banner lives in components/ui/HeroSection — shared sitewide.)
 ═══════════════════════════════════════════════════════════════ */
-
-/* ── Themed hero (gradient, not photo) ─────────────────────── */
-.skd-hero {
-  position: relative;
-  overflow: hidden;
-  isolation: isolate;
-  padding: calc(var(--nav-h) + clamp(26px, 6vw, 58px)) var(--page-gutter) clamp(40px, 7vw, 72px);
-  background: linear-gradient(135deg, var(--maroon) 0%, #5A1A0E 52%, #3D1F0A 100%);
-  color: var(--text-light);
-}
-.skd-hero__glow {
-  position: absolute;
-  top: -28%;
-  right: -8%;
-  width: 58%;
-  aspect-ratio: 1;
-  background: radial-gradient(circle, rgba(249, 199, 79, 0.18) 0%, transparent 60%);
-  z-index: -1;
-  pointer-events: none;
-}
-.skd-hero__mandala {
-  position: absolute;
-  right: -6%;
-  bottom: -34%;
-  width: min(420px, 54vw);
-  aspect-ratio: 1;
-  background: url('/assets/designs/lotus-mandala.png') center / contain no-repeat;
-  opacity: 0.10;
-  z-index: -1;
-  pointer-events: none;
-}
-.skd-hero__inner {
-  max-width: 1180px;
-  margin: 0 auto;
-}
-.skd-hero__eyebrow {
-  display: block;
-  font-family: var(--font-body);
-  font-size: clamp(0.64rem, 1.2vw, 0.76rem);
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold-lt);
-  margin-bottom: 1rem;
-}
-.skd-hero__title {
-  font-size: clamp(2rem, 6.4vw, 3.6rem);
-  color: #fff;
-  line-height: 1.12;
-  max-width: 20ch;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
-}
-.skd-hero__rule {
-  display: block;
-  width: 72px;
-  height: 3px;
-  margin: clamp(0.9rem, 2vw, 1.3rem) 0;
-  background: linear-gradient(90deg, var(--gold), var(--saffron));
-}
-.skd-hero__subtitle {
-  max-width: 60ch;
-  font-size: clamp(0.98rem, 1.5vw, 1.18rem);
-  color: rgba(255, 255, 255, 0.82);
-  line-height: 1.7;
-}
 
 .skd {
   position: relative;
@@ -129,6 +65,8 @@
 }
 .skd-block__title {
   font-size: clamp(1.4rem, 2.6vw, 1.95rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--maroon);
   line-height: 1.25;
 }
