@@ -19,9 +19,21 @@ const GALLERY_DIR = join(ROOT, 'public', 'assets', 'gallery');
 const OUT_FILE = join(ROOT, 'lib', 'galleryManifest.js');
 
 const IMG_RE = /\.(jpe?g|png|webp|avif|gif)$/i;
+// Files renamed to a plain number (e.g. 1.jpg, 12.jpg) are the curated order:
+// they sort first, by numeric value. Everything else follows in natural order.
+const NUM_RE = /^(\d+)\.(?:jpe?g|png|webp|avif|gif)$/i;
 
 function isYearDir(name) {
   return /^\d{4}$/.test(name);
+}
+
+function sortGallery(a, b) {
+  const na = a.match(NUM_RE);
+  const nb = b.match(NUM_RE);
+  if (na && nb) return Number(na[1]) - Number(nb[1]); // both numbered → numeric order
+  if (na) return -1;                                  // numbered files come first
+  if (nb) return 1;
+  return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
 }
 
 const years = readdirSync(GALLERY_DIR)
@@ -41,7 +53,7 @@ for (const year of years) {
   const dir = join(GALLERY_DIR, year);
   const files = readdirSync(dir)
     .filter((f) => IMG_RE.test(f))
-    .sort();
+    .sort(sortGallery);
   manifest[year] = files.map((f) => `/assets/gallery/${year}/${f}`);
   total += files.length;
 }
