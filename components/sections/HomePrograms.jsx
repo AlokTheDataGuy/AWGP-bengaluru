@@ -29,6 +29,15 @@ function getTag(id = '', titleEn = '') {
   if (s.includes('meditation') || s.includes('dhyan')) return 'Dhyan';
   if (s.includes('shivir') || s.includes('camp'))   return 'Shivir';
   if (s.includes('kirtan') || s.includes('sandhya')) return 'Kirtan';
+  if (
+    s.includes('raksha') || s.includes('bandhan') ||
+    s.includes('janmashtami') || s.includes('janmastami') || s.includes('krishna') ||
+    s.includes('ganesh') || s.includes('chaturthi') ||
+    s.includes('navratri') || s.includes('deepavali') || s.includes('diwali') ||
+    s.includes('holi') || s.includes('shivratri') || s.includes('shivaratri') ||
+    s.includes('sankranti') || s.includes('panchami') || s.includes('ugadi') ||
+    s.includes('festival')
+  ) return 'Festival';
   return 'Program';
 }
 
