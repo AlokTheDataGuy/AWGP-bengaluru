@@ -92,7 +92,7 @@ export default async function ActivitiesIndexPage({ params }) {
     <>
       <HeroSection
         eyebrow="AWGP Bengaluru"
-        title={locale === 'hi' ? 'सामुदायिक गतिविधियां' : locale === 'kn' ? 'ಸಾಮುದಾಯಿಕ ಚಟುವಟಿಕೆಗಳು' : 'Community Activities'}
+        title={locale === 'hi' ? 'हमारी गतिविधियां' : locale === 'kn' ? 'ನಮ್ಮ ಚಟುವಟಿಕೆಗಳು' : 'Our Activities'}
         subtitle={locale === 'hi' ? 'सेवा में अध्यात्म को जीएं' : locale === 'kn' ? 'ಸೇವೆಯಲ್ಲಿ ಆಧ್ಯಾತ್ಮ ಜೀವಿಸಿ' : 'Living Spirituality Through Seva'}
         bgImage="/assets/activities/activities_banner.jpg"
         bgImageMobile="/assets/activities/activities_banner_mob.jpg"

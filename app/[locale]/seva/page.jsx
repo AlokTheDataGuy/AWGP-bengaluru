@@ -13,8 +13,8 @@ const SECTION_IMG = {
   'why-it-matters': `${IMG}/why.png`,
 };
 const TYPE_IMG = {
-  samaydaan: `${IMG}/types/samaydaan.jpg`,
-  anshdaan: `${IMG}/types/anshdaan.jpg`,
+  samaydaan: `${IMG}/types/samaydaan.png`,
+  anshdaan: `${IMG}/types/anshdaan.png`,
 };
 
 export async function generateMetadata({ params }) {
@@ -61,7 +61,7 @@ export default async function SevaPillarPage({ params }) {
     eyebrow: L({ en: 'The Highest Service', hi: 'सर्वोच्च सेवा', kn: 'ಅತ್ಯುನ್ನತ ಸೇವೆ' }),
     title: L(data.gyanYagya.heading),
     body: L(data.gyanYagya.body),
-    image: `${IMG}/gyan-yagya.jpg`,
+    image: `${IMG}/gyan-yagya.png`,
   };
 
   const practice = {

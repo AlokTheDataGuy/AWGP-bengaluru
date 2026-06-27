@@ -13,10 +13,10 @@ const SECTION_IMG = {
   'why-it-matters': `${IMG}/why.png`,
 };
 const TYPE_IMG = {
-  'indriya-sanyam': `${IMG}/types/indriya.jpg`,
-  'vichar-sanyam': `${IMG}/types/vichar.jpg`,
-  'samay-sanyam': `${IMG}/types/samay.jpg`,
-  'arth-sanyam': `${IMG}/types/arth.jpg`,
+  'indriya-sanyam': `${IMG}/types/indriya.png`,
+  'vichar-sanyam': `${IMG}/types/vichar.png`,
+  'samay-sanyam': `${IMG}/types/samay.png`,
+  'arth-sanyam': `${IMG}/types/arth.png`,
 };
 
 export async function generateMetadata({ params }) {

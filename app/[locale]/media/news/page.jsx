@@ -1,7 +1,8 @@
 import { Link } from '../../../../lib/i18n/navigation';
 import Image from 'next/image';
-import { Newspaper, CalendarDays, ArrowUpRight } from 'lucide-react';
+import { Newspaper, ArrowUpRight } from 'lucide-react';
 import HeroSection from '../../../../components/ui/HeroSection';
+import HighlightsClient from '../../../../components/ui/HighlightsClient';
 import newsData from '../../../../data/news.json';
 import '../../../../components/ui/Media.css';
 
@@ -29,7 +30,6 @@ export default async function NewsPage({ params }) {
   const L = (en, hi, kn) => (locale === 'hi' ? hi : locale === 'kn' ? kn : en);
   const T = (obj) => (obj && (obj[locale] || obj.en)) || '';
 
-  const highlights = [...newsData.highlights].sort((a, b) => new Date(b.date) - new Date(a.date));
   const press = [...newsData.press].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   const heroTitle    = L('Press and Highlights', 'समाचार एवं झलकियाँ', 'ಸುದ್ದಿ ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು');
@@ -48,34 +48,7 @@ export default async function NewsPage({ params }) {
       />
 
       {/* Recent highlights */}
-      <section className="media-section">
-        <div className="section-inner">
-          <div className="news-grid">
-            {highlights.map((h) => (
-              <article key={h.id} className="news-card">
-                <div className="news-card__media">
-                  <Image
-                    src={h.image}
-                    alt={T(h.title)}
-                    fill
-                    sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, 33vw"
-                    style={{ objectFit: 'cover' }}
-                  />
-                  <span className="news-card__tag">{T(h.tag)}</span>
-                </div>
-                <div className="news-card__body">
-                  <span className="news-card__date">
-                    <CalendarDays size={14} aria-hidden="true" />
-                    {formatDate(h.date, locale)}
-                  </span>
-                  <h3 className="news-card__title">{T(h.title)}</h3>
-                  <p className="news-card__blurb">{T(h.blurb)}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      <HighlightsClient />
 
       {/* In the press */}
       <section className="media-section media-section--press">
