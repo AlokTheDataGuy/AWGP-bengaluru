@@ -10,23 +10,11 @@
      · turbo
 
  ✓ Starting...
- ✓ Compiled middleware in 144ms
- ✓ Ready in 1571ms
- ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 3s
- GET /en 200 in 4614ms
- ✓ Compiled /[locale]/programs in 442ms
- GET /en/programs 200 in 1309ms
- ✓ Compiled /[locale]/programs/[slug] in 339ms
- GET /en/programs/festivals 200 in 1206ms
- GET /en/programs/yagya-events 200 in 369ms
- GET /en/programs/book-fair 200 in 309ms
- GET /en/programs/tree-plantation 200 in 339ms
- GET /hi/programs 200 in 410ms
- GET /kn/programs 200 in 385ms
- ✓ Compiled /_not-found/page in 272ms
- GET /en/events 404 in 439ms
- GET /en/events/festivals 404 in 105ms
- GET /en 200 in 518ms
- GET /en 200 in 587ms
- GET /en 200 in 507ms
+ ✓ Compiled middleware in 172ms
+ ✓ Ready in 1564ms
+ ○ Compiling /[locale]/programs/festivals ...
+ ✓ Compiled /[locale]/programs/festivals in 2.9s
+ GET /en/programs/festivals 200 in 4365ms
+ GET /en/programs/festivals 200 in 383ms
+ ✓ Compiled in 91ms
+ ✓ Compiled in 110ms

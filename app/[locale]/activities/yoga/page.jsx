@@ -1,7 +1,7 @@
 import ActivityArticle from '../../../../components/activities/ActivityArticle';
 import data from '../../../../data-json-files/activities/yoga.json';
 
-const SESSION_IMAGES = ['/assets/programs/yoga_session.jpg', '/assets/programs/yoga_session1.jpg'];
+const SESSION_IMAGES = ['/assets/yoga/womens-yoga.jpg', '/assets/programs/yoga_session1.jpg'];
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;

@@ -1,6 +1,7 @@
 import { Link } from '../../../../lib/i18n/navigation';
 import Image from 'next/image';
 import { Newspaper, CalendarDays, ArrowUpRight } from 'lucide-react';
+import HeroSection from '../../../../components/ui/HeroSection';
 import newsData from '../../../../data/news.json';
 import '../../../../components/ui/Media.css';
 
@@ -31,25 +32,24 @@ export default async function NewsPage({ params }) {
   const highlights = [...newsData.highlights].sort((a, b) => new Date(b.date) - new Date(a.date));
   const press = [...newsData.press].sort((a, b) => new Date(b.date) - new Date(a.date));
 
+  const heroTitle    = L('Press and Highlights', 'समाचार एवं झलकियाँ', 'ಸುದ್ದಿ ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು');
+  const heroSubtitle = L(
+    'A look back at our most recent gatherings, yagyas, and seva drives across Bengaluru.',
+    'बेंगलूरु भर में हमारे हाल के आयोजनों, यज्ञों और सेवा अभियानों की झलकियाँ।',
+    'ಬೆಂಗಳೂರಿನಾದ್ಯಂತ ನಮ್ಮ ಇತ್ತೀಚಿನ ಸಮಾವೇಶ, ಯಜ್ಞ ಮತ್ತು ಸೇವಾ ಅಭಿಯಾನಗಳ ಮೇಲೊಂದು ನೋಟ.',
+  );
+
   return (
     <>
-      {/* Recent highlights */}
-      <section className="media-section media-section--top">
-        <div className="section-inner">
-          <div className="media-intro">
-            <span className="idx-eyebrow">{L('Recent Highlights', 'हाल की झलकियाँ', 'ಇತ್ತೀಚಿನ ಮುಖ್ಯಾಂಶಗಳು')}</span>
-            <h2 className="media-intro__heading">
-              {L('What’s Been Happening', 'हाल ही में क्या हुआ', 'ಇತ್ತೀಚೆಗೆ ಏನು ನಡೆಯಿತು')}
-            </h2>
-            <p className="media-intro__text">
-              {L(
-                'A look back at our most recent gatherings, yagyas and seva drives across Bengaluru.',
-                'बेंगलूरु भर में हमारे हाल के आयोजनों, यज्ञों और सेवा अभियानों पर एक दृष्टि।',
-                'ಬೆಂಗಳೂರಿನಾದ್ಯಂತ ನಮ್ಮ ಇತ್ತೀಚಿನ ಸಮಾವೇಶ, ಯಜ್ಞ ಮತ್ತು ಸೇವಾ ಅಭಿಯಾನಗಳ ಮೇಲೊಂದು ನೋಟ.',
-              )}
-            </p>
-          </div>
+      <HeroSection
+        eyebrow="AWGP Bengaluru"
+        title={heroTitle}
+        subtitle={heroSubtitle}
+      />
 
+      {/* Recent highlights */}
+      <section className="media-section">
+        <div className="section-inner">
           <div className="news-grid">
             {highlights.map((h) => (
               <article key={h.id} className="news-card">
@@ -87,7 +87,7 @@ export default async function NewsPage({ params }) {
             </h2>
             <p className="media-intro__text">
               {L(
-                'Clippings from local and national dailies covering AWGP Bengaluru’s work.',
+                "Clippings from local and national dailies covering AWGP Bengaluru's work.",
                 'AWGP बेंगलूरु के कार्यों को कवर करने वाले स्थानीय एवं राष्ट्रीय समाचार-पत्रों की कतरनें।',
                 'AWGP ಬೆಂಗಳೂರಿನ ಕಾರ್ಯಗಳನ್ನು ವರದಿ ಮಾಡಿದ ಸ್ಥಳೀಯ ಮತ್ತು ರಾಷ್ಟ್ರೀಯ ಪತ್ರಿಕೆಗಳ ತುಣುಕುಗಳು.',
               )}

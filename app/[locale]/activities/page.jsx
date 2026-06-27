@@ -100,8 +100,6 @@ export default async function ActivitiesIndexPage({ params }) {
       />
 
       <section className="idx-intro">
-        <span className="idx-wm idx-wm--l" aria-hidden="true" />
-        <span className="idx-wm idx-wm--r" aria-hidden="true" />
         <div className="section-inner idx-intro__inner">
           <span className="idx-eyebrow">
             {locale === 'hi' ? 'सामुदायिक सेवा' : locale === 'kn' ? 'ಸಾಮುದಾಯಿಕ ಸೇವೆ' : 'Community Service'}

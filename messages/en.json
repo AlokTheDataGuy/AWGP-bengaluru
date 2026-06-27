@@ -22,7 +22,12 @@
   "schedule_evening": "Evening",
   "schedule_sunday": "Sunday",
 
-  "contact_address": "Gayatri Chetna Kendra, Bengaluru",
+  "contact_title": "Contact Us",
+  "contact_subtitle": "Our doors are always open — come visit, volunteer, or simply reach out.",
+  "contact_address": "37, Lakshmi Layout Main Rd, Chikka Begur, Begur, Bengaluru — 560114",
+  "contact_phone": "+91 92437 55613",
+  "contact_email": "awgpbengaluru@gmail.com",
+  "contact_hours": "Open Daily: 5:30 AM – 9:30 PM",
 
   "cta_contact_us": "Contact Us",
   "cta_learn_more": "Learn More",

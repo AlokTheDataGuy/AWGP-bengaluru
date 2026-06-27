@@ -1,6 +1,7 @@
 'use client';
 
 import { Link } from '../../lib/i18n/navigation';
+import HeroSection from '../ui/HeroSection';
 import Reveal from '../ui/Reveal';
 import './PillarPage.css';
 
@@ -112,28 +113,17 @@ export default function PillarPage({
   const L = (obj) => (obj && (obj[locale] ?? obj.en)) || '';
 
   return (
-    <div className="pillar-page" data-pillar={slug}>
+    <>
+      <HeroSection
+        eyebrow={hero.eyebrow}
+        title={hero.title}
+        subtitle={hero.subtitle}
+        bgImage={hero.image}
+        mantra={hero.mantra}
+        imgIcon={hero.icon}
+      />
 
-      {/* ── Hero ─────────────────────────────────────────── */}
-      <header className="pillar-hero">
-        <span
-          className="pillar-hero__bg"
-          style={hero.image ? { backgroundImage: `url('${hero.image}')` } : undefined}
-          aria-hidden="true"
-        />
-        <span className="pillar-hero__veil" aria-hidden="true" />
-        <span className="pillar-hero__mandala" aria-hidden="true" />
-
-        <div className="pillar-hero__inner">
-          {/* <span className="pillar-hero__index" aria-hidden="true">{String(index).padStart(2, '0')}</span> */}
-          <img className="pillar-hero__seal" src={hero.icon} alt="" aria-hidden="true" />
-          <span className="pillar-hero__eyebrow">{hero.eyebrow}</span>
-          <h1 className="pillar-hero__title">{hero.title}</h1>
-          {hero.subtitle && <p className="pillar-hero__subtitle">{hero.subtitle}</p>}
-          <span className="pillar-hero__divider" aria-hidden="true" />
-          {hero.mantra && <blockquote className="pillar-hero__mantra">{hero.mantra}</blockquote>}
-        </div>
-      </header>
+      <div className="pillar-page" data-pillar={slug}>
 
       {/* ── Intro lead ───────────────────────────────────── */}
       {hero.intro && (
@@ -286,6 +276,7 @@ export default function PillarPage({
         </div>
       </Reveal>
 
-    </div>
+      </div>
+    </>
   );
 }

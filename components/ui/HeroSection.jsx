@@ -12,11 +12,13 @@ import './HeroSection.css';
  *   bgColor        – fallback CSS gradient (when no bgImage)
  *   mantra         – Sanskrit quote (optional)
  *   icon           – emoji icon (optional)
+ *   imgIcon        – image src for a small icon/seal above the eyebrow
  *   children       – extra CTA buttons etc.
  */
 export default function HeroSection({
   title,
   icon,
+  imgIcon,
   subtitle,
   eyebrow,
   bgImage,
@@ -61,6 +63,9 @@ export default function HeroSection({
       <div className="page-hero__overlay" />
 
       <div className="page-hero__content">
+        {imgIcon && (
+          <img src={imgIcon} alt="" className="page-hero__img-icon anim-fade-up" aria-hidden="true" />
+        )}
         {eyebrow && (
           <p className="page-hero__eyebrow anim-fade-up">{eyebrow}</p>
         )}

@@ -22,7 +22,12 @@
   "schedule_evening": "ಸಂಜೆ",
   "schedule_sunday": "ಭಾನುವಾರ",
 
-  "contact_address": "ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ, ಬೆಂಗಳೂರು",
+  "contact_title": "ಸಂಪರ್ಕಿಸಿ",
+  "contact_subtitle": "ನಮ್ಮ ಬಾಗಿಲುಗಳು ಸದಾ ತೆರೆದಿವೆ — ಭೇಟಿ ನೀಡಿ, ಸೇವೆ ಮಾಡಿ, ಅಥವಾ ಸಂಪರ್ಕಿಸಿ.",
+  "contact_address": "37, ಲಕ್ಷ್ಮಿ ಲೇಔಟ್ ಮೇನ್ ರಸ್ತೆ, ಚಿಕ್ಕ ಬೇಗೂರು, ಬೇಗೂರು, ಬೆಂಗಳೂರು — 560114",
+  "contact_phone": "+91 92437 55613",
+  "contact_email": "awgpbengaluru@gmail.com",
+  "contact_hours": "ಪ್ರತಿದಿನ: 5:30 AM – 9:30 PM",
 
   "cta_contact_us": "ಸಂಪರ್ಕಿಸಿ",
   "cta_learn_more": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",

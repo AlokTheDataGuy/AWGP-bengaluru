@@ -48,7 +48,6 @@ export default function HomeChetna() {
 
   return (
     <section className="home-chetna section" ref={ref}>
-      <span className="home-chetna__mandala" aria-hidden="true" />
       <span className="home-chetna__glow" aria-hidden="true" />
 
       <div className="section-inner home-chetna__inner">

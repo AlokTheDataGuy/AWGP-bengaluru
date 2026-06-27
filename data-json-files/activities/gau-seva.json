@@ -80,9 +80,9 @@
   ],
   "feeding": {
     "heading": {
-      "en": "Cow feeding & seva timings",
-      "hi": "गौ चारा व सेवा का समय",
-      "kn": "ಗೋ ಆಹಾರ ಮತ್ತು ಸೇವಾ ಸಮಯ"
+      "en": "Timings for Feeding Cows and Gau-Seva",
+      "hi": "गायों को चारा खिलाने और गो-सेवा का समय",
+      "kn": "ಹಸುಗಳು ಮತ್ತು ಗೋ-ಸೇವಾ ಆಹಾರಕ್ಕಾಗಿ ಸಮಯಗಳು"
     },
     "description": {
       "en": "Everyone is welcome to take part in feeding and caring for the cows at our centre. Come with a calm, caring heart — no experience needed. Feeding is open during these hours:",
@@ -93,28 +93,46 @@
       {
         "label": {
           "en": "Morning",
-          "hi": "प्रातः",
-          "kn": "ಬೆಳಿಗ್ಗೆ"
+          "hi": "सुबह",
+          "kn": "ಬೆಳಗ್ಗೆ"
         },
         "time": {
-          "en": "7:00 AM – 10:00 AM",
-          "hi": "सुबह 7:00 – 10:00",
-          "kn": "ಬೆಳಿಗ್ಗೆ 7:00 – 10:00"
+          "en": "6:00 AM – 9:00 AM",
+          "hi": "प्रातः 6:00 – प्रातः 9:00",
+          "kn": "6:00 AM – 9:00 AM"
         }
       },
       {
         "label": {
-          "en": "Afternoon",
-          "hi": "अपराह्न",
-          "kn": "ಮಧ್ಯಾಹ್ನ"
+          "en": "Evening",
+          "hi": "शाम",
+          "kn": "ಸಂಜೆ"
         },
         "time": {
           "en": "3:00 PM – 6:00 PM",
-          "hi": "दोपहर 3:00 – शाम 6:00",
-          "kn": "ಮಧ್ಯಾಹ್ನ 3:00 – ಸಂಜೆ 6:00"
+          "hi": "अपराह्न 3:00 बजे – शाम 6:00 बजे",
+          "kn": "3:00 PM – 6:00 PM"
         }
       }
     ]
+  },
+  "donation": {
+    "heading": {
+      "en": "Support a Cow's Care",
+      "hi": "गौ सेवा में सहयोग करें",
+      "kn": "ಗೋ ಸೇವೆಗೆ ಸಹಾಯ ಮಾಡಿ"
+    },
+    "description": {
+      "en": "Every cow needs feed, shelter, and care round the year. You are welcome to support this seva with a daily, weekly, monthly, or yearly contribution — suggested amounts and contact details are shown below.",
+      "hi": "हर गाय को वर्षभर चारा, आश्रय और देखभाल की आवश्यकता होती है। आप दैनिक, साप्ताहिक, मासिक या वार्षिक सहयोग देकर इस सेवा में भागीदार बन सकते हैं — सुझाई गई राशि व संपर्क विवरण नीचे दिए गए हैं।",
+      "kn": "ಪ್ರತಿ ಗೋವಿಗೆ ವರ್ಷವಿಡೀ ಆಹಾರ, ಆಶ್ರಯ ಮತ್ತು ಆರೈಕೆ ಅಗತ್ಯ. ದೈನಿಕ, ವಾರದ, ಮಾಸಿಕ ಅಥವಾ ವಾರ್ಷಿಕ ಕೊಡುಗೆಯ ಮೂಲಕ ಈ ಸೇವೆಯಲ್ಲಿ ನೀವು ಭಾಗಿಯಾಗಬಹುದು — ಸೂಚಿತ ಮೊತ್ತ ಮತ್ತು ಸಂಪರ್ಕ ವಿವರಗಳನ್ನು ಕೆಳಗೆ ನೀಡಲಾಗಿದೆ."
+    },
+    "image": "/assets/gau-seva/table.png",
+    "imageAlt": {
+      "en": "Gau seva donation rate card — Maa Bhagawati Gaushala, Gayatri Consciousness Center, Bengaluru",
+      "hi": "गौ सेवा दान दर पत्रक — माँ भगवती गौशाला, गायत्री चेतना केंद्र, बेंगलुरु",
+      "kn": "ಗೋ ಸೇವಾ ದೇಣಿಗೆ ದರ ಪಟ್ಟಿ — ಮಾ ಭಗವತಿ ಗೋಶಾಲಾ, ಗಾಯತ್ರಿ ಚೇತನಾ ಕೇಂದ್ರ, ಬೆಂಗಳೂರು"
+    }
   },
   "resources": {
     "heading": {

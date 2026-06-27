@@ -85,10 +85,7 @@ export default function HomeGallery() {
 
   return (
     <section className="home-gallery" ref={ref}>
-      {/* slowly rotating mandala watermark (designs/lotus-mandala.png) */}
-      <div className="home-gallery__mandala" aria-hidden="true" />
-
-      <div className="home-gallery__bar">
+<div className="home-gallery__bar">
         <div className="home-gallery__head">
           <span className="home-gallery__eyebrow">
             {L('Our Community', 'हमारा समुदाय', 'ನಮ್ಮ ಸಮುದಾಯ')}

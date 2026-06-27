@@ -3,14 +3,15 @@ import { Link } from '../../../lib/i18n/navigation';
 import data from '../../../data-json-files/sanskars/sanskars.json';
 import { SANSKAR_IMG, SANSKAR_STAGE } from './sanskarMeta';
 import SanskarsGrid from './SanskarsGrid';
+import SanskarsIntro from './SanskarsIntro';
 import './Sanskars.css';
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const titles = {
-    en: 'Shodash Sanskars — AWGP Bengaluru',
-    hi: 'षोडश संस्कार — AWGP बेंगलूरु',
-    kn: 'ಷೋಡಶ ಸಂಸ್ಕಾರಗಳು — AWGP ಬೆಂಗಳೂರು',
+    en: 'Sanskars — AWGP Bengaluru',
+    hi: 'संस्कार — AWGP बेंगलूरु',
+    kn: 'ಸಂಸ್ಕಾರಗಳು — AWGP ಬೆಂಗಳೂರು',
   };
   return {
     title: titles[locale] || titles.en,
@@ -49,7 +50,7 @@ export default async function SanskarsPage({ params }) {
     <>
       <HeroSection
         eyebrow="AWGP Bengaluru"
-        title={locale === 'hi' ? 'षोडश संस्कार' : locale === 'kn' ? 'ಷೋಡಶ ಸಂಸ್ಕಾರಗಳು' : 'Shodash Sanskars'}
+        title={locale === 'hi' ? 'संस्कार' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳು' : 'Sanskars'}
         subtitle={
           locale === 'hi'
             ? 'जीवन के हर पवित्र पड़ाव को अर्थ और संस्कार से सँवारें'
@@ -64,19 +65,13 @@ export default async function SanskarsPage({ params }) {
 
       {/* ── Intro ─────────────────────────────────────────── */}
       <section className="skr-intro">
-        <span className="skr-intro__mandala skr-intro__mandala--l" aria-hidden="true" />
-        <span className="skr-intro__mandala skr-intro__mandala--r" aria-hidden="true" />
         <div className="skr-intro__inner">
           <span className="skr-intro__eyebrow">
             {locale === 'hi' ? 'सोलह वैदिक संस्कार' : locale === 'kn' ? 'ಹದಿನಾರು ವೈದಿಕ ಸಂಸ್ಕಾರಗಳು' : 'The Sixteen Vedic Sacraments'}
           </span>
           <h2 className="skr-intro__title">{L(data.hero.title)}</h2>
           <span className="skr-intro__divider" aria-hidden="true" />
-          <div className="skr-intro__body">
-            {introParas.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
+          <SanskarsIntro paras={introParas} locale={locale} />
         </div>
       </section>
 

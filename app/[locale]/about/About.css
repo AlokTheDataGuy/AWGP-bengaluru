@@ -2,14 +2,90 @@
    ABOUT US — page styles
    ════════════════════════════════════════ */
 
-/* taller hero so the background photo isn't cropped at the faces */
-.page-hero--about {
-  min-height: 78vh;
+/* ════════════════════════════════════════
+   ABOUT HERO  (Sanskar-style gradient banner)
+   ════════════════════════════════════════ */
+.about-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: calc(var(--nav-h) + clamp(28px, 6vw, 60px))
+           var(--page-gutter)
+           clamp(44px, 7vw, 80px);
+  background: linear-gradient(135deg, var(--maroon) 0%, #5A1A0E 52%, #3D1F0A 100%);
+  color: #fff;
 }
-@media (max-width: 640px) {
-  .page-hero--about {
-    min-height: 62vh;
+/* gold radial bloom — top right */
+.about-hero__glow {
+  position: absolute;
+  top: -28%;
+  right: -8%;
+  width: 58%;
+  aspect-ratio: 1;
+  background: radial-gradient(circle, rgba(249, 199, 79, 0.18) 0%, transparent 60%);
+  z-index: -1;
+  pointer-events: none;
+}
+/* lotus mandala watermark — bottom right */
+.about-hero__mandala {
+  position: absolute;
+  right: -6%;
+  bottom: -34%;
+  width: min(460px, 58vw);
+  aspect-ratio: 1;
+  background: url('/assets/designs/lotus-mandala.png') center / contain no-repeat;
+  opacity: 0.10;
+  z-index: -1;
+  pointer-events: none;
+}
+.about-hero__inner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.about-hero__eyebrow {
+  display: block;
+  font-family: var(--font-body);
+  font-size: clamp(0.64rem, 1.2vw, 0.76rem);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-lt);
+  margin-bottom: 1rem;
+}
+.about-hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 7vw, 4.2rem);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.08;
+  max-width: 18ch;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+.about-hero__rule {
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin: clamp(0.9rem, 2vw, 1.3rem) 0;
+  background: linear-gradient(90deg, var(--gold), var(--saffron));
+}
+.about-hero__subtitle {
+  max-width: 58ch;
+  font-size: clamp(0.98rem, 1.5vw, 1.15rem);
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.7;
+  margin-bottom: clamp(1.6rem, 3vw, 2.4rem);
+}
+.about-hero__ctas {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+  .about-hero__ctas {
+    flex-direction: column;
+    align-items: flex-start;
   }
+  .about-hero__ctas .btn { width: 100%; max-width: 280px; justify-content: center; }
 }
 
 /* ── All World Gayatri Pariwar ── */

@@ -65,7 +65,6 @@ export default async function SanskarDetailPage({ params }) {
     <>
       <header className="skd-hero">
         <span className="skd-hero__glow" aria-hidden="true" />
-        <span className="skd-hero__mandala" aria-hidden="true" />
         <div className="skd-hero__inner">
           <span className="skd-hero__eyebrow">AWGP Bengaluru · {view.stage}</span>
           <h1 className="skd-hero__title">{view.name}</h1>

@@ -13,6 +13,7 @@
 .aa-page .aa-band,
 .aa-page .aa-feeding,
 .aa-page .aa-sessions,
+.aa-page .aa-donation,
 .aa-page .aa-resources,
 .aa-page .aa-cta {
   opacity: 0;
@@ -251,6 +252,20 @@
 .aa-session-card__desc { font-size: 0.92rem; line-height: 1.7; color: var(--text-mid); }
 
 /* =========================================================
+   DONATION CARD
+   ========================================================= */
+.aa-donation { padding-top: clamp(2.6rem, 5vw, 4rem); padding-bottom: clamp(2.6rem, 5vw, 4rem); }
+.aa-donation__card {
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  padding: 0.5rem;
+}
+.aa-donation__img { display: block; width: 100%; height: auto; }
+
+/* =========================================================
    RESOURCES
    ========================================================= */
 .aa-resources { padding-top: clamp(2.6rem, 5vw, 4rem); padding-bottom: clamp(2.6rem, 5vw, 4rem); }
@@ -338,7 +353,7 @@
   .aa-hero__bg, .aa-hero__mandala { animation: none; }
   .aa-hero__eyebrow, .aa-hero__title, .aa-hero__tagline, .aa-hero__divider { animation: none; opacity: 1; transform: none; }
   .aa-page .aa-intro, .aa-page .aa-split-section, .aa-page .aa-band,
-  .aa-page .aa-feeding, .aa-page .aa-sessions, .aa-page .aa-resources, .aa-page .aa-cta {
+  .aa-page .aa-feeding, .aa-page .aa-sessions, .aa-page .aa-donation, .aa-page .aa-resources, .aa-page .aa-cta {
     opacity: 1 !important; transform: none !important; transition: none;
   }
   .is-visible .aa-session-card { animation: none; }

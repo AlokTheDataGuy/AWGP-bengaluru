@@ -1,237 +1,413 @@
 /* =========================================================
-   Home — Upcoming Programs
-   Full-bleed band: a saffron title panel + image-led program
-   cards whose caption fills with colour on hover.
+   Home — Upcoming Programs  (editorial layout)
    ========================================================= */
 
 .home-programs {
-  background: var(--cream);
+  padding: clamp(4rem, 7vw, 6rem) var(--page-gutter);
+  background: linear-gradient(160deg, var(--cream) 0%, var(--cream-2) 60%, #fdf3d8 100%);
+  position: relative;
+  overflow: hidden;
 }
 
-/* Edge-to-edge band: title panel + 3 cards */
-.home-programs__band {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+/* Faint decorative arc at top-right */
+.home-programs::after {
+  content: '';
+  position: absolute;
+  top: -160px;
+  right: -160px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  opacity: 0.18;
+  pointer-events: none;
 }
 
-/* ── Title panel ────────────────────────────────────────── */
-
-.home-programs__intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem clamp(1.5rem, 3vw, 3rem);
-  background: linear-gradient(135deg, var(--saffron) 0%, var(--saffron-deep) 100%);
-  color: #fff;
-  animation: fadeInUp 0.7s ease both;
+/* ── Section header ─────────────────────────────────────── */
+.home-programs__hd {
+  text-align: center;
+  margin-bottom: clamp(2.4rem, 4.5vw, 3.5rem);
 }
 .home-programs__eyebrow {
-  font-family: var(--font-heading);
-  font-size: clamp(0.72rem, 1vw, 0.85rem);
-  font-weight: 700;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.82);
-  margin-bottom: 0.6rem;
-}
-.home-programs__heading {
-  font-family: var(--font-heading);
-  font-size: clamp(2rem, 3.4vw, 3rem);
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #fff;
-  line-height: 1;
-}
-
-/* ── Program card ───────────────────────────────────────── */
-
-.prog-card {
-  position: relative;
   display: block;
-  min-height: clamp(240px, 23vw, 300px);
-  overflow: hidden;
-  background: var(--dark);
-  text-decoration: none;
-  animation: fadeInUp 0.7s ease both;
-  animation-delay: calc(var(--i, 0) * 0.12s);
+  font-family: var(--font-heading);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 0.55rem;
+}
+.home-programs__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.6vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  line-height: 1.1;
+  margin-bottom: 0;
 }
 
-/* Stretched whole-card link (sits above the image, below the overlay) */
-.prog-card__link {
+/* ── Editorial layout: featured (left) + stacked (right) ── */
+.home-programs__layout {
+  display: grid;
+  grid-template-columns: 58fr 42fr;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: clamp(2.4rem, 4vw, 3.2rem);
+  align-items: stretch;
+}
+
+/* ── Base card ───────────────────────────────────────────── */
+.prog-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 28px rgba(58, 50, 43, 0.07);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeInUp 0.65s ease both;
+  animation-delay: calc(var(--i, 0) * 0.15s);
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease;
+}
+.prog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 56px rgba(122, 35, 21, 0.14);
+}
+
+/* ── Featured card ───────────────────────────────────────── */
+.prog-card--featured {
+  height: 100%;
+}
+
+.prog-card--featured .prog-card__img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--maroon-dk);
+}
+.prog-card--featured .prog-card__img img {
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.prog-card--featured:hover .prog-card__img img {
+  transform: scale(1.06);
+}
+
+/* ── Secondary cards container ───────────────────────────── */
+.home-programs__secondary {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+/* ── Secondary card: horizontal layout ───────────────────── */
+.prog-card--secondary {
+  flex: 1;
+  flex-direction: row;
+  min-height: 0;
+}
+
+/* Thumbnail — left strip of horizontal card */
+.prog-card__thumb {
+  position: relative;
+  width: clamp(130px, 15vw, 170px);
+  flex-shrink: 0;
+  overflow: hidden;
+  background: var(--maroon-dk);
+}
+.prog-card__thumb img {
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.prog-card--secondary:hover .prog-card__thumb img {
+  transform: scale(1.09);
+}
+
+/* ── Image fade overlay (featured only) ──────────────────── */
+.prog-card__img-fade {
+  position: absolute;
+  inset: 38% 0 0 0;
+  background: linear-gradient(to top, rgba(28, 8, 4, 0.68), transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ── Category tag ─────────────────────────────────────────── */
+.prog-card__tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 12px;
+  background: var(--maroon);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   z-index: 2;
 }
-
-.prog-card__media {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-.prog-card__media img {
-  transition: transform 0.7s cubic-bezier(0.2, 0, 0.2, 1);
-}
-.prog-card:hover .prog-card__media img,
-.prog-card:focus-within .prog-card__media img {
-  transform: scale(1.07);
+.prog-card__tag--thumb {
+  top: 8px;
+  right: 8px;
+  font-size: 0.52rem;
+  padding: 3px 8px;
 }
 
-/* Default caption — translucent white panel pinned to the bottom */
-.prog-card__cap {
+/* ── Date badge ──────────────────────────────────────────── */
+.prog-card__badge {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  padding: 1.15rem clamp(1.1rem, 1.6vw, 1.5rem) 1.3rem;
-  background: rgba(255, 255, 255, 0.92);
-  border-top: 3px solid var(--gold);
-  pointer-events: none;
-  transition: opacity 0.35s ease;
+  bottom: 16px;
+  left: 16px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 56px;
+  padding: 8px 12px 7px;
+  background: var(--saffron);
+  box-shadow: 0 4px 20px rgba(212, 80, 0, 0.4);
 }
-.prog-card__date {
-  display: block;
+.prog-card__badge--sm {
+  bottom: 10px;
+  left: 10px;
+  min-width: 40px;
+  padding: 5px 8px 4px;
+}
+.prog-card__badge-day {
   font-family: var(--font-heading);
-  font-size: 0.72rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+.prog-card__badge--sm .prog-card__badge-day {
+  font-size: 1.1rem;
+}
+.prog-card__badge-mon {
+  font-family: var(--font-heading);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 3px;
+}
+.prog-card__badge--sm .prog-card__badge-mon {
+  font-size: 0.48rem;
+  margin-top: 2px;
+}
+
+/* ── Card body ───────────────────────────────────────────── */
+.prog-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: clamp(1.1rem, 1.8vw, 1.5rem);
+  min-width: 0; /* prevent overflow in flex context */
+}
+.prog-card__name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--maroon);
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+.prog-card--featured .prog-card__name {
+  font-size: clamp(1.2rem, 1.9vw, 1.55rem);
+  margin-bottom: 0.65rem;
+}
+.prog-card--secondary .prog-card__name {
+  font-size: clamp(0.92rem, 1.25vw, 1.05rem);
+  margin-bottom: 0.4rem;
+  /* clamp to 2 lines so cards remain balanced */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.prog-card__loc {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--saffron-deep);
+  margin-bottom: 0.55rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.prog-card__loc svg { flex-shrink: 0; }
+.prog-card__desc {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+  margin-bottom: 0.8rem;
+}
+.prog-card--featured .prog-card__desc {
+  font-size: 0.9rem;
+}
+
+/* thin gold rule */
+.prog-card__rule {
+  height: 1px;
+  background: linear-gradient(to right, var(--gold), transparent);
+  margin-bottom: 0.85rem;
+  flex-shrink: 0;
+}
+
+/* ── Card footer ─────────────────────────────────────────── */
+.prog-card__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+.prog-card__cal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-heading);
+  font-size: 0.67rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 0.35rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
 }
-.prog-card__title {
-  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
-  font-weight: 600;
-  color: var(--text-dark);
-  line-height: 1.25;
-}
-/* Fade the plain caption out as the overlay rises */
-.prog-card:hover .prog-card__cap,
-.prog-card:focus-within .prog-card__cap {
-  opacity: 0;
-}
+.prog-card__cal:hover { color: var(--saffron); }
+.prog-card__cal svg  { flex-shrink: 0; }
 
-/* ── Hover overlay — slides up from the bottom ──────────── */
-
-.prog-card__overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: clamp(1.25rem, 2vw, 1.75rem);
-  background: linear-gradient(
-    to top,
-    rgba(58, 19, 11, 0.95) 0%,
-    rgba(90, 26, 14, 0.9) 100%
-  );
-  color: #fff;
-  transform: translateY(100%);
-  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
-  /* let clicks fall through to the stretched link, except on the button */
-  pointer-events: none;
-}
-.prog-card:hover .prog-card__overlay,
-.prog-card:focus-within .prog-card__overlay {
-  transform: translateY(0);
-}
-
-.prog-card__ov-date {
+.prog-card__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-family: var(--font-heading);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--gold-lt);
-  margin-bottom: 0.5rem;
+  color: var(--saffron);
+  text-decoration: none;
+  transition: color 0.22s, gap 0.22s;
+  white-space: nowrap;
 }
-.prog-card__ov-title {
-  font-size: clamp(1.15rem, 1.6vw, 1.4rem);
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.25;
-  margin-bottom: 0.6rem;
+.prog-card__more:hover {
+  color: var(--maroon);
+  gap: 9px;
 }
-.prog-card__ov-desc {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.6;
-}
-.prog-card__ov-loc {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 0.6rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--gold-lt);
-}
-.prog-card__ov-loc svg { flex-shrink: 0; }
-
-/* Add to Calendar button — pinned to the bottom of the overlay */
-.prog-card__cal {
-  margin-top: auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 18px;
-  border-radius: var(--radius-sm);
-  background: var(--saffron);
-  color: #fff;
-  font-family: var(--font-heading);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  pointer-events: auto;
-  transition: background 0.25s ease, transform 0.25s ease;
-}
-.prog-card__cal:hover {
-  background: var(--saffron-deep);
-  color: #fff;
-  transform: translateY(-2px);
-}
-.prog-card__cal svg { flex-shrink: 0; }
+.prog-card__more svg { flex-shrink: 0; }
 
 /* ── Footer CTA ─────────────────────────────────────────── */
-
 .home-programs__footer {
   text-align: center;
-  padding: clamp(2rem, 4vw, 3rem) clamp(20px, 5vw, 60px);
 }
+.home-programs__view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  text-decoration: none;
+  border: 1.5px solid var(--border);
+  padding: 14px 36px;
+  background: transparent;
+  transition: border-color 0.28s, color 0.28s, background 0.28s, gap 0.28s;
+}
+.home-programs__view-all:hover {
+  border-color: var(--gold);
+  color: var(--saffron-deep);
+  background: var(--gold-pale);
+  gap: 16px;
+}
+.home-programs__view-all svg { flex-shrink: 0; }
 
 /* ── Reduced motion ─────────────────────────────────────── */
-
 @media (prefers-reduced-motion: reduce) {
-  .home-programs__intro,
-  .prog-card { animation: none; }
+  .prog-card {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* ── Responsive ─────────────────────────────────────────── */
 
-@media (max-width: 900px) {
-  .home-programs__band {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .home-programs__intro {
-    grid-column: 1 / -1;
-    align-items: center;
-    text-align: center;
-    padding: clamp(1.75rem, 5vw, 2.5rem);
-  }
-  .home-programs__intro .ornament {
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-  }
-  .prog-card { min-height: clamp(260px, 44vw, 320px); }
-}
-
-@media (max-width: 560px) {
-  .home-programs__band {
+/* Tablet: featured full-width, secondary cards side-by-side */
+@media (max-width: 960px) {
+  .home-programs__layout {
     grid-template-columns: 1fr;
   }
-  .prog-card { min-height: 280px; }
+  .home-programs__secondary {
+    display: contents; /* secondary cards become direct grid children */
+  }
+  .prog-card--featured {
+    /* occupies first grid row automatically */
+  }
+  /* secondary cards: revert to equal vertical cards */
+  .prog-card--secondary {
+    flex-direction: column;
+  }
+  .prog-card__thumb {
+    width: 100%;
+    height: 220px;
+    position: relative;
+  }
+  .prog-card__thumb img {
+    position: absolute;
+  }
+  /* 2-col grid for featured + 2 secondary at tablet */
+  .home-programs__layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .prog-card--featured {
+    grid-column: 1 / -1;
+  }
+  .prog-card--featured .prog-card__img {
+    aspect-ratio: 16 / 7;
+  }
+}
+
+/* Mobile: single column, all vertical */
+@media (max-width: 580px) {
+  .home-programs__layout {
+    grid-template-columns: 1fr;
+  }
+  .prog-card--featured {
+    grid-column: auto;
+  }
+  .prog-card--featured .prog-card__img {
+    aspect-ratio: 4 / 3;
+  }
+  .prog-card__thumb {
+    height: 190px;
+  }
+  .home-programs__view-all {
+    padding: 13px 28px;
+    letter-spacing: 0.15em;
+  }
 }

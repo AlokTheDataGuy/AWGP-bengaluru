@@ -4,21 +4,27 @@ import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import { useLocale } from 'next-intl';
 import { Link } from '../../lib/i18n/navigation';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 import './Hero.css';
+
+const SCROLL_LABEL = {
+  en: 'Scroll Down',
+  hi: 'नीचे स्क्रॉल करें',
+  kn: 'ಕೆಳಗೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ',
+};
 
 const SLIDES = [
   {
     id: 'home',
     image: '/assets/homepage/hero/hero.png',
-    imageMobile: '/assets/homepage/hero/about_us_bg.jpg',
+    imageMobile: '/assets/homepage/hero/gayatri-mata1.jpg',
     en: {
       eyebrow: 'All World Gayatri Pariwar',
       title: 'Welcome to Gayatri Pariwar Bengaluru',
       // sub: 'Scientific spirituality, community, and selfless service — rooted in Gayatri Sadhana.',
       // subMobile: 'Scientific spirituality, community, and selfless service.',
       cta: 'Explore', ctaHref: '/homepath',
-      cta2: 'Who We Are',   cta2Href: '/about',
+      cta2: 'Who We Are', cta2Href: '/about',
     },
     hi: {
       eyebrow: 'अखिल विश्व गायत्री परिवार',
@@ -34,7 +40,7 @@ const SLIDES = [
       sub: 'ವೈಜ್ಞಾನಿಕ ಅಧ್ಯಾತ್ಮ, ಸಮುದಾಯ ಮತ್ತು ನಿಸ್ವಾರ್ಥ ಸೇವೆ — ಗಾಯತ್ರಿ ಸಾಧನೆಯ ಮೂಲಕ.',
       subMobile: 'ವೈಜ್ಞಾನಿಕ ಅಧ್ಯಾತ್ಮ, ಸಮುದಾಯ ಮತ್ತು ನಿಸ್ವಾರ್ಥ ಸೇವೆ.',
       cta: 'ಕಾರ್ಯಕ್ರಮಗಳು', ctaHref: '/programs',
-      cta2: 'ನಮ್ಮ ಬಗ್ಗೆ',    cta2Href: '/about',
+      cta2: 'ನಮ್ಮ ಬಗ್ಗೆ', cta2Href: '/about',
     },
   },
   {
@@ -43,7 +49,7 @@ const SLIDES = [
     imageMobile: '/assets/homepage/hero/mashal_mob.png',
     en: {
       eyebrow: 'Our Story',
-      title: 'Meet the Gayatri Parivar',
+      title: 'Meet the Gayatri Pariwar',
       sub: 'The awakening of divinity in humanity and the descent of heaven on earth.',
       subMobile: 'Divinity in humanity, heaven on earth.',
       cta: 'Learn About Us', ctaHref: '/about',
@@ -66,6 +72,7 @@ const SLIDES = [
   {
     id: 'sanskars',
     image: '/assets/homepage/hero/sanskars-hero.jpg',
+    imageMobile: '/assets/homepage/hero/sanskars-hero.jpg',
     en: {
       eyebrow: 'Sanskars',
       title: 'The Sacred Sanskars',
@@ -91,11 +98,12 @@ const SLIDES = [
   {
     id: 'activities',
     image: '/assets/homepage/hero/activities-hero.png',
+    imageMobile: '/assets/homepage/hero/activities-hero.png',
     en: {
       eyebrow: 'Activities',
-      title: 'Seva & Community Activities',
-      sub: 'Engage in meaningful community activities that blend spiritual practice with heartfelt social service and seva.',
-      subMobile: 'Meaningful community service and seva.',
+      title: 'Seva & Activities',
+      sub: 'Engage in meaningful activities like yoga, meditation, sadhana that blend spiritual practice with heartfelt social service and seva.',
+      subMobile: 'Meaningful activities of service and seva.',
       cta: 'Explore Our Activities', ctaHref: '/activities',
     },
     hi: {
@@ -116,6 +124,7 @@ const SLIDES = [
   {
     id: 'programs',
     image: '/assets/homepage/hero/programs-hero.png',
+    imageMobile: '/assets/homepage/hero/programs-hero.png',
     en: {
       eyebrow: 'Programs',
       title: 'Festivals, Yagya & Shivirs',
@@ -165,7 +174,8 @@ const SLIDES = [
   },
   {
     id: 'gau-seva',
-    image: '/assets/homepage/hero/gau-seva-hero-mob.png',
+    image: '/assets/homepage/hero/gau-seva-hero.png',
+    imageMobile: '/assets/homepage/hero/gau.jpg',
     en: {
       eyebrow: 'Gau-Seva',
       title: 'Honour the Sacred Cow',
@@ -191,7 +201,7 @@ const SLIDES = [
   {
     id: 'contact',
     image: '/assets/homepage/hero/hero1.png',
-    imageMobile: '/assets/mobile_imgs/contact.png',
+    imageMobile: '/assets/homepage/hero/hero3.jpg',
     en: {
       eyebrow: 'Reach Out to Us',
       title: "We'd Love to Hear from You",
@@ -335,7 +345,7 @@ export default function Hero() {
         <ChevronRight size={24} strokeWidth={2.2} />
       </button>
 
-      {/* Dot navigation */}
+      {/* Dot navigation — desktop / tablet */}
       <div className="hero__dots" role="tablist" aria-label="Slide navigation">
         {SLIDES.map((slide, i) => (
           <button
@@ -347,6 +357,12 @@ export default function Hero() {
             aria-selected={i === current}
           />
         ))}
+      </div>
+
+      {/* Scroll cue — mobile only, replaces the dots */}
+      <div className="hero__scroll-cue" aria-hidden="true">
+        <span className="hero__scroll-cue-text">{SCROLL_LABEL[locale] || SCROLL_LABEL.en}</span>
+        <ChevronDown className="hero__scroll-cue-arrow" size={18} strokeWidth={2.2} />
       </div>
 
       {/* Auto-advance progress — slim line on the bottom edge */}

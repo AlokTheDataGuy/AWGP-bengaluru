@@ -15,10 +15,7 @@ export default function HomeContact() {
 
   return (
     <section className="home-contact section">
-      {/* slowly rotating lotus-mandala watermark (designs folder) */}
-      <span className="home-contact__mandala" aria-hidden="true" />
-
-      <div className="section-inner">
+<div className="section-inner">
 
         <div className="home-contact__head">
           <span className="home-contact__eyebrow">

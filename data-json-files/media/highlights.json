@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "highlights",
+    "slug": "highlights",
+    "languages": ["en", "hi", "kn"],
+    "seoDescription": {
+      "en": "Recent highlights from AWGP Bengaluru — a look back at our latest yagyas, sadhana, festivals, yoga drives, and seva activities across the city.",
+      "hi": "एडब्ल्यूजीपी बेंगलुरु की हाल की झलकियाँ — हमारे नवीनतम यज्ञ, साधना, उत्सव, योग एवं सेवा कार्यक्रमों की एक झलक।",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನ ಇತ್ತೀಚಿನ ಮುಖ್ಯಾಂಶಗಳು — ನಮ್ಮ ಇತ್ತೀಚಿನ ಯಜ್ಞ, ಸಾಧನೆ, ಉತ್ಸವ, ಯೋಗ ಮತ್ತು ಸೇವಾ ಚಟುವಟಿಕೆಗಳ ಒಂದು ನೋಟ."
+    }
+  },
+  "section": {
+    "eyebrow": {
+      "en": "RECENT HIGHLIGHTS",
+      "hi": "हाल की झलकियाँ",
+      "kn": "ಇತ್ತೀಚಿನ ಮುಖ್ಯಾಂಶಗಳು"
+    },
+    "title": {
+      "en": "What’s Been Happening",
+      "hi": "हाल की गतिविधियाँ",
+      "kn": "ಇತ್ತೀಚೆಗೆ ಏನು ನಡೆಯುತ್ತಿದೆ"
+    },
+    "subtitle": {
+      "en": "A look back at our most recent gatherings, yagyas and seva drives across Bengaluru.",
+      "hi": "बेंगलुरु भर में हुए हमारे हाल के आयोजनों, यज्ञों एवं सेवा कार्यों की एक झलक।",
+      "kn": "ಬೆಂಗಳೂರಿನಾದ್ಯಂತ ನಡೆದ ನಮ್ಮ ಇತ್ತೀಚಿನ ಸಮಾವೇಶಗಳು, ಯಜ್ಞಗಳು ಮತ್ತು ಸೇವಾ ಕಾರ್ಯಗಳ ಒಂದು ನೋಟ."
+    }
+  },
+  "categories": {
+    "yagya": { "label": { "en": "Yagya", "hi": "यज्ञ", "kn": "ಯಜ್ಞ" } },
+    "utsav": { "label": { "en": "Utsav", "hi": "उत्सव", "kn": "ಉತ್ಸವ" } },
+    "sadhana": { "label": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" } },
+    "yoga": { "label": { "en": "Yoga", "hi": "योग", "kn": "ಯೋಗ" } },
+    "seva": { "label": { "en": "Seva", "hi": "सेवा", "kn": "ಸೇವೆ" } },
+    "shivir": { "label": { "en": "Shivir", "hi": "शिविर", "kn": "ಶಿಬಿರ" } }
+  },
+  "highlights": [
+    {
+      "id": "gayatri-jayanti-2026",
+      "category": "utsav",
+      "date": "2026-06-24",
+      "dateDisplay": { "en": "24 Jun 2026", "hi": "24 जून 2026", "kn": "24 ಜೂನ್ 2026" },
+      "title": {
+        "en": "Gayatri Jayanti & Ganga Dussehra Celebrated",
+        "hi": "गायत्री जयंती एवं गंगा दशहरा महापर्व",
+        "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿ ಮತ್ತು ಗಂಗಾ ದಸರಾ ಆಚರಣೆ"
+      },
+      "description": {
+        "en": "On the sacred occasion of Gayatri Jayanti, the Kendra held Mala Shodhan Sanskar for 13 new members, Akhand Gayatri Jap, and a Deep Yagya — with over 70 sadhaks sharing in the collective energy.",
+        "hi": "गायत्री जयंती के पावन अवसर पर केंद्र में 13 नवपरिजनों का माला शोधन संस्कार, अखंड गायत्री जप एवं दीप यज्ञ सम्पन्न हुआ, जिसमें 70 से अधिक साधकों ने सामूहिक ऊर्जा का अनुभव किया।",
+        "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿಯ ಪವಿತ್ರ ಸಂದರ್ಭದಲ್ಲಿ ಕೇಂದ್ರದಲ್ಲಿ 13 ನವಪರಿಜನರ ಮಾಲಾ ಶೋಧನ ಸಂಸ್ಕಾರ, ಅಖಂಡ ಗಾಯತ್ರಿ ಜಪ ಮತ್ತು ದೀಪ ಯಜ್ಞ ನೆರವೇರಿತು; 70ಕ್ಕೂ ಹೆಚ್ಚು ಸಾಧಕರು ಸಾಮೂಹಿಕ ಶಕ್ತಿಯ ಅನುಭವ ಪಡೆದರು."
+      },
+      "stat": { "en": "70+ sadhaks", "hi": "70+ साधक", "kn": "70+ ಸಾಧಕರು" },
+      "image": "",
+      "imageAlt": {
+        "en": "Sadhaks performing Deep Yagya on Gayatri Jayanti",
+        "hi": "गायत्री जयंती पर दीप यज्ञ करते साधक",
+        "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿಯಂದು ದೀಪ ಯಜ್ಞ ಮಾಡುತ್ತಿರುವ ಸಾಧಕರು"
+      }
+    },
+    {
+      "id": "international-yoga-day-2026",
+      "category": "yoga",
+      "date": "2026-06-21",
+      "dateDisplay": { "en": "21 Jun 2026", "hi": "21 जून 2026", "kn": "21 ಜೂನ್ 2026" },
+      "title": {
+        "en": "International Yoga Day Across Five Schools",
+        "hi": "अंतर्राष्ट्रीय योग दिवस — पाँच विद्यालयों में",
+        "kn": "ಅಂತಾರಾಷ್ಟ್ರೀಯ ಯೋಗ ದಿನ — ಐದು ಶಾಲೆಗಳಲ್ಲಿ"
+      },
+      "description": {
+        "en": "AWGP Bengaluru’s youth wing led International Yoga Day sessions across five schools and the Mico Layout ground, joined by hundreds of students — with a parallel session held at the Chetna Kendra.",
+        "hi": "एडब्ल्यूजीपी बेंगलुरु की युवा इकाई ने पाँच विद्यालयों एवं माइको लेआउट मैदान में अंतर्राष्ट्रीय योग दिवस सत्र आयोजित किए, जिनमें सैकड़ों विद्यार्थियों ने भाग लिया — साथ ही चेतना केंद्र में भी सत्र हुआ।",
+        "kn": "AWGP ಬೆಂಗಳೂರಿನ ಯುವ ಘಟಕ ಐದು ಶಾಲೆಗಳು ಮತ್ತು ಮೈಕೋ ಲೇಔಟ್ ಮೈದಾನದಲ್ಲಿ ಅಂತಾರಾಷ್ಟ್ರೀಯ ಯೋಗ ದಿನದ ಅಧಿವೇಶನಗಳನ್ನು ನಡೆಸಿತು, ನೂರಾರು ವಿದ್ಯಾರ್ಥಿಗಳು ಭಾಗವಹಿಸಿದರು — ಚೇತನ ಕೇಂದ್ರದಲ್ಲೂ ಸಮಾನಾಂತರ ಅಧಿವೇಶನ ನಡೆಯಿತು."
+      },
+      "stat": { "en": "200–300 students per school", "hi": "प्रति विद्यालय 200–300 विद्यार्थी", "kn": "ಪ್ರತಿ ಶಾಲೆಗೆ 200–300 ವಿದ್ಯಾರ್ಥಿಗಳು" },
+      "image": "",
+      "imageAlt": {
+        "en": "Students practising yoga on International Yoga Day",
+        "hi": "अंतर्राष्ट्रीय योग दिवस पर योग करते विद्यार्थी",
+        "kn": "ಅಂತಾರಾಷ್ಟ್ರೀಯ ಯೋಗ ದಿನದಂದು ಯೋಗ ಮಾಡುತ್ತಿರುವ ವಿದ್ಯಾರ್ಥಿಗಳು"
+      }
+    },
+    {
+      "id": "11-kund-gayatri-mahayagya-2026",
+      "category": "yagya",
+      "date": "2026-06-14",
+      "dateDisplay": { "en": "14 Jun 2026", "hi": "14 जून 2026", "kn": "14 ಜೂನ್ 2026" },
+      "title": {
+        "en": "11-Kund Gayatri Mahayagya at Chennenahalli",
+        "hi": "चेन्नेना हल्ली में 11 कुण्डीय गायत्री महायज्ञ",
+        "kn": "ಚೆನ್ನೇನಹಳ್ಳಿಯಲ್ಲಿ 11 ಕುಂಡೀಯ ಗಾಯತ್ರಿ ಮಹಾಯಜ್ಞ"
+      },
+      "description": {
+        "en": "Over 200 devotees offered ahuti at an 11-kund Gayatri Mahayagya at the Medha Dakshinamurthy temple, where children also received the Vidyarambh Sanskar. Prof. Ramachandra G. Bhat graced the event as chief guest.",
+        "hi": "मेधा दक्षिणामूर्ति मंदिर में आयोजित 11 कुण्डीय गायत्री महायज्ञ में 200 से अधिक श्रद्धालुओं ने आहुति प्रदान की, तथा बच्चों का विद्यारंभ संस्कार भी सम्पन्न हुआ। मुख्य अतिथि के रूप में प्रो. रामचंद्र जी. भट उपस्थित रहे।",
+        "kn": "ಮೇಧಾ ದಕ್ಷಿಣಾಮೂರ್ತಿ ದೇವಸ್ಥಾನದಲ್ಲಿ ನಡೆದ 11 ಕುಂಡೀಯ ಗಾಯತ್ರಿ ಮಹಾಯಜ್ಞದಲ್ಲಿ 200ಕ್ಕೂ ಹೆಚ್ಚು ಭಕ್ತರು ಆಹುತಿ ಅರ್ಪಿಸಿದರು, ಮಕ್ಕಳಿಗೆ ವಿದ್ಯಾರಂಭ ಸಂಸ್ಕಾರವೂ ನೆರವೇರಿತು. ಮುಖ್ಯ ಅತಿಥಿಯಾಗಿ ಪ್ರೊ. ರಾಮಚಂದ್ರ ಜಿ. ಭಟ್ ಉಪಸ್ಥಿತರಿದ್ದರು."
+      },
+      "location": {
+        "en": "Medha Dakshinamurthy Temple, Chennenahalli (Magadi Road)",
+        "hi": "मेधा दक्षिणामूर्ति मंदिर, चेन्नेना हल्ली (मागड़ी रोड)",
+        "kn": "ಮೇಧಾ ದಕ್ಷಿಣಾಮೂರ್ತಿ ದೇವಸ್ಥಾನ, ಚೆನ್ನೇನಹಳ್ಳಿ (ಮಾಗಡಿ ರಸ್ತೆ)"
+      },
+      "stat": { "en": "200+ devotees", "hi": "200+ श्रद्धालु", "kn": "200+ ಭಕ್ತರು" },
+      "image": "",
+      "imageAlt": {
+        "en": "Devotees offering ahuti at the 11-kund Gayatri Mahayagya",
+        "hi": "11 कुण्डीय गायत्री महायज्ञ में आहुति देते श्रद्धालु",
+        "kn": "11 ಕುಂಡೀಯ ಗಾಯತ್ರಿ ಮಹಾಯಜ್ಞದಲ್ಲಿ ಆಹುತಿ ಅರ್ಪಿಸುತ್ತಿರುವ ಭಕ್ತರು"
+      }
+    },
+    {
+      "id": "tratak-sadhana-pragya-yuva-2026",
+      "category": "sadhana",
+      "date": "2026-06-18",
+      "dateDisplay": { "en": "Jun 2026", "hi": "जून 2026", "kn": "ಜೂನ್ 2026" },
+      "title": {
+        "en": "Tratak Sadhana Practice by Pragya Yuva",
+        "hi": "प्रज्ञा युवा द्वारा त्राटक साधना अभ्यास",
+        "kn": "ಪ್ರಜ್ಞಾ ಯುವ ವತಿಯಿಂದ ತ್ರಾಟಕ ಸಾಧನಾ ಅಭ್ಯಾಸ"
+      },
+      "description": {
+        "en": "Twenty-five participants joined a Tratak meditation session led by the Pragya Yuva youth wing, reporting deeper concentration, inner calm, and a strong sense of positive energy afterwards.",
+        "hi": "प्रज्ञा युवा प्रकोष्ठ द्वारा आयोजित त्राटक साधना में 25 परिजनों ने भाग लिया और साधना के पश्चात मन की अधिक एकाग्रता, आंतरिक शांति एवं सकारात्मक ऊर्जा का अनुभव साझा किया।",
+        "kn": "ಪ್ರಜ್ಞಾ ಯುವ ಘಟಕ ನಡೆಸಿದ ತ್ರಾಟಕ ಸಾಧನೆಯಲ್ಲಿ 25 ಪರಿಜನರು ಭಾಗವಹಿಸಿದರು ಮತ್ತು ಸಾಧನೆಯ ನಂತರ ಹೆಚ್ಚಿನ ಏಕಾಗ್ರತೆ, ಆಂತರಿಕ ಶಾಂತಿ ಮತ್ತು ಸಕಾರಾತ್ಮಕ ಶಕ್ತಿಯ ಅನುಭವವನ್ನು ಹಂಚಿಕೊಂಡರು."
+      },
+      "stat": { "en": "25 participants", "hi": "25 सहभागी", "kn": "25 ಸಹಭಾಗಿಗಳು" },
+      "image": "",
+      "imageAlt": {
+        "en": "Participants in a Tratak meditation session",
+        "hi": "त्राटक साधना सत्र में सहभागी",
+        "kn": "ತ್ರಾಟಕ ಸಾಧನಾ ಅಧಿವೇಶನದಲ್ಲಿ ಸಹಭಾಗಿಗಳು"
+      }
+    },
+    {
+      "id": "chaitra-navratri-2026",
+      "category": "utsav",
+      "date": "2026-03-27",
+      "dateDisplay": { "en": "19–27 Mar 2026", "hi": "19–27 मार्च 2026", "kn": "19–27 ಮಾರ್ಚ್ 2026" },
+      "title": {
+        "en": "Chaitra Navratri: Nine Days of Collective Sadhana",
+        "hi": "चैत्र नवरात्रि: नौ दिवसीय सामूहिक साधना",
+        "kn": "ಚೈತ್ರ ನವರಾತ್ರಿ: ಒಂಬತ್ತು ದಿನಗಳ ಸಾಮೂಹಿಕ ಸಾಧನೆ"
+      },
+      "description": {
+        "en": "Over nine days at the Gayatri Consciousness Center, sadhaks installed nine kalash for the nine forms of the Devi, performed Durga Saptashati and trikal jap, and closed with a purnahuti yagya joined by more than 100 people.",
+        "hi": "गायत्री कॉन्शियसनेस सेंटर में नौ दिनों तक चली साधना में नौ देवियों के स्वरूप हेतु नौ कलशों की स्थापना, दुर्गासप्तशती पाठ एवं त्रिकाल जप किया गया, और 100 से अधिक लोगों की सहभागिता के साथ पूर्णाहुति यज्ञ सम्पन्न हुआ।",
+        "kn": "ಗಾಯತ್ರಿ ಕಾನ್ಷಿಯಸ್‌ನೆಸ್ ಸೆಂಟರ್‌ನಲ್ಲಿ ಒಂಬತ್ತು ದಿನಗಳ ಸಾಧನೆಯಲ್ಲಿ ದೇವಿಯ ಒಂಬತ್ತು ಸ್ವರೂಪಗಳಿಗೆ ಒಂಬತ್ತು ಕಲಶಗಳ ಸ್ಥಾಪನೆ, ದುರ್ಗಾ ಸಪ್ತಶತಿ ಪಾಠ ಮತ್ತು ತ್ರಿಕಾಲ ಜಪ ನಡೆಯಿತು, ಮತ್ತು 100ಕ್ಕೂ ಹೆಚ್ಚು ಜನರ ಸಹಭಾಗಿತ್ವದೊಂದಿಗೆ ಪೂರ್ಣಾಹುತಿ ಯಜ್ಞ ನೆರವೇರಿತು."
+      },
+      "location": {
+        "en": "Gayatri Consciousness Center, Bengaluru",
+        "hi": "गायत्री कॉन्शियसनेस सेंटर, बेंगलुरु",
+        "kn": "ಗಾಯತ್ರಿ ಕಾನ್ಷಿಯಸ್‌ನೆಸ್ ಸೆಂಟರ್, ಬೆಂಗಳೂರು"
+      },
+      "stat": { "en": "100+ at purnahuti", "hi": "पूर्णाहुति में 100+", "kn": "ಪೂರ್ಣಾಹುತಿಯಲ್ಲಿ 100+" },
+      "image": "",
+      "imageAlt": {
+        "en": "Nine kalash installed for Chaitra Navratri sadhana",
+        "hi": "चैत्र नवरात्रि साधना हेतु स्थापित नौ कलश",
+        "kn": "ಚೈತ್ರ ನವರಾತ್ರಿ ಸಾಧನೆಗಾಗಿ ಸ್ಥಾಪಿಸಲಾದ ಒಂಬತ್ತು ಕಲಶಗಳು"
+      }
+    }
+  ]
+}

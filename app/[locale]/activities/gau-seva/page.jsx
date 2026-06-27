@@ -37,6 +37,15 @@ export default async function GauSevaPage({ params }) {
       }
     : null;
 
+  const donation = data.donation
+    ? {
+        heading: L(data.donation.heading),
+        description: L(data.donation.description),
+        image: data.donation.image,
+        imageAlt: L(data.donation.imageAlt),
+      }
+    : null;
+
   const resources = data.resources
     ? {
         heading: L(data.resources.heading),
@@ -61,6 +70,7 @@ export default async function GauSevaPage({ params }) {
       sectionImage="/assets/activities/gau-seva1.jpg"
       sections={sections}
       extra={extra}
+      donation={donation}
       resources={resources}
     />
   );

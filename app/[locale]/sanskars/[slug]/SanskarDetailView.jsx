@@ -27,9 +27,6 @@ function NavArrow({ dir }) {
 export default function SanskarDetailView({ view, labels }) {
   return (
     <div className="skd">
-      <span className="skd__bloom skd__bloom--a" aria-hidden="true" />
-      <span className="skd__bloom skd__bloom--b" aria-hidden="true" />
-
       <div className="skd__inner">
         <Link href="/sanskars" className="skd__back">{labels.backAll}</Link>
 

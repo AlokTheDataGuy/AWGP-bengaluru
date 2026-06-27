@@ -14,11 +14,7 @@ export default function HomeCTA() {
 
   return (
     <section className="home-cta" ref={ref}>
-      {/* Rotating lotus-mandala watermarks (designs folder) */}
-      <span className="home-cta__mandala home-cta__mandala--tr" aria-hidden="true" />
-      <span className="home-cta__mandala home-cta__mandala--bl" aria-hidden="true" />
-
-      <div className="section-inner">
+<div className="section-inner">
         <div className="home-cta__card">
           <span className="home-cta__glow" aria-hidden="true" />
 

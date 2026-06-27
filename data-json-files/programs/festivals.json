@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "id": "festivals",
+    "slug": "festivals",
+    "navLabel": {
+      "en": "Festivals",
+      "hi": "त्योहार",
+      "kn": "ಹಬ್ಬಗಳು"
+    },
+    "seoDescription": {
+      "en": "Festivals at AWGP Bengaluru — every major Indian festival observed as a collective spiritual experience with Yagya, kirtan, satsang, and prasad, from Makar Sankranti to Gayatri Jayanti.",
+      "hi": "एडब्ल्यूजीपी बेंगलुरु में त्योहार — हर प्रमुख भारतीय पर्व यज्ञ, कीर्तन, सत्संग और प्रसाद के साथ एक सामूहिक आध्यात्मिक अनुभव के रूप में, मकर संक्रांति से गायत्री जयंती तक।",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಹಬ್ಬಗಳು — ಪ್ರತಿ ಪ್ರಮುಖ ಭಾರತೀಯ ಹಬ್ಬವನ್ನು ಯಜ್ಞ, ಕೀರ್ತನ, ಸತ್ಸಂಗ ಮತ್ತು ಪ್ರಸಾದದೊಂದಿಗೆ ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವವಾಗಿ ಆಚರಿಸಲಾಗುತ್ತದೆ, ಮಕರ ಸಂಕ್ರಾಂತಿಯಿಂದ ಗಾಯತ್ರಿ ಜಯಂತಿಯವರೆಗೆ."
+    }
+  },
+  "hero": {
+    "title": {
+      "en": "Festivals",
+      "hi": "त्योहार एवं पर्व",
+      "kn": "ಹಬ್ಬ-ಹರಿದಿನಗಳು"
+    },
+    "tagline": {
+      "en": "Every festival, a shared step toward the Divine.",
+      "hi": "हर त्योहार, परमात्मा की ओर एक साझा कदम।",
+      "kn": "ಪ್ರತಿ ಹಬ್ಬವೂ ಪರಮಾತ್ಮನೆಡೆಗೆ ಒಂದು ಸಹಭಾಗಿ ಹೆಜ್ಜೆ."
+    },
+    "intro": {
+      "en": "At AWGP Bengaluru, every festival is more than a celebration — it is a collective spiritual experience. Through the year we observe all the major Indian festivals together, each one marked with Yagya, kirtan, satsang, and prasad, so that the joy of the day is matched by a deeper inner meaning.",
+      "hi": "एडब्ल्यूजीपी बेंगलुरु में हर त्योहार केवल उत्सव नहीं, एक सामूहिक आध्यात्मिक अनुभव है। वर्ष भर हम सभी प्रमुख भारतीय त्योहार साथ मिलकर मनाते हैं — हर एक यज्ञ, कीर्तन, सत्संग और प्रसाद के साथ — ताकि दिन के आनंद के साथ एक गहरा भीतरी अर्थ भी जुड़ जाए।",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ರತಿ ಹಬ್ಬವೂ ಕೇವಲ ಆಚರಣೆಯಲ್ಲ, ಒಂದು ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವ. ವರ್ಷವಿಡೀ ನಾವು ಎಲ್ಲಾ ಪ್ರಮುಖ ಭಾರತೀಯ ಹಬ್ಬಗಳನ್ನು ಒಟ್ಟಿಗೆ ಆಚರಿಸುತ್ತೇವೆ — ಪ್ರತಿಯೊಂದೂ ಯಜ್ಞ, ಕೀರ್ತನ, ಸತ್ಸಂಗ ಮತ್ತು ಪ್ರಸಾದದೊಂದಿಗೆ — ದಿನದ ಆನಂದದ ಜೊತೆಗೆ ಆಳವಾದ ಆಂತರಿಕ ಅರ್ಥವೂ ಸೇರಲಿ ಎಂದು."
+    }
+  },
+  "sections": [
+    {
+      "id": "why-festivals",
+      "title": {
+        "en": "More Than a Celebration",
+        "hi": "केवल उत्सव नहीं",
+        "kn": "ಕೇವಲ ಆಚರಣೆಯಲ್ಲ"
+      },
+      "body": {
+        "en": "For the Gayatri Pariwar, a festival is never only a holiday. Each parva is an occasion to pause, to come together, and to turn the day toward something higher. Gurudev taught that our festivals carry deep meaning beneath their customs — each one a reminder of a value, a season, or a turning point in life. At AWGP Bengaluru we observe every major festival as a shared spiritual experience: a Yagya or havan to purify the air and the heart, kirtan and bhajan to lift the spirit, satsang to reflect on the festival's true message, and prasad shared among all. Celebrated this way, a festival becomes a quiet step in everyone's inner growth.",
+        "hi": "गायत्री परिवार के लिए त्योहार केवल छुट्टी का दिन नहीं है। हर पर्व रुकने, साथ आने और दिन को किसी उच्चतर भाव की ओर मोड़ने का अवसर है। गुरुदेव सिखाते थे कि हमारे त्योहारों के रीति-रिवाजों के नीचे गहरा अर्थ छिपा है — हर पर्व किसी मूल्य, किसी ऋतु या जीवन के किसी मोड़ का स्मरण है। एडब्ल्यूजीपी बेंगलुरु में हम हर प्रमुख त्योहार को एक सामूहिक आध्यात्मिक अनुभव के रूप में मनाते हैं: वायु और हृदय को शुद्ध करने वाला यज्ञ या हवन, भाव को उठाने वाले कीर्तन-भजन, पर्व के सच्चे संदेश पर चिंतन हेतु सत्संग, और सबमें बँटता प्रसाद। इस भाव से मनाया गया त्योहार हर व्यक्ति की भीतरी वृद्धि का एक शांत कदम बन जाता है।",
+        "kn": "ಗಾಯತ್ರಿ ಪರಿವಾರಕ್ಕೆ ಹಬ್ಬವೆಂದರೆ ಕೇವಲ ರಜಾದಿನವಲ್ಲ. ಪ್ರತಿ ಪರ್ವವೂ ನಿಲ್ಲಲು, ಒಟ್ಟಿಗೆ ಸೇರಲು ಮತ್ತು ದಿನವನ್ನು ಉನ್ನತವಾದ ಭಾವದ ಕಡೆಗೆ ತಿರುಗಿಸಲು ಒಂದು ಅವಕಾಶ. ನಮ್ಮ ಹಬ್ಬಗಳ ಆಚರಣೆಗಳ ಕೆಳಗೆ ಆಳವಾದ ಅರ್ಥ ಅಡಗಿದೆ ಎಂದು ಗುರುದೇವ್ ಬೋಧಿಸಿದರು — ಪ್ರತಿ ಪರ್ವವೂ ಒಂದು ಮೌಲ್ಯ, ಒಂದು ಋತು ಅಥವಾ ಜೀವನದ ಒಂದು ತಿರುವಿನ ಸ್ಮರಣೆ. AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಾವು ಪ್ರತಿ ಪ್ರಮುಖ ಹಬ್ಬವನ್ನು ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವವಾಗಿ ಆಚರಿಸುತ್ತೇವೆ: ಗಾಳಿ ಮತ್ತು ಹೃದಯವನ್ನು ಶುದ್ಧಗೊಳಿಸುವ ಯಜ್ಞ ಅಥವಾ ಹೋಮ, ಭಾವವನ್ನು ಎತ್ತುವ ಕೀರ್ತನ-ಭಜನ, ಪರ್ವದ ನಿಜವಾದ ಸಂದೇಶದ ಚಿಂತನೆಗೆ ಸತ್ಸಂಗ, ಮತ್ತು ಎಲ್ಲರಲ್ಲೂ ಹಂಚುವ ಪ್ರಸಾದ. ಈ ಭಾವದಲ್ಲಿ ಆಚರಿಸಿದ ಹಬ್ಬವು ಪ್ರತಿಯೊಬ್ಬರ ಆಂತರಿಕ ಬೆಳವಣಿಗೆಯ ಒಂದು ಶಾಂತ ಹೆಜ್ಜೆಯಾಗುತ್ತದೆ."
+      },
+      "highlights": {
+        "en": [
+          "Every major festival observed as a collective spiritual experience, not just a celebration",
+          "Marked with Yagya or havan, kirtan, satsang, and shared prasad",
+          "Each parva is a reminder of a value or turning point — a step in inner growth"
+        ],
+        "hi": [
+          "हर प्रमुख त्योहार एक सामूहिक आध्यात्मिक अनुभव — केवल उत्सव नहीं",
+          "यज्ञ या हवन, कीर्तन, सत्संग और साझा प्रसाद के साथ",
+          "हर पर्व किसी मूल्य या जीवन-मोड़ का स्मरण — भीतरी वृद्धि का कदम"
+        ],
+        "kn": [
+          "ಪ್ರತಿ ಪ್ರಮುಖ ಹಬ್ಬ ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವ — ಕೇವಲ ಆಚರಣೆಯಲ್ಲ",
+          "ಯಜ್ಞ ಅಥವಾ ಹೋಮ, ಕೀರ್ತನ, ಸತ್ಸಂಗ ಮತ್ತು ಹಂಚಿದ ಪ್ರಸಾದದೊಂದಿಗೆ",
+          "ಪ್ರತಿ ಪರ್ವ ಒಂದು ಮೌಲ್ಯ ಅಥವಾ ಜೀವನ-ತಿರುವಿನ ಸ್ಮರಣೆ — ಆಂತರಿಕ ಬೆಳವಣಿಗೆಯ ಹೆಜ್ಜೆ"
+        ]
+      }
+    }
+  ],
+  "festivals": [
+    {
+      "id": "makar-sankranti",
+      "when": {
+        "en": "Mid-January (14 Jan)",
+        "hi": "मध्य जनवरी (14 जनवरी)",
+        "kn": "ಜನವರಿ ಮಧ್ಯ (ಜನವರಿ 14)"
+      },
+      "name": {
+        "en": "Makar Sankranti",
+        "hi": "मकर संक्रांति",
+        "kn": "ಮಕರ ಸಂಕ್ರಾಂತಿ"
+      },
+      "description": {
+        "en": "Marks the sun's northward journey (Uttarayan) — a day of gratitude for light, harvest, and fresh beginnings.",
+        "hi": "सूर्य के उत्तरायण होने का पर्व — प्रकाश, फसल और नए आरंभ के प्रति कृतज्ञता का दिन।",
+        "kn": "ಸೂರ್ಯನ ಉತ್ತರಾಯಣ ಪಯಣದ ಪರ್ವ — ಬೆಳಕು, ಫಸಲು ಮತ್ತು ಹೊಸ ಆರಂಭಗಳಿಗೆ ಕೃತಜ್ಞತೆಯ ದಿನ."
+      }
+    },
+    {
+      "id": "basant-panchami",
+      "when": {
+        "en": "Late Jan – Feb (Magh Shukla Panchami)",
+        "hi": "माघ शुक्ल पंचमी (जन/फर)",
+        "kn": "ಮಾಘ ಶುಕ್ಲ ಪಂಚಮಿ (ಜನ/ಫೆ)"
+      },
+      "name": {
+        "en": "Basant Panchami / Saraswati Puja",
+        "hi": "वसंत पंचमी / सरस्वती पूजा",
+        "kn": "ವಸಂತ ಪಂಚಮಿ / ಸರಸ್ವತಿ ಪೂಜೆ"
+      },
+      "description": {
+        "en": "The arrival of spring and the worship of Saraswati, goddess of knowledge — a day held specially dear in the Gayatri Pariwar.",
+        "hi": "वसंत के आगमन और ज्ञान की देवी सरस्वती की उपासना का पर्व — गायत्री परिवार में विशेष रूप से प्रिय दिन।",
+        "kn": "ವಸಂತದ ಆಗಮನ ಮತ್ತು ಜ್ಞಾನದ ದೇವತೆ ಸರಸ್ವತಿಯ ಉಪಾಸನೆಯ ಪರ್ವ — ಗಾಯತ್ರಿ ಪರಿವಾರದಲ್ಲಿ ವಿಶೇಷವಾಗಿ ಪ್ರಿಯವಾದ ದಿನ."
+      }
+    },
+    {
+      "id": "mahashivratri",
+      "when": {
+        "en": "Feb – Mar (Phalgun)",
+        "hi": "फाल्गुन कृष्ण चतुर्दशी (फर/मार्च)",
+        "kn": "ಫಾಲ್ಗುಣ (ಫೆ/ಮಾರ್ಚ್)"
+      },
+      "name": {
+        "en": "Mahashivratri",
+        "hi": "महाशिवरात्रि",
+        "kn": "ಮಹಾಶಿವರಾತ್ರಿ"
+      },
+      "description": {
+        "en": "The great night of Shiva — observed with fasting, night-long worship, and meditation on the inner stillness Shiva represents.",
+        "hi": "शिव की महानिशा — उपवास, रात्रि-जागरण और शिव के प्रतीक भीतरी निस्तब्धता पर ध्यान के साथ मनाया जाने वाला पर्व।",
+        "kn": "ಶಿವನ ಮಹಾರಾತ್ರಿ — ಉಪವಾಸ, ರಾತ್ರಿಯಿಡೀ ಪೂಜೆ ಮತ್ತು ಶಿವ ಪ್ರತಿನಿಧಿಸುವ ಆಂತರಿಕ ನಿಶ್ಚಲತೆಯ ಧ್ಯಾನದೊಂದಿಗೆ ಆಚರಿಸಲಾಗುತ್ತದೆ."
+      }
+    },
+    {
+      "id": "international-womens-day",
+      "when": {
+        "en": "8 March",
+        "hi": "8 मार्च",
+        "kn": "ಮಾರ್ಚ್ 8"
+      },
+      "name": {
+        "en": "International Women's Day",
+        "hi": "अंतर्राष्ट्रीय महिला दिवस",
+        "kn": "ಅಂತಾರಾಷ್ಟ್ರೀಯ ಮಹಿಳಾ ದಿನ"
+      },
+      "description": {
+        "en": "A modern observance close to the mission's heart — honouring Nari Shakti and Gurudev's vision of women as leaders of the new era.",
+        "hi": "मिशन के हृदय के निकट एक आधुनिक पर्व — नारी शक्ति का सम्मान और गुरुदेव की उस दृष्टि का स्मरण जिसमें नारी नवयुग की अगुवा है।",
+        "kn": "ಮಿಷನ್‌ನ ಹೃದಯಕ್ಕೆ ಹತ್ತಿರವಾದ ಆಧುನಿಕ ಆಚರಣೆ — ನಾರಿ ಶಕ್ತಿಯ ಗೌರವ ಮತ್ತು ಮಹಿಳೆಯರೇ ನವಯುಗದ ನಾಯಕಿಯರೆಂಬ ಗುರುದೇವ್ ಅವರ ದೃಷ್ಟಿ."
+      }
+    },
+    {
+      "id": "holi",
+      "when": {
+        "en": "March (Phalgun Purnima)",
+        "hi": "फाल्गुन पूर्णिमा (मार्च)",
+        "kn": "ಫಾಲ್ಗುಣ ಪೂರ್ಣಿಮಾ (ಮಾರ್ಚ್)"
+      },
+      "name": {
+        "en": "Holi",
+        "hi": "होली",
+        "kn": "ಹೋಳಿ"
+      },
+      "description": {
+        "en": "The festival of colour and spring — celebrated as a joyful renewal of relationships, free of ill-will, in a sattvic and harmonious spirit.",
+        "hi": "रंगों और वसंत का पर्व — द्वेष-रहित, सात्विक और सौहार्दपूर्ण भाव से संबंधों के आनंदमय नवीनीकरण के रूप में मनाया जाता है।",
+        "kn": "ಬಣ್ಣ ಮತ್ತು ವಸಂತದ ಹಬ್ಬ — ದ್ವೇಷರಹಿತ, ಸಾತ್ವಿಕ ಮತ್ತು ಸೌಹಾರ್ದ ಭಾವದಲ್ಲಿ ಸಂಬಂಧಗಳ ಆನಂದಮಯ ನವೀಕರಣವಾಗಿ ಆಚರಿಸಲಾಗುತ್ತದೆ."
+      }
+    },
+    {
+      "id": "navratri",
+      "when": {
+        "en": "Mar–Apr & Sep–Oct (twice a year)",
+        "hi": "चैत्र व आश्विन (वर्ष में दो बार)",
+        "kn": "ಚೈತ್ರ ಮತ್ತು ಆಶ್ವಿನ (ವರ್ಷಕ್ಕೆ ಎರಡು ಬಾರಿ)"
+      },
+      "name": {
+        "en": "Navratri (Chaitra & Ashwin)",
+        "hi": "नवरात्रि (चैत्र व आश्विन)",
+        "kn": "ನವರಾತ್ರಿ (ಚೈತ್ರ ಮತ್ತು ಆಶ್ವಿನ)"
+      },
+      "description": {
+        "en": "Nine nights of the Mother Goddess, and the prime season for Gayatri Anusthan — the intensive nine-day sadhana of japa, discipline, and havan.",
+        "hi": "देवी माँ की नौ रात्रियाँ, और गायत्री अनुष्ठान का प्रमुख काल — जप, संयम और हवन की नौ-दिवसीय सघन साधना।",
+        "kn": "ದೇವಿ ಮಾತೆಯ ಒಂಬತ್ತು ರಾತ್ರಿಗಳು, ಮತ್ತು ಗಾಯತ್ರಿ ಅನುಷ್ಠಾನದ ಪ್ರಮುಖ ಕಾಲ — ಜಪ, ಸಂಯಮ ಮತ್ತು ಹವನದ ಒಂಬತ್ತು ದಿನಗಳ ಸಘನ ಸಾಧನೆ."
+      }
+    },
+    {
+      "id": "gayatri-jayanti",
+      "when": {
+        "en": "May–June (Jyeshtha, with Ganga Dussehra)",
+        "hi": "ज्येष्ठ (मई/जून, गंगा दशहरा के साथ)",
+        "kn": "ಜ್ಯೇಷ್ಠ (ಮೇ/ಜೂನ್, ಗಂಗಾ ದಸರಾದೊಂದಿಗೆ)"
+      },
+      "name": {
+        "en": "Gayatri Jayanti",
+        "hi": "गायत्री जयंती",
+        "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿ"
+      },
+      "description": {
+        "en": "The descent of Adya Shakti Vedmata Gayatri to earth — the most significant parva for the Gayatri Pariwar, and the day Gurudev merged with his deity in 1990.",
+        "hi": "आद्य शक्ति वेदमाता गायत्री का धरती पर अवतरण — गायत्री परिवार का सर्वाधिक महत्वपूर्ण पर्व, और वह दिन जब 1990 में गुरुदेव अपनी आराध्य में विलीन हुए।",
+        "kn": "ಆದ್ಯಶಕ್ತಿ ವೇದಮಾತಾ ಗಾಯತ್ರಿಯ ಭೂಮಿಗೆ ಅವತರಣ — ಗಾಯತ್ರಿ ಪರಿವಾರದ ಅತ್ಯಂತ ಮಹತ್ವದ ಪರ್ವ, ಮತ್ತು 1990ರಲ್ಲಿ ಗುರುದೇವ್ ತಮ್ಮ ಆರಾಧ್ಯ ದೇವತೆಯಲ್ಲಿ ಲೀನವಾದ ದಿನ."
+      }
+    },
+    {
+      "id": "guru-purnima",
+      "when": {
+        "en": "July (Ashadha Purnima)",
+        "hi": "आषाढ़ पूर्णिमा (जुलाई)",
+        "kn": "ಆಷಾಢ ಪೂರ್ಣಿಮಾ (ಜುಲೈ)"
+      },
+      "name": {
+        "en": "Guru Purnima",
+        "hi": "गुरु पूर्णिमा",
+        "kn": "ಗುರು ಪೂರ್ಣಿಮಾ"
+      },
+      "description": {
+        "en": "A day to honour the Guru — with reverence to Gurudev and the lineage of teachers, gratitude, and renewed sankalp for the year ahead.",
+        "hi": "गुरु के सम्मान का दिन — गुरुदेव और गुरु-परंपरा के प्रति श्रद्धा, कृतज्ञता और आगामी वर्ष के लिए नए संकल्प के साथ।",
+        "kn": "ಗುರುವನ್ನು ಗೌರವಿಸುವ ದಿನ — ಗುರುದೇವ್ ಮತ್ತು ಗುರು-ಪರಂಪರೆಗೆ ಶ್ರದ್ಧೆ, ಕೃತಜ್ಞತೆ ಮತ್ತು ಮುಂಬರುವ ವರ್ಷಕ್ಕೆ ಹೊಸ ಸಂಕಲ್ಪದೊಂದಿಗೆ."
+      }
+    },
+    {
+      "id": "raksha-bandhan",
+      "when": {
+        "en": "August (Shravan Purnima)",
+        "hi": "श्रावण पूर्णिमा (अगस्त)",
+        "kn": "ಶ್ರಾವಣ ಪೂರ್ಣಿಮಾ (ಆಗಸ್ಟ್)"
+      },
+      "name": {
+        "en": "Raksha Bandhan",
+        "hi": "रक्षा बंधन",
+        "kn": "ರಕ್ಷಾ ಬಂಧನ"
+      },
+      "description": {
+        "en": "The bond of protection — observed in the mission as Shravani, a day of self-purification and the pledge to protect dharma and one another.",
+        "hi": "रक्षा का बंधन — मिशन में श्रावणी के रूप में मनाया जाता है, आत्म-शुद्धि और धर्म व परस्पर रक्षा के संकल्प का दिन।",
+        "kn": "ರಕ್ಷಣೆಯ ಬಂಧ — ಮಿಷನ್‌ನಲ್ಲಿ ಶ್ರಾವಣಿಯಾಗಿ ಆಚರಿಸಲಾಗುತ್ತದೆ, ಆತ್ಮ-ಶುದ್ಧಿ ಮತ್ತು ಧರ್ಮ ಹಾಗೂ ಪರಸ್ಪರ ರಕ್ಷಣೆಯ ಸಂಕಲ್ಪದ ದಿನ."
+      }
+    },
+    {
+      "id": "janmashtami",
+      "when": {
+        "en": "Aug–Sep (Bhadrapada)",
+        "hi": "भाद्रपद कृष्ण अष्टमी (अग/सित)",
+        "kn": "ಭಾದ್ರಪದ (ಆಗ/ಸೆಪ್)"
+      },
+      "name": {
+        "en": "Janmashtami",
+        "hi": "जन्माष्टमी",
+        "kn": "ಜನ್ಮಾಷ್ಟಮಿ"
+      },
+      "description": {
+        "en": "The birth of Lord Krishna — celebrated with bhajan, kirtan, and reflection on the Gita's call to selfless, righteous action.",
+        "hi": "भगवान कृष्ण का जन्म — भजन, कीर्तन और गीता के निःस्वार्थ, धर्मपूर्ण कर्म के संदेश पर चिंतन के साथ मनाया जाता है।",
+        "kn": "ಶ್ರೀಕೃಷ್ಣನ ಜನ್ಮ — ಭಜನ, ಕೀರ್ತನ ಮತ್ತು ಗೀತೆಯ ನಿಃಸ್ವಾರ್ಥ, ಧರ್ಮಯುತ ಕರ್ಮದ ಸಂದೇಶದ ಚಿಂತನೆಯೊಂದಿಗೆ ಆಚರಿಸಲಾಗುತ್ತದೆ."
+      }
+    },
+    {
+      "id": "ganesh-chaturthi",
+      "when": {
+        "en": "Aug–Sep (Bhadrapada Shukla Chaturthi)",
+        "hi": "भाद्रपद शुक्ल चतुर्थी (अग/सित)",
+        "kn": "ಭಾದ್ರಪದ ಶುಕ್ಲ ಚತುರ್ಥಿ (ಆಗ/ಸೆಪ್)"
+      },
+      "name": {
+        "en": "Ganesh Chaturthi",
+        "hi": "गणेश चतुर्थी",
+        "kn": "ಗಣೇಶ ಚತುರ್ಥಿ"
+      },
+      "description": {
+        "en": "The worship of Ganesha, remover of obstacles and lord of wisdom — invoked at the start of every sacred undertaking.",
+        "hi": "विघ्नहर्ता और बुद्धि के स्वामी गणेश की पूजा — हर शुभ कार्य के आरंभ में जिनका आवाहन किया जाता है।",
+        "kn": "ವಿಘ್ನಹರ್ತ ಮತ್ತು ಬುದ್ಧಿಯ ಒಡೆಯ ಗಣೇಶನ ಪೂಜೆ — ಪ್ರತಿ ಶುಭ ಕಾರ್ಯದ ಆರಂಭದಲ್ಲಿ ಆವಾಹಿಸಲಾಗುತ್ತದೆ."
+      }
+    }
+  ],
+  "resources": [
+    {
+      "id": "tyohar-aur-vrat",
+      "type": "book",
+      "lang": "hi",
+      "title": {
+        "en": "Tyohar Aur Vrat (Our Festivals and Observances)",
+        "hi": "त्योहार और व्रत",
+        "kn": "ತ್ಯೋಹಾರ್ ಔರ್ ವ್ರತ (ನಮ್ಮ ಹಬ್ಬಗಳು ಮತ್ತು ವ್ರತಗಳು)"
+      },
+      "read": "https://www.awgp.org/en/literature/book/Tyohar_Aur_Vrat/v1"
+    },
+    {
+      "id": "festival-gayatri-jayanti",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Gayatri Jayanti",
+        "hi": "गायत्री जयंती",
+        "kn": "ಗಾಯತ್ರಿ ಜಯಂತಿ"
+      },
+      "read": "https://www.awgp.org/en/festivals/gayatri_jayanti"
+    },
+    {
+      "id": "festival-vasant-panchami",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Vasant Panchami",
+        "hi": "वसंत पंचमी",
+        "kn": "ವಸಂತ ಪಂಚಮಿ"
+      },
+      "read": "https://www.awgp.org/en/festivals/vasant_panchmi"
+    },
+    {
+      "id": "festival-deepavali",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Deepavali",
+        "hi": "दीपावली",
+        "kn": "ದೀಪಾವಳಿ"
+      },
+      "read": "https://www.awgp.org/en/festivals/deepavali"
+    },
+    {
+      "id": "festival-pitru-paksh",
+      "type": "page",
+      "lang": "en",
+      "title": {
+        "en": "Pitru Paksha",
+        "hi": "पितृ पक्ष",
+        "kn": "ಪಿತೃ ಪಕ್ಷ"
+      },
+      "read": "https://www.awgp.org/en/festivals/pitru_paksh"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tyohar Aur Vrat",
+      "url": "https://www.awgp.org/en/literature/book/Tyohar_Aur_Vrat/v1",
+      "media": "scan",
+      "used": "primary"
+    },
+    {
+      "title": "Gayatri Jayanti",
+      "url": "https://www.awgp.org/en/festivals/gayatri_jayanti",
+      "media": "text",
+      "used": "primary"
+    },
+    {
+      "title": "Vasant Panchami",
+      "url": "https://www.awgp.org/en/festivals/vasant_panchmi",
+      "media": "unknown",
+      "used": "reference"
+    },
+    {
+      "title": "Deepavali",
+      "url": "https://www.awgp.org/en/festivals/deepavali",
+      "media": "unknown",
+      "used": "reference"
+    },
+    {
+      "title": "Pitru Paksha",
+      "url": "https://www.awgp.org/en/festivals/pitru_paksh",
+      "media": "unknown",
+      "used": "reference"
+    },
+    {
+      "title": "Festival list (11 festivals)",
+      "url": null,
+      "media": "text",
+      "used": "user-provided"
+    }
+  ],
+  "cta": {
+    "title": {
+      "en": "Celebrate With Us",
+      "hi": "हमारे साथ मनाएँ",
+      "kn": "ನಮ್ಮೊಂದಿಗೆ ಆಚರಿಸಿ"
+    },
+    "text": {
+      "en": "Join the Bengaluru Chetna Kendra for our festival programmes — families and newcomers alike are warmly welcome.",
+      "hi": "हमारे त्योहार-कार्यक्रमों में बेंगलुरु चेतना केंद्र के साथ सम्मिलित हों — परिवार और नए साधक, सभी का हार्दिक स्वागत है।",
+      "kn": "ನಮ್ಮ ಹಬ್ಬದ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ ಬೆಂಗಳೂರು ಚೇತನಾ ಕೇಂದ್ರದೊಂದಿಗೆ ಸೇರಿಕೊಳ್ಳಿ — ಕುಟುಂಬಗಳು ಮತ್ತು ಹೊಸಬರು ಎಲ್ಲರಿಗೂ ಹೃತ್ಪೂರ್ವಕ ಸ್ವಾಗತ."
+    },
+    "buttonLabel": {
+      "en": "Get in touch",
+      "hi": "संपर्क करें",
+      "kn": "ಸಂಪರ್ಕಿಸಿ"
+    },
+    "link": "/contact"
+  }
+}

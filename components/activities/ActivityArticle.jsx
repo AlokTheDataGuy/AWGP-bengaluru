@@ -1,4 +1,5 @@
 import { Link } from '../../lib/i18n/navigation';
+import HeroSection from '../ui/HeroSection';
 import Reveal from '../ui/Reveal';
 import ReadMore from '../ui/ReadMore';
 import './ActivityArticle.css';
@@ -28,28 +29,23 @@ export default function ActivityArticle({
   sectionImage,
   sections = [],
   extra,
+  donation,
   resources,
 }) {
   const L = (obj) => t(locale, obj);
   const [firstSection, ...restSections] = sections;
 
   return (
-    <article className="aa-page">
-      {/* ── Hero ───────────────────────────────────────── */}
-      <header className="aa-hero">
-        <span className="aa-hero__bg" style={heroImage ? { backgroundImage: `url('${heroImage}')` } : undefined} aria-hidden="true" />
-        {heroImageMobile && (
-          <span className="aa-hero__bg aa-hero__bg--mobile" style={{ backgroundImage: `url('${heroImageMobile}')` }} aria-hidden="true" />
-        )}
-        <span className="aa-hero__veil" aria-hidden="true" />
-        <span className="aa-hero__mandala" aria-hidden="true" />
-        <div className="aa-hero__inner">
-          <span className="aa-hero__eyebrow">AWGP Bengaluru · Activities</span>
-          <h1 className="aa-hero__title">{hero.title}</h1>
-          {hero.tagline && <p className="aa-hero__tagline">{hero.tagline}</p>}
-          <span className="aa-hero__divider" aria-hidden="true" />
-        </div>
-      </header>
+    <>
+      <HeroSection
+        eyebrow="AWGP Bengaluru · Activities"
+        title={hero.title}
+        subtitle={hero.tagline}
+        bgImage={heroImage}
+        bgImageMobile={heroImageMobile}
+      />
+
+      <article className="aa-page">
 
       {/* ── Intro lead ─────────────────────────────────── */}
       {hero.intro && (
@@ -152,6 +148,22 @@ export default function ActivityArticle({
         </Reveal>
       )}
 
+      {/* ── Donation / sponsorship card ─────────────────── */}
+      {donation?.image && (
+        <Reveal className="aa-donation section">
+          <div className="section-inner">
+            <div className="aa-feeding__head">
+              <h2 className="aa-heading aa-heading--center">{donation.heading}</h2>
+              <span className="aa-rule aa-rule--center" aria-hidden="true" />
+              {donation.description && <p className="aa-feeding__desc">{donation.description}</p>}
+            </div>
+            <div className="aa-donation__card">
+              <img src={donation.image} alt={donation.imageAlt || ''} className="aa-donation__img" />
+            </div>
+          </div>
+        </Reveal>
+      )}
+
       {/* ── Resources ────────────────────────────────────── */}
       {resources?.links?.length > 0 && (
         <Reveal className="aa-resources section">
@@ -212,6 +224,8 @@ export default function ActivityArticle({
           <Link href="/activities" className="aa-back-link">{L(UI.backLabel)}</Link>
         </div>
       </Reveal>
-    </article>
+
+      </article>
+    </>
   );
 }
