@@ -52,24 +52,5 @@
 .home-highlights__view-all {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-family: var(--font-heading);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--maroon);
-  text-decoration: none;
-  border: 1.5px solid var(--border);
-  border-radius: 999px;
-  padding: 14px 36px;
-  background: transparent;
-  transition: border-color 0.28s, color 0.28s, background 0.28s, gap 0.28s;
+  gap: 8px;
 }
-.home-highlights__view-all:hover {
-  border-color: var(--gold);
-  color: var(--saffron-deep);
-  background: var(--gold-pale);
-  gap: 16px;
-}
-.home-highlights__view-all svg { flex-shrink: 0; }

@@ -46,7 +46,20 @@ export default function SiteLoader() {
 
   return (
     <div className={`site-loader${hidden ? ' site-loader--hidden' : ''}`} aria-hidden={hidden}>
-      <GayatriLoader size={300} label="Loading AWGP Bengaluru" />
+      <div className="site-loader__stage">
+        <span className="site-loader__aura" aria-hidden="true" />
+        <GayatriLoader size={300} label="Loading AWGP Bengaluru" />
+      </div>
+
+      <div className="site-loader__caption">
+        <span className="site-loader__brand">अखिल विश्व गायत्री परिवार</span>
+        <span className="site-loader__sub">
+          Bengaluru
+          <span className="site-loader__dots" aria-hidden="true">
+            <i /><i /><i />
+          </span>
+        </span>
+      </div>
     </div>
   );
 }

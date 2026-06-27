@@ -154,6 +154,54 @@
   pointer-events: none;
 }
 
+/* ── Panel colour themes ──────────────────────────────────── */
+.prog-row__panel--dark {
+  background: linear-gradient(145deg, #6B1B1B 0%, #3A0D0D 55%, #1E0808 100%);
+}
+
+.prog-row__panel--light {
+  background: linear-gradient(145deg, #FBF0E0 0%, #F0D9B0 60%, #E6C88A 100%);
+  border-top: 3px solid var(--gold, #F9C74F);
+}
+
+.prog-row__panel--light .prog-row__panel-title {
+  color: var(--maroon);
+}
+
+.prog-row__panel--light .prog-row__panel-sub {
+  color: #6B3A2A;
+  font-style: italic;
+}
+
+.prog-row__panel--light .prog-row__panel-schedule {
+  background: rgba(107, 27, 27, 0.10);
+  border-color: rgba(107, 27, 27, 0.30);
+  color: #6B1B1B;
+}
+
+.prog-row__panel--light .prog-row__panel-desc {
+  color: #3E1F0E;
+}
+
+.prog-row__panel--light .prog-row__panel-tag {
+  color: var(--maroon);
+  border-color: rgba(107, 27, 27, 0.40);
+}
+
+.prog-row__panel--light .prog-row__panel-cta {
+  border-color: rgba(107, 27, 27, 0.55);
+  color: var(--maroon);
+}
+
+.prog-row__panel--light .prog-row__panel-cta:hover {
+  background: var(--maroon, #7B1C1C);
+  border-color: var(--maroon, #7B1C1C);
+  color: #fff;
+}
+
+/* Mandala watermark — visible on warm light panels */
+.prog-row__panel--light::after { opacity: 0.08; }
+
 .prog-row__panel-tag {
   display: inline-block;
   font-family: var(--font-heading);

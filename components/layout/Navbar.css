@@ -64,7 +64,7 @@
   transition: transform 0.22s ease;
 }
 .navbar__links a:hover,
-.navbar__links a.is-active { color: var(--gold); }
+.navbar__links a.is-active { color: var(--saffron); }
 .navbar__links a:hover::after,
 .navbar__links a.is-active::after { transform: scaleX(1); }
 
@@ -306,7 +306,7 @@
   transition: transform 0.22s ease;
 }
 .navbar__dropdown-wrap:hover .navbar__dropdown-trigger,
-.navbar__dropdown-trigger.is-active { color: var(--gold); }
+.navbar__dropdown-trigger.is-active { color: var(--saffron); }
 .navbar__dropdown-wrap:hover .navbar__dropdown-trigger::after,
 .navbar__dropdown-trigger.is-active::after { transform: scaleX(1); }
 

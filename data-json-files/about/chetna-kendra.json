@@ -176,27 +176,27 @@
         "icon": "🚇",
         "title": { "en": "By Metro", "hi": "मेट्रो से", "kn": "ಮೆಟ್ರೋ ಮೂಲಕ" },
         "body": {
-          "en": "Take the Namma Metro to the nearest station and our centre is accessible within a short auto or cab ride. Contact us for the nearest metro stop from your location.",
-          "hi": "नम्मा मेट्रो से निकटतम स्टेशन तक आएं और हमारा केंद्र ऑटो या कैब से पहुंचा जा सकता है।",
-          "kn": "ನಮ್ಮ ಮೆಟ್ರೋ ಮೂಲಕ ಹತ್ತಿರದ ನಿಲ್ದಾಣಕ್ಕೆ ಬನ್ನಿ, ನಂತರ ಆಟೋ ಅಥವಾ ಕ್ಯಾಬ್ ಮೂಲಕ ಕೇಂದ್ರ ತಲುಪಬಹುದು."
+          "en": "Take the Yellow Line to Kudlu Gate station — the kendra is about a 10-minute walk from there.",
+          "hi": "येलो लाइन से कुडलू गेट स्टेशन तक आएं — वहां से केंद्र लगभग 10 मिनट की पैदल दूरी पर है।",
+          "kn": "ಹಳದಿ ಮಾರ್ಗದ ಮೂಲಕ ಕುಡ್ಲು ಗೇಟ್ ನಿಲ್ದಾಣಕ್ಕೆ ಬನ್ನಿ — ಅಲ್ಲಿಂದ ಕೇಂದ್ರ ಸುಮಾರು 10 ನಿಮಿಷ ನಡಿಗೆ ದೂರದಲ್ಲಿದೆ."
         }
       },
       {
         "icon": "🚌",
         "title": { "en": "By Bus", "hi": "बस से", "kn": "ಬಸ್ ಮೂಲಕ" },
         "body": {
-          "en": "BMTC buses connect to all parts of Bengaluru. Please contact us or check our address on Google Maps for the nearest bus stop routes.",
-          "hi": "BMTC बसें बेंगलूरु के सभी हिस्सों से जुड़ती हैं। निकटतम बस स्टॉप के लिए कृपया हमसे संपर्क करें।",
-          "kn": "BMTC ಬಸ್‌ಗಳು ಬೆಂಗಳೂರಿನ ಎಲ್ಲ ಭಾಗಗಳಿಗೆ ಸಂಪರ್ಕ ಕಲ್ಪಿಸುತ್ತವೆ. ಹತ್ತಿರದ ಬಸ್ ನಿಲ್ದಾಣಕ್ಕೆ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ."
+          "en": "Kudlu Gate is the best stop. BMTC buses on Hosur Road stop here, and the kendra is a short walk away.",
+          "hi": "कुडलू गेट सबसे अच्छा स्टॉप है। होसुर रोड पर BMTC बसें यहां रुकती हैं, और केंद्र थोड़ी पैदल दूरी पर है।",
+          "kn": "ಕುಡ್ಲು ಗೇಟ್ ಅತ್ಯುತ್ತಮ ನಿಲ್ದಾಣ. ಹೊಸೂರು ರಸ್ತೆಯಲ್ಲಿ BMTC ಬಸ್‌ಗಳು ಇಲ್ಲಿ ನಿಲ್ಲುತ್ತವೆ, ಕೇಂದ್ರ ಸ್ವಲ್ಪ ನಡಿಗೆ ದೂರದಲ್ಲಿದೆ."
         }
       },
       {
         "icon": "🚗",
         "title": { "en": "By Car / Auto", "hi": "कार / ऑटो से", "kn": "ಕಾರ್ / ಆಟೋ ಮೂಲಕ" },
         "body": {
-          "en": "Parking is available at the centre. Search \"AWGP Bengaluru Gayatri Chetna Kendra\" on Google Maps for directions, or call us for a precise address and landmark guidance.",
-          "hi": "केंद्र में पार्किंग उपलब्ध है। दिशानिर्देशों के लिए Google Maps पर \"AWGP Bengaluru Gayatri Chetna Kendra\" खोजें।",
-          "kn": "ಕೇಂದ್ರದಲ್ಲಿ ಪಾರ್ಕಿಂಗ್ ಲಭ್ಯವಿದೆ. ದಿಕ್ಕುಗಳಿಗೆ Google Maps ನಲ್ಲಿ \"AWGP Bengaluru Gayatri Chetna Kendra\" ಹುಡುಕಿ."
+          "en": "Off Lakshmi Layout Main Road, Chikka Begur. Parking is available on premises — use the Google Maps link for navigation.",
+          "hi": "लक्ष्मी लेआउट मेन रोड के पास, चिक्का बेगूर। परिसर में पार्किंग उपलब्ध है — नेविगेशन के लिए Google Maps लिंक का उपयोग करें।",
+          "kn": "ಲಕ್ಷ್ಮಿ ಲೇಔಟ್ ಮುಖ್ಯ ರಸ್ತೆಯ ಬಳಿ, ಚಿಕ್ಕ ಬೇಗೂರು. ಆವರಣದಲ್ಲಿ ಪಾರ್ಕಿಂಗ್ ಲಭ್ಯ — ನ್ಯಾವಿಗೇಷನ್‌ಗಾಗಿ Google Maps ಲಿಂಕ್ ಬಳಸಿ."
         }
       },
       {

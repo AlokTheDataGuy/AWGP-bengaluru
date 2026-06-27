@@ -1,16 +1,164 @@
+/* ────────────────────────────────────────────────
+   SITE LOADER — full-screen devotional splash
+   Dark maroon gradient stage · drifting golden glow ·
+   rotating Gayatri mantra with a luminous aura ·
+   shimmering brand caption.
+──────────────────────────────────────────────── */
 .site-loader {
   position: fixed;
   inset: 0;
   z-index: 99999;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.6rem, 4vw, 2.6rem);
   overflow: hidden;
-  background: var(--cream, #FFFDF7);
   opacity: 1;
   transition: opacity 0.6s ease;
+  background:
+    radial-gradient(ellipse 85% 70% at 50% 40%, rgba(140,40,25,0.7) 0%, transparent 68%),
+    radial-gradient(circle at 50% 38%, #6e1f14 0%, #4a140b 46%, #2a0b06 100%);
 }
 
 .site-loader--hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+/* ── Drifting ambient glow blobs ───────────────── */
+.site-loader::before,
+.site-loader::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(70px);
+}
+.site-loader::before {
+  width: 52vmax;
+  height: 52vmax;
+  top: -16%;
+  left: -12%;
+  background: radial-gradient(circle, rgba(249,199,79,0.20) 0%, transparent 70%);
+  animation: slDrift1 15s ease-in-out infinite;
+}
+.site-loader::after {
+  width: 48vmax;
+  height: 48vmax;
+  bottom: -18%;
+  right: -14%;
+  background: radial-gradient(circle, rgba(245,124,0,0.20) 0%, transparent 70%);
+  animation: slDrift2 18s ease-in-out infinite;
+}
+
+@keyframes slDrift1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(6%, 8%) scale(1.12); }
+}
+@keyframes slDrift2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(-7%, -6%) scale(1.1); }
+}
+
+/* ── Loader stage + golden aura ────────────────── */
+.site-loader__stage {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+}
+.site-loader__aura {
+  position: absolute;
+  width: 88%;
+  height: 88%;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(255,190,90,0.30) 0%,
+    rgba(245,124,0,0.14) 42%,
+    transparent 68%);
+  filter: blur(10px);
+  animation: slAura 4.2s ease-in-out infinite;
+}
+@keyframes slAura {
+  0%, 100% { transform: scale(1);    opacity: 0.85; }
+  50%      { transform: scale(1.08); opacity: 1; }
+}
+
+/* Make the saffron mantra glow against the dark stage */
+.site-loader .gl-layer {
+  filter: drop-shadow(0 0 6px rgba(245,124,0,0.35));
+}
+.site-loader .gl-om {
+  filter: drop-shadow(0 0 14px rgba(255,170,60,0.55));
+}
+
+/* ── Brand caption ─────────────────────────────── */
+.site-loader__caption {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  text-align: center;
+}
+.site-loader__brand {
+  font-family: var(--font-body-hi), 'Tiro Devanagari Sanskrit', serif;
+  font-size: clamp(1.15rem, 3.6vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  background: linear-gradient(90deg,
+    #B97E25 0%, #F9C74F 26%, #FFF4D6 50%, #F9C74F 74%, #B97E25 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: slShimmer 3.4s linear infinite;
+}
+@keyframes slShimmer {
+  to { background-position: 200% center; }
+}
+
+.site-loader__sub {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(255, 236, 205, 0.6);
+}
+.site-loader__dots {
+  display: inline-flex;
+  gap: 5px;
+}
+.site-loader__dots i {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--gold, #F9C74F);
+  opacity: 0.35;
+  animation: slDot 1.4s ease-in-out infinite;
+}
+.site-loader__dots i:nth-child(2) { animation-delay: 0.2s; }
+.site-loader__dots i:nth-child(3) { animation-delay: 0.4s; }
+@keyframes slDot {
+  0%, 100% { opacity: 0.3; transform: translateY(0); }
+  50%      { opacity: 1;   transform: translateY(-3px); }
+}
+
+/* ── Reduced motion ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .site-loader::before,
+  .site-loader::after,
+  .site-loader__aura,
+  .site-loader__brand,
+  .site-loader__dots i {
+    animation: none;
+  }
 }

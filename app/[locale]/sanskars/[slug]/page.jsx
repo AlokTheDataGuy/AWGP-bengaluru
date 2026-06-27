@@ -60,6 +60,8 @@ export default async function SanskarDetailPage({ params }) {
       : locale === 'kn' ? 'AWGP ಬೆಂಗಳೂರಿನ ತರಬೇತಿ ಪಡೆದ ಸ್ವಯಂಸೇವಕರು ಈ ಸಂಸ್ಕಾರವನ್ನು ಉಚಿತವಾಗಿ ನಡೆಸುತ್ತಾರೆ.'
       : 'Trained volunteers at AWGP Bengaluru performs this Sanskar.',
     ctaBtn:   locale === 'hi' ? 'संपर्क करें' : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ' : 'Get in touch',
+    readMore: locale === 'hi' ? 'और पढ़ें'    : locale === 'kn' ? 'ಇನ್ನಷ್ಟು ಓದಿ' : 'Read more',
+    readLess: locale === 'hi' ? 'कम करें'     : locale === 'kn' ? 'ಕಡಿಮೆ ಮಾಡಿ'  : 'Read less',
   };
 
   return (

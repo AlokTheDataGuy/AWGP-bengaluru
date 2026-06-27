@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import Image from 'next/image';
 import { useLocale } from 'next-intl';
 import { Link } from '../../lib/i18n/navigation';
@@ -175,7 +175,7 @@ const SLIDES = [
   {
     id: 'gau-seva',
     image: '/assets/homepage/hero/gau-seva-hero.png',
-    imageMobile: '/assets/homepage/hero/gau.jpg',
+    imageMobile: '/assets/homepage/hero/gau.png',
     en: {
       eyebrow: 'Gau-Seva',
       title: 'Honour the Sacred Cow',
@@ -257,6 +257,23 @@ export default function Hero() {
     return () => window.removeEventListener('keydown', onKey);
   }, [goNext, goPrev]);
 
+  const touchStartX = useRef(0);
+  const touchStartY = useRef(0);
+
+  const handleTouchStart = useCallback((e) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
+  }, []);
+
+  const handleTouchEnd = useCallback((e) => {
+    const dx = e.changedTouches[0].clientX - touchStartX.current;
+    const dy = e.changedTouches[0].clientY - touchStartY.current;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50) {
+      if (dx < 0) goNext();
+      else goPrev();
+    }
+  }, [goNext, goPrev]);
+
   const active = SLIDES[current];
   const d = active[locale] || active.en;
 
@@ -266,6 +283,8 @@ export default function Hero() {
       aria-roledescription="carousel"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
       {/* Background layer — crossfades between slides, each with its own Ken Burns */}
       <div className="hero__stage" aria-hidden="true">
@@ -305,7 +324,7 @@ export default function Hero() {
 
       {/* Content — keyed by `current` so the entrance animation replays per slide */}
       <div className="hero__content">
-        <div key={current} className="hero__inner">
+        <div key={current} className={`hero__inner hero__inner--${active.id}`}>
           <p className="hero__eyebrow">
             <span className="hero__eyebrow-mark" aria-hidden="true" />
             {d.eyebrow}

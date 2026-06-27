@@ -21,19 +21,6 @@ const PROGRAM_IMGS = {
   'bal-sanskar-shala': '/assets/programs/bss-banner.jpg',
 };
 
-/* Gradient image overlays — harmonise with each panel colour */
-const PANEL_IMG_GRAD = {
-  'festivals':       'linear-gradient(90deg, transparent 55%, rgba(123,74,0,0.6) 100%)',
-  'yagya-events':    'linear-gradient(90deg, transparent 55%, rgba(61,31,10,0.7) 100%)',
-  'book-fair':       'linear-gradient(90deg, transparent 55%, rgba(90,48,0,0.65) 100%)',
-  'tree-plantation': 'linear-gradient(90deg, transparent 55%, rgba(47,90,30,0.65) 100%)',
-};
-const PANEL_IMG_GRAD_FLIP = {
-  'festivals':       'linear-gradient(270deg, transparent 55%, rgba(123,74,0,0.6) 100%)',
-  'yagya-events':    'linear-gradient(270deg, transparent 55%, rgba(61,31,10,0.7) 100%)',
-  'book-fair':       'linear-gradient(270deg, transparent 55%, rgba(90,48,0,0.65) 100%)',
-  'tree-plantation': 'linear-gradient(270deg, transparent 55%, rgba(47,90,30,0.65) 100%)',
-};
 
 const L = (obj, locale) => (obj && (obj[locale] || obj.en)) || '';
 
@@ -83,10 +70,10 @@ export default async function ProgramsIndexPage({ params }) {
       {/* ── Programs showcase ── */}
       <section className="prog-page__showcase">
         {listed.map((program, i) => {
-          const isFlip = i % 2 !== 0;
-          const img = PROGRAM_IMGS[program.id] || program.img;
-          const bg  = program.heroColor || 'linear-gradient(135deg, #5A1A0E 0%, #3D1F0A 100%)';
-          const imgGrad = (isFlip ? PANEL_IMG_GRAD_FLIP : PANEL_IMG_GRAD)[program.id] || 'none';
+          const isFlip     = i % 2 !== 0;
+          const panelTheme = i % 2 === 0 ? 'dark' : 'light';
+          const img        = PROGRAM_IMGS[program.id] || program.img;
+          const imgGrad    = 'none';
 
           return (
             <Reveal key={program.id} as="article" className={`prog-row${isFlip ? ' prog-row--flip' : ''}`}>
@@ -107,7 +94,7 @@ export default async function ProgramsIndexPage({ params }) {
               </div>
 
               {/* Text panel */}
-              <div className="prog-row__panel" style={{ background: bg }}>
+              <div className={`prog-row__panel prog-row__panel--${panelTheme}`}>
                 <span className="prog-row__panel-tag">AWGP Bengaluru</span>
                 <h2 className="prog-row__panel-title">{loc(program.title)}</h2>
                 <p className="prog-row__panel-sub">{loc(program.subtitle)}</p>

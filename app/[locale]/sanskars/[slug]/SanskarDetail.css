@@ -234,6 +234,27 @@
   .skd-science__badge { display: none; }
 }
 
+/* Read-more toggle (mobile only, rendered by CollapsibleText) */
+.skd-read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 4px;
+  font-family: var(--font-body);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  vertical-align: middle;
+  transition: color 0.2s ease;
+}
+.skd-read-more:hover { color: var(--maroon); }
+
 @media (prefers-reduced-motion: reduce) {
   .skd-block, .skd-cta { opacity: 1; transform: none; transition: none; }
   .skd-ben, .skd-nav__link { transition: none; }

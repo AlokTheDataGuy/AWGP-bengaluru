@@ -2,8 +2,13 @@ import { notFound } from 'next/navigation';
 import { Link } from '../../../../lib/i18n/navigation';
 import PageHeader from '../../../../components/ui/PageHeader';
 import Image from 'next/image';
+import {
+  Facebook, Instagram, Youtube, MessageCircle, Mail, ArrowRight,
+} from 'lucide-react';
 import blogData from '../../../../data/blog.json';
 import '../../blog/Blog.css';
+
+const JOIN_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSenAHsGkgiiYVh4GkGFiV6XAFFEFqTk4LNEA0U20KiBAnHoFA/viewform?fbzx=-8132684196568383509';
 
 export async function generateStaticParams() {
   return blogData.map((p) => ({ slug: p.slug }));
@@ -40,6 +45,18 @@ export default async function BlogPostPage({ params }) {
   const moreLabel = locale === 'hi' ? 'और पढ़ें' : locale === 'kn' ? 'ಇನ್ನಷ್ಟು ಓದಿ' : 'More from the Blog';
   const backLabel = locale === 'hi' ? '← सभी लेख' : locale === 'kn' ? '← ಎಲ್ಲಾ ಲೇಖನಗಳು' : '← All Posts';
 
+  const sidebar = {
+    heading: locale === 'hi' ? 'जुड़े रहें' : locale === 'kn' ? 'ಸಂಪರ್ಕದಲ್ಲಿರಿ' : 'Get Involved',
+    blurb: locale === 'hi'
+      ? 'गायत्री परिवार से जुड़ें या किसी भी प्रश्न के लिए हमसे संपर्क करें।'
+      : locale === 'kn'
+        ? 'ಗಾಯತ್ರಿ ಪರಿವಾರ ಸೇರಿ ಅಥವಾ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.'
+        : 'Join the Gayatri Pariwar, or reach out to us with any questions.',
+    contact: locale === 'hi' ? 'संपर्क करें' : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ' : 'Contact Us',
+    join: locale === 'hi' ? 'परिवार से जुड़ें' : locale === 'kn' ? 'ಪರಿವಾರ ಸೇರಿ' : 'Join Us',
+    follow: locale === 'hi' ? 'हमें फॉलो करें' : locale === 'kn' ? 'ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ' : 'Follow us',
+  };
+
   return (
     <>
       <PageHeader
@@ -48,40 +65,83 @@ export default async function BlogPostPage({ params }) {
         subtitle={`${L(post.author)} · ${formatDate(post.date, locale)} · ${readLabel}`}
       />
 
-      <article className="blog-section">
-        <div className="section-inner blog-article">
-          <Link href="/blog" className="blog-back">{backLabel}</Link>
+      <section className="blog-section">
+        <div className="section-inner blog-layout">
+          <article className="blog-article">
+            <div className="blog-article__cover">
+              <Image
+                src={post.image}
+                alt={L(post.title)}
+                fill
+                sizes="(max-width: 800px) 100vw, 720px"
+                style={{ objectFit: 'cover' }}
+                priority
+              />
+            </div>
 
-          <div className="blog-article__cover">
-            <Image
-              src={post.image}
-              alt={L(post.title)}
-              fill
-              sizes="(max-width: 800px) 100vw, 760px"
-              style={{ objectFit: 'cover' }}
-              priority
-            />
-          </div>
+            <div className="blog-prose">
+              {body.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
 
-          <div className="blog-prose">
-            {body.map((para, i) => (
-              <p key={i}>{para}</p>
-            ))}
-          </div>
+            <div className="blog-share-strip">
+              <span>{locale === 'hi' ? 'इस लेख को साझा करें' : locale === 'kn' ? 'ಈ ಲೇಖನವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ' : 'Found this useful? Share it.'}</span>
+              <a
+                href="https://wa.me/919243755613"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                💬 WhatsApp
+              </a>
+            </div>
 
-          <div className="blog-share-strip">
-            <span>{locale === 'hi' ? 'इस लेख को साझा करें' : locale === 'kn' ? 'ಈ ಲೇಖನವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ' : 'Found this useful? Share it.'}</span>
-            <a
-              href="https://wa.me/919243755613"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              💬 WhatsApp
-            </a>
-          </div>
+            <Link href="/blog" className="blog-back blog-back--bottom">{backLabel}</Link>
+          </article>
+
+          <aside className="blog-sidebar">
+            <div className="blog-sidebar__inner">
+              <h3 className="blog-sidebar__head">{sidebar.heading}</h3>
+              <p className="blog-sidebar__blurb">{sidebar.blurb}</p>
+
+              <div className="blog-sidebar__cta">
+                <Link href="/contact" className="blog-sidebar__btn blog-sidebar__btn--ghost">
+                  <Mail size={17} aria-hidden="true" />
+                  {sidebar.contact}
+                </Link>
+                <a
+                  href={JOIN_FORM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="blog-sidebar__btn blog-sidebar__btn--primary"
+                >
+                  {sidebar.join}
+                  <ArrowRight size={17} aria-hidden="true" />
+                </a>
+              </div>
+
+              <div className="blog-sidebar__social-wrap">
+                <span className="blog-sidebar__social-label">{sidebar.follow}</span>
+                <div className="blog-sidebar__social">
+                  <a href="https://www.facebook.com/gayatripariwarbangalore" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="blog-sidebar__social-btn">
+                    <Facebook size={18} aria-hidden="true" />
+                  </a>
+                  <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="blog-sidebar__social-btn">
+                    <MessageCircle size={18} aria-hidden="true" />
+                  </a>
+                  <a href="https://www.instagram.com/awgp.bengaluru/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="blog-sidebar__social-btn">
+                    <Instagram size={18} aria-hidden="true" />
+                  </a>
+                  <a href="https://www.youtube.com/@AWGPBengaluru" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="blog-sidebar__social-btn">
+                    <Youtube size={18} aria-hidden="true" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
-      </article>
+      </section>
 
       {/* Related posts */}
       {related.length > 0 && (

@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { Link } from '../../../../lib/i18n/navigation';
 import { useReveal } from '../../../../lib/useReveal';
+import CollapsibleText from './CollapsibleText';
 
 function Reveal({ as: Tag = 'div', className = '', children, style }) {
   const ref = useReveal(0.12);
@@ -45,7 +46,7 @@ export default function SanskarDetailView({ view, labels }) {
           )}
           <div className="skd-lead__text-wrap">
             <span className="skd-block__kicker">{labels.whatIs}</span>
-            <p className="skd-lead__text">{view.intro}</p>
+            <CollapsibleText text={view.intro} className="skd-lead__text" moreLabel={labels.readMore} lessLabel={labels.readLess} />
           </div>
         </Reveal>
 
@@ -54,7 +55,7 @@ export default function SanskarDetailView({ view, labels }) {
           <Reveal as="section" className="skd-block skd-why">
             <h2 className="skd-block__title">{labels.why}</h2>
             <span className="skd-rule" aria-hidden="true" />
-            <p>{view.whyItMatters}</p>
+            <CollapsibleText text={view.whyItMatters} moreLabel={labels.readMore} lessLabel={labels.readLess} />
           </Reveal>
         )}
 
@@ -64,7 +65,7 @@ export default function SanskarDetailView({ view, labels }) {
             <span className="skd-science__badge" aria-hidden="true">🔬</span>
             <h2 className="skd-block__title">{labels.science}</h2>
             <span className="skd-rule skd-rule--gold" aria-hidden="true" />
-            <p>{view.scientificPerspective}</p>
+            <CollapsibleText text={view.scientificPerspective} moreLabel={labels.readMore} lessLabel={labels.readLess} />
           </Reveal>
         )}
 

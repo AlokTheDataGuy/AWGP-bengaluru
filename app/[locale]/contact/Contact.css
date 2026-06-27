@@ -763,6 +763,7 @@ a.cp-info__card-value:hover { color: var(--saffron); }
 
 /* ── Responsive ──────────────────────────────────────────── */
 
+/* Tablet — single-column map/info, 2-up reach + social */
 @media (max-width: 940px) {
   .cp-info__grid {
     grid-template-columns: 1fr;
@@ -772,28 +773,54 @@ a.cp-info__card-value:hover { color: var(--saffron); }
     min-height: clamp(300px, 55vw, 420px);
     transform: none !important;
   }
+  /* 4 social buttons → balanced 2×2 instead of an orphaned 3 + 1 */
+  .cp-info__social {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* reach cards → 2-up before fully stacking */
+  .cp-reach__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/* Stack the WhatsApp card; trim its desktop padding for phones */
 @media (max-width: 720px) {
   .cp-wa__card {
     grid-template-columns: 1fr;
     text-align: center;
     justify-items: center;
+    gap: clamp(1.5rem, 5vw, 2.5rem);
+    padding: clamp(1.75rem, 6vw, 3rem) clamp(1.25rem, 5vw, 2.5rem);
   }
+  .cp-wa__desc { margin-inline: auto; }
   .cp-wa__perks { text-align: left; }
+}
+
+/* Reach cards fully stacked */
+@media (max-width: 620px) {
   .cp-reach__grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 560px) {
-  .cp-info__social {
-    grid-template-columns: 1fr;
-  }
+  /* hide heavy decorative art that crowds small screens */
   .cp-info__half-l,
   .cp-info__half-r,
   .cp-info__diyas {
     display: none;
+  }
+  /* shrink the QR so the card never overflows narrow phones */
+  .cp-wa__qr-frame {
+    width: 168px;
+    height: 168px;
+  }
+}
+
+/* Very narrow phones — social buttons in a single column */
+@media (max-width: 380px) {
+  .cp-info__social {
+    grid-template-columns: 1fr;
   }
 }
 

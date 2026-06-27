@@ -393,12 +393,13 @@
   /* Use the shorter subtitle; drop the full one only when a mobile variant exists */
   .hero__sub--mob { display: block; }
   .hero__inner:has(.hero__sub--mob) .hero__sub--full { display: none; }
+  .hero__inner--home .hero__eyebrow { display: none; }
   .hero__title { font-size: clamp(1.8rem, 8vw, 2.5rem); }
   .hero__sub {
     font-size: 0.98rem;
     margin-bottom: 1.6rem;
   }
-  .hero__divider { width: 180px; margin-bottom: 1.1rem; }
+  .hero__divider { display: none; }
   .hero__mantra {
     font-size: 1rem;
     margin-bottom: 1.6rem;

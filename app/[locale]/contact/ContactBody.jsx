@@ -199,27 +199,27 @@ export default function ContactBody({ locale }) {
                 icon: '🚇', n: 1,
                 mode: { en: 'By Metro', hi: 'मेट्रो से', kn: 'ಮೆಟ್ರೋ ಮೂಲಕ' },
                 desc: {
-                  en: 'Nearest metro station details will be updated once the exact address is confirmed.',
-                  hi: 'सटीक पता तय होने पर नजदीकी मेट्रो स्टेशन की जानकारी अपडेट की जाएगी।',
-                  kn: 'ನಿಖರ ವಿಳಾಸ ದೃಢೀಕರಣದ ನಂತರ ಹತ್ತಿರದ ಮೆಟ್ರೋ ನಿಲ್ದಾಣ ಮಾಹಿತಿ ನವೀಕರಿಸಲಾಗುವುದು.',
+                  en: 'Take the Yellow Line to Kudlu Gate station — about a 10-minute walk to the kendra.',
+                  hi: 'येलो लाइन से कुडलू गेट स्टेशन तक आएं — वहां से केंद्र लगभग 10 मिनट की पैदल दूरी पर है।',
+                  kn: 'ಹಳದಿ ಮಾರ್ಗದ ಮೂಲಕ ಕುಡ್ಲು ಗೇಟ್ ನಿಲ್ದಾಣಕ್ಕೆ ಬನ್ನಿ — ಅಲ್ಲಿಂದ ಕೇಂದ್ರಕ್ಕೆ ಸುಮಾರು 10 ನಿಮಿಷ ನಡಿಗೆ.',
                 },
               },
               {
                 icon: '🚌', n: 2,
                 mode: { en: 'By Bus', hi: 'बस से', kn: 'ಬಸ್ ಮೂಲಕ' },
                 desc: {
-                  en: 'BMTC bus route information will be available soon.',
-                  hi: 'BMTC बस मार्ग जानकारी जल्द उपलब्ध होगी।',
-                  kn: 'BMTC ಬಸ್ ಮಾರ್ಗ ಮಾಹಿತಿ ಶೀಘ್ರದಲ್ಲಿ ಲಭ್ಯ.',
+                  en: 'Kudlu Gate is the best stop. BMTC buses on Hosur Road stop here, then it’s a short walk to the kendra.',
+                  hi: 'कुडलू गेट सबसे अच्छा स्टॉप है। होसुर रोड पर BMTC बसें यहां रुकती हैं, फिर केंद्र तक थोड़ी पैदल दूरी है।',
+                  kn: 'ಕುಡ್ಲು ಗೇಟ್ ಅತ್ಯುತ್ತಮ ನಿಲ್ದಾಣ. ಹೊಸೂರು ರಸ್ತೆಯಲ್ಲಿ BMTC ಬಸ್‌ಗಳು ಇಲ್ಲಿ ನಿಲ್ಲುತ್ತವೆ, ನಂತರ ಕೇಂದ್ರಕ್ಕೆ ಸ್ವಲ್ಪ ನಡಿಗೆ.',
                 },
               },
               {
                 icon: '🚗', n: 3,
                 mode: { en: 'By Car / Auto', hi: 'कार / ऑटो से', kn: 'ಕಾರ್ / ಆಟೋ ಮೂಲಕ' },
                 desc: {
-                  en: 'Parking available on premises. Use the Google Maps link above for navigation.',
-                  hi: 'परिसर में पार्किंग उपलब्ध है। नेविगेशन के लिए ऊपर दिए Google Maps लिंक का उपयोग करें।',
-                  kn: 'ಆವರಣದಲ್ಲಿ ಪಾರ್ಕಿಂಗ್ ಲಭ್ಯ. ನ್ಯಾವಿಗೇಷನ್‌ಗಾಗಿ Google Maps ಲಿಂಕ್ ಬಳಸಿ.',
+                  en: 'Off Lakshmi Layout Main Road, Chikka Begur. Parking available on premises — use the Google Maps link for navigation.',
+                  hi: 'लक्ष्मी लेआउट मेन रोड के पास, चिक्का बेगूर। परिसर में पार्किंग उपलब्ध है — नेविगेशन के लिए Google Maps लिंक का उपयोग करें।',
+                  kn: 'ಲಕ್ಷ್ಮಿ ಲೇಔಟ್ ಮುಖ್ಯ ರಸ್ತೆಯ ಬಳಿ, ಚಿಕ್ಕ ಬೇಗೂರು. ಆವರಣದಲ್ಲಿ ಪಾರ್ಕಿಂಗ್ ಲಭ್ಯ — ನ್ಯಾವಿಗೇಷನ್‌ಗಾಗಿ Google Maps ಲಿಂಕ್ ಬಳಸಿ.',
                 },
               },
             ].map(({ icon, n, mode, desc }) => (

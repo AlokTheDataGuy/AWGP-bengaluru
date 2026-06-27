@@ -147,7 +147,7 @@
 
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; overflow-x: hidden; }
+html { scroll-behavior: smooth; overflow-x: clip; }
 
 /* ── Body + language font switching ── */
 body {
@@ -155,7 +155,7 @@ body {
   background: var(--cream);
   color: var(--text-dark);
   line-height: 1.65;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
 }
 body[data-lang="hi"] { font-family: var(--font-body-hi); }
