@@ -49,7 +49,6 @@ export default async function SanskarsPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={locale === 'hi' ? 'संस्कार' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳು' : 'Sanskars'}
         subtitle={
           locale === 'hi'
@@ -58,7 +57,6 @@ export default async function SanskarsPage({ params }) {
             ? 'ಜೀವನದ ಪ್ರತಿ ಪವಿತ್ರ ಹಂತವನ್ನು ಅರ್ಥ ಮತ್ತು ಸಂಸ್ಕಾರದಿಂದ ಅಲಂಕರಿಸಿ'
             : 'Refining every sacred stage of life — from conception to remembrance'
         }
-        mantra="॥ संस्कारात् जायते मानवः ॥"
       />
 
       {/* ── Intro ─────────────────────────────────────────── */}

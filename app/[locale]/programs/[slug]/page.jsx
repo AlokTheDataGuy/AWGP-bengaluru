@@ -110,7 +110,6 @@ export default async function ProgramDetailPage({ params }) {
     return (
       <>
         <HeroSection
-          eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
         />
@@ -167,7 +166,6 @@ export default async function ProgramDetailPage({ params }) {
     return (
       <>
         <HeroSection
-          eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
         />
@@ -232,7 +230,6 @@ export default async function ProgramDetailPage({ params }) {
     return (
       <>
         <HeroSection
-          eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
         />
@@ -297,7 +294,6 @@ export default async function ProgramDetailPage({ params }) {
     return (
       <>
         <HeroSection
-          eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
           title={L(program.title)}
           subtitle={L(program.subtitle)}
         />
@@ -366,7 +362,6 @@ export default async function ProgramDetailPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow={`AWGP Bengaluru · ${lbl.allProgs}`}
         title={L(program.title)}
         subtitle={L(program.subtitle)}
       />

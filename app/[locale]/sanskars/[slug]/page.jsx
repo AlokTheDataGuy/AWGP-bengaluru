@@ -65,7 +65,6 @@ export default async function SanskarDetailPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow={`AWGP Bengaluru · ${view.stage}`}
         title={view.name}
         subtitle={summary || undefined}
       />

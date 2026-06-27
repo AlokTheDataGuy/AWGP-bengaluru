@@ -1,15 +1,11 @@
-import {
-  Globe, ShoppingBag, PlayCircle, ArrowRight,
-  Compass, TrendingUp, Lightbulb, HeartHandshake, Flame, Landmark,
-  Users, Hammer, Wind, Atom, Baby, GraduationCap, Sparkles, HeartPulse, Music,
-} from 'lucide-react';
+import { Globe, ShoppingBag, PlayCircle, ArrowRight } from 'lucide-react';
 import { Link } from '../../../lib/i18n/navigation';
 import HeroSection from '../../../components/ui/HeroSection';
 import './Literature.css';
 
 const LIBRARY_URL = 'https://literature.awgp.org/';
 const AKHAND_JYOTI_URL = 'https://www.awgp.org/en/literature/akhandjyoti';
-const YOUTUBE_URL = 'https://www.youtube.com/awgp';
+const YOUTUBE_URL = 'https://www.youtube.com/@AWGPBengaluru';
 const STORE_BASE = 'https://www.awgpstore.com/category?id=';
 const STORE_PRINT_URL = 'https://www.awgpstore.com/category?id=IG0069';
 
@@ -29,105 +25,90 @@ export default async function LiteraturePage({ params }) {
 
   const collections = [
     {
-      Icon: Compass,
       img: '/assets/literature/life_mgmt.jpg',
       href: `${STORE_BASE}IG0053`,
       title: L('Life Management', 'जीवन प्रबंधन', 'ಜೀವನ ನಿರ್ವಹಣೆ'),
       desc: L('Time, work and goals — wisdom for a purposeful life.', 'समय, कार्य और लक्ष्य — सार्थक जीवन का ज्ञान।', 'ಸಮಯ, ಕೆಲಸ ಮತ್ತು ಗುರಿ — ಉದ್ದೇಶಪೂರ್ಣ ಜೀವನದ ಜ್ಞಾನ.'),
     },
     {
-      Icon: TrendingUp,
       img: '/assets/literature/self-help.jpg',
       href: `${STORE_BASE}IG0061`,
       title: L('Self-Help', 'स्वयं सहायता', 'ಸ್ವ-ಸಹಾಯ'),
       desc: L('Build better habits, confidence and inner strength.', 'बेहतर आदतें, आत्मविश्वास और आंतरिक शक्ति।', 'ಉತ್ತಮ ಅಭ್ಯಾಸ, ಆತ್ಮವಿಶ್ವಾಸ ಮತ್ತು ಆಂತರಿಕ ಶಕ್ತಿ.'),
     },
     {
-      Icon: Lightbulb,
       img: '/assets/literature/phiosophy.jpg',
       href: `${STORE_BASE}IG0064`,
       title: L('Philosophy', 'दर्शन', 'ತತ್ವಶಾಸ್ತ್ರ'),
       desc: L('Timeless thought on life, truth and meaning.', 'जीवन, सत्य और अर्थ पर शाश्वत चिंतन।', 'ಜೀವನ, ಸತ್ಯ ಮತ್ತು ಅರ್ಥದ ಕುರಿತ ಶಾಶ್ವತ ಚಿಂತನೆ.'),
     },
     {
-      Icon: HeartHandshake,
       img: '/assets/literature/social_improvement.jpg',
       href: `${STORE_BASE}IG0065`,
       title: L('Social Improvement', 'समाज सुधार', 'ಸಾಮಾಜಿಕ ಸುಧಾರಣೆ'),
       desc: L('Ideas to uplift society and reform the world.', 'समाज के उत्थान और विश्व सुधार के विचार।', 'ಸಮಾಜದ ಉನ್ನತಿ ಮತ್ತು ಜಗತ್ತಿನ ಸುಧಾರಣೆಯ ವಿಚಾರ.'),
     },
     {
-      Icon: Flame,
       img: '/assets/literature/gayatri-pariwar.png',
       href: `${STORE_BASE}IG0068`,
       title: L('Gayatri Pariwar', 'गायत्री परिवार', 'ಗಾಯತ್ರಿ ಪರಿವಾರ'),
       desc: L('The mission, the Guru and the Pariwar movement.', 'मिशन, गुरुदेव और गायत्री परिवार का आंदोलन।', 'ಮಿಷನ್, ಗುರುದೇವ ಮತ್ತು ಗಾಯತ್ರಿ ಪರಿವಾರ ಆಂದೋಲನ.'),
     },
     {
-      Icon: Landmark,
       img: '/assets/literature/indian_culture.jpg',
       href: `${STORE_BASE}IG0054`,
       title: L('Indian Culture', 'भारतीय संस्कृति', 'ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ'),
       desc: L('Festivals, sanskars and the roots of our heritage.', 'पर्व, संस्कार और भारतीय संस्कृति की जड़ें।', 'ಹಬ್ಬ, ಸಂಸ್ಕಾರ ಮತ್ತು ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಬೇರು.'),
     },
     {
-      Icon: Users,
       img: '/assets/literature/parenting.jpg',
       href: `${STORE_BASE}IG0058`,
       title: L('Parenting & Relations', 'पालन-पोषण एवं संबंध', 'ಪೋಷಣೆ ಮತ್ತು ಸಂಬಂಧ'),
       desc: L('Nurturing children and harmonious relationships.', 'बच्चों का पालन-पोषण और मधुर रिश्ते।', 'ಮಕ್ಕಳ ಪೋಷಣೆ ಮತ್ತು ಸೌಹಾರ್ದ ಸಂಬಂಧಗಳು.'),
     },
     {
-      Icon: Hammer,
       img: '/assets/literature/art-attack-py1DVN4GrXQ-unsplash.jpg',
       href: `${STORE_BASE}IG0066`,
       title: L('Constructing Era', 'युग निर्माण', 'ಯುಗ ನಿರ್ಮಾಣ'),
       desc: L('Yug Nirman — building a brighter new age.', 'युग निर्माण — उज्ज्वल नए युग का सृजन।', 'ಯುಗ ನಿರ್ಮಾಣ — ಉಜ್ವಲ ಹೊಸ ಯುಗದ ಸೃಷ್ಟಿ.'),
     },
     {
-      Icon: Wind,
       img: '/assets/literature/salman-ahmad-kSCc40rJ-44-unsplash.jpg',
       href: `${STORE_BASE}IG0056`,
       title: L('Yoga & Pranayam', 'योग एवं प्राणायाम', 'ಯೋಗ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ'),
       desc: L('Asanas, breathwork and the science of prana.', 'आसन, प्राणायाम और प्राण का विज्ञान।', 'ಆಸನ, ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಪ್ರಾಣದ ವಿಜ್ಞಾನ.'),
     },
     {
-      Icon: Atom,
       img: '/assets/literature/scientific%20war.jpg',
       href: `${STORE_BASE}IG0059`,
       title: L('Science & Spirituality', 'विज्ञान एवं अध्यात्म', 'ವಿಜ್ಞಾನ ಮತ್ತು ಆಧ್ಯಾತ್ಮ'),
       desc: L('Where modern science meets the inner world.', 'जहाँ आधुनिक विज्ञान आत्मज्ञान से मिलता है।', 'ಆಧುನಿಕ ವಿಜ್ಞಾನ ಆಂತರಿಕ ಜಗತ್ತನ್ನು ಸಂಧಿಸುವಲ್ಲಿ.'),
     },
     {
-      Icon: Baby,
       img: '/assets/literature/children.avif',
       href: `${STORE_BASE}IG0062`,
       title: L("Children's", 'बाल साहित्य', 'ಮಕ್ಕಳ ಸಾಹಿತ್ಯ'),
       desc: L('Stories and values for young, curious minds.', 'बच्चों के लिए कहानियाँ और संस्कार।', 'ಮಕ್ಕಳಿಗೆ ಕಥೆಗಳು ಮತ್ತು ಮೌಲ್ಯಗಳು.'),
     },
     {
-      Icon: GraduationCap,
       img: '/assets/literature/students.jpg',
       href: `${STORE_BASE}IG0063`,
       title: L('Teen & Students', 'किशोर एवं विद्यार्थी', 'ಹದಿಹರೆಯ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿ'),
       desc: L('Study, character and motivation for students.', 'विद्यार्थियों के लिए अध्ययन, चरित्र और प्रेरणा।', 'ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಅಧ್ಯಯನ, ಚಾರಿತ್ರ್ಯ ಮತ್ತು ಪ್ರೇರಣೆ.'),
     },
     {
-      Icon: Sparkles,
       img: '/assets/literature/sadhna.jpg',
       href: `${STORE_BASE}IG0096`,
       title: L('Spirituality', 'अध्यात्म', 'ಆಧ್ಯಾತ್ಮ'),
       desc: L('Sadhana, meditation and the spiritual path.', 'साधना, ध्यान और आध्यात्मिक मार्ग।', 'ಸಾಧನೆ, ಧ್ಯಾನ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಮಾರ್ಗ.'),
     },
     {
-      Icon: HeartPulse,
       img: '/assets/literature/health.jpg',
       href: `${STORE_BASE}IG0060`,
       title: L('Health & Fitness', 'स्वास्थ्य एवं फिटनेस', 'ಆರೋಗ್ಯ ಮತ್ತು ಫಿಟ್‌ನೆಸ್'),
       desc: L('Natural health, diet and a vibrant body.', 'प्राकृतिक स्वास्थ्य, आहार और स्वस्थ शरीर।', 'ನೈಸರ್ಗಿಕ ಆರೋಗ್ಯ, ಆಹಾರ ಮತ್ತು ಚೈತನ್ಯಶೀಲ ದೇಹ.'),
     },
     {
-      Icon: Music,
       img: '/assets/literature/bhajan.jpg',
       href: `${STORE_BASE}IG0067`,
       title: L('Bhajan Sangeet', 'भजन संगीत', 'ಭಜನ ಸಂಗೀತ'),
@@ -171,14 +152,12 @@ export default async function LiteraturePage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={L('Literature', 'साहित्य', 'ಸಾಹಿತ್ಯ')}
         subtitle={L(
           'The Living Wisdom of Yug Rishi Pandit Shriram Sharma Acharya',
           'युग ऋषि पं. श्रीराम शर्मा आचार्य का जीवंत ज्ञान',
           'ಯುಗ ಋಷಿ ಪಂ. ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಜೀವಂತ ಜ್ಞಾನ',
         )}
-        mantra="॥ स्वाध्यायान्मा प्रमदः ॥"
       >
         <a href={LIBRARY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-white">
           {L('Browse the Library', 'पुस्तकालय देखें', 'ಗ್ರಂಥಾಲಯ ನೋಡಿ')}
@@ -272,7 +251,7 @@ export default async function LiteraturePage({ params }) {
           </div>
 
           <div className="lit-grid">
-            {collections.map(({ Icon, img, href, title, desc }, i) => (
+            {collections.map(({ img, href, title, desc }, i) => (
               <a
                 key={i}
                 href={href}
@@ -282,9 +261,6 @@ export default async function LiteraturePage({ params }) {
               >
                 <span className="lit-card__img-wrap">
                   <img src={img} alt={title} className="lit-card__img" loading="lazy" />
-                  <span className="lit-card__icon" aria-hidden="true">
-                    <Icon size={22} strokeWidth={1.6} />
-                  </span>
                 </span>
                 <div className="lit-card__body">
                   <h3 className="lit-card__title">{title}</h3>

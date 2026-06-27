@@ -31,10 +31,8 @@ export default async function BlogIndexPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={locale === 'hi' ? 'ब्लॉग एवं विचार' : locale === 'kn' ? 'ಬ್ಲಾಗ್ ಮತ್ತು ಚಿಂತನೆ' : 'Blog & Reflections'}
         subtitle={locale === 'hi' ? 'ज्ञान, साधना और जीवन-परिवर्तन की प्रेरक कहानियाँ' : locale === 'kn' ? 'ಜ್ಞಾನ, ಸಾಧನೆ ಮತ್ತು ಜೀವನ-ಪರಿವರ್ತನೆಯ ಪ್ರೇರಕ ಕಥೆಗಳು' : 'Insights, reflections, and stories of inner transformation'}
-        mantra="॥ ज्ञानं परमं ध्येयम् ॥"
       />
       <section className="blog-section">
         <div className="section-inner">

@@ -70,16 +70,16 @@ export default function Footer() {
             </div>
             <p className="footer__tagline">{t('footer_tagline')}</p>
             <div className="footer__social">
-              <a href="https://www.facebook.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="footer__social-btn fx-sheen fx-lift">
+              <a href="https://www.facebook.com/gayatripariwarbangalore" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="footer__social-btn fx-sheen fx-lift">
                 <Facebook size={18} aria-hidden="true" />
               </a>
               <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="footer__social-btn fx-sheen fx-lift">
                 <MessageCircle size={18} aria-hidden="true" />
               </a>
-              <a href="https://www.instagram.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="footer__social-btn fx-sheen fx-lift">
+              <a href="https://www.instagram.com/awgp.bengaluru/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="footer__social-btn fx-sheen fx-lift">
                 <Instagram size={18} aria-hidden="true" />
               </a>
-              <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="footer__social-btn fx-sheen fx-lift">
+              <a href="https://www.youtube.com/@AWGPBengaluru" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="footer__social-btn fx-sheen fx-lift">
                 <Youtube size={18} aria-hidden="true" />
               </a>
             </div>
@@ -101,7 +101,7 @@ export default function Footer() {
               </li>
               <li>
                 <Mail size={16} aria-hidden="true" />
-                <a href="mailto:connect@awgp.org">connect@awgp.org</a>
+                <a href="mailto:awgpblr.connect@gmail.com">awgpblr.connect@gmail.com</a>
               </li>
               <li>
                 <MapPin size={16} aria-hidden="true" />

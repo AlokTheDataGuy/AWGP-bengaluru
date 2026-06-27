@@ -19,10 +19,8 @@ export default async function ChetnaKendraPage({ params }) {
     <>
       {/* ── Hero ── */}
       <HeroSection
-        eyebrow={L(data.hero.eyebrow)}
         title={L(data.hero.title)}
         subtitle={L(data.hero.subtitle)}
-        mantra={data.hero.mantra}
       />
 
       {/* ── Inauguration ── */}

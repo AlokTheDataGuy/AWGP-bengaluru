@@ -42,7 +42,6 @@ export default async function NewsPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={heroTitle}
         subtitle={heroSubtitle}
       />

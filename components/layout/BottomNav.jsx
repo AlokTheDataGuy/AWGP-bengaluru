@@ -16,14 +16,20 @@ const LINKS = [
 export default function BottomNav() {
   const t = useTranslations();
   const pathname = usePathname();
+  const isHome = pathname === '/';
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > window.innerHeight * 0.5);
+    // Inner pages: always visible. Home page: reveal once the hero is scrolled past.
+    if (!isHome) {
+      setVisible(true);
+      return;
+    }
+    const onScroll = () => setVisible(window.scrollY > 120);
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+  }, [isHome]);
 
   const isActive = (href) =>
     href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/');

@@ -13,7 +13,6 @@ export default async function GalleryPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={locale === 'hi' ? 'फोटो गैलरी' : locale === 'kn' ? 'ಫೋಟೋ ಗ್ಯಾಲರಿ' : 'Photo Gallery'}
         subtitle={locale === 'hi' ? 'हमारे कार्यक्रमों और सेवा गतिविधियों के अनमोल पल' : locale === 'kn' ? 'ನಮ್ಮ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಸೇವಾ ಚಟುವಟಿಕೆಗಳ ಅಮೂಲ್ಯ ಕ್ಷಣಗಳು' : 'Glimpses of our programs, celebrations, and seva activities'}
       />

@@ -79,6 +79,7 @@ a.contact-card__value:hover { color: var(--saffron); }
 .social-btn:hover { border-color: var(--saffron); color: var(--saffron); }
 .social-btn--green:hover { border-color: #25D366; color: #25D366; }
 .social-btn--red:hover   { border-color: #FF0000; color: #FF0000; }
+.social-btn--pink:hover  { border-color: #E1306C; color: #E1306C; }
 
 /* Map */
 .contact-map-wrap {

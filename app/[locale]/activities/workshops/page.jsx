@@ -19,7 +19,6 @@ export default async function WorkshopsPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru · Activities"
         title={locale === 'hi' ? 'कार्यशालाएं एवं शिविर' : locale === 'kn' ? 'ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು' : 'Workshops & Shivirs'}
         subtitle={
           locale === 'hi'

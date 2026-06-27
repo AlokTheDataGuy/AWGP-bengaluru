@@ -137,7 +137,6 @@ export default async function FestivalsPage({ params }) {
     <>
       {/* ── Hero ── */}
       <HeroSection
-        eyebrow={`AWGP Bengaluru · ${loc({ en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' })}`}
         title={loc(festivalsData.hero.title)}
         subtitle={loc(festivalsData.hero.tagline)}
       />

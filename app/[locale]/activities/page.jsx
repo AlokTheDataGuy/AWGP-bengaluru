@@ -91,10 +91,8 @@ export default async function ActivitiesIndexPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={locale === 'hi' ? 'हमारी गतिविधियां' : locale === 'kn' ? 'ನಮ್ಮ ಚಟುವಟಿಕೆಗಳು' : 'Our Activities'}
         subtitle={locale === 'hi' ? 'सेवा में अध्यात्म को जीएं' : locale === 'kn' ? 'ಸೇವೆಯಲ್ಲಿ ಆಧ್ಯಾತ್ಮ ಜೀವಿಸಿ' : 'Living Spirituality Through Seva'}
-        mantra="॥ आत्मवत् सर्वभूतेषु यः पश्यति स पण्डितः ॥"
       />
 
       <section className="idx-intro">

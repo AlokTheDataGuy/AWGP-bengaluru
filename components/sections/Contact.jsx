@@ -35,8 +35,8 @@ export default function Contact() {
               <ContactCard
                 icon={<Mail size={22} />}
                 label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                value="awgpbengaluru@gmail.com"
-                href="mailto:awgpbengaluru@gmail.com"
+                value="awgpblr.connect@gmail.com"
+                href="mailto:awgpblr.connect@gmail.com"
               />
               <ContactCard
                 icon={<Clock size={22} />}
@@ -52,7 +52,10 @@ export default function Contact() {
                 <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" className="social-btn social-btn--green">
                   💬 WhatsApp
                 </a>
-                <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" className="social-btn social-btn--red">
+                <a href="https://www.instagram.com/awgp.bengaluru/" target="_blank" rel="noopener noreferrer" className="social-btn social-btn--pink">
+                  📷 Instagram
+                </a>
+                <a href="https://www.youtube.com/@AWGPBengaluru" target="_blank" rel="noopener noreferrer" className="social-btn social-btn--red">
                   ▶ YouTube
                 </a>
               </div>

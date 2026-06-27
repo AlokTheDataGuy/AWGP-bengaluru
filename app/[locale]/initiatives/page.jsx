@@ -22,10 +22,8 @@ export default async function InitiativesPage({ params }) {
     <>
       {/* ── Hero ── */}
       <HeroSection
-        eyebrow={L(data.hero.eyebrow)}
         title={L(data.hero.title)}
         subtitle={L(data.hero.subtitle)}
-        mantra={data.hero.mantra}
       >
         {(data.hero.ctas || []).map((c, i) => (
           <a key={i} href={c.href} target="_blank" rel="noopener noreferrer" className="btn btn-white">

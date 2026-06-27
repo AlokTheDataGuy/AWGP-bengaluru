@@ -26,7 +26,6 @@ export default async function SadhanaPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow={`AWGP Bengaluru · ${locale === 'hi' ? 'साधना' : locale === 'kn' ? 'ಸಾಧನೆ' : 'Sadhana'}`}
         title={locale === 'hi' ? 'साधना' : locale === 'kn' ? 'ಸಾಧನೆ' : 'Sadhana'}
         subtitle={
           locale === 'hi'
@@ -35,7 +34,6 @@ export default async function SadhanaPage({ params }) {
               ? 'AWGP ನಲ್ಲಿ ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಕೇಂದ್ರ'
               : 'The Heart of Spiritual Practice at AWGP'
         }
-        mantra="॥ ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥"
       />
 
       <section className="section">

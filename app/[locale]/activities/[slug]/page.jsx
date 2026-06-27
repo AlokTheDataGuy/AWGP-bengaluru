@@ -37,7 +37,6 @@ export default async function ActivityDetailPage({ params }) {
   return (
     <>
       <HeroSection
-        eyebrow={`AWGP Bengaluru · ${activitiesLabel}`}
         title={L(activity.title)}
         subtitle={L(activity.subtitle)}
       />

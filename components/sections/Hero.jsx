@@ -21,8 +21,8 @@ const SLIDES = [
     en: {
       eyebrow: 'All World Gayatri Pariwar',
       title: 'Welcome to Gayatri Pariwar Bengaluru',
-      // sub: 'Scientific spirituality, community, and selfless service — rooted in Gayatri Sadhana.',
-      // subMobile: 'Scientific spirituality, community, and selfless service.',
+      sub: 'AWGP\'s Bengaluru chapter — serving the city through Gayatri Sadhana and selfless seva.',
+      subMobile: 'AWGP\'s Bengaluru chapter — sadhana and selfless seva.',
       cta: 'Explore', ctaHref: '/homepath',
       cta2: 'Who We Are', cta2Href: '/about',
     },
@@ -97,7 +97,7 @@ const SLIDES = [
   },
   {
     id: 'activities',
-    image: '/assets/homepage/hero/activities-hero.png',
+    image: '/assets/homepage/hero/activities.png',
     imageMobile: '/assets/homepage/hero/activities-hero.png',
     en: {
       eyebrow: 'Activities',
@@ -123,7 +123,7 @@ const SLIDES = [
   },
   {
     id: 'programs',
-    image: '/assets/homepage/hero/programs.png',
+    image: '/assets/homepage/hero/programs-hero1.png',
     imageMobile: '/assets/homepage/hero/programs-hero.png',
     en: {
       eyebrow: 'Programs',

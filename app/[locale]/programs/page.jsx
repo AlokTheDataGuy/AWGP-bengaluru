@@ -67,10 +67,8 @@ export default async function ProgramsIndexPage({ params }) {
     <>
       {/* ── Hero ── */}
       <HeroSection
-        eyebrow="AWGP Bengaluru"
         title={loc({ en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' })}
         subtitle={loc({ en: 'Festivals, Yagyas & Transformative Shivirs', hi: 'उत्सव, यज्ञ और परिवर्तनकारी शिविर', kn: 'ಉತ್ಸವ, ಯಜ್ಞ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು' })}
-        mantra="॥ ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥"
       />
 
       {/* ── Intro band ── */}

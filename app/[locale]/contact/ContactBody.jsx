@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { MapPin, Phone, Mail, Clock, Globe, MessageCircle, Youtube } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Globe, MessageCircle, Youtube, Instagram } from 'lucide-react';
 import { useReveal } from '../../../lib/useReveal';
 import './Contact.css';
 
@@ -70,8 +70,8 @@ export default function ContactBody({ locale }) {
                 />
                 <InfoCard icon={<Mail size={20} />}
                   label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                  value="awgpbengaluru@gmail.com"
-                  href="mailto:awgpbengaluru@gmail.com"
+                  value="awgpblr.connect@gmail.com"
+                  href="mailto:awgpblr.connect@gmail.com"
                   n={3}
                 />
                 <InfoCard icon={<Clock size={20} />}
@@ -85,7 +85,11 @@ export default function ContactBody({ locale }) {
                   className="cp-social-btn cp-social-btn--wa">
                   <MessageCircle size={15} aria-hidden="true" /> WhatsApp
                 </a>
-                <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.instagram.com/awgp.bengaluru/" target="_blank" rel="noopener noreferrer"
+                  className="cp-social-btn cp-social-btn--ig">
+                  <Instagram size={15} aria-hidden="true" /> Instagram
+                </a>
+                <a href="https://www.youtube.com/@AWGPBengaluru" target="_blank" rel="noopener noreferrer"
                   className="cp-social-btn cp-social-btn--yt">
                   <Youtube size={15} aria-hidden="true" /> YouTube
                 </a>

@@ -10,10 +10,10 @@ import './Navbar.css';
 const JOIN_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSenAHsGkgiiYVh4GkGFiV6XAFFEFqTk4LNEA0U20KiBAnHoFA/viewform?fbzx=-8132684196568383509';
 
 const SOCIALS = [
-  { href: 'https://www.facebook.com/awgp',  label: 'Facebook',  Icon: Facebook },
+  { href: 'https://www.facebook.com/gayatripariwarbangalore',  label: 'Facebook',  Icon: Facebook },
   { href: 'https://wa.me/919243755613',     label: 'WhatsApp',  Icon: MessageCircle },
-  { href: 'https://www.instagram.com/awgp', label: 'Instagram', Icon: Instagram },
-  { href: 'https://www.youtube.com/awgp',   label: 'YouTube',   Icon: Youtube },
+  { href: 'https://www.instagram.com/awgp.bengaluru/', label: 'Instagram', Icon: Instagram },
+  { href: 'https://www.youtube.com/@AWGPBengaluru',    label: 'YouTube',   Icon: Youtube },
 ];
 
 const aboutMenu = [
@@ -92,9 +92,9 @@ export default function Navbar() {
   }, [pathname]);
 
   const label = (item) => item[locale] || item.en;
-  // Pages without a full hero banner need the navbar to render solid from the top
-  const noHeroRoutes = ['/blog', '/media'];
-  const forceSolid = noHeroRoutes.some((r) => pathname === r || pathname.startsWith(r + '/'));
+  // Individual blog posts use a lightweight PageHeader on cream — no dark hero, so force solid.
+  // The blog index and all media pages have the dark gradient HeroSection, so leave them transparent.
+  const forceSolid = pathname.startsWith('/blog/');
   const transparent = !scrolled && !forceSolid;
   const switchLocale = (newLocale) => router.replace(pathname, { locale: newLocale });
 

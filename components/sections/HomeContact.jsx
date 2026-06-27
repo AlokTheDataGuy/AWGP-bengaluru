@@ -1,6 +1,6 @@
 import { useLocale } from 'next-intl';
 import {
-  MapPin, Phone, Mail, Clock, Globe, MessageCircle, Youtube,
+  MapPin, Phone, Mail, Clock, Globe, MessageCircle, Youtube, Instagram,
 } from 'lucide-react';
 import './HomeContact.css';
 
@@ -53,8 +53,8 @@ export default function HomeContact() {
                 <InfoCard
                   icon={<Mail size={20} />}
                   label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                  value="connect@awgp.org"
-                  href="mailto:connect@awgp.org"
+                  value="awgpblr.connect@gmail.com"
+                  href="mailto:awgpblr.connect@gmail.com"
                 />
                 <InfoCard
                   icon={<Clock size={20} />}
@@ -67,7 +67,10 @@ export default function HomeContact() {
                 <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
                   <MessageCircle size={18} aria-hidden="true" /> WhatsApp
                 </a>
-                <a href="https://www.youtube.com/awgp" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
+                <a href="https://www.instagram.com/awgp.bengaluru/" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
+                  <Instagram size={18} aria-hidden="true" /> Instagram
+                </a>
+                <a href="https://www.youtube.com/@AWGPBengaluru" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
                   <Youtube size={18} aria-hidden="true" /> YouTube
                 </a>
                 <a href="https://www.awgp.org" target="_blank" rel="noopener noreferrer" className="home-contact__social-btn">
