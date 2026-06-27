@@ -1,13 +1,13 @@
-import { Jost, Mukta, Noto_Sans_Kannada } from 'next/font/google';
+import { Mukta, Noto_Sans_Kannada, Source_Sans_3 } from 'next/font/google';
 import './globals.css';
 import SiteLoader from '../components/ui/SiteLoader';
 
-// Jost — open-source geometric sans in the Futura/Renner lineage,
-// matching the Samadhi theme's "Renner" body/UI typeface.
-const jost = Jost({
+// Source Sans 3 — humanist text sans used as the English body/UI face
+// (warmer & more legible than the geometric Jost it replaced).
+const sourceSans = Source_Sans_3({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-jost',
+  variable: '--font-source',
   display: 'swap',
 });
 
@@ -35,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body className={`${jost.variable} ${mukta.variable} ${notoKannada.variable}`}>
+      <body className={`${mukta.variable} ${notoKannada.variable} ${sourceSans.variable}`}>
         <SiteLoader />
         {children}
       </body>

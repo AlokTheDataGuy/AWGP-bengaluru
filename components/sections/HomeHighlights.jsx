@@ -85,7 +85,7 @@ export default function HomeHighlights() {
         )}
 
         <div className="home-highlights__footer">
-          <Link href="/media/news" className="btn btn-outline home-highlights__view-all">
+          <Link href="/media/news" className="btn btn-gold-outline home-highlights__view-all">
             {L('View All Highlights', 'सभी झलकियाँ देखें', 'ಎಲ್ಲಾ ಮುಖ್ಯಾಂಶಗಳು')}
             <ArrowRight size={16} aria-hidden="true" />
           </Link>

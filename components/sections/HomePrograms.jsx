@@ -165,9 +165,8 @@ export default function HomePrograms({ locale = 'en' }) {
 
         {/* ── Footer CTA ── */}
         <div className="home-programs__footer">
-          <Link href="/programs" className="home-programs__view-all">
-            <span className="home-programs__view-all-shine" aria-hidden="true" />
-            <span>{labels.viewAll}</span>
+          <Link href="/programs" className="btn btn-outline-dark home-programs__view-all">
+            {labels.viewAll}
             <ArrowIcon />
           </Link>
         </div>
