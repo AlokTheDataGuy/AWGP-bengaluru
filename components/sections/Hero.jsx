@@ -123,7 +123,7 @@ const SLIDES = [
   },
   {
     id: 'programs',
-    image: '/assets/homepage/hero/programs-hero.png',
+    image: '/assets/homepage/hero/programs.jpg',
     imageMobile: '/assets/homepage/hero/programs-hero.png',
     en: {
       eyebrow: 'Programs',

@@ -53,7 +53,10 @@
   font-weight: 700;
   letter-spacing: 0.26em;
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.4rem;
 }
 .home-gallery__title {

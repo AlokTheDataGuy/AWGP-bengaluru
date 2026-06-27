@@ -59,7 +59,10 @@
   font-weight: var(--eyebrow-weight, 700);
   letter-spacing: var(--eyebrow-tracking, 0.26em);
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.85rem;
 }
 .home-chetna__title {
@@ -115,6 +118,7 @@
   overflow: hidden;
   text-decoration: none;
   border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
   /* scroll-reveal start */
   opacity: 0;
@@ -167,6 +171,7 @@
   -webkit-backdrop-filter: blur(10px) saturate(1.1);
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-top: 2px solid var(--gold);
+  border-radius: 14px;
   max-width: 360px;
 }
 .ck-schedule__title {
@@ -240,6 +245,7 @@
   text-decoration: none;
   background: rgba(255, 255, 255, 0.045);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
   overflow: hidden;
   transition: background 0.35s ease, border-color 0.35s ease, transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -271,6 +277,7 @@
   flex-shrink: 0;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
 }
 .ck-fac__thumb img { transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1); }
 .ck-fac:hover .ck-fac__thumb img,

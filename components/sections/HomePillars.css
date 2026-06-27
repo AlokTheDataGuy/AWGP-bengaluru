@@ -65,7 +65,10 @@
   font-weight: 700;
   letter-spacing: 0.26em;
   text-transform: uppercase;
-  color: var(--gold);
+  background: linear-gradient(90deg, var(--gold-lt), var(--gold), var(--saffron-lt));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.85rem;
 }
 .pillars__title {
@@ -109,6 +112,7 @@
   text-align: center;
   text-decoration: none;
   overflow: hidden;
+  border-radius: 18px;
   padding: clamp(1.6rem, 2.6vw, 2.4rem) clamp(1rem, 1.6vw, 1.6rem) clamp(1.4rem, 2vw, 2rem);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.015));
   border: 1px solid rgba(249, 199, 79, 0.16);

@@ -228,7 +228,7 @@ export default async function LiteraturePage({ params }) {
           <div className="lit-magazine">
             <div className="lit-magazine__art">
               <img
-                src="/assets/literature/mag.jpg"
+                src="/assets/literature/akhand-jyoti.png"
                 alt="Akhand Jyoti magazine cover"
                 className="lit-magazine__cover"
               />

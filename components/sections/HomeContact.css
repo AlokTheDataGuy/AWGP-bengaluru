@@ -80,7 +80,10 @@
   font-weight: 700;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--saffron);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.6rem;
 }
 .home-contact__title {
@@ -121,7 +124,7 @@
   flex: 1;
   overflow: hidden;
   background: var(--white);
-  border-radius: 16px;
+  border-radius: 18px;
   padding: clamp(1.5rem, 2.6vw, 2.3rem);
   border: 1px solid var(--border);
   box-shadow: 0 18px 44px rgba(122, 35, 21, 0.1);
@@ -223,7 +226,7 @@ a.home-contact__card-value:hover {
   display: flex;
   flex-direction: column;
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 18px;
   box-shadow: 0 18px 44px rgba(122, 35, 21, 0.1);
   overflow: hidden;
   background: var(--white);

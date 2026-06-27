@@ -47,7 +47,10 @@
   font-weight: var(--eyebrow-weight, 700);
   letter-spacing: var(--eyebrow-tracking, 0.26em);
   text-transform: uppercase;
-  color: var(--saffron);
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0.7rem;
 }
 .home-blog__title {
@@ -121,6 +124,7 @@
   text-decoration: none;
   background: #fff;
   border: 1px solid var(--border);
+  border-radius: 18px;
   box-shadow: var(--shadow-sm);
   overflow: hidden;
   transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.32s ease;
@@ -173,6 +177,7 @@
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   border: 1px solid var(--border);
+  border-radius: 999px;
   padding: 0.32rem 0.7rem;
 }
 
