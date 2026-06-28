@@ -101,7 +101,7 @@ export default function Footer() {
               </li>
               <li>
                 <Mail size={16} aria-hidden="true" />
-                <a href="mailto:awgpblr.connect@gmail.com">awgpblr.connect@gmail.com</a>
+                <a href="mailto:connect@awgpblr.org">connect@awgpblr.org</a>
               </li>
               <li>
                 <MapPin size={16} aria-hidden="true" />

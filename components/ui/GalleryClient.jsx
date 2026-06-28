@@ -25,11 +25,11 @@ const IMAGES = [
   { src: '/assets/programs/festival.jpg',             cat: 'yagya',    en: 'Festival',            hi: 'पर्व उत्सव',        kn: 'ಹಬ್ಬದ ಆಚರಣೆ' },
   { src: '/assets/festivals/rangoli.png',             cat: 'yagya',    en: 'Festival Rangoli',    hi: 'पर्व रंगोली',       kn: 'ಹಬ್ಬದ ರಂಗೋಲಿ' },
 
-  { src: '/assets/activities/tree-plantation.jpg',    cat: 'seva',     en: 'Tree Plantation',     hi: 'वृक्षारोपण',         kn: 'ವೃಕ್ಷಾರೋಪಣ' },
+  { src: '/assets/activities/tree-plantation.jpg',    cat: 'seva',     en: 'Tree Plantation Drives', hi: 'वृक्षारोपण अभियान',   kn: 'ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ' },
   { src: '/assets/activities/blood-camp.jpg',         cat: 'seva',     en: 'Blood Donation',      hi: 'रक्तदान शिविर',      kn: 'ರಕ್ತದಾನ ಶಿಬಿರ' },
   { src: '/assets/activities/food-distribution.jpg',  cat: 'seva',     en: 'Food Distribution',   hi: 'अन्न वितरण',         kn: 'ಅನ್ನ ವಿತರಣೆ' },
   { src: '/assets/activities/gau-seva.jpg',           cat: 'seva',     en: 'Gau Seva',            hi: 'गौ सेवा',            kn: 'ಗೌ ಸೇವೆ' },
-  { src: '/assets/activities/book-fair.jpg',          cat: 'seva',     en: 'Book Fair',           hi: 'पुस्तक मेला',        kn: 'ಪುಸ್ತಕ ಮೇಳ' },
+  { src: '/assets/activities/book-fair.jpg',          cat: 'seva',     en: 'Book Exhibitions',    hi: 'पुस्तक प्रदर्शनी',    kn: 'ಪುಸ್ತಕ ಪ್ರದರ್ಶನ' },
   { src: '/assets/activities/hospital-visit.jpg',     cat: 'seva',     en: 'Hospital Seva',       hi: 'अस्पताल सेवा',       kn: 'ಆಸ್ಪತ್ರೆ ಸೇವೆ' },
 
   { src: '/assets/programs/meditation.jpg',           cat: 'sadhana',  en: 'Meditation',          hi: 'ध्यान',              kn: 'ಧ್ಯಾನ' },

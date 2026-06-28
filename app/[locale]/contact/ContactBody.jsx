@@ -70,8 +70,8 @@ export default function ContactBody({ locale }) {
                 />
                 <InfoCard icon={<Mail size={20} />}
                   label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                  value="awgpblr.connect@gmail.com"
-                  href="mailto:awgpblr.connect@gmail.com"
+                  value="connect@awgpblr.org"
+                  href="mailto:connect@awgpblr.org"
                   n={3}
                 />
                 <InfoCard icon={<Clock size={20} />}

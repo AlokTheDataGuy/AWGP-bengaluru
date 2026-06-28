@@ -4,13 +4,14 @@ import { useEffect, useState } from 'react';
 import GayatriLoader from './GayatriLoader';
 import './SiteLoader.css';
 
-const MIN_VISIBLE = 700;   // keep the splash up at least this long (avoids a flash)
+const MIN_VISIBLE = 3500;  // let the logo animation linger this long on entry (~3.5s)
 const FADE_MS = 600;       // must match the CSS opacity transition
 
 /**
  * SiteLoader — a full-screen Gayatri splash shown on the initial page load.
- * It stays until the window has loaded (or MIN_VISIBLE, whichever is later),
- * fades out, then unmounts. Client navigations don't re-trigger it.
+ * It stays until the window has loaded (or MIN_VISIBLE, whichever is later) so
+ * the logo animation lingers ~3.5s while the site loads behind it, then fades
+ * out and unmounts. Client navigations don't re-trigger it.
  */
 export default function SiteLoader() {
   const [hidden, setHidden] = useState(false);

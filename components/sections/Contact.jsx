@@ -35,8 +35,8 @@ export default function Contact() {
               <ContactCard
                 icon={<Mail size={22} />}
                 label={L('Email', 'ईमेल', 'ಇಮೇಲ್')}
-                value="awgpblr.connect@gmail.com"
-                href="mailto:awgpblr.connect@gmail.com"
+                value="connect@awgpblr.org"
+                href="mailto:connect@awgpblr.org"
               />
               <ContactCard
                 icon={<Clock size={22} />}

@@ -69,10 +69,10 @@
       "hi": "वार्षिक — सामान्यतः त्योहारों या विशेष अवसरों पर",
       "kn": "ವಾರ್ಷಿಕ — ಸಾಮಾನ್ಯವಾಗಿ ಹಬ್ಬಗಳು ಅಥವಾ ವಿಶೇಷ ಸಂದರ್ಭಗಳಲ್ಲಿ"
     },
-    "title": { "en": "Book Fair", "hi": "पुस्तक मेला", "kn": "ಪುಸ್ತಕ ಮೇಳ" },
+    "title": { "en": "Book Exhibitions", "hi": "पुस्तक प्रदर्शनी", "kn": "ಪುಸ್ತಕ ಪ್ರದರ್ಶನ" },
     "subtitle": { "en": "Spreading Vedic Wisdom Through Literature", "hi": "साहित्य के माध्यम से वैदिक ज्ञान का प्रसार", "kn": "ಸಾಹಿತ್ಯದ ಮೂಲಕ ವೈದಿಕ ಜ್ಞಾನದ ಪ್ರಸಾರ" },
     "intro": {
-      "en": "AWGP's literary wing — Akhand Jyoti Sansthan (established 1938) — has published over 3,300 books and the iconic Akhand Jyoti magazine. AWGP Bengaluru organises an annual book fair showcasing this vast library of Vedic literature, personal development, and spiritual science. Free entry, open to all.",
+      "en": "AWGP's literary wing — Akhand Jyoti Sansthan (established 1938) — has published over 3,300 books and the iconic Akhand Jyoti magazine. AWGP Bengaluru organises annual book exhibitions showcasing this vast library of Vedic literature, personal development, and spiritual science. Free entry, open to all.",
       "hi": "AWGP की साहित्यिक शाखा — अखंड ज्योति संस्थान (1938 से) — ने 3,300 से अधिक पुस्तकें और अखंड ज्योति पत्रिका प्रकाशित की है।",
       "kn": "AWGP ಸಾಹಿತ್ಯ ವಿಭಾಗ — ಅಖಂಡ ಜ್ಯೋತಿ ಸಂಸ್ಥಾನ (1938 ರಿಂದ) — 3,300 ಕ್ಕೂ ಹೆಚ್ಚು ಪುಸ್ತಕಗಳನ್ನು ಪ್ರಕಟಿಸಿದೆ."
     },
@@ -96,7 +96,7 @@
       "hi": "विश्व पर्यावरण दिवस (5 जून), वन महोत्सव एवं अन्य अवसर",
       "kn": "ವಿಶ್ವ ಪರಿಸರ ದಿನ (ಜೂನ್ 5), ವನ ಮಹೋತ್ಸವ ಮತ್ತು ಇತರ ಸಂದರ್ಭಗಳು"
     },
-    "title": { "en": "Tree Plantation Drive", "hi": "वृक्षारोपण अभियान", "kn": "ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ" },
+    "title": { "en": "Tree Plantation Drives", "hi": "वृक्षारोपण अभियान", "kn": "ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ" },
     "subtitle": { "en": "Caring for the Earth as an Act of Seva", "hi": "सेवा के रूप में पृथ्वी की देखभाल", "kn": "ಸೇವೆಯ ಕಾರ್ಯವಾಗಿ ಭೂಮಿಯ ಆರೈಕೆ" },
     "intro": {
       "en": "Environment protection is a core part of AWGP's mission. Gurudev was a pioneer of ecological consciousness decades before it became mainstream. Our tree plantation drives are held on World Environment Day, Van Mahotsav, and other occasions — bringing members together to serve Mother Earth.",

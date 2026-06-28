@@ -124,6 +124,24 @@
   margin-bottom: 1.1rem;
 }
 
+/* ── Founder name — highlighted inline link to /about#founders ── */
+.home-welcome__founder-link {
+  color: var(--maroon);
+  font-weight: 700;
+  text-decoration: none;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  transition: color 0.25s ease, background-size 0.25s ease;
+}
+.home-welcome__founder-link:hover,
+.home-welcome__founder-link:focus-visible {
+  color: var(--maroon-dk);
+  background-image: linear-gradient(var(--gold-pale), var(--gold-pale));
+  background-size: 100% 100%;
+}
+
 /* ── CTA ── */
 .home-welcome__cta {
   text-transform: uppercase;

@@ -25,8 +25,8 @@ const aboutMenu = [
 const programsMenu = [
   { href: '/programs/festivals',       en: 'Festival Celebrations',  hi: 'पर्व उत्सव',             kn: 'ಹಬ್ಬದ ಆಚರಣೆಗಳು' },
   { href: '/programs/yagya-events',    en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
-  { href: '/programs/book-fair',       en: 'Book Fair',              hi: 'पुस्तक मेला',            kn: 'ಪುಸ್ತಕ ಮೇಳ' },
-  { href: '/programs/tree-plantation', en: 'Tree Plantation',        hi: 'वृक्षारोपण',             kn: 'ವೃಕ್ಷಾರೋಪಣ' },
+  { href: '/programs/book-fair',       en: 'Book Exhibitions',       hi: 'पुस्तक प्रदर्शनी',        kn: 'ಪುಸ್ತಕ ಪ್ರದರ್ಶನ' },
+  { href: '/programs/tree-plantation', en: 'Tree Plantation Drives', hi: 'वृक्षारोपण अभियान',       kn: 'ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ' },
 ];
 
 const activitiesMenu = [

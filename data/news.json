@@ -52,16 +52,16 @@
       "id": "book-fair-2026",
       "image": "/assets/activities/book-fair.jpg",
       "date": "2026-04-28",
-      "tag": { "en": "Book Fair", "hi": "पुस्तक मेला", "kn": "ಪುಸ್ತಕ ಮೇಳ" },
+      "tag": { "en": "Book Exhibitions", "hi": "पुस्तक प्रदर्शनी", "kn": "ಪುಸ್ತಕ ಪ್ರದರ್ಶನ" },
       "title": {
-        "en": "Yug Sahitya Book Fair Returns to Bengaluru",
-        "hi": "युग साहित्य पुस्तक मेला बेंगलूरु में पुनः",
-        "kn": "ಯುಗ ಸಾಹಿತ್ಯ ಪುಸ್ತಕ ಮೇಳ ಬೆಂಗಳೂರಿಗೆ ಮರಳಿದೆ"
+        "en": "Yug Sahitya Book Exhibition Returns to Bengaluru",
+        "hi": "युग साहित्य पुस्तक प्रदर्शनी बेंगलूरु में पुनः",
+        "kn": "ಯುಗ ಸಾಹಿತ್ಯ ಪುಸ್ತಕ ಪ್ರದರ್ಶನ ಬೆಂಗಳೂರಿಗೆ ಮರಳಿದೆ"
       },
       "blurb": {
-        "en": "Thousands of visitors explored Gurudev's literature in Kannada, Hindi and English at the annual fair.",
-        "hi": "वार्षिक मेले में हजारों आगंतुकों ने कन्नड़, हिंदी और अंग्रेज़ी में गुरुदेव का साहित्य देखा-पढ़ा।",
-        "kn": "ವಾರ್ಷಿಕ ಮೇಳದಲ್ಲಿ ಸಾವಿರಾರು ಭೇಟಿಗಾರರು ಕನ್ನಡ, ಹಿಂದಿ ಮತ್ತು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಗುರುದೇವರ ಸಾಹಿತ್ಯವನ್ನು ವೀಕ್ಷಿಸಿದರು."
+        "en": "Thousands of visitors explored Gurudev's literature in Kannada, Hindi and English at the annual exhibition.",
+        "hi": "वार्षिक प्रदर्शनी में हजारों आगंतुकों ने कन्नड़, हिंदी और अंग्रेज़ी में गुरुदेव का साहित्य देखा-पढ़ा।",
+        "kn": "ವಾರ್ಷಿಕ ಪ್ರದರ್ಶನದಲ್ಲಿ ಸಾವಿರಾರು ಭೇಟಿಗಾರರು ಕನ್ನಡ, ಹಿಂದಿ ಮತ್ತು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಗುರುದೇವರ ಸಾಹಿತ್ಯವನ್ನು ವೀಕ್ಷಿಸಿದರು."
       }
     },
     {
