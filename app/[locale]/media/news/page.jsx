@@ -4,16 +4,23 @@ import { Newspaper, ArrowUpRight } from 'lucide-react';
 import HeroSection from '../../../../components/ui/HeroSection';
 import HighlightsClient from '../../../../components/ui/HighlightsClient';
 import newsData from '../../../../data/news.json';
+import { buildMetadata } from '../../../../lib/seo/metadata';
 import '../../../../components/ui/Media.css';
+
+const NEWS_TITLE = {
+  en: 'Press & Highlights — AWGP Bengaluru in the News',
+  hi: 'समाचार एवं झलकियाँ — सुर्खियों में AWGP बेंगलूरु',
+  kn: 'ಸುದ್ದಿ ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು — ಸುದ್ದಿಯಲ್ಲಿ AWGP ಬೆಂಗಳೂರು',
+};
+const NEWS_DESC = {
+  en: 'Press coverage, milestones and highlights from AWGP Bengaluru — Yagyas, community seva and spiritual programs reported across Bangalore.',
+  hi: 'AWGP बेंगलूरु की प्रेस कवरेज, उपलब्धियां एवं झलकियाँ — यज्ञ, सामुदायिक सेवा एवं आध्यात्मिक कार्यक्रम।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನ ಪತ್ರಿಕಾ ವರದಿ, ಸಾಧನೆಗಳು ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು — ಯಜ್ಞ, ಸಮುದಾಯ ಸೇವೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಕಾರ್ಯಕ್ರಮಗಳು.',
+};
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = {
-    en: 'Press & Highlights — AWGP Bengaluru',
-    hi: 'समाचार एवं झलकियाँ — AWGP बेंगलूरु',
-    kn: 'ಸುದ್ದಿ ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು — AWGP ಬೆಂಗಳೂರು',
-  };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/media/news', title: NEWS_TITLE, description: NEWS_DESC });
 }
 
 const formatDate = (iso, locale) => {

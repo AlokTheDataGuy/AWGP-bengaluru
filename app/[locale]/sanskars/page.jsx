@@ -4,19 +4,26 @@ import data from '../../../data-json-files/sanskars/sanskars.json';
 import { SANSKAR_IMG, SANSKAR_STAGE } from './sanskarMeta';
 import SanskarsGrid from './SanskarsGrid';
 import SanskarsIntro from './SanskarsIntro';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import FaqSection from '../../../components/seo/FaqSection';
+import { buildMetadata } from '../../../lib/seo/metadata';
+import { getFaqs } from '../../../lib/seo/faqs';
 import './Sanskars.css';
+
+const SANSKARS_TITLE = {
+  en: 'Sanskars — The 16 Vedic Sacraments (Shodash Sanskar)',
+  hi: 'संस्कार — सोलह वैदिक संस्कार (षोडश संस्कार)',
+  kn: 'ಸಂಸ್ಕಾರಗಳು — ಹದಿನಾರು ವೈದಿಕ ಸಂಸ್ಕಾರಗಳು (ಷೋಡಶ ಸಂಸ್ಕಾರ)',
+};
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = {
-    en: 'Sanskars — AWGP Bengaluru',
-    hi: 'संस्कार — AWGP बेंगलूरु',
-    kn: 'ಸಂಸ್ಕಾರಗಳು — AWGP ಬೆಂಗಳೂರು',
-  };
-  return {
-    title: titles[locale] || titles.en,
-    description: data.meta.seoDescription[locale] || data.meta.seoDescription.en,
-  };
+  return buildMetadata({
+    locale,
+    path: '/sanskars',
+    title: SANSKARS_TITLE,
+    description: data.meta?.seoDescription,
+  });
 }
 
 export default async function SanskarsPage({ params }) {
@@ -48,6 +55,13 @@ export default async function SanskarsPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'संस्कार' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳು' : 'Sanskars', path: '/sanskars' },
+        ]}
+      />
       <HeroSection
         title={locale === 'hi' ? 'संस्कार' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳು' : 'Sanskars'}
         subtitle={
@@ -97,6 +111,13 @@ export default async function SanskarsPage({ params }) {
           </Link>
         </div>
       </section>
+
+      <FaqSection
+        items={getFaqs('sanskars', locale)}
+        eyebrow={locale === 'hi' ? 'संस्कारों के बारे में' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳ ಬಗ್ಗೆ' : 'About Sanskars'}
+        heading={locale === 'hi' ? 'अक्सर पूछे जाने वाले प्रश्न' : locale === 'kn' ? 'ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು' : 'Frequently Asked Questions'}
+        id="sanskars-faq"
+      />
     </>
   );
 }

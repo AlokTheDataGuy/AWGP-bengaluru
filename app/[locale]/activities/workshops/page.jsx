@@ -1,16 +1,24 @@
 import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import { Link } from '../../../../lib/i18n/navigation';
+import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../../lib/seo/metadata';
 import './Workshops.css';
+
+const WORKSHOPS_TITLE = {
+  en: 'Vedic Workshops & Shivirs in Bangalore — Personality Development',
+  hi: 'बेंगलूरु में वैदिक कार्यशालाएं एवं शिविर — व्यक्तित्व विकास',
+  kn: 'ಬೆಂಗಳೂರಿನಲ್ಲಿ ವೈದಿಕ ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು — ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ',
+};
+const WORKSHOPS_DESC = {
+  en: 'Transformative Vedic workshops, personality-development shivirs and self-management camps at AWGP Bengaluru — practical wisdom for students, families and professionals, free and open to all.',
+  hi: 'AWGP बेंगलूरु में परिवर्तनकारी वैदिक कार्यशालाएं, व्यक्तित्व विकास शिविर एवं आत्म-प्रबंधन शिविर — विद्यार्थियों, परिवारों एवं व्यवसायियों के लिए व्यावहारिक ज्ञान, नि:शुल्क।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪರಿವರ್ತನಕಾರಿ ವೈದಿಕ ಕಾರ್ಯಾಗಾರಗಳು, ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ ಶಿಬಿರಗಳು ಮತ್ತು ಆತ್ಮ-ನಿರ್ವಹಣಾ ಶಿಬಿರಗಳು — ವಿದ್ಯಾರ್ಥಿಗಳು, ಕುಟುಂಬಗಳಿಗೆ ಉಚಿತ.',
+};
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = {
-    en: 'Workshops & Shivirs — AWGP Bengaluru',
-    hi: 'कार्यशालाएं एवं शिविर — AWGP बेंगलूरु',
-    kn: 'ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು — AWGP ಬೆಂಗಳೂರು',
-  };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/activities/workshops', title: WORKSHOPS_TITLE, description: WORKSHOPS_DESC });
 }
 
 export default async function WorkshopsPage({ params }) {
@@ -18,6 +26,14 @@ export default async function WorkshopsPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'गतिविधियां' : locale === 'kn' ? 'ಚಟುವಟಿಕೆಗಳು' : 'Activities', path: '/activities' },
+          { name: locale === 'hi' ? 'कार्यशालाएं' : locale === 'kn' ? 'ಕಾರ್ಯಾಗಾರಗಳು' : 'Workshops', path: '/activities/workshops' },
+        ]}
+      />
       <HeroSection
         title={locale === 'hi' ? 'कार्यशालाएं एवं शिविर' : locale === 'kn' ? 'ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು' : 'Workshops & Shivirs'}
         subtitle={

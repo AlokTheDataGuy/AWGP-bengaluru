@@ -5,6 +5,7 @@ import { Link } from '../../../../lib/i18n/navigation';
 import '../../../../components/ui/DetailPage.css';
 import './Sadhana.css';
 import sadhanaData from '../../../../data-json-files/activities/sadhana-activities.json';
+import { buildMetadata } from '../../../../lib/seo/metadata';
 
 const SADHANA_VISUALS = {
   'akhand-jap': { icon: '🕉', img: '/assets/programs/akhand-jap.jpeg' },
@@ -13,10 +14,20 @@ const SADHANA_VISUALS = {
   'chandrayaan-kalp-sadhana': { icon: '🌙', img: '/assets/programs/chandrayan.jpg' },
 };
 
+const SADHANA_ACT_TITLE = {
+  en: 'Sadhana — Akhand Jap, Anusthan & Gayatri Practice',
+  hi: 'साधना — अखंड जप, अनुष्ठान एवं गायत्री साधना',
+  kn: 'ಸಾಧನೆ — ಅಖಂಡ ಜಪ, ಅನುಷ್ಠಾನ ಮತ್ತು ಗಾಯತ್ರಿ ಸಾಧನೆ',
+};
+const SADHANA_ACT_DESC = {
+  en: 'Daily and seasonal Gayatri Sadhana at AWGP Bengaluru — Akhand Jap, Anusthan, Antah Urja Jagran and Kalp Sadhana. Join collective spiritual practice rooted in the Gayatri Mantra.',
+  hi: 'AWGP बेंगलूरु में दैनिक एवं मौसमी गायत्री साधना — अखंड जप, अनुष्ठान, अंतःऊर्जा जागरण एवं कल्प साधना। गायत्री मंत्र पर आधारित सामूहिक साधना में सम्मिलित हों।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ದೈನಂದಿನ ಮತ್ತು ಋತುಮಾನ ಗಾಯತ್ರಿ ಸಾಧನೆ — ಅಖಂಡ ಜಪ, ಅನುಷ್ಠಾನ, ಅಂತಃ ಊರ್ಜಾ ಜಾಗರಣ ಮತ್ತು ಕಲ್ಪ ಸಾಧನೆ.',
+};
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Sadhana — AWGP Bengaluru', hi: 'साधना — AWGP बेंगलूरु', kn: 'ಸಾಧನೆ — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/activities/sadhana', title: SADHANA_ACT_TITLE, description: SADHANA_ACT_DESC });
 }
 
 export default async function SadhanaPage({ params }) {

@@ -124,7 +124,7 @@ const SLIDES = [
   {
     id: 'programs',
     image: '/assets/homepage/hero/programs-hero1.png',
-    imageMobile: '/assets/homepage/hero/programs-hero.png',
+    imageMobile: '/assets/homepage/hero/programs-hero1.png',
     en: {
       eyebrow: 'Programs',
       title: 'Festivals, Yagya & Shivirs',

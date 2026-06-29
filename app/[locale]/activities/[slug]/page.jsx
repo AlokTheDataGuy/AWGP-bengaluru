@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
 import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
+import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../../lib/seo/metadata';
 import activitiesData from '../../../../data/activities.json';
 import '../../../../components/ui/DetailPage.css';
 
@@ -13,7 +15,14 @@ export async function generateMetadata({ params }) {
   const { locale, slug } = await params;
   const activity = activitiesData.find((a) => a.slug === slug);
   if (!activity) return {};
-  return { title: `${activity.title[locale] || activity.title.en} — AWGP Bengaluru` };
+  const L = (obj) => (obj && (obj[locale] || obj.en)) || '';
+  return buildMetadata({
+    locale,
+    path: `/activities/${slug}`,
+    title: L(activity.title),
+    description: L(activity.subtitle) || L(activity.intro),
+    images: activity.img ? [activity.img] : undefined,
+  });
 }
 
 export default async function ActivityDetailPage({ params }) {
@@ -36,6 +45,14 @@ export default async function ActivityDetailPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: activitiesLabel, path: '/activities' },
+          { name: L(activity.title), path: `/activities/${slug}` },
+        ]}
+      />
       <HeroSection
         title={L(activity.title)}
         subtitle={L(activity.subtitle)}

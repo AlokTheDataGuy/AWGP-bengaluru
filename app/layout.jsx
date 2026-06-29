@@ -1,6 +1,7 @@
 import { Mukta, Noto_Sans_Kannada, Source_Sans_3 } from 'next/font/google';
 import './globals.css';
 import SiteLoader from '../components/ui/SiteLoader';
+import { SITE_URL, siteConfig } from '../lib/seo/siteConfig';
 
 // Source Sans 3 — humanist text sans used as the English body/UI face
 // (warmer & more legible than the geometric Jost it replaced).
@@ -26,15 +27,71 @@ const notoKannada = Noto_Sans_Kannada({
 });
 
 export const metadata = {
-  title: 'AWGP Bengaluru — Gayatri Chetna Kendra',
-  description:
-    'All World Gayatri Pariwar Bengaluru — a centre of spiritual practice, service, and community rooted in the Gayatri tradition.',
-  keywords: 'AWGP, Gayatri Pariwar, Bengaluru, Shantikunj, Yagya, Sanskar',
+  // Resolves all relative URLs (canonicals, OG images) to absolute ones.
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: siteConfig.defaultTitle,
+    template: siteConfig.titleTemplate,
+  },
+  description: siteConfig.description.en,
+  applicationName: siteConfig.name,
+  authors: [{ name: siteConfig.legalName }],
+  creator: siteConfig.legalName,
+  publisher: siteConfig.legalName,
+  formatDetection: { telephone: true, address: true, email: true },
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    siteName: siteConfig.name,
+    title: siteConfig.defaultTitle,
+    description: siteConfig.description.en,
+    url: SITE_URL,
+    locale: 'en_IN',
+    alternateLocale: ['hi_IN', 'kn_IN'],
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: siteConfig.ogImageWidth,
+        height: siteConfig.ogImageHeight,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.defaultTitle,
+    description: siteConfig.description.en,
+    images: [siteConfig.ogImage],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+  },
+  manifest: '/site.webmanifest',
+  ...(siteConfig.googleSiteVerification
+    ? { verification: { google: siteConfig.googleSiteVerification } }
+    : {}),
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <body className={`${mukta.variable} ${notoKannada.variable} ${sourceSans.variable}`}>
         <SiteLoader />
         {children}

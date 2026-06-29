@@ -3,6 +3,8 @@ import data from '../../../../data-json-files/sanskars/sanskars.json';
 import { SANSKAR_IMG, SANSKAR_STAGE } from '../sanskarMeta';
 import HeroSection from '../../../../components/ui/HeroSection';
 import SanskarDetailView from './SanskarDetailView';
+import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../../lib/seo/metadata';
 import './SanskarDetail.css';
 
 export function generateStaticParams() {
@@ -15,7 +17,13 @@ export async function generateMetadata({ params }) {
   if (!s) return {};
   const name = s.name[locale] || s.name.en;
   const summary = (s.summary && (s.summary[locale] || s.summary.en)) || '';
-  return { title: `${name} — AWGP Bengaluru`, description: summary };
+  return buildMetadata({
+    locale,
+    path: `/sanskars/${slug}`,
+    title: { en: `${s.name.en} Sanskar`, hi: `${s.name.hi || s.name.en} संस्कार`, kn: `${s.name.kn || s.name.en} ಸಂಸ್ಕಾರ` },
+    description: summary,
+    images: SANSKAR_IMG[slug] ? [SANSKAR_IMG[slug]] : undefined,
+  });
 }
 
 export default async function SanskarDetailPage({ params }) {
@@ -66,6 +74,14 @@ export default async function SanskarDetailPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'संस्कार' : locale === 'kn' ? 'ಸಂಸ್ಕಾರಗಳು' : 'Sanskars', path: '/sanskars' },
+          { name: view.name, path: `/sanskars/${slug}` },
+        ]}
+      />
       <HeroSection
         title={view.name}
         subtitle={summary || undefined}

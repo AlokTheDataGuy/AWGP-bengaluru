@@ -1,13 +1,25 @@
 import { Link } from '../../../lib/i18n/navigation';
 import Image from 'next/image';
 import HeroSection from '../../../components/ui/HeroSection';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import blogData from '../../../data/blog.json';
 import './Blog.css';
 
+const BLOG_TITLE = {
+  en: 'Blog & Reflections — Gayatri Wisdom, Sadhana & Vedic Living',
+  hi: 'ब्लॉग एवं विचार — गायत्री ज्ञान, साधना एवं वैदिक जीवन',
+  kn: 'ಬ್ಲಾಗ್ ಮತ್ತು ಚಿಂತನೆ — ಗಾಯತ್ರಿ ಜ್ಞಾನ, ಸಾಧನೆ ಮತ್ತು ವೈದಿಕ ಜೀವನ',
+};
+const BLOG_DESC = {
+  en: 'Articles and reflections from AWGP Bengaluru on the Gayatri Mantra, Yagya, meditation, Sanskars and applying Vedic wisdom to everyday life.',
+  hi: 'गायत्री मंत्र, यज्ञ, ध्यान, संस्कार एवं दैनिक जीवन में वैदिक ज्ञान के प्रयोग पर AWGP बेंगलूरु के लेख एवं विचार।',
+  kn: 'ಗಾಯತ್ರಿ ಮಂತ್ರ, ಯಜ್ಞ, ಧ್ಯಾನ, ಸಂಸ್ಕಾರ ಮತ್ತು ದೈನಂದಿನ ಜೀವನದಲ್ಲಿ ವೈದಿಕ ಜ್ಞಾನದ ಬಗ್ಗೆ AWGP ಬೆಂಗಳೂರಿನ ಲೇಖನಗಳು ಮತ್ತು ಚಿಂತನೆಗಳು.',
+};
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Blogs — AWGP Bengaluru', hi: 'ब्लॉग — AWGP बेंगलूरु', kn: 'ಬ್ಲಾಗ್ — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/blog', title: BLOG_TITLE, description: BLOG_DESC });
 }
 
 const formatDate = (iso, locale) => {
@@ -30,6 +42,13 @@ export default async function BlogIndexPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'ब्लॉग' : locale === 'kn' ? 'ಬ್ಲಾಗ್' : 'Blog', path: '/blog' },
+        ]}
+      />
       <HeroSection
         title={locale === 'hi' ? 'ब्लॉग एवं विचार' : locale === 'kn' ? 'ಬ್ಲಾಗ್ ಮತ್ತು ಚಿಂತನೆ' : 'Blog & Reflections'}
         subtitle={locale === 'hi' ? 'ज्ञान, साधना और जीवन-परिवर्तन की प्रेरक कहानियाँ' : locale === 'kn' ? 'ಜ್ಞಾನ, ಸಾಧನೆ ಮತ್ತು ಜೀವನ-ಪರಿವರ್ತನೆಯ ಪ್ರೇರಕ ಕಥೆಗಳು' : 'Insights, reflections, and stories of inner transformation'}

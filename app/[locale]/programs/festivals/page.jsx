@@ -4,16 +4,37 @@ import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import ReadMore from '../../../../components/ui/ReadMore';
 import festivalsData from '../../../../data-json-files/programs/festivals.json';
+import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
+import JsonLd from '../../../../components/seo/JsonLd';
+import { buildMetadata, localeUrl } from '../../../../lib/seo/metadata';
+import { eventSchema } from '../../../../lib/seo/schema';
+import eventsData from '../../../../data/programs.json';
 import './Festivals.css';
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const d = festivalsData.meta.seoDescription;
   const t = festivalsData.hero.title;
-  return {
-    title: `${t[locale] || t.en} — AWGP Bengaluru`,
-    description: d[locale] || d.en,
-  };
+  return buildMetadata({
+    locale,
+    path: '/programs/festivals',
+    title: { en: `${t.en} — Hindu Festivals at AWGP Bengaluru`, hi: t.hi || t.en, kn: t.kn || t.en },
+    description: d,
+  });
+}
+
+function festivalEventsJsonLd(locale) {
+  return eventsData.map((e) =>
+    eventSchema({
+      name: e.title[locale] || e.title.en,
+      startDate: e.date,
+      description: e.desc[locale] || e.desc.en,
+      image: e.img,
+      url: localeUrl(locale, '/programs/festivals'),
+      locationName: e.location[locale] || e.location.en,
+      registrationUrl: localeUrl(locale, '/contact'),
+    })
+  );
 }
 
 /* ── Image map: festival-id → best photo path ── */
@@ -135,6 +156,15 @@ export default async function FestivalsPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'कार्यक्रम' : locale === 'kn' ? 'ಕಾರ್ಯಕ್ರಮಗಳು' : 'Programs', path: '/programs' },
+          { name: locale === 'hi' ? 'पर्व उत्सव' : locale === 'kn' ? 'ಹಬ್ಬಗಳು' : 'Festivals', path: '/programs/festivals' },
+        ]}
+      />
+      <JsonLd data={festivalEventsJsonLd(locale)} id="festival-events" />
       {/* ── Hero ── */}
       <HeroSection
         title={loc(festivalsData.hero.title)}

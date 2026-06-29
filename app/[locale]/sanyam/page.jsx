@@ -1,8 +1,17 @@
 import PillarPage from '../../../components/pillars/PillarPage';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import data from '../../../data-json-files/sanyam.json';
 
 const SEAL = '/assets/icon/sanyam1.png';
 const IMG = '/assets/pillars/sanyam';
+const PILLAR_NAME = { en: 'Sanyam — Self-Discipline', hi: 'संयम — आत्म-अनुशासन', kn: 'ಸಂಯಮ — ಆತ್ಮ-ಶಿಸ್ತು' };
+const HOME_LABEL = { en: 'Home', hi: 'होम', kn: 'ಮುಖಪುಟ' };
+const PILLAR_DESC = {
+  en: 'Sanyam (self-discipline) is the third pillar of Gayatri Pariwar sadhana — mastering the senses (indriya), thought (vichar), time (samay) and resources (artha). Learn the four forms of self-restraint taught by Gurudev Shri Ram Sharma Acharya.',
+  hi: 'संयम (आत्म-अनुशासन) गायत्री परिवार साधना का तीसरा स्तंभ है — इंद्रिय, विचार, समय एवं अर्थ का संयम। गुरुदेव श्रीराम शर्मा आचार्य द्वारा सिखाए संयम के चार रूप जानें।',
+  kn: 'ಸಂಯಮ (ಆತ್ಮ-ಶಿಸ್ತು) ಗಾಯತ್ರಿ ಪರಿವಾರ ಸಾಧನೆಯ ಮೂರನೇ ಸ್ತಂಭ — ಇಂದ್ರಿಯ, ವಿಚಾರ, ಸಮಯ ಮತ್ತು ಅರ್ಥದ ಸಂಯಮ. ಗುರುದೇವ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಕಲಿಸಿದ ಸಂಯಮದ ನಾಲ್ಕು ರೂಪಗಳನ್ನು ತಿಳಿಯಿರಿ.',
+};
 
 const SECTION_LABELS = {
   'what-is-sanyam': { en: 'The Meaning', hi: 'अर्थ', kn: 'ಅರ್ಥ' },
@@ -21,8 +30,12 @@ const TYPE_IMG = {
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Sanyam — AWGP Bengaluru', hi: 'संयम — AWGP बेंगलूरु', kn: 'ಸಂಯಮ — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({
+    locale,
+    path: '/sanyam',
+    title: PILLAR_NAME,
+    description: data.meta?.seoDescription || PILLAR_DESC,
+  });
 }
 
 export default async function SanyamPillarPage({ params }) {
@@ -73,6 +86,14 @@ export default async function SanyamPillarPage({ params }) {
   };
 
   return (
+    <>
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        { name: L(HOME_LABEL), path: '/' },
+        { name: L(PILLAR_NAME), path: '/sanyam' },
+      ]}
+    />
     <PillarPage
       locale={locale}
       slug="sanyam"
@@ -83,5 +104,6 @@ export default async function SanyamPillarPage({ params }) {
       practice={practice}
       resources={resources}
     />
+    </>
   );
 }

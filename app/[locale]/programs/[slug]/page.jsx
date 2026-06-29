@@ -3,10 +3,17 @@ import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import ReadMore from '../../../../components/ui/ReadMore';
+import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
+import FaqSection from '../../../../components/seo/FaqSection';
+import JsonLd from '../../../../components/seo/JsonLd';
+import { buildMetadata, localeUrl } from '../../../../lib/seo/metadata';
+import { eventSchema } from '../../../../lib/seo/schema';
+import { getFaqs } from '../../../../lib/seo/faqs';
 import programTypesData from '../../../../data/program-types.json';
 import yagyaData       from '../../../../data-json-files/programs/yagya.json';
 import bookFairData    from '../../../../data-json-files/programs/book-fairs.json';
 import treePlantData   from '../../../../data-json-files/programs/tree-plantation-our-work-section.json';
+import eventsData      from '../../../../data/programs.json';
 import './ProgramDetail.css';
 
 export async function generateStaticParams() {
@@ -18,7 +25,12 @@ export async function generateMetadata({ params }) {
   const program = programTypesData.find((p) => p.slug === slug);
   if (!program) return {};
   const L = (obj) => (obj && (obj[locale] || obj.en)) || '';
-  return { title: `${L(program.title)} — AWGP Bengaluru` };
+  return buildMetadata({
+    locale,
+    path: `/programs/${slug}`,
+    title: L(program.title),
+    description: L(program.subtitle) || L(program.intro),
+  });
 }
 
 const CHECK_ICON = (
@@ -33,6 +45,37 @@ export default async function ProgramDetailPage({ params }) {
   if (!program) notFound();
 
   const L = (obj) => (obj && (obj[locale] || obj.en)) || '';
+
+  /* ── Breadcrumb + per-program structured data (invisible, design-safe) ── */
+  const programsLabel = locale === 'hi' ? 'कार्यक्रम' : locale === 'kn' ? 'ಕಾರ್ಯಕ್ರಮಗಳು' : 'Programs';
+  const homeLabel = locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home';
+  const festivalEvents =
+    slug === 'festivals'
+      ? eventsData.map((e) =>
+          eventSchema({
+            name: e.title[locale] || e.title.en,
+            startDate: e.date,
+            description: e.desc[locale] || e.desc.en,
+            image: e.img,
+            url: localeUrl(locale, '/programs/festivals'),
+            locationName: e.location[locale] || e.location.en,
+            registrationUrl: localeUrl(locale, '/contact'),
+          })
+        )
+      : [];
+  const seo = (
+    <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: homeLabel, path: '/' },
+          { name: programsLabel, path: '/programs' },
+          { name: L(program.title), path: `/programs/${slug}` },
+        ]}
+      />
+      {festivalEvents.length > 0 && <JsonLd data={festivalEvents} id="festival-events" />}
+    </>
+  );
 
   /* ── Shared labels ── */
   const lbl = {
@@ -109,6 +152,7 @@ export default async function ProgramDetailPage({ params }) {
   if (slug === 'festivals') {
     return (
       <>
+        {seo}
         <HeroSection
           title={L(program.title)}
           subtitle={L(program.subtitle)}
@@ -165,6 +209,7 @@ export default async function ProgramDetailPage({ params }) {
     const KUND_MAP = { '24': '24', '9': '9', '5': '5', '3': '3', 'home': '🏠' };
     return (
       <>
+        {seo}
         <HeroSection
           title={L(program.title)}
           subtitle={L(program.subtitle)}
@@ -218,6 +263,13 @@ export default async function ProgramDetailPage({ params }) {
             <Sidebar />
           </div>
         </div>
+        <FaqSection
+          items={getFaqs('yagya', locale)}
+          eyebrow={locale === 'hi' ? 'यज्ञ के बारे में' : locale === 'kn' ? 'ಯಜ್ಞದ ಬಗ್ಗೆ' : 'About Yagya'}
+          heading={locale === 'hi' ? 'यज्ञ — अक्सर पूछे जाने वाले प्रश्न' : locale === 'kn' ? 'ಯಜ್ಞ — ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು' : 'Yagya — Frequently Asked Questions'}
+          id="yagya-faq"
+          background="cream-dark"
+        />
         <CtaStrip />
       </>
     );
@@ -229,6 +281,7 @@ export default async function ProgramDetailPage({ params }) {
   if (slug === 'book-fair') {
     return (
       <>
+        {seo}
         <HeroSection
           title={L(program.title)}
           subtitle={L(program.subtitle)}
@@ -293,6 +346,7 @@ export default async function ProgramDetailPage({ params }) {
   if (slug === 'tree-plantation') {
     return (
       <>
+        {seo}
         <HeroSection
           title={L(program.title)}
           subtitle={L(program.subtitle)}
@@ -361,6 +415,7 @@ export default async function ProgramDetailPage({ params }) {
   ───────────────────────────────────────────────────────── */
   return (
     <>
+      {seo}
       <HeroSection
         title={L(program.title)}
         subtitle={L(program.subtitle)}

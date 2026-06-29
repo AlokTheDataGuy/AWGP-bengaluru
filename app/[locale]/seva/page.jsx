@@ -1,8 +1,17 @@
 import PillarPage from '../../../components/pillars/PillarPage';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import data from '../../../data-json-files/seva.json';
 
 const SEAL = '/assets/icon/seva1.png';
 const IMG = '/assets/pillars/seva';
+const PILLAR_NAME = { en: 'Seva — Selfless Service', hi: 'सेवा — निःस्वार्थ सेवा', kn: 'ಸೇವೆ — ನಿಃಸ್ವಾರ್ಥ ಸೇವೆ' };
+const HOME_LABEL = { en: 'Home', hi: 'होम', kn: 'ಮುಖಪುಟ' };
+const PILLAR_DESC = {
+  en: 'Seva (selfless service) is the fourth pillar of Gayatri Pariwar sadhana — giving time (samaydaan) and a share of one’s earnings (anshdaan) for the good of all. See how AWGP Bengaluru turns spiritual practice into community service.',
+  hi: 'सेवा (निःस्वार्थ सेवा) गायत्री परिवार साधना का चौथा स्तंभ है — समयदान एवं अंशदान द्वारा सबके हित में योगदान। देखें कैसे AWGP बेंगलूरु अध्यात्म को सामुदायिक सेवा में बदलता है।',
+  kn: 'ಸೇವೆ (ನಿಃಸ್ವಾರ್ಥ ಸೇವೆ) ಗಾಯತ್ರಿ ಪರಿವಾರ ಸಾಧನೆಯ ನಾಲ್ಕನೇ ಸ್ತಂಭ — ಸಮಯದಾನ ಮತ್ತು ಅಂಶದಾನದ ಮೂಲಕ ಎಲ್ಲರ ಹಿತಕ್ಕಾಗಿ ಕೊಡುಗೆ. AWGP ಬೆಂಗಳೂರು ಅಧ್ಯಾತ್ಮವನ್ನು ಸಮುದಾಯ ಸೇವೆಯಾಗಿ ಪರಿವರ್ತಿಸುವುದನ್ನು ನೋಡಿ.',
+};
 
 const SECTION_LABELS = {
   'what-is-seva': { en: 'The Meaning', hi: 'अर्थ', kn: 'ಅರ್ಥ' },
@@ -19,8 +28,12 @@ const TYPE_IMG = {
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Seva — AWGP Bengaluru', hi: 'सेवा — AWGP बेंगलूरु', kn: 'ಸೇವೆ — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({
+    locale,
+    path: '/seva',
+    title: PILLAR_NAME,
+    description: data.meta?.seoDescription || PILLAR_DESC,
+  });
 }
 
 export default async function SevaPillarPage({ params }) {
@@ -78,6 +91,14 @@ export default async function SevaPillarPage({ params }) {
   };
 
   return (
+    <>
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        { name: L(HOME_LABEL), path: '/' },
+        { name: L(PILLAR_NAME), path: '/seva' },
+      ]}
+    />
     <PillarPage
       locale={locale}
       slug="seva"
@@ -89,5 +110,6 @@ export default async function SevaPillarPage({ params }) {
       practice={practice}
       resources={resources}
     />
+    </>
   );
 }

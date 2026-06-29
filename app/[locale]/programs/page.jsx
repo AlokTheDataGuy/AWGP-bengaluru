@@ -2,13 +2,52 @@ import Image from 'next/image';
 import { Link } from '../../../lib/i18n/navigation';
 import HeroSection from '../../../components/ui/HeroSection';
 import Reveal from '../../../components/ui/Reveal';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import JsonLd from '../../../components/seo/JsonLd';
+import { buildMetadata, localeUrl } from '../../../lib/seo/metadata';
+import { eventSchema } from '../../../lib/seo/schema';
 import programTypesData from '../../../data/program-types.json';
+import eventsData from '../../../data/programs.json';
 import './Programs.css';
+
+const PROGRAMS_TITLE = {
+  en: 'Programs — Festivals, Yagya & Spiritual Shivirs',
+  hi: 'कार्यक्रम — उत्सव, यज्ञ एवं आध्यात्मिक शिविर',
+  kn: 'ಕಾರ್ಯಕ್ರಮಗಳು — ಹಬ್ಬಗಳು, ಯಜ್ಞ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಶಿಬಿರಗಳು',
+};
+
+const PROGRAMS_DESC = {
+  en: 'Free festivals, Yagya ceremonies, Akhand Jap, Bal Sanskar Shala and transformative shivirs at AWGP Bengaluru. Every program is open to all — no fee, no registration. See upcoming events.',
+  hi: 'AWGP बेंगलूरु में नि:शुल्क उत्सव, यज्ञ अनुष्ठान, अखंड जप, बाल संस्कार शाला एवं परिवर्तनकारी शिविर। हर कार्यक्रम सभी के लिए खुला — कोई शुल्क नहीं, कोई पंजीकरण नहीं।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಉಚಿತ ಹಬ್ಬಗಳು, ಯಜ್ಞ ಆಚರಣೆಗಳು, ಅಖಂಡ ಜಪ, ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು. ಪ್ರತಿ ಕಾರ್ಯಕ್ರಮ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.',
+};
+
+const PROGRAMS_BC = {
+  home: { en: 'Home', hi: 'होम', kn: 'ಮುಖಪುಟ' },
+  programs: { en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' },
+};
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Programs — AWGP Bengaluru', hi: 'कार्यक्रम — AWGP बेंगलूरु', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/programs', title: PROGRAMS_TITLE, description: PROGRAMS_DESC });
+}
+
+/** Upcoming dated events → Event JSON-LD (festival schema). */
+function eventsJsonLd(locale) {
+  const today = new Date();
+  return eventsData
+    .filter((e) => new Date(e.date) >= new Date(today.getFullYear() - 1, 0, 1))
+    .map((e) =>
+      eventSchema({
+        name: (e.title[locale] || e.title.en),
+        startDate: e.date,
+        description: e.desc[locale] || e.desc.en,
+        image: e.img,
+        url: localeUrl(locale, '/programs/festivals'),
+        locationName: e.location[locale] || e.location.en,
+        registrationUrl: localeUrl(locale, '/contact'),
+      })
+    );
 }
 
 /* Richer banner images per program slug */
@@ -52,6 +91,14 @@ export default async function ProgramsIndexPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: loc(PROGRAMS_BC.home), path: '/' },
+          { name: loc(PROGRAMS_BC.programs), path: '/programs' },
+        ]}
+      />
+      <JsonLd data={eventsJsonLd(locale)} id="upcoming-events" />
       {/* ── Hero ── */}
       <HeroSection
         title={loc({ en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' })}

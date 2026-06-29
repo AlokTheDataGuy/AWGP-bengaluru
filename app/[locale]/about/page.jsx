@@ -3,12 +3,31 @@ import { Link } from '../../../lib/i18n/navigation';
 import HeroSection from '../../../components/ui/HeroSection';
 import SectionHeader from '../../../components/ui/SectionHeader';
 import SlideshowClient from '../../../components/ui/SlideshowClient';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import data from '../../../data-json-files/about/about.json';
 import './About.css';
 
+const ABOUT_TITLE = {
+  en: 'About Us — Our Story, Founders & Mission',
+  hi: 'हमारे बारे में — हमारी कहानी, संस्थापक एवं ध्येय',
+  kn: 'ನಮ್ಮ ಬಗ್ಗೆ — ನಮ್ಮ ಕಥೆ, ಸಂಸ್ಥಾಪಕರು ಮತ್ತು ಧ್ಯೇಯ',
+};
+
+const ABOUT_DESC = {
+  en: 'Learn about All World Gayatri Pariwar Bengaluru — our history, founders Gurudev Shri Ram Sharma Acharya and Mata Bhagwati Devi Sharma, our link to Shantikunj Haridwar, and our mission of self-refinement and selfless service in Bangalore.',
+  hi: 'अखिल विश्व गायत्री परिवार बेंगलूरु के बारे में जानें — हमारा इतिहास, संस्थापक गुरुदेव श्रीराम शर्मा आचार्य एवं माता भगवती देवी शर्मा, शांतिकुंज हरिद्वार से हमारा संबंध, तथा आत्म-परिष्कार एवं निस्वार्थ सेवा का हमारा ध्येय।',
+  kn: 'ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ ಬೆಂಗಳೂರು ಬಗ್ಗೆ ತಿಳಿಯಿರಿ — ನಮ್ಮ ಇತಿಹಾಸ, ಸಂಸ್ಥಾಪಕರಾದ ಗುರುದೇವ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯ ಮತ್ತು ಮಾತಾ ಭಗವತಿ ದೇವಿ ಶರ್ಮಾ, ಶಾಂತಿಕುಂಜ ಹರಿದ್ವಾರದೊಂದಿಗಿನ ನಂಟು, ಮತ್ತು ಆತ್ಮ-ಪರಿಷ್ಕಾರ ಹಾಗೂ ನಿಸ್ವಾರ್ಥ ಸೇವೆಯ ಧ್ಯೇಯ.',
+};
+
+const BC = {
+  home: { en: 'Home', hi: 'होम', kn: 'ಮುಖಪುಟ' },
+  about: { en: 'About Us', hi: 'हमारे बारे में', kn: 'ನಮ್ಮ ಬಗ್ಗೆ' },
+};
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  return { title: data.meta.title[locale] || data.meta.title.en };
+  return buildMetadata({ locale, path: '/about', title: ABOUT_TITLE, description: ABOUT_DESC });
 }
 
 const mission = data.sections.find((s) => s.id === 'mission');
@@ -21,6 +40,13 @@ export default async function AboutPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: L(BC.home), path: '/' },
+          { name: L(BC.about), path: '/about' },
+        ]}
+      />
       {/* ── Hero ── */}
       <HeroSection
         title={L(data.hero.title)}

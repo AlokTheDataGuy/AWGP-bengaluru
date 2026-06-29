@@ -1,0 +1,119 @@
+/* Reusable FAQ block — matches the site's premium cream/maroon/gold system. */
+
+.faq-sec {
+  padding: clamp(3rem, 7vw, 5.5rem) var(--page-gutter);
+}
+
+.faq-sec__inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.faq-sec__head {
+  text-align: center;
+  margin-bottom: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.faq-sec__eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--saffron-deep);
+  margin-bottom: 0.6rem;
+}
+
+.faq-sec__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 3.6vw, 2.4rem);
+  color: var(--maroon);
+  line-height: 1.18;
+  margin: 0;
+}
+
+.faq-sec__rule {
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 0.9rem auto 0;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--saffron));
+}
+
+.faq-sec__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.faq-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.faq-item[open] {
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md);
+}
+
+.faq-item__q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  list-style: none;
+  padding: 1.1rem 1.4rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 2vw, 1.12rem);
+  font-weight: 600;
+  color: var(--maroon-dk);
+  line-height: 1.4;
+}
+
+.faq-item__q::-webkit-details-marker { display: none; }
+
+.faq-item__q:focus-visible {
+  outline: 2px solid var(--saffron);
+  outline-offset: -2px;
+}
+
+.faq-item__chev {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  color: var(--saffron);
+  transition: transform 0.25s ease;
+}
+
+.faq-item[open] .faq-item__chev {
+  transform: rotate(180deg);
+}
+
+.faq-item__a {
+  padding: 0 1.4rem 1.25rem;
+}
+
+.faq-item__a p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.8vw, 1.02rem);
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+/* Localised body fonts, consistent with the rest of the site. */
+body[data-lang='hi'] .faq-item__a p,
+body[data-lang='hi'] .faq-item__q { font-family: var(--font-body-hi); }
+body[data-lang='kn'] .faq-item__a p,
+body[data-lang='kn'] .faq-item__q { font-family: var(--font-body-kn); }
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-item, .faq-item__chev { transition: none; }
+}

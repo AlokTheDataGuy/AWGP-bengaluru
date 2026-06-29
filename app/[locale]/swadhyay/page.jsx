@@ -1,8 +1,12 @@
 import PillarPage from '../../../components/pillars/PillarPage';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import data from '../../../data-json-files/swadhyay.json';
 
 const SEAL = '/assets/icon/swadhayay1.png';
 const IMG = '/assets/pillars/swadhyay';
+const PILLAR_NAME = { en: 'Swadhyay — Self-Study', hi: 'स्वाध्याय — स्व-अध्ययन', kn: 'ಸ್ವಾಧ್ಯಾಯ — ಸ್ವ-ಅಧ್ಯಯನ' };
+const HOME_LABEL = { en: 'Home', hi: 'होम', kn: 'ಮುಖಪುಟ' };
 
 const SECTION_LABELS = {
   'what-is-swadhyay': { en: 'The Meaning', hi: 'अर्थ', kn: 'ಅರ್ಥ' },
@@ -15,8 +19,12 @@ const SECTION_IMG = {
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Swadhyay — AWGP Bengaluru', hi: 'स्वाध्याय — AWGP बेंगलूरु', kn: 'ಸ್ವಾಧ್ಯಾಯ — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en, description: data.meta.seoDescription?.[locale] || data.meta.seoDescription?.en };
+  return buildMetadata({
+    locale,
+    path: '/swadhyay',
+    title: PILLAR_NAME,
+    description: data.meta?.seoDescription,
+  });
 }
 
 export default async function SwadhyayPillarPage({ params }) {
@@ -69,6 +77,14 @@ export default async function SwadhyayPillarPage({ params }) {
   };
 
   return (
+    <>
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        { name: L(HOME_LABEL), path: '/' },
+        { name: L(PILLAR_NAME), path: '/swadhyay' },
+      ]}
+    />
     <PillarPage
       locale={locale}
       slug="swadhyay"
@@ -79,5 +95,6 @@ export default async function SwadhyayPillarPage({ params }) {
       practice={practice}
       resources={resources}
     />
+    </>
   );
 }

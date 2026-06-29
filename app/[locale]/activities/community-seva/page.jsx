@@ -4,19 +4,26 @@ import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import ReadMore from '../../../../components/ui/ReadMore';
 import activitiesData from '../../../../data/activities.json';
+import { buildMetadata } from '../../../../lib/seo/metadata';
 import '../../../../components/ui/DetailPage.css';
 import '../../../../components/ui/CommunitySeva.css';
 
 const SEVA_SLUGS = ['blood-donation', 'food-cloth-distribution', 'hospital-volunteering'];
 
+const SEVA_TITLE = {
+  en: 'Community Seva in Bangalore — Blood Donation & Volunteering',
+  hi: 'बेंगलूरु में सामुदायिक सेवा — रक्तदान एवं स्वयंसेवा',
+  kn: 'ಬೆಂಗಳೂರಿನಲ್ಲಿ ಸಮುದಾಯ ಸೇವೆ — ರಕ್ತದಾನ ಮತ್ತು ಸ್ವಯಂಸೇವೆ',
+};
+const SEVA_DESC = {
+  en: 'Volunteer with AWGP Bengaluru — blood donation camps, food and clothing distribution, and hospital service. Selfless seva opportunities for individuals and families in Bangalore.',
+  hi: 'AWGP बेंगलूरु के साथ स्वयंसेवा करें — रक्तदान शिविर, अन्न एवं वस्त्र वितरण, और अस्पताल सेवा। बेंगलूरु में व्यक्तियों एवं परिवारों हेतु निस्वार्थ सेवा के अवसर।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನೊಂದಿಗೆ ಸ್ವಯಂಸೇವೆ ಮಾಡಿ — ರಕ್ತದಾನ ಶಿಬಿರಗಳು, ಆಹಾರ ಮತ್ತು ಬಟ್ಟೆ ವಿತರಣೆ, ಆಸ್ಪತ್ರೆ ಸೇವೆ. ನಿಸ್ವಾರ್ಥ ಸೇವಾ ಅವಕಾಶಗಳು.',
+};
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = {
-    en: 'Community Seva — AWGP Bengaluru',
-    hi: 'समुदाय सेवा — AWGP बेंगलूरु',
-    kn: 'ಸಮುದಾಯ ಸೇವಾ — AWGP ಬೆಂಗಳೂರು',
-  };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/activities/community-seva', title: SEVA_TITLE, description: SEVA_DESC });
 }
 
 export default async function CommunitySeva({ params }) {

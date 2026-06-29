@@ -1,6 +1,7 @@
 import { Globe, ShoppingBag, PlayCircle, ArrowRight } from 'lucide-react';
 import { Link } from '../../../lib/i18n/navigation';
 import HeroSection from '../../../components/ui/HeroSection';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import './Literature.css';
 
 const LIBRARY_URL = 'https://literature.awgp.org/';
@@ -9,14 +10,20 @@ const YOUTUBE_URL = 'https://www.youtube.com/@AWGPBengaluru';
 const STORE_BASE = 'https://www.awgpstore.com/category?id=';
 const STORE_PRINT_URL = 'https://www.awgpstore.com/category?id=IG0069';
 
+const LIT_TITLE = {
+  en: 'Vedic Literature & Books — Gurudev’s Wisdom',
+  hi: 'वैदिक साहित्य एवं पुस्तकें — गुरुदेव का ज्ञान',
+  kn: 'ವೈದಿಕ ಸಾಹಿತ್ಯ ಮತ್ತು ಪುಸ್ತಕಗಳು — ಗುರುದೇವರ ಜ್ಞಾನ',
+};
+const LIT_DESC = {
+  en: 'Explore the spiritual literature of Pandit Shriram Sharma Acharya — life management, self-help and Vedic wisdom — plus the Akhand Jyoti magazine. Read free online or order print copies through AWGP Bengaluru.',
+  hi: 'पंडित श्रीराम शर्मा आचार्य का आध्यात्मिक साहित्य — जीवन प्रबंधन, स्व-सहायता एवं वैदिक ज्ञान — तथा अखण्ड ज्योति पत्रिका। ऑनलाइन नि:शुल्क पढ़ें या AWGP बेंगलूरु से प्रति मँगवाएं।',
+  kn: 'ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಆಧ್ಯಾತ್ಮಿಕ ಸಾಹಿತ್ಯ — ಜೀವನ ನಿರ್ವಹಣೆ, ಸ್ವ-ಸಹಾಯ ಮತ್ತು ವೈದಿಕ ಜ್ಞಾನ — ಮತ್ತು ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ. ಆನ್‌ಲೈನ್ ಉಚಿತವಾಗಿ ಓದಿ ಅಥವಾ ತರಿಸಿಕೊಳ್ಳಿ.',
+};
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = {
-    en: 'Literature — AWGP Bengaluru',
-    hi: 'साहित्य — AWGP बेंगलूरु',
-    kn: 'ಸಾಹಿತ್ಯ — AWGP ಬೆಂಗಳೂರು',
-  };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/literature', title: LIT_TITLE, description: LIT_DESC });
 }
 
 export default async function LiteraturePage({ params }) {

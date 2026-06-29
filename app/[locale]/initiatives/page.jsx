@@ -3,11 +3,23 @@ import { Link } from '../../../lib/i18n/navigation';
 import HeroSection from '../../../components/ui/HeroSection';
 import SectionHeader from '../../../components/ui/SectionHeader';
 import data from '../../../data-json-files/about/initiatives.json';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import './Initiatives.css';
+
+const INIT_TITLE = {
+  en: 'Initiatives & Movements — Vichar Kranti & Sapt Andolan',
+  hi: 'पहल एवं आंदोलन — विचार क्रांति एवं सप्त आंदोलन',
+  kn: 'ಉಪಕ್ರಮಗಳು ಮತ್ತು ಆಂದೋಲನಗಳು — ವಿಚಾರ ಕ್ರಾಂತಿ ಮತ್ತು ಸಪ್ತ ಆಂದೋಲನ',
+};
+const INIT_DESC = {
+  en: 'The global movements of All World Gayatri Pariwar — Vichar Kranti (thought revolution) and the Sapt Andolan (seven movements) for personal, family and social transformation, carried forward by AWGP Bengaluru.',
+  hi: 'अखिल विश्व गायत्री परिवार के वैश्विक आंदोलन — विचार क्रांति एवं व्यक्ति, परिवार व समाज के परिवर्तन हेतु सप्त आंदोलन, AWGP बेंगलूरु द्वारा अग्रसर।',
+  kn: 'ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರದ ಜಾಗತಿಕ ಆಂದೋಲನಗಳು — ವಿಚಾರ ಕ್ರಾಂತಿ ಮತ್ತು ವ್ಯಕ್ತಿ, ಕುಟುಂಬ ಹಾಗೂ ಸಮಾಜದ ಪರಿವರ್ತನೆಗಾಗಿ ಸಪ್ತ ಆಂದೋಲನ.',
+};
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  return { title: data.meta.title[locale] || data.meta.title.en };
+  return buildMetadata({ locale, path: '/initiatives', title: INIT_TITLE, description: INIT_DESC });
 }
 
 export default async function InitiativesPage({ params }) {

@@ -3,11 +3,24 @@ import { Link } from '../../../lib/i18n/navigation';
 import HeroSection from '../../../components/ui/HeroSection';
 import SectionHeader from '../../../components/ui/SectionHeader';
 import data from '../../../data-json-files/about/chetna-kendra.json';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import './ChetnaKendra.css';
+
+const CK_TITLE = {
+  en: 'Gayatri Chetna Kendra Bengaluru — Our Centre in Begur',
+  hi: 'गायत्री चेतना केंद्र बेंगलूरु — बेगूर स्थित हमारा केंद्र',
+  kn: 'ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ ಬೆಂಗಳೂರು — ಬೇಗೂರಿನಲ್ಲಿ ನಮ್ಮ ಕೇಂದ್ರ',
+};
+const CK_DESC = {
+  en: 'The Gayatri Chetna Kendra (Gayatri consciousness centre) of AWGP Bengaluru in Chikka Begur — a temple-like space for Yagya, meditation, satsang and Sanskars. See its facilities, daily schedule and how to reach us.',
+  hi: 'चिक्का बेगूर में AWGP बेंगलूरु का गायत्री चेतना केंद्र — यज्ञ, ध्यान, सत्संग एवं संस्कारों का मंदिर-तुल्य स्थान। सुविधाएं, दैनिक समय-सारणी एवं पहुँचने का मार्ग देखें।',
+  kn: 'ಚಿಕ್ಕ ಬೇಗೂರಿನಲ್ಲಿ AWGP ಬೆಂಗಳೂರಿನ ಗಾಯತ್ರಿ ಚೇತನ ಕೇಂದ್ರ — ಯಜ್ಞ, ಧ್ಯಾನ, ಸತ್ಸಂಗ ಮತ್ತು ಸಂಸ್ಕಾರಗಳಿಗೆ ದೇವಾಲಯ ಸದೃಶ ಸ್ಥಳ. ಸೌಲಭ್ಯಗಳು, ದೈನಂದಿನ ವೇಳಾಪಟ್ಟಿ ಮತ್ತು ತಲುಪುವ ಮಾರ್ಗ ನೋಡಿ.',
+};
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  return { title: data.meta.title[locale] || data.meta.title.en };
+  return buildMetadata({ locale, path: '/chetna-kendra', title: CK_TITLE, description: CK_DESC });
 }
 
 export default async function ChetnaKendraPage({ params }) {
@@ -17,6 +30,13 @@ export default async function ChetnaKendraPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'चेतना केंद्र' : locale === 'kn' ? 'ಚೇತನ ಕೇಂದ್ರ' : 'Chetna Kendra', path: '/chetna-kendra' },
+        ]}
+      />
       {/* ── Hero ── */}
       <HeroSection
         title={L(data.hero.title)}

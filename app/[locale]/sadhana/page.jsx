@@ -1,8 +1,12 @@
 import PillarPage from '../../../components/pillars/PillarPage';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import data from '../../../data-json-files/sadhana.json';
 
 const SEAL = '/assets/icon/sadhna1.png';
 const IMG = '/assets/pillars/sadhana';
+const PILLAR_NAME = { en: 'Sadhana — Self-Refinement', hi: 'साधना — आत्म-परिष्कार', kn: 'ಸಾಧನೆ — ಆತ್ಮ-ಪರಿಷ್ಕಾರ' };
+const HOME_LABEL = { en: 'Home', hi: 'होम', kn: 'ಮುಖಪುಟ' };
 
 /* Eyebrow label shown above each concept section */
 const SECTION_LABELS = {
@@ -16,8 +20,12 @@ const SECTION_IMG = {
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Sadhana — AWGP Bengaluru', hi: 'साधना — AWGP बेंगलूरु', kn: 'ಸಾಧನೆ — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en, description: data.meta.seoDescription?.[locale] || data.meta.seoDescription?.en };
+  return buildMetadata({
+    locale,
+    path: '/sadhana',
+    title: PILLAR_NAME,
+    description: data.meta?.seoDescription,
+  });
 }
 
 export default async function SadhanaPillarPage({ params }) {
@@ -71,6 +79,14 @@ export default async function SadhanaPillarPage({ params }) {
   };
 
   return (
+    <>
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        { name: L(HOME_LABEL), path: '/' },
+        { name: L(PILLAR_NAME), path: '/sadhana' },
+      ]}
+    />
     <PillarPage
       locale={locale}
       slug="sadhana"
@@ -81,5 +97,6 @@ export default async function SadhanaPillarPage({ params }) {
       practice={practice}
       resources={resources}
     />
+    </>
   );
 }

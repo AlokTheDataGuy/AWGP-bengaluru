@@ -1,7 +1,20 @@
 import HeroSection from '../../../components/ui/HeroSection';
 import ContentCard from '../../../components/ui/ContentCard';
 import Reveal from '../../../components/ui/Reveal';
+import Breadcrumbs from '../../../components/seo/Breadcrumbs';
+import { buildMetadata } from '../../../lib/seo/metadata';
 import '../../../components/ui/IndexPage.css';
+
+const ACTIVITIES_TITLE = {
+  en: 'Activities — Meditation, Yoga, Gau Seva & Community Service',
+  hi: 'गतिविधियां — ध्यान, योग, गौ सेवा एवं सामुदायिक सेवा',
+  kn: 'ಚಟುವಟಿಕೆಗಳು — ಧ್ಯಾನ, ಯೋಗ, ಗೋ ಸೇವೆ ಮತ್ತು ಸಮುದಾಯ ಸೇವೆ',
+};
+const ACTIVITIES_DESC = {
+  en: 'Free meditation, Pragya Yoga, Sadhana, Gau Seva, blood donation and community service at AWGP Bengaluru — where spiritual practice becomes selfless action in Bangalore.',
+  hi: 'AWGP बेंगलूरु में नि:शुल्क ध्यान, प्रज्ञायोग, साधना, गौ सेवा, रक्तदान एवं सामुदायिक सेवा — जहाँ साधना निस्वार्थ कर्म बनती है।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಉಚಿತ ಧ್ಯಾನ, ಪ್ರಜ್ಞಾಯೋಗ, ಸಾಧನೆ, ಗೋ ಸೇವೆ, ರಕ್ತದಾನ ಮತ್ತು ಸಮುದಾಯ ಸೇವೆ — ಸಾಧನೆ ನಿಸ್ವಾರ್ಥ ಕರ್ಮವಾಗುವಲ್ಲಿ.',
+};
 
 const ACTIVITIES = [
   {
@@ -80,8 +93,7 @@ const ACTIVITIES = [
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const titles = { en: 'Activities — AWGP Bengaluru', hi: 'गतिविधियां — AWGP बेंगलूरु', kn: 'ಚಟುವಟಿಕೆಗಳು — AWGP ಬೆಂಗಳೂರು' };
-  return { title: titles[locale] || titles.en };
+  return buildMetadata({ locale, path: '/activities', title: ACTIVITIES_TITLE, description: ACTIVITIES_DESC });
 }
 
 export default async function ActivitiesIndexPage({ params }) {
@@ -90,6 +102,13 @@ export default async function ActivitiesIndexPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'गतिविधियां' : locale === 'kn' ? 'ಚಟುವಟಿಕೆಗಳು' : 'Activities', path: '/activities' },
+        ]}
+      />
       <HeroSection
         title={locale === 'hi' ? 'हमारी गतिविधियां' : locale === 'kn' ? 'ನಮ್ಮ ಚಟುವಟಿಕೆಗಳು' : 'Our Activities'}
         subtitle={locale === 'hi' ? 'सेवा में अध्यात्म को जीएं' : locale === 'kn' ? 'ಸೇವೆಯಲ್ಲಿ ಆಧ್ಯಾತ್ಮ ಜೀವಿಸಿ' : 'Living Spirituality Through Seva'}

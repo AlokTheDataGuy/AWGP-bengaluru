@@ -6,6 +6,10 @@ import {
   Facebook, Instagram, Youtube, MessageCircle, Mail, ArrowRight,
 } from 'lucide-react';
 import blogData from '../../../../data/blog.json';
+import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
+import JsonLd from '../../../../components/seo/JsonLd';
+import { buildMetadata, localeUrl } from '../../../../lib/seo/metadata';
+import { articleSchema } from '../../../../lib/seo/schema';
 import '../../blog/Blog.css';
 
 const JOIN_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSenAHsGkgiiYVh4GkGFiV6XAFFEFqTk4LNEA0U20KiBAnHoFA/viewform?fbzx=-8132684196568383509';
@@ -20,7 +24,19 @@ export async function generateMetadata({ params }) {
   if (!post) return {};
   const title = post.title[locale] || post.title.en;
   const description = post.excerpt[locale] || post.excerpt.en;
-  return { title: `${title} — AWGP Bengaluru`, description };
+  return buildMetadata({
+    locale,
+    path: `/blog/${slug}`,
+    title,
+    description,
+    type: 'article',
+    images: post.image ? [post.image] : undefined,
+    openGraph: {
+      publishedTime: post.date,
+      authors: [post.author?.en || 'AWGP Bengaluru'],
+      section: post.category?.en,
+    },
+  });
 }
 
 const formatDate = (iso, locale) => {
@@ -59,6 +75,26 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <>
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { name: locale === 'hi' ? 'होम' : locale === 'kn' ? 'ಮುಖಪುಟ' : 'Home', path: '/' },
+          { name: locale === 'hi' ? 'ब्लॉग' : locale === 'kn' ? 'ಬ್ಲಾಗ್' : 'Blog', path: '/blog' },
+          { name: L(post.title), path: `/blog/${slug}` },
+        ]}
+      />
+      <JsonLd
+        data={articleSchema({
+          headline: L(post.title),
+          description: L(post.excerpt),
+          image: post.image,
+          datePublished: post.date,
+          authorName: L(post.author),
+          section: L(post.category),
+          url: localeUrl(locale, `/blog/${slug}`),
+        })}
+        id="article"
+      />
       <PageHeader
         eyebrow={`AWGP Bengaluru · ${L(post.category)}`}
         title={L(post.title)}
