@@ -76,7 +76,7 @@ export default function ContactBody({ locale }) {
                 />
                 <InfoCard icon={<Clock size={20} />}
                   label={L('Hours', 'समय', 'ಸಮಯ')}
-                  value={L('Open Daily: 5:30 AM – 9:30 PM', 'प्रतिदिन: 5:30 AM – 9:30 PM', 'ಪ್ರತಿದಿನ: 5:30 AM – 9:30 PM')}
+                  value={L('Open Daily: 5:30 AM – 9:00 PM', 'प्रतिदिन: 5:30 AM – 9:00 PM', 'ಪ್ರತಿದಿನ: 5:30 AM – 9:00 PM')}
                   n={4}
                 />
               </div>

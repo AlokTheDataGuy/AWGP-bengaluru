@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname, Link } from '../../lib/i18n/navigation';
 import { Menu, X, ChevronDown, Facebook, Instagram, Youtube, MessageCircle } from 'lucide-react';
 import Image from 'next/image';
+import LangHint from './LangHint';
 import './Navbar.css';
 
 const JOIN_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSenAHsGkgiiYVh4GkGFiV6XAFFEFqTk4LNEA0U20KiBAnHoFA/viewform?fbzx=-8132684196568383509';
@@ -192,17 +193,19 @@ export default function Navbar() {
 
         {/* Right: lang toggle + Join Us + hamburger */}
         <div className="navbar__right">
-          <div className="lang-toggle">
-            {LANGS.map(({ code, label: lbl }) => (
-              <button
-                key={code}
-                className={`lang-btn fx-sheen${locale === code ? ' lang-btn--active' : ''}`}
-                onClick={() => switchLocale(code)}
-              >
-                {lbl}
-              </button>
-            ))}
-          </div>
+          <LangHint locale={locale}>
+            <div className="lang-toggle">
+              {LANGS.map(({ code, label: lbl }) => (
+                <button
+                  key={code}
+                  className={`lang-btn fx-sheen${locale === code ? ' lang-btn--active' : ''}`}
+                  onClick={() => switchLocale(code)}
+                >
+                  {lbl}
+                </button>
+              ))}
+            </div>
+          </LangHint>
 
           <a
             href={JOIN_FORM_URL}

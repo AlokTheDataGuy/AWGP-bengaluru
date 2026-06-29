@@ -1,15 +1,22 @@
 'use client';
 
 import Image from 'next/image';
-import { CalendarDays, MapPin, Images as ImagesIcon, Sparkles } from 'lucide-react';
+import { CalendarDays, MapPin, Images as ImagesIcon, Sparkles, ArrowRight } from 'lucide-react';
 
-export default function HighlightFeatured({ h, images, cover, categories, T, L, viewLabel, onOpen }) {
+export default function HighlightFeatured({ h, images, cover, categories, T, L, galleryLabel, detailLabel, onGallery, onDetail }) {
+  const onBodyKey = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onDetail();
+    }
+  };
+
   return (
     <article className="hl-featured">
       <button
         className="hl-featured__media"
-        onClick={onOpen}
-        aria-label={`${viewLabel} — ${T(h.title)}`}
+        onClick={onGallery}
+        aria-label={`${galleryLabel} — ${T(h.title)}`}
       >
         <Image
           src={cover}
@@ -25,9 +32,24 @@ export default function HighlightFeatured({ h, images, cover, categories, T, L, 
             <ImagesIcon size={13} aria-hidden="true" /> {images.length}
           </span>
         )}
+        <span className="hl-card__overlay">
+          <span className="hl-card__overlay-label">
+            <ImagesIcon size={15} aria-hidden="true" />
+            {images.length > 1
+              ? L('View Gallery', 'गैलरी देखें', 'ಗ್ಯಾಲರಿ ನೋಡಿ')
+              : L('View Photo', 'फ़ोटो देखें', 'ಫೋಟೋ ನೋಡಿ')}
+          </span>
+        </span>
       </button>
 
-      <div className="hl-featured__body">
+      <div
+        className="hl-featured__body"
+        role="button"
+        tabIndex={0}
+        onClick={onDetail}
+        onKeyDown={onBodyKey}
+        aria-label={`${detailLabel} — ${T(h.title)}`}
+      >
         <span className="hl-featured__kicker">
           <Sparkles size={13} aria-hidden="true" />
           {L('Latest Highlight', 'नवीनतम झलक', 'ಇತ್ತೀಚಿನ ಮುಖ್ಯಾಂಶ')}
@@ -46,12 +68,9 @@ export default function HighlightFeatured({ h, images, cover, categories, T, L, 
         <p className="hl-featured__desc">{T(h.description)}</p>
         <div className="hl-featured__foot">
           {h.stat && <span className="hl-chip">{T(h.stat)}</span>}
-          {images.length > 1 && (
-            <button className="hl-gallery-cta" onClick={onOpen}>
-              <ImagesIcon size={15} aria-hidden="true" />
-              {L('View Gallery', 'गैलरी देखें', 'ಗ್ಯಾಲರಿ ನೋಡಿ')}
-            </button>
-          )}
+          <span className="hl-featured__more">
+            {detailLabel} <ArrowRight size={15} aria-hidden="true" />
+          </span>
         </div>
       </div>
     </article>

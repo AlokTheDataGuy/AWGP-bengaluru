@@ -10,7 +10,7 @@
   ],
   "sunday": [
     { "time": "9:00 – 10:00 AM", "activity": { "en": "Gayatri Yagya", "hi": "गायत्री यज्ञ", "kn": "ಗಾಯತ್ರಿ ಯಜ್ಞ" } },
-    { "time": "9:30 – 10:00 AM", "activity": { "en": "Dhyan (Group)", "hi": "ध्यान (समूह)", "kn": "ಧ್ಯಾನ (ಗುಂಪು)" } },
+    { "time": "9:00 – 10:00 AM", "activity": { "en": "Dhyan (Group)", "hi": "ध्यान (समूह)", "kn": "ಧ್ಯಾನ (ಗುಂಪು)" } },
     { "time": "12:00 – 2:00 PM", "activity": { "en": "Bhojan Prasad", "hi": "भोजन प्रसाद", "kn": "ಭೋಜನ ಪ್ರಸಾದ" } }
   ]
 }

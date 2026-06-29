@@ -130,10 +130,17 @@ export default async function CommunitySeva({ params }) {
                   href="https://wa.me/919243755613"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-outline"
+                  className="btn btn-outline only-desktop"
                   style={{ marginTop: '10px', display: 'inline-flex', width: '100%', justifyContent: 'center' }}
                 >
                   💬 WhatsApp
+                </a>
+                <a
+                  href="tel:+919243755613"
+                  className="btn btn-outline only-mobile"
+                  style={{ marginTop: '10px', display: 'inline-flex', width: '100%', justifyContent: 'center' }}
+                >
+                  📞 {locale === 'hi' ? 'कॉल करें' : locale === 'kn' ? 'ಕರೆ ಮಾಡಿ' : 'Call Us'}
                 </a>
               </div>
 

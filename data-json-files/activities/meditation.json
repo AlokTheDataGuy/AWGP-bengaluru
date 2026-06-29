@@ -4,9 +4,9 @@
     "slug": "meditation",
     "navLabel": { "en": "Meditation", "hi": "ध्यान", "kn": "ಧ್ಯಾನ" },
     "seoDescription": {
-      "en": "Meditation (Dhyan) in the AWGP tradition — Gurudev's triple path of Jap, Tap, and Dhyan, with two gentle ways to meditate and simple steps to begin turning the mind inward.",
-      "hi": "एडब्ल्यूजीपी की परंपरा में ध्यान — गुरुदेव का जप, तप और ध्यान का त्रिविध पथ, ध्यान की दो सौम्य राहें, और मन को भीतर मोड़ने के सरल उपाय।",
-      "kn": "AWGP ಪರಂಪರೆಯಲ್ಲಿ ಧ್ಯಾನ — ಗುರುದೇವ್ ಅವರ ಜಪ, ತಪ ಮತ್ತು ಧ್ಯಾನದ ತ್ರಿವಿಧ ಪಥ, ಧ್ಯಾನದ ಎರಡು ಸೌಮ್ಯ ದಾರಿಗಳು ಮತ್ತು ಮನಸ್ಸನ್ನು ಒಳಮುಖವಾಗಿ ತಿರುಗಿಸುವ ಸರಳ ಹೆಜ್ಜೆಗಳು."
+      "en": "Meditation (Dhyan) in the AWGP tradition — Gurudev Pandit Shriram Sharma Acharya's teaching on taming the mind, two gentle ways to meditate (with form and formless), and simple steps to begin turning the mind inward.",
+      "hi": "एडब्ल्यूजीपी की परंपरा में ध्यान — गुरुदेव पंडित श्रीराम शर्मा आचार्य का मन को साधने का मार्गदर्शन, ध्यान की दो सौम्य राहें (साकार और निराकार), और मन को भीतर मोड़ने के सरल उपाय।",
+      "kn": "AWGP ಪರಂಪರೆಯಲ್ಲಿ ಧ್ಯಾನ — ಮನಸ್ಸನ್ನು ಪಳಗಿಸುವ ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಬೋಧನೆ, ಧ್ಯಾನದ ಎರಡು ಸೌಮ್ಯ ದಾರಿಗಳು (ಸಾಕಾರ ಮತ್ತು ನಿರಾಕಾರ), ಮತ್ತು ಮನಸ್ಸನ್ನು ಒಳಮುಖವಾಗಿ ತಿರುಗಿಸುವ ಸರಳ ಹೆಜ್ಜೆಗಳು."
     }
   },
   "hero": {
@@ -17,42 +17,12 @@
       "kn": "ಮನಸ್ಸನ್ನು ಒಳಮುಖವಾಗಿ ತಿರುಗಿಸುವ ಕಲೆ — ಮತ್ತು ಎಂದಿಗೂ ಕಳೆದುಹೋಗದ ಆತ್ಮವನ್ನು ಕಂಡುಕೊಳ್ಳುವುದು."
     },
     "intro": {
-      "en": "Meditation, or Dhyan, is the practice of gathering a scattered mind and turning it gently inward. In Gurudev Pandit Shriram Sharma Acharya's teaching, it is one part of a single, complete path — Jap, Tap, and Dhyan — through which a person remembers their true nature and their bond with the Divine. It is not about forcing the mind to go blank, but about giving it one clear direction. With patience, the restless mind grows calm, the inner self grows luminous, and life finds a steadier, kinder centre.",
-      "hi": "ध्यान का अर्थ है बिखरे हुए मन को समेटकर धीरे-धीरे भीतर की ओर ले जाना। गुरुदेव पंडित श्रीराम शर्मा आचार्य की दृष्टि में यह एक पूर्ण साधना-पथ का अंग है — जप, तप और ध्यान — जिनके द्वारा मनुष्य अपने सच्चे स्वरूप और परमात्मा से अपने संबंध को पुनः पहचानता है। ध्यान मन को ज़बरदस्ती खाली करना नहीं, बल्कि उसे एक स्पष्ट दिशा देना है। धैर्य के साथ चंचल मन शांत होता है, अंतःकरण निर्मल होता है, और जीवन को एक स्थिर, सौम्य केंद्र मिलता है।",
-      "kn": "ಧ್ಯಾನವೆಂದರೆ ಚದುರಿದ ಮನಸ್ಸನ್ನು ಒಗ್ಗೂಡಿಸಿ ನಿಧಾನವಾಗಿ ಒಳಮುಖವಾಗಿ ಕೊಂಡೊಯ್ಯುವುದು. ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ದೃಷ್ಟಿಯಲ್ಲಿ ಇದು ಒಂದು ಸಂಪೂರ್ಣ ಸಾಧನಾ ಪಥದ ಅಂಗ — ಜಪ, ತಪ ಮತ್ತು ಧ್ಯಾನ — ಇವುಗಳ ಮೂಲಕ ಮನುಷ್ಯನು ತನ್ನ ನಿಜ ಸ್ವರೂಪ ಮತ್ತು ಪರಮಾತ್ಮನೊಂದಿಗಿನ ಸಂಬಂಧವನ್ನು ಮತ್ತೆ ಗುರುತಿಸುತ್ತಾನೆ. ಧ್ಯಾನವು ಮನಸ್ಸನ್ನು ಬಲವಂತದಿಂದ ಖಾಲಿ ಮಾಡುವುದಲ್ಲ, ಬದಲಿಗೆ ಅದಕ್ಕೆ ಒಂದು ಸ್ಪಷ್ಟ ದಿಕ್ಕನ್ನು ನೀಡುವುದು. ತಾಳ್ಮೆಯಿಂದ ಚಂಚಲ ಮನಸ್ಸು ಶಾಂತವಾಗುತ್ತದೆ, ಅಂತರಂಗ ನಿರ್ಮಲವಾಗುತ್ತದೆ, ಮತ್ತು ಜೀವನಕ್ಕೆ ಒಂದು ಸ್ಥಿರ, ಸೌಮ್ಯ ಕೇಂದ್ರ ದೊರೆಯುತ್ತದೆ."
+      "en": "Meditation, or Dhyan, is the practice of gathering a scattered mind and turning it gently inward. In Gurudev Pandit Shriram Sharma Acharya's teaching, it is the inner heart of sadhana — the path through which a person remembers their true nature and their bond with the Divine. It is not about forcing the mind to go blank, but about giving it one clear direction. With patience, the restless mind grows calm, the inner self grows luminous, and life finds a steadier, kinder centre.",
+      "hi": "ध्यान का अर्थ है बिखरे हुए मन को समेटकर धीरे-धीरे भीतर की ओर ले जाना। गुरुदेव पंडित श्रीराम शर्मा आचार्य की दृष्टि में यह साधना का अंतर्हृदय है — वह पथ जिसके द्वारा मनुष्य अपने सच्चे स्वरूप और परमात्मा से अपने संबंध को पुनः पहचानता है। ध्यान मन को ज़बरदस्ती खाली करना नहीं, बल्कि उसे एक स्पष्ट दिशा देना है। धैर्य के साथ चंचल मन शांत होता है, अंतःकरण निर्मल होता है, और जीवन को एक स्थिर, सौम्य केंद्र मिलता है।",
+      "kn": "ಧ್ಯಾನವೆಂದರೆ ಚದುರಿದ ಮನಸ್ಸನ್ನು ಒಗ್ಗೂಡಿಸಿ ನಿಧಾನವಾಗಿ ಒಳಮುಖವಾಗಿ ಕೊಂಡೊಯ್ಯುವುದು. ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರ ದೃಷ್ಟಿಯಲ್ಲಿ ಇದು ಸಾಧನೆಯ ಅಂತರಂಗ — ಮನುಷ್ಯನು ತನ್ನ ನಿಜ ಸ್ವರೂಪ ಮತ್ತು ಪರಮಾತ್ಮನೊಂದಿಗಿನ ಸಂಬಂಧವನ್ನು ಮತ್ತೆ ಗುರುತಿಸುವ ಪಥ. ಧ್ಯಾನವು ಮನಸ್ಸನ್ನು ಬಲವಂತದಿಂದ ಖಾಲಿ ಮಾಡುವುದಲ್ಲ, ಬದಲಿಗೆ ಅದಕ್ಕೆ ಒಂದು ಸ್ಪಷ್ಟ ದಿಕ್ಕನ್ನು ನೀಡುವುದು. ತಾಳ್ಮೆಯಿಂದ ಚಂಚಲ ಮನಸ್ಸು ಶಾಂತವಾಗುತ್ತದೆ, ಅಂತರಂಗ ನಿರ್ಮಲವಾಗುತ್ತದೆ, ಮತ್ತು ಜೀವನಕ್ಕೆ ಒಂದು ಸ್ಥಿರ, ಸೌಮ್ಯ ಕೇಂದ್ರ ದೊರೆಯುತ್ತದೆ."
     }
   },
   "sections": [
-    {
-      "id": "triple-path",
-      "title": {
-        "en": "The Triple Path — Jap, Tap, Dhyan",
-        "hi": "त्रिविध साधना-पथ — जप, तप, ध्यान",
-        "kn": "ತ್ರಿವಿಧ ಸಾಧನಾ ಪಥ — ಜಪ, ತಪ, ಧ್ಯಾನ"
-      },
-      "body": {
-        "en": "Gurudev describes Sadhana as a single path woven from three strands. Jap is the repeated chanting of the Gayatri Mantra — like ploughing the field of the mind again and again, until faith takes root and the mantra's subtle vibrations awaken the inner self. Tap is loving self-discipline — voluntarily setting aside some comfort of body, speech, or mind. Like ore refined in fire, it burns away old habits and releases a quiet inner strength (tapobal). Dhyan is meditation itself — gathering the mind and turning it toward the Divine. Chanting steadies the voice, discipline steadies the will, and meditation steadies the mind. Practised together, the three carry a seeker far further than any one alone.",
-        "hi": "गुरुदेव साधना को तीन धागों से बुना हुआ एक ही पथ बताते हैं। जप है गायत्री मंत्र का बार-बार उच्चारण — मानो मन की भूमि को बार-बार जोतना, जब तक श्रद्धा जड़ न पकड़ ले और मंत्र के सूक्ष्म स्पंदन अंतःकरण को जगा न दें। तप है प्रेमपूर्ण आत्म-अनुशासन — शरीर, वाणी या मन के किसी सुख का स्वेच्छा से त्याग। जैसे धातु आग में तपकर निखरती है, वैसे ही तप पुरानी आदतों को जलाकर एक शांत भीतरी बल (तपोबल) जगाता है। ध्यान है मन को समेटकर परमात्मा की ओर मोड़ना। जप वाणी को साधता है, तप संकल्प को, और ध्यान मन को। तीनों साथ चलें तो साधक किसी एक से कहीं आगे तक पहुँचता है।",
-        "kn": "ಗುರುದೇವ್ ಸಾಧನೆಯನ್ನು ಮೂರು ಎಳೆಗಳಿಂದ ಹೆಣೆದ ಒಂದೇ ಪಥವೆಂದು ವಿವರಿಸುತ್ತಾರೆ. ಜಪವೆಂದರೆ ಗಾಯತ್ರಿ ಮಂತ್ರದ ಪುನರಾವರ್ತಿತ ಉಚ್ಚಾರಣೆ — ಮನಸ್ಸಿನ ಭೂಮಿಯನ್ನು ಮತ್ತೆ ಮತ್ತೆ ಉಳುಮೆ ಮಾಡಿದಂತೆ, ಶ್ರದ್ಧೆ ಬೇರೂರಿ ಮಂತ್ರದ ಸೂಕ್ಷ್ಮ ಸ್ಪಂದನಗಳು ಅಂತರಂಗವನ್ನು ಜಾಗೃತಗೊಳಿಸುವವರೆಗೆ. ತಪವೆಂದರೆ ಪ್ರೀತಿಯ ಆತ್ಮ-ಶಿಸ್ತು — ದೇಹ, ಮಾತು ಅಥವಾ ಮನಸ್ಸಿನ ಯಾವುದೋ ಸುಖವನ್ನು ಸ್ವಇಚ್ಛೆಯಿಂದ ತ್ಯಜಿಸುವುದು. ಲೋಹ ಬೆಂಕಿಯಲ್ಲಿ ಪಳಗಿ ಹೊಳೆಯುವಂತೆ, ತಪವು ಹಳೆಯ ಅಭ್ಯಾಸಗಳನ್ನು ಸುಟ್ಟು ಒಂದು ಶಾಂತ ಆಂತರಿಕ ಶಕ್ತಿಯನ್ನು (ತಪೋಬಲ) ಎಚ್ಚರಗೊಳಿಸುತ್ತದೆ. ಧ್ಯಾನವೆಂದರೆ ಮನಸ್ಸನ್ನು ಒಗ್ಗೂಡಿಸಿ ಪರಮಾತ್ಮನ ಕಡೆಗೆ ತಿರುಗಿಸುವುದು. ಜಪ ಮಾತನ್ನು, ತಪ ಸಂಕಲ್ಪವನ್ನು, ಧ್ಯಾನ ಮನಸ್ಸನ್ನು ಸ್ಥಿರಗೊಳಿಸುತ್ತದೆ. ಮೂರೂ ಒಟ್ಟಿಗೆ ಸಾಗಿದರೆ ಸಾಧಕನು ಒಂದೇ ಒಂದರಿಂದ ಸಾಧ್ಯವಾಗುವುದಕ್ಕಿಂತ ಬಹುದೂರ ತಲುಪುತ್ತಾನೆ."
-      },
-      "highlights": {
-        "en": [
-          "Jap — repeated Gayatri chanting that plants conviction and awakens inner energy",
-          "Tap — gentle self-discipline that refines character and builds quiet strength",
-          "Dhyan — gathering the mind and turning it toward the Divine"
-        ],
-        "hi": [
-          "जप — गायत्री का पुनरावर्तन, जो श्रद्धा रोपता और भीतरी ऊर्जा जगाता है",
-          "तप — सौम्य आत्म-अनुशासन, जो चरित्र निखारता और शांत बल देता है",
-          "ध्यान — मन को समेटकर परमात्मा की ओर मोड़ना"
-        ],
-        "kn": [
-          "ಜಪ — ಗಾಯತ್ರಿಯ ಪುನರಾವರ್ತನೆ, ಶ್ರದ್ಧೆಯನ್ನು ಬಿತ್ತಿ ಆಂತರಿಕ ಶಕ್ತಿಯನ್ನು ಜಾಗೃತಗೊಳಿಸುತ್ತದೆ",
-          "ತಪ — ಸೌಮ್ಯ ಆತ್ಮ-ಶಿಸ್ತು, ಚಾರಿತ್ರ್ಯವನ್ನು ನಿಖರಗೊಳಿಸಿ ಶಾಂತ ಶಕ್ತಿ ನೀಡುತ್ತದೆ",
-          "ಧ್ಯಾನ — ಮನಸ್ಸನ್ನು ಒಗ್ಗೂಡಿಸಿ ಪರಮಾತ್ಮನ ಕಡೆಗೆ ತಿರುಗಿಸುವುದು"
-        ]
-      }
-    },
     {
       "id": "dhyan-yoga",
       "title": {
@@ -91,14 +61,14 @@
         "kn": "ಧ್ಯಾನದ ಎರಡು ದಾರಿಗಳು — ಸಾಕಾರ ಮತ್ತು ನಿರಾಕಾರ"
       },
       "body": {
-        "en": "Gurudev offers two gentle ways into meditation, and both begin with a symbol. In Sakar Upasana, the seeker meditates on a beloved form — for example, visualising Gayatri Mata within a soft sphere of light, and slowly feeling a warm, intimate closeness, as a child feels toward a mother. In Nirakar Upasana, the form gives way to light itself: most often Savita, the radiant energy of the rising sun, imagined as golden rays soaking into body, mind, and inner self. The Gayatri Mantra is the bridge that invokes this light. Whichever path one chooses, what matters most is not perfect stillness but heartfelt feeling (bhava) and a willing surrender. God is never seen with the eyes — only known as growing goodness in thought, word, and deed.",
-        "hi": "गुरुदेव ध्यान में प्रवेश की दो सौम्य राहें बताते हैं, और दोनों किसी प्रतीक से आरंभ होती हैं। साकार उपासना में साधक किसी प्रिय रूप पर ध्यान करता है — जैसे प्रकाश के कोमल गोले के भीतर गायत्री माता का दर्शन, और धीरे-धीरे वैसी ही आत्मीय निकटता का अनुभव, जैसी एक शिशु अपनी माँ के प्रति अनुभव करता है। निराकार उपासना में रूप का स्थान प्रकाश ले लेता है — प्रायः सविता, उगते सूर्य की तेजोमयी ऊर्जा, जिसकी स्वर्णिम किरणें शरीर, मन और अंतःकरण में रच-बस जाती हैं। गायत्री मंत्र वही सेतु है जो इस प्रकाश का आवाहन करता है। राह कोई भी हो, सबसे महत्वपूर्ण है पूर्ण निश्चलता नहीं, बल्कि हार्दिक भाव और सहज समर्पण। परमात्मा आँखों से नहीं दिखता — वह तो विचार, वाणी और कर्म में बढ़ती सद्भावना के रूप में ही जाना जाता है।",
-        "kn": "ಗುರುದೇವ್ ಧ್ಯಾನಕ್ಕೆ ಪ್ರವೇಶಿಸುವ ಎರಡು ಸೌಮ್ಯ ದಾರಿಗಳನ್ನು ತಿಳಿಸುತ್ತಾರೆ, ಎರಡೂ ಒಂದು ಸಂಕೇತದಿಂದ ಆರಂಭವಾಗುತ್ತವೆ. ಸಾಕಾರ ಉಪಾಸನೆಯಲ್ಲಿ ಸಾಧಕನು ಒಂದು ಪ್ರಿಯ ರೂಪದ ಮೇಲೆ ಧ್ಯಾನಿಸುತ್ತಾನೆ — ಉದಾಹರಣೆಗೆ, ಬೆಳಕಿನ ಮೃದು ಗೋಳದೊಳಗೆ ಗಾಯತ್ರಿ ಮಾತೆಯ ದರ್ಶನ, ಮತ್ತು ನಿಧಾನವಾಗಿ ಮಗು ತಾಯಿಯ ಬಗ್ಗೆ ಅನುಭವಿಸುವಂತಹ ಆತ್ಮೀಯ ಸಾಮೀಪ್ಯ. ನಿರಾಕಾರ ಉಪಾಸನೆಯಲ್ಲಿ ರೂಪದ ಸ್ಥಾನವನ್ನು ಬೆಳಕು ಪಡೆಯುತ್ತದೆ — ಹೆಚ್ಚಾಗಿ ಸವಿತಾ, ಉದಯಿಸುವ ಸೂರ್ಯನ ತೇಜೋಮಯ ಶಕ್ತಿ, ಅದರ ಸುವರ್ಣ ಕಿರಣಗಳು ದೇಹ, ಮನಸ್ಸು ಮತ್ತು ಅಂತರಂಗದಲ್ಲಿ ಬೆರೆತುಹೋಗುತ್ತವೆ. ಗಾಯತ್ರಿ ಮಂತ್ರವೇ ಈ ಬೆಳಕನ್ನು ಆವಾಹಿಸುವ ಸೇತುವೆ. ದಾರಿ ಯಾವುದಾದರೂ ಇರಲಿ, ಮುಖ್ಯವಾದದ್ದು ಸಂಪೂರ್ಣ ನಿಶ್ಚಲತೆಯಲ್ಲ, ಬದಲಿಗೆ ಹೃತ್ಪೂರ್ವಕ ಭಾವ ಮತ್ತು ಸಹಜ ಶರಣಾಗತಿ. ಪರಮಾತ್ಮನು ಕಣ್ಣಿಗೆ ಕಾಣಿಸುವುದಿಲ್ಲ — ಆತ ವಿಚಾರ, ಮಾತು ಮತ್ತು ಕರ್ಮದಲ್ಲಿ ಬೆಳೆಯುವ ಸದ್ಭಾವದ ರೂಪದಲ್ಲಿ ಮಾತ್ರ ತಿಳಿಯುತ್ತಾನೆ."
+        "en": "Gurudev taught us two gentle ways of meditation, and both begin with a symbol. In the meditation with form (Sakar Upasana), the seeker meditates on a beloved form — for example, visualizing Gayatri Mata within a soft sphere of light, and slowly feeling a warm, intimate closeness, as a child feels toward the mother. In formless meditation (Nirakar Upasana), the form gives way to light itself: most often Savita — the radiant energy of the rising sun, imagined as golden rays soaking into body, mind, and inner self. The Gayatri Mantra is the bridge that invokes this light. Whichever path one chooses, what matters most is not perfect stillness but heartfelt feeling (bhava) and a willing surrender. God is never seen with the eyes — only known as growing goodness in thoughts, words, and deeds.",
+        "hi": "गुरुदेव ने हमें ध्यान की दो सौम्य राहें सिखाईं, और दोनों किसी प्रतीक से आरंभ होती हैं। साकार उपासना में साधक किसी प्रिय रूप पर ध्यान करता है — जैसे प्रकाश के कोमल गोले के भीतर गायत्री माता का दर्शन, और धीरे-धीरे वैसी ही आत्मीय निकटता का अनुभव, जैसी एक शिशु अपनी माँ के प्रति अनुभव करता है। निराकार उपासना में रूप का स्थान प्रकाश ले लेता है — प्रायः सविता, उगते सूर्य की तेजोमयी ऊर्जा, जिसकी स्वर्णिम किरणें शरीर, मन और अंतःकरण में रच-बस जाती हैं। गायत्री मंत्र वही सेतु है जो इस प्रकाश का आवाहन करता है। राह कोई भी हो, सबसे महत्वपूर्ण है पूर्ण निश्चलता नहीं, बल्कि हार्दिक भाव और सहज समर्पण। परमात्मा आँखों से नहीं दिखता — वह तो विचार, वाणी और कर्म में बढ़ती सद्भावना के रूप में ही जाना जाता है।",
+        "kn": "ಗುರುದೇವ್ ನಮಗೆ ಧ್ಯಾನದ ಎರಡು ಸೌಮ್ಯ ದಾರಿಗಳನ್ನು ಕಲಿಸಿದರು, ಎರಡೂ ಒಂದು ಸಂಕೇತದಿಂದ ಆರಂಭವಾಗುತ್ತವೆ. ಸಾಕಾರ ಉಪಾಸನೆಯಲ್ಲಿ ಸಾಧಕನು ಒಂದು ಪ್ರಿಯ ರೂಪದ ಮೇಲೆ ಧ್ಯಾನಿಸುತ್ತಾನೆ — ಉದಾಹರಣೆಗೆ, ಬೆಳಕಿನ ಮೃದು ಗೋಳದೊಳಗೆ ಗಾಯತ್ರಿ ಮಾತೆಯ ದರ್ಶನ, ಮತ್ತು ನಿಧಾನವಾಗಿ ಮಗು ತಾಯಿಯ ಬಗ್ಗೆ ಅನುಭವಿಸುವಂತಹ ಆತ್ಮೀಯ ಸಾಮೀಪ್ಯ. ನಿರಾಕಾರ ಉಪಾಸನೆಯಲ್ಲಿ ರೂಪದ ಸ್ಥಾನವನ್ನು ಬೆಳಕು ಪಡೆಯುತ್ತದೆ — ಹೆಚ್ಚಾಗಿ ಸವಿತಾ, ಉದಯಿಸುವ ಸೂರ್ಯನ ತೇಜೋಮಯ ಶಕ್ತಿ, ಅದರ ಸುವರ್ಣ ಕಿರಣಗಳು ದೇಹ, ಮನಸ್ಸು ಮತ್ತು ಅಂತರಂಗದಲ್ಲಿ ಬೆರೆತುಹೋಗುತ್ತವೆ. ಗಾಯತ್ರಿ ಮಂತ್ರವೇ ಈ ಬೆಳಕನ್ನು ಆವಾಹಿಸುವ ಸೇತುವೆ. ದಾರಿ ಯಾವುದಾದರೂ ಇರಲಿ, ಮುಖ್ಯವಾದದ್ದು ಸಂಪೂರ್ಣ ನಿಶ್ಚಲತೆಯಲ್ಲ, ಬದಲಿಗೆ ಹೃತ್ಪೂರ್ವಕ ಭಾವ ಮತ್ತು ಸಹಜ ಶರಣಾಗತಿ. ಪರಮಾತ್ಮನು ಕಣ್ಣಿಗೆ ಕಾಣಿಸುವುದಿಲ್ಲ — ಆತ ವಿಚಾರ, ಮಾತು ಮತ್ತು ಕರ್ಮದಲ್ಲಿ ಬೆಳೆಯುವ ಸದ್ಭಾವದ ರೂಪದಲ್ಲಿ ಮಾತ್ರ ತಿಳಿಯುತ್ತಾನೆ."
       },
       "highlights": {
         "en": [
-          "Sakar — meditating on a loving form, like Gayatri Mata within a sphere of light",
-          "Nirakar — meditating on light itself, the golden rays of Savita (the sun)",
+          "Meditation with form — meditating on a loving form, like Gayatri Mata, within a sphere of light",
+          "Formless meditation — meditating on light itself, the golden rays of Savita (the sun)",
           "What matters most is heartfelt feeling and willing surrender, not force"
         ],
         "hi": [
@@ -146,19 +116,6 @@
   ],
   "resources": [
     {
-      "id": "EP50",
-      "code": "EP50",
-      "type": "book",
-      "lang": "en",
-      "title": {
-        "en": "Jap Tap Dhyan — The Triple Path of Sadhana",
-        "hi": "जप तप ध्यान — साधना का त्रिविध पथ",
-        "kn": "ಜಪ ತಪ ಧ್ಯಾನ — ಸಾಧನೆಯ ತ್ರಿವಿಧ ಪಥ"
-      },
-      "read": "https://www.awgp.org/en/literature/book/Jap_Tap_Dhyanthe_Tripple_Path_Of_Sadhna/v1",
-      "buy": "https://www.awgpstore.com/product?id=EP50"
-    },
-    {
       "id": "AV44",
       "code": "AV44",
       "type": "book",
@@ -172,17 +129,17 @@
       "buy": "https://www.awgpstore.com/product?id=AV44"
     },
     {
-      "id": "SV50",
-      "code": "SV50",
+      "id": "EP50",
+      "code": "EP50",
       "type": "book",
-      "lang": "hi",
+      "lang": "en",
       "title": {
-        "en": "Khate Samay In Baton Ka Dhyan (Mindfulness While Eating)",
-        "hi": "खाते समय इन बातों का ध्यान",
-        "kn": "ಊಟ ಮಾಡುವಾಗ ಗಮನಿಸಬೇಕಾದ ಸಂಗತಿಗಳು"
+        "en": "Jap Tap Dhyan — The Triple Path of Sadhana",
+        "hi": "जप तप ध्यान — साधना का त्रिविध पथ",
+        "kn": "ಜಪ ತಪ ಧ್ಯಾನ — ಸಾಧನೆಯ ತ್ರಿವಿಧ ಪಥ"
       },
-      "read": "https://www.awgp.org/en/literature/book/Khate_Samay_In_Baton_Ka_Dhyan/v1",
-      "buy": "https://www.awgpstore.com/product?id=SV50"
+      "read": "https://www.awgp.org/en/literature/book/Jap_Tap_Dhyanthe_Tripple_Path_Of_Sadhna/v1",
+      "buy": "https://www.awgpstore.com/product?id=EP50"
     }
   ]
 }

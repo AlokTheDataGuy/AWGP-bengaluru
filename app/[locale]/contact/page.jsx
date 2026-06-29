@@ -13,9 +13,9 @@ const CONTACT_TITLE = {
 };
 
 const CONTACT_DESC = {
-  en: 'Visit AWGP Bengaluru at 37, Lakshmi Layout Main Road, Chikka Begur, Begur — 560114. Open daily 5:30 AM–9:30 PM. Call or WhatsApp +91 92437 55613, email connect@awgpblr.org, or get directions via Kudlu Gate metro.',
-  hi: 'AWGP बेंगलूरु पधारें — 37, लक्ष्मी लेआउट मेन रोड, चिक्का बेगूर, बेगूर — 560114। प्रतिदिन सुबह 5:30 से रात 9:30 बजे तक खुला। कॉल या WhatsApp +91 92437 55613, ईमेल connect@awgpblr.org।',
-  kn: 'AWGP ಬೆಂಗಳೂರಿಗೆ ಭೇಟಿ ನೀಡಿ — 37, ಲಕ್ಷ್ಮಿ ಲೇಔಟ್ ಮುಖ್ಯ ರಸ್ತೆ, ಚಿಕ್ಕ ಬೇಗೂರು, ಬೇಗೂರು — 560114. ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ 5:30 ರಿಂದ ರಾತ್ರಿ 9:30. ಕರೆ ಅಥವಾ WhatsApp +91 92437 55613, ಇಮೇಲ್ connect@awgpblr.org.',
+  en: 'Visit AWGP Bengaluru at 37, Lakshmi Layout Main Road, Chikka Begur, Begur — 560114. Open daily 5:30 AM–9:00 PM. Call or WhatsApp +91 92437 55613, email connect@awgpblr.org, or get directions via Kudlu Gate metro.',
+  hi: 'AWGP बेंगलूरु पधारें — 37, लक्ष्मी लेआउट मेन रोड, चिक्का बेगूर, बेगूर — 560114। प्रतिदिन सुबह 5:30 से रात 9:00 बजे तक खुला। कॉल या WhatsApp +91 92437 55613, ईमेल connect@awgpblr.org।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿಗೆ ಭೇಟಿ ನೀಡಿ — 37, ಲಕ್ಷ್ಮಿ ಲೇಔಟ್ ಮುಖ್ಯ ರಸ್ತೆ, ಚಿಕ್ಕ ಬೇಗೂರು, ಬೇಗೂರು — 560114. ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ 5:30 ರಿಂದ ರಾತ್ರಿ 9:00. ಕರೆ ಅಥವಾ WhatsApp +91 92437 55613, ಇಮೇಲ್ connect@awgpblr.org.',
 };
 
 const CONTACT_BC = {

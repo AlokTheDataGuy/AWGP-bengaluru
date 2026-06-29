@@ -6,6 +6,7 @@ import {
   Facebook, Instagram, Youtube, MessageCircle, Mail, ArrowRight,
 } from 'lucide-react';
 import blogData from '../../../../data/blog.json';
+import ShareButton from '../../../../components/ui/ShareButton';
 import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
 import JsonLd from '../../../../components/seo/JsonLd';
 import { buildMetadata, localeUrl } from '../../../../lib/seo/metadata';
@@ -123,14 +124,12 @@ export default async function BlogPostPage({ params }) {
 
             <div className="blog-share-strip">
               <span>{locale === 'hi' ? 'इस लेख को साझा करें' : locale === 'kn' ? 'ಈ ಲೇಖನವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ' : 'Found this useful? Share it.'}</span>
-              <a
-                href="https://wa.me/919243755613"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                💬 WhatsApp
-              </a>
+              <ShareButton
+                locale={locale}
+                title={L(post.title)}
+                url={localeUrl(locale, `/blog/${slug}`)}
+                showLabel={false}
+              />
             </div>
 
             <Link href="/blog" className="blog-back blog-back--bottom">{backLabel}</Link>

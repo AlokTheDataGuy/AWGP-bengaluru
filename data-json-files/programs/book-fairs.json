@@ -1,7 +1,11 @@
 {
   "meta": {
     "page": "book-fairs",
-    "languages": ["en", "hi", "kn"],
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
     "_note_for_editor": "Fill the past-fairs gallery from the Bangalore chapter's records / Facebook (https://www.facebook.com/gayatripariwarbangalore/). Each entry shape is shown in 'fairs' below — copy an object, fill it in, and remove the _placeholder flag. 'image' is a path/URL to a photo (optional; leave empty string if none). Dates are display strings, not parsed."
   },
   "hero": {
@@ -16,7 +20,7 @@
       "kn": "ಒಳ್ಳೆಯ ಪುಸ್ತಕಗಳು, ಸಮುದಾಯಕ್ಕೆ ಹತ್ತಿರ."
     },
     "intro": {
-      "en": "A good book can change the way you live — and from time to time, AWGP Bengaluru brings that opportunity right to your neighbourhood. We organise book exhibitions at different locations in and around Bengaluru, carrying Gurudev Pandit Shriram Sharma Acharya's life-transforming literature on health, character, family, and the science of living. Here is a look back at the exhibitions we've held.",
+      "en": "A good book can change the way you live — and from time to time, AWGP Bengaluru brings that opportunity right to your neighbourhood. We organise book exhibitions at different locations in and around Bengaluru, carrying Gurudev Pandit Shriram Sharma Acharya's life-transforming literature on health, character, family, and the science of living. Here are the glimpses of the exhibitions we have organized.",
       "hi": "एक अच्छी पुस्तक आपके जीने का ढंग बदल सकती है — और समय-समय पर AWGP बेंगलुरु यह अवसर सीधे आपके मोहल्ले तक लाता है। हम बेंगलुरु और आसपास विभिन्न स्थानों पर पुस्तक प्रदर्शनियाँ आयोजित करते हैं, जिनमें गुरुदेव पंडित श्रीराम शर्मा आचार्य का जीवन बदल देने वाला साहित्य होता है — स्वास्थ्य, चरित्र, परिवार और जीवन-जीने के विज्ञान पर। यहाँ हमारी अब तक की प्रदर्शनियों की एक झलक है।",
       "kn": "ಒಂದು ಒಳ್ಳೆಯ ಪುಸ್ತಕ ನಿಮ್ಮ ಬದುಕಿನ ರೀತಿಯನ್ನೇ ಬದಲಿಸಬಲ್ಲದು — ಮತ್ತು ಕಾಲಕಾಲಕ್ಕೆ AWGP ಬೆಂಗಳೂರು ಆ ಅವಕಾಶವನ್ನು ನೇರವಾಗಿ ನಿಮ್ಮ ಸಮೀಪಕ್ಕೆ ತರುತ್ತದೆ. ನಾವು ಬೆಂಗಳೂರು ಮತ್ತು ಸುತ್ತಮುತ್ತ ವಿವಿಧ ಸ್ಥಳಗಳಲ್ಲಿ ಪುಸ್ತಕ ಪ್ರದರ್ಶನಗಳನ್ನು ಆಯೋಜಿಸುತ್ತೇವೆ, ಇದರಲ್ಲಿ ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ್ ಶರ್ಮಾ ಆಚಾರ್ಯರ ಜೀವನ ಪರಿವರ್ತಿಸುವ ಸಾಹಿತ್ಯ ಇರುತ್ತದೆ — ಆರೋಗ್ಯ, ಚಾರಿತ್ರ್ಯ, ಕುಟುಂಬ ಮತ್ತು ಬದುಕಿನ ವಿಜ್ಞಾನದ ಬಗ್ಗೆ. ಇಲ್ಲಿ ನಾವು ನಡೆಸಿದ ಪ್ರದರ್ಶನಗಳ ಒಂದು ನೋಟ."
     }
@@ -64,9 +68,9 @@
         "kn": "ಮಹಿಳಾ ಸಬಲೀಕರಣ"
       },
       {
-        "en": "Akhand Jyoti & Gurudev's magazines",
-        "hi": "अखण्ड ज्योति व गुरुदेव की पत्रिकाएँ",
-        "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಮತ್ತು ಗುರುದೇವರ ಪತ್ರಿಕೆಗಳು"
+        "en": "Akhand Jyoti & Yug Nirman Yojana Patrika",
+        "hi": "अखण्ड ज्योति व युग निर्माण योजना पत्रिका",
+        "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಮತ್ತು ಯುಗ ನಿರ್ಮಾಣ ಯೋಜನೆ ಪತ್ರಿಕೆ"
       }
     ]
   },
@@ -151,7 +155,7 @@
       "kn": "ನಿಮ್ಮ ಪ್ರದೇಶದಲ್ಲಿ ಪುಸ್ತಕ ಪ್ರದರ್ಶನ ಬೇಕೇ?"
     },
     "body": {
-      "en": "If you'd like to host or help organise a book exhibition near you — at your community, school, or workplace — reach out to AWGP Bengaluru. Spreading good literature is a service anyone can be part of.",
+      "en": "If you'd like to host or help organise a book exhibition near you — in your community, school, or workplace — reach out to AWGP Bengaluru. Spreading good literature is a kind of service anyone can be part of.",
       "hi": "यदि आप अपने पास — अपने समुदाय, स्कूल या कार्यस्थल पर — पुस्तक प्रदर्शनी आयोजित करना या उसमें सहयोग देना चाहते हैं, तो AWGP बेंगलुरु से संपर्क करें। अच्छे साहित्य का प्रसार एक ऐसी सेवा है जिसमें कोई भी भाग ले सकता है।",
       "kn": "ನೀವು ನಿಮ್ಮ ಸಮೀಪದಲ್ಲಿ — ನಿಮ್ಮ ಸಮುದಾಯ, ಶಾಲೆ ಅಥವಾ ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ — ಪುಸ್ತಕ ಪ್ರದರ್ಶನ ಆಯೋಜಿಸಲು ಅಥವಾ ಸಹಾಯ ಮಾಡಲು ಬಯಸಿದರೆ, AWGP ಬೆಂಗಳೂರನ್ನು ಸಂಪರ್ಕಿಸಿ. ಒಳ್ಳೆಯ ಸಾಹಿತ್ಯವನ್ನು ಹರಡುವುದು ಯಾರೂ ಭಾಗವಹಿಸಬಹುದಾದ ಸೇವೆ."
     },

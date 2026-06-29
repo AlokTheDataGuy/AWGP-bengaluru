@@ -111,8 +111,12 @@ export default async function SadhanaPage({ params }) {
                   {locale === 'hi' ? 'संपर्क करें' : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ' : 'Get in Touch'}
                 </Link>
                 <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer"
-                  className="btn btn-outline" style={{ marginTop: '10px', display: 'flex', justifyContent: 'center' }}>
+                  className="btn btn-outline only-desktop" style={{ marginTop: '10px', display: 'flex', justifyContent: 'center' }}>
                   💬 WhatsApp
+                </a>
+                <a href="tel:+919243755613"
+                  className="btn btn-outline only-mobile" style={{ marginTop: '10px', display: 'flex', justifyContent: 'center' }}>
+                  📞 {locale === 'hi' ? 'कॉल करें' : locale === 'kn' ? 'ಕರೆ ಮಾಡಿ' : 'Call Us'}
                 </a>
               </div>
             </div>

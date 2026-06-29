@@ -137,7 +137,7 @@ export default async function FestivalsPage({ params }) {
     cardsEye:      loc({ en: 'Through the Year', hi: 'वर्ष भर', kn: 'ವರ್ಷವಿಡೀ' }),
     cardsTitle:    loc({ en: 'Our Festival Celebrations', hi: 'हमारे पर्व उत्सव', kn: 'ನಮ್ಮ ಹಬ್ಬ ಆಚರಣೆಗಳು' }),
     cardsSub:      loc({
-      en: 'Every major Indian festival — observed together with Yagya, kirtan, satsang, and prasad. Free and open to all.',
+      en: 'Every major Indian festival — observed together with yagya, kirtan, satsang, and prasad. Free and open to all.',
       hi: 'हर प्रमुख भारतीय पर्व — यज्ञ, कीर्तन, सत्संग और प्रसाद के साथ। निःशुल्क और सबके लिए।',
       kn: 'ಪ್ರತಿ ಪ್ರಮುಖ ಭಾರತೀಯ ಹಬ್ಬ — ಯಜ್ಞ, ಕೀರ್ತನ, ಸತ್ಸಂಗ ಮತ್ತು ಪ್ರಸಾದದೊಂದಿಗೆ. ಉಚಿತ ಮತ್ತು ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.',
     }),
@@ -344,10 +344,17 @@ export default async function FestivalsPage({ params }) {
               href="https://wa.me/919243755613"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline"
+              className="btn btn-outline only-desktop"
               style={{ borderColor: 'rgba(255,255,255,0.35)', color: '#fff' }}
             >
               💬 WhatsApp
+            </a>
+            <a
+              href="tel:+919243755613"
+              className="btn btn-outline only-mobile"
+              style={{ borderColor: 'rgba(255,255,255,0.35)', color: '#fff' }}
+            >
+              📞 {locale === 'hi' ? 'कॉल करें' : locale === 'kn' ? 'ಕರೆ ಮಾಡಿ' : 'Call Us'}
             </a>
             <Link
               href="/programs"

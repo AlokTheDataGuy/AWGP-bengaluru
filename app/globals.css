@@ -649,3 +649,14 @@ a:hover { color: var(--maroon); }
 }
 .anim-fade-up { animation: fadeInUp 0.7s ease both; }
 .anim-fade    { animation: fadeIn 0.6s ease both; }
+
+/* ────────────────────────────────────
+   VIEWPORT VISIBILITY HELPERS
+   Used to swap WhatsApp (desktop) for Call (mobile).
+──────────────────────────────────── */
+@media (max-width: 767px) {
+  .only-desktop { display: none !important; }
+}
+@media (min-width: 768px) {
+  .only-mobile { display: none !important; }
+}

@@ -70,8 +70,11 @@ export default async function WorkshopsPage({ params }) {
               <Link href="/contact" className="btn btn-primary">
                 {locale === 'hi' ? 'संपर्क करें' : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ' : 'Get in Touch'}
               </Link>
-              <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">
+              <a href="https://wa.me/919243755613" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark only-desktop">
                 💬 WhatsApp
+              </a>
+              <a href="tel:+919243755613" className="btn btn-outline-dark only-mobile">
+                📞 {locale === 'hi' ? 'कॉल करें' : locale === 'kn' ? 'ಕರೆ ಮಾಡಿ' : 'Call Us'}
               </a>
             </div>
           </Reveal>

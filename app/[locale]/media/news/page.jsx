@@ -1,8 +1,7 @@
 import { Link } from '../../../../lib/i18n/navigation';
-import Image from 'next/image';
-import { Newspaper, ArrowUpRight } from 'lucide-react';
 import HeroSection from '../../../../components/ui/HeroSection';
 import HighlightsClient from '../../../../components/ui/HighlightsClient';
+import PressGallery from '../../../../components/ui/PressGallery';
 import newsData from '../../../../data/news.json';
 import { buildMetadata } from '../../../../lib/seo/metadata';
 import '../../../../components/ui/Media.css';
@@ -23,21 +22,11 @@ export async function generateMetadata({ params }) {
   return buildMetadata({ locale, path: '/media/news', title: NEWS_TITLE, description: NEWS_DESC });
 }
 
-const formatDate = (iso, locale) => {
-  const map = { hi: 'hi-IN', kn: 'kn-IN', en: 'en-IN' };
-  try {
-    return new Date(iso).toLocaleDateString(map[locale] || 'en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
-  } catch {
-    return iso;
-  }
-};
-
 export default async function NewsPage({ params }) {
   const { locale } = await params;
   const L = (en, hi, kn) => (locale === 'hi' ? hi : locale === 'kn' ? kn : en);
-  const T = (obj) => (obj && (obj[locale] || obj.en)) || '';
 
-  const press = [...newsData.press].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const press = newsData.press;
 
   const heroTitle    = L('Press and Highlights', 'समाचार एवं झलकियाँ', 'ಸುದ್ದಿ ಮತ್ತು ಮುಖ್ಯಾಂಶಗಳು');
   const heroSubtitle = L(
@@ -73,39 +62,7 @@ export default async function NewsPage({ params }) {
             </p>
           </div>
 
-          <div className="press-grid">
-            {press.map((p) => {
-              const Card = (
-                <>
-                  <div className="press-card__clip">
-                    <Image
-                      src={p.image}
-                      alt={T(p.headline)}
-                      fill
-                      sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, 25vw"
-                      style={{ objectFit: 'cover' }}
-                    />
-                    <span className="press-card__paper">
-                      <Newspaper size={13} aria-hidden="true" />
-                      {T(p.publication)}
-                    </span>
-                  </div>
-                  <div className="press-card__body">
-                    <span className="press-card__date">{formatDate(p.date, locale)}</span>
-                    <p className="press-card__headline">{T(p.headline)}</p>
-                    {p.url ? <span className="press-card__cta">{L('Read article', 'लेख पढ़ें', 'ಲೇಖನ ಓದಿ')} <ArrowUpRight size={14} /></span> : null}
-                  </div>
-                </>
-              );
-              return p.url ? (
-                <a key={p.id} href={p.url} target="_blank" rel="noopener noreferrer" className="press-card press-card--link">
-                  {Card}
-                </a>
-              ) : (
-                <article key={p.id} className="press-card">{Card}</article>
-              );
-            })}
-          </div>
+          <PressGallery press={press} />
         </div>
       </section>
 

@@ -653,6 +653,16 @@
 }
 .press-card--link { text-decoration: none; }
 .press-card--link:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+button.press-card {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
 .press-card__clip {
   position: relative;
   aspect-ratio: 4 / 3;

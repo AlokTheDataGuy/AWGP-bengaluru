@@ -14,9 +14,11 @@ const UI = {
   },
   getInTouch: { en: 'Get in Touch', hi: 'संपर्क करें', kn: 'ಸಂಪರ್ಕಿಸಿ' },
   whatsapp: { en: '💬 WhatsApp', hi: '💬 WhatsApp', kn: '💬 WhatsApp' },
+  call: { en: '📞 Call Us', hi: '📞 कॉल करें', kn: '📞 ಕರೆ ಮಾಡಿ' },
   read: { en: 'Read', hi: 'पढ़ें', kn: 'ಓದಿ' },
   buy: { en: 'Buy', hi: 'मँगवाएं', kn: 'ಖರೀದಿಸಿ' },
   backLabel: { en: '← All Activities', hi: '← सभी गतिविधियां', kn: '← ಎಲ್ಲಾ ಚಟುವಟಿಕೆಗಳು' },
+  glimpses: { en: '📸 Glimpses', hi: '📸 झलकियाँ', kn: '📸 ಒಂದು ನೋಟ' },
 };
 
 const t = (locale, obj) => obj[locale] || obj.en;
@@ -31,6 +33,7 @@ export default function ActivityArticle({
   extra,
   donation,
   resources,
+  gallery = [],
 }) {
   const L = (obj) => t(locale, obj);
   const [firstSection, ...restSections] = sections;
@@ -148,6 +151,23 @@ export default function ActivityArticle({
         </Reveal>
       )}
 
+      {/* ── Photo gallery strip ─────────────────────────── */}
+      {gallery.length > 0 && (
+        <Reveal className="aa-gallery section">
+          <div className="section-inner">
+            <h2 className="aa-heading aa-heading--center">{L(UI.glimpses)}</h2>
+            <span className="aa-rule aa-rule--center" aria-hidden="true" />
+            <div className="aa-photo-strip">
+              {gallery.map((src, i) => (
+                <figure key={src} className="aa-photo-strip__item">
+                  <img src={src} alt={`${hero.title} — ${i + 1}`} loading="lazy" decoding="async" />
+                </figure>
+              ))}
+            </div>
+          </div>
+        </Reveal>
+      )}
+
       {/* ── Donation / sponsorship card ─────────────────── */}
       {donation?.image && (
         <Reveal className="aa-donation section">
@@ -214,10 +234,17 @@ export default function ActivityArticle({
                 href="https://wa.me/919243755613"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-outline"
+                className="btn btn-outline only-desktop"
                 style={{ borderColor: 'rgba(255,255,255,0.5)', color: '#fff' }}
               >
                 {L(UI.whatsapp)}
+              </a>
+              <a
+                href="tel:+919243755613"
+                className="btn btn-outline only-mobile"
+                style={{ borderColor: 'rgba(255,255,255,0.5)', color: '#fff' }}
+              >
+                {L(UI.call)}
               </a>
             </div>
           </div>

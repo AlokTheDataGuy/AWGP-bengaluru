@@ -14,7 +14,7 @@ Address:  37, Lakshmi Layout Main Road, Chikka Begur, Begur, Bengaluru, Karnatak
 Phone:    +91 92437 55613
 Email:    connect@awgpblr.org
 Website:  https://www.awgpblr.org   ← use the SAME variant (www vs non-www) the site deploys on
-Hours:    Mon–Sun, 5:30 AM – 9:30 PM
+Hours:    Mon–Sun, 5:30 AM – 9:00 PM
 ```
 
 > Source of truth: `lib/seo/siteConfig.js`. If any fact changes, update it there **and**
@@ -32,7 +32,7 @@ Create/claim at https://business.google.com.
 - [ ] **Additional categories:** `Meditation center`, `Yoga studio`, `Non-profit organization`, `Cultural association` (add whichever are offered).
 - [ ] **Pin the map marker** precisely on the building, then copy the **exact lat/lng** back into `siteConfig.geo` (replaces the current approximate coordinates).
 - [ ] **Service area:** Bengaluru + neighbouring localities (Begur, Bommanahalli, HSR, Electronic City, Kudlu).
-- [ ] **Hours:** 5:30 AM – 9:30 PM daily; add special hours for festivals (Guru Purnima, Navratri, Gayatri Jayanti).
+- [ ] **Hours:** 5:30 AM – 9:00 PM daily; add special hours for festivals (Guru Purnima, Navratri, Gayatri Jayanti).
 - [ ] **Description (750 chars):** lead with what it is and where — "The Gayatri Chetna Kendra of All World Gayatri Pariwar in Begur, Bengaluru offers free Yagya, meditation, Pragya Yoga, Bal Sanskar Shala and Vedic workshops…". Mention founders + Shantikunj.
 - [ ] **Website link:** the homepage (matching canonical variant). Add UTM if you want to track GBP traffic.
 - [ ] **Attributes:** "Identifies as community-led", wheelchair access, free Wi-Fi, etc. as applicable.

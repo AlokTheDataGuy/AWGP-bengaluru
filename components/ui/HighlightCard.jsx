@@ -1,15 +1,22 @@
 'use client';
 
 import Image from 'next/image';
-import { CalendarDays, MapPin, Images as ImagesIcon } from 'lucide-react';
+import { CalendarDays, MapPin, Images as ImagesIcon, ArrowRight } from 'lucide-react';
 
-export default function HighlightCard({ h, images, cover, categories, T, L, viewLabel, onOpen, i = 0 }) {
+export default function HighlightCard({ h, images, cover, categories, T, L, galleryLabel, detailLabel, onGallery, onDetail, i = 0 }) {
+  const onBodyKey = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onDetail();
+    }
+  };
+
   return (
     <article className="hl-card" style={{ '--i': i }}>
       <button
         className="hl-card__media"
-        onClick={onOpen}
-        aria-label={`${viewLabel} — ${T(h.title)}`}
+        onClick={onGallery}
+        aria-label={`${galleryLabel} — ${T(h.title)}`}
       >
         <Image
           src={cover}
@@ -33,7 +40,15 @@ export default function HighlightCard({ h, images, cover, categories, T, L, view
           </span>
         </span>
       </button>
-      <div className="hl-card__body">
+
+      <div
+        className="hl-card__body"
+        role="button"
+        tabIndex={0}
+        onClick={onDetail}
+        onKeyDown={onBodyKey}
+        aria-label={`${detailLabel} — ${T(h.title)}`}
+      >
         <span className="hl-card__date">
           <CalendarDays size={13} aria-hidden="true" /> {T(h.dateDisplay)}
         </span>
@@ -47,6 +62,9 @@ export default function HighlightCard({ h, images, cover, categories, T, L, view
             </span>
           )}
         </div>
+        <span className="hl-card__more">
+          {detailLabel} <ArrowRight size={13} aria-hidden="true" />
+        </span>
       </div>
     </article>
   );

@@ -17,7 +17,7 @@ const PROGRAMS_TITLE = {
 };
 
 const PROGRAMS_DESC = {
-  en: 'Free festivals, Yagya ceremonies, Akhand Jap, Bal Sanskar Shala and transformative shivirs at AWGP Bengaluru. Every program is open to all — no fee, no registration. See upcoming events.',
+  en: 'Festivals, Yagya ceremonies, Akhand Jap, Bal Sanskar Shala and transformative shivirs at AWGP Bengaluru. Every program is open to all — no fee, no registration. See upcoming events.',
   hi: 'AWGP बेंगलूरु में नि:शुल्क उत्सव, यज्ञ अनुष्ठान, अखंड जप, बाल संस्कार शाला एवं परिवर्तनकारी शिविर। हर कार्यक्रम सभी के लिए खुला — कोई शुल्क नहीं, कोई पंजीकरण नहीं।',
   kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಉಚಿತ ಹಬ್ಬಗಳು, ಯಜ್ಞ ಆಚರಣೆಗಳು, ಅಖಂಡ ಜಪ, ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು. ಪ್ರತಿ ಕಾರ್ಯಕ್ರಮ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.',
 };
@@ -73,7 +73,7 @@ export default async function ProgramsIndexPage({ params }) {
     eyebrow:  loc({ en: 'What We Offer', hi: 'हम क्या प्रदान करते हैं', kn: 'ನಾವು ಏನು ನೀಡುತ್ತೇವೆ' }),
     heading:  loc({ en: 'Every Occasion a Celebration', hi: 'हर अवसर एक उत्सव', kn: 'ಪ್ರತಿ ಸಂದರ್ಭ ಒಂದು ಉತ್ಸವ' }),
     body:     loc({
-      en: "AWGP Bengaluru's programs — festivals, Yagyas, Anusthan, and Akhand Jap — are moments of collective spiritual experience. All programs are free, open to everyone, and rooted in Gurudev's vision of Sadhana and Seva.",
+      en: "AWGP Bengaluru's programs — Festivals, Yagyas, Anusthan, and Akhand Jap — are moments of collective spiritual experience. All programs are free, open to everyone, and rooted in Gurudev's vision of Sadhana and Seva.",
       hi: 'AWGP बेंगलूरु के कार्यक्रम — उत्सव, यज्ञ, अनुष्ठान और अखंड जप — सामूहिक आध्यात्मिक अनुभव के अवसर हैं। सभी कार्यक्रम निःशुल्क और सभी के लिए खुले हैं।',
       kn: 'AWGP ಬೆಂಗಳೂರಿನ ಕಾರ್ಯಕ್ರಮಗಳು — ಹಬ್ಬಗಳು, ಯಜ್ಞ, ಅನುಷ್ಠಾನ ಮತ್ತು ಅಖಂಡ ಜಪ — ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವದ ಅವಕಾಶಗಳು.',
     }),
@@ -87,6 +87,7 @@ export default async function ProgramsIndexPage({ params }) {
     }),
     contact:  loc({ en: 'Contact Us', hi: 'संपर्क करें', kn: 'ಸಂಪರ್ಕಿಸಿ' }),
     whatsapp: 'WhatsApp',
+    call:     loc({ en: 'Call Us', hi: 'कॉल करें', kn: 'ಕರೆ ಮಾಡಿ' }),
   };
 
   return (
@@ -102,7 +103,7 @@ export default async function ProgramsIndexPage({ params }) {
       {/* ── Hero ── */}
       <HeroSection
         title={loc({ en: 'Programs', hi: 'कार्यक्रम', kn: 'ಕಾರ್ಯಕ್ರಮಗಳು' })}
-        subtitle={loc({ en: 'Festivals, Yagyas & Transformative Shivirs', hi: 'उत्सव, यज्ञ और परिवर्तनकारी शिविर', kn: 'ಉತ್ಸವ, ಯಜ್ಞ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು' })}
+        subtitle={loc({ en: 'Festivals, Yagya & Transformative Shivirs', hi: 'उत्सव, यज्ञ और परिवर्तनकारी शिविर', kn: 'ಉತ್ಸವ, ಯಜ್ಞ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು' })}
       />
 
       {/* ── Intro band ── */}
@@ -176,10 +177,17 @@ export default async function ProgramsIndexPage({ params }) {
               href="https://wa.me/919243755613"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline"
+              className="btn btn-outline only-desktop"
               style={{ borderColor: 'rgba(255,255,255,0.35)', color: '#fff' }}
             >
               💬 {T.whatsapp}
+            </a>
+            <a
+              href="tel:+919243755613"
+              className="btn btn-outline only-mobile"
+              style={{ borderColor: 'rgba(255,255,255,0.35)', color: '#fff' }}
+            >
+              📞 {T.call}
             </a>
           </div>
         </div>

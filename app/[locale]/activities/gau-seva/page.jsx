@@ -1,6 +1,22 @@
+import fs from 'fs';
+import path from 'path';
 import ActivityArticle from '../../../../components/activities/ActivityArticle';
 import { buildMetadata } from '../../../../lib/seo/metadata';
 import data from '../../../../data-json-files/activities/gau-seva.json';
+
+/* Auto-collect gau-seva photos, skipping the donation table image. */
+function getGauSevaPhotos() {
+  try {
+    const dir = path.join(process.cwd(), 'public', 'assets', 'gau-seva');
+    return fs
+      .readdirSync(dir)
+      .filter((f) => /\.(jpe?g|png|webp|avif)$/i.test(f) && f !== 'table.png')
+      .sort()
+      .map((f) => `/assets/gau-seva/${f}`);
+  } catch {
+    return [];
+  }
+}
 
 const GAU_TITLE = {
   en: 'Gau Seva in Bangalore — Caring for the Sacred Cow',
@@ -79,6 +95,7 @@ export default async function GauSevaPage({ params }) {
       extra={extra}
       donation={donation}
       resources={resources}
+      gallery={getGauSevaPhotos()}
     />
   );
 }

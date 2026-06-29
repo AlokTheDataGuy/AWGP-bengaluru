@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { notFound } from 'next/navigation';
 import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
@@ -18,6 +20,20 @@ import './ProgramDetail.css';
 
 export async function generateStaticParams() {
   return programTypesData.map((p) => ({ slug: p.slug }));
+}
+
+/* Auto-collect every photo in a /public/assets/<...> folder (sorted). */
+function getPhotos(...segments) {
+  try {
+    const dir = path.join(process.cwd(), 'public', 'assets', ...segments);
+    return fs
+      .readdirSync(dir)
+      .filter((f) => /\.(jpe?g|png|webp|avif)$/i.test(f))
+      .sort()
+      .map((f) => `/assets/${segments.join('/')}/${f}`);
+  } catch {
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }) {
@@ -83,6 +99,7 @@ export default async function ProgramDetailPage({ params }) {
     join:       locale === 'hi' ? '🙏 साधना में भाग लें'    : locale === 'kn' ? '🙏 ಸೇರಿ'                : '🙏 Join This Program',
     contact:    locale === 'hi' ? 'संपर्क करें'             : locale === 'kn' ? 'ಸಂಪರ್ಕಿಸಿ'              : 'Get in Touch',
     whatsapp:   'WhatsApp',
+    call:       locale === 'hi' ? 'कॉल करें' : locale === 'kn' ? 'ಕರೆ ಮಾಡಿ' : 'Call Us',
     joinDesc:   locale === 'hi'
       ? 'सभी कार्यक्रम निःशुल्क और सभी के लिए खुले हैं।'
       : locale === 'kn'
@@ -120,10 +137,17 @@ export default async function ProgramDetailPage({ params }) {
           href="https://wa.me/919243755613"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-outline"
+          className="btn btn-outline only-desktop"
           style={{ marginTop: '10px', display: 'flex', justifyContent: 'center', borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}
         >
           💬 {lbl.whatsapp}
+        </a>
+        <a
+          href="tel:+919243755613"
+          className="btn btn-outline only-mobile"
+          style={{ marginTop: '10px', display: 'flex', justifyContent: 'center', borderColor: 'rgba(255,255,255,0.3)', color: '#fff' }}
+        >
+          📞 {lbl.call}
         </a>
       </div>
     </aside>
@@ -189,7 +213,7 @@ export default async function ProgramDetailPage({ params }) {
                       ? 'प्रत्येक पर्व पर हम यज्ञ, कीर्तन, सत्संग और प्रसाद के साथ एकजुट होते हैं। ये आयोजन हिंदू पंचांग के अनुसार मनाए जाते हैं और सभी के लिए पूरी तरह निःशुल्क हैं। इन उत्सवों में शामिल होकर आप सामूहिक आध्यात्मिक ऊर्जा का अनुभव कर सकते हैं।'
                       : locale === 'kn'
                       ? 'ಪ್ರತಿ ಹಬ್ಬದಂದು ನಾವು ಯಜ್ಞ, ಕೀರ್ತನ, ಸತ್ಸಂಗ ಮತ್ತು ಪ್ರಸಾದದೊಂದಿಗೆ ಒಟ್ಟಿಗೆ ಸೇರುತ್ತೇವೆ. ಈ ಕಾರ್ಯಕ್ರಮಗಳು ಹಿಂದೂ ಪಂಚಾಂಗ ಅನ್ವಯ ಆಚರಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಎಲ್ಲರಿಗೂ ಉಚಿತ.'
-                      : 'Every festival at AWGP Bengaluru comes alive with Yagya, kirtan, satsang, and prasad. Events follow the Hindu Panchang and are free and open to all. These gatherings carry the warmth of a shared spiritual family — whether you are new or have been with us for years, you are always welcome.'}
+                      : 'Every festival at AWGP Bengaluru comes alive with yagya, kirtan, satsang, and prasad. Events follow the Hindu Panchang and are free and open to all. These gatherings carry the warmth of a shared spiritual family — whether you are new or have been with us for years, you are always welcome.'}
                   </p>
                 </ReadMore>
               </Reveal>
@@ -279,6 +303,7 @@ export default async function ProgramDetailPage({ params }) {
      BOOK FAIR
   ───────────────────────────────────────────────────────── */
   if (slug === 'book-fair') {
+    const bookPhotos = getPhotos('book-exhibitions');
     return (
       <>
         {seo}
@@ -295,6 +320,25 @@ export default async function ProgramDetailPage({ params }) {
                   <p className="pd-intro__text">{L(bookFairData.hero.intro)}</p>
                 </ReadMore>
               </Reveal>
+
+              {/* Horizontal photo strip */}
+              {bookPhotos.length > 0 && (
+                <>
+                <h3 className="pd-sec-title">📸 {locale === 'hi' ? 'झलकियाँ' : locale === 'kn' ? 'ಒಂದು ನೋಟ' : 'Glimpses'}</h3>
+                <Reveal as="div" className="pd-photo-strip" aria-label={L(bookFairData.gallery.heading)}>
+                  {bookPhotos.map((src, i) => (
+                    <figure key={src} className="pd-photo-strip__item">
+                      <img
+                        src={src}
+                        alt={`${L(bookFairData.hero.title)} — ${i + 1}`}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </figure>
+                  ))}
+                </Reveal>
+                </>
+              )}
 
               {/* Key highlights from program-types */}
               {program.points?.length > 0 && (
@@ -344,6 +388,7 @@ export default async function ProgramDetailPage({ params }) {
      TREE PLANTATION
   ───────────────────────────────────────────────────────── */
   if (slug === 'tree-plantation') {
+    const treePhotos = getPhotos('highlights', 'tree-plantation-drive-2026');
     return (
       <>
         {seo}
@@ -357,7 +402,7 @@ export default async function ProgramDetailPage({ params }) {
               {/* Stat block */}
               <Reveal as="div" className="pd-stat-block">
                 <div className="pd-stat-item">
-                  <span className="pd-stat-big">1,500+</span>
+                  <span className="pd-stat-big">20K+</span>
                   <span className="pd-stat-lbl">{locale === 'hi' ? 'वृक्ष लगाए' : locale === 'kn' ? 'ಮರಗಳು ನೆಟ್ಟವು' : 'Trees Planted'}</span>
                 </div>
                 <div className="pd-stat-item">
@@ -376,6 +421,25 @@ export default async function ProgramDetailPage({ params }) {
                   <p className="pd-intro__text">{L(treePlantData.body)}</p>
                 </ReadMore>
               </Reveal>
+
+              {/* Horizontal photo strip — latest tree plantation drive */}
+              {treePhotos.length > 0 && (
+                <>
+                <h3 className="pd-sec-title">📸 {locale === 'hi' ? 'झलकियाँ' : locale === 'kn' ? 'ಒಂದು ನೋಟ' : 'Glimpses'}</h3>
+                <Reveal as="div" className="pd-photo-strip">
+                  {treePhotos.map((src, i) => (
+                    <figure key={src} className="pd-photo-strip__item">
+                      <img
+                        src={src}
+                        alt={`${L(program.title)} — ${i + 1}`}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </figure>
+                  ))}
+                </Reveal>
+                </>
+              )}
 
               {/* Highlights from json */}
               {treePlantData.highlights && (

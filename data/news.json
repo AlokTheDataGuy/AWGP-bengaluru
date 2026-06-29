@@ -4,7 +4,11 @@
       "id": "deepyagya-2026",
       "image": "/assets/misc/deepyagya.jpg",
       "date": "2026-06-08",
-      "tag": { "en": "Yagya", "hi": "यज्ञ", "kn": "ಯಜ್ಞ" },
+      "tag": {
+        "en": "Yagya",
+        "hi": "यज्ञ",
+        "kn": "ಯಜ್ಞ"
+      },
       "title": {
         "en": "1000-Lamp Deep Yagya Lights Up the Kendra",
         "hi": "केंद्र में दीप यज्ञ — एक हजार दीप जगमगाए",
@@ -20,7 +24,11 @@
       "id": "tree-drive-2026",
       "image": "/assets/activities/tree-plantation.jpg",
       "date": "2026-06-05",
-      "tag": { "en": "Seva", "hi": "सेवा", "kn": "ಸೇವೆ" },
+      "tag": {
+        "en": "Seva",
+        "hi": "सेवा",
+        "kn": "ಸೇವೆ"
+      },
       "title": {
         "en": "World Environment Day: 500 Saplings Planted",
         "hi": "विश्व पर्यावरण दिवस: 500 पौधे रोपे गए",
@@ -36,7 +44,11 @@
       "id": "yuva-shivir-2026",
       "image": "/assets/programs/workshops.jpg",
       "date": "2026-05-18",
-      "tag": { "en": "Shivir", "hi": "शिविर", "kn": "ಶಿಬಿರ" },
+      "tag": {
+        "en": "Shivir",
+        "hi": "शिविर",
+        "kn": "ಶಿಬಿರ"
+      },
       "title": {
         "en": "Youth Personality-Development Shivir Draws 200",
         "hi": "युवा व्यक्तित्व-विकास शिविर में 200 सहभागी",
@@ -52,7 +64,11 @@
       "id": "book-fair-2026",
       "image": "/assets/activities/book-fair.jpg",
       "date": "2026-04-28",
-      "tag": { "en": "Book Exhibitions", "hi": "पुस्तक प्रदर्शनी", "kn": "ಪುಸ್ತಕ ಪ್ರದರ್ಶನ" },
+      "tag": {
+        "en": "Book Exhibitions",
+        "hi": "पुस्तक प्रदर्शनी",
+        "kn": "ಪುಸ್ತಕ ಪ್ರದರ್ಶನ"
+      },
       "title": {
         "en": "Yug Sahitya Book Exhibition Returns to Bengaluru",
         "hi": "युग साहित्य पुस्तक प्रदर्शनी बेंगलूरु में पुनः",
@@ -68,7 +84,11 @@
       "id": "gau-seva-2026",
       "image": "/assets/activities/gau-seva.jpg",
       "date": "2026-04-12",
-      "tag": { "en": "Gau Seva", "hi": "गौ सेवा", "kn": "ಗೌ ಸೇವೆ" },
+      "tag": {
+        "en": "Gau Seva",
+        "hi": "गौ सेवा",
+        "kn": "ಗೌ ಸೇವೆ"
+      },
       "title": {
         "en": "Gau Seva Day at the Kendra Gaushala",
         "hi": "केंद्र गौशाला में गौ सेवा दिवस",
@@ -84,7 +104,11 @@
       "id": "akhand-jap-2026",
       "image": "/assets/programs/akhand-jap.jpeg",
       "date": "2026-03-30",
-      "tag": { "en": "Sadhana", "hi": "साधना", "kn": "ಸಾಧನೆ" },
+      "tag": {
+        "en": "Sadhana",
+        "hi": "साधना",
+        "kn": "ಸಾಧನೆ"
+      },
       "title": {
         "en": "24-Hour Akhand Jap Observed with Devotion",
         "hi": "24 घंटे का अखंड जप श्रद्धापूर्वक सम्पन्न",
@@ -99,50 +123,86 @@
   ],
   "press": [
     {
-      "id": "clip-deepyagya",
-      "image": "/assets/misc/deepyagya1.jpg",
-      "publication": { "en": "Deccan Herald", "hi": "डेक्कन हेराल्ड", "kn": "ಡೆಕ್ಕನ್ ಹೆರಾಲ್ಡ್" },
-      "date": "2026-06-09",
+      "id": "clip-yogaday-2017",
+      "image": "/assets/newspaper_cutouts/0-dakshin-bharat-22-june-2017.jpg",
+      "publication": {
+        "en": "Dakshin Bharat"
+      },
+      "date": "2017-06-22",
       "headline": {
-        "en": "Thousand lamps glow as city marks collective Deep Yagya",
-        "hi": "सामूहिक दीप यज्ञ में जगमगाए एक हजार दीप",
-        "kn": "ಸಾಮೂಹಿಕ ದೀಪ ಯಜ್ಞದಲ್ಲಿ ಬೆಳಗಿದ ಸಾವಿರ ದೀಪಗಳು"
+        "en": "3rd International Yoga Day graced by ministers and Himalayan yogis."
       },
       "url": ""
     },
     {
-      "id": "clip-environment",
-      "image": "/assets/activities/tree-plantation1.jpg",
-      "publication": { "en": "The Hindu", "hi": "द हिंदू", "kn": "ದಿ ಹಿಂದೂ" },
-      "date": "2026-06-06",
+      "id": "clip-yogaratna-2022",
+      "image": "/assets/newspaper_cutouts/1-namma-bengaluru-14-june-2022.jpg",
+      "publication": {
+        "en": "Namma Bengaluru"
+      },
+      "date": "2022-06-14",
       "headline": {
-        "en": "Volunteers green the city on World Environment Day",
-        "hi": "विश्व पर्यावरण दिवस पर स्वयंसेवकों ने शहर को हरा-भरा किया",
-        "kn": "ವಿಶ್ವ ಪರಿಸರ ದಿನದಂದು ನಗರವನ್ನು ಹಸಿರಾಗಿಸಿದ ಸ್ವಯಂಸೇವಕರು"
+        "en": "Dr. Chinmay Pandya honoured with the Yoga Ratna Award in Bengaluru."
       },
       "url": ""
     },
     {
-      "id": "clip-bookfair",
-      "image": "/assets/activities/book-fair1.jpg",
-      "publication": { "en": "Vijaya Karnataka", "hi": "विजय कर्नाटक", "kn": "ವಿಜಯ ಕರ್ನಾಟಕ" },
-      "date": "2026-04-29",
+      "id": "clip-rajbhasha-2021",
+      "image": "/assets/newspaper_cutouts/2-dakshin-bharat-21-april-2021.jpg",
+      "publication": {
+        "en": "Dakshin Bharat"
+      },
+      "date": "2021-04-21",
       "headline": {
-        "en": "Yug Sahitya fair draws thousands of young readers",
-        "hi": "युग साहित्य मेले में उमड़े हजारों युवा पाठक",
-        "kn": "ಯುಗ ಸಾಹಿತ್ಯ ಮೇಳಕ್ಕೆ ಸಾವಿರಾರು ಯುವ ಓದುಗರು"
+        "en": "Parliamentary Rajbhasha Committee participates in a Yagya at Gayatri Chetna Kendra."
       },
       "url": ""
     },
     {
-      "id": "clip-shivir",
-      "image": "/assets/programs/workshops1.jpg",
-      "publication": { "en": "Prajavani", "hi": "प्रजावाणी", "kn": "ಪ್ರಜಾವಾಣಿ" },
-      "date": "2026-05-20",
+      "id": "clip-balekudru-2018",
+      "image": "/assets/newspaper_cutouts/3-Local-Paper-27-Sept-2018.jpg",
+      "publication": {
+        "en": "Local Paper"
+      },
+      "date": "2018-09-27",
       "headline": {
-        "en": "Youth shivir teaches stress-free living the Gayatri way",
-        "hi": "युवा शिविर ने सिखाया गायत्री पद्धति से तनावमुक्त जीवन",
-        "kn": "ಯುವ ಶಿಬಿರ ಗಾಯತ್ರಿ ಮಾರ್ಗದ ಒತ್ತಡ-ಮುಕ್ತ ಜೀವನ ಕಲಿಸಿತು"
+        "en": "Gayatri Pariwar office inaugurated at Balekudru, Udupi District."
+      },
+      "url": ""
+    },
+    {
+      "id": "clip-gayatrijayanti-2022",
+      "image": "/assets/newspaper_cutouts/4-dakshin-bharat-14-june-2022.jpg",
+      "publication": {
+        "en": "Dakshin Bharat"
+      },
+      "date": "2022-06-14",
+      "headline": {
+        "en": "Gayatri Jayanti & Ganga Dussehra celebrated with Yagya and Sanskars."
+      },
+      "url": ""
+    },
+    {
+      "id": "clip-oxygen-2021",
+      "image": "/assets/newspaper_cutouts/5-dakshin-bharat-3-june-2021.jpg",
+      "publication": {
+        "en": "Dakshin Bharat"
+      },
+      "date": "2021-06-03",
+      "headline": {
+        "en": "Gayatri Parivar donates oxygen concentrators to support COVID-19 relief efforts."
+      },
+      "url": ""
+    },
+    {
+      "id": "clip-women-2023",
+      "image": "/assets/newspaper_cutouts/6-dakshin-bharat-15-march-2023.jpg",
+      "publication": {
+        "en": "Dakshin Bharat"
+      },
+      "date": "2023-03-15",
+      "headline": {
+        "en": "Women's Empowerment Day celebrated with inspiring talks and cultural programs."
       },
       "url": ""
     }

@@ -7,7 +7,7 @@
     "schedule": { "en": "As per Hindu Panchang — see festival list below", "hi": "हिंदू पंचांग के अनुसार", "kn": "ಹಿಂದೂ ಪಂಚಾಂಗ ಅನ್ವಯ" },
     "title":    { "en": "Festival Celebrations", "hi": "पर्व उत्सव", "kn": "ಹಬ್ಬ ಆಚರಣೆ" },
     "subtitle": { "en": "Celebrating the Sacred Calendar with Joy & Devotion", "hi": "आनंद और भक्ति के साथ पवित्र पंचांग का उत्सव", "kn": "ಸಂತೋಷ ಮತ್ತು ಭಕ್ತಿಯಿಂದ ಪವಿತ್ರ ಪಂಚಾಂಗ ಆಚರಣೆ" },
-    "intro": { "en": "At AWGP Bengaluru, every festival is more than a celebration — it is a collective spiritual experience. We observe all major Indian festivals with Yagya, kirtan, satsang, and prasad.", "hi": "AWGP बेंगलूरु में प्रत्येक त्योहार केवल उत्सव नहीं — यह एक सामूहिक आध्यात्मिक अनुभव है।", "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ರತಿ ಹಬ್ಬವು ಕೇವಲ ಆಚರಣೆಯಲ್ಲ — ಇದು ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವ." },
+    "intro": { "en": "At AWGP Bengaluru, every festival is more than a celebration — it is a collective spiritual experience. We observe all major Indian festivals with yagya, kirtan, satsang, and prasad.", "hi": "AWGP बेंगलूरु में प्रत्येक त्योहार केवल उत्सव नहीं — यह एक सामूहिक आध्यात्मिक अनुभव है।", "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ರತಿ ಹಬ್ಬವು ಕೇವಲ ಆಚರಣೆಯಲ್ಲ — ಇದು ಸಾಮೂಹಿಕ ಆಧ್ಯಾತ್ಮಿಕ ಅನುಭವ." },
     "points": [],
     "festivals": [
       { "name": { "en": "Janmashtami", "hi": "जन्माष्टमी", "kn": "ಜನ್ಮಾಷ್ಟಮಿ" } },
@@ -34,7 +34,7 @@
     "schedule": { "en": "Throughout the year — various scales and formats", "hi": "वर्ष भर — विभिन्न स्तरों और प्रारूपों में", "kn": "ವರ್ಷವಿಡೀ — ವಿವಿಧ ಪ್ರಮಾಣ ಮತ್ತು ಸ್ವರೂಪಗಳಲ್ಲಿ" },
     "title":    { "en": "Yagya (Homa) Events", "hi": "यज्ञ (होम) आयोजन", "kn": "ಯಜ್ಞ (ಹೋಮ) ಕಾರ್ಯಕ್ರಮಗಳು" },
     "subtitle": { "en": "Sacred Fire Ceremonies at Every Scale", "hi": "हर स्तर पर पवित्र अग्नि अनुष्ठान", "kn": "ಪ್ರತಿ ಮಟ್ಟದಲ್ಲಿ ಪವಿತ್ರ ಅಗ್ನಿ ಅನುಷ್ಠಾನ" },
-    "intro": { "en": "Yagya is the cornerstone of AWGP's spiritual practice. We organise Yagyas at multiple scales — from intimate home ceremonies to large community events. Our trained volunteers conduct Yagyas at members' homes.", "hi": "यज्ञ AWGP की आध्यात्मिक साधना की आधारशिला है।", "kn": "ಯಜ್ಞವು AWGP ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಮೂಲಾಧಾರ." },
+    "intro": { "en": "Yagya is the cornerstone of AWGP's spiritual practice. We organise Yagya at multiple scales — from intimate home ceremonies to grand community events. Our trained volunteers conduct Yagya at members' homes.", "hi": "यज्ञ AWGP की आध्यात्मिक साधना की आधारशिला है।", "kn": "ಯಜ್ಞವು AWGP ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸದ ಮೂಲಾಧಾರ." },
     "points": [],
     "festivals": [],
     "yagyaTypes": [
@@ -42,7 +42,7 @@
       { "name": { "en": "5-Kundi Yagya", "hi": "5 कुंडीय यज्ञ", "kn": "5-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Medium-scale ceremony for special occasions and festivals", "hi": "विशेष अवसरों के लिए मध्यम स्तरीय अनुष्ठान", "kn": "ವಿಶೇಷ ಸಂದರ್ಭಗಳಿಗಾಗಿ ಮಧ್ಯಮ ಪ್ರಮಾಣದ ಅನುಷ್ಠಾನ" } },
       { "name": { "en": "3-Kundi Yagya", "hi": "3 कुंडीय यज्ञ", "kn": "3-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Standard size — ideal for Navratri, Janmashtami and community events", "hi": "मानक आकार — नवरात्रि, जन्माष्टमी के लिए", "kn": "ಪ್ರಮಾಣಿತ ಗಾತ್ರ — ನವರಾತ್ರಿ ಮತ್ತು ಸಾಮುದಾಯಿಕ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ" } },
       { "name": { "en": "24-Kundi Yagya", "hi": "24 कुंडीय यज्ञ", "kn": "24-ಕುಂಡಿ ಯಜ್ಞ" }, "desc": { "en": "Grand ceremony — 24 fire pits representing the 24 syllables of the Gayatri Mantra", "hi": "24 अग्नि कुंड — गायत्री मंत्र के 24 अक्षरों का प्रतीक", "kn": "24 ಅಗ್ನಿ ಕುಂಡ — ಗಾಯತ್ರಿ ಮಂತ್ರದ 24 ಅಕ್ಷರಗಳ ಪ್ರತೀಕ" } },
-      { "name": { "en": "Volunteer Home Yagya", "hi": "स्वयंसेवक घर यज्ञ", "kn": "ಸ್ವಯಂಸೇವಕ ಮನೆ ಯಜ್ಞ" }, "desc": { "en": "Our volunteers come to your home for any Sanskar or occasion", "hi": "हमारे स्वयंसेवक आपके घर किसी भी संस्कार के लिए आते हैं", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ನಿಮ್ಮ ಮನೆಗೆ ಉಚಿತವಾಗಿ ಬರುತ್ತಾರೆ" } }
+      { "name": { "en": "Volunteer Home Yagya", "hi": "स्वयंसेवक घर यज्ञ", "kn": "ಸ್ವಯಂಸೇವಕ ಮನೆ ಯಜ್ಞ" }, "desc": { "en": "Our volunteers come to your home for any Sanskar or occasion", "hi": "हमारे स्वयंसेवक आपके घर किसी भी संस्कार के लिए आते हैं", "kn": "ನಮ್ಮ ಸ್ವಯಂಸೇವಕರು ಯಾವುದೇ ಸಂಸ್ಕಾರ ಅಥವಾ ಸಂದರ್ಭಕ್ಕೆ ನಿಮ್ಮ ಮನೆಗೆ ಬರುತ್ತಾರೆ" } }
     ]
   },
   {
@@ -77,8 +77,8 @@
       "kn": "AWGP ಸಾಹಿತ್ಯ ವಿಭಾಗ — ಅಖಂಡ ಜ್ಯೋತಿ ಸಂಸ್ಥಾನ (1938 ರಿಂದ) — 3,300 ಕ್ಕೂ ಹೆಚ್ಚು ಪುಸ್ತಕಗಳನ್ನು ಪ್ರಕಟಿಸಿದೆ."
     },
     "points": [
-      { "en": "Akhand Jyoti magazine — in publication since 1938, available in Hindi & English", "hi": "अखंड ज्योति पत्रिका — 1938 से प्रकाशित", "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ — 1938 ರಿಂದ ಪ್ರಕಟಣೆ" },
-      { "en": "Books on Gayatri Sadhana, Yagya science, health, values & family harmony", "hi": "गायत्री साधना, यज्ञ विज्ञान पर पुस्तकें", "kn": "ಗಾಯತ್ರಿ ಸಾಧನೆ, ಯಜ್ಞ ವಿಜ್ಞಾನ ಕುರಿತು ಪುಸ್ತಕಗಳು" },
+      { "en": "Akhand Jyoti magazine — in publication since 1938, available in Hindi, English & Kannada", "hi": "अखंड ज्योति पत्रिका — 1938 से प्रकाशित", "kn": "ಅಖಂಡ ಜ್ಯೋತಿ ಪತ್ರಿಕೆ — 1938 ರಿಂದ ಪ್ರಕಟಣೆ" },
+      { "en": "Books on Gayatri Sadhana, Yagya science, Health, Values & Family Harmony", "hi": "गायत्री साधना, यज्ञ विज्ञान पर पुस्तकें", "kn": "ಗಾಯತ್ರಿ ಸಾಧನೆ, ಯಜ್ಞ ವಿಜ್ಞಾನ ಕುರಿತು ಪುಸ್ತಕಗಳು" },
       { "en": "Personality development & motivational literature for the modern professional", "hi": "व्यक्तित्व विकास और प्रेरणादायक साहित्य", "kn": "ವ್ಯಕ್ತಿತ್ವ ವಿಕಾಸ ಮತ್ತು ಪ್ರೇರಣಾದಾಯಕ ಸಾಹಿತ್ಯ" },
       { "en": "Children's literature — stories from Indian epics and value-based comics", "hi": "बच्चों का साहित्य — महाकाव्यों की कहानियां", "kn": "ಮಕ್ಕಳ ಸಾಹಿತ್ಯ — ಮಹಾಕಾವ್ಯಗಳ ಕಥೆಗಳು" },
       { "en": "Free entry — open to all, no registration required", "hi": "निःशुल्क प्रवेश — सभी के लिए खुला", "kn": "ಉಚಿತ ಪ್ರವೇಶ — ಎಲ್ಲರಿಗೂ ಮುಕ್ತ" }
