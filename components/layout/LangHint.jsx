@@ -10,12 +10,10 @@ const MSG = {
 };
 const CLOSE_LABEL = { en: 'Dismiss', hi: 'बंद करें', kn: 'ಮುಚ್ಚಿ' };
 
-// TODO(revert after testing): restore SHOW_AFTER = 22000 and re-enable the
-// session gate in the effect below.
-const SHOW_AFTER = 1500;    // TESTING: surface ~1.5s after load (prod: 22000)
+const SHOW_AFTER = 22000;   // surface after ~20–25s on the site
 const VISIBLE_FOR = 15000;  // then auto-hide after 15s
 const SS_KEY = 'awgp_lang_hint_seen';
-const TESTING = true;       // TESTING: bypass the once-per-session gate
+const TESTING = false;      // once-per-session gate active
 
 /**
  * A one-time nudge bubble anchored to the language toggle, letting visitors

@@ -194,8 +194,8 @@
         { "en": "Deep Yagya with 70+ sadhaks", "hi": "70+ साधकों के साथ दीप यज्ञ", "kn": "70+ ಸಾಧಕರೊಂದಿಗೆ ದೀಪ ಯಜ್ಞ" }
       ],
       "stat": { "en": "70+ sadhaks", "hi": "70+ साधक", "kn": "70+ ಸಾಧಕರು" },
-      "imageCount": 4,
-      "coverIndex": 2,
+      "imageCount": 5,
+      "coverIndex": 5,
       "imageAlt": {
         "en": "Sadhaks performing Deep Yagya on Gayatri Jayanti",
         "hi": "गायत्री जयंती पर दीप यज्ञ करते साधक",
@@ -339,7 +339,7 @@
       ],
       "stat": { "en": "25 participants", "hi": "25 सहभागी", "kn": "25 ಸಹಭಾಗಿಗಳು" },
       "imageCount": 4,
-      "coverIndex": 3,
+      "coverIndex": 4,
       "imageAlt": {
         "en": "Participants in a Tratak meditation session",
         "hi": "त्राटक साधना सत्र में सहभागी",

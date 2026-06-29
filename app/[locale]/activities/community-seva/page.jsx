@@ -64,10 +64,10 @@ export default async function CommunitySeva({ params }) {
             <div className="detail-main">
               <p className="detail-intro">
                 {locale === 'hi'
-                  ? 'AWGP का मानना है कि मानव शरीर केवल व्यक्तिगत सुख के लिए नहीं, बल्कि दूसरों की सेवा के लिए मिला है। "आत्मवत् सर्वभूतेषु" — अर्थात सभी प्राणियों में आत्मा को देखो। AWGP बेंगलूरु की Community Seva गतिविधियां इसी भावना से प्रेरित हैं।'
+                  ? 'हमारा मानना है कि मानव शरीर केवल व्यक्तिगत सुख के लिए नहीं, बल्कि दूसरों की सेवा के लिए मिला है। "आत्मवत् सर्वभूतेषु" — अर्थात सभी प्राणियों में आत्मा को देखो। बेंगलूरु में हमारी Community Seva गतिविधियां इसी भावना से प्रेरित हैं।'
                   : locale === 'kn'
-                  ? 'AWGP ನಂಬುತ್ತದೆ — ಮಾನವ ದೇಹ ಕೇವಲ ವ್ಯಕ್ತಿಗತ ಸುಖಕ್ಕಲ್ಲ, ಇತರರ ಸೇವೆಗಾಗಿ. "ಆತ್ಮವತ್ ಸರ್ವಭೂತೇಷು" — ಎಲ್ಲ ಜೀವಿಗಳಲ್ಲಿ ಆತ್ಮನನ್ನು ಕಾಣಿ. AWGP ಬೆಂಗಳೂರು ಸಮುದಾಯ ಸೇವಾ ಚಟುವಟಿಕೆಗಳು ಈ ಭಾವನೆಯಿಂದ ಪ್ರೇರಿತ.'
-                  : 'AWGP holds that the human body is not given merely for personal pleasure, but to be of service to others. "Atmavat sarvabhuteshu" — see the self in all beings. Our Community Seva activities in Bengaluru are driven by this principle: every act of giving is an act of worship.'}
+                  ? 'ನಾವು ನಂಬುತ್ತೇವೆ — ಮಾನವ ದೇಹ ಕೇವಲ ವ್ಯಕ್ತಿಗತ ಸುಖಕ್ಕಲ್ಲ, ಇತರರ ಸೇವೆಗಾಗಿ. "ಆತ್ಮವತ್ ಸರ್ವಭೂತೇಷು" — ಎಲ್ಲ ಜೀವಿಗಳಲ್ಲಿ ಆತ್ಮನನ್ನು ಕಾಣಿ. ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಮ್ಮ ಸಮುದಾಯ ಸೇವಾ ಚಟುವಟಿಕೆಗಳು ಈ ಭಾವನೆಯಿಂದ ಪ್ರೇರಿತ.'
+                  : 'We hold that the human body is not given merely for personal pleasure, but to be of service to others. Our Community Seva activities in Bengaluru are driven by the principle of "Atmavat sarvabhuteshu" — see the self in all beings. We firmly believe that every act of giving is an act of worship.'}
               </p>
 
               <div className="cseva-grid">
