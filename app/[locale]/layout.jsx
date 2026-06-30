@@ -7,6 +7,7 @@ import Footer from '../../components/layout/Footer';
 import LangBodySync from '../../components/layout/LangBodySync';
 import WhatsAppButton from '../../components/layout/WhatsAppButton';
 import BottomNav from '../../components/layout/BottomNav';
+import VisitorTracker from '../../components/layout/VisitorTracker';
 import JsonLd from '../../components/seo/JsonLd';
 import { siteGraph } from '../../lib/seo/schema';
 
@@ -28,6 +29,7 @@ export default async function LocaleLayout({ children, params }) {
       {/* Site-wide entity graph: Organization (NGO) + LocalBusiness + WebSite */}
       <JsonLd data={siteGraph(locale)} id="site-graph" />
       <LangBodySync locale={locale} />
+      <VisitorTracker />
       <Navbar />
       <main>{children}</main>
       <Footer />

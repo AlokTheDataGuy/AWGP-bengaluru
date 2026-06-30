@@ -1,21 +1,12 @@
-import fs from 'fs';
-import path from 'path';
 import ActivityArticle from '../../../../components/activities/ActivityArticle';
 import { buildMetadata } from '../../../../lib/seo/metadata';
 import data from '../../../../data-json-files/activities/gau-seva.json';
+import { PHOTO_MANIFEST } from '../../../../lib/photoManifest';
 
-/* Auto-collect gau-seva photos, skipping the donation table image. */
+/* gau-seva photos (donation table image excluded) are collected at build time
+   into lib/photoManifest.js — see scripts/gen-photo-manifest.mjs. */
 function getGauSevaPhotos() {
-  try {
-    const dir = path.join(process.cwd(), 'public', 'assets', 'gau-seva');
-    return fs
-      .readdirSync(dir)
-      .filter((f) => /\.(jpe?g|png|webp|avif)$/i.test(f) && f !== 'table.png')
-      .sort()
-      .map((f) => `/assets/gau-seva/${f}`);
-  } catch {
-    return [];
-  }
+  return PHOTO_MANIFEST['gau-seva'] || [];
 }
 
 const GAU_TITLE = {

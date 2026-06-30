@@ -25,6 +25,12 @@ export default function AdminDashboard() {
       </header>
 
       <div className="admin-grid">
+        <Link href="/admin/analytics" className="admin-card">
+          <span className="admin-card-icon">📊</span>
+          <h2 className="admin-card-label">Visitors</h2>
+          <p className="admin-card-desc">Total visitors, new visitors and daily traffic</p>
+          <span className="admin-card-cta">View →</span>
+        </Link>
         {sections.map((s) => (
           <Link key={s.key} href={`/admin/${s.key}`} className="admin-card">
             <span className="admin-card-icon">{s.icon}</span>

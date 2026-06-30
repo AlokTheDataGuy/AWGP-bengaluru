@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
@@ -16,24 +14,17 @@ import yagyaData       from '../../../../data-json-files/programs/yagya.json';
 import bookFairData    from '../../../../data-json-files/programs/book-fairs.json';
 import treePlantData   from '../../../../data-json-files/programs/tree-plantation-our-work-section.json';
 import eventsData      from '../../../../data/programs.json';
+import { PHOTO_MANIFEST } from '../../../../lib/photoManifest';
 import './ProgramDetail.css';
 
 export async function generateStaticParams() {
   return programTypesData.map((p) => ({ slug: p.slug }));
 }
 
-/* Auto-collect every photo in a /public/assets/<...> folder (sorted). */
+/* Photos are collected at build time into lib/photoManifest.js (see
+   scripts/gen-photo-manifest.mjs) so the function never reads from public/. */
 function getPhotos(...segments) {
-  try {
-    const dir = path.join(process.cwd(), 'public', 'assets', ...segments);
-    return fs
-      .readdirSync(dir)
-      .filter((f) => /\.(jpe?g|png|webp|avif)$/i.test(f))
-      .sort()
-      .map((f) => `/assets/${segments.join('/')}/${f}`);
-  } catch {
-    return [];
-  }
+  return PHOTO_MANIFEST[segments.join('/')] || [];
 }
 
 export async function generateMetadata({ params }) {
