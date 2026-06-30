@@ -109,6 +109,7 @@
   text-transform: uppercase;
   color: var(--gold-lt, #FBDA7E);
   margin-bottom: 1.4rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 2px 16px rgba(0, 0, 0, 0.4);
   animation: heroRise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
   animation-delay: 0.05s;
 }
@@ -119,6 +120,7 @@
   background: linear-gradient(to right, var(--gold), var(--saffron));
   border-radius: 0;
   flex-shrink: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero__title {
@@ -129,7 +131,7 @@
   line-height: 1.1;
   letter-spacing: -0.015em;
   margin-bottom: 1.3rem;
-  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 2px 28px rgba(0, 0, 0, 0.45);
   animation: heroRise 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
   animation-delay: 0.14s;
 }
@@ -377,15 +379,25 @@
   }
   .hero__content {
     align-items: flex-end;
-    padding-bottom: clamp(5rem, 16vh, 7rem);
+    padding-bottom: clamp(3rem, 10vh, 4.5rem);
   }
   .hero__scrim {
     background:
+      /* soft top veil — just enough to keep the logo legible */
+      linear-gradient(
+        to bottom,
+        rgba(74, 21, 13, 0.5) 0%,
+        rgba(74, 21, 13, 0.12) 18%,
+        rgba(74, 21, 13, 0) 32%
+      ),
+      /* bottom floor under the text — warm maroon, on theme;
+         fades out by ~40% so the middle of the image stays clear */
       linear-gradient(
         to top,
-        rgba(20, 12, 8, 0.9) 8%,
-        rgba(20, 12, 8, 0.45) 45%,
-        rgba(20, 12, 8, 0.25) 100%
+        rgba(58, 16, 9, 0.92) 0%,
+        rgba(58, 16, 9, 0.82) 12%,
+        rgba(74, 21, 13, 0.4) 28%,
+        rgba(74, 21, 13, 0) 42%
       );
   }
   .hero__img--desktop { display: none; }
@@ -417,23 +429,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
+    gap: 2px;
     position: absolute;
     left: 50%;
-    bottom: 1.4rem;
+    bottom: 0.7rem;
     transform: translateX(-50%);
     z-index: 10;
   }
   .hero__scroll-cue-text {
     font-family: var(--font-heading);
-    font-size: 0.62rem;
+    font-size: 0.52rem;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.78);
     text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
   }
   .hero__scroll-cue-arrow {
+    width: 14px;
+    height: 14px;
     color: var(--gold-lt, #FBDA7E);
     animation: heroScrollBounce 1.6s ease-in-out infinite;
   }

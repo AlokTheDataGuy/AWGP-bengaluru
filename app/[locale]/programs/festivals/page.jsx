@@ -114,8 +114,8 @@ const ELEMENTS = [
     icon: '🪔',
     name: { en: 'Prasad', hi: 'प्रसाद', kn: 'ಪ್ರಸಾದ' },
     desc: {
-      en: "Sacred food shared among all — a symbol of the Pariwar's open, generous spirit.",
-      hi: 'सभी में बँटा पवित्र प्रसाद — परिवार की खुले दिल की उदार भावना का प्रतीक।',
+      en: "Sacred food shared among all — a symbol of the Gayatri Pariwar's open, generous spirit.",
+      hi: 'सभी में बँटा पवित्र प्रसाद — गायत्री परिवार की उदार भावना का प्रतीक।',
       kn: 'ಎಲ್ಲರಲ್ಲಿ ಹಂಚಿದ ಪ್ರಸಾದ — ಪರಿವಾರದ ಮುಕ್ತ, ಉದಾರ ಭಾವನೆಯ ಸಂಕೇತ.',
     },
   },

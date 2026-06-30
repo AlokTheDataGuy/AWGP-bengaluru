@@ -14,8 +14,13 @@ const sessionOptions = {
 export async function middleware(request) {
   const { pathname } = request.nextUrl;
 
-  // ── Admin auth guard ──
-  if (pathname.startsWith('/admin') && !pathname.startsWith('/admin/login')) {
+  // ── Admin routes: never run i18n (no locale prefix) ──
+  if (pathname.startsWith('/admin')) {
+    // Login page is public.
+    if (pathname.startsWith('/admin/login')) {
+      return NextResponse.next();
+    }
+
     const response = NextResponse.next();
     const session = await getIronSession(request, response, sessionOptions);
 

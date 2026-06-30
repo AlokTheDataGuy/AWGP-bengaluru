@@ -119,7 +119,7 @@
 
 /* ── Festival cards grid ──────────────────────────────────── */
 .fst-cards-section {
-  padding: clamp(4rem, 7vw, 6rem) var(--page-gutter);
+  padding: clamp(0.75rem, 1.5vw, 1.25rem) var(--page-gutter) clamp(4rem, 7vw, 6rem);
   background: var(--cream);
 }
 

@@ -33,6 +33,10 @@ export default function AnalyticsPage() {
     .slice(0, 14)
     .map((key) => ({ key, ...stats.daily[key] }));
 
+  // Oldest → newest for the chart; tallest bar sets the scale.
+  const chartDays = [...recentDays].reverse();
+  const maxVisits = Math.max(1, ...chartDays.map((d) => d.visits));
+
   return (
     <div className="admin-wrap">
       <header className="admin-header">
@@ -62,6 +66,32 @@ export default function AnalyticsPage() {
         {recentDays.length === 0 ? (
           <p className="empty">No visits recorded yet.</p>
         ) : (
+          <>
+            <div className="chart-card">
+              <div className="chart">
+                {chartDays.map((d) => {
+                  const totalH = (d.visits / maxVisits) * 100;
+                  const newH = d.visits ? (d.new / d.visits) * totalH : 0;
+                  return (
+                    <div key={d.key} className="bar-col" title={`${formatDay(d.key)} — ${d.visits} visits, ${d.new} new`}>
+                      <span className="bar-count">{d.visits || ''}</span>
+                      <div className="bar-track">
+                        <div className="bar-returning" style={{ height: `${totalH}%` }} />
+                        <div className="bar-new" style={{ height: `${newH}%` }} />
+                      </div>
+                      <span className="bar-label">{formatDay(d.key)}</span>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="chart-legend">
+                <span className="legend-item"><i className="swatch swatch-returning" /> Returning visits</span>
+                <span className="legend-item"><i className="swatch swatch-new" /> New visitors</span>
+              </div>
+            </div>
+          </>
+        )}
+        {recentDays.length === 0 ? null : (
           <table className="stat-table">
             <thead>
               <tr><th>Date</th><th>Visits</th><th>New visitors</th></tr>
@@ -102,6 +132,41 @@ export default function AnalyticsPage() {
         .stat-hint { font-size: 0.78rem; color: var(--text-muted); }
         .section-title { font-family: var(--font-serif); font-size: 1.3rem; color: var(--maroon); margin-bottom: 1rem; }
         .empty { color: var(--text-muted); font-size: 0.9rem; }
+        .chart-card {
+          background: var(--white); border: 1px solid var(--border); border-radius: var(--radius);
+          padding: 1.5rem 1.5rem 1rem; margin-bottom: 1.5rem;
+        }
+        .chart {
+          display: flex; align-items: flex-end; gap: clamp(4px, 1.5vw, 16px);
+          height: 220px; padding-top: 1rem;
+        }
+        .bar-col {
+          flex: 1; display: flex; flex-direction: column; align-items: center;
+          gap: 0.35rem; height: 100%; justify-content: flex-end; min-width: 0;
+        }
+        .bar-count { font-size: 0.7rem; color: var(--text-muted); height: 0.9rem; }
+        .bar-track {
+          position: relative; width: 100%; max-width: 38px; flex: 1;
+          display: flex; align-items: flex-end;
+        }
+        .bar-returning, .bar-new {
+          position: absolute; bottom: 0; left: 0; right: 0; border-radius: 4px 4px 0 0;
+          transition: height 0.3s;
+        }
+        .bar-returning { background: var(--saffron); }
+        .bar-new { background: var(--maroon); }
+        .bar-label {
+          font-size: 0.68rem; color: var(--text-muted); white-space: nowrap;
+          transform: rotate(-45deg); transform-origin: center; height: 1.6rem;
+        }
+        .chart-legend {
+          display: flex; gap: 1.5rem; justify-content: center; margin-top: 0.5rem;
+          font-size: 0.8rem; color: var(--text-muted);
+        }
+        .legend-item { display: inline-flex; align-items: center; gap: 0.4rem; }
+        .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+        .swatch-returning { background: var(--saffron); }
+        .swatch-new { background: var(--maroon); }
         .stat-table {
           width: 100%; border-collapse: collapse; background: var(--white);
           border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;

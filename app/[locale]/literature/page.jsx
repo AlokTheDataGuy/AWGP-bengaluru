@@ -227,7 +227,7 @@ export default async function LiteraturePage({ params }) {
               </h2>
               <p className="lit-magazine__text">
                 {L(
-                  'Published continuously since 1940, Akhand Jyoti is the monthly magazine of thought transformation — timeless wisdom for a brighter, more meaningful life, delivered to your door in many languages.',
+                  'Published continuously since 1940, Akhand Jyoti is the monthly magazine of thought transformation — timeless wisdom for a meaningful life and brighter future, delivered to your door in many languages.',
                   '1940 से निरंतर प्रकाशित, अखण्ड ज्योति विचार क्रांति की मासिक पत्रिका है — उज्ज्वल एवं सार्थक जीवन के लिए शाश्वत ज्ञान, अनेक भाषाओं में आपके द्वार तक।',
                   '1940ರಿಂದ ನಿರಂತರವಾಗಿ ಪ್ರಕಟವಾಗುತ್ತಿರುವ ಅಖಂಡ ಜ್ಯೋತಿ ವಿಚಾರ ಕ್ರಾಂತಿಯ ಮಾಸಿಕ ಪತ್ರಿಕೆ — ಉಜ್ವಲ, ಅರ್ಥಪೂರ್ಣ ಜೀವನಕ್ಕಾಗಿ ಶಾಶ್ವತ ಜ್ಞಾನ, ಹಲವು ಭಾಷೆಗಳಲ್ಲಿ ನಿಮ್ಮ ಮನೆ ಬಾಗಿಲಿಗೆ.',
                 )}
