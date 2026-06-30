@@ -17,7 +17,11 @@ export default function BottomNav() {
   const t = useTranslations();
   const pathname = usePathname();
   const isHome = pathname === '/';
-  const [visible, setVisible] = useState(false);
+  // Initialise synchronously from the route so inner pages render the bar
+  // already visible. Otherwise the first paint after every navigation starts
+  // hidden and the entrance transition replays — making the bar flash out and
+  // back in on each route change.
+  const [visible, setVisible] = useState(!isHome);
 
   useEffect(() => {
     // Inner pages: always visible. Home page: reveal once the hero is scrolled past.

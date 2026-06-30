@@ -110,5 +110,18 @@
     ],
     "festivals": [],
     "yagyaTypes": []
+  },
+  {
+    "id": "jyoti-kalash-yatra",
+    "slug": "jyoti-kalash-yatra",
+    "img": "/assets/jyoti-kalash-yatra/484289214_687237107203241_8888567428614967470_n.jpg",
+    "heroColor": "linear-gradient(135deg, #7B4A00 0%, #7B1C1C 100%)",
+    "schedule": { "en": "Ahead of the 2026 centenary — routes announced locally", "hi": "2026 जन्मशताब्दी से पूर्व — मार्ग स्थानीय रूप से घोषित", "kn": "2026ರ ಶತಮಾನೋತ್ಸವದ ಮುಂಚೆ — ಮಾರ್ಗಗಳು ಸ್ಥಳೀಯವಾಗಿ ಪ್ರಕಟ" },
+    "title":    { "en": "Jyoti Kalash Yatra", "hi": "ज्योति कलश यात्रा", "kn": "ಜ್ಯೋತಿ ಕಲಶ ಯಾತ್ರೆ" },
+    "subtitle": { "en": "The Travelling Flame of the Akhand Jyoti", "hi": "अखण्ड ज्योति की यात्रायमान दिव्य ज्योति", "kn": "ಅಖಂಡ ಜ್ಯೋತಿಯ ಸಂಚಾರಿ ಜ್ಯೋತಿ" },
+    "intro": { "en": "A sacred kalash lit from the Akhand Jyoti — the eternal lamp burning at Shantikunj since 1926 — carried home to home as a mobile temple of light, and our spiritual preparation for the 2026 centenary of Gurudev and Mataji's divine advent.", "hi": "अखण्ड ज्योति से प्रज्वलित एक पावन कलश — वही दीप जो 1926 से शांतिकुंज में जल रहा है — प्रकाश के चल मंदिर के रूप में घर-घर ले जाया जाता, और गुरुदेव व माताजी के दिव्य अवतरण की 2026 जन्मशताब्दी की हमारी आध्यात्मिक तैयारी।", "kn": "ಅಖಂಡ ಜ್ಯೋತಿಯಿಂದ ಬೆಳಗಿಸಿದ ಪವಿತ್ರ ಕಲಶ — 1926ರಿಂದ ಶಾಂತಿಕುಂಜದಲ್ಲಿ ಉರಿಯುತ್ತಿರುವ ಶಾಶ್ವತ ದೀಪ — ಬೆಳಕಿನ ಚಲ ಮಂದಿರವಾಗಿ ಮನೆಮನೆಗೆ ಕೊಂಡೊಯ್ಯಲಾಗುತ್ತದೆ, ಮತ್ತು ಗುರುದೇವ್ ಹಾಗೂ ಮಾತಾಜಿಯವರ ದಿವ್ಯ ಅವತರಣದ 2026ರ ಶತಮಾನೋತ್ಸವದ ನಮ್ಮ ಆಧ್ಯಾತ್ಮಿಕ ಸಿದ್ಧತೆ." },
+    "points": [],
+    "festivals": [],
+    "yagyaTypes": []
   }
 ]

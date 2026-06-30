@@ -5,7 +5,6 @@ import { routing } from '../../lib/i18n/routing';
 import Navbar from '../../components/layout/Navbar';
 import Footer from '../../components/layout/Footer';
 import LangBodySync from '../../components/layout/LangBodySync';
-import WhatsAppButton from '../../components/layout/WhatsAppButton';
 import BottomNav from '../../components/layout/BottomNav';
 import VisitorTracker from '../../components/layout/VisitorTracker';
 import JsonLd from '../../components/seo/JsonLd';
@@ -33,7 +32,6 @@ export default async function LocaleLayout({ children, params }) {
       <Navbar />
       <main>{children}</main>
       <Footer />
-      <WhatsAppButton />
       <BottomNav />
     </NextIntlClientProvider>
   );

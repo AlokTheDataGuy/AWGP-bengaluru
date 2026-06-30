@@ -35,6 +35,9 @@ const FOLDERS = [
   { key: 'gau-seva', segments: ['gau-seva'], exclude: ['table.png'] },
   { key: 'yagya', segments: ['yagya'] },
   { key: 'yagya/deepyagya', segments: ['yagya', 'deepyagya'] },
+  { key: 'jyoti-kalash-yatra', segments: ['jyoti-kalash-yatra'] },
+  { key: 'bsgp', segments: ['bsgp'] },
+  { key: 'bss', segments: ['bss'] },
 ];
 
 const manifest = {};

@@ -7,7 +7,7 @@
 
 .sadhana-card {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 220px minmax(0, 1fr);
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -62,6 +62,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  min-width: 0;
 }
 
 .sadhana-card__header {
@@ -69,6 +70,7 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .sadhana-card__title {
@@ -76,6 +78,7 @@
   font-size: 1.3rem;
   color: var(--maroon);
   margin: 0 0 0.2rem;
+  overflow-wrap: anywhere;
 }
 
 .sadhana-card__schedule {
@@ -84,7 +87,6 @@
   color: var(--saffron);
   letter-spacing: 0.03em;
   display: block;
-  white-space: nowrap;
 }
 
 .sadhana-card__summary {
@@ -122,12 +124,25 @@
 }
 
 @media (max-width: 760px) {
+  .sadhana-grid {
+    gap: 1.4rem;
+  }
   .sadhana-card {
     grid-template-columns: 1fr;
   }
   .sadhana-card__img {
     min-height: 160px;
     max-height: 200px;
+  }
+  .sadhana-card__body {
+    padding: 1.2rem 1.1rem;
+  }
+  .sadhana-card__header {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .sadhana-card__title {
+    font-size: 1.15rem;
   }
 }
 

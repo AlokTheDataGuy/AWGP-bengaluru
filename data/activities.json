@@ -90,6 +90,7 @@
   {
     "id": "bsgp",
     "slug": "bsgp",
+    "href": "/activities/bsgp",
     "img": "/assets/activities/bsgp.jpg",
     "schedule": {
       "en": "Annual — registration opens 3 months before exam",
@@ -217,7 +218,7 @@
   {
     "id": "bal-sanskar-shala",
     "slug": "bal-sanskar-shala",
-    "listed": false,
+    "href": "/activities/bal-sanskar-shala",
     "img": "/assets/programs/bal-sanskar-shala.jpg",
     "schedule": { "en": "Sundays · 10:00 AM – 12:00 PM", "hi": "रविवार · सुबह 10:00 – 12:00 बजे", "kn": "ಭಾನುವಾರ · ಬೆಳಿಗ್ಗೆ 10:00 – 12:00" },
     "title":    { "en": "Bal Sanskar Shala", "hi": "बाल संस्कार शाला", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ" },

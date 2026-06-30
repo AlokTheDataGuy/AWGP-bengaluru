@@ -1,9 +1,10 @@
 .detail-layout {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: minmax(0, 1fr) 320px;
   gap: 3rem;
   align-items: start;
 }
+.detail-layout > * { min-width: 0; }
 
 .detail-big-icon {
   font-size: 3rem;
@@ -104,6 +105,21 @@
 }
 
 .detail-card--cta { background: var(--saffron-pale); }
+
+/* The CTA card sits on a light (saffron-pale) background, so the default
+   white-on-dark .btn-outline is invisible here. Restyle outline buttons
+   inside it with on-brand dark text + saffron border (keeps the shared
+   .btn sheen/lift animation intact). */
+.detail-card--cta .btn-outline {
+  color: var(--maroon);
+  border-color: var(--saffron);
+}
+.detail-card--cta .btn-outline:hover,
+.detail-card--cta .btn-outline:focus-visible {
+  background: var(--saffron);
+  border-color: var(--saffron);
+  color: #fff;
+}
 
 .detail-back-link {
   font-size: 0.85rem;

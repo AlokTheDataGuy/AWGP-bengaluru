@@ -62,7 +62,6 @@ export default async function SadhanaPage({ params }) {
                     <Reveal key={form.id} as="article" className="sadhana-card" style={{ '--i': i }}>
                       <div className="sadhana-card__media">
                         <img src={visual.img} alt={L(form.title)} className="sadhana-card__img" />
-                        {visual.icon && <span className="sadhana-card__icon" aria-hidden="true">{visual.icon}</span>}
                       </div>
                       <div className="sadhana-card__body">
                         <div className="sadhana-card__header">

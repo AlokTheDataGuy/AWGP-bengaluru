@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "bhartiya-sanskriti-gyan-pariksha",
+    "slug": "bhartiya-sanskriti-gyan-pariksha",
+    "navLabel": { "en": "Sanskriti Gyan Pariksha", "hi": "संस्कृति ज्ञान परीक्षा", "kn": "ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆ" },
+    "seoDescription": {
+      "en": "Bhartiya Sanskriti Gyan Pariksha (BSGP) at AWGP Bengaluru — a free, values-based examination on Indian culture for students from grade 5 upward, run across schools to awaken character, patriotism and self-confidence.",
+      "hi": "एडब्ल्यूजीपी बेंगलुरु में भारतीय संस्कृति ज्ञान परीक्षा (BSGP) — कक्षा 5 से ऊपर के विद्यार्थियों के लिए भारतीय संस्कृति पर एक निःशुल्क, मूल्य-आधारित परीक्षा, चरित्र, राष्ट्रप्रेम व आत्मविश्वास जगाने हेतु विद्यालयों में आयोजित।",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆ (BSGP) — 5ನೇ ತರಗತಿಯಿಂದ ಮೇಲಿನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಬಗ್ಗೆ ಉಚಿತ, ಮೌಲ್ಯಾಧಾರಿತ ಪರೀಕ್ಷೆ, ಚಾರಿತ್ರ್ಯ, ದೇಶಪ್ರೇಮ ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸ ಜಾಗೃತಗೊಳಿಸಲು ಶಾಲೆಗಳಲ್ಲಿ ನಡೆಸಲಾಗುತ್ತದೆ."
+    }
+  },
+  "hero": {
+    "title": { "en": "Bhartiya Sanskriti Gyan Pariksha", "hi": "भारतीय संस्कृति ज्ञान परीक्षा", "kn": "ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆ" },
+    "tagline": {
+      "en": "Not just an exam — a movement of cultural awakening and value-based education.",
+      "hi": "केवल एक परीक्षा नहीं — सांस्कृतिक जागरण और मूल्य-आधारित शिक्षा का एक आंदोलन।",
+      "kn": "ಕೇವಲ ಒಂದು ಪರೀಕ್ಷೆಯಲ್ಲ — ಸಾಂಸ್ಕೃತಿಕ ಜಾಗೃತಿ ಮತ್ತು ಮೌಲ್ಯಾಧಾರಿತ ಶಿಕ್ಷಣದ ಆಂದೋಲನ."
+    },
+    "intro": {
+      "en": "Bhartiya Sanskriti Gyan Pariksha (BSGP) is a free, written examination on Indian culture, life-values and the inspiring art of living, organised under the guidance of All World Gayatri Pariwar, Shantikunj. Open to students from grade 5 upward, it is built not to test memory but to awaken character, patriotism, confidence and self-awareness. In Bengaluru, the programme is conducted in hundreds of schools each year, reaching tens of thousands of students. Through a simple, engaging question paper drawn from our heritage — the lives of great personalities, the meaning of festivals, the values of Indian culture — it gently turns young minds toward the dignity of the nation and the art of living well.",
+      "hi": "भारतीय संस्कृति ज्ञान परीक्षा (BSGP) भारतीय संस्कृति, जीवन-मूल्यों और जीवन जीने की प्रेरक कला पर एक निःशुल्क लिखित परीक्षा है, जो अखिल विश्व गायत्री परिवार, शांतिकुंज के मार्गदर्शन में आयोजित होती है। कक्षा 5 से ऊपर के विद्यार्थियों के लिए खुली यह परीक्षा स्मृति को नहीं, अपितु चरित्र, राष्ट्रप्रेम, आत्मविश्वास व आत्मबोध को जगाने हेतु रची गई है। बेंगलुरु में यह कार्यक्रम प्रतिवर्ष सैकड़ों विद्यालयों में आयोजित होता है, और हज़ारों विद्यार्थियों तक पहुँचता है। हमारी विरासत से लिए गए सरल, रोचक प्रश्नपत्र के माध्यम से — महापुरुषों के जीवन, पर्वों के अर्थ, भारतीय संस्कृति के मूल्य — यह युवा मनों को राष्ट्र की गरिमा और सद्जीवन की कला की ओर सहजता से मोड़ती है।",
+      "kn": "ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆ (BSGP) ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ, ಜೀವನ-ಮೌಲ್ಯಗಳು ಮತ್ತು ಜೀವನ ನಡೆಸುವ ಪ್ರೇರಕ ಕಲೆಯ ಬಗ್ಗೆ ಒಂದು ಉಚಿತ ಲಿಖಿತ ಪರೀಕ್ಷೆ, ಅಖಿಲ ವಿಶ್ವ ಗಾಯತ್ರಿ ಪರಿವಾರ, ಶಾಂತಿಕುಂಜದ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ ಆಯೋಜಿಸಲಾಗುತ್ತದೆ. 5ನೇ ತರಗತಿಯಿಂದ ಮೇಲಿನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಮುಕ್ತವಾದ ಇದು ಸ್ಮೃತಿಯನ್ನು ಪರೀಕ್ಷಿಸಲಿಕ್ಕಲ್ಲ, ಬದಲಿಗೆ ಚಾರಿತ್ರ್ಯ, ದೇಶಪ್ರೇಮ, ಆತ್ಮವಿಶ್ವಾಸ ಮತ್ತು ಆತ್ಮಬೋಧವನ್ನು ಜಾಗೃತಗೊಳಿಸಲು ರಚಿಸಲಾಗಿದೆ. ಬೆಂಗಳೂರಿನಲ್ಲಿ ಈ ಕಾರ್ಯಕ್ರಮ ಪ್ರತಿವರ್ಷ ನೂರಾರು ಶಾಲೆಗಳಲ್ಲಿ ನಡೆದು, ಸಾವಿರಾರು ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ತಲುಪುತ್ತದೆ. ನಮ್ಮ ಪರಂಪರೆಯಿಂದ ಪಡೆದ ಸರಳ, ಆಸಕ್ತಿದಾಯಕ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಯ ಮೂಲಕ — ಮಹಾಪುರುಷರ ಜೀವನ, ಹಬ್ಬಗಳ ಅರ್ಥ, ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಮೌಲ್ಯಗಳು — ಇದು ಯುವ ಮನಸ್ಸುಗಳನ್ನು ರಾಷ್ಟ್ರದ ಗೌರವ ಮತ್ತು ಸದ್ಜೀವನದ ಕಲೆಯೆಡೆಗೆ ಸಹಜವಾಗಿ ತಿರುಗಿಸುತ್ತದೆ."
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-bsgp",
+      "title": {
+        "en": "What Is BSGP?",
+        "hi": "BSGP क्या है?",
+        "kn": "BSGP ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "BSGP is an examination on Indian culture — but its real aim is not marks. It is a movement to connect the young generation with the values, heritage and patriotism that hold a person and a nation together. Students from grade 5 upward read simple, illustrated study material on the lives of great personalities, the meaning behind our festivals and samskaras, and the everyday ideals of Indian culture, and then sit a friendly written exam. There is no fee and no discrimination of any kind. What a child carries away is far larger than a result: spiritual growth through reflection and inner calm, mental development through critical thinking and emotional intelligence, and cultural enrichment through a living connection with their own roots.",
+        "hi": "BSGP भारतीय संस्कृति पर एक परीक्षा है — पर इसका असली ध्येय अंक नहीं। यह एक आंदोलन है, जो नई पीढ़ी को उन मूल्यों, विरासत और राष्ट्रप्रेम से जोड़ता है जो व्यक्ति और राष्ट्र को एक सूत्र में बाँधते हैं। कक्षा 5 से ऊपर के विद्यार्थी महापुरुषों के जीवन, हमारे पर्वों व संस्कारों के अर्थ, और भारतीय संस्कृति के नित्य आदर्शों पर सरल, सचित्र अध्ययन-सामग्री पढ़ते हैं, और फिर एक सहज लिखित परीक्षा देते हैं। न कोई शुल्क है, न किसी प्रकार का भेदभाव। बालक जो साथ ले जाता है वह परिणाम से कहीं बड़ा है: चिंतन व अंतर्शांति से आध्यात्मिक विकास, समीक्षात्मक सोच व भावनात्मक बुद्धि से मानसिक विकास, और अपनी जड़ों से जीवंत जुड़ाव से सांस्कृतिक समृद्धि।",
+        "kn": "BSGP ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಬಗ್ಗೆ ಒಂದು ಪರೀಕ್ಷೆ — ಆದರೆ ಇದರ ನಿಜವಾದ ಗುರಿ ಅಂಕಗಳಲ್ಲ. ಇದು ಒಂದು ಆಂದೋಲನ, ಹೊಸ ಪೀಳಿಗೆಯನ್ನು ವ್ಯಕ್ತಿ ಮತ್ತು ರಾಷ್ಟ್ರವನ್ನು ಒಂದು ಸೂತ್ರದಲ್ಲಿ ಬೆಸೆಯುವ ಮೌಲ್ಯಗಳು, ಪರಂಪರೆ ಮತ್ತು ದೇಶಪ್ರೇಮದೊಂದಿಗೆ ಬೆಸೆಯುತ್ತದೆ. 5ನೇ ತರಗತಿಯಿಂದ ಮೇಲಿನ ವಿದ್ಯಾರ್ಥಿಗಳು ಮಹಾಪುರುಷರ ಜೀವನ, ನಮ್ಮ ಹಬ್ಬಗಳು ಮತ್ತು ಸಂಸ್ಕಾರಗಳ ಅರ್ಥ, ಮತ್ತು ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ನಿತ್ಯ ಆದರ್ಶಗಳ ಬಗ್ಗೆ ಸರಳ, ಸಚಿತ್ರ ಅಧ್ಯಯನ ಸಾಮಗ್ರಿಯನ್ನು ಓದಿ, ನಂತರ ಸ್ನೇಹಪೂರ್ಣ ಲಿಖಿತ ಪರೀಕ್ಷೆ ಬರೆಯುತ್ತಾರೆ. ಯಾವುದೇ ಶುಲ್ಕವಿಲ್ಲ, ಯಾವುದೇ ಭೇದಭಾವವಿಲ್ಲ. ಮಗು ಕೊಂಡೊಯ್ಯುವುದು ಫಲಿತಾಂಶಕ್ಕಿಂತ ಬಹಳ ದೊಡ್ಡದು: ಚಿಂತನೆ ಮತ್ತು ಆಂತರಿಕ ಶಾಂತಿಯಿಂದ ಆಧ್ಯಾತ್ಮಿಕ ಬೆಳವಣಿಗೆ, ವಿಮರ್ಶಾತ್ಮಕ ಚಿಂತನೆ ಮತ್ತು ಭಾವನಾತ್ಮಕ ಬುದ್ಧಿಯಿಂದ ಮಾನಸಿಕ ಬೆಳವಣಿಗೆ, ಮತ್ತು ತಮ್ಮ ಬೇರುಗಳೊಂದಿಗೆ ಜೀವಂತ ಸಂಪರ್ಕದಿಂದ ಸಾಂಸ್ಕೃತಿಕ ಸಮೃದ್ಧಿ."
+      },
+      "highlights": {
+        "en": [
+          "A free, written exam on Indian culture, life-values and the art of living",
+          "Open to students from grade 5 upward — no fee, no discrimination",
+          "Aim is character, patriotism and self-awareness, not marks"
+        ],
+        "hi": [
+          "भारतीय संस्कृति, जीवन-मूल्यों व जीवन-कला पर एक निःशुल्क लिखित परीक्षा",
+          "कक्षा 5 से ऊपर के विद्यार्थियों के लिए खुली — न शुल्क, न भेदभाव",
+          "ध्येय अंक नहीं, बल्कि चरित्र, राष्ट्रप्रेम व आत्मबोध है"
+        ],
+        "kn": [
+          "ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ, ಜೀವನ-ಮೌಲ್ಯ ಮತ್ತು ಜೀವನ-ಕಲೆಯ ಬಗ್ಗೆ ಉಚಿತ ಲಿಖಿತ ಪರೀಕ್ಷೆ",
+          "5ನೇ ತರಗತಿಯಿಂದ ಮೇಲಿನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಮುಕ್ತ — ಶುಲ್ಕವಿಲ್ಲ, ಭೇದಭಾವವಿಲ್ಲ",
+          "ಗುರಿ ಅಂಕಗಳಲ್ಲ, ಚಾರಿತ್ರ್ಯ, ದೇಶಪ್ರೇಮ ಮತ್ತು ಆತ್ಮಬೋಧ"
+        ]
+      }
+    },
+    {
+      "id": "why-it-matters",
+      "title": {
+        "en": "Why It Matters",
+        "hi": "इसका महत्व क्यों",
+        "kn": "ಇದು ಏಕೆ ಮುಖ್ಯ"
+      },
+      "body": {
+        "en": "Today's schooling, under the weight of competition, often leaves little room for moral education, while nuclear families and fast-paced double-income lives give children fewer chances to absorb values at home. BSGP steps gently into that gap. It does not add academic pressure; it offers a window into the wisdom of our heritage — the dignity of the nation, the courage of great lives, the meaning behind rituals — at the very age when a child's character is forming. Across the country, more than a hundred thousand students have taken part, including young people from leading institutions, and many describe the experience as one that changed how they see themselves and their culture.",
+        "hi": "आज की स्कूली शिक्षा, प्रतिस्पर्धा के बोझ तले, अक्सर नैतिक शिक्षा के लिए स्थान ही नहीं छोड़ती, जबकि एकल परिवार और तेज़-रफ़्तार दोहरी-आय वाली जीवनशैली बच्चों को घर पर मूल्य आत्मसात करने के कम अवसर देती है। BSGP इस रिक्ति में सहजता से प्रवेश करती है। यह कोई शैक्षणिक दबाव नहीं जोड़ती; यह उस आयु में, जब बालक का चरित्र गढ़ रहा होता है, हमारी विरासत की प्रज्ञा की ओर एक झरोखा खोलती है — राष्ट्र की गरिमा, महान जीवनों का साहस, अनुष्ठानों के पीछे का अर्थ। देश भर में एक लाख से अधिक विद्यार्थी इसमें भाग ले चुके हैं, जिनमें अग्रणी संस्थानों के युवा भी हैं, और अनेक इस अनुभव को ऐसा बताते हैं जिसने उनके स्वयं और अपनी संस्कृति को देखने का दृष्टिकोण बदल दिया।",
+        "kn": "ಇಂದಿನ ಶಾಲಾ ಶಿಕ್ಷಣ, ಸ್ಪರ್ಧೆಯ ಭಾರದಡಿ, ಹೆಚ್ಚಾಗಿ ನೈತಿಕ ಶಿಕ್ಷಣಕ್ಕೆ ಸ್ಥಳವನ್ನೇ ಬಿಡುವುದಿಲ್ಲ, ಜೊತೆಗೆ ವಿಭಕ್ತ ಕುಟುಂಬಗಳು ಮತ್ತು ವೇಗದ ದ್ವಿ-ಆದಾಯ ಜೀವನಶೈಲಿ ಮಕ್ಕಳಿಗೆ ಮನೆಯಲ್ಲಿ ಮೌಲ್ಯಗಳನ್ನು ಆತ್ಮಸಾತ್ ಮಾಡಿಕೊಳ್ಳುವ ಕಡಿಮೆ ಅವಕಾಶಗಳನ್ನು ನೀಡುತ್ತವೆ. BSGP ಈ ಅಂತರವನ್ನು ಸಹಜವಾಗಿ ತುಂಬುತ್ತದೆ. ಇದು ಯಾವುದೇ ಶೈಕ್ಷಣಿಕ ಒತ್ತಡ ಸೇರಿಸುವುದಿಲ್ಲ; ಮಗುವಿನ ಚಾರಿತ್ರ್ಯ ರೂಪುಗೊಳ್ಳುತ್ತಿರುವ ಆ ವಯಸ್ಸಿನಲ್ಲೇ, ಇದು ನಮ್ಮ ಪರಂಪರೆಯ ಪ್ರಜ್ಞೆಯೆಡೆಗೆ ಒಂದು ಕಿಂಡಿಯನ್ನು ತೆರೆಯುತ್ತದೆ — ರಾಷ್ಟ್ರದ ಗೌರವ, ಮಹಾನ್ ಜೀವನಗಳ ಧೈರ್ಯ, ಅನುಷ್ಠಾನಗಳ ಹಿಂದಿನ ಅರ್ಥ. ದೇಶದಾದ್ಯಂತ ಒಂದು ಲಕ್ಷಕ್ಕೂ ಹೆಚ್ಚು ವಿದ್ಯಾರ್ಥಿಗಳು ಇದರಲ್ಲಿ ಭಾಗವಹಿಸಿದ್ದಾರೆ, ಪ್ರಮುಖ ಸಂಸ್ಥೆಗಳ ಯುವಜನರೂ ಸೇರಿ, ಮತ್ತು ಅನೇಕರು ಈ ಅನುಭವವನ್ನು ತಮ್ಮನ್ನು ಮತ್ತು ತಮ್ಮ ಸಂಸ್ಕೃತಿಯನ್ನು ನೋಡುವ ರೀತಿಯನ್ನೇ ಬದಲಿಸಿದ್ದು ಎಂದು ವಿವರಿಸುತ್ತಾರೆ."
+      },
+      "highlights": {
+        "en": [
+          "Fills the moral-education gap left by competitive schooling and busy homes",
+          "Reaches children at the age when character is being formed",
+          "Over a hundred thousand students nationwide, including from leading institutions"
+        ],
+        "hi": [
+          "प्रतिस्पर्धी शिक्षा व व्यस्त घरों से छूटी नैतिक-शिक्षा की रिक्ति को भरती है",
+          "उस आयु में बच्चों तक पहुँचती है जब चरित्र गढ़ रहा होता है",
+          "देश भर में एक लाख से अधिक विद्यार्थी, अग्रणी संस्थानों के भी"
+        ],
+        "kn": [
+          "ಸ್ಪರ್ಧಾತ್ಮಕ ಶಿಕ್ಷಣ ಮತ್ತು ಬಿಡುವಿಲ್ಲದ ಮನೆಗಳಿಂದ ಉಳಿದ ನೈತಿಕ-ಶಿಕ್ಷಣದ ಅಂತರ ತುಂಬುತ್ತದೆ",
+          "ಚಾರಿತ್ರ್ಯ ರೂಪುಗೊಳ್ಳುತ್ತಿರುವ ವಯಸ್ಸಿನಲ್ಲಿ ಮಕ್ಕಳನ್ನು ತಲುಪುತ್ತದೆ",
+          "ದೇಶದಾದ್ಯಂತ ಒಂದು ಲಕ್ಷಕ್ಕೂ ಹೆಚ್ಚು ವಿದ್ಯಾರ್ಥಿಗಳು, ಪ್ರಮುಖ ಸಂಸ್ಥೆಗಳಿಂದಲೂ"
+        ]
+      }
+    },
+    {
+      "id": "in-bengaluru",
+      "title": {
+        "en": "BSGP in Bengaluru",
+        "hi": "बेंगलुरु में BSGP",
+        "kn": "ಬೆಂಗಳೂರಿನಲ್ಲಿ BSGP"
+      },
+      "body": {
+        "en": "In Bengaluru, AWGP conducts BSGP across hundreds of schools, with tens of thousands of students taking part each year. Trained volunteers work hand in hand with schools — providing simple study booklets, conducting the exam in the classroom, and afterward sitting with students to discuss the Gayatri Mantra, the meaning of festivals, and the values behind each answer. Small celebrations often follow: lighting diyas, chanting together, sharing sweets. We warmly welcome schools, teachers and parents across Karnataka to join hands and carry this programme further, so that more children grow up rooted in their culture, strong in character, and confident in who they are.",
+        "hi": "बेंगलुरु में एडब्ल्यूजीपी सैकड़ों विद्यालयों में BSGP आयोजित करता है, और प्रतिवर्ष हज़ारों विद्यार्थी इसमें भाग लेते हैं। प्रशिक्षित स्वयंसेवक विद्यालयों के साथ कंधे से कंधा मिलाकर कार्य करते हैं — सरल अध्ययन-पुस्तिकाएँ देना, कक्षा में परीक्षा कराना, और बाद में विद्यार्थियों के साथ बैठकर गायत्री मंत्र, पर्वों के अर्थ और प्रत्येक उत्तर के पीछे के मूल्यों पर चर्चा करना। प्रायः छोटे उत्सव भी होते हैं: दीप जलाना, साथ मंत्रोच्चार, मिष्ठान्न बाँटना। हम कर्नाटक भर के विद्यालयों, शिक्षकों व अभिभावकों का इस कार्यक्रम को आगे बढ़ाने में हाथ बँटाने हेतु हार्दिक स्वागत करते हैं, ताकि अधिक बच्चे अपनी संस्कृति में जड़ जमाए, चरित्र में दृढ़, और अपने स्वरूप में आत्मविश्वासी होकर बड़े हों।",
+        "kn": "ಬೆಂಗಳೂರಿನಲ್ಲಿ AWGP ನೂರಾರು ಶಾಲೆಗಳಲ್ಲಿ BSGP ನಡೆಸುತ್ತದೆ, ಪ್ರತಿವರ್ಷ ಸಾವಿರಾರು ವಿದ್ಯಾರ್ಥಿಗಳು ಭಾಗವಹಿಸುತ್ತಾರೆ. ತರಬೇತಿ ಪಡೆದ ಸ್ವಯಂಸೇವಕರು ಶಾಲೆಗಳೊಂದಿಗೆ ಹೆಗಲಿಗೆ ಹೆಗಲು ಕೊಟ್ಟು ಕೆಲಸ ಮಾಡುತ್ತಾರೆ — ಸರಳ ಅಧ್ಯಯನ ಪುಸ್ತಿಕೆಗಳನ್ನು ನೀಡುವುದು, ತರಗತಿಯಲ್ಲಿ ಪರೀಕ್ಷೆ ನಡೆಸುವುದು, ನಂತರ ವಿದ್ಯಾರ್ಥಿಗಳೊಂದಿಗೆ ಕುಳಿತು ಗಾಯತ್ರಿ ಮಂತ್ರ, ಹಬ್ಬಗಳ ಅರ್ಥ ಮತ್ತು ಪ್ರತಿ ಉತ್ತರದ ಹಿಂದಿನ ಮೌಲ್ಯಗಳ ಬಗ್ಗೆ ಚರ್ಚಿಸುವುದು. ಹೆಚ್ಚಾಗಿ ಸಣ್ಣ ಆಚರಣೆಗಳೂ ನಡೆಯುತ್ತವೆ: ದೀಪ ಬೆಳಗಿಸುವುದು, ಒಟ್ಟಿಗೆ ಮಂತ್ರೋಚ್ಚಾರಣೆ, ಸಿಹಿ ಹಂಚುವುದು. ಕರ್ನಾಟಕದಾದ್ಯಂತ ಶಾಲೆಗಳು, ಶಿಕ್ಷಕರು ಮತ್ತು ಪೋಷಕರನ್ನು ಈ ಕಾರ್ಯಕ್ರಮವನ್ನು ಮುಂದೆ ಕೊಂಡೊಯ್ಯಲು ಕೈಜೋಡಿಸಲು ನಾವು ಹೃತ್ಪೂರ್ವಕವಾಗಿ ಸ್ವಾಗತಿಸುತ್ತೇವೆ, ಹೆಚ್ಚು ಮಕ್ಕಳು ತಮ್ಮ ಸಂಸ್ಕೃತಿಯಲ್ಲಿ ಬೇರೂರಿ, ಚಾರಿತ್ರ್ಯದಲ್ಲಿ ದೃಢವಾಗಿ, ತಮ್ಮ ಸ್ವರೂಪದಲ್ಲಿ ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ಬೆಳೆಯಲಿ ಎಂದು."
+      },
+      "highlights": {
+        "en": [
+          "Conducted across hundreds of Bengaluru schools every year",
+          "Volunteers provide study material, run the exam, and discuss values afterward",
+          "Schools, teachers and parents across Karnataka are welcome to join hands"
+        ],
+        "hi": [
+          "प्रतिवर्ष बेंगलुरु के सैकड़ों विद्यालयों में आयोजित",
+          "स्वयंसेवक अध्ययन-सामग्री देते, परीक्षा कराते, और बाद में मूल्यों पर चर्चा करते हैं",
+          "कर्नाटक भर के विद्यालय, शिक्षक व अभिभावक हाथ बँटाने हेतु आमंत्रित"
+        ],
+        "kn": [
+          "ಪ್ರತಿವರ್ಷ ಬೆಂಗಳೂರಿನ ನೂರಾರು ಶಾಲೆಗಳಲ್ಲಿ ನಡೆಸಲಾಗುತ್ತದೆ",
+          "ಸ್ವಯಂಸೇವಕರು ಅಧ್ಯಯನ ಸಾಮಗ್ರಿ ನೀಡಿ, ಪರೀಕ್ಷೆ ನಡೆಸಿ, ನಂತರ ಮೌಲ್ಯಗಳ ಬಗ್ಗೆ ಚರ್ಚಿಸುತ್ತಾರೆ",
+          "ಕರ್ನಾಟಕದಾದ್ಯಂತ ಶಾಲೆಗಳು, ಶಿಕ್ಷಕರು ಮತ್ತು ಪೋಷಕರು ಕೈಜೋಡಿಸಲು ಸ್ವಾಗತ"
+        ]
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "id": "cultural-awakening",
+      "title": { "en": "Cultural Awakening", "hi": "सांस्कृतिक जागरण", "kn": "ಸಾಂಸ್ಕೃತಿಕ ಜಾಗೃತಿ" },
+      "description": {
+        "en": "Awaken cultural values and patriotism among children and youth, connecting them with the glorious heritage of India.",
+        "hi": "बच्चों व युवाओं में सांस्कृतिक मूल्यों और राष्ट्रप्रेम को जगाना, उन्हें भारत की गौरवशाली विरासत से जोड़ना।",
+        "kn": "ಮಕ್ಕಳು ಮತ್ತು ಯುವಜನರಲ್ಲಿ ಸಾಂಸ್ಕೃತಿಕ ಮೌಲ್ಯಗಳು ಮತ್ತು ದೇಶಪ್ರೇಮವನ್ನು ಜಾಗೃತಗೊಳಿಸಿ, ಭಾರತದ ಗೌರವಾನ್ವಿತ ಪರಂಪರೆಯೊಂದಿಗೆ ಬೆಸೆಯುವುದು."
+      }
+    },
+    {
+      "id": "character-confidence",
+      "title": { "en": "Character & Confidence", "hi": "चरित्र व आत्मविश्वास", "kn": "ಚಾರಿತ್ರ್ಯ ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸ" },
+      "description": {
+        "en": "Build confidence, self-awareness and strong character, helping young people maintain the dignity of the nation.",
+        "hi": "आत्मविश्वास, आत्मबोध और दृढ़ चरित्र का निर्माण, ताकि युवा राष्ट्र की गरिमा बनाए रखें।",
+        "kn": "ಆತ್ಮವಿಶ್ವಾಸ, ಆತ್ಮಬೋಧ ಮತ್ತು ದೃಢ ಚಾರಿತ್ರ್ಯ ಕಟ್ಟುವುದು, ಯುವಜನರು ರಾಷ್ಟ್ರದ ಗೌರವವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲು ಸಹಾಯ."
+      }
+    },
+    {
+      "id": "spiritual-growth",
+      "title": { "en": "Spiritual & Mental Growth", "hi": "आध्यात्मिक व मानसिक विकास", "kn": "ಆಧ್ಯಾತ್ಮಿಕ ಮತ್ತು ಮಾನಸಿಕ ಬೆಳವಣಿಗೆ" },
+      "description": {
+        "en": "Explore inner wisdom, mindfulness and harmony, while boosting intellect, critical thinking and emotional intelligence.",
+        "hi": "अंतर्ज्ञान, सजगता व सामंजस्य का अन्वेषण, साथ ही बुद्धि, समीक्षात्मक सोच और भावनात्मक बुद्धि का संवर्धन।",
+        "kn": "ಆಂತರಿಕ ಪ್ರಜ್ಞೆ, ಜಾಗೃತಿ ಮತ್ತು ಸಾಮರಸ್ಯವನ್ನು ಅನ್ವೇಷಿಸುವುದು, ಜೊತೆಗೆ ಬುದ್ಧಿ, ವಿಮರ್ಶಾತ್ಮಕ ಚಿಂತನೆ ಮತ್ತು ಭಾವನಾತ್ಮಕ ಬುದ್ಧಿಯನ್ನು ಹೆಚ್ಚಿಸುವುದು."
+      }
+    }
+  ],
+  "events": {
+    "emptyState": {
+      "en": "Our upcoming BSGP exam dates and school drives in Bengaluru will be listed here. Check back soon.",
+      "hi": "बेंगलुरु में हमारी आगामी BSGP परीक्षा तिथियाँ व विद्यालय अभियान यहाँ सूचीबद्ध होंगे। शीघ्र पुनः देखें।",
+      "kn": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಮ್ಮ ಮುಂಬರುವ BSGP ಪರೀಕ್ಷಾ ದಿನಾಂಕಗಳು ಮತ್ತು ಶಾಲಾ ಅಭಿಯಾನಗಳು ಇಲ್ಲಿ ಪಟ್ಟಿಯಾಗುತ್ತವೆ. ಶೀಘ್ರದಲ್ಲೇ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ."
+    },
+    "items": [
+      { "id": "placeholder-1", "eventType": "", "location": "", "date": "", "note": { "en": "", "hi": "", "kn": "" }, "image": "", "_placeholder": true },
+      { "id": "placeholder-2", "eventType": "", "location": "", "date": "", "note": { "en": "", "hi": "", "kn": "" }, "image": "", "_placeholder": true }
+    ]
+  },
+  "resources": [
+    {
+      "id": "bsgp-portal",
+      "type": "page",
+      "lang": "hi",
+      "title": { "en": "Bhartiya Sanskriti Gyan Pariksha — Portal", "hi": "भारतीय संस्कृति ज्ञान परीक्षा — पोर्टल", "kn": "ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆ — ಪೋರ್ಟಲ್" },
+      "read": "https://bsgp.awgp.org/hi/bsgp"
+    },
+    {
+      "id": "bsgp-contact",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "BSGP — India Contacts", "hi": "BSGP — भारत संपर्क", "kn": "BSGP — ಭಾರತ ಸಂಪರ್ಕ" },
+      "read": "https://www.awgp.org/en/contact_us/bsgp"
+    },
+    {
+      "id": "bsgp-downloads",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "BSGP — Downloads & Study Material", "hi": "BSGP — डाउनलोड व अध्ययन-सामग्री", "kn": "BSGP — ಡೌನ್‌ಲೋಡ್ ಮತ್ತು ಅಧ್ಯಯನ ಸಾಮಗ್ರಿ" },
+      "read": "http://downloads.awgp.org/download/awgp/15"
+    },
+    {
+      "id": "educational-initiatives",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "Education with Wisdom — Initiatives", "hi": "विद्या सहित शिक्षा — पहल", "kn": "ಪ್ರಜ್ಞೆಯೊಂದಿಗೆ ಶಿಕ್ಷಣ — ಉಪಕ್ರಮಗಳು" },
+      "read": "https://www.awgp.org/en/initiatives/educational"
+    }
+  ],
+  "cta": {
+    "title": {
+      "en": "Bring BSGP to Your School",
+      "hi": "BSGP को अपने विद्यालय में लाएँ",
+      "kn": "BSGP ಅನ್ನು ನಿಮ್ಮ ಶಾಲೆಗೆ ತನ್ನಿ"
+    },
+    "text": {
+      "en": "Are you a school, teacher, or parent in Bengaluru? Partner with us to conduct Bhartiya Sanskriti Gyan Pariksha for your students — free of cost — and help the next generation grow rooted in Indian culture and values.",
+      "hi": "क्या आप बेंगलुरु में विद्यालय, शिक्षक या अभिभावक हैं? अपने विद्यार्थियों के लिए भारतीय संस्कृति ज्ञान परीक्षा — निःशुल्क — आयोजित करने हेतु हमसे जुड़ें, और अगली पीढ़ी को भारतीय संस्कृति व मूल्यों में जड़ जमाए बढ़ने में सहायता करें।",
+      "kn": "ನೀವು ಬೆಂಗಳೂರಿನಲ್ಲಿ ಶಾಲೆ, ಶಿಕ್ಷಕ ಅಥವಾ ಪೋಷಕರೇ? ನಿಮ್ಮ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆಯನ್ನು — ಉಚಿತವಾಗಿ — ನಡೆಸಲು ನಮ್ಮೊಂದಿಗೆ ಪಾಲುದಾರರಾಗಿ, ಮುಂದಿನ ಪೀಳಿಗೆ ಭಾರತೀಯ ಸಂಸ್ಕೃತಿ ಮತ್ತು ಮೌಲ್ಯಗಳಲ್ಲಿ ಬೇರೂರಿ ಬೆಳೆಯಲು ನೆರವಾಗಿ."
+    },
+    "buttonLabel": { "en": "Get in touch", "hi": "संपर्क करें", "kn": "ಸಂಪರ್ಕಿಸಿ" },
+    "link": "/contact"
+  }
+}

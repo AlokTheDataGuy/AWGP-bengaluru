@@ -2,6 +2,7 @@ import { Link } from '../../lib/i18n/navigation';
 import HeroSection from '../ui/HeroSection';
 import Reveal from '../ui/Reveal';
 import ReadMore from '../ui/ReadMore';
+import PhotoStrip from '../ui/PhotoStrip';
 import './ActivityArticle.css';
 
 const UI = {
@@ -157,13 +158,12 @@ export default function ActivityArticle({
           <div className="section-inner">
             <h2 className="aa-heading aa-heading--center">{L(UI.glimpses)}</h2>
             <span className="aa-rule aa-rule--center" aria-hidden="true" />
-            <div className="aa-photo-strip">
-              {gallery.map((src, i) => (
-                <figure key={src} className="aa-photo-strip__item">
-                  <img src={src} alt={`${hero.title} — ${i + 1}`} loading="lazy" decoding="async" />
-                </figure>
-              ))}
-            </div>
+            <PhotoStrip
+              photos={gallery}
+              alt={hero.title}
+              className="aa-photo-strip"
+              itemClassName="aa-photo-strip__item"
+            />
           </div>
         </Reveal>
       )}

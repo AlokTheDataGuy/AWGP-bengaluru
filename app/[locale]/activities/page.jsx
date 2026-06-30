@@ -78,9 +78,33 @@ const ACTIVITIES = [
     schedule: { en: 'Ongoing · blood camps, food drives, hospital visits', hi: 'सतत · रक्तदान, अन्न वितरण, अस्पताल सेवा', kn: 'ನಿರಂತರ · ರಕ್ತದಾನ, ಆಹಾರ ವಿತರಣೆ, ಆಸ್ಪತ್ರೆ ಭೇಟಿ' },
   },
   {
+    id: 'bsgp',
+    href: '/activities/bsgp',
+    img: '/assets/activities/bsgp.jpg',
+    title: { en: 'Sanskriti Gyan Pariksha', hi: 'संस्कृति ज्ञान परीक्षा', kn: 'ಸಂಸ್ಕೃತಿ ಜ್ಞಾನ ಪರೀಕ್ಷೆ' },
+    subtitle: {
+      en: 'A free, values-based exam on Indian culture — character over marks.',
+      hi: 'भारतीय संस्कृति पर निःशुल्क, मूल्य-आधारित परीक्षा — अंक नहीं, चरित्र।',
+      kn: 'ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಬಗ್ಗೆ ಉಚಿತ, ಮೌಲ್ಯಾಧಾರಿತ ಪರೀಕ್ಷೆ — ಅಂಕವಲ್ಲ, ಚಾರಿತ್ರ್ಯ.',
+    },
+    schedule: { en: 'Annual · across Bengaluru schools', hi: 'वार्षिक · बेंगलुरु के विद्यालयों में', kn: 'ವಾರ್ಷಿಕ · ಬೆಂಗಳೂರಿನ ಶಾಲೆಗಳಲ್ಲಿ' },
+  },
+  {
+    id: 'bal-sanskar-shala',
+    href: '/activities/bal-sanskar-shala',
+    img: '/assets/programs/bal-sanskar-shala.jpg',
+    title: { en: 'Baal Sanskar Shala', hi: 'बाल संस्कार शाला', kn: 'ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ' },
+    subtitle: {
+      en: 'Free weekly values classes for children — prayer, stories, yoga and play.',
+      hi: 'बच्चों के लिए निःशुल्क साप्ताहिक संस्कार कक्षाएँ — प्रार्थना, कहानी, योग व खेल।',
+      kn: 'ಮಕ್ಕಳಿಗೆ ಉಚಿತ ಸಾಪ್ತಾಹಿಕ ಮೌಲ್ಯ ತರಗತಿಗಳು — ಪ್ರಾರ್ಥನೆ, ಕಥೆ, ಯೋಗ ಮತ್ತು ಆಟ.',
+    },
+    schedule: { en: 'Weekly · ages 5 to 18', hi: 'साप्ताहिक · 5 से 18 वर्ष', kn: 'ಸಾಪ್ತಾಹಿಕ · 5ರಿಂದ 18 ವರ್ಷ' },
+  },
+  {
     id: 'workshops',
     href: '/activities/workshops',
-    img: '/assets/programs/workshops-banner.jpg',
+    img: '/assets/workshops/workshops.jpg',
     title: { en: 'Workshops & Shivirs', hi: 'कार्यशालाएं एवं शिविर', kn: 'ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು' },
     subtitle: {
       en: 'Scientific spirituality, personality development, and family harmony sessions.',

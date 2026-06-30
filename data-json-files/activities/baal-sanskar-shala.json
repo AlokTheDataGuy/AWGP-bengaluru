@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "id": "baal-sanskar-shala",
+    "slug": "baal-sanskar-shala",
+    "navLabel": { "en": "Baal Sanskar Shala", "hi": "बाल संस्कार शाला", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ" },
+    "seoDescription": {
+      "en": "Baal Sanskar Shala at AWGP Bengaluru — free weekly values classes for children aged 5 to 18, blending prayer, the Gayatri Mantra, stories, yoga, games and crafts to build character, culture and confidence.",
+      "hi": "एडब्ल्यूजीपी बेंगलुरु में बाल संस्कार शाला — 5 से 18 वर्ष के बच्चों के लिए निःशुल्क साप्ताहिक संस्कार कक्षाएँ, जिनमें प्रार्थना, गायत्री मंत्र, कहानियाँ, योग, खेल व शिल्प के माध्यम से चरित्र, संस्कृति व आत्मविश्वास का निर्माण होता है।",
+      "kn": "AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ — 5ರಿಂದ 18 ವರ್ಷದ ಮಕ್ಕಳಿಗೆ ಉಚಿತ ಸಾಪ್ತಾಹಿಕ ಮೌಲ್ಯ ತರಗತಿಗಳು, ಪ್ರಾರ್ಥನೆ, ಗಾಯತ್ರಿ ಮಂತ್ರ, ಕಥೆಗಳು, ಯೋಗ, ಆಟ ಮತ್ತು ಕರಕುಶಲತೆಯ ಮೂಲಕ ಚಾರಿತ್ರ್ಯ, ಸಂಸ್ಕೃತಿ ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸ ಕಟ್ಟುತ್ತದೆ."
+    }
+  },
+  "hero": {
+    "title": { "en": "Baal Sanskar Shala", "hi": "बाल संस्कार शाला", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ" },
+    "tagline": {
+      "en": "Building the child to build the nation — character, culture and confidence from an early age.",
+      "hi": "राष्ट्र-निर्माण हेतु बाल-निर्माण — कम उम्र से ही चरित्र, संस्कृति और आत्मविश्वास।",
+      "kn": "ರಾಷ್ಟ್ರ-ನಿರ್ಮಾಣಕ್ಕಾಗಿ ಬಾಲ-ನಿರ್ಮಾಣ — ಚಿಕ್ಕ ವಯಸ್ಸಿನಿಂದಲೇ ಚಾರಿತ್ರ್ಯ, ಸಂಸ್ಕೃತಿ ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸ."
+    },
+    "intro": {
+      "en": "Baal Sanskar Shala is a free, weekly class where children aged 5 to 18 learn the art of living well. Run entirely by volunteers across Bengaluru and the world, it nurtures a child's own inherent talents, gives gentle direction on ethics and Jeevan Vidya (the art of applying wisdom in daily life), and helps young hearts grow strong in handling emotion. Through prayer, the Gayatri Mantra, stories from the lives of great personalities, yoga, games, arts and crafts, children absorb the strengths and virtues of Indian culture — not as lessons to memorise, but as values to live. Gurudev Pandit Shriram Sharma Acharya taught that building the child is the surest way to build the nation; Baal Sanskar Shala is that teaching in joyful, everyday practice.",
+      "hi": "बाल संस्कार शाला एक निःशुल्क साप्ताहिक कक्षा है, जहाँ 5 से 18 वर्ष के बच्चे सद्जीवन की कला सीखते हैं। बेंगलुरु और विश्व भर में पूर्णतः स्वयंसेवकों द्वारा संचालित, यह बालक की अपनी अंतर्निहित प्रतिभाओं को सींचती है, नीति व जीवन-विद्या (दैनिक जीवन में ज्ञान को उतारने की कला) पर सहज दिशा देती है, और कोमल हृदयों को भावनाओं को सँभालने में दृढ़ बनाती है। प्रार्थना, गायत्री मंत्र, महापुरुषों के जीवन की कहानियों, योग, खेल, कला व शिल्प के माध्यम से बच्चे भारतीय संस्कृति के गुणों और सद्गुणों को आत्मसात करते हैं — रटने के पाठ के रूप में नहीं, बल्कि जीने के मूल्यों के रूप में। गुरुदेव पंडित श्रीराम शर्मा आचार्य ने कहा कि बाल-निर्माण ही राष्ट्र-निर्माण का सबसे निश्चित मार्ग है; बाल संस्कार शाला उसी शिक्षा का आनंदमय, नित्य अभ्यास है।",
+      "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಒಂದು ಉಚಿತ ಸಾಪ್ತಾಹಿಕ ತರಗತಿ, ಇಲ್ಲಿ 5ರಿಂದ 18 ವರ್ಷದ ಮಕ್ಕಳು ಸದ್ಜೀವನದ ಕಲೆಯನ್ನು ಕಲಿಯುತ್ತಾರೆ. ಬೆಂಗಳೂರು ಮತ್ತು ಜಗತ್ತಿನಾದ್ಯಂತ ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಸೇವಕರಿಂದ ನಡೆಸಲಾಗುವ ಇದು, ಮಗುವಿನ ಸ್ವಂತ ಅಂತರ್ಗತ ಪ್ರತಿಭೆಗಳನ್ನು ಪೋಷಿಸುತ್ತದೆ, ನೀತಿ ಮತ್ತು ಜೀವನ-ವಿದ್ಯೆ (ದೈನಂದಿನ ಜೀವನದಲ್ಲಿ ಜ್ಞಾನವನ್ನು ಅಳವಡಿಸುವ ಕಲೆ) ಬಗ್ಗೆ ಸಹಜ ದಿಕ್ಕು ನೀಡುತ್ತದೆ, ಮತ್ತು ಕೋಮಲ ಹೃದಯಗಳನ್ನು ಭಾವನೆಗಳನ್ನು ನಿಭಾಯಿಸುವಲ್ಲಿ ದೃಢಗೊಳಿಸುತ್ತದೆ. ಪ್ರಾರ್ಥನೆ, ಗಾಯತ್ರಿ ಮಂತ್ರ, ಮಹಾಪುರುಷರ ಜೀವನದ ಕಥೆಗಳು, ಯೋಗ, ಆಟ, ಕಲೆ ಮತ್ತು ಕರಕುಶಲತೆಯ ಮೂಲಕ ಮಕ್ಕಳು ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಗುಣ ಮತ್ತು ಸದ್ಗುಣಗಳನ್ನು ಆತ್ಮಸಾತ್ ಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ — ಬಾಯಿಪಾಠ ಮಾಡುವ ಪಾಠಗಳಾಗಿ ಅಲ್ಲ, ಬದುಕುವ ಮೌಲ್ಯಗಳಾಗಿ. ಬಾಲ-ನಿರ್ಮಾಣವೇ ರಾಷ್ಟ್ರ-ನಿರ್ಮಾಣದ ಅತ್ಯಂತ ಖಚಿತ ಮಾರ್ಗ ಎಂದು ಗುರುದೇವ್ ಪಂಡಿತ್ ಶ್ರೀರಾಮ ಶರ್ಮಾ ಆಚಾರ್ಯರು ಬೋಧಿಸಿದರು; ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಆ ಬೋಧನೆಯ ಆನಂದಮಯ, ನಿತ್ಯ ಅಭ್ಯಾಸ."
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-bss",
+      "title": {
+        "en": "What Is Baal Sanskar Shala?",
+        "hi": "बाल संस्कार शाला क्या है?",
+        "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಎಂದರೇನು?"
+      },
+      "body": {
+        "en": "Baal Sanskar Shala is a unique school of values where teachers work together to unleash the immense potential within young children. Its curriculum, drawn from the work of Dev Sanskriti Vishwavidyalaya and Shantikunj, is designed not around exams but around the development of the whole child — giving a solid foundation to meet life's challenges with faith, courage and self-confidence. Classes are highly interactive: lecture-demonstrations, yoga and pranayama, prayers, Q&A, presentations by the children themselves, and cultural programmes, all woven together with games, arts and crafts, and stories from the Ramayana, Mahabharata, Bhagavad Gita and Bhagavatam. The aim is to brighten the intellect while cultivating sensitivity toward fellow beings and toward the grace of Nature.",
+        "hi": "बाल संस्कार शाला एक अनूठी संस्कार-शाला है, जहाँ शिक्षक मिलकर बच्चों के भीतर छिपी अपार संभावनाओं को उजागर करते हैं। इसका पाठ्यक्रम, देव संस्कृति विश्वविद्यालय व शांतिकुंज के कार्य से लिया गया, परीक्षा के इर्द-गिर्द नहीं, बल्कि सम्पूर्ण बालक के विकास के इर्द-गिर्द रचा गया है — ताकि वह जीवन की चुनौतियों का सामना श्रद्धा, साहस व आत्मविश्वास से कर सके। कक्षाएँ अत्यंत संवादात्मक हैं: व्याख्यान-प्रदर्शन, योग व प्राणायाम, प्रार्थना, प्रश्नोत्तर, स्वयं बच्चों की प्रस्तुतियाँ, और सांस्कृतिक कार्यक्रम — सभी खेल, कला-शिल्प, और रामायण, महाभारत, भगवद्गीता व भागवत की कहानियों के साथ गुँथे हुए। ध्येय है बुद्धि को प्रखर करना, साथ ही सहजीवों व प्रकृति की कृपा के प्रति संवेदनशीलता जगाना।",
+        "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಒಂದು ವಿಶಿಷ್ಟ ಸಂಸ್ಕಾರ-ಶಾಲೆ, ಇಲ್ಲಿ ಶಿಕ್ಷಕರು ಒಟ್ಟಾಗಿ ಮಕ್ಕಳೊಳಗಿನ ಅಪಾರ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೊರತರುತ್ತಾರೆ. ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ಶಾಂತಿಕುಂಜದ ಕೆಲಸದಿಂದ ಪಡೆದ ಇದರ ಪಠ್ಯಕ್ರಮ, ಪರೀಕ್ಷೆಯ ಸುತ್ತಲ್ಲ, ಬದಲಿಗೆ ಸಂಪೂರ್ಣ ಮಗುವಿನ ಬೆಳವಣಿಗೆಯ ಸುತ್ತ ರಚಿಸಲಾಗಿದೆ — ಜೀವನದ ಸವಾಲುಗಳನ್ನು ಶ್ರದ್ಧೆ, ಧೈರ್ಯ ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ಎದುರಿಸಲು ಭದ್ರ ಅಡಿಪಾಯ ನೀಡುತ್ತದೆ. ತರಗತಿಗಳು ಅತ್ಯಂತ ಸಂವಾದಾತ್ಮಕ: ಉಪನ್ಯಾಸ-ಪ್ರದರ್ಶನ, ಯೋಗ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ, ಪ್ರಾರ್ಥನೆ, ಪ್ರಶ್ನೋತ್ತರ, ಮಕ್ಕಳ ಸ್ವಂತ ಪ್ರಸ್ತುತಿಗಳು, ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು — ಎಲ್ಲವೂ ಆಟ, ಕಲೆ-ಕರಕುಶಲತೆ, ಮತ್ತು ರಾಮಾಯಣ, ಮಹಾಭಾರತ, ಭಗವದ್ಗೀತೆ ಮತ್ತು ಭಾಗವತದ ಕಥೆಗಳೊಂದಿಗೆ ಬೆಸೆಯಲ್ಪಟ್ಟಿವೆ. ಗುರಿ ಬುದ್ಧಿಯನ್ನು ಪ್ರಖರಗೊಳಿಸುವುದು, ಜೊತೆಗೆ ಸಹಜೀವಿಗಳು ಮತ್ತು ಪ್ರಕೃತಿಯ ಕೃಪೆಯೆಡೆಗೆ ಸಂವೇದನಾಶೀಲತೆಯನ್ನು ಬೆಳೆಸುವುದು."
+      },
+      "highlights": {
+        "en": [
+          "A free school of values for children aged 5 to 18, run entirely by volunteers",
+          "Curriculum from Dev Sanskriti Vishwavidyalaya and Shantikunj, built around the whole child",
+          "Prayer, Gayatri Mantra, yoga, stories, games and crafts woven together"
+        ],
+        "hi": [
+          "5 से 18 वर्ष के बच्चों के लिए निःशुल्क संस्कार-शाला, पूर्णतः स्वयंसेवकों द्वारा संचालित",
+          "देव संस्कृति विश्वविद्यालय व शांतिकुंज का पाठ्यक्रम, सम्पूर्ण बालक के इर्द-गिर्द",
+          "प्रार्थना, गायत्री मंत्र, योग, कहानियाँ, खेल व शिल्प एक साथ गुँथे हुए"
+        ],
+        "kn": [
+          "5ರಿಂದ 18 ವರ್ಷದ ಮಕ್ಕಳಿಗೆ ಉಚಿತ ಸಂಸ್ಕಾರ-ಶಾಲೆ, ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಯಂಸೇವಕರಿಂದ ನಡೆಸಲಾಗುತ್ತದೆ",
+          "ದೇವ ಸಂಸ್ಕೃತಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ಶಾಂತಿಕುಂಜದ ಪಠ್ಯಕ್ರಮ, ಸಂಪೂರ್ಣ ಮಗುವಿನ ಸುತ್ತ",
+          "ಪ್ರಾರ್ಥನೆ, ಗಾಯತ್ರಿ ಮಂತ್ರ, ಯೋಗ, ಕಥೆಗಳು, ಆಟ ಮತ್ತು ಕರಕುಶಲತೆ ಒಟ್ಟಿಗೆ ಬೆಸೆದಿವೆ"
+        ]
+      }
+    },
+    {
+      "id": "why-needed",
+      "title": {
+        "en": "Why It Is Needed Today",
+        "hi": "आज इसकी आवश्यकता क्यों",
+        "kn": "ಇಂದು ಇದು ಏಕೆ ಅಗತ್ಯ"
+      },
+      "body": {
+        "en": "Baal Sanskar Shala answers a real need of our times. Nuclear families mean fewer elders at home to pass on values; schools, under competitive pressure, often have little room for moral education; and fast-paced, double-income lives leave parents with less time and, sometimes, less awareness of child psychology. Into this gap, Baal Sanskar Shala offers what formal schooling rarely can: a space where a child learns to handle emotion, understands the right form of culture, draws inspiration from the childhoods of great personalities, and finds direction on ethics and the practical application of wisdom in life. To grow into well-functioning adults, children need these key life skills early — and they are best learned through play, story and example, not pressure.",
+        "hi": "बाल संस्कार शाला हमारे समय की एक वास्तविक आवश्यकता का उत्तर है। एकल परिवारों में मूल्य देने वाले बुज़ुर्ग घर पर कम होते हैं; प्रतिस्पर्धा के दबाव में विद्यालयों के पास नैतिक शिक्षा के लिए प्रायः स्थान नहीं होता; और तेज़-रफ़्तार, दोहरी-आय वाली जीवनशैली अभिभावकों को कम समय और कभी-कभी बाल-मनोविज्ञान की कम समझ देती है। इस रिक्ति में बाल संस्कार शाला वह देती है जो औपचारिक शिक्षा विरले ही दे पाती है: एक ऐसा स्थान जहाँ बालक भावनाओं को सँभालना सीखता है, संस्कृति का सही रूप समझता है, महापुरुषों के बचपन से प्रेरणा लेता है, और नीति व जीवन में ज्ञान के व्यावहारिक प्रयोग पर दिशा पाता है। सुगठित वयस्क बनने के लिए बच्चों को ये जीवन-कौशल जल्दी चाहिए — और ये दबाव से नहीं, खेल, कहानी व उदाहरण से सबसे अच्छे सीखे जाते हैं।",
+        "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ನಮ್ಮ ಕಾಲದ ನಿಜವಾದ ಅಗತ್ಯಕ್ಕೆ ಉತ್ತರ. ವಿಭಕ್ತ ಕುಟುಂಬಗಳಲ್ಲಿ ಮೌಲ್ಯ ನೀಡುವ ಹಿರಿಯರು ಮನೆಯಲ್ಲಿ ಕಡಿಮೆ; ಸ್ಪರ್ಧೆಯ ಒತ್ತಡದಲ್ಲಿ ಶಾಲೆಗಳಿಗೆ ನೈತಿಕ ಶಿಕ್ಷಣಕ್ಕೆ ಹೆಚ್ಚಾಗಿ ಸ್ಥಳವಿಲ್ಲ; ಮತ್ತು ವೇಗದ, ದ್ವಿ-ಆದಾಯ ಜೀವನಶೈಲಿ ಪೋಷಕರಿಗೆ ಕಡಿಮೆ ಸಮಯ ಮತ್ತು ಕೆಲವೊಮ್ಮೆ ಬಾಲ-ಮನೋವಿಜ್ಞಾನದ ಕಡಿಮೆ ತಿಳಿವಳಿಕೆ ನೀಡುತ್ತದೆ. ಈ ಅಂತರದಲ್ಲಿ ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಔಪಚಾರಿಕ ಶಿಕ್ಷಣ ವಿರಳವಾಗಿ ನೀಡಬಲ್ಲದ್ದನ್ನು ನೀಡುತ್ತದೆ: ಮಗು ಭಾವನೆಗಳನ್ನು ನಿಭಾಯಿಸಲು ಕಲಿಯುವ, ಸಂಸ್ಕೃತಿಯ ಸರಿಯಾದ ರೂಪವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ, ಮಹಾಪುರುಷರ ಬಾಲ್ಯದಿಂದ ಪ್ರೇರಣೆ ಪಡೆಯುವ, ಮತ್ತು ನೀತಿ ಹಾಗೂ ಜೀವನದಲ್ಲಿ ಜ್ಞಾನದ ಪ್ರಾಯೋಗಿಕ ಬಳಕೆಯ ಬಗ್ಗೆ ದಿಕ್ಕು ಕಾಣುವ ಸ್ಥಳ. ಸುಗಠಿತ ವಯಸ್ಕರಾಗಿ ಬೆಳೆಯಲು ಮಕ್ಕಳಿಗೆ ಈ ಜೀವನ-ಕೌಶಲ್ಯಗಳು ಬೇಗ ಬೇಕು — ಮತ್ತು ಇವು ಒತ್ತಡದಿಂದಲ್ಲ, ಆಟ, ಕಥೆ ಮತ್ತು ಉದಾಹರಣೆಯಿಂದ ಅತ್ಯುತ್ತಮವಾಗಿ ಕಲಿಯಲ್ಪಡುತ್ತವೆ."
+      },
+      "highlights": {
+        "en": [
+          "Fills the values gap left by nuclear families and competitive, time-poor lives",
+          "Children learn to handle emotion and apply wisdom in daily life",
+          "Life skills learned through play, story and example — not pressure"
+        ],
+        "hi": [
+          "एकल परिवारों व प्रतिस्पर्धी, समय-विहीन जीवन से छूटी संस्कार-रिक्ति को भरती है",
+          "बच्चे भावनाओं को सँभालना और जीवन में ज्ञान को उतारना सीखते हैं",
+          "जीवन-कौशल खेल, कहानी व उदाहरण से सीखे जाते हैं — दबाव से नहीं"
+        ],
+        "kn": [
+          "ವಿಭಕ್ತ ಕುಟುಂಬಗಳು ಮತ್ತು ಸ್ಪರ್ಧಾತ್ಮಕ, ಸಮಯ-ರಹಿತ ಜೀವನದಿಂದ ಉಳಿದ ಮೌಲ್ಯ-ಅಂತರ ತುಂಬುತ್ತದೆ",
+          "ಮಕ್ಕಳು ಭಾವನೆಗಳನ್ನು ನಿಭಾಯಿಸಲು ಮತ್ತು ಜೀವನದಲ್ಲಿ ಜ್ಞಾನವನ್ನು ಅಳವಡಿಸಲು ಕಲಿಯುತ್ತಾರೆ",
+          "ಜೀವನ-ಕೌಶಲ್ಯ ಆಟ, ಕಥೆ ಮತ್ತು ಉದಾಹರಣೆಯಿಂದ ಕಲಿಯಲಾಗುತ್ತದೆ — ಒತ್ತಡದಿಂದಲ್ಲ"
+        ]
+      }
+    },
+    {
+      "id": "diary-and-parents",
+      "title": {
+        "en": "The Spiritual Diary & Parenting Support",
+        "hi": "आध्यात्मिक डायरी व अभिभावक सहयोग",
+        "kn": "ಆಧ್ಯಾತ್ಮಿಕ ದಿನಚರಿ ಮತ್ತು ಪೋಷಕ ಬೆಂಬಲ"
+      },
+      "body": {
+        "en": "A gentle but powerful tool in Baal Sanskar Shala is the child's own diary. With a simple daily questionnaire, children record their habits and conduct, quietly learning self-study and the first practice of jnana yoga — observing oneself honestly. At the end of each month, parents can read the chart their child has made and see, together, the rhythm of growth. To complete the circle, the programme offers parenting classes: sessions that give parents insights into child psychology and encourage right, balanced practices at home for a child's physical, mental and emotional development. The work is shared — child, teacher and parent walking the same path — because the surest sanskar takes root when home and shala reinforce one another.",
+        "hi": "बाल संस्कार शाला में एक कोमल पर सशक्त साधन है बालक की अपनी डायरी। एक सरल दैनिक प्रश्नावली के साथ बच्चे अपनी आदतों व आचरण को दर्ज करते हैं, और चुपचाप स्वाध्याय तथा ज्ञानयोग का प्रथम अभ्यास — स्वयं को ईमानदारी से देखना — सीखते हैं। हर माह के अंत में अभिभावक अपने बच्चे द्वारा बनाई गई तालिका पढ़ सकते हैं और साथ मिलकर विकास की लय देख सकते हैं। इस चक्र को पूर्ण करने हेतु कार्यक्रम अभिभावक-कक्षाएँ भी प्रदान करता है: ऐसे सत्र जो अभिभावकों को बाल-मनोविज्ञान की समझ देते हैं और बालक के शारीरिक, मानसिक व भावनात्मक विकास हेतु घर पर सही, संतुलित अभ्यास अपनाने को प्रेरित करते हैं। यह कार्य साझा है — बालक, शिक्षक व अभिभावक एक ही पथ पर — क्योंकि सबसे पक्का संस्कार तभी जड़ पकड़ता है जब घर और शाला एक-दूसरे को सुदृढ़ करें।",
+        "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆಯಲ್ಲಿ ಒಂದು ಕೋಮಲ ಆದರೆ ಶಕ್ತಿಶಾಲಿ ಸಾಧನವೆಂದರೆ ಮಗುವಿನ ಸ್ವಂತ ದಿನಚರಿ. ಒಂದು ಸರಳ ದೈನಂದಿನ ಪ್ರಶ್ನಾವಳಿಯೊಂದಿಗೆ ಮಕ್ಕಳು ತಮ್ಮ ಅಭ್ಯಾಸ ಮತ್ತು ನಡವಳಿಕೆಯನ್ನು ದಾಖಲಿಸುತ್ತಾರೆ, ಮತ್ತು ಸದ್ದಿಲ್ಲದೇ ಸ್ವಾಧ್ಯಾಯ ಹಾಗೂ ಜ್ಞಾನಯೋಗದ ಮೊದಲ ಅಭ್ಯಾಸ — ತಮ್ಮನ್ನು ಪ್ರಾಮಾಣಿಕವಾಗಿ ಗಮನಿಸುವುದು — ಕಲಿಯುತ್ತಾರೆ. ಪ್ರತಿ ತಿಂಗಳ ಕೊನೆಯಲ್ಲಿ ಪೋಷಕರು ತಮ್ಮ ಮಗು ಮಾಡಿದ ಪಟ್ಟಿಯನ್ನು ಓದಬಹುದು ಮತ್ತು ಒಟ್ಟಿಗೆ ಬೆಳವಣಿಗೆಯ ಲಯವನ್ನು ನೋಡಬಹುದು. ಈ ಚಕ್ರವನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಕಾರ್ಯಕ್ರಮ ಪೋಷಕ-ತರಗತಿಗಳನ್ನೂ ನೀಡುತ್ತದೆ: ಪೋಷಕರಿಗೆ ಬಾಲ-ಮನೋವಿಜ್ಞಾನದ ಒಳನೋಟ ನೀಡಿ, ಮಗುವಿನ ದೈಹಿಕ, ಮಾನಸಿಕ ಮತ್ತು ಭಾವನಾತ್ಮಕ ಬೆಳವಣಿಗೆಗಾಗಿ ಮನೆಯಲ್ಲಿ ಸರಿಯಾದ, ಸಮತೋಲಿತ ಅಭ್ಯಾಸಗಳನ್ನು ಅಳವಡಿಸಲು ಪ್ರೋತ್ಸಾಹಿಸುವ ಸತ್ರಗಳು. ಈ ಕೆಲಸ ಹಂಚಿಕೆಯದ್ದು — ಮಗು, ಶಿಕ್ಷಕ ಮತ್ತು ಪೋಷಕ ಒಂದೇ ಹಾದಿಯಲ್ಲಿ — ಏಕೆಂದರೆ ಮನೆ ಮತ್ತು ಶಾಲೆ ಪರಸ್ಪರ ಬಲಪಡಿಸಿದಾಗ ಅತ್ಯಂತ ಖಚಿತ ಸಂಸ್ಕಾರ ಬೇರೂರುತ್ತದೆ."
+      },
+      "highlights": {
+        "en": [
+          "A daily diary teaches self-study and the first practice of jnana yoga",
+          "Parents review the child's monthly chart and track growth together",
+          "Parenting classes give insights into child psychology for the home"
+        ],
+        "hi": [
+          "दैनिक डायरी स्वाध्याय व ज्ञानयोग का प्रथम अभ्यास सिखाती है",
+          "अभिभावक बच्चे की मासिक तालिका देखते और साथ विकास आँकते हैं",
+          "अभिभावक-कक्षाएँ घर के लिए बाल-मनोविज्ञान की समझ देती हैं"
+        ],
+        "kn": [
+          "ದೈನಂದಿನ ದಿನಚರಿ ಸ್ವಾಧ್ಯಾಯ ಮತ್ತು ಜ್ಞಾನಯೋಗದ ಮೊದಲ ಅಭ್ಯಾಸ ಕಲಿಸುತ್ತದೆ",
+          "ಪೋಷಕರು ಮಗುವಿನ ಮಾಸಿಕ ಪಟ್ಟಿಯನ್ನು ನೋಡಿ ಒಟ್ಟಿಗೆ ಬೆಳವಣಿಗೆ ಗಮನಿಸುತ್ತಾರೆ",
+          "ಪೋಷಕ-ತರಗತಿಗಳು ಮನೆಗಾಗಿ ಬಾಲ-ಮನೋವಿಜ್ಞಾನದ ಒಳನೋಟ ನೀಡುತ್ತವೆ"
+        ]
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "prayer-mantra",
+      "title": { "en": "Prayer & Gayatri Mantra", "hi": "प्रार्थना व गायत्री मंत्र", "kn": "ಪ್ರಾರ್ಥನೆ ಮತ್ತು ಗಾಯತ್ರಿ ಮಂತ್ರ" },
+      "description": {
+        "en": "Children learn to begin with prayer and the Gayatri Mantra, and to understand its meaning — the first seed of a calm, focused mind.",
+        "hi": "बच्चे प्रार्थना व गायत्री मंत्र से आरंभ करना और उसका अर्थ समझना सीखते हैं — शांत, एकाग्र मन का पहला बीज।",
+        "kn": "ಮಕ್ಕಳು ಪ್ರಾರ್ಥನೆ ಮತ್ತು ಗಾಯತ್ರಿ ಮಂತ್ರದಿಂದ ಆರಂಭಿಸಲು ಮತ್ತು ಅದರ ಅರ್ಥವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಕಲಿಯುತ್ತಾರೆ — ಶಾಂತ, ಏಕಾಗ್ರ ಮನಸ್ಸಿನ ಮೊದಲ ಬೀಜ."
+      }
+    },
+    {
+      "id": "stories-culture",
+      "title": { "en": "Stories & Culture", "hi": "कहानियाँ व संस्कृति", "kn": "ಕಥೆಗಳು ಮತ್ತು ಸಂಸ್ಕೃತಿ" },
+      "description": {
+        "en": "Inspiring tales from the Ramayana, Mahabharata, Bhagavad Gita and the childhoods of great personalities bring values to life.",
+        "hi": "रामायण, महाभारत, भगवद्गीता और महापुरुषों के बचपन की प्रेरक कथाएँ मूल्यों को जीवंत बनाती हैं।",
+        "kn": "ರಾಮಾಯಣ, ಮಹಾಭಾರತ, ಭಗವದ್ಗೀತೆ ಮತ್ತು ಮಹಾಪುರುಷರ ಬಾಲ್ಯದ ಪ್ರೇರಕ ಕಥೆಗಳು ಮೌಲ್ಯಗಳನ್ನು ಜೀವಂತಗೊಳಿಸುತ್ತವೆ."
+      }
+    },
+    {
+      "id": "yoga-pranayama",
+      "title": { "en": "Yoga & Pranayama", "hi": "योग व प्राणायाम", "kn": "ಯೋಗ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ" },
+      "description": {
+        "en": "Simple yoga and breathing practices build physical health, steadiness and the ability to settle a restless mind.",
+        "hi": "सरल योग व श्वास-अभ्यास शारीरिक स्वास्थ्य, स्थिरता और अशांत मन को शांत करने की क्षमता विकसित करते हैं।",
+        "kn": "ಸರಳ ಯೋಗ ಮತ್ತು ಉಸಿರಾಟದ ಅಭ್ಯಾಸಗಳು ದೈಹಿಕ ಆರೋಗ್ಯ, ಸ್ಥಿರತೆ ಮತ್ತು ಚಂಚಲ ಮನಸ್ಸನ್ನು ಶಾಂತಗೊಳಿಸುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಕಟ್ಟುತ್ತವೆ."
+      }
+    },
+    {
+      "id": "games-crafts",
+      "title": { "en": "Games, Arts & Crafts", "hi": "खेल, कला व शिल्प", "kn": "ಆಟ, ಕಲೆ ಮತ್ತು ಕರಕುಶಲತೆ" },
+      "description": {
+        "en": "Play, creativity and presentations let children express themselves, build confidence, and learn by doing.",
+        "hi": "खेल, सृजनात्मकता व प्रस्तुतियाँ बच्चों को स्वयं को अभिव्यक्त करने, आत्मविश्वास बढ़ाने और करके सीखने का अवसर देती हैं।",
+        "kn": "ಆಟ, ಸೃಜನಶೀಲತೆ ಮತ್ತು ಪ್ರಸ್ತುತಿಗಳು ಮಕ್ಕಳಿಗೆ ತಮ್ಮನ್ನು ವ್ಯಕ್ತಪಡಿಸಲು, ಆತ್ಮವಿಶ್ವಾಸ ಬೆಳೆಸಲು ಮತ್ತು ಮಾಡುತ್ತಾ ಕಲಿಯಲು ಅವಕಾಶ ನೀಡುತ್ತವೆ."
+      }
+    }
+  ],
+  "events": {
+    "emptyState": {
+      "en": "Our upcoming Baal Sanskar Shala batches and venues across Bengaluru will be listed here. Check back soon.",
+      "hi": "बेंगलुरु भर में हमारी आगामी बाल संस्कार शाला कक्षाएँ व स्थान यहाँ सूचीबद्ध होंगे। शीघ्र पुनः देखें।",
+      "kn": "ಬೆಂಗಳೂರಿನಾದ್ಯಂತ ನಮ್ಮ ಮುಂಬರುವ ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ತಂಡಗಳು ಮತ್ತು ಸ್ಥಳಗಳು ಇಲ್ಲಿ ಪಟ್ಟಿಯಾಗುತ್ತವೆ. ಶೀಘ್ರದಲ್ಲೇ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ."
+    },
+    "items": [
+      { "id": "placeholder-1", "eventType": "", "location": "", "date": "", "note": { "en": "", "hi": "", "kn": "" }, "image": "", "_placeholder": true },
+      { "id": "placeholder-2", "eventType": "", "location": "", "date": "", "note": { "en": "", "hi": "", "kn": "" }, "image": "", "_placeholder": true }
+    ]
+  },
+  "resources": [
+    {
+      "id": "bss-educational",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "Baal Sanskar Shala — Educational Initiative", "hi": "बाल संस्कार शाला — शैक्षिक पहल", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ — ಶೈಕ್ಷಣಿಕ ಉಪಕ್ರಮ" },
+      "read": "https://awgp.org/social_initiative/education"
+    },
+    {
+      "id": "bss-teacher-training",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "Baal Sanskar Shala — Teachers Training Shivir", "hi": "बाल संस्कार शाला — शिक्षक प्रशिक्षण शिविर", "kn": "ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ — ಶಿಕ್ಷಕ ತರಬೇತಿ ಶಿಬಿರ" },
+      "read": "https://www.awgp.org/social_initiative/shivir/b_sanskar_shala_teachers_training"
+    },
+    {
+      "id": "inviting-divine-soul",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "Inviting Divine Soul — Garbh Sanskar", "hi": "दिव्य आत्मा का आह्वान — गर्भ संस्कार", "kn": "ದಿವ್ಯ ಆತ್ಮದ ಆಹ್ವಾನ — ಗರ್ಭ ಸಂಸ್ಕಾರ" },
+      "read": "https://www.awgp.org/en/initiatives/spiritual/inviting_divine_soul_garbh_sanskar"
+    },
+    {
+      "id": "sanskar-at-home",
+      "type": "page",
+      "lang": "en",
+      "title": { "en": "Sanskar / Yagya @ Your Home", "hi": "संस्कार / यज्ञ @ आपके घर", "kn": "ಸಂಸ್ಕಾರ / ಯಜ್ಞ @ ನಿಮ್ಮ ಮನೆ" },
+      "read": "https://www.awgp.org/en/initiatives/sanskar/yagya_@_your_home"
+    }
+  ],
+  "cta": {
+    "title": {
+      "en": "Enrol Your Child, or Start a Shala",
+      "hi": "अपने बच्चे को भर्ती कराएँ, या एक शाला आरंभ करें",
+      "kn": "ನಿಮ್ಮ ಮಗುವನ್ನು ದಾಖಲಿಸಿ, ಅಥವಾ ಶಾಲೆಯನ್ನು ಆರಂಭಿಸಿ"
+    },
+    "text": {
+      "en": "Bring your child (aged 5 to 18) to a free Baal Sanskar Shala near you in Bengaluru — or, with our teacher-training support, start one in your own neighbourhood and help nurture the next generation.",
+      "hi": "अपने बच्चे (5 से 18 वर्ष) को बेंगलुरु में अपने निकट एक निःशुल्क बाल संस्कार शाला में लाएँ — अथवा हमारे शिक्षक-प्रशिक्षण सहयोग से अपने ही मोहल्ले में एक शाला आरंभ करें और अगली पीढ़ी को सींचने में सहायता करें।",
+      "kn": "ನಿಮ್ಮ ಮಗುವನ್ನು (5ರಿಂದ 18 ವರ್ಷ) ಬೆಂಗಳೂರಿನಲ್ಲಿ ನಿಮ್ಮ ಸಮೀಪದ ಉಚಿತ ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆಗೆ ಕರೆತನ್ನಿ — ಅಥವಾ ನಮ್ಮ ಶಿಕ್ಷಕ-ತರಬೇತಿ ಬೆಂಬಲದೊಂದಿಗೆ ನಿಮ್ಮ ನೆರೆಹೊರೆಯಲ್ಲೇ ಒಂದು ಶಾಲೆಯನ್ನು ಆರಂಭಿಸಿ, ಮುಂದಿನ ಪೀಳಿಗೆಯನ್ನು ಪೋಷಿಸಲು ನೆರವಾಗಿ."
+    },
+    "buttonLabel": { "en": "Get in touch", "hi": "संपर्क करें", "kn": "ಸಂಪರ್ಕಿಸಿ" },
+    "link": "/contact"
+  }
+}

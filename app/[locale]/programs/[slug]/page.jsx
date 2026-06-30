@@ -4,6 +4,7 @@ import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import ReadMore from '../../../../components/ui/ReadMore';
 import PhotoStrip from '../../../../components/ui/PhotoStrip';
+import InitiativeArticle from '../../../../components/initiatives/InitiativeArticle';
 import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
 import FaqSection from '../../../../components/seo/FaqSection';
 import JsonLd from '../../../../components/seo/JsonLd';
@@ -14,6 +15,7 @@ import programTypesData from '../../../../data/program-types.json';
 import yagyaData       from '../../../../data-json-files/programs/yagya.json';
 import bookFairData    from '../../../../data-json-files/programs/book-fairs.json';
 import treePlantData   from '../../../../data-json-files/programs/tree-plantation-our-work-section.json';
+import jyotiData       from '../../../../data-json-files/programs/jyoti-kalash-yatra.json';
 import eventsData      from '../../../../data/programs.json';
 import { PHOTO_MANIFEST } from '../../../../lib/photoManifest';
 import './ProgramDetail.css';
@@ -161,6 +163,26 @@ export default async function ProgramDetailPage({ params }) {
       </div>
     </section>
   );
+
+  /* ─────────────────────────────────────────────────────────
+     JYOTI KALASH YATRA — rich initiative template
+  ───────────────────────────────────────────────────────── */
+  if (slug === 'jyoti-kalash-yatra') {
+    const photos = getPhotos('jyoti-kalash-yatra');
+    return (
+      <>
+        {seo}
+        <InitiativeArticle
+          locale={locale}
+          data={jyotiData}
+          sectionImage={photos[0]}
+          gallery={photos}
+          cardsHeading={{ en: 'Preparing for the Yatra', hi: 'यात्रा की तैयारी', kn: 'ಯಾತ್ರೆಗೆ ಸಿದ್ಧತೆ' }}
+          backHref={{ href: '/programs', label: { en: '← All Programs', hi: '← सभी कार्यक्रम', kn: '← ಎಲ್ಲಾ ಕಾರ್ಯಕ್ರಮಗಳು' } }}
+        />
+      </>
+    );
+  }
 
   /* ─────────────────────────────────────────────────────────
      FESTIVALS

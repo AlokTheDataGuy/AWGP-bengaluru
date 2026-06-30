@@ -618,6 +618,9 @@ button.pd-photo-strip__item {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
+  max-width: 100%;          /* never spill past the card edge */
+  white-space: normal;      /* let a long label wrap instead of overflowing */
+  text-align: center;
 }
 
 /* ── Responsive ───────────────────────────────────────────── */

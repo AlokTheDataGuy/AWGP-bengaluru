@@ -361,10 +361,16 @@
   width: clamp(180px, 24vw, 240px);
   height: clamp(130px, 17vw, 170px);
   margin: 0;
+  padding: 0;
   overflow: hidden;
   border: 1px solid var(--border);
   background: var(--white);
   scroll-snap-align: start;
+  -webkit-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: inherit;
+  cursor: zoom-in;
 }
 .aa-photo-strip__item img {
   width: 100%;

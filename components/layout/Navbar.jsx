@@ -28,6 +28,7 @@ const programsMenu = [
   { href: '/programs/yagya-events',    en: 'Yagya Events',           hi: 'यज्ञ आयोजन',             kn: 'ಯಜ್ಞ ಕಾರ್ಯಕ್ರಮಗಳು' },
   { href: '/programs/book-fair',       en: 'Book Exhibitions',       hi: 'पुस्तक प्रदर्शनी',        kn: 'ಪುಸ್ತಕ ಪ್ರದರ್ಶನ' },
   { href: '/programs/tree-plantation', en: 'Tree Plantation Drives', hi: 'वृक्षारोपण अभियान',       kn: 'ವೃಕ್ಷಾರೋಪಣ ಅಭಿಯಾನ' },
+  { href: '/programs/jyoti-kalash-yatra', en: 'Jyoti Kalash Yatra',  hi: 'ज्योति कलश यात्रा',      kn: 'ಜ್ಯೋತಿ ಕಲಶ ಯಾತ್ರೆ' },
 ];
 
 const activitiesMenu = [
@@ -36,6 +37,8 @@ const activitiesMenu = [
   { href: '/activities/sadhana',        en: 'Sadhana',          hi: 'साधना',          kn: 'ಸಾಧನೆ' },
   { href: '/activities/community-seva', en: 'Community Seva',     hi: 'सामुदायिक सेवा', kn: 'ಸಾಮುದಾಯಿಕ ಸೇವೆ' },
   { href: '/activities/gau-seva',       en: 'Gau Seva',           hi: 'गौ सेवा',        kn: 'ಗೌ ಸೇವಾ' },
+  { href: '/activities/bsgp',           en: 'BSGP', hi: 'BSGP', kn: 'BSGP' },
+  { href: '/activities/bal-sanskar-shala', en: 'Baal Sanskar Shala', hi: 'बाल संस्कार शाला', kn: 'ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ' },
   { href: '/activities/workshops',      en: 'Workshops & Shivirs', hi: 'कार्यशालाएं एवं शिविर', kn: 'ಕಾರ್ಯಾಗಾರಗಳು ಮತ್ತು ಶಿಬಿರಗಳು' },
 ];
 

@@ -3,6 +3,7 @@ import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import ReadMore from '../../../../components/ui/ReadMore';
+import PhotoStrip from '../../../../components/ui/PhotoStrip';
 import festivalsData from '../../../../data-json-files/programs/festivals.json';
 import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
 import JsonLd from '../../../../components/seo/JsonLd';
@@ -49,6 +50,7 @@ const CARD_IMG = {
   'raksha-bandhan':           '/assets/festivals/raksha-bandhan/raksha-bandhan.jpg',
   'janmashtami':              '/assets/festivals/janamstami/janmastami1.jpg',
   'ganesh-chaturthi':         '/assets/festivals/ganesh-chaturthi/ganesh-chaturthi1.jpg',
+  'deepavali':                '/assets/festivals/deepavali/deepavali.jpg',
   'international-womens-day': "/assets/festivals/international%20women%27s%20day/IWD.jpg",
 };
 
@@ -267,19 +269,13 @@ export default async function FestivalsPage({ params }) {
           <h2 className="fst-gallery__title">{lbl.galleryTitle}</h2>
         </div>
 
-        <div className="fst-gallery__grid">
-          {GALLERY.map((photo, i) => (
-            <Reveal
-              key={i}
-              as="div"
-              className="fst-photo"
-              style={{ '--i': i % 8 }}
-            >
-              <img src={photo.src} alt={photo.label} loading="lazy" />
-              <span className="fst-photo__label">{photo.label}</span>
-            </Reveal>
-          ))}
-        </div>
+        <PhotoStrip
+          photos={GALLERY.map((photo) => ({ src: photo.src, caption: photo.label }))}
+          className="fst-gallery__grid"
+          itemClassName="fst-photo"
+          labelClassName="fst-photo__label"
+          reveal
+        />
       </section>
 
       {/* ── How every festival unfolds ── */}
