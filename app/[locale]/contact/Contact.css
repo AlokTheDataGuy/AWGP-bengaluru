@@ -28,10 +28,9 @@
   isolation: isolate;
   padding: clamp(4rem, 8vw, 7rem) var(--page-gutter);
   background:
-    radial-gradient(ellipse 100% 65% at 50% -8%, rgba(245, 124, 0, 0.38) 0%, transparent 55%),
-    radial-gradient(ellipse 55% 45% at 0%   95%, rgba(249, 199, 79, 0.28) 0%, transparent 50%),
-    radial-gradient(ellipse 45% 38% at 100%  5%, rgba(122,  35, 21, 0.18) 0%, transparent 55%),
-    linear-gradient(168deg, #FFF6E0 0%, #FFFDF7 18%, #FFF2C4 48%, #FFE49A 78%, #F8C850 100%);
+    radial-gradient(ellipse 42% 38% at 100% 2%, rgba(245, 124, 0, 0.22) 0%, transparent 56%),
+    radial-gradient(ellipse 90% 48% at 50% -12%, rgba(249, 199, 79, 0.16) 0%, transparent 62%),
+    linear-gradient(180deg, #FFFDF7 0%, var(--cream) 100%);
 }
 
 /* Gold hairline along the top */
@@ -51,7 +50,7 @@
   );
 }
 
-/* Large rotating mandala watermark — centre */
+/* Large rotating mandala watermark — centre (kept very subtle) */
 .cp-info__mandala {
   position: absolute;
   inset: 0; margin: auto;
@@ -59,40 +58,16 @@
   aspect-ratio: 1;
   background: url('/assets/designs/design8.png') center / contain no-repeat;
   mix-blend-mode: multiply;
-  opacity: 0.13;
+  opacity: 0.05;
   animation: cpSpin 220s linear infinite;
   pointer-events: none;
   z-index: 0;
 }
 
-/* Left half-mandala */
-.cp-info__half-l {
-  position: absolute;
-  left: -6%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: clamp(160px, 16vw, 280px);
-  aspect-ratio: 0.55 / 1;
-  background: url('/assets/designs/design1.png') left center / contain no-repeat;
-  mix-blend-mode: multiply;
-  opacity: 0.32;
-  pointer-events: none;
-  z-index: 0;
-}
-
-/* Right half-mandala (mirrored) */
+/* Side half-mandalas removed for a cleaner, simpler backdrop */
+.cp-info__half-l,
 .cp-info__half-r {
-  position: absolute;
-  right: -6%;
-  top: 50%;
-  transform: translateY(-50%) scaleX(-1);
-  width: clamp(160px, 16vw, 280px);
-  aspect-ratio: 0.55 / 1;
-  background: url('/assets/designs/design2.png') right center / contain no-repeat;
-  mix-blend-mode: multiply;
-  opacity: 0.32;
-  pointer-events: none;
-  z-index: 0;
+  display: none;
 }
 
 /* Hanging diyas — floats top-right */
@@ -420,6 +395,236 @@ a.cp-info__card-value:hover { color: var(--saffron); }
   transform: translateY(-2px);
   color: #fff;
 }
+
+/* =========================================================
+   SECTION 1B — Contact Form
+   Clean cream backdrop, classy gold-accented card.
+   ========================================================= */
+
+.cp-form {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: clamp(3.5rem, 6.5vw, 5.5rem) var(--page-gutter);
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 110%, rgba(249, 199, 79, 0.16) 0%, transparent 58%),
+    linear-gradient(180deg, var(--cream) 0%, #FFFDF7 100%);
+}
+.cp-form::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(
+    to right, transparent, var(--gold) 22%, var(--saffron) 50%, var(--gold) 78%, transparent
+  );
+  opacity: 0.50;
+  z-index: 2;
+}
+
+/* Faint mandala, bottom-left */
+.cp-form__mandala {
+  position: absolute;
+  left: -6%;
+  bottom: -14%;
+  width: clamp(200px, 24vw, 380px);
+  aspect-ratio: 1;
+  background: url('/assets/designs/design8.png') center / contain no-repeat;
+  mix-blend-mode: multiply;
+  opacity: 0.06;
+  animation: cpSpinR 200s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.cp-form__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ── Heading ─────────────────────────────────────────────── */
+.cp-form__head {
+  text-align: center;
+  margin-bottom: clamp(1.8rem, 3.5vw, 2.8rem);
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.cp-form.is-visible .cp-form__head {
+  opacity: 1;
+  transform: none;
+}
+
+.cp-form__eyebrow {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0.5rem;
+}
+.cp-form__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  line-height: 1.16;
+  margin-bottom: 0.7rem;
+}
+.cp-form__lead {
+  max-width: 40rem;
+  margin: 0 auto;
+  font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+  line-height: 1.75;
+  color: var(--text-mid);
+}
+
+/* ── Card ────────────────────────────────────────────────── */
+.cp-form__card {
+  position: relative;
+  background: rgba(255, 253, 247, 0.92);
+  border: 1px solid rgba(249, 199, 79, 0.55);
+  box-shadow:
+    0 24px 56px rgba(122, 35, 21, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  padding: clamp(1.6rem, 3.5vw, 2.8rem);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.85s ease 0.15s, transform 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.15s;
+}
+.cp-form.is-visible .cp-form__card {
+  opacity: 1;
+  transform: none;
+}
+
+.cp-form__panel-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    var(--gold-lt) 0%, var(--gold) 25%, var(--saffron) 50%, var(--gold) 75%, var(--gold-lt) 100%
+  );
+  background-size: 200% auto;
+  animation: cpShimmer 4s linear infinite;
+}
+
+.cp-form__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1rem, 2vw, 1.4rem);
+  margin-top: 0.6rem;
+}
+.cp-form__field {
+  display: flex;
+  flex-direction: column;
+}
+.cp-form__field--full {
+  grid-column: 1 / -1;
+}
+
+.cp-form__label {
+  font-family: var(--font-heading);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+.cp-form__req { color: var(--saffron); }
+.cp-form__opt {
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.cp-form__input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  padding: 0.8rem 0.95rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.cp-form__input::placeholder { color: var(--text-muted); opacity: 0.65; }
+.cp-form__input:focus {
+  outline: none;
+  border-color: var(--saffron);
+  box-shadow: 0 0 0 3px rgba(245, 124, 0, 0.14);
+}
+
+.cp-form__select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23B07A1E' d='M6 8 0 0h12z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.4rem;
+  cursor: pointer;
+}
+
+.cp-form__textarea {
+  resize: vertical;
+  min-height: 130px;
+  line-height: 1.6;
+}
+
+.cp-form__error {
+  margin-top: 1rem;
+  color: #B02A1A;
+  font-size: 0.9rem;
+}
+
+.cp-form__submit {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.95rem 1.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, var(--saffron) 0%, var(--saffron-deep) 100%);
+  box-shadow: 0 10px 28px rgba(245, 124, 0, 0.28);
+  transition: filter 0.2s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.cp-form__submit:hover {
+  filter: brightness(1.06);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(245, 124, 0, 0.36);
+}
+
+.cp-form__note {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.cp-form__note a { color: var(--saffron); text-decoration: none; }
+.cp-form__note a:hover { text-decoration: underline; }
 
 /* =========================================================
    SECTION 2 — WhatsApp Community
@@ -801,6 +1006,10 @@ a.cp-info__card-value:hover { color: var(--saffron); }
   .cp-reach__grid {
     grid-template-columns: 1fr;
   }
+  /* Form fields stack into a single column */
+  .cp-form__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 560px) {
@@ -829,13 +1038,14 @@ a.cp-info__card-value:hover { color: var(--saffron); }
 @media (prefers-reduced-motion: reduce) {
   .cp-info__mandala, .cp-wa__sunburst, .cp-wa__mandala-sm,
   .cp-reach__mandala, .cp-info__diyas,
-  .cp-info__panel-bar {
+  .cp-info__panel-bar, .cp-form__mandala, .cp-form__panel-bar {
     animation: none;
   }
   .cp-info__head, .cp-info__panel, .cp-info__map,
   .cp-info__card, .cp-info__social,
   .cp-wa__head, .cp-wa__card,
-  .cp-reach__head, .cp-reach__card {
+  .cp-reach__head, .cp-reach__card,
+  .cp-form__head, .cp-form__card {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;

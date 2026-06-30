@@ -31,7 +31,10 @@ const IMG_RE = /\.(jpe?g|png|webp|avif)$/i;
 const FOLDERS = [
   { key: 'book-exhibitions', segments: ['book-exhibitions'] },
   { key: 'highlights/tree-plantation-drive-2026', segments: ['highlights', 'tree-plantation-drive-2026'] },
+  { key: 'tree-plantation/prakriti-mitra-abhiyan', segments: ['tree-plantation', 'prakriti-mitra-abhiyan'] },
   { key: 'gau-seva', segments: ['gau-seva'], exclude: ['table.png'] },
+  { key: 'yagya', segments: ['yagya'] },
+  { key: 'yagya/deepyagya', segments: ['yagya', 'deepyagya'] },
 ];
 
 const manifest = {};

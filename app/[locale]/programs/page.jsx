@@ -17,9 +17,9 @@ const PROGRAMS_TITLE = {
 };
 
 const PROGRAMS_DESC = {
-  en: 'Festivals, Yagya ceremonies, Akhand Jap, Bal Sanskar Shala and transformative shivirs at AWGP Bengaluru. Every program is open to all — no fee, no registration. See upcoming events.',
-  hi: 'AWGP बेंगलूरु में नि:शुल्क उत्सव, यज्ञ अनुष्ठान, अखंड जप, बाल संस्कार शाला एवं परिवर्तनकारी शिविर। हर कार्यक्रम सभी के लिए खुला — कोई शुल्क नहीं, कोई पंजीकरण नहीं।',
-  kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಉಚಿತ ಹಬ್ಬಗಳು, ಯಜ್ಞ ಆಚರಣೆಗಳು, ಅಖಂಡ ಜಪ, ಬಾಲ ಸಂಸ್ಕಾರ ಶಾಲೆ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು. ಪ್ರತಿ ಕಾರ್ಯಕ್ರಮ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.',
+  en: 'Festivals, Yagya ceremonies, Akhand Jap and transformative shivirs at AWGP Bengaluru. Every program is open to all — no fee, no registration. See upcoming events.',
+  hi: 'AWGP बेंगलूरु में नि:शुल्क उत्सव, यज्ञ अनुष्ठान, अखंड जप एवं परिवर्तनकारी शिविर। हर कार्यक्रम सभी के लिए खुला — कोई शुल्क नहीं, कोई पंजीकरण नहीं।',
+  kn: 'AWGP ಬೆಂಗಳೂರಿನಲ್ಲಿ ಉಚಿತ ಹಬ್ಬಗಳು, ಯಜ್ಞ ಆಚರಣೆಗಳು, ಅಖಂಡ ಜಪ ಮತ್ತು ಪರಿವರ್ತನಕಾರಿ ಶಿಬಿರಗಳು. ಪ್ರತಿ ಕಾರ್ಯಕ್ರಮ ಎಲ್ಲರಿಗೂ ಮುಕ್ತ.',
 };
 
 const PROGRAMS_BC = {
@@ -57,7 +57,6 @@ const PROGRAM_IMGS = {
   'book-fair':       '/assets/activities/book-fair.jpg',
   'tree-plantation': '/assets/activities/tree-plantation1.jpg',
   'akhand-jap':      '/assets/programs/akhand-jap.jpeg',
-  'bal-sanskar-shala': '/assets/programs/bss-banner.jpg',
 };
 
 

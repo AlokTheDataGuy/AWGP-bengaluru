@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+/* ── Tailwind theme tokens ──
+   Point Tailwind's own font tokens at our faces so `font-sans` utilities and
+   Preflight's base font use Work Sans / Reforma instead of the system stack. */
+@theme {
+  --font-sans: var(--font-source), system-ui, 'Helvetica Neue', sans-serif;
+  --font-serif: var(--font-reforma);
+}
+
+/* Belt-and-braces: force the base font on the root so Preflight's
+   system-stack default can never win, regardless of utility classes. */
+@layer base {
+  html {
+    font-family: var(--font-source), system-ui, 'Helvetica Neue', sans-serif;
+  }
+}
+
 /* ── Reforma local fonts ── */
 @font-face {
   font-family: 'Reforma1918';
@@ -78,24 +94,24 @@
 
 /* ── Design tokens ── */
 :root {
-  /* ── Font primitives (loaded via next/font) ── */
-  --font-source:   var(--font-source,   'Source Sans 3'),      'Helvetica Neue', sans-serif;
-  --font-mukta:    var(--font-mukta,    'Mukta'),              sans-serif;
-  --font-kn:       var(--font-kn,       'Noto Sans Kannada'),  sans-serif;
+  /* ── Font primitives ──
+     --font-source / --font-mukta / --font-kn are injected by next/font on <html>.
+     Do NOT redeclare them here — a self-referential var() is cyclic and resolves
+     to nothing, which silently breaks Tailwind's --font-sans / Preflight. */
   --font-reforma:  'Reforma2018', Georgia, serif;
 
   /* Legacy aliases — keep existing component references working.
-     All map to the English body sans (Source Sans 3). */
-  --font-primary:  var(--font-source);
-  --font-nunito:   var(--font-source);
+     All map to the English body sans (Figtree). */
+  --font-primary:  var(--font-source), system-ui, 'Helvetica Neue', sans-serif;
+  --font-nunito:   var(--font-primary);
 
-  /* ── Font roles — Reforma headings, Source Sans 3 body ──
+  /* ── Font roles — Reforma headings, Figtree body ──
      Change only these to restyle the whole site. */
-  --font-heading:  var(--font-reforma);   /* Reforma 2018  — all headings           */
-  --font-body:     var(--font-source);    /* Source Sans 3 — English body/UI         */
-  --font-body-hi:  var(--font-mukta);     /* Mukta         — Hindi body              */
-  --font-body-kn:  var(--font-kn);        /* Noto Kannada  — Kannada body            */
-  --font-quote:    var(--font-reforma);   /* Reforma 2018  — quotes/mantras          */
+  --font-heading:  var(--font-reforma);                                         /* Reforma 2018  — all headings   */
+  --font-body:     var(--font-source), system-ui, 'Helvetica Neue', sans-serif; /* Figtree       — English body/UI */
+  --font-body-hi:  var(--font-mukta), sans-serif;                               /* Mukta         — Hindi body      */
+  --font-body-kn:  var(--font-kn), sans-serif;                                  /* Noto Kannada  — Kannada body    */
+  --font-quote:    var(--font-reforma);                                         /* Reforma 2018  — quotes/mantras  */
 
   /* Brand palette */
   --gold:          #F9C74F;
@@ -199,7 +215,7 @@ a:hover { color: var(--maroon); }
   gap: 8px;
   padding: 13px 30px;
   border-radius: 0;
-  font-family: var(--font-body);     /* buttons use the body sans (Source Sans 3) */
+  font-family: var(--font-body);     /* buttons use the body sans (Figtree) */
   font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.124rem;          /* Samadhi button tracking */

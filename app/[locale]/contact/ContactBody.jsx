@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { MapPin, Phone, Mail, Clock, Globe, MessageCircle, Youtube, Instagram } from 'lucide-react';
 import { useReveal } from '../../../lib/useReveal';
+// import ContactForm from './ContactForm'; // re-enable when backend submit route is ready
 import './Contact.css';
 
 const MAP_EMBED =
@@ -121,6 +122,10 @@ export default function ContactBody({ locale }) {
           <div className="cp-info__border-b" aria-hidden="true" />
         </div>
       </section>
+
+      {/* ── Contact Form ───────────────────────────────────── */}
+      {/* Hidden until the backend submit route is built.
+          Re-enable: <ContactForm locale={locale} /> */}
 
       {/* ── WhatsApp Community ─────────────────────────────── */}
       <section className="cp-wa" ref={waRef}>

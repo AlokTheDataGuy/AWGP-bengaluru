@@ -1,11 +1,10 @@
-import { Mukta, Noto_Sans_Kannada, Source_Sans_3 } from 'next/font/google';
+import { Mukta, Noto_Sans_Kannada, Figtree } from 'next/font/google';
 import './globals.css';
 import SiteLoader from '../components/ui/SiteLoader';
 import { SITE_URL, siteConfig } from '../lib/seo/siteConfig';
 
-// Source Sans 3 — humanist text sans used as the English body/UI face
-// (warmer & more legible than the geometric Jost it replaced).
-const sourceSans = Source_Sans_3({
+// Figtree — friendly geometric sans used as the English body/UI face.
+const figtree = Figtree({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
   variable: '--font-source',
@@ -77,9 +76,11 @@ export const metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
   },
@@ -91,8 +92,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${mukta.variable} ${notoKannada.variable} ${sourceSans.variable}`}>
+    <html lang="en" className={`${mukta.variable} ${notoKannada.variable} ${figtree.variable}`}>
+      <body>
         <SiteLoader />
         {children}
       </body>

@@ -3,6 +3,7 @@ import { Link } from '../../../../lib/i18n/navigation';
 import HeroSection from '../../../../components/ui/HeroSection';
 import Reveal from '../../../../components/ui/Reveal';
 import ReadMore from '../../../../components/ui/ReadMore';
+import PhotoStrip from '../../../../components/ui/PhotoStrip';
 import Breadcrumbs from '../../../../components/seo/Breadcrumbs';
 import FaqSection from '../../../../components/seo/FaqSection';
 import JsonLd from '../../../../components/seo/JsonLd';
@@ -222,6 +223,12 @@ export default async function ProgramDetailPage({ params }) {
   ───────────────────────────────────────────────────────── */
   if (slug === 'yagya-events') {
     const KUND_MAP = { '24': '24', '9': '9', '5': '5', '3': '3', 'home': '🏠' };
+    /* Per-section photo sets — general yagya under "What is Yagya?", and the
+       Deep Yagya photos under the "Deep Yagya" section. */
+    const SECTION_PHOTOS = {
+      'what-is-yagya': getPhotos('yagya'),
+      'deep-yagya': getPhotos('yagya/deepyagya'),
+    };
     return (
       <>
         {seo}
@@ -239,20 +246,30 @@ export default async function ProgramDetailPage({ params }) {
                 </ReadMore>
               </Reveal>
 
-              {/* What is Yagya section */}
-              {yagyaData.sections.map((sec) => (
-                <Reveal key={sec.id} as="div" className="pd-section-block">
-                  <h3 className="pd-sec-title">🔥 {L(sec.title)}</h3>
-                  <ReadMore locale={locale} lines={6} mobileLines={3}>
-                    <p className="pd-section-body">{L(sec.body)}</p>
-                  </ReadMore>
-                  {sec.highlights && (
-                    <ul className="pd-section-highlights" style={{ marginTop: '1rem' }}>
-                      {L(sec.highlights).map((h, i) => <li key={i}>{h}</li>)}
-                    </ul>
-                  )}
-                </Reveal>
-              ))}
+              {/* What is Yagya / Deep Yagya sections — each with its own photos */}
+              {yagyaData.sections.map((sec) => {
+                const secPhotos = SECTION_PHOTOS[sec.id] || [];
+                return (
+                  <Reveal key={sec.id} as="div" className="pd-section-block">
+                    <h3 className="pd-sec-title">🔥 {L(sec.title)}</h3>
+                    <ReadMore locale={locale} lines={6} mobileLines={3}>
+                      <p className="pd-section-body">{L(sec.body)}</p>
+                    </ReadMore>
+                    {sec.highlights && (
+                      <ul className="pd-section-highlights" style={{ marginTop: '1rem' }}>
+                        {L(sec.highlights).map((h, i) => <li key={i}>{h}</li>)}
+                      </ul>
+                    )}
+                    {secPhotos.length > 0 && (
+                      <PhotoStrip
+                        photos={secPhotos}
+                        alt={L(sec.title)}
+                        className="pd-photo-strip pd-photo-strip--in-section"
+                      />
+                    )}
+                  </Reveal>
+                );
+              })}
 
               {/* Yagya types grid */}
               <Reveal as="div">
@@ -380,6 +397,8 @@ export default async function ProgramDetailPage({ params }) {
   ───────────────────────────────────────────────────────── */
   if (slug === 'tree-plantation') {
     const treePhotos = getPhotos('highlights', 'tree-plantation-drive-2026');
+    const prakritiPhotos = getPhotos('tree-plantation', 'prakriti-mitra-abhiyan');
+    const pm = treePlantData.prakritiMitra;
     return (
       <>
         {seo}
@@ -454,6 +473,54 @@ export default async function ProgramDetailPage({ params }) {
                   <ul className="pd-section-highlights">
                     {program.points.map((p, i) => <li key={i}>{L(p)}</li>)}
                   </ul>
+                </Reveal>
+              )}
+
+              {/* ── Special section: Prakruti Mitra Abhiyan (seed-ball campaign) ── */}
+              {pm && (
+                <Reveal as="section" className="pd-prakriti">
+                  <span className="pd-prakriti__eye">
+                    🌱 {locale === 'hi' ? 'विशेष अभियान' : locale === 'kn' ? 'ವಿಶೇಷ ಅಭಿಯಾನ' : 'A Special Campaign'}
+                  </span>
+                  <h3 className="pd-prakriti__title">{L(pm.title)}</h3>
+                  <ReadMore locale={locale} lines={6} mobileLines={3}>
+                    <p className="pd-section-body">{L(pm.body)}</p>
+                  </ReadMore>
+
+                  {pm.steps && (
+                    <ol className="pd-prakriti__steps">
+                      {L(pm.steps).map((s, i) => (
+                        <li key={i} className="pd-prakriti__step">
+                          <span className="pd-prakriti__num">{i + 1}</span>
+                          <span>{s}</span>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+
+                  {prakritiPhotos.length > 0 && (
+                    <PhotoStrip
+                      photos={prakritiPhotos}
+                      alt={L(pm.title)}
+                      className="pd-photo-strip pd-photo-strip--in-section"
+                    />
+                  )}
+
+                  {pm.spread && <p className="pd-prakriti__spread">{L(pm.spread)}</p>}
+
+                  {pm.videoUrl && (
+                    <div className="pd-prakriti__cta">
+                      {pm.videoNote && <p className="pd-prakriti__note">{L(pm.videoNote)}</p>}
+                      <a
+                        href={pm.videoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary"
+                      >
+                       {L(pm.videoLabel)}
+                      </a>
+                    </div>
+                  )}
                 </Reveal>
               )}
             </div>
