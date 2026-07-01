@@ -30,18 +30,26 @@
 .bottom-nav__list {
   list-style: none;
   margin: 0;
-  padding: 9px 0 10px;
+  padding: 8px 4px 9px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: stretch;
+}
+/* Equal-width columns so all four items always fit, no clipping */
+.bottom-nav__list > li {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
 }
 
 .bottom-nav__link {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 4px;
-  padding: 3px 16px;
+  padding: 4px 2px;
+  min-width: 0;
   text-decoration: none;
   color: rgba(255, 244, 214, 0.78);
   transition: color 0.2s ease, transform 0.2s ease;
@@ -49,13 +57,16 @@
   outline: none;
   border-radius: 12px;
 }
+/* Press feedback: gentle press only — icon + text stay fully visible */
 .bottom-nav__link:active {
-  transform: scale(0.92);
+  transform: scale(0.96);
+  color: var(--gold, #f9c74f);
 }
 .bottom-nav__link:focus-visible {
   outline: 2px solid var(--gold, #f9c74f);
   outline-offset: 2px;
 }
+/* Selected / current page: gold icon + label, no background wash-out */
 .bottom-nav__link.is-active {
   color: var(--gold, #f9c74f);
 }
@@ -65,10 +76,14 @@
 }
 
 .bottom-nav__label {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   line-height: 1;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Clear the fixed bar so page content / footer never sits under it */

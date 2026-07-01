@@ -227,11 +227,18 @@ const SLIDES = [
 ];
 
 const INTERVAL = 6000;
+// The opening slide is priority-loaded and on screen before the rest of the
+// page settles, so its normal window feels half-gone by the time it's read.
+// Give it extra dwell time on its first appearance only.
+const FIRST_SLIDE_INTERVAL = 10000;
 
 export default function Hero() {
   const locale = useLocale();
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
+  // Flips true after the first auto-advance so slide 0 only gets the long
+  // dwell once — on later loops it behaves like every other slide.
+  const [hasAdvanced, setHasAdvanced] = useState(false);
 
   const go = useCallback(
     (idx) => setCurrent(((idx % SLIDES.length) + SLIDES.length) % SLIDES.length),
@@ -240,12 +247,18 @@ export default function Hero() {
   const goNext = useCallback(() => go(current + 1), [current, go]);
   const goPrev = useCallback(() => go(current - 1), [current, go]);
 
+  const slideDuration =
+    current === 0 && !hasAdvanced ? FIRST_SLIDE_INTERVAL : INTERVAL;
+
   // Auto-advance — recreated on slide change so the timer restarts cleanly
   useEffect(() => {
     if (paused) return;
-    const id = setInterval(() => setCurrent((c) => (c + 1) % SLIDES.length), INTERVAL);
-    return () => clearInterval(id);
-  }, [paused, current]);
+    const id = setTimeout(() => {
+      setHasAdvanced(true);
+      setCurrent((c) => (c + 1) % SLIDES.length);
+    }, slideDuration);
+    return () => clearTimeout(id);
+  }, [paused, current, slideDuration]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -390,7 +403,7 @@ export default function Hero() {
           key={current}
           className="hero__progress-bar"
           style={{
-            animationDuration: `${INTERVAL}ms`,
+            animationDuration: `${slideDuration}ms`,
             animationPlayState: paused ? 'paused' : 'running',
           }}
         />
